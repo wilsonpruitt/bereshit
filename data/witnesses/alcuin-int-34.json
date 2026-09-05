@@ -1,0 +1,40 @@
+{
+ "id": "alcuin-int-34",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "finis operis perfecti, et initium operis incoepti",
+  "en": "the end of a work completed, and the beginning of a work begun"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 33. Quare prima die lux creata legitur?-- Resp. Congruit operibus Dei, ut prima die a [ Ms., de] luce aeterna lux temporalis primo fieret, ut esset unde caetera quae crearet, apparerent. Inter. 34. Quid est: Factum est vespere et mane dies unus (vers. 5) ?-- Resp. Id est finis operis perfecti, et initium operis incoepti.",
+  "source": "PL 100, col. 520A",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 33. Why is the light read as created on the first day? — Answer: It suits the works of God that on the first day a temporal light should first be made from the eternal light, so that there might be something by which the rest he would create could appear. Question 34. What is 'there was evening and morning, one day'? — Answer: That is, the end of a work completed, and the beginning of a work begun.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first",
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "evening-is-completion"
+ ],
+ "notes": "Augustine's angelic evening and morning stripped of the angels and reduced to a schoolroom formula: evening is a finished work, morning is a work beginning. Everything that made the doctrine difficult is gone, and what is left will be copied by Wigbod and Angelomus and, through them, become the standard Carolingian gloss on the verse."
+}

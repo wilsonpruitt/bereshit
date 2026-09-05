@@ -1,0 +1,39 @@
+{
+ "id": "vulgate-1-5",
+ "work": "vulgate",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "dies unus",
+  "en": "one day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Appellavitque lucem Diem, et tenebras Noctem: Factumque est vespere et mane, dies unus.",
+  "source": "PL 28, col. 163C",
+  "cc_idno": "7204",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he called the light Day, and the darkness Night. And there was made evening and morning, one day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "unus-cardinal"
+ ],
+ "notes": "Jerome keeps the cardinal against the Latin ear: dies unus, then dies secundus, tertius. Every Latin argument in this crux — Ambrose's, Bruno's, Rupert's — exists because he did not write dies primus. PL 28 prints the text with 'Factumque est vespere et mane, dies unus'."
+}

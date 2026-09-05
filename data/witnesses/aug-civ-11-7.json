@@ -1,0 +1,40 @@
+{
+ "id": "aug-civ-11-7",
+ "work": "aug-civ",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 417,
+ "date_precision": "range-413-427",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "nusquam interposuit vocabulum noctis",
+  "en": "nowhere did it insert the word 'night'"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Si tamen et vesperam diei hujus et mane aliquatenus congruenter intelligere valeamus. Quoniam scientia creaturae in comparatione scientiae Creatoris quodammodo vesperascit: itemque lucescit et mane fit, cum et ipsa refertur ad laudem dilectionemque Creatoris; nec in noctem vergitur, ubi non Creator creaturae dilectione relinquitur. Denique Scriptura cum illos dies dinumeraret ex ordine, nusquam interposuit vocabulum noctis. Non enim ait alicubi, Facta est nox; sed, Facta est vespera, et factum est mane dies unus (Gen. I, 5) . Ita dies secundus, et caeteri. Cognitio quippe creaturae in se ipsa decoloratior est, ut ita dicam, quam cum in Dei Sapientia cognoscitur, velut in arte qua facta est. Ideo vespera congruentius quam nox dici potest: quae tamen, ut dixi, cum ad laudandum et amandum refertur Creatorem, recurrit in mane. Et hoc cum facit in cognitione sui ipsius, dies unus est",
+  "source": "PL 41, col. 322",
+  "cc_idno": "21364",
+  "license": "pd"
+ },
+ "english": {
+  "text": "If, that is, we can understand the evening of this day and its morning with any fitness. For the knowledge of the creature, compared with the knowledge of the Creator, in a manner grows dusk; and again it grows light and becomes morning, when that knowledge too is referred to the praise and love of the Creator; nor does it fall away into night, where the Creator is not forsaken through love of the creature. In short, when Scripture numbered those days in order, it nowhere inserted the word 'night.' It nowhere says 'night was made,' but 'evening was made, and morning was made, one day' (Gen 1:5); and so a second day, and the rest. For the knowledge of a creature in itself is, so to speak, more faded than when it is known in the Wisdom of God, as in the art by which it was made. Therefore it can more fittingly be called evening than night; which nevertheless, as I said, when it is referred to the praise and love of the Creator, runs back into morning. And when it does this in the knowledge of itself, it is one day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "spiritual"
+ ],
+ "answers": [
+  "unus-repeated",
+  "evening-is-self-knowledge"
+ ],
+ "notes": "The City of God's compact restatement, and the one that travels. The observation that carries the argument is a plain fact about the text: through all six days Scripture never once writes 'and night was made.' Evening, yes; night, never. Augustine reads that as evidence that the vespera in question is a dimming of knowledge, not a darkness. Gregory the Great will make the same observation serve a moral reading, and the Glossa prints Gregory's version on 1:5."
+}

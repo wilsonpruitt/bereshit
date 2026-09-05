@@ -178,5 +178,68 @@
   "name": "Peter Comestor",
   "dates": "c. 1100–1178",
   "tradition": "latin"
+ },
+ "r-yannai": {
+  "name": "R. Yannai",
+  "dates": "fl. c. 220–250",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yudan": {
+  "name": "R. Yudan",
+  "dates": "fl. c. 350",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yochanan": {
+  "name": "R. Yoḥanan bar Nappaḥa",
+  "dates": "c. 180–279",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-hanina": {
+  "name": "R. Ḥanina bar Ḥama",
+  "dates": "d. c. 250",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-tanchum-b-yirmeya": {
+  "name": "R. Tanḥum bar Yirmeya",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-shmuel-b-ami": {
+  "name": "R. Shmuel bar Ami",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-lulyana": {
+  "name": "R. Lulyana bar Tavrai",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "rav": {
+  "name": "Rav (Abba Arikha)",
+  "dates": "c. 175–247",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "rav-yehuda": {
+  "name": "Rav Yehuda bar Yeḥezkel",
+  "dates": "c. 220–299",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "gregory-the-great": {
+  "name": "Gregory the Great",
+  "la": "Gregorius Magnus",
+  "dates": "c. 540–604",
+  "tradition": "latin"
+ },
+ "bonaventure": {
+  "name": "Bonaventure",
+  "la": "Bonaventura de Balneoregio",
+  "dates": "c. 1217–1274",
+  "tradition": "latin"
  }
 }

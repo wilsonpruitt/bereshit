@@ -1,0 +1,41 @@
+{
+ "id": "wigbod-gen-1-5",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "aachen",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "ipsa creaturae cognitio in semetipsa vespera erat, in Deo autem mane",
+  "en": "the creature's knowledge of itself was evening; in God, morning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "D. Factumque est vespere et mane dies unus (Ibid.) . Quomodo hoc intelligendum est? M. Quid per vesperam nisi perfectio singulorum operum, et mane est inchoatio sequentium? AUGUSTINUS. D. Primum enim diem astruis spiritalem esse creaturam, et quomodo habuit vespere et mane? M. Omnis namque creatura antequam tempore suo fieret, in ipso Dei Verbo erat, prius ab angelis cognoscenda, et sic suo tempore facienda. Quapropter ipsa creaturae cognitio in semetipsa vespera erat, in Deo autem mane, quia plus videtur ipsa creatura in Domino, quam in seipsa videtur creatura. Plus scilicet videtur in arte qua facta est, quam in seipsa quae facta est.",
+  "source": "PL 96, col. 1120D",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Disciple: 'And there was evening and morning, one day.' How is this to be understood? — Master: What is evening but the perfecting of each several work, and morning the beginning of those that follow? — AUGUSTINE. Disciple: You maintain that the first day is a spiritual creature; how then did it have evening and morning? — Master: Every creature, before it was made in its own time, was in the Word of God itself, to be known first by the angels and so to be made in its own time. Wherefore the creature's own knowledge of itself was evening; in God, however, morning — because the creature is seen more fully in the Lord than the creature is seen in itself; seen more fully, that is, in the art by which it was made than in itself which was made. For this reason the evangelist John says: 'What was made, in him was life' (John 1:3–4).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "evening-is-completion",
+  "evening-is-self-knowledge"
+ ],
+ "notes": "The Carolingian catena doing on 1:5 what it does on 1:2 in K7: setting the two Latin lines side by side and labelling the second one. The schoolroom formula comes first unattributed; then the disciple presses the hard case — if the first day is a spiritual creature, what are its evening and morning? — and the answer is Augustine's angelic double knowledge, printed under his name. This is where a reader of the ninth century could see that the compressed gloss and the difficult doctrine were the same doctrine."
+}

@@ -51,3 +51,72 @@ Licence surprises — the plan's "Aramaic is CC0" is wrong for the Bavli:
 - Etheridge Onkelos, Daat BR Hebrew: fetch by alternate route.
 - Sefaria attribution string for Midrash Rabbah: paste exact text into `data/licenses.json`.
 - Bonaventure II Sent. d.12–13 files: `~/bonaventure-sentences/vol2/bon-sent-II-d12-*.md`, `-d13-*.md` (K4/K8/K10, not K7).
+
+---
+
+# K10 (one-day-evening-first) — 2026-09-05, second session
+
+## What the plan listed vs. what the sources are
+
+The plan's K10 list (`PLAN.md` §5) was accurate everywhere it named a locus, and thin in two places.
+
+- **Ambrose Hex I.10 is the centre of the Latin side, not a supporting witness.** Migne's chapter
+  heading is the crux itself: *"Diem nocti contra quam nonnullis videatur, hic anteponi. Cur dies
+  unus potius dicatur quam primus; ac matutino fine concludatur."* Ambrose gives three answers in
+  two paragraphs (day has the birthright; one circuit = one day of 24 hours; Scripture names the
+  greater term for the pair) and a fourth at 145C (set apart as *one*, not compared as *first*).
+- **Bruno of Segni (PL 164:150A) is the best-matched Latin answer to Bereshit Rabbah 3:9** and was
+  not in the plan at all. *Primus et secundus relativa sunt, neque sine altero alter esse potest* —
+  with no second day yet, nothing could be called first. He also states the hard thesis nobody else
+  states: *nulla dies ex nocte constat ac die.*
+- **b. Chullin 83a was not in the plan and is the crux's sharpest two-sided thread.** Ben Zoma —
+  the same tradent as K7's hovering dove — derives from *yom echad* by verbal analogy with
+  Lev 22:28 that **the day follows the night**. Augustine says in so many words that the days are
+  counted *a mane usque in mane* (Gnm I.10). Pulled this session; added to `pull-sefaria.py`.
+  Only the Wikisource Aramaic returned; no free English, so the English is a fresh draft.
+- **RH 10b–11a (Tishrei vs Nisan) was dropped.** Its argument is on Gen 1:11–12, not 1:5, and a
+  witness must be a continuous argument *on the verse*. The Hebrew is on disk (28 segments,
+  nested per daf) if a later session wants it for a calendar crux; the English came back with one
+  segment only.
+- **Rupert has two loci, and the second is the explicit one.** PL 167:217 (In Gen., chapter heading
+  *"Cur non dictum sit … dies primus, sed factum est vespere et mane dies unus"*) argues that what
+  God divided cannot be recombined; PL 167:1807A (in the books on the Spirit's works, same TEI
+  10873) states the answer flatly — the writer refused *dies primus* because the day first by
+  nature is eternal and this one is first only by number. Only the first is built as a witness.
+- **Honorius answers the question twice in TEI 10991.** At PL 172:255D, *non primus sed unus quia
+  idem semper repetitur*; at PL 172:261D, *non primus sed unus quia angelica natura … nullo fine
+  terminatur*. The TEI carries one `<title>` ("Hexaemeron") and both columns are inside the PL
+  range for that work, but a work commenting on 1:5 twice is odd. **[CHECK the work division at
+  PL 172:261 before promoting the second passage to a witness.]** Only the first is built.
+- **The Glossa on 1:5 is two glosses and one of them is a pointer.** Gregory, *Moralia* VIII.6 on
+  why *vespera* and not *nox*; then Augustine *de Gen. ad litt.* IV.22–23 cited by book, chapter
+  and Migne column and abbreviated with the Glossa's *"etc., usque ad"*. Wilson's Glossa edition
+  has not reached 1:5, so the English here is a `claude-draft` and is superseded when it does.
+- **Bonaventure II Sent. d.12 a.1 q.2 is exactly the contested-Augustine witness the plan wanted.**
+  Wilson's edition carries Latin and English in one file; both are sliced from it and the English
+  is credited `wilson-pruitt` under a new licence key `wroot-bonaventure` **[CHECK: Wilson to set,
+  as with `wroot-glossa`]**. Quaracchi's marginal labels are italic in the markdown; the asterisks
+  are stripped on the way in.
+- **Isidore has nothing on 1:5** in the *Quaestiones*; his hits are on Gen 2:4 and the six ages.
+  Not built.
+- **Hugh has two treatments.** *De sacramentis* (PL 176:194B) is the fuller one and is built;
+  the *Adnotationes* (PL 175:35A) argue the same in brief and add a proof from the equinox.
+
+## Text problems found
+
+- **Rupert, PL 167:217A**: the Corpus Corporum text prints *"Bene ergo dictum est: Factae sunt
+  tenebrae et lux dies unus"* immediately after saying that the writer did **not** say this. It
+  should almost certainly read *"Bene ergo non dictum est"*. The sentence is elided in the English
+  with `[…]`. **[CHECK the PL plate.]**
+- **Rabanus, PL 107:448D** departs from Bede at two words: *dicamus* for *discamus*, and *in re
+  creata resurgeret* for *recreata resurgeret*. The second looks like a printer's separation of
+  *recreata*, not a variant. **[CHECK the plate before treating either as Rabanus' own.]**
+- **Bruno, PL 164:149B** prints *tuce* for *luce* (as it printed *Dei. vero* in K7). The Corpus
+  Corporum digitisation of Bruno is noticeably dirtier than the rest of the bench.
+
+## A pipeline defect this crux surfaced
+
+`check.py` grew a sixth check (answer ids and licence keys must resolve), and it immediately caught
+a K7 bug: `targ-onk-1-2` wrote `original.license: "public-domain"` because the K7 build lowercased
+Sefaria's "Public Domain" string, while `licenses.json` keys that licence `pd`. Fixed in
+`cruxes/ruach-hovering.py` by normalising the one string; no argument, thread or English touched.

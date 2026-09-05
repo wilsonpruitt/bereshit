@@ -1,0 +1,42 @@
+{
+ "id": "angelom-gen-1-5",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "propter unitatem angelicae dignitatis",
+  "en": "on account of the unity of angelic dignity"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 5.-- Factumque est vespere et mane dies unus. Quaerendum est cur dicatur, vespere et mane, cum adhuc non erat sol in firmamento, cujus occasu vespere et ortu mane efficerentur? An forte tantum spatium prima, et secunda, et tertia dies habuit, quantum est ab ortu solis usque ad occasum, et iterum aquilonem gyrando revertitur ad orientem, ut suo fulgore tenebras mundi propellat, et quod spatium illi qui in antris et in ergastulis, licet luce careant, sentire per usum possunt; quod fortassis ita intelligi valeret, nisi adderetur vespere et mane. Unde restat ut in [Cod. Z. om. in] vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis. Loquitur enim more nostro Scriptura, ut distinctio operum Dei intelligatur. Porro quod ait, vespere et mane dies unus, potest referii ad angelicam creaturam. Quando enim intuitum avertebat a Deo, et convertebatur ad contuendam creaturam, quodammodo vespere erat; cum vero ad Creatorem convertebatur, ut in ipso clarius intelligeret creaturam, mane erat. Verumtamen si permansisset in consideratione creaturae, non solum vespere, sed etiam nox esset. Dies unus bene additur propter unitatem angelicae dignitatis, quae ita uni Deo contemplando inhaeret, ut nunquam intuitum amoveat a contemplatione.",
+  "source": "PL 115, col. 118B",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 5. 'And there was evening and morning, one day.' It must be asked why 'evening and morning' is said, when the sun was not yet in the firmament, by whose setting evening and by whose rising morning would be made. Or did the first and second and third day perhaps have as much space as there is from the rising of the sun to its setting, and again, wheeling by the north, it returns to the east so as to drive off the world's darkness by its brightness — the space which those who are in caves and workhouses, though they lack the light, can feel by habit? Which might perhaps be understood so, were it not that 'evening and morning' is added. So it remains that by evening is understood the perfecting of the preceding work, and by morning the beginning of the one that follows. For Scripture speaks after our manner, so that the distinction of God's works may be understood. Further, what it says, 'evening and morning, one day,' can be referred to the angelic creature. For when it turned its gaze away from God and turned to beholding the creature, in a manner it was evening; but when it turned back to the Creator, so as to understand the creature more clearly in him, it was morning. And yet, if it had remained in the consideration of the creature, it would have been not evening only but night. 'One day' is well added, on account of the unity of angelic dignity, which so clings to contemplating the one God that it never moves its gaze from contemplation.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "evening-is-completion",
+  "evening-is-self-knowledge",
+  "unus-angelic-unity"
+ ],
+ "notes": "Angelomus splices as he splices in K7: the schoolroom formula first, then Augustine's angelic reading, then a third answer that is his own. 'One day' is well said because of the unity of angelic dignity — the word 'one' is made a predicate of the angels' undivided attention rather than a number in a series. Note also that he keeps Augustine's guard rail: had the angelic mind stayed with the creature it would have been not evening but night, which is why Scripture never writes night."
+}

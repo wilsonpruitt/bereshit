@@ -1,0 +1,40 @@
+{
+ "id": "hugh-sacr-1-5",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "omnis aurora praecedentis diei est",
+  "en": "every dawn belongs to the preceding day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et propterea quia primus dies auroram praecedentem non habuit, quoniam antequam lux crearetur plenae tenebrae fuerunt, mox autem luce apparente super terram plenus dies, propterea quod a perfecto opus Dei inchoari debuisset, ideo dixisse Scripturam: Factum est vespere et mane dies unus (Gen. I) . Non enim dixit Factum est mane et vespere; sed: Factum est, inquit, vespere et mane dies unus. Quia, sicut diximus, primus dies mane praecedens non habuit, quoniam a luce plena atque perfecta initium sumpsit; propterea omnis aurora praecedentis diei est, et omnis dies ab ortu solis initium sumit. Estque dies naturalis illud spatium temporis quod ab ortu solis usque ad ortum pertransiens noctem in se diemque concludit; in qua (quoniam naturaliter dies noctem praecedit) et finem diei vesperam dicimus, finem noctis auroram, constat indubitanter quod aurora semper ad praecedentem diem referenda sit.",
+  "source": "PL 176, col. 194B",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And therefore, because the first day had no dawn preceding it — since before the light was created there was full darkness, and as soon as the light appeared over the earth there was full day, and because God's work ought to have begun from what is perfect — therefore Scripture said: 'There was made evening and morning, one day.' For it did not say, 'There was made morning and evening,' but 'There was made,' it says, 'evening and morning, one day.' Because, as we have said, the first day had no morning preceding it, since it took its beginning from full and perfect light; and therefore every dawn belongs to the preceding day, and every day takes its beginning from sunrise. And the natural day is that space of time which, passing from sunrise to sunrise, encloses within itself both night and day; in which — since day naturally precedes night — we call the end of the day evening and the end of the night dawn; and it stands beyond doubt that dawn is always to be referred to the preceding day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-precedes-night",
+  "unus-24-hours"
+ ],
+ "notes": "The computist's answer, stated with the technical vocabulary the schools had by then settled: the dies naturalis runs sunrise to sunrise and holds a night and a day inside it; evening is the end of the day and dawn the end of the night; therefore a dawn always belongs to the day before it. The reason evening is named first is not doctrinal at all but a fact about the first day: it had no dawn to be named, because it began in full light. Hugh's Adnotationes on Genesis (PL 175:35A) argue the same in brief and add a proof from the equinox."
+}

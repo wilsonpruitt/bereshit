@@ -1,0 +1,42 @@
+{
+ "id": "aug-gnl-4-22",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 410,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "idem dies ubique repetitur",
+  "en": "the same day is repeated throughout"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et quia caeterae creaturae, quae infra ipsam fiunt, sine cognitione ejus non fiunt, propterea nimirum idem dies ubique repetitur, ut ejus repetitione fiant tot dies, quoties distinguuntur rerum genera creatarum, perfectione senarii numeri terminanda: ut vespera primi diei sit etiam sui cognitio, non se esse quod Deus est; mane autem post hanc vesperam, quo concluditur dies unus, et inchoatur secundus, conversio sit ejus, qua id quod creata est, ad laudem referat Creatoris, et percipiat de Verbo Dei cognitionem creaturae quae post ipsam fit, hoc est firmamenti",
+  "source": "PL 34, col. 312",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And because the other creatures, which are made below it, are not made without its knowledge, therefore of course the same day is repeated throughout, so that by its repetition there come to be as many days as there are kinds of created things to be distinguished, to be brought to an end by the perfection of the number six: so that the evening of the first day is its knowledge of itself, that it is not what God is; and the morning after this evening, by which the one day is closed and the second begun, is its turning, by which it refers what it has been created to the praise of the Creator, and receives from the Word of God the knowledge of the creature that is made after it, that is, of the firmament.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first",
+  "first-light"
+ ],
+ "senses": [
+  "spiritual",
+  "literal"
+ ],
+ "answers": [
+  "unus-repeated",
+  "evening-is-self-knowledge"
+ ],
+ "notes": "Augustine's mature answer, and the one the Glossa puts in the margin of 1:5 by book, chapter and column. There is only one day: the angelic light itself. Its evening is its knowledge of itself as not-God; its morning is that knowledge referred back in praise; and the six days are that one day presented six times over, once for each kind of thing made. On this reading 'one day' is not a counting word at all, which is why the sixfold repetition does not make it 'first'. Two chapters on (I.25, PL 34:313) he draws the corollary the City of God will state more compactly: this is why no night is ever named."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnl-5-18",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 412,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "illa velut matutina sive diurna cognitione, hac vero velut vespertina",
+  "en": "by that as it were morning or daylight knowledge, and by this as it were evening knowledge"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Jam nunc consideremus ea quae fecit Deus omnia simul, a quibus in die sexto consummatis requievit in septimo, postea consideraturi opera ejus, in quibus usque nunc operatur. Ipse enim ante saecula: a saeculo autem ea dicimus, ex quo coepit saeculum, sicut ipsum mundum; in saeculo autem, sicut ea quae nascuntur in mundo. Cum ergo Scriptura dixisset, Omnia per ipsum facta sunt, et sine ipso factum est nihil; paulo post ait, In hoc mundo erat, et mundus per ipsum factus est (Joan. I, 3, 10) . De hoc opere Dei alio loco scriptum est: Qui fecisti mundum de materia informi (Sap. XI, 18) . Hic mundus plerumque coeli et terrae nomine nuncupatur, sicut jam commemoravimus, quae Scriptura dicit Deum fecisse, cum factus est dies: de quibus verbis jam, quantum visum est, disputavimus, quemadmodum congruat conditioni mundi hujus, et quod sex diebus consummatus est cum omnibus quae in eo sunt, et quod tunc factus, cum factus est dies, ut et illud congruat quod creavit omnia simul (Eccli. XVIII. 1) . CAPUT XVIII.-- Creaturae plures nobis ignotae. Qua ratione a Deo et ab Angelis noscuntur. Cognitio matutina et vespertina. 36. Hujus universae Dei creaturae multa non novimus, sive quae in coelis sunt altius, quam ut noster sensus ea possit attingere; sive quae in regionibus terrarum fortassis inhabitabilibus; sive quae deorsum latent, vel in profundo abyssi, vel in occultis sinibus terrae. Haec igitur antequam fierent, utique non erant. Quomodo ergo Deo nota erant quae non erant? Et rursus quomodo ea faceret quae sibi nota non erant? Non enim quidquam fecit ignorans. Nota ergo fecit, non facta cognovit. Proinde, antequam fierent, et erant, et non erant: erant in Dei scientia, non erant in sua natura. Ac per hoc factus est dies ille, cui utroque modo innotescerent, et in Deo et in seipsis: illa velut matutina sive diurna cognitione, hac vero velut vespertina.",
+  "source": "PL 34, col. 333",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Now then let us consider those things which God made all at once, from which, when they were completed on the sixth day, he rested on the seventh — intending afterward to consider his works in which he works even now. […] Of this whole creation of God there is much we do not know: whether things in the heavens too high for our sense to reach them, or things in regions of the earth perhaps uninhabitable, or things hidden below, whether in the depth of the abyss or in the secret folds of the earth. Now these things, before they were made, certainly were not. How then were things known to God which were not? And again, how could he make things that were not known to him? For he made nothing in ignorance. He made them known, then; he did not come to know them once made. Accordingly, before they were made they both were and were not: they were in God's knowledge, they were not in their own nature. And therefore that day was made on which they should become known in both ways, both in God and in themselves: by that as it were morning or daylight knowledge, and by this as it were evening knowledge.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first",
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "spiritual"
+ ],
+ "answers": [
+  "simul",
+  "evening-is-self-knowledge"
+ ],
+ "notes": "The place where the two halves of Augustine's reading are joined and named. 'Creavit omnia simul' (Sir 18:1) makes the six days non-successive; the morning and evening knowledge explains what the day words are then doing. Migne's chapter heading supplies the technical term the schools will quote — cognitio matutina et vespertina. This is the passage Bonaventure will call 'very reasonable and very subtle' and then decline."
+}

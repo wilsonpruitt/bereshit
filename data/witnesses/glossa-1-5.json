@@ -1,0 +1,42 @@
+{
+ "id": "glossa-1-5",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "non nox, sed vespera facta memoratur",
+  "en": "not night, but evening is recorded as made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 5.--. . . . « Factumque est vespere, » etc. (GREG., l. VIII Moral., c. 6, tom. I.) Nequaquam in hac vita per exercitationem justitiae peccatum deseritur, ut in ipsa inconcusse maneatur: quia si culpam rectitudo eliminat, cogitationis nostrae foribus assidens, ut sibi aperiatur, pulsat. Unde ait Moyses: « Facta est lux; » et paulo post: « Factum est vespere. » Creator enim, humanae culpae praescius, tunc expressit in tempore quod nunc versatur in mente. Lumen namque rectitudinis sequitur umbra tentationis. Sed quia electorum lux tentatione non exstinguitur, non nox, sed vespera facta memoratur, quia tentatio lumen justitiae abscondit, non interimit. (AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312.) Notandum, quod caeterae creaturae, etc., usque ad ut illud scilicet ad diem pertineat, hoc ad vesperam.",
+  "source": "PL 113, col. 71D",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 5. […] 'And there was evening,' etc. (GREGORY, Moralia VIII.6.) By no means in this life is sin so forsaken through the exercise of justice that one may remain in it unshaken: for if rectitude drives out the fault, the fault sits at the doors of our thought and knocks to be let in. Whence Moses says: 'Light was made'; and a little after: 'Evening was made.' For the Creator, foreknowing human guilt, then set forth in time what is now enacted in the mind. For the shadow of temptation follows the light of rectitude. But because the light of the elect is not put out by temptation, it is recorded that not night but evening was made: for temptation hides the light of justice, it does not destroy it. (AUGUSTINE, on Genesis to the letter, book IV, ch. 22, 23, vol. III, col. 311, 312.) Note that the other creatures, etc., down to: that the one may belong to the day, and this to the evening.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "allegorical",
+  "spiritual"
+ ],
+ "answers": [
+  "evening-moral",
+  "evening-is-self-knowledge",
+  "unus-repeated"
+ ],
+ "notes": "Two glosses only, and between them they carry both Latin answers onto the verse. Gregory the Great supplies the moral one, and he does it by seizing exactly the fact Augustine had seized in City of God XI.7 — that Scripture writes evening and never night — and reading it as consolation: temptation dims the light of justice, it does not extinguish it. Then Augustine's angelic reading is not quoted but cited, by book, chapter and Migne column, and abbreviated in the Glossa's usual way ('etc., usque ad'). A twelfth-century reader of the margin was told where to go and expected to have the book. The English here is a fresh draft; Wilson's edition of the Glossa (migne.app/glossa) supersedes it when it reaches 1:5."
+}

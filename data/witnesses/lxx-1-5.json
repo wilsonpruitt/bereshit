@@ -1,0 +1,38 @@
+{
+ "id": "lxx-1-5",
+ "work": "lxx",
+ "author": "lxx-translators",
+ "tradition": "greek-jewish",
+ "date": -250,
+ "date_precision": "circa",
+ "place": "alexandria",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "el": "ἡμέρα μία",
+  "en": "day one"
+ },
+ "original": {
+  "lang": "el",
+  "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα. καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί, ἡμέρα μία.",
+  "source": "LXX Gen 1:5 (Rahlfs)",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God called the light Day, and the darkness he called Night. And there was evening and there was morning, one day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "unus-cardinal"
+ ],
+ "notes": "The Seventy render the cardinal exactly: ἡμέρα μία, 'day one', not ἡμέρα πρώτη. Every later day in the chapter is an ordinal (δευτέρα, τρίτη), so the Greek preserves the very unevenness the commentators argue about. Brenton's 1851 English prints 'the first day' and dissolves it; this is a fresh draft rather than Brenton for that reason."
+}

@@ -50,5 +50,77 @@
  "throne": {
   "label": "Throne of Glory",
   "gloss": "Rashi: the throne stands in the air, held by the breath of God's mouth."
+ },
+ "unus-cardinal": {
+  "label": "The versions keep the cardinal",
+  "gloss": "ἡμέρα μία, dies unus, yoma chad: 'one', not 'first', in every ancient version."
+ },
+ "unus-grammatical": {
+  "label": "'First' needs a second",
+  "gloss": "The series 'one, second, third' is improper (Bereshit Rabbah); or, first and second are relatives and there was no second yet (Bruno)."
+ },
+ "unus-alone": {
+  "label": "God was alone that day",
+  "gloss": "Yachid in his world: no angels were made on the first day, so there was no second anything (Bereshit Rabbah, Rashi)."
+ },
+ "unus-yom-kippur": {
+  "label": "The one day given to Israel",
+  "gloss": "'One day' is the Day of Atonement, the day the Holy One gave them."
+ },
+ "unus-24-hours": {
+  "label": "One circuit, twenty-four hours",
+  "gloss": "Day and night together make one revolution, and the whole is named from the day alone."
+ },
+ "unus-repeated": {
+  "label": "The same day repeated",
+  "gloss": "There is one day only — the angelic light — presented once for each kind of thing made (Augustine)."
+ },
+ "unus-all-time": {
+  "label": "One day = all time",
+  "gloss": "The word holds the whole span of the ages, or the whole work of the six days (Augustine's set-aside reading; Abelard's own)."
+ },
+ "unus-angelic-unity": {
+  "label": "The unity of angelic dignity",
+  "gloss": "'One' names the undivided attention of the angelic mind, not a place in a series (Angelomus)."
+ },
+ "unus-eternal-day": {
+  "label": "The true first day is eternal",
+  "gloss": "This day is first only by number and order of creation; the day that is first by nature is uncreated light (Rupert)."
+ },
+ "day-precedes-night": {
+  "label": "Day before night",
+  "gloss": "Evening is the end of a finished day, morning the end of the night; days are counted from morning to morning."
+ },
+ "day-follows-night": {
+  "label": "Night before day",
+  "gloss": "'One day' rules that reckoning begins at evening (Ben Zoma, b. Chullin 83a)."
+ },
+ "night-for-rest": {
+  "label": "Night made for rest",
+  "gloss": "Day is for labour and night for rest, so only the day's bounds are counted."
+ },
+ "day-is-a-measure": {
+  "label": "The day's measure is a creature",
+  "gloss": "The measure of day and of night was itself made on day one (b. Chagigah 12a)."
+ },
+ "evening-is-completion": {
+  "label": "Evening completes a work",
+  "gloss": "Vespera is a work perfected, mane the beginning of the next — the Carolingian formula."
+ },
+ "evening-is-self-knowledge": {
+  "label": "Evening and morning knowledge",
+  "gloss": "The creature known in itself is evening; known in the Word and referred back in praise, morning (Augustine)."
+ },
+ "evening-moral": {
+  "label": "Evening as sin or temptation",
+  "gloss": "Evening and morning are the deeds of the wicked and the righteous, or sin and renewal, or temptation and the light of justice."
+ },
+ "simul": {
+  "label": "All things made at once",
+  "gloss": "Creavit omnia simul (Sir 18:1): the days are not successive."
+ },
+ "six-days-literal": {
+  "label": "Six real days",
+  "gloss": "Created at once in matter, distinguished in form through six successive days (the common doctors, Bonaventure)."
  }
 }

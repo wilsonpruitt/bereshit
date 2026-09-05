@@ -1,0 +1,40 @@
+{
+ "id": "rabanus-gen-1-5",
+ "work": "rabanus-gen",
+ "author": "rabanus",
+ "tradition": "latin",
+ "date": 822,
+ "date_precision": "circa",
+ "place": "fulda",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "viginti scilicet et quatuor horarum",
+  "en": "of twenty-four hours, that is"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Factumque est vespere et mane dies unus. Factum est vespere, id est, occidente paulatim luce post expletum spatium diurnae longitudinis, atque inferiores mundi partes subeunte, quod nunc usitato solis circuitu noctibus agi solet; factum et mane redeunte eadem paulatim supra terras, atque alium diem initiante; et huc usque dies expletus est unus, viginti scilicet et quatuor horarum. Cujus commendatione verbi, Scriptura vigilanter admonet ut lucem quae facta est inferiora orbis occasu suo lustrasse dicamus. Nam si non hoc faceret, sed magis facto vespere paulatim tota periret, ac rursum mane paulatim in re creata resurgeret, non jam in mane diei sequentis, sed potius in vespera primi, unum diceret esse diem perfectum.",
+  "source": "PL 107, col. 448D",
+  "cc_idno": "8885",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And there was evening and morning, one day.' There was evening, that is, the light setting little by little after the space of a day's length was spent, and passing beneath the lower parts of the world — which is now done by the accustomed circuit of the sun in the nights; and there was morning, the same light returning little by little above the lands and beginning another day; and up to this point one day was completed, of twenty-four hours, that is. By the commendation of which word Scripture watchfully warns us to say that the light which was made lit the lower parts of the world by its setting. For if it did not do this, but rather, evening having come, it wholly perished and again at morning rose up in the thing created, it would have said the day was completed not at the morning of the following day but rather at the evening of the first.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-24-hours",
+  "day-precedes-night"
+ ],
+ "notes": "Rabanus copies Bede on 1:5 as he copies Bede on 1:2 — the same silent transmission the K7 threads trace. The Corpus Corporum text differs from Bede's at two words ('dicamus' for 'discamus', 'in re creata resurgeret' for 'recreata resurgeret'); the second looks like a printer's separation of 'recreata' rather than a real variant, and the PL plate should be checked before either is treated as Rabanus' own."
+}

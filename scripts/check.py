@@ -9,6 +9,8 @@ Checks:
   3. No witness has translator "claude-draft" without "status": "draft-awaiting-approval".
   4. No witness marked "ships": true has license "check" (a licence still to confirm).
   5. Every witness's anchor.verse resolves to a verse in data/scripture/gen-1.json.
+  6. Every answer id on a witness exists in data/answers.json, and every licence key used by a
+     witness exists in data/licenses.json.
 """
 import json, pathlib, sys
 
@@ -69,6 +71,18 @@ for wid, w in witnesses.items():
     ref = w.get("anchor", {}).get("verse")
     if ref not in verse_refs:
         errors.append(f"witness {wid!r}: anchor.verse {ref!r} does not resolve in data/scripture/gen-1.json")
+
+# 6. answer ids and licence keys resolve
+answers = json.load(open(ROOT / "data" / "answers.json"))
+licenses = json.load(open(ROOT / "data" / "licenses.json"))
+for wid, w in witnesses.items():
+    for a in w.get("answers", []):
+        if a not in answers:
+            errors.append(f"witness {wid!r}: answer {a!r} is not in data/answers.json")
+    for facet in ("original", "english"):
+        lic = w.get(facet, {}).get("license")
+        if lic and lic not in licenses:
+            errors.append(f"witness {wid!r}: {facet}.license {lic!r} is not in data/licenses.json")
 
 if errors:
     print(f"check.py: {len(errors)} problem(s)")

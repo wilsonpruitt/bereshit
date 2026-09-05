@@ -6,7 +6,9 @@ Spec-file contract (see cruxes/ruach-hovering.py for the reference example):
   - WITNESSES: list of witness dicts, built by calling a local add(**kw)
   - THREADS: list of thread dicts, built with bench.thread(crux_id, ...)
   - FINDING: optional str, written into this crux's entry in data/cruxes.json
+  - SHORT: optional str, the crux's display name in page titles and headers
   - PERSONS, PLACES: optional dicts of new entries, merged into data/persons.json / data/places.json
+  - ANSWERS, LICENSES: optional dicts of new entries, merged into data/answers.json / data/licenses.json
 
 Writes data/witnesses/*.json (this crux's witnesses only), merges this crux's threads into
 data/threads.json (replacing any threads previously tagged with this crux id), updates this
@@ -35,8 +37,11 @@ modspec.loader.exec_module(mod)
 witnesses = getattr(mod, "WITNESSES", [])
 threads_new = getattr(mod, "THREADS", [])
 finding = getattr(mod, "FINDING", None)
+short = getattr(mod, "SHORT", None)
 persons_new = getattr(mod, "PERSONS", {})
 places_new = getattr(mod, "PLACES", {})
+answers_new = getattr(mod, "ANSWERS", {})
+licenses_new = getattr(mod, "LICENSES", {})
 
 if not witnesses:
     sys.exit(f"spec file {spec_path} defined no WITNESSES")
@@ -78,11 +83,14 @@ cruxes[idx]["witnesses"] = own_ids + extra_ids
 cruxes[idx]["status"] = "built"
 if finding:
     cruxes[idx]["finding"] = finding
+if short:
+    cruxes[idx]["short"] = short
 cruxes_path.write_text(json.dumps(cruxes, ensure_ascii=False, indent=1))
 print(f"crux {crux_id!r}: {len(own_ids) + len(extra_ids)} witnesses, status=built")
 
-# ---------------------------------------------------------------- persons / places: merge new entries
-for path, new in ((ROOT / "data" / "persons.json", persons_new), (ROOT / "data" / "places.json", places_new)):
+# ------------------------------------------------- persons / places / answers / licences: merge new
+for path, new in ((ROOT / "data" / "persons.json", persons_new), (ROOT / "data" / "places.json", places_new),
+                  (ROOT / "data" / "answers.json", answers_new), (ROOT / "data" / "licenses.json", licenses_new)):
     if not new: continue
     d = json.load(open(path)) if path.exists() else {}
     d.update(new)

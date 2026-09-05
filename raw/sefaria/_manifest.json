@@ -302,5 +302,18 @@
     "segments": 5
    }
   ]
+ },
+ {
+  "slug": "b-chull-83a",
+  "ref": "Chullin.83a",
+  "title": "Chullin 83a",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Wikisource Talmud Bavli",
+    "license": "CC-BY-SA",
+    "segments": 16
+   }
+  ]
  }
 ]

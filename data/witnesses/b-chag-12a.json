@@ -1,0 +1,43 @@
+{
+ "id": "b-chag-12a",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "he": "מִדַּת יוֹם וּמִדַּת לַיְלָה",
+  "en": "the measure of the day and the measure of the night"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "ואמר רב יהודה אמר רב עשרה דברים נבראו ביום ראשון ואלו הן שמים וארץ תהו ובהו אור וחשך רוח ומים מדת יום ומדת לילה שמים וארץ דכתיב (בראשית א, א) בראשית ברא אלהים את השמים ואת הארץ תהו ובהו דכתיב (בראשית א, ב) והארץ היתה תהו ובהו אור וחשך חשך דכתיב (בראשית א, ב) וחשך על פני תהום אור דכתיב (בראשית א, ג) ויאמר אלהים יהי אור רוח ומים דכתיב (בראשית א, ב) ורוח אלהים מרחפת על פני המים מדת יום ומדת לילה דכתיב (בראשית א, ה) ויהי ערב ויהי בקר יום אחד",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "And R. Yehudah said in the name of Rav, Ten things were created on the first day, and they are these: Heaven and earth, chaos and desolation, light and darkness, wind and waters, the measure of the day and the measure of the night. \"Heaven and earth\", as it is written, (Genesis 1:1) \"In the beginning God created the heaven and the earth.\" Chaos and desolation, as it is written, (Genesis 1:2) \"And the earth was chaos and desolation.\" Light and darkness, darkness as it is written, (Genesis 1:2) \"and darkness was upon the face of the deep,\" light as it is written, (Genesis 1:2) \"And God said, Let there be light.\" Wind and water, as it is written, (Genesis 1:3) \"and the wind of God floated upon the face of the waters.\" The measure of the day and the measure of the night, as it is written, (Genesis 1:5) \"And there was evening and there was morning, one day.\"",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "rav-yehuda",
+  "rav"
+ ],
+ "cruxes": [
+  "one-day-evening-first",
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-is-a-measure"
+ ],
+ "notes": "Rav Yehuda in Rav's name lists ten things made on the first day, and the tenth pair is proof-texted from our verse: the measure of the day and the measure of the night, 'and there was evening and there was morning, one day.' The day's own measure is itself a creature of day one — which is the rabbinic way of answering the question the Latin bench asks as 'what kind of day was it, with no sun?' Hugh of St Victor's dies naturalis is the same instinct in computistical dress."
+}

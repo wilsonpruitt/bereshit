@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnl-1-17",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 401,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "ideoque non dictus est primus, sed unus dies",
+  "en": "and that is why it was called not first but one day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "An hic dies totius temporis nomen est, et omnia volumina saeculorum hoc vocabulo includit; ideoque non dictus est primus, sed unus dies? Et facta est enim vespera, et factum est, inquit, mane dies unus: ut per hoc quod facta est vespera, peccatum rationalis creaturae; quod autem factum est mane, renovatio ejus significata videatur.",
+  "source": "PL 34, col. 259",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Or is this day the name of the whole of time, and does it include all the volumes of the ages under this one word — and is that why it was called not 'first' but 'one day'? For 'and there was evening,' he says, 'and there was morning, one day': so that by the evening's being made the sin of the rational creature may be signified, and by the morning's being made, its renewal.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "unus-all-time",
+  "evening-moral"
+ ],
+ "notes": "The one sentence in the Latin bench that puts the rabbis' question and answers it their way: not first but one, because the word holds all time. Augustine raises it and then sets it aside in the next paragraph — 'this is a matter of prophetic allegory, which is not what we undertook in this discourse' — and returns to the literal question. The reading he declines here is the one Abelard will take up as his own, and it is the shape of Bereshit Rabbah 3:8's 'one day' too, though what fills the word there is Yom Kippur and not the ages."
+}

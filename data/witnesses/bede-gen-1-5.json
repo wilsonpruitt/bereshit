@@ -1,0 +1,40 @@
+{
+ "id": "bede-gen-1-5",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "circa",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "dies expletus est unus, viginti scilicet et quatuor horarum",
+  "en": "one day was completed, of twenty-four hours"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Factumque est vespere et mane dies unus. Factumque est vespere occidente paulatim luce post expletum spatium diurnae longitudinis, atque inferiores mundi partes subeunte, quod nunc usitato solis circuitu noctibus agi solet; factum et mane redeunte eadem paulatim super terras, atque alium diem initiante; et huc usque dies expletus est unus, viginti scilicet et quatuor horarum, cujus commendatione verbi Scriptura vigilanter admonet ut lucem quae facta est inferiora orbis occasu suo lustrasse discamus. Nam si non hoc faceret, sed magis facto vespere paulatim tota periret, ac rursum paulatim mane recreata resurgeret, non jam in mane diei sequentis, sed potius in vespera primi unum diceret esse diem perfectum",
+  "source": "PL 91, col. 17D",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And there was evening and morning, one day.' There was evening, the light setting little by little after the space of a day's length was spent, and passing beneath the lower parts of the world — which is now done by the accustomed circuit of the sun in the nights; and there was morning, the same light returning little by little over the lands and beginning another day; and up to this point one day was completed, of twenty-four hours, that is. By the commendation of which word Scripture watchfully warns us to learn that the light which was made lit the lower parts of the world by its setting. For if it did not do this, but rather, evening having come, it wholly perished and again little by little revived at morning, it would have said the day was completed not at the morning of the following day but rather at the evening of the first.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-24-hours",
+  "day-precedes-night"
+ ],
+ "notes": "Bede reads the phrase as an argument about physics. If the created light had been snuffed out at evening and rekindled at morning, then the day would have been complete at its own evening and Scripture would have said so. That it waits for the morning proves the light went on shining round the underside of the world — the same body of light that later runs the sun's circuit. This is the one place in the crux where the wording of Genesis is treated as evidence for cosmology. Rabanus copies the paragraph verbatim."
+}

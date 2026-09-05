@@ -4,7 +4,7 @@ column, the patristic Latin down the left, the Carolingian and twelfth-century L
 Each note opens on its lemma (dibbur ha-matchil). Hover or focus a note to read it whole and to see
 its threads drawn. Usage: render-daf.py <crux-id> — with no crux-id, renders every crux whose
 data/cruxes.json status is "built" and (re)writes out/index.html listing them."""
-import json, pathlib, sys, html
+import json, pathlib, sys, html, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -26,6 +26,29 @@ answers = json.load(open(ROOT / "data" / "answers.json"))
 scripture = json.load(open(ROOT / "data" / "scripture" / "gen-1.json"))
 verse = next(v for v in scripture["verses"] if v["ref"] == crux["verse"])
 esc = lambda s: html.escape(str(s or ""), quote=True)
+
+BOOKS = {"gen": "Genesis"}
+_b, _c, _v = crux["verse"].split(".")
+verse_label = f"{BOOKS.get(_b, _b.title())} {_c}:{_v}"
+crux_short = crux.get("short", crux_id)
+
+def _he_pattern(lemma):
+    """A regex matching the lemma's consonants across any pointing/cantillation in the verse."""
+    letters = [c for c in lemma if "\u05d0" <= c <= "\u05ea"]
+    if not letters: return None
+    return re.compile(r"[\u0591-\u05c7\u05be\s]*".join(re.escape(c) for c in letters))
+
+def marked(raw, pattern):
+    """Highlight the first match of pattern in raw, then escape (sentinels survive escaping)."""
+    raw = html.unescape(str(raw or ""))
+    if pattern:
+        m = pattern.search(raw)
+        if m: raw = raw[:m.start()] + "\x01" + m.group(0) + "\x02" + raw[m.end():]
+    return esc(raw).replace("\x01", "<mark>").replace("\x02", "</mark>")
+
+_lem = crux.get("lemma", {})
+he_pat = _he_pattern(_lem.get("he", ""))
+la_pat = re.compile(re.escape(_lem["la"])) if _lem.get("la") else None
 
 W = {}
 for wid in crux["witnesses"]:
@@ -79,7 +102,7 @@ q = crux["question"]
 tj = json.dumps([{"id": t["id"], "from": t["from"], "to": t["to"], "type": t["type"], "evidence": t["evidence"]} for t in threads], ensure_ascii=False)
 names = json.dumps({wid: persons.get(w["author"], {}).get("name", w["author"]) for wid, w in W.items()}, ensure_ascii=False)
 
-page = f'''<title>Ruach Merahefet Daf</title>
+page = f'''<title>{esc(crux_short)} · daf</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=Frank+Ruhl+Libre:wght@400;500;700&display=swap">
 <style>
@@ -140,7 +163,7 @@ body{{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);fo
 </style>
 <div class="sheet">
   <div class="head">
-    <span><b>Genesis 1:2</b> · Bereshit / In Principio · K7 · daf</span>
+    <span><b>{esc(verse_label)}</b> · Bereshit / In Principio · {esc(crux_short)} · daf</span>
     <span class="lg"><span><i></i>cites</span><span class="e"><i></i>echoes</span><span class="c"><i></i>contests</span><span class="p"><i></i>parallel</span><span class="t"><i></i>transmits</span></span>
     <span>hover a note to read it whole and see its threads · click to pin</span>
   </div>
@@ -152,8 +175,8 @@ body{{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);fo
     </section>
     <section class="mid">
       <div class="verse">
-        <div class="heb">{esc(verse["he"]["text"]).replace(esc("וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת"), "<mark>" + esc("וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת") + "</mark>")}</div>
-        <div class="la">{esc(verse["la"]["text"]).replace("Spiritus Dei ferebatur", "<mark>Spiritus Dei ferebatur</mark>")}</div>
+        <div class="heb">{marked(re.sub(r"\s*\{[^}]*\}\s*$", "", verse["he"]["text"]), he_pat)}</div>
+        <div class="la">{marked(verse["la"]["text"], la_pat)}</div>
         <div class="en">{esc(verse["en"]["text"])}</div>
         <div class="q"><div class="hq">{esc(q["he"])}</div><div class="lq">{esc(q["la"])}</div>{esc(q["en"])}</div>
       </div>

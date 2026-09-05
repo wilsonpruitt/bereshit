@@ -113,5 +113,10 @@
   "name": "Regensburg",
   "lat": 49.02,
   "lon": 12.1
+ },
+ "rome": {
+  "name": "Rome",
+  "lat": 41.9,
+  "lon": 12.5
  }
 }

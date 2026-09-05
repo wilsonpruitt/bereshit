@@ -49,7 +49,7 @@ data = {"crux": {"id": crux_id, "question": crux["question"], "summary": crux["s
         "witnesses": ws, "threads": threads, "answers": answers,
         "senses": {"literal": "Literal", "allegorical": "Allegorical", "spiritual": "Spiritual", "translation": "Translation"}}
 
-TEMPLATE = r'''<title>Ruach Merahefet Map</title>
+TEMPLATE = r'''<title>__SHORT__ · map</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=Frank+Ruhl+Libre:wght@400;500&display=swap">
 <style>
@@ -111,7 +111,7 @@ svg text{font-family:var(--sans);fill:var(--ink);pointer-events:none}
 @media (prefers-reduced-motion:reduce){.edge{transition:none}}
 </style>
 <div class="bar">
-  <div class="t"><small>Bereshit / In Principio · K7 · map</small>Genesis 1:2 — the spirit that hovers</div>
+  <div class="t"><small>Bereshit / In Principio · __SHORT__ · map</small>__VERSE__</div>
   <div class="modes" role="group" aria-label="Arrange by">
     <button data-mode="answers" aria-pressed="true">Answers</button>
     <button data-mode="time" aria-pressed="false">Time</button>
@@ -224,7 +224,7 @@ function layout() {
 // ---------- panel
 function showHome() {
   const q = D.crux.question;
-  panel.innerHTML = `<p class="eyebrow">Crux · Genesis 1:2</p><h2>${esc(q.en)}</h2><p class="la-q">${esc(q.la)}</p><p class="heb-q">${esc(q.he)}</p>
+  panel.innerHTML = `<p class="eyebrow">Crux · __VERSE__</p><h2>${esc(q.en)}</h2><p class="la-q">${esc(q.la)}</p><p class="heb-q">${esc(q.he)}</p>
   <p>${esc(D.crux.summary)}</p><p>${esc(D.crux.finding)}</p>
   <p class="hint"><b>Answers</b> gathers witnesses around the reading they give; a witness between two hubs holds both. <b>Time</b> is a clock: distance from the centre is the date, Latin to the right, rabbinic to the left. <b>Places</b> is a map. <b>Senses</b> sorts by literal, allegorical, spiritual, translation. Threads keep their meaning in every arrangement. Click a node or a hub; hover a line; drag to pull the graph apart; scroll to zoom: zooming spreads the graph while dots and labels keep their size.</p>`;
 }
@@ -264,5 +264,10 @@ showHome(); layout();
 </script>
 '''
 out = ROOT / "out"; out.mkdir(exist_ok=True)
-(out / f"B-map-{crux_id}.html").write_text(TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False)))
+BOOKS = {"gen": "Genesis"}
+_b, _c, _v = crux["verse"].split(".")
+_page = (TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
+         .replace("__SHORT__", crux.get("short", crux_id))
+         .replace("__VERSE__", f"{BOOKS.get(_b, _b.title())} {_c}:{_v}"))
+(out / f"B-map-{crux_id}.html").write_text(_page)
 print(f"wrote out/B-map-{crux_id}.html ({len(ws)} witnesses, {len(threads)} threads, {len(answers)} answer families)")

@@ -1,0 +1,41 @@
+{
+ "id": "abelard-hex-1-5",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "Diem unum hic vocat totam illorum operum Dei consummationem",
+  "en": "He here calls 'one day' the whole completion of those works of God"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et factum est vespere et mane dies unus. Diem unum hic vocat totam illorum operum Dei consummationem, prius in mente habitam et in opere postmodum sexta die completam. Vesperam autem hujus totius temporis quod hic unum diem appellat, totam illam operationem Dei vocat, secundum quod prius in ejus mente latebat, antequam per effectum ad lucem prodiret. Ac rursus ipsam eamdem operationem mane nuncupat secundum quod opere postmodum completa sese visibilem praebuit. Divinae itaque mentis conceptum in dispositione futuri operis vesperam dicit, mane vero appellat ipsam conceptus illius operationem et divinae dispositionis effectum in sex diebus consummatum.",
+  "source": "PL 178, col. 740C",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And there was evening and morning, one day.' He here calls 'one day' the whole completion of those works of God — held first in his mind, and afterward completed in the work on the sixth day. And the evening of this whole span of time which he here calls one day, he calls that whole working of God according as it first lay hid in his mind, before it came forth into the light through its effect. And again he names that same working morning, according as, being afterward completed in the work, it showed itself visible. Thus he calls the conception of the divine mind, in the disposing of the work to come, evening; and morning he calls the working out of that conception and the effect of the divine disposition, completed in six days.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "spiritual",
+  "literal"
+ ],
+ "answers": [
+  "unus-all-time",
+  "evening-is-completion"
+ ],
+ "notes": "Abelard takes the reading Augustine raised and set aside: 'one day' names not the first of the days but the whole of them. His evening is the work as it lay hidden in God's mind, his morning the same work made visible — the pair describing the passage from conception to execution rather than any part of a night. He then allows, fairly, that a reader who prefers to refer the phrase to the first day's work alone may do so, 'nihil impedit'. As in K7 he is the Latin most willing to hold two readings and rank them rather than refute one."
+}

@@ -33,5 +33,11 @@
  },
  "claude-draft": {
   "label": "Fresh English draft (Claude, 2026-09-05), awaiting Wilson Pruitt's revision — CC BY on approval"
+ },
+ "cc0": {
+  "label": "CC0 1.0 (public domain dedication)"
+ },
+ "wroot-bonaventure": {
+  "label": "Wilson Pruitt's English of Bonaventure, In II Sent. (bonaventure.wrootpress.com) — Wroot Press; licence for this site to be set by Wilson, as with wroot-glossa. [CHECK before publication]"
  }
 }

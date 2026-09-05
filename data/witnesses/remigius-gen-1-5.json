@@ -1,0 +1,39 @@
+{
+ "id": "remigius-gen-1-5",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 900,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "Per mane initium fidei: per vesperam vero perfectio bonae operationis",
+  "en": "By morning, the beginning of faith; by evening, the perfection of good work"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Vers. 5. Factum est vespere et mane dies unus. Per mane initium fidei: per vesperam vero perfectio bonae operationis intelligitur. Cujus diei mane in vesperam deducitur cum initium fidei completione bonae operationis perficitur.",
+  "source": "PL 131, col. 56A",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 5. 'There was evening and morning, one day.' By morning is understood the beginning of faith; by evening, the perfection of good work. The morning of this day is drawn out into evening when the beginning of faith is perfected by the completion of good work.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "evening-moral"
+ ],
+ "notes": "The shortest witness on the crux and the only one that quietly reverses the verse. Remigius reads morning as the beginning and evening as the perfection, so that his day runs from mane to vesperam — the opposite of the order Genesis prints and of the order every other Latin here defends. He is not arguing for a reckoning; the moral figure simply requires that a thing begin before it is completed, and the text is bent to it. Compare Bereshit Rabbah 3:8, where the same moral pairing (wicked and righteous) is fitted to the verse's own order instead."
+}

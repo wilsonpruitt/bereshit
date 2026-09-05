@@ -1,0 +1,40 @@
+{
+ "id": "comestor-hs-1-5",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "completus est dies unus naturalis",
+  "en": "one natural day was completed"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et factum est vespere, et post factum est mane. Et sic completus est dies unus naturalis. Primo enim cum coelo et terra lux est creata: qua paulatim occidente, factum est vespere primae diei usualis, et eadem migrante sub terras et ad ortum veniente, factum est mane, id est terminata est nox, et inchoavit dies secunda. Itaque praecedente luce diei, et sequente nocte terminata, exstitit dies unus.",
+  "source": "PL 198, col. 1057D",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And there was evening, and after that there was morning.' And so one natural day was completed. For first, with heaven and earth, light was created; and as it set little by little, there was made the evening of the first usual day; and as the same light passed under the earth and came to the rising, there was made morning — that is, the night was ended and the second day began. And so, with the light of the day preceding and the night following being ended, one day came to be.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-24-hours",
+  "day-precedes-night"
+ ],
+ "notes": "The textbook settles it: dies unus naturalis, light first and night following, on Bede's travelling light. Nothing of Augustine's day survives in the sentence, and the question 'why not first?' is not raised at all — it has been answered so often that the schools' handbook no longer needs to ask. Comestor does keep one older reading a few lines earlier: the division of light from darkness is also the division of the angels, the standing ones light and the fallen ones darkness."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "rupert-gen-1-5",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1114,
+ "date_precision": "circa",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "Quae enim Deus divisit, quomodo conjungi vel unum quid efficere possint?",
+  "en": "For how can things God divided be joined or make one thing?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Notandum hic in primis est quod non dixit: Factaeque sunt tenebrae et lux dies unus. Hoc bene et prudenter a scriptore sacro observatum est. Quae enim Deus divisit, quomodo conjungi vel unum quid efficere possint? 9 Divisit autem lucem et tenebras, appellavitque lucem diem, diem, inquam, totum et plenum absque consortio tenebrarum. Bene ergo dictum est: Factae sunt tenebrae et lux dies unus, quia, sicut jam dictum est, quae Deo dividente separata sunt, sociari vel unum quid efficere non possunt.",
+  "source": "PL 167, col. 217A",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is to be noted here first of all that he did not say, 'And there were made darkness and light, one day.' This was well and prudently observed by the sacred writer. For how can the things God divided be joined together, or make some one thing? Now he divided light and darkness, and called the light Day — day, I say, whole and full, without partnership of darkness. […] For, as has been said already, things separated by God's dividing cannot be associated or make some one thing.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-precedes-night",
+  "unus-eternal-day"
+ ],
+ "notes": "Rupert's chapter heading is the crux in his own words: 'Why it was not said, there were made darkness and night, a first day, but there was made evening and morning, one day.' His first move is Bruno's conclusion arrived at differently — what God divided cannot be added back together into a single thing, so the 'one day' cannot be day-plus-night. Two columns later (PL 167:217D) he gives his own answer to the ordinal: the truly first day is not this one; and at PL 167:1807A, in the books on the Spirit's works, he states it flatly — the writer knowingly refused to write dies primus, because the day that is first by nature is eternal, and this one is first only by number and by the order of creation. Elided in the English at […]: the sentence the Corpus Corporum text prints as 'Bene ergo dictum est: Factae sunt tenebrae et lux dies unus', which contradicts the sentence it follows and should almost certainly read 'Bene ergo non dictum est'. [CHECK the PL plate before translating it either way.]"
+}

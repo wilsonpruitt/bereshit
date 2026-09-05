@@ -1,0 +1,41 @@
+{
+ "id": "honorius-hex-1-5",
+ "work": "honorius-hex",
+ "author": "honorius",
+ "tradition": "latin",
+ "date": 1140,
+ "date_precision": "circa",
+ "place": "regensburg",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "non primus, sed unus dies dicitur, quia idem semper repetitur",
+  "en": "it is called not first but one day, because the same day is always repeated"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Factumque est vespere et mane, dies unus. Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt, et unum diem conficiunt. Ideo autem non primus, sed unus dies dicitur, quia idem semper repetitur; ut scribitur: Ordinatione tua perseverat dies (Psal. CXVIII, 91) . Illo primo triduo nox prorsus tenebrosa manebat; quia eam nec luna, nec sidera illuminabant. Notandum autem, quod dies a luce inchoatur et in luce terminatur: quia omnia opera Dei a Christo, qui est lux vera, inchoantur, et in eodem cuncta consummantur.",
+  "source": "PL 172, col. 255D",
+  "cc_idno": "10991",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And there was evening and morning, one day.' Evening is the end of the day; morning, however, is the end of the night: which two joined together make twenty-four hours and complete one day. And it is called not first but one day, because the same day is always repeated, as it is written: 'By your ordinance the day continues' (Ps 119:91). During that first three days the night remained wholly dark, because neither moon nor stars lit it. It is to be noted, moreover, that the day begins from light and ends in light: because all the works of God are begun from Christ, who is the true light, and in him all are completed.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "unus-24-hours",
+  "unus-repeated"
+ ],
+ "notes": "By 1140 Augustine's angelic repetition has become a one-clause gloss with a proof text — 'not first but one, because the same day is always repeated' — sitting inside a paragraph of plain computistical arithmetic. The two answers that stand furthest apart in the tradition are here made to agree in a sentence apiece, which is what the twelfth-century handbook does with a contested question. Honorius returns to the verse later in the same work (PL 172:261D) with a wholly different answer: not first but one, because the angelic nature which is called day begins from the eternal day and has no end. [CHECK the work division at PL 172:261 before treating that as a second witness.]"
+}

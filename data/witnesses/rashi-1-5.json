@@ -1,0 +1,38 @@
+{
+ "id": "rashi-1-5",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1080-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "he": "יוֹם אֶחָד",
+  "en": "one day"
+ },
+ "original": {
+  "lang": "he",
+  "text": "יום אחד. לְפִי סֵדֶר לְשׁוֹן הַפָּרָשָׁה הָיָה לוֹ לִכְתֹּב יוֹם רִאשׁוֹן, כְּמוֹ שֶׁכָּתוּב בִּשְׁאָר הַיָּמִים שֵׁנִי, שְׁלִישִׁי, רְבִיעִי, לָמָּה כָתַב אֶחָד? לְפִי שֶׁהָיָה הַקָּבָּ\"ה יָחִיד בְּעוֹלָמוֹ, שֶׁלֹא נִבְרְאוּ הַמַּלְאָכִים עַד יוֹם שֵׁנִי, כָּךְ מְפֹרָשׁ בּבְ\"רַ:",
+  "source": "Rashi on Gen 1:5, s.v. יום אחד",
+  "license": "pd"
+ },
+ "english": {
+  "text": "יום אחד THE FIRST DAY (literally, one day) — According to the regular mode of expression used in this chapter it should be written here “first day”, just as it is written with regard to the other days “the second”, “the third”, “the fourth”. Why, then, does it write אחד “one”? Because the Holy One, blessed be He, was then the Only One (Sole Being) in His Universe, since the angels were not created until the second day. Thus it is explained in Genesis Rabbah (Genesis Rabbah 3:8).",
+  "translator": "Rosenbaum–Silbermann 1929–34",
+  "license": "pd"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-grammatical",
+  "unus-alone"
+ ],
+ "notes": "Rashi puts the question in the form the Latin bench uses — by the order of the chapter's own language it should have written 'first day,' as it writes second, third, fourth — and answers it from Bereshit Rabbah 3:8: because the Holy One was then alone (yachid) in his world, the angels not having been created until the second day. Ambrose asks the same question in Latin seven centuries earlier and answers it from the length of a circuit; Bruno of Segni answers it from the logic of relatives. Note that Silbermann's English renders the lemma 'THE FIRST DAY (literally, one day)' — the translator conceding the point the commentary exists to dispute."
+}

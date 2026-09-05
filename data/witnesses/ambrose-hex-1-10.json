@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-10",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "Praeclare etiam unum non primum diem dixit",
+  "en": "Excellently, too, he said one day and not first day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quaerunt aliqui, cur prius vesperum, postea mane Scriptura memoraverit, ne forte noctem priusquam diem significare videatur. Nec advertunt primo quod praemiserit diem, dicendo: Et vocavit Deus lucem diem, et tenebras vocavit noctem: deinde quod vesper finis diei sit, et mane finis noctis. Ergo ut praerogativam et primatus nativitatis diei daret, prius finem diei significavit, postquam secutura nox esset, deinde postea finem noctis adjunxit. Eo usque autem noctem diei Scriptura anteferre non potuit, ut et diei et noctis tempora, diei appellatione concluserit, tamquam principalis auctoritate nominis vindicaverit. Et hanc Scripturae esse consuetudinem, ut potiori appellationem deputet, frequentibus exemplis probamus. Siquidem et Jacob dixit: Dies vitae meae, pusilli et mali (Gen. XLVII, 9) . Et iterum: Omnes dies vitae meae. Et David posuit: Dies annorum nostrorum (Ps. LXXXIX, 10) ; non dixit et noctes. Unde advertimus ea quae nunc in specie historiae traduntur, vim statuisse legis in posterum. Principium ergo diei, vox Dei est: fiat lux; et facta est lux. Finis diei vesper est. Jam sequens dies ex noctis fine succedit. Sententia autem Dei evidens, quia diem primo vocavit lucem, et secundo vocavit tenebras noctem. 37. Praeclare etiam unum non primum diem dixit; nam secuturo secundo, et tertio die, et deinceps reliquis primum potuit dicere: et hoc ordinis videbatur, sed legem statuit, ut viginti 22 quatuor horae diurnae atque nocturnae diei tantum nomine definiantur, ut si diceret: Viginti quatuor horarum mensura unius diei tempus est. Sicut enim virorum generatio computatur, et intelligitur etiam feminarum, quia nectuntur secunda potioribus; ita etiam dies numerantur, et noctes aestimantur adjunctae. Sicut igitur circuitus unus, ita dies unus.",
+  "source": "PL 14, col. 143C",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Some ask why Scripture recorded evening first and morning afterward, lest it should seem to put night before day. They fail to notice, first, that it put the day first by saying, 'And God called the light Day, and the darkness he called Night'; and then that evening is the end of the day, and morning the end of the night. So, to give the day the prerogative and the birthright, it named the end of the day first, since night was to follow, and afterward added the end of the night. […] Excellently, too, he said one day and not first day. For with a second day and a third and the rest to follow he could have said 'first,' and that seemed to be the order; but he laid down a law, that twenty-four hours of day and night together be defined by the name of day only — as if he were saying: the measure of twenty-four hours is the time of one day. For as the generation of men is counted and the women are understood along with them, since the lesser are bound to the greater, so too the days are numbered and the nights reckoned as joined to them. Therefore as there is one circuit, so there is one day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-precedes-night",
+  "unus-24-hours"
+ ],
+ "notes": "Ambrose's chapter heading states the crux exactly: 'That day is here set before night, against what seems so to some; why it is called one day rather than first; and that it is closed by a morning end.' His answers are three: evening comes first because evening is the end of the day and morning the end of the night, so naming evening first gives the day its birthright; 'one' rather than 'first' because a day is a single circuit of twenty-four hours; and the day names the night along with it as men name women. He also notes that many call a week 'one day' because it returns into itself. At PL 14:145C he adds a fourth: the day is set apart from the others as 'one,' not compared with them as 'first,' because on it the foundations of all things were laid. Elided in the English at […]: the proof from Scripture's custom of naming the greater term for the pair (Jacob's 'days of my life', Ps 89:10's 'days of our years', never 'and nights'), and the sentence 'Principium ergo diei, vox Dei est: fiat lux.'"
+}

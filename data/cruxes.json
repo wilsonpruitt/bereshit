@@ -168,7 +168,8 @@
    "aug-gnl-1-5-11",
    "glossa-1-2-ruach"
   ],
-  "status": "built"
+  "status": "built",
+  "short": "Ruach merahefet"
  },
  {
   "id": "first-light",
@@ -218,7 +219,38 @@
    "en": "one day"
   },
   "summary": "Augustine's morning/evening knowledge and Rashi's 'alone in his world' both read unus as a claim about God's solitude, not counting. Note: the WEB English base text prints 'the first day' and so takes a side.",
-  "witnesses": [],
-  "status": "register-only"
+  "witnesses": [
+   "lxx-1-5",
+   "vulgate-1-5",
+   "targ-psj-1-5",
+   "br-3-8",
+   "br-3-9",
+   "rashi-1-5",
+   "b-chag-12a",
+   "b-chull-83a",
+   "ambrose-hex-1-10",
+   "aug-gnm-1-10",
+   "aug-gnl-1-17",
+   "aug-gnl-4-22",
+   "aug-gnl-5-18",
+   "aug-civ-11-7",
+   "bede-gen-1-5",
+   "rabanus-gen-1-5",
+   "alcuin-int-34",
+   "wigbod-gen-1-5",
+   "angelom-gen-1-5",
+   "remigius-gen-1-5",
+   "bruno-gen-1-5",
+   "rupert-gen-1-5",
+   "abelard-hex-1-5",
+   "hugh-sacr-1-5",
+   "honorius-hex-1-5",
+   "comestor-hs-1-5",
+   "glossa-1-5",
+   "bonaventure-sent-2-12-1-2"
+  ],
+  "status": "built",
+  "finding": "The ancient versions all kept the cardinal — ἡμέρα μία, dies unus, yoma chad — and the modern English translations on both benches quietly convert it to the ordinal: the WEB prints 'the first day', Etheridge's targum prints 'the First Day', and Silbermann's Rashi glosses the lemma 'THE FIRST DAY (literally, one day)' in the very note that exists to ask why it is not 'first'. The question the whole crux is made of survives only in the languages nobody now reads it in. Where the two benches do meet, they meet on the grammar: Bereshit Rabbah 3:9 objects that 'one, second, third' is not a proper series, and Bruno of Segni answers exactly that objection with the logic of relatives — first and second are correlatives, and with no second yet in being nothing could be called first. And they part on the calendar: Ben Zoma derives from yom echad that the day follows the night, while Augustine states in so many words that the days are counted a mane usque in mane.",
+  "short": "Yom echad / dies unus"
  }
 ]

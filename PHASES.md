@@ -26,11 +26,13 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
 - Quote the Vulgate lemma in single quotes as the witness quotes it; keep *Spiritus Domini* vs *Spiritus Dei* as the witness has it (it is evidence).
 - Scripture references in parentheses, modern numbering; add Vulgate numbering only where it differs (Ps 104:30 [Vg 103]).
 - Mark elisions in the English with `[…]` and say in `notes` what was elided; the Latin excerpt is always continuous.
+- Added for K10 (extends the list, does not re-decide it): *dies unus* = "one day" and never "the first day"; *dies primus* = "first day"; *vespera / vespere* = "evening", *mane* = "morning", *aurora* = "dawn"; *dies naturalis / artificialis* = "natural / artificial day"; *circuitus* = "circuit"; *cognitio matutina et vespertina* = "morning and evening knowledge"; *creavit omnia simul* = "he created all things at once"; *relativa* = "relatives"; *senarius dierum* = "a senary of days".
 
 ### English register for fresh drafts (rabbinic bench)
 - "Our rabbis taught" for *tanu rabbanan*; "as it is said" for *she-ne'emar*; "as it is written" for *di-khtiv*; "the Holy One, blessed be He"; in targums the Tetragrammaton is "the LORD"; *min qodam* = "from before".
 - Transliteration: merahefet, tohu va-vohu, Bereshit, ruach; ḥ for ח, no other diacritics.
 - Tradents named as in the text (Rav Aḥa bar Yaakov, Mar Zutra); add `tradents` to the witness.
+- Added for K10: *yom echad* = "one day", *yom rishon* = "first day", *yachid be-olamo* = "alone in his world"; "the work of creation" for *ma'aseh bereshit*; "it is taught" for *tanya*; "our rabbis taught" for *tanu rabbanan* (as above).
 
 ### Crux files
 - Questions in three languages (`en`, `la`, `he`) as in `data/cruxes.json`; the Latin and Hebrew forms are the medieval question, not a translation of the English.
@@ -38,7 +40,16 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
 
 ---
 
-## Phase 1 — Generalize the pipeline · **Sonnet** · ~1 session
+## Phase 1 — Generalize the pipeline · **Sonnet** · ~1 session — **DONE 2026-09-05**
+
+Built as specified, plus four things the spec did not name: `scripts/bench.py` (the shared TEI
+slicer / Sefaria loader, imported by every crux spec), `scripts/grep-bench.py` (seeds a crux by
+searching the bench TEI for lemma words and printing hits with computed PL columns — the
+checklist's step 3, now one command), `scripts/indexpage.py`, and two extra fields in the
+spec-file contract added while building K10: **ANSWERS** and **LICENSES** (merged like
+PERSONS/PLACES, so a crux spec is self-contained) and **SHORT** (the crux's display name, which
+removed the last K7 hardcoding from the renderers). `check.py` has six checks, not three: the
+sixth (answer ids and licence keys must resolve) caught a real K7 licence-key bug on its first run.
 
 File paths and the pattern are given, so this is Tier-1 work.
 
@@ -51,11 +62,18 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
+**State: K10 built (2026-09-05). Next up is K1 `beginning-of-what`, row 2 of the table.**
+To start that session, paste: *"Build the crux `beginning-of-what` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* Everything the checklist needs is on disk: the bench TEI, the
+Sefaria pulls (`br-1`, `targ-neof`, `ibn-ezra-gen-1`, `ramban-gen-1`, `rashi-gen-1`, `b-meg-9a`),
+`cruxes/one-day-evening-first.py` as the worked example to copy the shape from, and
+`notes/cross-crux.md`, which already lists what K1's neighbours turned up.
+
 Order chosen by how much rabbinic material each has and how much it teaches the next one:
 
 | # | crux | why this order | expected witnesses |
 |---|---|---|---|
-| 1 | K10 `one-day-evening-first` | richest two-sided material (BR 3:8–9, Rashi, Chag 12a, RH 11a vs Augustine Gnl IV, Bede, Bonaventure); teaches the Bonaventure slice | 20–25 |
+| ~~1~~ | ~~K10 `one-day-evening-first`~~ | **BUILT 2026-09-05** — 28 witnesses, 34 threads | 20–25 |
 | 2 | K1 `beginning-of-what` | BR 1:1 + Neofiti "with wisdom" vs Jerome's *in Filio*; Prov 8 thread across benches | 25–30 |
 | 3 | K8 `first-light` | hidden light (BR 3:6, Chag 12a, PdRE 3) vs angelic light (Augustine); Bonaventure d.13 | 20–25 |
 | 4 | K6 `tohu-vabohu` | Glossa 69D gloss already sliced; Rashi's *estordison*; BR 2:2–3; Vulgate as witness | 15–20 |
@@ -75,7 +93,15 @@ Per-crux checklist (paste into the Opus prompt):
 
 Escalate to Fable only if: a crux needs a new edge type, a new facet, or a witness that does not fit "one continuous argument".
 
-Burn: K7 cost roughly one long Fable session including three prototypes; a data-only crux on Opus should land near 150–250K tokens. This is an estimate from one run, not a measured rate; measure K10 and write the number here.
+**Burn, measured on K10 (Opus, 2026-09-05): ~170K tokens of context for the whole crux** —
+survey, extraction, 28 English drafts, 34 threads, the daf read, and the notes. That is inside the
+150–250K estimate and at its low end, and K10 was chosen as the *richest* of the nine, so the
+remaining eight should not exceed it. Two things held the number down and are worth repeating:
+`grep-bench.py` replaced hand-reading TEI files, and every rabbinic locus K10 needed was already on
+disk except one (Chullin 83a). A crux needing several new Sefaria pulls or vision work will cost more.
+
+What actually took the time was not extraction but **deciding the roster** — the bench yielded far
+more than 25 usable witnesses and the pruning is a judgement call each time. Budget for that.
 
 ## Phase 3 — English review · **Wilson**, with **Opus** as second reader
 

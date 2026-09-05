@@ -1,0 +1,40 @@
+{
+ "id": "targ-psj-1-5",
+ "work": "targ-psj",
+ "author": "targum-pseudo-jonathan",
+ "tradition": "rabbinic",
+ "date": 750,
+ "date_precision": "range-600-800",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "arc": "יוֹמָא חָד",
+  "en": "one day"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְעַבְדֵהּ לְמִפְלַח בֵּיהּ דַיְירֵי עַלְמָא וְלַחֲשׁוֹכָא קָרָא לֵילְיָא וְעַבְדֵיהּ לְמֵינַח בֵּיהּ בִּרְיָיתָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חָד",
+  "source": "Sefaria, 'Targum Jonathan on Genesis'",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And the LORD called the light Day, and made it that the inhabitants of the world might labour in it; and the darkness he called Night, and made it that in it the creatures might have rest. And it was evening, and it was morning, one day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "translation",
+  "literal"
+ ],
+ "answers": [
+  "unus-cardinal",
+  "night-for-rest"
+ ],
+ "notes": "Two things at once. The targum keeps the cardinal, yoma chad, as Onkelos does. And it supplies a reason for the pair that no Hebrew word demands: day is for labour, night for rest. Etheridge's 1862 English prints 'the First Day' — a translator taking the side of the ordinal, exactly as the WEB does — so the cardinal is restored here in a fresh draft."
+}

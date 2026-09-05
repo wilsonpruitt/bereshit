@@ -1,0 +1,41 @@
+{
+ "id": "bruno-gen-1-5",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1100,
+ "date_precision": "circa",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "primus et secundus relativa sunt",
+  "en": "'first' and 'second' are relatives"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sequitur: « Factumque est vespere, et mane dies unus. » Vespere et mane noctem et diem quidam intelligunt. Nam quoniam noctibus praetermissis, omnes per ordinem dies enumerat, uno diei nomine, et diem, et noctem intelligere volunt. Sed mirabilis ordo locutionis, in quo ante mane ponitur vespere, quasi non mane, sed a vespere operari coepisset. Si enim dixisset, Factum est mane et vespere dies unus, nulla fortasse quaestio esset, sed quia inter duo mane vespere posuit, ad quid illorum referatur dubitari potest. Si enim ad praecedens mane vespere refertur, nox procul dubio tota relinquitur; quod si ad subsequens, die quidem tota praetermissa, soli noctis termini ponuntur. Unde convenientius factum est vespere et mane dies unus, sed nox una dici potuit. Sed quia divina providentia non ad laborem, sed ad quietem noctem creavit, nullum est inconveniens, si in Dei operatione, quae utique non in nocte, sed in die fiebat, solius diei termini ponantur. Si enim hoc in loco totum, ut volunt, diei noctisque spatium, unum diem intelligimus, frustra Deus utraque a se divisit, divisisque diversa nomina dedit; vocavit enim lucem diem, ac tenebras noctem. Nulla igitur dies ex nocte constat ac die. Quia igitur non somnia, quae in nocte videntur; sed opera, quae in eo fiunt, hic describuntur, dies utique non noctes enumerare necessarium fuit. Fecit ergo Deus in principio coelum, et terram et lucem; quibus patratis, factum est vespere, atque hoc praecedente mane continuato, factus est dies unus, et tunc quidem a tenebris lucem divisit, quo finito die, factum est vespere. Neque enim in die noctem fecit, sed suo ordine post diem fieri praecepit. Quod autem dictum est, factus est dies unus, et non dicitur, factus est dies primus, ad hoc valet quod primus et secundus relativa sunt, neque sine altero alter esse potest. Cum igitur nondum esset secundus, erat utique dies unus, ipse tamen unus primus dici non poterat.",
+  "source": "PL 164, col. 149B",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "There follows: 'And there was evening and morning, one day.' Some understand evening and morning as night and day. For since it enumerates all the days in order with the nights passed over, they want both day and night to be understood under the one name of day. But the order of speech is astonishing, in which evening is put before morning, as though he had begun to work not from morning but from evening. For if he had said, 'there was morning and evening, one day,' there would perhaps be no question; but because he put evening between two mornings, it can be doubted which of them it is referred to. For if evening is referred to the preceding morning, the whole night is undoubtedly left out; and if to the following, then the whole day is passed over and only the night's boundaries are set. Hence it was more fitting that there should be 'evening and morning, one day' — but it could have been called one night. But since divine providence created the night not for labour but for rest, there is nothing unfitting if in God's working, which was done not in the night but in the day, only the day's boundaries are set. For if in this place we understand the whole space of day and night, as they wish, to be one day, then God divided the two from each other in vain, and gave the divided things different names; for he called the light Day and the darkness Night. No day, therefore, consists of night and day. Since then it is not the dreams that are seen in the night, but the works that are done in it, that are described here, it was necessary to enumerate days and not nights. […] But as for its being said 'one day was made,' and not 'a first day was made,' this holds good because 'first' and 'second' are relatives, and neither can exist without the other. Since therefore there was not yet a second, it was indeed one day; yet that one could not be called first.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-grammatical",
+  "day-precedes-night",
+  "night-for-rest"
+ ],
+ "notes": "The best-argued Latin answer on the crux, and the one that most nearly meets Bereshit Rabbah on its own ground. Bruno's is a logician's answer: primus and secundus are relative terms, and a relative cannot stand without its correlate; with no second day yet in existence there was nothing for a 'first' to be first of, so the day could only be called one. He also reaches, independently, the reason Pseudo-Jonathan gives for the night — that providence made it for rest and not for labour — and draws the hard conclusion the others avoid: nulla dies ex nocte constat ac die, no day is made of night and day, because God divided them and named them separately."
+}

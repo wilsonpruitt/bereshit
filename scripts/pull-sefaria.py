@@ -24,8 +24,16 @@ PULLS = [
  ("ibn-ezra-gen-1", "Ibn_Ezra_on_Genesis.1.1-5", "Piotrkow, 1907-1911", "Sefaria Community Translation"),
  ("ramban-gen-1", "Ramban_on_Genesis.1.1-5", "Vocalized Edition", "Commentary on the Torah by Ramban (Nachmanides). Translated and annotated by Charles B. Chavel. New York, Shilo Pub. House, 1971-1976"),
  ("gen-1-he", "Genesis.1.1-5", "Miqra according to the Masorah", None),
+ # K10 (one-day-evening-first): the halakhic derivation that the day follows the night
+ ("b-chull-83a", "Chullin.83a", "Wikisource Talmud Bavli", "Sefaria Community Translation"),
 ]
-manifest = []
+# Optional slug filter: pull-sefaria.py <slug> [slug ...] re-pulls only those (default: all).
+if len(sys.argv) > 1:
+    want = set(sys.argv[1:])
+    PULLS = [p for p in PULLS if p[0] in want]
+    if not PULLS: sys.exit(f"no such slug(s): {' '.join(sorted(want))}")
+manifest = json.load(open(OUT / "_manifest.json")) if (OUT / "_manifest.json").exists() and len(sys.argv) > 1 else []
+manifest = [m for m in manifest if m["slug"] not in {p[0] for p in PULLS}]
 for slug, ref, he, en in PULLS:
     q = []
     q.append("version=" + urllib.parse.quote("hebrew|" + he if he else "hebrew"))

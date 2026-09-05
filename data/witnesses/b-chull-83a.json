@@ -1,0 +1,42 @@
+{
+ "id": "b-chull-83a",
+ "work": "bavli-chullin",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "he": "הַיּוֹם הוֹלֵךְ אַחַר הַלַּיְלָה",
+  "en": "the day follows the night"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "מתני׳ (ויקרא כב, כח) יום אחד האמור באותו ואת בנו היום הולך אחר הלילה את זו דרש רבי שמעון בן זומא נאמר במעשה בראשית (בראשית א, ה) יום אחד ונאמר באותו ואת בנו יום אחד מה יום אחד האמור במעשה בראשית היום הולך אחר הלילה אף יום אחד האמור באותו ואת בנו היום הולך אחר הלילה: גמ׳ ת\"ר את זו דרש ר\"ש בן זומא לפי שכל הענין כולו אינו מדבר אלא בקדשים ובקדשים לילה הולך אחר היום יכול אף זה כן נאמר כאן יום אחד ונאמר במעשה בראשית יום אחד מה יום אחד האמור במעשה בראשית היום הולך אחר הלילה אף יום [אחד] האמור באותו ואת בנו היום הולך אחר הלילה",
+  "source": "b. Chullin 83a (Vilna; Mishnah Chullin 5:5 with its gemara)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "MISHNAH. The 'one day' stated with regard to an animal and its young (Lev 22:28) means that the day follows the night. This is what Ben Zoma expounded: it is said in the work of creation 'one day' (Gen 1:5), and it is said with regard to an animal and its young 'one day'; just as the 'one day' stated in the work of creation means that the day follows the night, so too the 'one day' stated with regard to an animal and its young means that the day follows the night. GEMARA. Our rabbis taught: this is what Ben Zoma expounded. Since the whole passage speaks of nothing but consecrated things, and with consecrated things the night follows the day, one might have thought it is so here too; therefore it is said here 'one day' and it is said in the work of creation 'one day' — just as the 'one day' stated in the work of creation means that the day follows the night, so too the 'one day' stated with regard to an animal and its young means that the day follows the night.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "ben-zoma"
+ ],
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-follows-night"
+ ],
+ "notes": "The halakhic weight of the verse, and the flat contradictory of the Latin bench. Ben Zoma — the same tradent who reads merahefet as a measured gap in K7 — ties 'one day' in Lev 22:28 to 'one day' in Genesis by verbal analogy and rules that the day follows the night: reckoning begins at evening. Augustine says in so many words that the days are counted a mane usque in mane; Ambrose says the day has the birthright over the night; Hugh says every dawn belongs to the preceding day. Same five words of Genesis, two calendars. Steinsaltz/Davidson English is CC BY-NC and is not embedded; this is a fresh draft against the Wikisource Aramaic."
+}

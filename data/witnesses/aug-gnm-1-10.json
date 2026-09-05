@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnm-1-10",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-389",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "reliqui dies computantur a mane usque in mane",
+  "en": "the remaining days are counted from morning to morning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et hic calumniantur Manichaei, dum putant ita dictum esse, quasi a vespera dies coeperit. Non intelligunt operationem illam qua lux facta est, et divi sum est inter lucem et tenebras, et vocata est lux dies, et tenebrae nox; hanc ergo totam operationem non intelligunt ad diem pertinere: post hanc autem operationem tanquam finito die facta est vespera. Sed quia etiam nox ad diem suum pertinet, non dicitur transisse dies unus, nisi etiam nocte transacta cum factum est mane: sic deinceps reliqui dies computantur a mane usque in mane.",
+  "source": "PL 34, col. 180",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Here too the Manichees carp, supposing it was said as though the day began from evening. They do not understand that the whole of that working — by which the light was made, and division was made between light and darkness, and the light was called Day and the darkness Night — that this whole working belongs to the day; and that after this working, the day being as it were finished, evening was made. But because the night also belongs to its own day, the one day is not said to have passed until, the night too being over, morning came: and so thereafter the remaining days are counted from morning to morning.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-precedes-night",
+  "evening-is-completion"
+ ],
+ "notes": "Augustine's earliest answer, and the one the Latin bench keeps: the day does not begin at evening. The whole work belongs to the day; evening is what follows a finished day; and the days are counted a mane usque in mane, morning to morning. The Manichees are the named opponents, but the reckoning he rejects is the one Ben Zoma rules for in b. Chullin 83a — the day that follows the night. Neither side knows it is contradicting the other."
+}

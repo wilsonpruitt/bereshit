@@ -1,0 +1,42 @@
+{
+ "id": "bonaventure-sent-2-12-1-2",
+ "work": "bonaventure-sent",
+ "author": "bonaventure",
+ "tradition": "latin",
+ "date": 1252,
+ "date_precision": "range-1250-1252",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "illi dies non fuerunt dies materiales, sed potius spirituales",
+  "en": "those days were not material days but rather spiritual ones"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quidam enim Sancti in hac quaestione magis secuti sunt viam theologicam, trahentes rationem ad ea quae sunt fidei. Opinio Augustini. Quidam vero, inter quos praecipuus fuit Augustinus, magis secuti sunt viam philosophicam, quae illa ponit, quae magis videntur rationi consona: unde et intellectum Scripturae traxit ad rationis confirmationem et attestationem. Unde cum videatur rationabilius, a summa potentia omnia produci simul, et mora temporis interiacentis nullius videatur esse utilitatis vel necessitatis; posuit, omnia simul esse producta, suam positionem confirmans per auctoritates sacrae Scripturae, et exponens illud quod videtur sibi contraire, videlicet de dierum distinctione, ostendens, quod illi dies non fuerunt dies materiales, sed potius spirituales, qui omnes simul potuerunt esse. — Et haec positio multum fuit rationabilis et valde subtilis.\n\nNon omnibus placet. Verumtamen, quia ad hanc positionem videtur intellectus Scripturae distrahi, et securius est et magis meritorium, intellectum nostrum et rationem omnino Scripturae supponere, quam ipsam aliquo modo distrahere: ideo communiter alii doctores, et qui praecesserunt Augustinum, et qui secuti sunt, sic intellexerunt et posuerunt, sicut textus et littera sacrae Scripturae Genesis sonare videtur. Unde posuerunt, omnia corporalia Conclusio. simul esse creata in materia, sed non simul, sed per senarium dierum, esse distincta in forma.",
+  "source": "In II Sent., d. XII, a. 1, q. 2 (Quaracchi 1885, II.296–297)",
+  "license": "pd",
+  "edition": "Opera Omnia, Tomus II, Quaracchi 1885; text re-set from the plates in ~/bonaventure-sentences"
+ },
+ "english": {
+  "text": "For some Saints in this question followed more the theological way, drawing reasoning toward those things which are of the faith. Opinion of Augustine. But others, among whom the principal was Augustine, followed more the philosophical way, which lays down those things which seem more consonant with reason: hence he also drew the meaning of Scripture toward the confirmation and attestation of reason. Therefore, since it seems more reasonable that all things be produced at once by the supreme power, and that an intervening delay of time would seem to be of no utility or necessity, he held that all things were produced at once, confirming his position through the authorities of sacred Scripture, and explaining that which seems to him to contradict it — namely, the distinction of days — by showing that those days were not material days but rather spiritual [days], which could all be at once. — And this position was very reasonable and very subtle.\n\nNot pleasing to all. Nevertheless, because the meaning of Scripture seems to be twisted by this position, and it is safer and more meritorious to submit our understanding and reason wholly to Scripture rather than in any way to twist it: therefore commonly the other doctors, both those who preceded Augustine and those who came after, understood and held [the matter] as the text and letter of sacred Scripture of Genesis seems to sound. Hence they held that all corporeal things were created at once Conclusion. in matter, but not at once — rather, through a senary of days — were distinguished in form.",
+  "translator": "wilson-pruitt",
+  "license": "wroot-bonaventure",
+  "edition": "bonaventure.wrootpress.com, In II Sent. d.12 a.1 q.2"
+ },
+ "cruxes": [
+  "one-day-evening-first",
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "simul",
+  "six-days-literal"
+ ],
+ "notes": "The moment the Latin tradition decides. Bonaventure sets out Augustine's position fairly and generously — the philosophical way, holding that all things were produced at once and that the days of Genesis were spiritual and could all be simultaneous — and calls it 'very reasonable and very subtle.' Then he declines it, on a ground that is not exegetical but moral: it is safer and more meritorious to submit our reason to Scripture than to twist Scripture to our reason. The common doctors, before Augustine and after, held that all bodies were created at once in matter but distinguished in form through the six days. Augustine's day, the one day repeated, does not survive this paragraph as the school's reading of Genesis 1."
+}

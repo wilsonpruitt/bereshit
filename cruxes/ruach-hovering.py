@@ -32,7 +32,7 @@ onk_he, _, onk_lic = sef("targ-onk", "he", 1)
 add(id="targ-onk-1-2", work="targ-onk", author="onkelos", tradition="rabbinic",
     date=200, date_precision="circa", place="babylonia",
     anchor={"verse": "gen.1.2"}, lemma={"arc": "וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא", "en": "and a wind from before the LORD was blowing"},
-    original={"lang": "arc", "text": onk_he, "source": "Sefaria, 'Onkelos Genesis'", "license": onk_lic.lower().replace(" ", "-")},
+    original={"lang": "arc", "text": onk_he, "source": "Sefaria, 'Onkelos Genesis'", "license": {"public domain": "pd"}.get(onk_lic.lower(), onk_lic.lower().replace(" ", "-"))},
     english={"text": "And the earth was waste and empty, and darkness was spread over the face of the deep, and a wind from before the LORD was blowing over the face of the waters.", **DRAFT},
     cruxes=["ruach-hovering", "tohu-vabohu"], senses=["translation"],
     notes="Onkelos makes two decisions at once: ruach is a wind, not a spirit, and 'from before the LORD' keeps God at a remove; merahefet becomes menashva, 'blowing'. No bird, no hovering. Etheridge's PD English exists on Sefaria but did not return by version title; fetch from archive.org.")
@@ -373,3 +373,4 @@ PLACES = {
  "paris": {"name": "Paris", "lat": 48.86, "lon": 2.35},
  "regensburg": {"name": "Regensburg", "lat": 49.02, "lon": 12.10},
 }
+SHORT = "Ruach merahefet"
