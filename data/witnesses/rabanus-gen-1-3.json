@@ -1,0 +1,39 @@
+{
+ "id": "rabanus-gen-1-3",
+ "work": "rabanus-gen",
+ "author": "rabanus",
+ "tradition": "latin",
+ "date": 822,
+ "date_precision": "range-819-822",
+ "place": "fulda",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "CAPUT II. Ubi lux primum fieri jubetur",
+  "en": "Chapter II. Where light is first commanded to be made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Congruit operibus Dei ut mundi ornatum a luce incipiat, cum ipse sit lux vera, lucemque habitet inaccessibilem (I Tim. VI) ; cujus beatissima visione mox creati in coelis coelorum angeli jam perfrui coeperant. Apte huic quoque saeculo ornando primam materialis gratiam lucis donavit, ut esset unde caetera quae crearet apparerent. Quod autem dixisse Deus, sive ut lux fieret, sive alia quaeque perhibetur, non nostro more per sonum vocis corporeum fecisse credendus est, sed altius intelligendum dixisse Deum ut fieret creatura, quia per Verbum suum omnia, id est, per unigenitum Filium fecit. De quo manifestius evangelista Joannes: In principio, inquit, erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in principio apud Deum; omnia per ipsum facta sunt (Joan. I) . Quod ergo ait, omnia facta per Verbum Dei Joannes, hoc est, quod Moyses ait, quia dixit Deus, Fiat lux; dixit, Fiat firmamentum; dixit, Fiat caetera creatura. Hoc quod psalmus adjuncta et Spiritus sancti persona dicit: Verbo Domini coeli firmati sunt, et Spiritu oris ejus omnis virtus eorum (Psal. XXXII) . Si autem quaeritur quibus in locis jubente Deo facta sit lux, cum adhuc abyssus omnem terrae amplitudinem contegeret, patet profecto quia in superioribus ejusdem terrae partibus",
+  "source": "PL 107, col. 447C",
+  "cc_idno": "8885",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It befits the works of God that he should begin the adorning of the world from light, since he himself is the true light and dwells in light inaccessible (1 Tim 6:16); in the most blessed beholding of which the angels, newly created in the heaven of heavens, had already begun to rejoice. Fittingly he gave to this world too, for its adorning, the first grace of material light, so that there might be something from which the rest that he would create could appear. […] But if it is asked in what places, at God's bidding, the light was made, since the abyss still covered the whole breadth of the earth — it is quite plain that it was in the upper parts of that same earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis"
+ ],
+ "notes": "Bede again, verbatim and unattributed, as at K1 and K7 and K10; the only visible editorial act is the chapter heading Rabanus puts over it, 'Where light is first commanded to be made', which turns Bede's continuous exposition into a lemma. Elided at […] is the long passage on how God speaks — that Moses' 'God said' and John's 'all things were made through the Word' are one statement — which Rabanus also takes from Bede entire."
+}

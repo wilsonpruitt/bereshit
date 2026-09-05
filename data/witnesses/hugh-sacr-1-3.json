@@ -1,0 +1,39 @@
+{
+ "id": "hugh-sacr-1-3",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "ipsamque vice et loco solis factam",
+  "en": "and that it was made in the sun's stead and place"
+ },
+ "original": {
+  "lang": "la",
+  "text": "corporalibus rebus et visibilibus illuminandis, non nisi lucem corpoream congruere potuisse. Omne autem corpus quantumlibet subtile et spirituali naturae approximans, loco circumscribi necesse est. Rursumque nisi mobilis fuisset lux illa, nequaquam alterna vicissitudine diem ac noctem distinguere, nec temporis spatium ullatenus sine motu peragere valuisset. Secundum hanc itaque considerationem, convenientius puto ut credamus lucem illam in principio factam ad illuminanda corporea sine dubio corpoream fuisse, quale fortasse esse potuisset corpus aliquod lucidum, cujus praesentia cuncta illustrarentur, quemadmodum nunc in sole videri potest, ipsamque vice et loco solis factam, ut interim motu suo circumagitaretur, et noctem diemque discerneret.",
+  "source": "PL 176, col. 194A",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "…for the lighting of bodily and visible things, nothing but a bodily light could have been suitable. And every body, however fine and however near it comes to a spiritual nature, must be circumscribed by place. And again, unless that light had been mobile, it could in no way have distinguished day and night by their alternating turns, nor traversed any space of time at all without motion. According to this consideration, then, I think it more fitting that we believe that light, made in the beginning for the lighting of bodily things, to have been beyond doubt bodily — such as some luminous body might perhaps have been, by whose presence all things were lit, as can now be seen in the sun — and that it was made in the sun's stead and place, so that for the time being it was carried round by its own motion, and marked off night and day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis"
+ ],
+ "notes": "The argument the Victorines put under the twelfth century's physical answer, and it is an argument from fitness of means: bodily things can only be lit by a bodily light; every body is in a place; and a light that made evening and morning must have moved, since without motion no span of time is traversed. From which the first light was a luminous body standing in the sun's stead and turning as the sun turns. The chapter headings of De sacramentis announce the whole programme — 'why light was made first', 'of what kind that light was made, and where', 'that light illumined three days, and why it was made before the sun' — which is the crux set out as a syllabus."
+}

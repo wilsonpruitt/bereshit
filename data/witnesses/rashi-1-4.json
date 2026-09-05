@@ -1,0 +1,38 @@
+{
+ "id": "rashi-1-4",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1080-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "he": "וַיַּרְא … וַיַּבְדֵּל",
+  "en": "and he saw … and he divided"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וירא אלהים את האור כי טוב ויבדל. אַף בָּזֶה אָנוּ צְרִיכִין לְדִבְרֵי אַגַּדָה, רָאָהוּ שֶׁאֵינוֹ כְדַאי לְהִשְׁתַּמֵשׁ בּוֹ רְשָׁעִים, וְהִבְדִּילוֹ לַצַּדִּיקִים לֶעָתִיד לָבֹא. וּלְפִי פְּשׁוּטוֹ כָּךְ פָּרְשֵׁהוּ, רָאָהוּ כִּי טוֹב, וְאֵין נָאֶה לוֹ וְלַחֹשֶׁךְ שֶׁיִּהְיוּ מִשְׁתַּמְּשִׁים בְּעִרְבּוּבְיָא, וְקָבַע לָזֶה תְחוּמוֹ בַּיּוֹם, וְלָזֶה תְחוּמוֹ בַּלַּיְלָה:",
+  "source": "Rashi on Gen 1:4, s.v. וירא אלהים את האור כי טוב ויבדל",
+  "license": "pd"
+ },
+ "english": {
+  "text": "וירא אלהים את האור כי טוב ויבדל AND GOD SAW THE LIGHT THAT IT WAS GOOD, AND GOD CAUSED A DIVISION — Here, also, we must depend upon the statement of the Agada: He saw that the wicked were unworthy of using it (the light); He, therefore, set it apart (ויבדל), reserving it for the righteous in the world to come (Chagigah 12a). But according to the plain sense explain it thus: He saw that it was good, and that it was not seemly that light and darkness should function together in a confused manner. He therefore limited this one’s sphere of activity to the daytime, and this one’s sphere of activity to the nighttime (see Genesis Rabbah 3:6).",
+  "translator": "Rosenbaum–Silbermann 1929–34",
+  "license": "silbermann"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "lux-hidden"
+ ],
+ "notes": "Rashi puts the two rabbinic answers in his usual order and names both sources. First 'here too we must depend on the statement of the Agada': God saw that the wicked were unworthy of the light, so he set it apart for the righteous in the world to come — and he cites Chagigah 12a for it. Then the plain sense, from Bereshit Rabbah 3:6: it was not seemly that light and darkness should work in confusion, so he gave each its own hours. The hiding is aggada and the division is peshat, and Rashi does not merge them. Note that the hiding is derived from the word va-yavdel, 'and he divided' — the same word K9 is built on."
+}

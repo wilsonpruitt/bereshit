@@ -1,0 +1,40 @@
+{
+ "id": "comestor-hs-1-3",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "range-1169-1173",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "quamdam nubem lucidam",
+  "en": "a kind of luminous cloud"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Dixitque Deus: Fiat lux. Et facta est lux (Gen. I) , id est verbum genuit in quo erat, ut fieret lux, id est tam facile, ut si quis diceret verbo. Lucem vocat quamdam nubem lucidam, illuminantem superiores mundi partes, claritate tamen tenui, ut fieri solet diluculo! et hoc admodum solis circumagitata. Praesentia sui superius hemisphaerium, et inferius vicissim illuminat.",
+  "source": "PL 198, col. 1057B",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God said: Let there be light. And light was made (Gen 1) — that is, he begot the Word in whom it was that light should be made; that is, as easily as if someone were to say it in a word. By 'light' he means a kind of luminous cloud, lighting the upper parts of the world, but with a thin brightness, such as comes about at dawn; and this driven round much as the sun is. By its presence it lights the upper hemisphere and in turn the lower.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis",
+  "lux-twilight"
+ ],
+ "notes": "The settlement, and it is the physical answer, stated as fact in a handbook with no mention that anybody ever thought otherwise. A luminous cloud, thin as the dawn, driven round like the sun, lighting one hemisphere and then the other. Rupert had argued at length that this cannot be right and Bonaventure will say Augustine's view is the subtler; the Historia scholastica simply prints the cloud, and that is what most of Europe learned. Comestor's angelic-light material, where he has it, is elsewhere and not on this verse."
+}

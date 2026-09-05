@@ -1,0 +1,38 @@
+{
+ "id": "pdre-3-6",
+ "work": "pdre",
+ "author": "pirkei-derabbi-eliezer",
+ "tradition": "rabbinic",
+ "date": 800,
+ "date_precision": "range-750-850",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "he": "מֵאוֹר לְבוּשׁוֹ",
+  "en": "from the light of his garment"
+ },
+ "original": {
+  "lang": "he",
+  "text": "שָׁמַיִם מֵאֵיזֶה מָקוֹם נִבְרְאוּ? מֵאוֹר לְבוּשׁוֹ שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁהוּא לָבוּשׁ. לָקַח מִמֶּנּוּ וּפָרַשׂ כַּשַּׂלְמָה וְהָיוּ מוֹתְחִין וְהוֹלְכִין עַד שֶׁאָמַר לָהֶם: דַּי, וְעַל כֵּן נִקְרָא שְׁמוֹ שַׁדַּי, שֶׁאָמַר לַשָּׁמַיִם דַּי וְעָמְדוּ. וּמִנַּיִן שֶׁמֵּאוֹר לְבוּשׁוֹ נִבְרָא? שֶׁנֶּאֱמַר (תהלים קד, ב): ״עֹטֶה אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָה״.",
+  "source": "Pirkei de-Rabbi Eliezer 3",
+  "license": "pd",
+  "version": "Sefaria Vocalized Edition"
+ },
+ "english": {
+  "text": "Whence were the heavens created? From the light of the garment with which He was robed. He took (of this light) and stretched it like a garment and (the heavens) began to extend continually until He caused them to hear, \"It is sufficient.\" Therefore is He called God Almighty (El Shaddai), who said to the world: \"It is sufficient,\" and it stood (firm). Whence do we know that the heavens were created from the light of His garment? Because it is said, \"Who coverest thyself with light as with a garment; who stretchest out the heavens like a curtain\" (Ps. 104:2).",
+  "translator": "Gerald Friedlander, 1916",
+  "license": "pd"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-garment"
+ ],
+ "notes": "The garment of Bereshit Rabbah 3:4, no longer whispered and turned into cosmogony: the heavens were made out of the light of the garment God wraps himself in, taken and stretched like a curtain until he said Dai, enough — which is why he is called El Shaddai. Ps 104:2 supplies both halves in one verse, 'who covers himself with light as with a garment, who stretches out the heavens like a curtain'. The first light is thus not merely prior to the luminaries but prior to the sky and the material of it. Nothing on the Latin bench makes the light the stuff of anything; the nearest is Augustine's report at De Gen. ad litt. I.11 that someone held the luminaries were made out of it."
+}

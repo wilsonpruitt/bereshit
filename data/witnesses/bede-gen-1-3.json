@@ -1,0 +1,39 @@
+{
+ "id": "bede-gen-1-3",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "range-717-725",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "primam materialis gratiam lucis donavit",
+  "en": "he gave the first grace of material light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Congruit operibus Dei, ut mundi ornatum a luce incipiat: qui cum ipse sit lux vera, lucemque habitet inaccessibilem, cujus beatissima visione mox creati in coelis coelorum angeli jam perfrui coeperant, apte huic quoque saeculo ornando primam materialis gratiam lucis donavit, ut esset unde caetera quae crearet apparerent.",
+  "source": "PL 91, col. 16C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It befits the works of God that he should begin the adorning of the world from light: he who, being himself the true light and dwelling in light inaccessible, in the beholding of which the angels, newly created in the heaven of heavens, had already begun to rejoice, fittingly gave to this world too, for its adorning, the first grace of material light, so that there might be something from which the rest that he would create could appear.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis"
+ ],
+ "notes": "Bede does the thing that decides the crux for the whole Carolingian line, and does it in one sentence without argument: he distinguishes three lights — God who is the true light, the inaccessible light the angels were already enjoying in the heaven of heavens, and 'the first grace of material light' given to this world. The angels are on the page and are not the light; they were made earlier and elsewhere. Augustine's identification is not refuted here, it is quietly stepped around, and Alcuin, Rabanus and the Glossa all inherit the step."
+}

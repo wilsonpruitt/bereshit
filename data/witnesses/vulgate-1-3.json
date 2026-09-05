@@ -1,0 +1,39 @@
+{
+ "id": "vulgate-1-3",
+ "work": "vulgate",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "Fiat lux",
+  "en": "Let there be light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Dixitque Deus: Fiat lux. Et facta est lux.",
+  "source": "PL 28, col. 163C",
+  "cc_idno": "7204",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God said: Let there be light. And light was made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "fiat-is-instantaneous"
+ ],
+ "notes": "Four words that carry the crux: the light is made on the first day, the sun on the fourth, and Scripture never says what this light is. Every witness on both benches is answering a question the verse creates by silence."
+}

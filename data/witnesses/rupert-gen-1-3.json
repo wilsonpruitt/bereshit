@@ -1,0 +1,40 @@
+{
+ "id": "rupert-gen-1-3",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1117,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "Quaenam est ista lux?",
+  "en": "What kind of light is that?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quid autem est hoc ipsum quod dixit: Fiat lux? Quaenam est ista lux? Videtur enim nonnullis lucem tunc esse factam, non aliam quam aeris illustrationem, et tenebras illas quae erant super faciem abyssi, sic alterantibus nocte et die divisas, ut, peracto diurni temporis spatio, duodecim horarum scilicet, lux exstingueretur et tenebrae succederent, et itidem transacto nocturni temporis spatio, lux refulgeret, atque ita, per triduum, dies et nox, absque luminaribus istis corporeis, sole scilicet et luna et stellis, ultro sibi invicem cesserint atque successerint. Sed hoc sensu unus hic dies omnium dierum pauperrimus est, quippe cum singuli dierum caeterarum substantiarum creatione vel formatione illustrati sint, hic dies non nisi accidentis cujusdam colore instabili injecto dimissus sit, cum dictum sit, fiat lux. Nam quaecunque caeteris diebus facta sunt, substantialia sunt et permanent, illa autem accidentalis lux tertio reaccensa deinceps omnino deperiit. Et vide utrum condignum sit tantae majestati ut caeterorum dierum opera, verbi gratia, solem, lunam et stellas quae quarto die facta sunt, et aquarum divisionem quae secundo die facta est, statuerit in saeculum et in saeculum saeculi, praeceptumque poneret illis quod non praeteribit (Psal. CXLVIII) , opus autem primae lucis tale faceret, quod mutato consilio post exiguum triduum funditus exstingueret. Quid ergo? An idcirco Spiritus Dei ferebatur super aquas, et dixit, fiat, quod dictum, ut vere boni verbi eructationem, sancta miratur et concelebrat Scriptura, ut talis tantummodo lux fieret accidens aeri mox interitura et nulla crearetur substantia? Melius magni et nominatissimi Patres intellexerunt naturam angelicam, lucis nomine significatam. Eorum sensum rationabilem magis approbamus et sequimur, angelicam creaturam recte lucem esse appellatam, lucem intellectualem, lucem, inquam, non solum quia vim discernendi habentem, verum etiam quia veri et incircumscripti luminis gratia refulgentem.",
+  "source": "PL 167, col. 207A",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But what is this very thing that he said, 'Let there be light'? What kind of light is that? For it seems to some that the light then made was nothing other than an illumination of the air, and that those darknesses which were over the face of the abyss were divided by night and day so alternating that, when the space of daytime — twelve hours, that is — was passed, the light was put out and darkness succeeded; and again, when the space of nighttime was over, the light shone out; and so for three days, day and night, without these bodily luminaries, that is without sun and moon and stars, gave way and succeeded to one another of their own accord. But on this reading this one day is the poorest of all days: for whereas each of the other days is made illustrious by the creation or forming of substances, this day is dismissed with nothing but an unstable colour of some accident thrown over it, when it is said 'let there be light'. For whatever was made on the other days is substantial and abides; but that accidental light, once relit on the third day, thereafter perished utterly. And see whether it be worthy of so great a majesty that the works of the other days — the sun, for instance, and moon and stars that were made on the fourth day, and the division of the waters that was made on the second — he should establish for ever and ever, and lay upon them a decree that shall not pass away (Ps 148:6), but should make the work of the first light such that, changing his counsel, he should utterly put it out after a scant three days. What then? Was it for this that the Spirit of God was borne over the waters, and that he said 'let it be' — a saying that holy Scripture wonders at and celebrates as the uttering of a truly good word — that only such a light should come to be, an accident of the air soon to perish, and no substance be created? The great and most renowned Fathers understood better: the angelic nature, signified by the name of light. Their view we approve as the more reasonable and follow it, that the angelic creature is rightly called light — an intellectual light; light, I say, not only as having the power of discerning, but also as shining with the grace of the true and uncircumscribed light.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "lux-angelica"
+ ],
+ "notes": "The best argument on the crux, and it is an argument from what would be unworthy. Rupert states the physical reading in full and with its details — twelve hours, three days, no luminaries — and then asks what it would make of the first day: every other day makes a substance that abides, and this one would make an unstable accident, a colour thrown over the air, snuffed out after three days when God changed his mind. Would the majesty that laid on sun and moon a decree that shall not pass away do that? Therefore the light is the angelic nature. He then adds, in the next chapter, that this is not said by likeness but of the thing itself: the visible light and the stars were made in the likeness of that light, not the other way about. Written in the same decade as Honorius' twelve-hour circuit and Hugh's luminous body."
+}

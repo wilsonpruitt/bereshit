@@ -1,0 +1,40 @@
+{
+ "id": "hugh-adnot-1-3",
+ "work": "hugh-adnot",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "range-1125-1135",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "quasi quaedam lucida nubes circumferebatur, sicut modo sol",
+  "en": "it was carried round like a kind of luminous cloud, as the sun is now"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ignis vero distinctus lumen praebuit mundo inferiori qualecunque et motum habens circularem; quasi quaedam lucida nubes circumferebatur, sicut modo sol.",
+  "source": "PL 175, col. 34C",
+  "cc_idno": "11054",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But fire, once distinguished, furnished light of some kind to the lower world, and had a circular motion: it was carried round like a kind of luminous cloud, as the sun is now.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis",
+  "lux-twilight"
+ ],
+ "notes": "One sentence of physics, and it names the material: the first light is the element of fire, separated out and carried round the world in a circuit. Honorius says the same in the same decade — this bodily light he brought forth from the element of fire — and Comestor's luminous cloud is the same image. Hugh's fuller treatment is in De sacramentis and is built separately; the Adnotationes give the picture without the argument."
+}

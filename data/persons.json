@@ -299,5 +299,58 @@
   "he": "מֹשֶׁה בֶּן נַחְמָן",
   "dates": "1194–1270",
   "tradition": "rabbinic"
+ },
+ "pirkei-derabbi-eliezer": {
+  "name": "Pirkei de-Rabbi Eliezer",
+  "he": "פִּרְקֵי דְּרַבִּי אֱלִיעֶזֶר",
+  "dates": "c. 750–850",
+  "tradition": "rabbinic",
+  "role": "compilation"
+ },
+ "r-shimon-b-yehotzadak": {
+  "name": "R. Shimon ben Yehotzadak",
+  "dates": "fl. c. 250",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-shmuel-b-nachman": {
+  "name": "R. Shmuel bar Naḥman",
+  "dates": "fl. c. 280",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yitzchak": {
+  "name": "R. Yitzḥak",
+  "dates": "fl. c. 300",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-nechemya": {
+  "name": "R. Neḥemya",
+  "dates": "fl. c. 150",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-zeeira": {
+  "name": "R. Ze'eira son of R. Abahu",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yehuda-b-simon": {
+  "name": "R. Yehuda bar Simon",
+  "dates": "fl. c. 320",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-elazar": {
+  "name": "R. Elazar ben Pedat",
+  "dates": "d. c. 279",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yaakov": {
+  "name": "R. Yaakov",
+  "tradition": "rabbinic",
+  "role": "tradent"
  }
 }

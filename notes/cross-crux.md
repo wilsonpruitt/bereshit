@@ -82,3 +82,35 @@ bench Prov 8:22's *ἔκτισέν με / Dominus creavit me* is the Arian battl
 witnesses on this crux therefore avoid it and reach for **Ps 104:24** instead. That avoidance is
 worth stating in the Phase 8 introduction; it is not a single-witness observation and no thread
 carries it.
+
+## From K8 (built 2026-09-05)
+
+**The strongest cross-crux fact on the site so far, and it cannot be a thread.** Augustine's answer
+to K8 is that the first light is the angelic creation, made on day one. The rabbinic bench is
+debarred from that answer by rulings it makes in two other places: **BR 1:3** (all agree that none
+of the angels were created on the first day, lest anyone say Michael or Gabriel helped) and **BR 3:8**,
+which is K10's built witness (nothing whatever was created on the first day besides God, so that no
+partner in creation can be alleged). Neither of those is a witness on K8, and neither is about the
+light. Phase 4 should decide whether the graph can carry an edge of this kind — a doctrine settled
+at one crux that forecloses an answer at another — or whether it belongs only to the Phase 8 prose.
+It is stated in K8's `finding` for now.
+
+**Material read for K8 that belongs elsewhere, all on disk:**
+
+| locus | belongs to | note |
+|---|---|---|
+| BR 3:2 | K8, unbuilt | *vayhi* and not *vehaya*: the light came about at once. Fits the `fiat-is-instantaneous` family but is about the verb, not the light |
+| BR 3:5 | none yet | light named five times for the five books of the Torah — a structural derashah with no counterpart on the Latin bench |
+| BR 3:6, second half | K9 `good-and-separated` | R. Ze'eira on the havdala blessing, derived from *va-yavdel*; and "he set it aside for himself" |
+| Rashi on 1:4, peshat half | K9 | "not seemly that light and darkness should function in confusion" is K9's answer, in the same dibbur K8 slices |
+| Augustine, *Gnm* I.4 (PL 34:176) | K9 | darkness is not a thing but the absence of light — silence, nakedness, emptiness |
+| Augustine, *Gnl* I.9–10 (PL 34:254) | K10 | the circuit of that light and how it made evening, which is K10's question asked of K8's light |
+| Rabanus (107:467A), Remigius (131:56A) | K9 or a moral layer | the same allegory on both: *fiat lux* = the light of faith, the first commandment, the division of the sons of light from sinners |
+| Isidore (83:209B, continuation) | K7, K8 | *Dixit quoque Deus: Fiat lux, id est illuminatio credulitatis appareat* — the ecclesial allegory reaches this verse too; not built for K8, which took the literal question |
+| Bonaventure II Sent. d.13 a.1 q.2, a.2 q.1–2 | K9, or a light-physics crux | "in what manner that light made day and night"; "whether light is a body or the form of a body"; "whether light is a substantial or an accidental form" — Rupert's substance/accident argument is exactly what a.2 q.2 disputes |
+| PdRE 3, seg. 5 | K5 `heaven-earth-order` | eight things created on the first day, against Chagigah's ten |
+| Hugh, *De sacr.* I.1 caps. X–XII | K9, K10 | "that visible and invisible light were made at once and alike divided from the darkness"; "that the light illumined three days, and why it was made before the sun" |
+
+**Two K10 witnesses now appear on the K8 daf without K8 threads** — `aug-gnl-4-22` and
+`alcuin-int-34` carry `first-light` in their own facets. See the Phase 4 note in
+`SOURCES-FINDINGS.md`.

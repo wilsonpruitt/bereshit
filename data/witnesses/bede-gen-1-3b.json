@@ -1,0 +1,39 @@
+{
+ "id": "bede-gen-1-3b",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "range-717-725",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "quibus in locis facta sit lux",
+  "en": "in what places the light was made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Si autem quaeritur quibus in locis, jubente Deo, facta sit lux, cum adhuc abyssus omnem terrae amplitudinem contegeret, patet profecto quia in superioribus ejusdem terrae partibus, quas et nunc diurna solis lux illustrare consuevit, tunc principalis illa lux emicuit. Nec mirandum nobis divina operatione lucem in aquis posse resplendere, cum et hominum operatione constet eas saepius illustrari, nautarum videlicet, qui in profundo maris demersi, emisso ex ore oleo, perspicuum sibi hoc ac lucidum reddunt. Si enim homo talia per oleum sui oris potest, quantum Deus per Spiritum oris sui creare posse credendus est",
+  "source": "PL 91, col. 17A",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But if it is asked in what places, at God's bidding, the light was made, since the abyss still covered the whole breadth of the earth — it is quite plain that that first light shone in the upper parts of that same earth, the parts which the daily light of the sun is now accustomed to illumine. Nor should we wonder that by a divine working light can shine in the waters, since it is agreed that they are often lit by a human working too: by sailors, that is, who, sunk in the deep of the sea, make it clear and bright for themselves by letting oil out of their mouths. For if a man can do such things by the oil of his mouth, how much must God be believed able to create by the Spirit of his mouth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis"
+ ],
+ "notes": "Once the light is material it acquires a location, and Bede supplies one: in the upper parts of the earth, where the sun's daylight falls now. The objection that the abyss covered everything he answers with an observed fact about divers, who let oil out of their mouths to see under water, and a pun that carries the argument — if a man can do it by the oil of his mouth, what can God do by the Spirit of his mouth. The Glossa keeps both the location and the divers and cuts the pun."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "angelom-gen-1-3",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 845,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "nomine lucis angelica dignitas figuratur",
+  "en": "by the name of light the angelic dignity is figured"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Caeterum quod ait, fiat lux, ob celeritatem divinae potentiae dicitur. Si enim quarta die describuntur luminaria facta, quae lucem administrant, quid est quod dixit, Fiat lux? An forsitan jam erat aliqua lux creata supra firmamentum, quo lumine sol illuminaretur? Sed nomine lucis angelica dignitas figuratur, quae profecto per superius coelum significatur, nunc lux dicitur. Prius itaque condita est, sed postea convertendo ad contuendam gloriam sui creatoris lux effecta. Et ideo dictum est: Fiat lux, et facta est lux. Ac si manifeste diceretur: Convertatur ad contemplandum incessabiliter me",
+  "source": "PL 115, col. 116D",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "As for his saying 'let there be light', it is said on account of the swiftness of the divine power. For if the luminaries which supply light are described as made on the fourth day, what is it that he said, 'Let there be light'? Was there perhaps already some light created above the firmament, by whose illumination the sun was lit? Rather, by the name of light the angelic dignity is figured, which is signified by the higher heaven and is here called light. It was founded first, then, but was afterwards made light by turning to behold the glory of its creator. And therefore it was said, 'Let there be light, and light was made' — as if it were plainly being said: Let it turn to contemplate me unceasingly.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "lux-angelica"
+ ],
+ "notes": "The one Carolingian on this bench who takes Augustine's side rather than Bede's, and he states the doctrine more sharply than Augustine does: the angelic nature was founded first and became light afterwards, by turning to behold its creator, so that 'let there be light' is a command to contemplate. He reaches it by the same route the Talmud's objectors take — if the luminaries are made on the fourth day, what is this? — and he even floats the physical answer (a light above the firmament from which the sun was lit) before rejecting it. K7 found Angelomus splicing Augustine onto Jerome without naming either; here he does the same with Augustine's angelic light."
+}

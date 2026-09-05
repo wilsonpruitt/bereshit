@@ -62,13 +62,13 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10 and K1 built (2026-09-05). Next up is K8 `first-light`, row 3 of the table.**
-To start that session, paste: *"Build the crux `first-light` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* Everything the checklist needs is on disk — the bench TEI and
-the Sefaria pulls (`br-3`, `b-chag-12a`, `rashi-gen-1`, `pdre-3`) — and `notes/cross-crux.md`
-records, from K10, that most of K8's rabbinic material has already been read: BR 3:6, Chagigah 12a
-segments 7–11, and Rashi on 1:4, which cites Chagigah by name. K8 also wants Bonaventure
-II Sent. d.13 from `~/bonaventure-sentences/vol2/`, sliced as K10 sliced d.12.
+**State: K10, K1 and K8 built (2026-09-05). Next up is K6 `tohu-vabohu`, row 4 of the table.**
+To start that session, paste: *"Build the crux `tohu-vabohu` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* On disk and already read: the Glossa's *inanis / vacua* glosses
+(TEI 8950, VERS. 2, sliced whole for K7's `glossa-1-2-ruach`), BR 2:2–3, Rashi on 1:2 with the Old
+French *estordison*, and the targums. The Vulgate's *inanis et vacua* is a witness in its own right
+— see `PLAN.md` §5. Ramban's *hyle* paragraph (anchors in `notes/cross-crux.md`) belongs to K4 but
+touches *tohu*, so read it and leave it.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -81,7 +81,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 |---|---|---|---|
 | ~~1~~ | ~~K10 `one-day-evening-first`~~ | **BUILT 2026-09-05** — 28 witnesses, 34 threads | 20–25 |
 | ~~2~~ | ~~K1 `beginning-of-what`~~ | **BUILT 2026-09-05** — 34 witnesses, 44 threads | 25–30 |
-| 3 | K8 `first-light` | hidden light (BR 3:6, Chag 12a, PdRE 3) vs angelic light (Augustine); Bonaventure d.13 | 20–25 |
+| ~~3~~ | ~~K8 `first-light`~~ | **BUILT 2026-09-05** — 27 witnesses, 35 threads | 20–25 |
 | 4 | K6 `tohu-vabohu` | Glossa 69D gloss already sliced; Rashi's *estordison*; BR 2:2–3; Vulgate as witness | 15–20 |
 | 5 | K5 `heaven-earth-order` | Shammai/Hillel (BR 1:15, Chag 12a) vs Augustine's *caelum* = spiritual creation | 15–20 |
 | 6 | K4 `ex-nihilo-or-matter` | BR 1:9 philosopher; Conf XII; Abelard already sliced; Ramban Phase 2 | 15–20 |
@@ -158,3 +158,17 @@ arguments on 1:1 and Ambrose and Bruno two each), and three of the greps had to 
 the raw TEI because `grep-bench.py` does not know the Glossa (its `latin-bench.json` entry still had
 `idno: null` although PL 113 = TEI 8950 is on disk and K7 sliced it). **Fixed in this session**, so
 K8 onward can grep the Glossa like any other work.
+
+**Added for K8** (extends the frozen renderings): *lux / lumen* both "light", but keep *lux* and
+*lumen* distinct where a witness contrasts them; *lux corporalis* = "bodily light" and *lux
+spiritualis* = "spiritual light"; *diluculum* = "dawn"; *accidens* = "an accident" and *substantia*
+= "a substance" (Rupert's argument is unintelligible if these are softened); *nubes lucida* =
+"luminous cloud"; *vice et loco solis* = "in the sun's stead and place"; *conversio* of a creature
+to its Creator = "turning", not "conversion". Rabbinic: *ganaz* = "stored away", *or ha-ganuz* =
+"the stored light"; *tzaddikim* = "the righteous"; *le-atid lavo* = "in the time to come".
+
+**Burn, measured on K8 (Opus, 2026-09-05): ~170K tokens.** Back to the K10 figure, and for the
+reason `notes/cross-crux.md` predicted: every rabbinic locus was already on disk and had been read
+once, so the session cost was the Latin survey and the drafting. The Latin side was bigger than the
+table's 20–25 estimate suggested — the twelfth century alone yields six witnesses — but Latin
+witnesses are cheaper than rabbinic ones, because the slicer does the work.

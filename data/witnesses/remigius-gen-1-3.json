@@ -1,0 +1,40 @@
+{
+ "id": "remigius-gen-1-3",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 900,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "qualis esse solet vel ante solis ortum, vel post ejus occubitum",
+  "en": "such as it is wont to be before sunrise or after sunset"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Fiat lux. Lux dicitur a luendo, id est a purgando tenebras. Lux autem illa non ejusmodi erat quae nunc est sole superposito, sed qualis esse solet vel ante solis ortum, vel post ejus occubitum.",
+  "source": "PL 131, col. 55B",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'Let there be light.' Light (lux) is so called from cleansing (luendo), that is, from purging away the darkness. But that light was not of the kind that now is, with the sun set above; rather it was such as it is wont to be before the rising of the sun, or after its setting.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis",
+  "lux-twilight"
+ ],
+ "notes": "Two sentences, and the second is the answer the twelfth century will build a physics on: the light was twilight — what the sky is like before sunrise or after sunset. Honorius says the same (a brightness such as there is now before sunrise), Comestor calls it a luminous cloud thin as the dawn, and Hugh gives it a body and an orbit. The etymology in the first sentence is Isidore's manner and is false; it is kept because Remigius is arguing from it."
+}

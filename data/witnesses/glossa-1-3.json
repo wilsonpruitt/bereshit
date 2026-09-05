@@ -1,0 +1,41 @@
+{
+ "id": "glossa-1-3",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "Lux primo die facta spiritualis vel corporalis intelligitur",
+  "en": "The light made on the first day is understood as spiritual or bodily"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 3.-- « Dixitque Deus: Fiat lux. » (AUG., de Gen. ad litt., lib. I, c. 17, tom. III.) Lux primo die facta spiritualis vel corporalis intelligitur, etc., usque ad mane futuri inchoatio. (BEDA, Hexaem. ) Si autem primo die corporalis lux facta est, congrue mundi ornatus a luce inchoatur, unde caetera, quae creanda erant, videbantur. Si autem quaeritur, ubi est facta, cum abyssus omnem terrae altitudinem tegeret? patet quod in illis partibus, quas nunc illustrat solis diurna lux. Nec mirum lucem in aquis posse lucere, cum etiam nautarum operatione saepius illustrentur, qui in profundo mersi, misso ex ore oleo, aquas sibi illustrant: quae tunc multo rariores quam sint modo, fuere in principio, quia nondum congregatae in uno loco. « Dixitque Deus: Fiat lux. » (AUG. ibid., c. 2.) Non temporaliter: si enim temporaliter, et mutabiliter; si mutabiliter, et per subjectam creaturam, non est lux prima creatura. Sed forsitan, etc., usque ad ut sit et ut maneat. « Fiat lux. » (AUG. ibid., c. 4, 5, 9.) Ea conditione scilicet qua cuncta subsistunt intemporaliter in Dei sapientia, priusquam in seipsis. « Et facta est lux, » id est angelica et coelestis substantia, in se temporaliter; sicut erat in sapientia, quantum ad ejus incommutabilitatem, aeternaliter. Vel notatur hujus creaturae informitas scilicet et imperfectio antequam formaretur in amore Conditoris: formatur enim cum convertitur ad incommutabile lumen Verbi. « Fiat lux. » (AUG. ibid., c. 10, 11, 16.) Si corporaliter lux facta est, etc., usque ad nondum enim erant animalia quibus haec vicissitudo exhiberetur.",
+  "source": "PL 113, col. 71A",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 3. 'And God said: Let there be light.' (AUGUSTINE, on Genesis to the letter, book I, ch. 17, vol. III.) The light made on the first day is understood as spiritual or bodily, etc., down to: morning, the beginning of what is to come. (BEDE, Hexaemeron.) But if bodily light was made on the first day, fittingly is the adorning of the world begun from light, whence the rest that were to be created might be seen. And if it is asked where it was made, since the abyss covered the whole height of the earth — it is plain that it was in those parts which the daily light of the sun now illumines. Nor is it a wonder that light can shine in the waters, since they are often lit even by the working of sailors, who, sunk in the deep, let oil out of their mouths and light the waters for themselves: which waters were then much thinner than they now are, in the beginning, because they were not yet gathered into one place. 'And God said: Let there be light.' (AUGUSTINE, ibid., ch. 2.) Not temporally: for if temporally, then changeably; if changeably, then through a creature subject to him, and light is not the first creature. But perhaps, etc., down to: that it may be and may abide. 'Let there be light.' (AUGUSTINE, ibid., ch. 4, 5, 9.) On that condition, namely, by which all things subsist timelessly in the wisdom of God before they subsist in themselves. 'And light was made', that is, the angelic and heavenly substance, in itself temporally; as it was in wisdom, so far as concerns its unchangeableness, eternally. Or the unformedness of this creature is noted, that is, its imperfection before it was formed in the love of its Maker: for it is formed when it is turned to the unchangeable light of the Word. 'Let there be light.' (AUGUSTINE, ibid., ch. 10, 11, 16.) If light was made bodily, etc., down to: for there were not yet animals to whom this alternation might be exhibited.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "lux-angelica",
+  "lux-corporalis"
+ ],
+ "notes": "The margin refuses to decide, and it does so by putting four glosses on one verse of which three are Augustine and one is Bede. The first Augustine gloss states the disjunction and abbreviates the discussion with the Glossa's 'etc., usque ad'; Bede's supplies the bodily answer with its location and its divers; then two more Augustine glosses give the angelic answer in full, 'et facta est lux, id est angelica et coelestis substantia'. A reader of this page is told what both parties hold and given no verdict, which is the opposite of what the same margin does at Gen 1:1, where Alcuin's one-word Filio stands unopposed. Note that the Bede gloss cuts his oil-of-the-mouth / Spirit-of-the-mouth pun and keeps the divers."
+}

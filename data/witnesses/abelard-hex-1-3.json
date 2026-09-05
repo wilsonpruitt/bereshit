@@ -1,0 +1,39 @@
+{
+ "id": "abelard-hex-1-3",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "range-1130-1135",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "ipsam sequentium operum distinctionem",
+  "en": "the distinction of the works that follow"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Lucem vero istam quae praedictas tenebras removit, ipsam sequentium operum distinctionem accipimus, qua videlicet confusa illa congeries, quae se nondum visibilem praebebat nec usui apta alicui cognosci poterat, vel ad quid creata esset ex ipsa adhuc percipi valebat",
+  "source": "PL 178, col. 738B",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But that light which removed the aforesaid darkness we take to be the distinction itself of the works that follow — that distinction, namely, by which that confused heap, which did not yet present itself as visible, nor could be known as fit for any use, nor could yet be perceived from itself for what it had been created…",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-is-distinction"
+ ],
+ "notes": "An answer nobody else on either bench gives: the light is neither a body nor an angel but the ordering of the works themselves — the coming-into-distinctness of the confused heap, so that it could be seen and known for what it was made for. Abelard reaches it by taking 'darkness' as unintelligibility rather than as absence of illumination, which is Augustine's privation doctrine turned from optics to knowledge. It is also the only reading on the crux that makes the first light not a thing at all, and so the only one for which the sun on the fourth day raises no difficulty whatever."
+}

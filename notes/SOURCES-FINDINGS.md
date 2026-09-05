@@ -218,3 +218,93 @@ ones and was right about all of them; what it did not have is below.
   `rabanus-gen-1-1b`. `build-crux.py` writes `data/witnesses/<id>.json` unconditionally, so a
   colliding id in a later crux would silently overwrite an earlier crux's witness. Worth a seventh
   check in `check.py`, or a guard in the builder, at Phase 4.
+
+---
+
+# K8 (first-light) — 2026-09-05, fourth session
+
+27 witnesses, 35 threads. `notes/cross-crux.md` was right that most of the rabbinic material was
+already on disk and read; the Latin side was larger than the plan expected.
+
+## What the plan listed vs. what the sources are
+
+- **The Latin bench splits three ways, not two, and the third is Abelard's alone.** Beside the
+  angelic light (Augustine, Angelomus, Rupert) and the bodily one (Basil, Ambrose, Bede, Hugh,
+  Honorius, Comestor, Bonaventure), Abelard makes the light **the distinction of the works
+  themselves** (PL 178:738B): *"Lucem vero istam quae praedictas tenebras removit, ipsam sequentium
+  operum distinctionem accipimus."* Not a body and not an angel — the confused heap becoming
+  distinct and knowable. It is the only reading on the crux for which the fourth day raises no
+  difficulty at all.
+- **Abelard reports the Hebrew again** (PL 178:739D), exactly as K7 found him doing with *volitabat*:
+  *"pro eo quod dicimus: Fiat lux, et facta est lux, in Hebraeo haberi: Sit lux, et fuit lux."* The
+  observation is correct — *yehi or va-yehi or* is one verb twice, as the Greek's γενηθήτω / ἐγένετο
+  is — and his conclusion, that no delay is interposed, is what the rest of the bench reaches by
+  other routes. **Source still unknown** [CHECK], as at K7.
+- **Bede does not refute the angelic light; he steps round it in one sentence** (PL 91:16C) by
+  naming three lights instead of two — God the true light, the inaccessible light the angels were
+  *already* enjoying in the heaven of heavens, and *primam materialis gratiam lucis* given to this
+  world. The angels are on the page, already made, and are not the light. Alcuin, Rabanus and the
+  Glossa's Bede gloss all inherit the step without noticing it is one.
+- **Alcuin adds two words to Bede that are a doctrine** (PL 100:520A, Int. 33): *a luce aeterna lux
+  temporalis*. Bede set the eternal light beside the material one; Alcuin derives the second from
+  the first.
+- **Bede's divers are an argument and the Glossa keeps only half of it.** PL 91:17A defends light in
+  the waters by sailors who let oil out of their mouths to see under water, and closes with the pun
+  that carries it: if a man can do it *per oleum sui oris*, what can God do *per Spiritum oris sui*?
+  The Glossa (113:71A) keeps the divers and cuts the pun.
+- **The twelfth century builds a physics, and three writers of one generation agree on it without
+  citing each other**: Hugh, *Adnot.* (175:34C), the element of fire carried round *quasi quaedam
+  lucida nubes, sicut modo sol*; Honorius (172:255C), *hanc corporalem lucem de elemento ignis*, a
+  brightness like the sky before sunrise, twelve hours above and twelve below; Comestor (198:1057B),
+  *quamdam nubem lucidam … claritate tamen tenui, ut fieri solet diluculo*. All three are Remigius'
+  twilight (131:55B) given a body and an orbit.
+- **Rupert's counter-argument is the best thing on the crux and it is his own** (167:207A): the
+  physical light would make the first day *omnium dierum pauperrimus* — every other day makes a
+  substance that abides, this one an unstable accident snuffed out after three days by a God who
+  changed his counsel. Would the majesty that laid on sun and moon *praeceptum quod non praeteribit*
+  do that? He also insists in the next chapter that the angelic light is meant *non pro similitudine,
+  sed pro re vera*: the visible stars were made in the likeness of that light, not the reverse.
+- **Bruno declines the question** (164:149B). He asks it in the bench's own words — *quae est ista
+  lux, quae prior sole, luna, et stellis esse perhibetur?* — and answers that the verse settles it
+  two clauses later: *Lux igitur pro die ponitur.*
+- **Bonaventure closes it, and closes it on the weight of expositors** (II Sent. d.13 a.1 q.1,
+  Quaracchi II.312–313), which is the same move as K10's d.12 a.1 q.2. He grants Augustine's
+  position is probable and reasonable and declines it because *istam positionem magis insinuat textus
+  Scripturae, et magis sequuntur expositores*. His report of Augustine also preserves an argument
+  Augustine makes obliquely: that of bodily things Scripture says *fiat*, *fecit* and *factum est*,
+  and of the light it does not.
+- **The Glossa refuses to decide this verse**, unlike Gen 1:1. Four glosses: Augustine stating the
+  disjunction, Bede giving the bodily light with its place and its divers, and two more Augustine
+  glosses giving the angelic reading in full (*et facta est lux, id est angelica et coelestis
+  substantia*). No verdict on the page.
+- **Bereshit Rabbah 3:4 asks the question the Latin bench never asks** — not what the light was but
+  what it was made *from* — and gives two answers: the garment of Ps 104:2 (said in a whisper, and
+  the exchange about why it is whispered is part of the witness), and, from R. Berekhya in the name
+  of R. Yitzḥak, **the site of the Temple**.
+- **PdRE 3 turns the garment into cosmogony**: the heavens were made *out of* the light of the
+  garment, stretched until God said *Dai* — whence El Shaddai. Nothing on the Latin bench makes the
+  first light the stuff of anything, except the unnamed opinion Augustine reports.
+- **Not built, and deliberately**: BR 3:2 (*vayhi* and not *vehaya*, the light came about at once)
+  and BR 3:5 (light named five times for the five books). Both are about the wording rather than
+  about what the light is. BR 3:2 belongs with the *fiat-is-instantaneous* answer family if a later
+  session wants it.
+
+## Text and licence problems found
+
+- **b. Chagigah 12a: the Hebrew and English segment arrays align, but the crux material is at
+  indices 7–11, not 6–10.** Index 6 is the *tohu* green-line baraita. Both versions on disk
+  (Wikisource Aramaic CC BY-SA; Sefaria Community Translation CC0) segment identically — checked
+  segment by segment before slicing.
+- **Wilson's Bonaventure markdown needed a hyphenation repair.** The Quaracchi page break falls
+  inside a word (*appro-* / p.313 / *baverunt*), so joining the paragraphs across the page marker
+  produces *appro- baverunt*. The K8 slicer strips `-\n\n`. It also strips **all** asterisks rather
+  than trying to pair them: an odd asterisk left by an unpaired `**bold**` marker leaked one into
+  the text on the first build (*per lucem\* illam*). **K10's `cruxes/one-day-evening-first.py` uses
+  the pairing regex and may carry the same latent defect** — not touched, per the one-crux rule.
+
+## A note for Phase 4
+
+`aug-gnl-4-22` and `alcuin-int-34`, both built for K10, carry `first-light` in their own facets and
+so appear on this crux's daf without any K8-tagged thread attached to them. That is the design
+working, not a fault; but Phase 4 should decide whether a witness that appears on a crux ought to be
+threaded into it, or whether unthreaded cross-crux carriers are acceptable on the page.

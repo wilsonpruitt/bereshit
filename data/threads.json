@@ -886,5 +886,285 @@
   "type": "echoes",
   "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
   "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k8-01",
+  "from": "pdre-3-6",
+  "to": "br-3-4",
+  "type": "echoes",
+  "evidence": "The garment of Ps 104:2, no longer whispered: Bereshit Rabbah has the Holy One wrap himself in the light like a garment; Pirkei de-Rabbi Eliezer takes the next clause of the same verse — 'who stretches out the heavens like a curtain' — and makes the heavens out of that light.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-02",
+  "from": "br-3-4",
+  "to": "br-3-6",
+  "type": "parallel",
+  "evidence": "Two sections of one compilation asking the crux from opposite ends: 3:4 asks what the light was made from and answers with God's garment and the site of the Temple; 3:6 asks where it is now and answers that it was stored away for the righteous.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-03",
+  "from": "b-chag-12a-light",
+  "to": "br-3-6",
+  "type": "parallel",
+  "evidence": "The same doctrine on two proof texts and neither cites the other: the midrash hides the light because it would dim the sun's disc, and proves the storing from Isa 30:26; the Talmud hides it from the generations of the Flood and the Dispersion, and proves it from Job 38:15 and from 'God saw the light, that it was good' read through Isa 3:10, since 'good' means the righteous.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-04",
+  "from": "rashi-1-4",
+  "to": "b-chag-12a-light",
+  "type": "cites",
+  "evidence": "Rashi names his source — 'here too we must depend upon the statement of the Agada' — and gives R. Elazar's answer: God saw the wicked were unworthy of the light and set it apart for the righteous in the world to come. Silbermann's note supplies the reference to Chagigah 12a.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-05",
+  "from": "rashi-1-4",
+  "to": "br-3-6",
+  "type": "cites",
+  "evidence": "The plain sense, taken from Bereshit Rabbah: it was not seemly that light and darkness should work in confusion, so he assigned each its own hours. Rashi keeps the aggadic hiding and the peshat division side by side and does not merge them.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-06",
+  "from": "aug-gnl-1-11",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "The one place on this crux where the benches hold the same opinion in the same words. Augustine: 'this too I know to have been said by someone, that the nature of light was first brought in when it was said Let there be light, but afterwards, when the luminaries are spoken of, it was recorded what was made out of that same light.' The Bavli: 'the sages say, these are the lights that were created on the first day but were not hung up until the fourth.' Augustine cannot name whose opinion it is; the Talmud names the party that holds it, against R. Yaakov.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-07",
+  "from": "alcuin-int-33",
+  "to": "pdre-3-6",
+  "type": "parallel",
+  "evidence": "Both make the first light derive from God himself rather than merely follow him: Alcuin adds to Bede's sentence the words a luce aeterna, so that the temporal light is made out of the eternal one, and Pirkei de-Rabbi Eliezer makes the heavens out of the light of the garment God wears. Neither argues for it; both state it as though it needed none.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-08",
+  "from": "bede-gen-1-3b",
+  "to": "br-3-4",
+  "type": "parallel",
+  "evidence": "The same question — where — and two answers that could not be further apart. Bede: in the upper parts of the earth, the parts the sun's daylight now falls on, and he defends it with the divers who let oil from their mouths. R. Berekhya in the name of R. Yitzḥak: the light was created from the site of the Temple, proved from Ezek 43:2 and Jer 17:12.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-09",
+  "from": "hugh-sacr-1-3",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "Both make the first light continuous with the sun rather than replaced by it: the sages hold that the lights were created on the first day and hung on the fourth; Hugh holds that a luminous body was made in the sun's stead and place, turning as the sun turns, until the sun came. The Latin argument is from the fitness of means, the rabbinic from the wording of Gen 1:17.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-10",
+  "from": "pdre-3-6",
+  "to": "aug-gnl-1-11",
+  "type": "parallel",
+  "evidence": "Both make the first light the material of something later: Augustine's unnamed authority has the luminaries made out of it, and Pirkei de-Rabbi Eliezer has the heavens made out of it. On the Latin side this is one option among three and is not adopted; on the rabbinic side it is stated as cosmogony.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-11",
+  "from": "ambrose-hex-1-9",
+  "to": "basil-hex-2-7",
+  "type": "parallel",
+  "evidence": "Ambrose's Hexaemeron follows Basil's Greek homilies closely and this passage is no exception — the light as the world's first ornament, the air taking it up, the suddenness. The witness date here is that of Eustathius' Latin version, which is later than Ambrose; Basil's Greek (378) precedes him and is his source, so the dependence runs the other way from what the dates on this page suggest.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-12",
+  "from": "aug-gnl-1-3",
+  "to": "ambrose-hex-1-9",
+  "type": "contests",
+  "evidence": "Ambrose says God dwells in inaccessible light and is the true light of John 1:9, 'but he made that light' — hanc, the one in the verse, a thing among things. Augustine asks whether the light is spiritual or bodily and answers that it can be the first creature, the spiritual nature called heaven in verse 1, and that 'let there be light' is its conversion. The two positions the rest of the bench divides between are already both in place by 410.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-13",
+  "from": "aug-gnl-1-11",
+  "to": "aug-gnl-1-3",
+  "type": "echoes",
+  "evidence": "Book I asks what the light is; eight chapters later the same book asks what the sun can be for if that light already made a day. The second question is the pressure that produces every physical answer on this crux, and Augustine raises it against himself.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-14",
+  "from": "bede-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Bede does not refute the angelic light; he steps round it, and the step is in one sentence. He names three lights — God who is the true light, the inaccessible light the angels already enjoyed in the heaven of heavens, and 'the first grace of material light' given to this world — so that the angels are on the page, already made, and are not the light. Alcuin, Rabanus and the Glossa's Bede gloss all inherit the step.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-15",
+  "from": "bede-gen-1-3b",
+  "to": "bede-gen-1-3",
+  "type": "parallel",
+  "evidence": "The same exposition a page later, asking the question a material light forces: where was it, since the abyss covered everything? Bede's answer, the upper parts of the earth, only makes sense because he has already declined to make the light angelic.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-16",
+  "from": "alcuin-int-33",
+  "to": "bede-gen-1-3",
+  "type": "cites",
+  "evidence": "'Congruit operibus Dei … ut esset unde caetera quae crearet apparerent' is Bede word for word, compressed into a schoolroom answer, with a luce aeterna added and the angels of the heaven of heavens dropped.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-17",
+  "from": "rabanus-gen-1-3",
+  "to": "bede-gen-1-3",
+  "type": "cites",
+  "evidence": "Bede reproduced verbatim and unattributed, as at K1, K7 and K10; the only visible editorial act is the chapter heading Rabanus sets over it, 'Ubi lux primum fieri jubetur', which turns a continuous exposition into a lemma.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-18",
+  "from": "angelom-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "echoes",
+  "evidence": "Angelomus takes the side of the bench Bede stepped away from, and states it more sharply than Augustine: the angelic dignity was founded first and was made light afterwards by turning to behold its creator, so that 'let there be light' means 'let it turn to contemplate me unceasingly'.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-19",
+  "from": "angelom-gen-1-3",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "The same objection in the same form on both benches: if the luminaries are made on the fourth day, what is this light? The Talmud raises it from Gen 1:17 and answers with R. Elazar's hidden light; Angelomus raises it, floats a light above the firmament from which the sun was lit, and answers with the angels.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-20",
+  "from": "glossa-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "cites",
+  "evidence": "Three of the four glosses on this verse are Augustine, cited by book and chapter, and between them they give the angelic reading entire: 'et facta est lux, id est angelica et coelestis substantia, in se temporaliter', with the doctrine that the creature is formed when it turns to the unchangeable light of the Word.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-21",
+  "from": "glossa-1-3",
+  "to": "bede-gen-1-3b",
+  "type": "cites",
+  "evidence": "The Bede gloss keeps the bodily light with its location and its divers letting oil from their mouths, and cuts the pun that carried Bede's argument — if a man can do it by the oil of his mouth, what can God do by the Spirit of his mouth. What is left is the observation without the reason for making it.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-22",
+  "from": "bruno-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Bruno asks Augustine's question in Augustine's terms — what is that light, said to be prior to sun and moon and stars? — and then refuses to answer it: God called the light Day, so light here is put for day, and there is nothing further to look for.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-23",
+  "from": "abelard-hex-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Neither limb of Augustine's disjunction. Abelard makes the light the distinction of the works themselves, the coming-into-distinctness of the confused heap so that it could be seen and known for what it was made for — which is Augustine's own doctrine that darkness is privation, moved from optics to knowledge, and used against him.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-24",
+  "from": "abelard-hex-1-3b",
+  "to": "vulgate-1-3",
+  "type": "contests",
+  "evidence": "'Notandum vero pro eo quod dicimus: Fiat lux, et facta est lux, in Hebraeo haberi: Sit lux, et fuit lux.' Abelard reports the Hebrew against the Latin he is expounding, as K7 found him doing with volitabat at PL 178:735B; the observation is right, and where he got it is unknown.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-25",
+  "from": "abelard-hex-1-3b",
+  "to": "lxx-1-3",
+  "type": "parallel",
+  "evidence": "The feature Abelard finds in the Hebrew — one verb twice, 'let it be' and 'it was' — is exactly what the Greek does with γενηθήτω and ἐγένετο, and exactly what the Latin's fiat / facta est does not. He draws from it the conclusion the whole bench had been reaching for by other means: no delay is interposed.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-26",
+  "from": "honorius-hex-1-3",
+  "to": "remigius-gen-1-3",
+  "type": "echoes",
+  "evidence": "Remigius' twilight — 'not of the kind that now is, with the sun set above, but such as is wont to be before sunrise or after sunset' — becomes Honorius' 'such a brightness as there now is before the rising of the sun', with twelve hours above the earth and twelve below added.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-27",
+  "from": "hugh-adnot-1-3",
+  "to": "honorius-hex-1-3",
+  "type": "parallel",
+  "evidence": "Two Paris and Regensburg sentences of the same decade with the same physics: the light is the element of fire, separated out, carried round the world in a circuit like a luminous cloud, as the sun is now.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-28",
+  "from": "hugh-sacr-1-3",
+  "to": "hugh-adnot-1-3",
+  "type": "echoes",
+  "evidence": "The same author giving the picture in the Adnotationes and the argument in De sacramentis: bodily things can only be lit by a bodily light, every body is in a place, and a light that made evening and morning must have moved, since without motion no span of time is traversed.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-29",
+  "from": "hugh-sacr-1-3",
+  "to": "aug-gnl-1-11",
+  "type": "echoes",
+  "evidence": "Augustine's question — what is the sun for, if that light already made a day — answered by making the first light the sun's placeholder: made vice et loco solis, turning by its own motion until the sun came.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-30",
+  "from": "rupert-gen-1-3",
+  "to": "honorius-hex-1-3",
+  "type": "contests",
+  "evidence": "Rupert states the physical reading with its details — an illumination of the air, twelve hours, three days, no luminaries — and demolishes it on a ground nobody else uses: every other day makes a substance that abides, and this one would make an unstable accident thrown over the air and snuffed out after three days, which is unworthy of the majesty that laid on sun and moon a decree that shall not pass away.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-31",
+  "from": "rupert-gen-1-3",
+  "to": "angelom-gen-1-3",
+  "type": "echoes",
+  "evidence": "'Melius magni et nominatissimi Patres intellexerunt naturam angelicam, lucis nomine significatam' — Rupert appeals to the Fathers for the angelic light and then goes further than they do, insisting in the next chapter that it is said not by likeness but of the thing itself: the visible light and the stars were made in the likeness of that light, not the other way about.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-32",
+  "from": "comestor-hs-1-3",
+  "to": "hugh-adnot-1-3",
+  "type": "echoes",
+  "evidence": "The luminous cloud verbatim — nubes lucida, driven round much as the sun is — with Hugh's element of fire dropped and the dawn brightness of Remigius and Honorius kept.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-33",
+  "from": "comestor-hs-1-3",
+  "to": "remigius-gen-1-3",
+  "type": "echoes",
+  "evidence": "'Claritate tamen tenui, ut fieri solet diluculo' is Remigius' before-sunrise light, two hundred and seventy years on, stated in a handbook as fact rather than as opinion.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-34",
+  "from": "bonaventure-sent-2-13-1-1",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Augustine's position set out at length and fairly — heaven the unformed spiritual nature, light the angelic nature formed, day the angelic consideration — granted to be probable and reasonable, and then declined: the Catholic treatise-writers approved another way, the text more readily intimates it, and the expositors more generally follow it, so it is the safer and more useful to hold.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-35",
+  "from": "bonaventure-sent-2-13-1-1",
+  "to": "comestor-hs-1-3",
+  "type": "parallel",
+  "evidence": "The schools' settled answer in its two registers, as at K10: Comestor prints the luminous cloud in a handbook without noticing that anyone ever thought otherwise, and Bonaventure raises the question in a disputation in order to rule the same way. The corporeal light wins by handbook and by quaestio at once.",
+  "crux": "first-light"
  }
 ]

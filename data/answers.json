@@ -170,5 +170,45 @@
  "read-it-twice": {
   "label": "Say the phrase twice",
   "gloss": "In principio is to be repeated — once in the Son, once at the beginning of time — rather than decided (Comestor)."
+ },
+ "lux-corporalis": {
+  "label": "A bodily light",
+  "gloss": "A material light made to light material things, standing in the sun's place until the fourth day (Basil, Ambrose, Bede, Hugh, Honorius, Comestor, Bonaventure)."
+ },
+ "lux-angelica": {
+  "label": "The angelic creation",
+  "gloss": "The light is the spiritual creature called 'heaven' in v. 1, made light by turning to its Creator (Augustine, Angelomus, Rupert)."
+ },
+ "lux-hidden": {
+  "label": "Stored for the righteous",
+  "gloss": "Too good for the wicked, it was hidden away and is kept for the righteous in the time to come (Bereshit Rabbah, b. Chagigah, Rashi)."
+ },
+ "lux-garment": {
+  "label": "From the light of his garment",
+  "gloss": "God wrapped himself in it like a garment (Ps 104:2); the heavens were stretched out of it (Bereshit Rabbah, Pirkei de-Rabbi Eliezer)."
+ },
+ "lux-from-temple": {
+  "label": "From the site of the Temple",
+  "gloss": "The light was created from the place of the sanctuary (Ezek 43:2; Jer 17:12)."
+ },
+ "lux-becomes-luminaries": {
+  "label": "The luminaries were made from it",
+  "gloss": "The nature of light was made on day one and hung in the firmament on day four (the sages in b. Chagigah 12a; an unnamed opinion in Augustine)."
+ },
+ "lux-twilight": {
+  "label": "A light like the dawn",
+  "gloss": "Not the sun's brightness but what the sky is before sunrise or after sunset (Remigius, Honorius, Comestor, Hugh)."
+ },
+ "lux-is-day": {
+  "label": "'Light' just means day",
+  "gloss": "The verse answers itself: he called the light Day, so light here is put for day (Bruno)."
+ },
+ "lux-is-distinction": {
+  "label": "The distinguishing of the works",
+  "gloss": "The light is the confused heap becoming distinct and knowable, not a thing at all (Abelard)."
+ },
+ "fiat-is-instantaneous": {
+  "label": "Speaking is making",
+  "gloss": "No interval between the command and the thing: the Hebrew says only 'let it be, and it was' (Ambrose, Basil, Angelomus, Abelard)."
  }
 }

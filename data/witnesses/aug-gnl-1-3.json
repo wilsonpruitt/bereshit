@@ -1,0 +1,39 @@
+{
+ "id": "aug-gnl-1-3",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 410,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "utrum spirituale quid, an corporale?",
+  "en": "whether something spiritual or something bodily?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et quid est lux ipsa quae facta est? utrum spirituale quid, an corporale? Si enim spirituale, potest ipsa esse prima creatura, jam hoc dicto perfecta, quae primo coelum appellata est, cum dictum est, In principio fecit Deus coelum et terram: ut quod dixit Deus, Fiat lux; et facta est lux, eam revocante ad se Creatore, conversio ejus facta atque illuminata intelligatur.",
+  "source": "PL 34, col. 248",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And what is that light itself which was made? Is it something spiritual, or something bodily? For if spiritual, it can itself be the first creature, already made perfect by this saying, which was first called heaven when it was said, 'In the beginning God made heaven and earth' — so that what God said, 'Let there be light, and light was made', may be understood as its conversion and illumination, the Creator calling it back to himself.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-angelica"
+ ],
+ "notes": "The crux as a disjunction, in the sentence that decided the Latin question for eight centuries: spiritual or bodily? Augustine leaves the alternative open here in form, but the whole of his exposition follows the first limb, and the doctrine is already complete in the second half of the sentence — the light is the spiritual creature that was called 'heaven' in verse 1, and 'let there be light' is not its making but its conversion, its turning back to the Creator and being illuminated by him. Bonaventure will state this position fairly and decline it, and give the reason: not that it is unreasonable, but that the text more readily intimates the other."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-9",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "Naturae opifex lucem locutus est, et creavit",
+  "en": "The maker of nature spoke light, and created it"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Fiat, inquit, lux. Unde vox Dei in Scriptura divina debuit inchoare, nisi a lumine? unde mundi ornatus, nisi a luce exordium sumere? Frustra enim esset, si non videretur. Erat quidem Deus ipse in lumine, quia lucem habitat inaccessibilem, et erat lumen verum, quod illuminat omnem hominem venientem in hunc mundum: sed eam lucem fieri voluit, quae oculis corporalibus comprehenderetur. Qui aedificium aliquod dignum habitaculo patrisfamilias struere desiderat, antequam fundamenta ponat, unde lucem ei infundat explorat, et ea prima est gratia, quae si desit, tota domus deformi horret incultu. Lux est quae reliquos domus commendat ornatus. Fiat, inquit, lux. Plena vox luminis non dispositionis apparatum significat, sed operationis resplendet effectu. Naturae opifex lucem locutus est, et creavit.",
+  "source": "PL 14, col. 141D",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'Let there be light,' he says. Where should the voice of God in divine Scripture begin, if not from light? Whence should the adorning of the world take its start, if not from light? For it would be in vain, if it were not seen. God himself was indeed in light, for he dwells in light inaccessible, and he was the true light, which enlightens every man coming into this world; but he made that light which we see. […] Where the builder lays the foundations he looks out from where he may pour light into it, and that is the first grace, and if it is wanting the whole house bristles with an unlovely neglect. It is light that commends the rest of the house's ornament. 'Let there be light,' he says. A full utterance of light — it does not signify the apparatus of an arrangement, but shines out with the effect of an operation. The maker of nature spoke light, and created it.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis",
+  "fiat-is-instantaneous"
+ ],
+ "notes": "Ambrose keeps two lights apart in one paragraph and the distinction is the whole crux in miniature: God dwells in light inaccessible and is himself the true light of John 1:9, 'but he made that light' — hanc, this one, the one under discussion. The rest is the ornament argument, that a world had to be lit before it could be seen at all, with the builder's house for an image. Nothing here is angelic. Elided at […]: the sentence on the darkness fleeing and the intervening image of the householder choosing where his windows go."
+}

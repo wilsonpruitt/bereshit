@@ -1,0 +1,40 @@
+{
+ "id": "honorius-hex-1-3",
+ "work": "honorius-hex",
+ "author": "honorius",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "range-1110-1130",
+ "place": "regensburg",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "hanc corporalem lucem de elemento ignis protulit",
+  "en": "he brought forth this bodily light from the element of fire"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et dixit Deus: Fiat lux. Cum de Deo, dixit, scribitur, nostro more dicitur, et efficacia jubentis exprimitur. Dei autem dicere nihil est aliud, quam per verbum suum omnia condere. Per hoc verbum hanc corporalem lucem de elemento ignis protulit, et eam huic mundo intulit. Quae lux tunc talem claritatem, qualem nunc ante solis exortum, exhibuit: et tenues tunc aquas, ut nunc aerem, illustravit. Per duodecim autem horas super terram, ut nunc sol mansit: per duodecim vero, inferiora orbis illuminavit.",
+  "source": "PL 172, col. 255C",
+  "cc_idno": "10991",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God said: Let there be light. When 'he said' is written of God, it is said after our manner, and the efficacy of the one commanding is expressed. But for God to speak is nothing other than to found all things through his Word. Through this Word he brought forth this bodily light from the element of fire, and brought it into this world. Which light then showed such a brightness as there now is before the rising of the sun; and it lit the waters, then thin, as it now lights the air. For twelve hours it remained above the earth, as the sun does now; and for twelve it lit the lower parts of the globe.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis",
+  "lux-twilight"
+ ],
+ "notes": "The physical answer at its most confident and most specific: the light is drawn from the element of fire, its brightness is that of the sky before sunrise, it lights the waters as light now lights the air, and it keeps a twelve-hour circuit above and below. Honorius gives no argument for any of it. Rupert, writing in the same years, describes precisely this opinion — that the light was nothing but an illumination of the air, alternating over twelve hours through three days — in order to demolish it."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "alcuin-int-33",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 800,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "a luce aeterna lux temporalis",
+  "en": "from the eternal light, a temporal light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 33. Quare prima die lux creata legitur?-- Resp. Congruit operibus Dei, ut prima die a [ Ms., de] luce aeterna lux temporalis primo fieret, ut esset unde caetera quae crearet, apparerent.",
+  "source": "PL 100, col. 520A",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 33. Why is light read to have been created on the first day? — Answer. It befits the works of God that on the first day a temporal light should first be made from the eternal light, so that there might be something from which the rest that he would create could appear.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-corporalis"
+ ],
+ "notes": "Bede's sentence reduced to a schoolroom answer, with one word added that is not Bede's and that does the work: a luce aeterna, from the eternal light. Bede had set the eternal light beside the material one; Alcuin makes the temporal light come out of it, which is a claim about derivation and not merely about order. Compare Pirkei de-Rabbi Eliezer, where the heavens are made out of the light of God's garment: on both benches the first light acquires a source in God himself, and on neither is that reading argued for."
+}

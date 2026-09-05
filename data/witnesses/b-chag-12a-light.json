@@ -1,0 +1,43 @@
+{
+ "id": "b-chag-12a-light",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "he": "אוֹר שֶׁבָּרָא הַקָּדוֹשׁ בָּרוּךְ הוּא בַּיּוֹם רִאשׁוֹן",
+  "en": "the light the Holy One created on the first day"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "ואור ביום ראשון איברי והכתיב ויתן אותם אלהים ברקיע השמים וכתיב ויהי ערב ויהי בקר יום רביעי כדר' אלעזר דא\"ר אלעזר אור שברא הקב\"ה ביום ראשון אדם צופה בו מסוף העולם ועד סופו כיון שנסתכל הקב\"ה בדור המבול ובדור הפלגה וראה שמעשיהם מקולקלים עמד וגנזו מהן שנאמר (איוב לח, טו) וימנע מרשעים אורם ולמי גנזו לצדיקים לעתיד לבא שנאמר וירא אלהים את האור כי טוב ואין טוב אלא צדיק שנאמר (ישעיהו ג, י) אמרו צדיק כי טוב כיון שראה אור שגנזו לצדיקים שמח שנאמר (משלי יג, ט) אור צדיקים ישמח כתנאי אור שברא הקב\"ה ביום ראשון אדם צופה ומביט בו מסוף העולם ועד סופו דברי רבי יעקב וחכ\"א הן הן מאורות שנבראו ביום ראשון ולא נתלו עד יום רביעי",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "And was light created on the first day? But it is written, (Genesis 1:17) \"and God set them in the firmament of the heaven,\" and it is written, (Genesis 1:19) \"and there was evening and there was morning, a fourth day.\" It is like R. Elazar. For R. Elazar said, The light which the Holy One, blessed be He, created on the first day, Adam saw through it from one end of the world to the other. When the Holy One, blessed be He, peered at the generation of the Flood and the generation of the Dispersion, and saw that their actions were destructive, He stood up and hid it from them, as it is said, (Job 38:15) \"And from the wicked their light is withheld.\" And for whom did He take it away? For the righteous of the time to come, as it is said, (Genesis 1:4) \"And God saw the light, that it was good,\" and \"good\" only refers to the righteous, as it is said, (Isaiah 3:10) \" Say of the righteous, that he is good.\" Once He saw the light He hid away for the righteous, He rejoiced, as it is said, (Proverbs 13:9) \"He rejoices at the light of the righteous.\" Like [the following] Tannaic argument: The light which the Holy One, blessed be He, created on the first day, Adam observed and peered through it from one end of the world to the other. These are the words of R. Yaakov. And the sages say, These are the lights which were created on the first day, but were not hung up until the fourth day.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "r-elazar",
+  "r-yaakov"
+ ],
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-hidden",
+  "lux-becomes-luminaries"
+ ],
+ "notes": "The whole crux in five short segments, and it opens with the objection in the same form the Latin bench uses: was light created on the first day? But it is written that God set them in the firmament, and that was the fourth day. Two answers follow. R. Elazar's: by that light Adam saw from one end of the world to the other, and when God looked at the generations of the Flood and the Dispersion he hid it, storing it for the righteous. And then a tannaitic dispute — R. Yaakov holds the seeing-light, and the sages say 'these are the lights that were created on the first day but were not hung up until the fourth.' That second answer is exactly the one Augustine reports as having been said 'by someone' at De Genesi ad litteram I.11, without a name."
+}

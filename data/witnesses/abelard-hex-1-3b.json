@@ -1,0 +1,40 @@
+{
+ "id": "abelard-hex-1-3b",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "range-1130-1135",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "in Hebraeo haberi: Sit lux, et fuit lux",
+  "en": "in the Hebrew it is: Let light be, and light was"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Notandum vero pro eo quod dicimus: Fiat lux, et facta est lux, in Hebraeo haberi: Sit lux, et fuit lux; et similiter in caeteris quae sequuntur ubicunque nos habemus: Dixit Deus, Fiat hoc, et factum est ita, in Hebraeo est: Sit hoc, et fuit ita. Quibus fortasse verbis maxima celeritas divinae operationis exprimitur. Quippe dum aliquid fit quod nondum est, aliqua mora in faciendo esse potest. Cum vero dicitur, sit et fuit, nulla interposita mora perfectio rei",
+  "source": "PL 178, col. 739D",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is to be noted that, where we say 'Let there be light, and light was made', in the Hebrew it is: 'Let light be, and light was'; and likewise in the rest that follow, wherever we have 'God said, Let this be made, and it was made so', in the Hebrew it is 'Let this be, and it was so'. By which words perhaps the greatest swiftness of the divine working is expressed. For while something is being made which is not yet, there can be some delay in the making. But when it is said 'let it be' and 'it was', with no delay interposed the perfecting of the thing…",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "translation",
+  "literal"
+ ],
+ "answers": [
+  "fiat-is-instantaneous"
+ ],
+ "notes": "Abelard reporting the Hebrew against the Latin, exactly as K7 found him doing at PL 178:735B with volitabat. The observation is correct — yehi or va-yehi or is one verb twice, as the Greek's γενηθήτω / ἐγένετο is, while the Latin's fiat / facta est is two — and he draws a conclusion from it that the whole bench had been reaching for by other means: no delay is interposed, because a thing that is merely told to be is not first made and then finished. Where he got the Hebrew is unknown, as at K7. He is the only Latin on this crux who looks at the other language at all."
+}
