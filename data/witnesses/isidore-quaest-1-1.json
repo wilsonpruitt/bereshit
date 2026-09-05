@@ -1,0 +1,40 @@
+{
+ "id": "isidore-quaest-1-1",
+ "work": "isidore-quaest",
+ "author": "isidore",
+ "tradition": "latin",
+ "date": 630,
+ "date_precision": "circa",
+ "place": "seville",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Principium Christus est",
+  "en": "The Beginning is Christ"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio fecit Deus coelum et terram. Principium Christus est, sicut ipse in Evangelio Judaeis interrogantibus respondit: Ego principium, qui et loquor vobis (Joan. VIII, 25) . In hoc igitur principio fecit Deus coelum, id est, spirituales, qui coelestia meditantur et quaerunt; in ipso fecit et carnales, qui necdum terrenum hominem deposuerunt.",
+  "source": "PL 83, col. 209B",
+  "cc_idno": "21433",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'In the beginning God made heaven and earth.' The Beginning is Christ, as he himself answered in the Gospel to the Jews when they questioned him: 'I am the Beginning, who also speak to you' (John 8:25). In this beginning, therefore, God made heaven — that is, the spiritual, who meditate on and seek heavenly things; and in him he made the carnal also, who have not yet laid aside the earthly man.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical",
+  "spiritual"
+ ],
+ "answers": [
+  "principio-in-filio"
+ ],
+ "notes": "What the Christological reading becomes once it is settled: not an argument but a premise, and one that immediately turns ecclesial. Isidore states 'the Beginning is Christ' flatly, with John 8:25 and no discussion, and then reads heaven and earth as two kinds of Christian, the spiritual and the carnal. The Glossa's Mystice paragraph on this verse does the same thing in the same words four centuries later. Isidore's Quaestiones announce at the head that the historical sense has been read and the spiritual is what they are for, so the absence of argument is a genre, not a lapse."
+}

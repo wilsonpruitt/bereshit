@@ -1,0 +1,39 @@
+{
+ "id": "alcuin-int-26",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 800,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In Filio perfecit Deus coelum et terram",
+  "en": "In the Son God completed heaven and earth"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 26. Quid est: In principio creavit Deus coelum et terram?--Resp. In Filio perfecit [ Ms., fecit] Deus coelum et terram?",
+  "source": "PL 100, col. 519C",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 26. What is: 'In the beginning God created heaven and earth'? — Answer. In the Son God completed [ms.: made] heaven and earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio"
+ ],
+ "notes": "The whole crux in eleven words, question and answer, with nothing left of the argument. Jerome had denied that the Hebrew says 'in the Son'; Augustine had offered it as one of three; Bede had called it not improbable. In the Carolingian schoolroom it is simply the answer, and it is the answer a boy memorises. The Glossa will later print exactly this — a single word, Filio — as its own gloss on in principio, under Alcuin's name. Migne prints perfecit with a manuscript variant fecit; the variant is kept in the English in brackets because the choice is not indifferent, perficere making the Son the completion of the work and facere merely its instrument."
+}

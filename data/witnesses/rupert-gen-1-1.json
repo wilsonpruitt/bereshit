@@ -1,0 +1,41 @@
+{
+ "id": "rupert-gen-1-1",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1117,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "vitium est in superfluitate dictionis",
+  "en": "it is a vice of superfluity of expression"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cum ipsa creatio principium mundi sit, cur sic dictum est: In principio creavit? Idem enim est ac si diceretur: In principio principium fecit; sed si hoc modo vulgariter hic accipias principium, cum dicitur in principio creavit, vitium est in superfluitate dictionis. Bene ergo hoc loco principium sic accipitur, tanquam proprium quoddam Filii vocabulum, quia videlicet sic ipse voluit, qui cum interrogaretur a Judaeis: Tu quis es? Principium, ait, qui et loquor vobis (Joan. VIII) . Nam vere in hoc principio creavit coelum et terram Deus, quia omnia per ipsum facta sunt (Joan. I) . Hoc et alia Scriptura fatetur, cum dicit: Omnia in sapientia fecisti (Psal. CIII) , quae videlicet sapientia non est alia quam Verbum Dei, Verbum Deus, qui, ut jam dictum est, seipsum principium nuncupavit. Non quidem nativa Scripturae hujus lingua, scilicet Hebraica filium et principium eadem voce significat, filius quippe ben, principium vero bresith dicitur in illa lingua, sed et hoc dicimus, quod et si non voce, sensu tamen Filius principium est. Filius est, quia de Deo natus. Principium, quia creaturarum omnium prima et efficiens causa esse probatur. Itaque in principio, id est in Filio, in Verbo suo, in sapientia sua creavit Deus coelum et terram. Creavit, inquam, id est, non ut philosophi gentilium vane putaverunt, sibi coaevam habuit hylen, sive materiam, sed de nihilo fecit coeli et terrae substantiam.",
+  "source": "PL 167, col. 202A",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Since the creation itself is the beginning of the world, why was it said thus: 'In the beginning he created'? For it is the same as if it were said: In the beginning he made the beginning; and if you take 'beginning' here in the ordinary way when it is said 'in the beginning he created', it is a vice of superfluity of expression. Well, therefore, is 'beginning' taken in this place as a kind of proper name of the Son, because he himself so willed it, who when he was asked by the Jews, 'Who are you?', said: 'The Beginning, who also speak to you' (John 8:25). For truly in this Beginning God created heaven and earth, because all things were made through him (John 1:3). Another Scripture confesses this too when it says: 'You have made all things in wisdom' (Ps 104:24 [Vg 103:24]) — which wisdom is none other than the Word of God, the Word God, who, as has been said, named himself the beginning. Not indeed that the native tongue of this Scripture, that is Hebrew, signifies son and beginning by one word: for son is ben in that language, and beginning is bresith. But we say this too, that though not in word, yet in sense the Son is the Beginning. He is Son, because born of God; Beginning, because he is shown to be the first and efficient cause of all creatures. And so in the beginning, that is, in the Son, in his Word, in his Wisdom, God created heaven and earth. Created, I say — that is, not, as the philosophers of the gentiles vainly supposed, that he had matter or hyle coeval with himself, but he made the substance of heaven and earth out of nothing.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "world-has-a-beginning"
+ ],
+ "notes": "The best argument the Latin bench produces on this crux, and the one that shows it had absorbed Jerome. Rupert does not begin from the proof texts; he begins from a defect in the sentence. If the creation is itself the world's beginning, then 'in the beginning he created' says 'in the beginning he made the beginning', which as ordinary Latin is a vitium, a redundancy. A word that would be superfluous in the common sense must be a proper name — so principium here names the Son. Then, having reached Jerome's conclusion by a route Jerome never took, he concedes Jerome's philology in Jerome's own terms and with the Hebrew words in his mouth: son is ben, beginning is bresith, they are not one word, and the identity is of sense and not of speech. That is the twelfth century answering the fourth on the fourth century's ground."
+}

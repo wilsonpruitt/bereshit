@@ -118,5 +118,15 @@
   "name": "Rome",
   "lat": 41.9,
   "lon": 12.5
+ },
+ "lucca": {
+  "name": "Lucca",
+  "lat": 43.84,
+  "lon": 10.5
+ },
+ "girona": {
+  "name": "Girona",
+  "lat": 41.98,
+  "lon": 2.82
  }
 }

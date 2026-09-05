@@ -62,19 +62,25 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10 built (2026-09-05). Next up is K1 `beginning-of-what`, row 2 of the table.**
-To start that session, paste: *"Build the crux `beginning-of-what` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* Everything the checklist needs is on disk: the bench TEI, the
-Sefaria pulls (`br-1`, `targ-neof`, `ibn-ezra-gen-1`, `ramban-gen-1`, `rashi-gen-1`, `b-meg-9a`),
-`cruxes/one-day-evening-first.py` as the worked example to copy the shape from, and
-`notes/cross-crux.md`, which already lists what K1's neighbours turned up.
+**State: K10 and K1 built (2026-09-05). Next up is K8 `first-light`, row 3 of the table.**
+To start that session, paste: *"Build the crux `first-light` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* Everything the checklist needs is on disk — the bench TEI and
+the Sefaria pulls (`br-3`, `b-chag-12a`, `rashi-gen-1`, `pdre-3`) — and `notes/cross-crux.md`
+records, from K10, that most of K8's rabbinic material has already been read: BR 3:6, Chagigah 12a
+segments 7–11, and Rashi on 1:4, which cites Chagigah by name. K8 also wants Bonaventure
+II Sent. d.13 from `~/bonaventure-sentences/vol2/`, sliced as K10 sliced d.12.
+
+⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
+uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
+a corrupt file. ⚠ **Check the witness id you are about to write does not already exist** for another
+verse: K7's `rabanus-gen-1-1` is on Gen 1:2, and `build-crux.py` overwrites without warning.
 
 Order chosen by how much rabbinic material each has and how much it teaches the next one:
 
 | # | crux | why this order | expected witnesses |
 |---|---|---|---|
 | ~~1~~ | ~~K10 `one-day-evening-first`~~ | **BUILT 2026-09-05** — 28 witnesses, 34 threads | 20–25 |
-| 2 | K1 `beginning-of-what` | BR 1:1 + Neofiti "with wisdom" vs Jerome's *in Filio*; Prov 8 thread across benches | 25–30 |
+| ~~2~~ | ~~K1 `beginning-of-what`~~ | **BUILT 2026-09-05** — 34 witnesses, 44 threads | 25–30 |
 | 3 | K8 `first-light` | hidden light (BR 3:6, Chag 12a, PdRE 3) vs angelic light (Augustine); Bonaventure d.13 | 20–25 |
 | 4 | K6 `tohu-vabohu` | Glossa 69D gloss already sliced; Rashi's *estordison*; BR 2:2–3; Vulgate as witness | 15–20 |
 | 5 | K5 `heaven-earth-order` | Shammai/Hillel (BR 1:15, Chag 12a) vs Augustine's *caelum* = spiritual creation | 15–20 |
@@ -92,6 +98,22 @@ Per-crux checklist (paste into the Opus prompt):
 6. Do **not** revise K7 or another crux's threads while building this one; note cross-crux edges in `notes/cross-crux.md` for the Phase 4 pass.
 
 Escalate to Fable only if: a crux needs a new edge type, a new facet, or a witness that does not fit "one continuous argument".
+
+**Added for K1** (extends the frozen renderings, does not re-decide them): *in principio /
+initium* = "in the beginning", and *Principium* is capitalised only where it names the Son;
+*creavit* = "created" and *fecit* = "made", kept apart, because which one a witness quotes says
+which Latin text he had; Aquila's *in capitulo* = "in the head", so that Jerome's pun on *caput
+librorum* and Ps 40:8's *in capite libri* survives; *vitium in superfluitate dictionis* = "a vice of
+superfluity of expression"; *aeternus* = "eternal" but *sempiternus* = "everlasting" (Comestor
+needs both in one sentence); *hyle* = "hyle"; *materia informis* = "unformed matter" as at K7.
+Rabbinic: *reshit*, *bereshit*, *amon*, *uman*, *be-ḥokhmah*, *ḥalla* transliterated; "the Holy One,
+blessed be He"; Prov 8:22 rendered as the witness quotes it, "the Lord made me reshit of his way".
+
+**Slicing vocalized Hebrew by anchor needs a skeleton match.** Sefaria's pointed text and any
+anchor phrase retyped through a terminal differ in combining-mark order, so `str.find` fails on a
+phrase that is plainly there. `cruxes/beginning-of-what.py` carries a `_cut` helper that strips
+U+0591–U+05C7, matches on the consonants, and maps the offsets back. Lift it into `bench.py` when a
+third crux needs it.
 
 **Burn, measured on K10 (Opus, 2026-09-05): ~170K tokens of context for the whole crux** —
 survey, extraction, 28 English drafts, 34 threads, the daf read, and the notes. That is inside the
@@ -128,3 +150,11 @@ Only after Phases 2–4: Origen/Rufinus Hom. in Gen. I (GCS Baehrens, archive.or
 ## Phase 8 — Fable, once
 
 One session, after everything above: read all ten daf pages; write the editorial introduction and the ten `finding` paragraphs into a single voice; decide whether any Phase-2 view (time scrubber, lemma view, invertible centre, authority map) is worth building; rule on the "one translation, one home" question for the Glossa and Bonaventure text this site re-hosts.
+
+**Burn, measured on K1 (Opus, 2026-09-05): ~200K tokens**, against K10's ~170K — survey, extraction,
+34 witnesses with 30 fresh English drafts, 44 threads, the daf read, and the notes. Two things cost
+more than K10: the roster was larger (34 against 28, because Augustine alone yields five continuous
+arguments on 1:1 and Ambrose and Bruno two each), and three of the greps had to be re-run against
+the raw TEI because `grep-bench.py` does not know the Glossa (its `latin-bench.json` entry still had
+`idno: null` although PL 113 = TEI 8950 is on disk and K7 sliced it). **Fixed in this session**, so
+K8 onward can grep the Glossa like any other work.

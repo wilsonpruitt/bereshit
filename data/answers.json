@@ -122,5 +122,53 @@
  "six-days-literal": {
   "label": "Six real days",
   "gloss": "Created at once in matter, distinguished in form through six successive days (the common doctors, Bonaventure)."
+ },
+ "principio-temporis": {
+  "label": "In the beginning of time",
+  "gloss": "The word dates the making: time began with the world, and there was no before (Onkelos, Bede, Rabanus, Remigius, Hugh)."
+ },
+ "principio-in-filio": {
+  "label": "In the Son",
+  "gloss": "Principium is a proper name of the Word, on the strength of John 8:25 and Ps 104:24 (Ambrose, Augustine, Isidore, Alcuin, the Glossa, Rupert, Honorius)."
+ },
+ "principio-first-of-all": {
+  "label": "First of all things",
+  "gloss": "'In the beginning' means before everything else that follows — in the beginning of the creatures, or on the first day (Augustine's second reading; Bruno, Abelard)."
+ },
+ "principio-is-first-creature": {
+  "label": "The first creature is a beginning",
+  "gloss": "The first intellectual creature may be called a beginning to the things it heads (Augustine, De Genesi imperfectus)."
+ },
+ "beginning-is-wisdom": {
+  "label": "In Wisdom",
+  "gloss": "The beginning is Wisdom — which is the Torah on one bench (Prov 8:22, Prov 3:19, Neofiti) and the Son on the other (Ps 104:24)."
+ },
+ "reshit-is-torah": {
+  "label": "The beginning is the Torah",
+  "gloss": "Reshit is the Torah, called reshit darko: God looked into it as an architect into his plans and created the world (Bereshit Rabbah, Rashi)."
+ },
+ "reshit-is-israel": {
+  "label": "For the sake of Israel",
+  "gloss": "Reshit is Israel, called reshit tevu'ato (Jer 2:3); the world was made for their sake."
+ },
+ "reshit-construct": {
+  "label": "'When God began to create'",
+  "gloss": "Bereshit is a construct and the verse a subordinate clause: at the beginning of God's creating (Rashi's plain sense, Ibn Ezra; contested by Ramban)."
+ },
+ "world-has-a-beginning": {
+  "label": "The world is not eternal",
+  "gloss": "The point of saying 'in the beginning' at all is that the world had one, against the philosophers (Ambrose, Remigius, Hugh, Ramban)."
+ },
+ "bereshit-book-name": {
+  "label": "It is the book's name",
+  "gloss": "The Hebrews name volumes from their opening words, so bresith is the title of Genesis (Jerome, Wigbod, Angelomus)."
+ },
+ "six-preceded": {
+  "label": "Six things preceded the world",
+  "gloss": "Torah and the Throne of Glory were made before it; the patriarchs, Israel, the Temple and the Messiah's name were contemplated (Bereshit Rabbah 1:4)."
+ },
+ "read-it-twice": {
+  "label": "Say the phrase twice",
+  "gloss": "In principio is to be repeated — once in the Son, once at the beginning of time — rather than decided (Comestor)."
  }
 }

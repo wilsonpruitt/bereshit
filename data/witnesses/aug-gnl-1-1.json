@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnl-1-1",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 410,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "utrum in principio temporis; an quia primo omnium facta sint; an in principio, quod est Verbum Dei",
+  "en": "whether in the beginning of time; or because they were made first of all; or in the beginning which is the Word of God"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Si ergo utroque modo illa Scriptura scrutanda est, quaeramus quomodo dictum est praeter allegoricam significationem, In principio fecit Deus coelum et terram: utrum in principio temporis; an quia primo omnium facta sint; an in principio, quod est Verbum Dei unigenitus Filius.",
+  "source": "PL 34, col. 247",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "If, then, that Scripture is to be searched in both ways, let us ask how it was said, apart from the allegorical signification, 'In the beginning God made heaven and earth': whether in the beginning of time; or because they were made first of all; or in the beginning which is the Word of God, the only-begotten Son.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-temporis",
+  "principio-first-of-all",
+  "principio-in-filio"
+ ],
+ "notes": "The crux stated as a crux, by the man who made it one. Three readings, set out in a single sentence at the head of the literal commentary and deliberately not decided: in the beginning of time, first of all things, or in the Word. Everything else on the Latin bench is an attempt at one of these three, and Peter Comestor's twelfth-century settlement — read the phrase twice, once for the Son and once for time — is a refusal to choose between the first and the third. The one possibility Augustine does not list is the one Rashi will make the plain sense: that bereshit is a construct and the sentence is subordinate. Latin cannot raise it."
+}

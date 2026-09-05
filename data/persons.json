@@ -241,5 +241,63 @@
   "la": "Bonaventura de Balneoregio",
   "dates": "c. 1217–1274",
   "tradition": "latin"
+ },
+ "r-hoshaya": {
+  "name": "R. Hoshaya Rabbah",
+  "dates": "fl. c. 230",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-abba-b-kahana": {
+  "name": "R. Abba bar Kahana",
+  "dates": "fl. c. 300",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-huna": {
+  "name": "R. Huna",
+  "dates": "d. 297",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-banai": {
+  "name": "R. Banai",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-berekhya": {
+  "name": "R. Berekhya",
+  "dates": "fl. c. 350",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "rav-matana": {
+  "name": "Rav Matana",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yehoshua-b-levi": {
+  "name": "R. Yehoshua ben Levi",
+  "dates": "fl. c. 230",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-levi": {
+  "name": "R. Levi",
+  "dates": "fl. c. 300",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "ibn-ezra": {
+  "name": "Abraham ibn Ezra",
+  "he": "אַבְרָהָם אִבְּן עֶזְרָא",
+  "dates": "1089–1167",
+  "tradition": "rabbinic"
+ },
+ "ramban": {
+  "name": "Moses ben Naḥman (Naḥmanides)",
+  "he": "מֹשֶׁה בֶּן נַחְמָן",
+  "dates": "1194–1270",
+  "tradition": "rabbinic"
  }
 }

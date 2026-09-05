@@ -1,0 +1,38 @@
+{
+ "id": "ibn-ezra-1-1",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "בְּרֵאשִׁית — סָמוּךְ",
+  "en": "bereshit — a construct"
+ },
+ "original": {
+  "lang": "he",
+  "text": "בראשית חכמינו אמרו שהבי\"ת נוסף כבי\"ת בָראשונָה (בראשית י\"ג ד'), כי נמצא \"ראשונה יסעו\" (במדבר ב' ט') ואילו היה טעמו כן, היה הבי\"ת נקמץ בקמץ גדול וי\"א כי בראשית לעולם סמוך והטעם בראשית הערב או הלילה או החשך והנה שכחו \"וירא ראשית לו\" (דבר' ל\"ג כ\"א), וי\"א שהבי\"ת נושא (צ\"ל נוסף) בלי טעם וטעמם שלא יעלה על לב שאין ראשית לשמים ולארץ ע\"כ אמר בראשית, ולפי דעתי שהוא סמוך, כמו, \"בראשית ממלכת יהויקים\" (ירמי' כ\"ו א'), ואל תתמה איך נסמך על פועל עבר והנה כן \"תחלת דבר ד' בהושע ויאמר ד' אל הושע\" (הושע א' ב'), קרית חנה דוד (ישעי' כ\"ט א') והטעם יתבאר לך בפסוק השני,",
+  "source": "Ibn Ezra on Gen 1:1, s.v. בראשית",
+  "license": "pd",
+  "edition": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "Our sages have said that the [letter] bet was added, like the bet in barishonah (“in the beginning”) Bereshit 13:4, for you find “at the beginning (rishonah) they travelled” Bamidbar 2:9. But were that the meaning, the bet would have been vocalized with a kamatz gadol. And there are those who say that [the word] bereshit always [appears in] attached [form], where the meaning is “at the beginning of the evening, or the night, or the darkness”. But behold, they forgot “he saw a beginning reishit for himself” Devarim 33:21. And there are those who say that the bet is a subject without meaning. Their reason is that it is unthinkable that there is no beginning to the heavens and the earth. Therefore, it said “bereshit. But according to my opinion, it is indeed an attached form, like “At the beginning (bereshit) of the rule of Yehoyakim” Yirmiyahu 26:1. Now don’t wonder how can it be attached to a past tense verb [instead of a noun], for behold, thus: “At the beginning (techilat) spoke Hashem with Hoshea, and Hashem said to Hoshea” Hoshea 1:2, “The city (kiryat) where David camped” Yishayahu 29:1. The meaning [of this usage] will be explained for you in the second verse.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "reshit-construct"
+ ],
+ "notes": "The crux conducted purely as grammar, with the theology left out. Ibn Ezra sets down three opinions and refutes each from a counter-example: that the bet is otiose (then it would carry a long qamats); that bereshit is always construct and means 'at the beginning of the evening, or the night' (they forgot Deut 33:21, 'he saw a reshit for himself', where it is absolute); that the bet carries no sense at all and was written only so that no one should think heaven and earth had no beginning. His own view is Rashi's — a construct, like 'in the reshit of the reign of Jehoiakim' — and he answers in advance the objection that a construct cannot govern a finite verb by citing Hos 1:2 and Isa 29:1. Then he stops: 'the meaning will be explained for you at the second verse.' The Latin bench never argues at this level about in principio, because in Latin there is nothing to argue about."
+}

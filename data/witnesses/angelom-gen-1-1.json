@@ -1,0 +1,39 @@
+{
+ "id": "angelom-gen-1-1",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 845,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Unde Bresith Hebraice, Latine non immerito Genesis interpretatur",
+  "en": "whence Bresith in Hebrew is not undeservedly rendered Genesis in Latin"
+ },
+ "original": {
+  "lang": "la",
+  "text": "libet inquirere quare volumen istud specialiter Genesis vocetur, cum in eo multa commemorantur quae ad generationem non pertinere noscuntur, nisi quia consuetudo est Hebraeorum ex principiis nomina librorum imponere, sicut Exodus, et multi alii nuncupantur. Unde Bresith Hebraice, Latine non immerito Genesis interpretatur: eo quod in ipso exordio de creatione coeli, ac terrae, et generatione hominum animantiumque narratur.",
+  "source": "PL 115, col. 111A",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is worth asking why this volume is called Genesis in particular, since many things are recorded in it which are known not to pertain to generation — unless it be that the Hebrews have the custom of imposing the names of books from their openings, as Exodus and many others are named. Whence Bresith in Hebrew is not undeservedly rendered Genesis in Latin: because in its very opening the creation of heaven and earth, and the generation of men and living creatures, is narrated.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "bereshit-book-name"
+ ],
+ "notes": "Jerome's last remark on the verse, promoted to the first question of a commentary. Angelomus keeps the Hebrew custom of naming books from their first words and draws from it a conclusion Jerome did not: that Bresith is properly rendered Genesis, because what stands at the opening is generation. The Latin bench thus ends by treating the crux word as the title of a book rather than as a word in a sentence. The rabbinic bench never loses the sentence, because for it the word governs what follows — either the Torah, by which God created, or, in Rashi's plain sense, the clause 'when God began to create'."
+}

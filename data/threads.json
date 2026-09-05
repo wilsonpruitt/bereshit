@@ -534,5 +534,357 @@
   "type": "parallel",
   "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
   "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k1-01",
+  "from": "jerome-hq-1-1",
+  "to": "lxx-1-1",
+  "type": "cites",
+  "evidence": "Jerome names the Seventy as his first witness against the reading 'in the Son': 'Nam et Septuaginta Interpretes, et Symmachus, et Theodotion, in principio, transtulerunt.' The Greek is what decides the Latin.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-02",
+  "from": "vulgate-1-1",
+  "to": "lxx-1-1",
+  "type": "transmits",
+  "evidence": "in principio renders ἐν ἀρχῇ and nothing else, and the translator says in the Hebrew Questions why he refused in Filio. Every Latin argument on this crux is conducted on a word Jerome chose against pressure to choose another.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-03",
+  "from": "targ-onk-1-1",
+  "to": "lxx-1-1",
+  "type": "parallel",
+  "evidence": "be-qadmin and ἐν ἀρχῇ make the same decision independently: turn the Hebrew word into a plain adverb of time, supply nothing, and let no construct be heard. Pseudo-Jonathan's min avvela does the same a third time.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-04",
+  "from": "targ-neof-1-1",
+  "to": "targ-onk-1-1",
+  "type": "contests",
+  "evidence": "Two Aramaic versions of one Hebrew word, and only one of them interprets: Onkelos writes be-qadmin, 'in former times'; Neofiti writes min qadmin be-ḥokhmah, 'from the first, in wisdom', and adds a second verb, 'and finished'. What Onkelos leaves as a time, Neofiti makes an instrument.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-05",
+  "from": "targ-psj-1-1",
+  "to": "targ-onk-1-1",
+  "type": "parallel",
+  "evidence": "min avvela beside be-qadmin: the same refusal to interpret, in a different word. Three targums on one verse give three renderings of bereshit and only Neofiti's carries a doctrine.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-06",
+  "from": "br-1-4",
+  "to": "br-1-1",
+  "type": "echoes",
+  "evidence": "The same proof text put to the same use two sections later: 'The Lord made me reshit of his way' (Prov 8:22) makes the Torah the reshit in 1:1, and in 1:4 makes the Torah the first of the six things that preceded the world and settles its precedence over the Throne of Glory.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-07",
+  "from": "br-1-8",
+  "to": "br-1-1",
+  "type": "echoes",
+  "evidence": "1:1 reads Prov 8:30's amon as uman, artisan; 1:8 counts the builder's six materials against Prov 8:22–23's six words of precedence. Both treat Proverbs 8 not as a proof text reached for but as the chapter that comments on Genesis 1:1.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-08",
+  "from": "rashi-1-1b",
+  "to": "br-1-1",
+  "type": "cites",
+  "evidence": "Rashi reproduces the midrashic answer with its two proof texts — the Torah called reshit darko (Prov 8:22) and Israel called reshit tevu'ato (Jer 2:3) — and marks it as what 'our rabbis expounded', before setting his own plain sense against it.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-09",
+  "from": "rashi-1-1b",
+  "to": "br-1-4",
+  "type": "echoes",
+  "evidence": "Bereshit Rabbah 1:4 derives a series of referents for reshit from a series of verses — Torah, ḥalla, tithes, first fruits; Rashi keeps the method and reduces the list to two, Torah and Israel, which are the two that make the verse a claim about election.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-10",
+  "from": "ibn-ezra-1-1",
+  "to": "rashi-1-1b",
+  "type": "parallel",
+  "evidence": "The same conclusion from the same evidence with no acknowledgement: bereshit is a construct, like 'in the reshit of the reign of Jehoiakim' (Jer 26:1), and the objection that a construct cannot govern a finite verb is answered from Hos 1:2 by both. Ramban, reading them side by side, says Ibn Ezra 'explained it in an identical way'.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-11",
+  "from": "ramban-1-1",
+  "to": "rashi-1-1b",
+  "type": "contests",
+  "evidence": "Ramban quotes Rashi's plain sense verbatim and then breaks its premise: reshit is not everywhere construct — 'declaring the end mereshit' (Isa 46:10) and 'he chose reshit for himself' (Deut 33:21) stand absolute. The grammatical argument that made the modern translations is refuted inside the tradition that made it, two centuries on.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-12",
+  "from": "ramban-1-1",
+  "to": "ibn-ezra-1-1",
+  "type": "cites",
+  "evidence": "Ramban names R. Abraham and reports the refinement that is Ibn Ezra's own and not Rashi's — that the vav of ve-ha'aretz serves as 'when' — and draws its consequence, that on Ibn Ezra's reading only light was created on the first day.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-13",
+  "from": "targ-neof-1-1",
+  "to": "br-1-4",
+  "type": "parallel",
+  "evidence": "R. Banai proves that the world was created for the merit of the Torah from Prov 3:19, 'the Lord founded the earth be-ḥokhmah, with wisdom'; Neofiti puts that same be-ḥokhmah inside Genesis 1:1 as the translation of bereshit. A proof text in one place is the text itself in the other.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-14",
+  "from": "aug-civ-11-32",
+  "to": "br-1-1",
+  "type": "parallel",
+  "evidence": "The identical inference on both benches. Augustine: in principio means in the Son, because Ps 104:24 says 'you have made all things in wisdom' and Wisdom is the Son. Bereshit Rabbah: bereshit means by the Torah, because Prov 8:22 says 'the Lord made me reshit of his way' and that speaker is the Torah. One move, one kind of proof text, two Wisdoms, and no contact in either direction.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-15",
+  "from": "aug-conf-11-9",
+  "to": "targ-neof-1-1",
+  "type": "parallel",
+  "evidence": "'In this Beginning, God, you made heaven and earth: in your Word, in your Son, in your Wisdom' is, as a sentence, what Neofiti prints as the text of Genesis 1:1. A Latin bishop's prayer and a Palestinian targumist's translation arrive at the same clause, and mean by Wisdom the second person of the Trinity and the Torah respectively.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-16",
+  "from": "abelard-hex-1-1",
+  "to": "rashi-1-1b",
+  "type": "parallel",
+  "evidence": "Both make the first word relative to what follows rather than absolute — Abelard because a second and third day are named and something must be first for them to be second to, Rashi because reshit is a construct and the clause is subordinate. The closest the two benches come on this crux, reached from opposite ends of two grammars.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-17",
+  "from": "remigius-gen-1-1",
+  "to": "ramban-1-1",
+  "type": "parallel",
+  "evidence": "The same doctrinal stake stated on both benches at the same place in the commentary: for Remigius the verse exists to refute Plato and Aristotle and prove that time began; for Ramban whoever thinks the world eternal 'denies the essential principle and has no Torah at all'.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-18",
+  "from": "aug-gnm-1-2",
+  "to": "ambrose-hex-1-2",
+  "type": "echoes",
+  "evidence": "The John 8:25 answer, taken over from the man Augustine had been hearing preach at Milan a year or two before: 'or he himself is the beginning of all things … the Son of God answered, The Beginning, who also speak to you.' After Ambrose no Latin witness on this crux argues without that verse.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-19",
+  "from": "aug-gnl-imp-2-6",
+  "to": "aug-gnm-1-2",
+  "type": "echoes",
+  "evidence": "The same author returning to the same question with the terms sharpened: what had been 'not in the beginning of time but in Christ' becomes a distinction — a Beginning without a beginning, who is the Father, and a Beginning with another beginning, who is the Son.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-20",
+  "from": "aug-gnl-1-1",
+  "to": "aug-gnl-imp-2-6",
+  "type": "echoes",
+  "evidence": "The unfinished commentary asks whether 'in the beginning' means time or the Wisdom of God; the finished one opens by listing three possibilities instead of two, adding 'or because they were made first of all', and declining to choose among them.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-21",
+  "from": "aug-conf-11-9",
+  "to": "aug-gnm-1-2",
+  "type": "echoes",
+  "evidence": "The argument of the anti-Manichaean book turned into prayer: 'in Christ, since the Word was with the Father' becomes 'in your Word, in your Son, in your Strength, in your Wisdom, in your Truth' — five names where the treatise had one, and no opponent in view.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-22",
+  "from": "aug-civ-11-32",
+  "to": "aug-conf-11-9",
+  "type": "echoes",
+  "evidence": "The same identification with its proof supplied: the Confessions name the Beginning as Wisdom without arguing, and the City of God adds the psalm that licenses it, 'omnia in sapientia fecisti' (Ps 104:24).",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-23",
+  "from": "aug-civ-11-32",
+  "to": "ambrose-hex-1-3",
+  "type": "echoes",
+  "evidence": "Ps 104:24 is Ambrose's proof text on this verse before it is Augustine's, and it does different work for each: Ambrose cites it to show that the world was given a beginning at all, Augustine to show that the beginning is the Son.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-24",
+  "from": "isidore-quaest-1-1",
+  "to": "ambrose-hex-1-2",
+  "type": "echoes",
+  "evidence": "'Principium Christus est', with John 8:25 attached and no argument at all. What Ambrose offered as one limb of a vel and Augustine as one of three readings has become a premise from which the allegory starts.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-25",
+  "from": "bede-gen-1-1",
+  "to": "aug-gnl-1-1",
+  "type": "echoes",
+  "evidence": "Bede takes Augustine's three undecided readings and ranks them: the beginning of times at length and first, the Only-begotten Son last and qualified as 'not improbable'. The hierarchy, not the list, is what the Carolingians inherit.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-26",
+  "from": "rabanus-gen-1-1b",
+  "to": "bede-gen-1-1",
+  "type": "cites",
+  "evidence": "Bede's exposition reproduced almost entire and unattributed — the simultaneity argument, Ps 115:3, Ps 102:25, the 'not improbably … in his Only-begotten Son' — with the house-building simile cut and Rabanus' own thesis set at its head. The same silent copying the K7 and K10 threads trace at PL 107:447C and 448D.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-27",
+  "from": "rabanus-gen-1-1b",
+  "to": "aug-gnm-1-2",
+  "type": "echoes",
+  "evidence": "The sentence Rabanus adds in front of Bede is Augustine's answer to the Manichees compressed to an axiom: 'time is from this world, not before the world; and a day is a portion of time, not its beginning.'",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-28",
+  "from": "wigbod-gen-1-1",
+  "to": "jerome-hq-1-1",
+  "type": "cites",
+  "evidence": "Verbatim Jerome, minus the argument: the three Greek versions, Bresith, Aquila's in capitulo, the forehead of Genesis, Ps 40:8, John 1:3 and the Hebrew custom of naming books are all kept, while the authorities who read 'in the Son' and Jerome's refutation of them — including the decisive point that the Hebrew for 'in the son' would be ba-ben — are dropped. The concession survives; the correction does not.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-29",
+  "from": "angelom-gen-1-1",
+  "to": "jerome-hq-1-1",
+  "type": "echoes",
+  "evidence": "Jerome's closing remark, that the Hebrews name volumes from their opening words, becomes the first question of Angelomus' commentary and acquires a conclusion Jerome did not draw: that Bresith is therefore rightly rendered Genesis.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-30",
+  "from": "alcuin-int-26",
+  "to": "jerome-hq-1-1",
+  "type": "contests",
+  "evidence": "The reading Jerome had declared false, printed as the answer to the question and in four words: 'In Filio perfecit Deus coelum et terram.' No Hebrew, no versions, no 'according to the sense rather than the word'.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-31",
+  "from": "remigius-gen-1-1",
+  "to": "bede-gen-1-1",
+  "type": "echoes",
+  "evidence": "Remigius takes over Bede's empyrean heaven — fiery or intellectual, so called not from burning but from splendour, filled at once with angels, proved from Job 38:7 — and puts it after a doxography of Plato and Aristotle that Bede does not have.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-32",
+  "from": "remigius-gen-1-1",
+  "to": "ambrose-hex-1-3",
+  "type": "echoes",
+  "evidence": "Ambrose's polemical use of the verse, given names: what Ambrose argued against those who would make the world anarchon, Remigius argues against Plato's three principles and Aristotle's two, and supplies the missing word out loud — 'In principio, and of time is understood'.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-33",
+  "from": "glossa-1-1",
+  "to": "bede-gen-1-1",
+  "type": "cites",
+  "evidence": "Three of the five glosses on this verse are Bede, the first of them cited by book and Migne column ('BEDA, Hexaem. lib. I, tom. II, col. 13'), and the margin keeps his eternity argument, his simultaneity argument and his empyrean heaven while dropping the house-building simile that carried them.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-34",
+  "from": "glossa-1-1",
+  "to": "alcuin-int-26",
+  "type": "cites",
+  "evidence": "The Glossa prints Alcuin's answer as a gloss of one word — '(ALCUIN. in Gen. tom. I.) « In principio. » Filio' — so that the twelfth-century reader meets the reading Jerome refuted as a bare equation under a great name, with nothing on the page to argue with.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-35",
+  "from": "glossa-1-1",
+  "to": "isidore-quaest-1-1",
+  "type": "parallel",
+  "evidence": "The Glossa's Mystice paragraph reads heaven and earth as those who bore the image of the heavenly and those who grew proud and bore the earthly; Isidore's Quaestiones read the same two words as the spiritual and the carnal in the Church. Same allegory, same verse, five centuries apart, and the Glossa does not name him.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-36",
+  "from": "bruno-gen-1-1b",
+  "to": "bruno-gen-1-1",
+  "type": "parallel",
+  "evidence": "One commentator giving both answers in order and treating them as layers rather than rivals: the literal exposition takes in principio as 'in the beginning of all creatures', and then, the letter disposed of, 'in what beginning? in him, surely, who says: I am the Beginning.' Neither reading is asked to yield to the other.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-37",
+  "from": "bruno-gen-1-1",
+  "to": "aug-gnl-1-1",
+  "type": "echoes",
+  "evidence": "Augustine's second reading — 'or because they were made first of all' — is the one Bruno builds on, and he builds on it to get simul out of the verse, so that Sir 18:1's 'he created all things at once' and the six days can both stand.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-38",
+  "from": "rupert-gen-1-1",
+  "to": "jerome-hq-1-1",
+  "type": "echoes",
+  "evidence": "Rupert concedes Jerome's philology in Jerome's own terms and with the Hebrew words in his mouth — 'son is ben in that language, and beginning is bresith' — and then holds the Christological reading anyway, on the ground that the identity is of sense and not of speech. He reaches Jerome's conclusion about the word and refuses Jerome's conclusion about the sense.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-39",
+  "from": "rupert-gen-1-1",
+  "to": "aug-civ-11-32",
+  "type": "echoes",
+  "evidence": "The Ps 104:24 chain taken over entire — 'you have made all things in wisdom, which wisdom is none other than the Word of God' — but reached only after an argument Augustine never makes, that principium in the common sense would be a superfluity of expression and so must be a proper name.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-40",
+  "from": "honorius-hex-1-1",
+  "to": "jerome-hq-1-1",
+  "type": "echoes",
+  "evidence": "Jerome had read Genesis and John together as evidence for one another; Honorius notices what that costs — in Genesis the beginning is the Son, in John the beginning is the Father — and resolves it by the unity of substance rather than by choosing.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-41",
+  "from": "hugh-sacr-1-1",
+  "to": "aug-gnm-1-2",
+  "type": "echoes",
+  "evidence": "Augustine's 'time began together with heaven and earth' becomes Hugh's 'in the beginning of time, or rather with time itself', and Hugh draws the school's conclusion from it: between creation and the disposing of things there was an order of time but no delay interposed.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-42",
+  "from": "abelard-hex-1-1",
+  "to": "bruno-gen-1-1",
+  "type": "parallel",
+  "evidence": "Both read the phrase as a place in a series — Bruno 'in the beginning of all creatures', Abelard 'as if it were said, on the first day' — and both do it to keep the six days without losing the simultaneity of the first making.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-43",
+  "from": "comestor-hs-1-1",
+  "to": "aug-gnl-1-1",
+  "type": "echoes",
+  "evidence": "Augustine's three questions, printed as three answers with an instruction: 'in the beginning' is to be repeated, once for the Son and once for time, with 'in the beginning of all creatures' offered as a third. The handbook that taught Europe the Bible resolves the crux by refusing to resolve it.",
+  "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k1-44",
+  "from": "comestor-hs-1-1",
+  "to": "bruno-gen-1-1",
+  "type": "echoes",
+  "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
+  "crux": "beginning-of-what"
  }
 ]

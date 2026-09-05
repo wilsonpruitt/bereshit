@@ -38,3 +38,47 @@ reconciliation, and R. Yishmael's question to R. Akiva about the particles *et*.
 article) is the same grammatical question family as K10 but anchored at Gen 1:31, outside the
 1:1–5 scripture layer. It cannot be a witness under the present anchor rule. If the scripture
 layer is ever widened, it belongs with K10.
+
+## From K1 (built 2026-09-05)
+
+**Two Neofiti witnesses now sit on this crux.** K7 built `targ-neof-1-2` (the ruach clause) and gave
+it the `beginning-of-what` facet, because Sefaria returns the whole of Gen 1:1–5 as one segment and
+the "with wisdom" is in the same block. K1 has built `targ-neof-1-1`, sliced at the same verse it is
+about. Phase 4 should drop `beginning-of-what` from `targ-neof-1-2`'s facets; K1 did not touch it.
+
+**Witness-id collision, and it is a builder defect as much as a naming one.** `rabanus-gen-1-1`
+(K7) is a witness on **Gen 1:2**; K1's Rabanus on 1:1 is therefore `rabanus-gen-1-1b`. See the
+pipeline note in `SOURCES-FINDINGS.md`: `build-crux.py` would have overwritten the K7 file without
+a word. Phase 4 should either rename K7's witness or add the guard.
+
+**Material read for K1 that belongs to another crux, all of it already on disk:**
+
+| locus | belongs to | note |
+|---|---|---|
+| Bereshit Rabbah 1:5–1:7 | K2 `why-begin-here` | "may they be silenced" — the ban on expounding what is before the world; and R. Yitzḥak on "the beginning of your word is truth" |
+| Bereshit Rabbah 1:10 | K2 | why the world was created with a *bet*: closed on three sides, so do not ask what is before |
+| Bereshit Rabbah 1:12 | K3 `elohim-and-trinity` | R. Yudan in the name of Akilas: the King acts first and names himself after — *bereshit bara*, and only then *Elohim* |
+| Bereshit Rabbah 1:9 | K4 `ex-nihilo-or-matter` | the philosopher to Rabban Gamliel; the plan already lists it, and it is the exact counterpart of Remigius' Plato and Aristotle |
+| Bereshit Rabbah 1:14 | K5 `heaven-earth-order` | R. Yishmael and R. Akiva on the two *et* particles |
+| Bereshit Rabbah 1:15 | K5 | Beit Shammai and Beit Hillel in full, with R. Yehuda bar Ilai and R. Ḥanin |
+| Ramban on 1:1, second movement | K4 | the *hyle* paragraph follows immediately in the same Sefaria segment; anchors `הקב"ה בָּרָא כָּל הַנִּבְרָאִים מֵאֲפִיסָה מֻחְלֶטֶת` → the *bohu* etymology |
+| Rupert, PL 167:202B (continuation) | K4 | *"non, ut philosophi gentilium vane putaverunt, sibi coaevam habuit hylen"* — sliced into the K1 witness's tail already, but the argument runs on |
+| Comestor, PL 198:1055D–1056A | K4 | Plato, Aristotle and Epicurus set against Moses, immediately before the sentence K1 slices |
+| Hugh, *De sacramentis* PL 176:247B | K4 or K8 | the contradiction between "wisdom was made first of all" and "in the beginning God created heaven and earth", set up as a *quaestio* |
+| Bruno, PL 164:157B | K3 | *"Habes ergo Deum, id est Patrem; habes et principium, id est Filium"*, on *Faciamus hominem* |
+| Augustine, *Conf.* XIII.5 (PL 32:847) | K3 | the Trinity read out of the first words: *"in Principio sapientiae nostrae … id est in Filio tuo, fecisti coelum et terram"* |
+| Glossa on 1:1, Bede's second and third glosses | K4, K5 | the empyrean heaven and the *materia informis* / Wis 11:17 gloss are in the same VERS. 1 block K1 slices whole |
+| Isidore, PL 83:209B (continuation) | K7, K8 | the same ecclesial allegory runs straight on into 1:2 and 1:3 |
+| Honorius, PL 172:260B | K10 | *"Quid vero beatus Augustinus sentiat de his diebus"* — a third treatment in TEI 10991, and further evidence for K10's open **[CHECK the work division at PL 172:261]** |
+
+**A thread K1 could not draw.** `hugh-sacr-1-1` ("in the beginning of time, or rather with time
+itself") and K10's `b-chag-12a` (the measure of the day and the measure of the night are among the
+ten things made on day one) are the same answer on the two benches — time is inside the creature,
+not outside it. The Bavli witness belongs to K10 and K5, so no K1-tagged thread was written to it.
+
+**Both benches use a chapter of Proverbs as Genesis 1:1's commentary, and neither knows it.**
+Proverbs 8 is the rabbinic bench's proof text throughout K1 (BR 1:1, 1:4, 1:8; Rashi). On the Latin
+bench Prov 8:22's *ἔκτισέν με / Dominus creavit me* is the Arian battleground, and the Latin
+witnesses on this crux therefore avoid it and reach for **Ps 104:24** instead. That avoidance is
+worth stating in the Phase 8 introduction; it is not a single-witness observation and no thread
+carries it.

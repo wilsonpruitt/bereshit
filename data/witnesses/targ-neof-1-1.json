@@ -1,0 +1,38 @@
+{
+ "id": "targ-neof-1-1",
+ "work": "targ-neof",
+ "author": "targum-neofiti",
+ "tradition": "rabbinic",
+ "date": 300,
+ "date_precision": "range-100-400",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "arc": "מלקדמין בחכמה",
+  "en": "from the first, in wisdom"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "מלקדמין בחכמה [בחוכמתא] ברא (ד)יי שכלל [ושכלל] ית שמיא וית ארעא:",
+  "source": "Targum Neofiti, Gen 1:1 (Vatican, Neofiti 1)",
+  "license": "check",
+  "version": "Sefaria, 'The Vatican Manuscript of the Targum Neofiti' (licence unknown)"
+ },
+ "english": {
+  "text": "In the beginning and in great wisdom, God created and finished the heavens and the earth.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "beginning-is-wisdom"
+ ],
+ "notes": "The single most consequential word on this crux: Neofiti does not translate bereshit, it interprets it — min qadmin be-ḥokhmah, 'from the first, in wisdom' — and then adds a second verb, shakhlel, 'and finished'. A Palestinian targumist and the Latin fathers reach the same gloss on the same word, 'in Wisdom', and then part company entirely over what Wisdom is: for Bereshit Rabbah it is the Torah, for Augustine and Bede it is the Son. Neither side knows the other is there. The CC0 English prints 'in great wisdom'; there is no word for 'great' in the Aramaic, and the reading בחוכמתא recorded in the manuscript's own margin is simply the emphatic state. Note that this witness and K7's targ-neof-1-2 are two slices of one Sefaria segment: the whole of Gen 1:1–5 comes back as a single block."
+}

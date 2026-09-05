@@ -88,8 +88,10 @@
   "pl": 164
  },
  "glossa": {
-  "idno": null,
-  "note": "Wilson's Englished Glossa on Genesis — in progress 2026-09-05, migne.app/glossa. Slot reserved."
+  "idno": "8950",
+  "cc_name": "Liber Genesis (Glossa ordinaria, Anselm of Laon and school) = PL 113",
+  "pl": 113,
+  "note": "On disk and sliced since K7. Wilson's Englished Glossa (migne.app/glossa) supersedes the draft English, not the Latin."
  },
  "rupert-gen": {
   "idno": "10873",

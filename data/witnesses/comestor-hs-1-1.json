@@ -1,0 +1,43 @@
+{
+ "id": "comestor-hs-1-1",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "range-1169-1173",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "iterandum est in principio",
+  "en": "'in the beginning' is to be repeated"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Moyses vero solum Deum aeternum prophetavit, et sine praejacenti materia mundum creatum. Creatus autem est in principio, id est in Filio, et iterandum est in principio sic: In principio creavit Deus coelum et terram, in principio scilicet temporis. Coaeva enim sunt mundus et tempus. Sicut autem solus Deus aeternus, sic mundus sempiternus, id est semper aeternus, temporaliter aeternus angeli quoque sempiterni. Vel in principio omnium creaturarum, creavit coelum et terram, id est has creaturas primordiales fecit, et simul.",
+  "source": "PL 198, col. 1056A",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But Moses prophesied God alone to be eternal, and the world created without pre-existing matter. And it was created in the beginning, that is, in the Son; and 'in the beginning' is to be repeated thus: In the beginning God created heaven and earth, in the beginning, namely, of time. For the world and time are coeval. And as God alone is eternal, so the world is everlasting, that is, always eternal, eternal in a temporal way; the angels too are everlasting. Or: in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "read-it-twice",
+  "principio-in-filio",
+  "principio-temporis",
+  "principio-first-of-all"
+ ],
+ "notes": "The settlement, stated as a rule of reading: iterandum est in principio — say the phrase twice. Once it means in the Son, once it means at the beginning of time, and Comestor then adds Bruno's third sense as an alternative, in the beginning of all creatures. Augustine had listed the three as questions; the handbook that taught Europe the Bible for three hundred years prints all three as the answer and instructs the reader to take the words over again for each. Note the distinction Comestor needs and that the English must keep: God alone is aeternus, the world and the angels are sempiternus, everlasting — 'eternal in a temporal way'. The preceding columns, where he sets Plato, Aristotle and Epicurus against Moses, are not sliced here; that doxography is Remigius' material and belongs with K4."
+}

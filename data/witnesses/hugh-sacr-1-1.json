@@ -1,0 +1,40 @@
+{
+ "id": "hugh-sacr-1-1",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "in principio temporis, vel potius cum ipso tempore",
+  "en": "in the beginning of time, or rather with time itself"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Nam quod illa prima rerum omnium materia, in principio temporis, vel potius cum ipso tempore exorta sit, constat ex eo quod dictum est: In principio creavit Deus coelum et terram. Quamdiu autem in hac informitate sive confusione permanserit, Scriptura manifeste non ostendit. Mihi autem videtur (quantum ego conjicere valeo) inter creationem et dispositionem rerum, ordinem quidem temporis sed nullam fuisse moram interjectam; ita ut vere quidem dici possit, hoc post illud factum fuisse; sed inter hoc factum et illud nullam omnino dilationem intervenisse.",
+  "source": "PL 176, col. 192A",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For that that first matter of all things arose in the beginning of time, or rather with time itself, is clear from what was said: 'In the beginning God created heaven and earth.' But how long it remained in this unformedness or confusion, Scripture does not plainly show. To me, however, it seems, so far as I can conjecture, that between the creation and the disposing of things there was indeed an order of time but no delay interposed; so that it can truly be said that this was made after that, yet that between this making and that no postponement whatever came between.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-temporis",
+  "world-has-a-beginning"
+ ],
+ "notes": "Hugh sharpens the temporal reading to the point where it stops being a place in time at all: not in the beginning of time but 'or rather with time itself', so that the verse dates nothing, it institutes the possibility of dating. From that he draws the conclusion the schools needed — that between creation and the ordering of things there was an order of time but no interval — which is how a literal six days can be held together with 'he created all things at once'. Compare b. Chagigah 12a, where the measure of the day and the measure of the night are themselves among the ten things made on the first day: both benches, asked what the beginning is the beginning of, answer that time is inside the creature and not outside it."
+}

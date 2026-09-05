@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnm-1-2",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "circa",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non in principio temporis, sed in Christo",
+  "en": "not in the beginning of time, but in Christ"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quod scriptum est, In principio fecit Deus coelum et terram, quaerunt, in quo principio; et dicunt: Si in principio aliquo temporis fecit Deus coelum et terram, quid agebat antequam faceret coelum et terram? et quid ei subito placuit facere, quod nunquam antea fecerat per tempora aeterna? His respondemus, Deum in principio fecisse coelum et terram, non in principio temporis, sed in Christo, cum Verbum esset apud Patrem, per quod facta et in quo facta sunt omnia (Joan. I, 1, 3) . Dominus enim noster Jesus Christus, cum eum Judaei interrogassent quis esset, respondit, Principium, quia et loquor vobis (Id. VIII, 25) . Sed etsi in principio temporis Deum fecisse coelum et terram credamus, debemus utique intelligere quod ante principium temporis non erat tempus. Deus enim fecit et tempora: et ideo antequam faceret tempora, non erant tempora. Non ergo possumus dicere fuisse aliquod tempus quando Deus nondum aliquid fecerat. Quomodo enim erat tempus quod Deus non fecerat, cum omnium temporum ipse sit fabricator? Et si tempus cum coelo et terra esse coepit, non potest inveniri tempus quo Deus nondum fecerat coelum et terram.",
+  "source": "PL 34, col. 174",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "As to what is written, 'In the beginning God made heaven and earth', they ask, in what beginning; and they say: If God made heaven and earth in some beginning of time, what was he doing before he made heaven and earth? And why did it suddenly please him to make what he had never made before through eternal ages? To these we answer that God made heaven and earth in the beginning not in the beginning of time, but in Christ, since the Word was with the Father, through whom and in whom all things were made (John 1:1, 3). For our Lord Jesus Christ, when the Jews had asked him who he was, answered: 'The Beginning, because I also speak to you' (John 8:25). But even if we do believe that God made heaven and earth in the beginning of time, we ought certainly to understand that before the beginning of time there was no time. For God made the times too; and therefore before he made the times, there were no times. We cannot then say that there was some time when God had not yet made anything. For how was there a time that God had not made, since he himself is the fashioner of all times? And if time began together with heaven and earth, no time can be found in which God had not yet made heaven and earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "principio-temporis"
+ ],
+ "notes": "Augustine's earliest answer, given under pressure. The Manichaean objection is not about grammar but about God's idleness — what was he doing before? — and Augustine takes the shortest road out: the beginning is not a time at all, it is Christ. Then, in the second half, he grants the temporal reading anyway and disarms the objection a second way, by making time itself a creature, so that there is no 'before'. Both moves survive him: the Christological one becomes the Latin commonplace, and the argument that time began with the world is what Rabanus compresses to 'time is from this world, not before the world', and Hugh of St Victor restates as 'in the first beginning of time, or rather with the beginning of time itself'."
+}

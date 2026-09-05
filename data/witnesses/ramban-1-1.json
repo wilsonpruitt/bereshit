@@ -1,0 +1,39 @@
+{
+ "id": "ramban-1-1",
+ "work": "ramban-gen",
+ "author": "ramban",
+ "tradition": "rabbinic",
+ "date": 1267,
+ "date_precision": "range-1263-1270",
+ "place": "girona",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "בְּרֵאשִׁית",
+  "en": "In the beginning"
+ },
+ "original": {
+  "lang": "he",
+  "text": "בְּרֵאשִׁית כָּתַב רַשִׁ\"י (רש\"י על בראשית א':א'): וְאִם בָּאתָ לְפָרְשׁוֹ כִּפְשׁוּטוֹ כָּךְ פָּרְשֵׁהוּ: בְּרֵאשִׁית בְּרִיַּת שָׁמַיִם וָאָרֶץ, וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ, וַיֹּאמֶר הקב\"ה יְהִי אוֹר. אִם כֵּן, הַכֹּל נִמְשַׁךְ לִבְרִיאַת הָאוֹר. וְרַבִּי אַבְרָהָם פֵּרֵשׁ כְּעִנְיָן זֶה בְּעַצְמוֹ, אֲבָל תִּקֵּן כִּי הַו\"ו בְּמִילַת \"וְהָאָרֶץ\" אֵינָהּ מְשַׁמֶּשֶׁת, וְרַבּוֹת כֵּן בַּמִּקְרָאוֹת. וְהַטַּעַם, כִּי בְּרֵאשִׁית בְּרִיאַת הָרָקִיעַ וְהַיַּבָּשָׁה לֹא הָיָה בָּאָרֶץ יִשּׁוּב, אֲבָל הָיְתָה תֹהוּ וָבֹהוּ מְכֻסָּה בְּמַיִם, וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר. וּלְפִי דַּעְתּוֹ, לֹא נִבְרָא בְּיוֹם רִאשׁוֹן רַק הָאוֹר. וְהַקֻּשְׁיָא לְרַבֵּינוּ שְׁלֹמֹה בַּפֵּרוּשׁ הַזֶּה, כִּי אָמַר, שֶׁאִם בָּא לְהוֹרוֹת סֵדֶר הַבְּרִיאָה בְּאֵלּוּ לוֹמַר שֶׁהֵם קָדְמוּ – הָיָה לוֹ לִכְתֹּב \"בָּרִאשׁוֹנָה\", שֶׁאֵין \"רֵאשִׁית\" בַּמִּקְרָא שֶׁאֵינוֹ סָמוּךְ. וְהִנֵּה \"מַגִּיד מֵרֵאשִׁית אַחֲרִית\" (ישעיהו מו י). וְאִם יִסְמֹךְ אוֹתוֹ לְ\"דָּבָר\", גַּם זֶה תִּסְמֹךְ אוֹתוֹ. וְעוֹד, \"וַיַּרְא רֵאשִׁית לוֹ\" (דברים לג כא). וְטָעַן בָּזֶה עוֹד טְעָנוֹת.",
+  "source": "Ramban on Gen 1:1, s.v. בראשית",
+  "license": "cc-by",
+  "version": "Sefaria 'Vocalized Edition'"
+ },
+ "english": {
+  "text": "IN THE BEGINNING. Rashi wrote: “If you wish to explain it [the word bereshith] in accordance with its plain meaning, explain it thus: at the beginning of the creation of the heaven and earth, and the earth was formless and void and there was darkness, the Holy One, blessed be He, said, Let there be light.” If so, the whole text leads into the creation of light. Rabbi Abraham ibn Ezra explained it in an identical way. However, he established that the letter vav in the word veha’aretz (and the earth) does not şerve [as a connecting letter as it normally does and which would mean “and,” but it serves rather as the word “when.”] There are many such examples in Scripture. The meaning then according to Rabbi Abraham would be: at the beginning of the creation of heaven and dry land, there was no habitable place on earth; rather, it was unformed and void and covered with water, and G-d said, Let there be light. According to Abraham ibn Ezra’s opinion, only light was created on the first day. The difficulty which Rabbi Shlomo [Rashi] had which led him to the above interpretation is, as he said: For if Scripture intended to teach the order in which the acts of creation took place, it should have written barishonah [instead of bereshith], since wherever the word reshith occurs in Scripture it is in the construct state. But there is the verse, Declaring the end ‘mereshith’ [from the beginning]. And if one will connect it with the missing word davar [thing — thus making the verse read: “Declaring the end of a thing from the beginning of a thing”—] here too it could be connected to a missing word. There is also the verse, And he chose ‘reshith’ (a first part) for himself. [Here again the word reshith is not used in the construct state.] And Rashi raised other objections.",
+  "translator": "Charles B. Chavel, 1971–76",
+  "license": "chavel-ramban"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "reshit-construct",
+  "world-has-a-beginning"
+ ],
+ "notes": "Two centuries after Rashi, the plain-sense reading is refuted from inside the tradition that produced it. Ramban reports Rashi's construct-state argument and Ibn Ezra's version of it — with Ibn Ezra's refinement that the vav of ve-ha'aretz means 'when', so that only light was made on the first day — and then breaks the grammatical premise with two counter-examples: Isa 46:10, 'declaring the end mereshit', and Deut 33:21, 'and he chose reshit for himself', where reshit stands absolute. The Hebrew slice here begins at Ibn Ezra's name and is shorter than the English, which opens at Rashi; the two are aligned on the same argument, not sentence for sentence. Chavel's English shows on Sefaria as CC BY, which is surprising for a 1971 Shilo text: licence key chavel-ramban is marked for checking before publication. Ramban's own answer, that bara names creation from absolute nothing and that the primary matter is what the Greeks call hyle, belongs to K4 and is not sliced here."
+}

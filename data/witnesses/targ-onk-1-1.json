@@ -1,0 +1,38 @@
+{
+ "id": "targ-onk-1-1",
+ "work": "targ-onk",
+ "author": "onkelos",
+ "tradition": "rabbinic",
+ "date": 200,
+ "date_precision": "range-100-300",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "arc": "בְּקַדְמִין",
+  "en": "in former times"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "בְּקַדְמִין בְּרָא יְיָ יָת שְׁמַיָּא וְיָת אַרְעָא",
+  "source": "Sefaria, 'Onkelos Genesis'",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning the LORD created the heavens and the earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "principio-temporis"
+ ],
+ "notes": "be-qadmin, a plain adverb of time and nothing else: no construct, no wisdom, no first thing. Onkelos hears the verse as the Greek does. Etheridge's Onkelos did not return from Sefaria by version title (see notes/SOURCES-FINDINGS.md) and the Metsudah English is CC BY-NC, so the English is a fresh draft."
+}

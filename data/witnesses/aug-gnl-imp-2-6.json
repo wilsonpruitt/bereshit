@@ -1,0 +1,42 @@
+{
+ "id": "aug-gnl-imp-2-6",
+ "work": "aug-gnl-imp",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 393,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Est enim Principium sine principio, et est Principium cum alio principio",
+  "en": "For there is a Beginning without a beginning, and a Beginning with another beginning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Hoc ergo quod scriptum est, In principio fecit Deus coelum et terram, quaeri potest utrum tantummodo secundum historiam accipiendum sit, an etiam figurate aliquid significet, et quomodo congruat Evangelio, et qua causa liber iste sic inchoatus sit. Secundum historiam autem quaeritur quid sit In principio, id est, utrum in principio temporis, an in principio in ipsa Sapientia Dei, quia et ipse Dei Filius principium se dixit, quando ei dictum est, Tu quis es; et dixit, Principium quod et loquor vobis (Joan. VIII, 25) . Est enim Principium sine principio, et est Principium cum alio principio. Principium sine principio solus Pater est, ideo ex uno principio esse omnia credimus: Filius autem ita Principium est, ut de Patre sit. Ipsa etiam prima creatura intellectualis potest dici principium iis quibus caput est, quae fecit Deus. Cum enim recte appelletur principium caput, in illa gradatione Apostolus mulierem tamen non dixit caput alicujus. Nam et virum dixit caput mulieris, et caput viri Christum, et caput Christi Deum (I Cor. XI, 3) : ita Creatori creatura subnectitur.",
+  "source": "PL 34, col. 222",
+  "cc_idno": "7310",
+  "license": "pd"
+ },
+ "english": {
+  "text": "This, then, that is written, 'In the beginning God made heaven and earth', may be asked about: whether it is to be taken only according to history, or whether it also signifies something figuratively, and how it agrees with the Gospel, and for what cause this book was begun so. According to history it is asked what 'In the beginning' is — that is, whether in the beginning of time, or in the beginning which is the very Wisdom of God, since the Son of God also called himself the beginning, when it was said to him, 'Who are you?', and he said, 'The Beginning, who also speak to you' (John 8:25). For there is a Beginning without a beginning, and there is a Beginning with another beginning. The Beginning without a beginning is the Father alone, and therefore we believe all things to be from one beginning; but the Son is a Beginning in such a way as to be from the Father. The first intellectual creature itself can also be called a beginning to those things of which it is the head, which God made. For since a head may rightly be called a beginning, in that gradation the Apostle nevertheless did not call the woman the head of anything. For he called the man the head of the woman, and Christ the head of the man, and God the head of Christ (1 Cor 11:3): so is the creature bound beneath the Creator.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "principio-temporis",
+  "principio-is-first-creature"
+ ],
+ "notes": "The unfinished commentary is where Augustine works out what 'beginning' can mean before he decides what it means here, and the distinction he coins is exact: a Beginning without a beginning (the Father) and a Beginning that has another beginning (the Son, who is from the Father). Then a third possibility that no one else on this crux takes up: the first intellectual creature is a beginning to the things it heads, so 'in the beginning' might name the angelic creation. Bereshit Rabbah 1:4's list of six things that preceded the world is doing something formally similar — populating the beginning with a created thing — and reaches the Torah and the Throne of Glory instead."
+}

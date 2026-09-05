@@ -1,0 +1,42 @@
+{
+ "id": "bede-gen-1-1",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "range-717-725",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "in principio temporum … in Unigenito Filio suo",
+  "en": "in the beginning of times … in his Only-begotten Son"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Creationem mundi insinuans Scriptura divina, apte primo statim verbo aeternitatem atque omnipotentiam Dei creatoris ostendit. Quem enim in principio temporum mundum creasse perhibet, ipsum profecto ante tempora aeternaliter exstitisse designat. Et quem ipso conditionis initio coelum et terram creasse narrat, in tanta celeritate operationis omnipotentem esse declarat cui voluisse fecisse est. Nam humana fragilitas cum aliquid operatur; verbi gratia, cum domum aedificamus, in principio operis materiam praeparamus, et post hoc principium fodimus in altum, deinde immittimus lapides in fundamentum, deinde parietes augescentibus lapidum ordinibus apponimus, sicque paulatim ad perfectionem operis propositi proficiendo pervenimus. Deus autem cujus omnipotens manus est ad explendum opus suum, non eguit mora temporum, quia scriptum est: Omnia quaecunque voluit fecit (Psal. CXIII, 3) . Unde beneplacitum est, quia in principio creavit Deus coelum et terram, ut aperte detur intelligi quod utrumque simul a Deo factum est, quamvis utrumque simul ab homine dici non possit. Denique dicit propheta: Initio terram tu fundasti, Domine (Psal. CI, 26) . Hic autem Dominus, in principio coelum et terram creasse narratur; unde liquido colligitur quia factura est utriusque elementi pariter expleta, et hoc tanta velocitate divinae virtutis, ut necdum primum mundi nascentis momentum esset transcensum. Potest autem non improbabiliter intelligi in principio fecisse Deum coelum et terram in Unigenito Filio suo, qui interrogantibus se Judaeis, quid eum credere deberent, respondit: Principium quod et loquor vobis (Joan. VIII, 25) .",
+  "source": "PL 91, col. 13A",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Divine Scripture, in intimating the creation of the world, aptly shows in its very first word the eternity and omnipotence of God the creator. For him whom it declares to have created the world in the beginning of times, it thereby designates as having existed eternally before times. And him whom it relates to have created heaven and earth at the very outset of the founding, it declares to be omnipotent in so great a speed of operation, for whom to have willed is to have done. For when human frailty makes anything — when, for instance, we build a house — at the beginning of the work we prepare the material, and after that beginning we dig deep, then we lay stones in the foundation, then we set up the walls with courses of stone rising, and so little by little we come to the completion of the work proposed. But God, whose hand is omnipotent to accomplish his work, needed no delay of times, because it is written: 'Whatever he willed, he did' (Ps 115:3 [Vg 113B:3]). Whence it is well pleasing that in the beginning God created heaven and earth, so that it may be plainly understood that both were made by God at once, although both cannot be said at once by a man. And then the prophet says: 'In the beginning, Lord, you founded the earth' (Ps 102:25 [Vg 101:26]); but here the Lord is related to have created heaven and earth in the beginning; whence it is plainly gathered that the making of both elements was completed together, and this with such swiftness of divine power that not even the first moment of the world's birth had been passed. It can also be understood, not improbably, that God made heaven and earth in the beginning in his Only-begotten Son, who answered the Jews when they asked what they should believe him to be: 'The Beginning, who also speak to you' (John 8:25).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-temporis",
+  "principio-in-filio",
+  "world-has-a-beginning"
+ ],
+ "notes": "Bede takes Augustine's three readings and orders them: the temporal one first and at length, the Christological one last and hedged — 'not improbably'. In between comes the argument the whole Carolingian line will repeat, that in principio proves the two were made at once, since a man cannot say two words at once but God can do two things at once, and Ps 102:25's 'in the beginning you founded the earth' names the earth where Genesis names heaven first. This paragraph is the single most-copied piece of Latin on the crux: Rabanus reproduces it almost entire, the Glossa cuts it into three marginal glosses, and Remigius takes over its empyrean heaven word for word."
+}

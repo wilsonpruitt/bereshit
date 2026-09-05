@@ -1,0 +1,40 @@
+{
+ "id": "bruno-gen-1-1",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1090,
+ "date_precision": "range-1079-1123",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In principio creaturarum omnium",
+  "en": "In the beginning of all creatures"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio, inquit, et ante omnem creaturam creavit Deus coelum et terram. Hoc enim et Psalmista testatur, dicens: « Et tu in principio Deus terram fundasti, et opera manuum tuarum sunt coeli (Psal. CI, 26) . » Non igitur prius coelum, quam terram, sed simul et coelum Deus creavit et terram. Unde et istud: « Qui vivit in aeternum creavit omnia simul (Eccli. XVIII, 1) . » Nam et si sex diebus omnia Deus hoc eodem in libro fecisse narratur, simul tamen ex nihilo cuncta creasse dubitari non debet. Ipsam omnium rerum materiam simul creavit, ex qua discretis temporibus caetera, prout voluit, fieri praecepit. Dicatur ergo: In principio creaturarum omnium creavit Deus coelum, et ea scilicet quae continentur in eo, id est angelos, virtutesque coelestes, et terram jam quasi praegnantem et parturientem, omniumque eorum materiam et matrem quae ex ea oriuntur.",
+  "source": "PL 164, col. 147B",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'In the beginning,' he says, and before every creature, God created heaven and earth. For this the Psalmist too testifies, saying: 'And you, God, in the beginning founded the earth, and the heavens are the works of your hands' (Ps 102:25 [Vg 101:26]). Not, therefore, heaven before earth, but God created heaven and earth together. Whence also this: 'He who lives for ever created all things at once' (Sir 18:1). For even if God is narrated in this same book to have made all things in six days, it is not to be doubted that he nevertheless created all things at once out of nothing. He created at once the very matter of all things, out of which he commanded the rest to be made at distinct times, as he willed. Let it be said, then: In the beginning of all creatures God created heaven — and those things, namely, which are contained in it, that is, the angels and the heavenly powers — and the earth, already as it were pregnant and in labour, and the matter and mother of all those things that arise from it.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-first-of-all",
+  "world-has-a-beginning"
+ ],
+ "notes": "Bruno takes the second of Augustine's three readings, the one nobody else on the bench builds on: not in the beginning of time and not in the Son but 'in the beginning of all creatures', that is, before anything else — and he takes it in order to get simul out of the verse, so that Sir 18:1 and the six days can both stand. His pregnant earth, matter and mother of what rises from it, is the same instinct as Bereshit Rabbah 1:1's architect's plans: read the first verse as a statement about what was available to the maker. The Corpus Corporum text of Bruno is the dirtiest on the bench (K7 found Dei. vero, K10 found tuce for luce); nothing in this slice looks corrupt, but it is not collated."
+}

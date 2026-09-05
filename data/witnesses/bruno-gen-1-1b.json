@@ -1,0 +1,39 @@
+{
+ "id": "bruno-gen-1-1b",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1090,
+ "date_precision": "range-1079-1123",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In quo principio? In eo utique qui ait: Ego principium",
+  "en": "In what beginning? In him, surely, who says: I am the Beginning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In quo principio? In eo utique qui ait: « Ego principium qui et loquor vobis (Joan. VIII, 26) .-- Omnia enim per ipsum facta sunt, et sine ipso factum est nihil (Joan. I, 3) . » In hoc igitur principio omnem mundi fabricam, ipsosque angelorum ordines ab exordio creavit Deus.",
+  "source": "PL 164, col. 150A",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In what beginning? In him, surely, who says: 'I am the Beginning, who also speak to you' (John 8:25) — 'for all things were made through him, and without him was made nothing' (John 1:3). In this beginning, therefore, God created from the outset the whole fabric of the world and the very orders of the angels.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio"
+ ],
+ "notes": "The same commentator, the same verse, the other answer — and the structure is the point. Bruno finishes the literal exposition of the whole first day, and only then turns back: 'having set these things out to the letter, let us see what they also signify allegorically. In what beginning? In him, surely, who says: I am the Beginning.' The two readings are not rivals for him but layers, taken in order, and he does not ask which is the sense of the word. This is how the Latin bench keeps three answers alive for seven centuries without ever having to lose two of them; Peter Comestor's 'the phrase is to be repeated' is the same manoeuvre, made explicit."
+}

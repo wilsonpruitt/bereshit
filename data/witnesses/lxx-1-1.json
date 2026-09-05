@@ -1,0 +1,38 @@
+{
+ "id": "lxx-1-1",
+ "work": "lxx",
+ "author": "lxx-translators",
+ "tradition": "greek-jewish",
+ "date": -250,
+ "date_precision": "circa",
+ "place": "alexandria",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "ἐν ἀρχῇ",
+  "en": "in the beginning"
+ },
+ "original": {
+  "lang": "el",
+  "text": "ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν.",
+  "source": "LXX Gen 1:1 (Rahlfs)",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning God made the heaven and the earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "principio-temporis"
+ ],
+ "notes": "ἐν ἀρχῇ without an article and without a governing noun: the Greek turns a Hebrew word that may be construct into an adverbial phrase, and in doing so closes off the reading Rashi and Ibn Ezra will call the plain sense. Note also ἐποίησεν, 'made', where the Vulgate will write creavit: the Latin bench's whole argument that creare means to make from nothing has no purchase on the Greek. Every Latin witness here quotes fecit or creavit according to which Latin text is in front of him, and the variation is evidence, not noise."
+}

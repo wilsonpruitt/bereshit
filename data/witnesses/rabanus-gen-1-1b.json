@@ -1,0 +1,41 @@
+{
+ "id": "rabanus-gen-1-1b",
+ "work": "rabanus-gen",
+ "author": "rabanus",
+ "tradition": "latin",
+ "date": 822,
+ "date_precision": "range-819-822",
+ "place": "fulda",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Tempus enim ab hoc mundo, non ante mundum",
+  "en": "For time is from this world, not before the world"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio itaque temporis, coelum et terram Deus fecit. Tempus enim ab hoc mundo, non ante mundum: dies autem temporis est portio, non principium. Deus autem, cujus omnipotens manus est, ad explendum opus suum non eguit mora temporum: quia, sicut scriptum est, Omnia quaecunque voluit fecit (Psal. CXIII) . Unde bene dictum est: quia in principio creavit Deus coelum et terram: ut aperte detur intelligi, quia utrumque simul ab eo factum est, quamvis utrumque simul ab homine dici non possit. Denique dicit Propheta: Initio terram tu fundasti, Domine (Psal. CI) : hic autem Dominus in principio coelum et terram creasse narratur. Unde liquido colligitur, quia factura est elementi utriusque pariter expleta, et hoc tanta velocitate divinae virtutis, ut necdum primum mundi nascentis momentum esset transcensum. Potest autem non improbabiliter intelligi, in principio fecisse Deum coelum et terram in unigenito Filio suo, qui interrogantibus se Judaeis quid eum credere deberent, respondit: Principium qui et loquor vobis (Joan. VIII) ; quia in ipso, ut ait Apostolus, condita sunt omnia in coelis et terra (Coloss. I)",
+  "source": "PL 107, col. 444B",
+  "cc_idno": "8885",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning of time, therefore, God made heaven and earth. For time is from this world, not before the world; and a day is a portion of time, not its beginning. But God, whose hand is omnipotent, needed no delay of times to accomplish his work, because, as it is written, 'Whatever he willed, he did' (Ps 115:3 [Vg 113B:3]). Whence it is well said that in the beginning God created heaven and earth, so that it may be plainly understood that both were made by him at once, although both cannot be said at once by a man. And then the prophet says: 'In the beginning, Lord, you founded the earth' (Ps 102:25 [Vg 101:26]); but here the Lord is related to have created heaven and earth in the beginning. Whence it is plainly gathered that the making of both elements was completed together, and this with such swiftness of divine power that not even the first moment of the world's birth had been passed. It can also be understood, not improbably, that God made heaven and earth in the beginning in his Only-begotten Son, who answered the Jews when they asked what they should believe him to be: 'The Beginning, who also speak to you' (John 8:25); because in him, as the Apostle says, 'all things were created in the heavens and on the earth' (Col 1:16).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-temporis",
+  "principio-in-filio"
+ ],
+ "notes": "Bede's paragraph again, taken over silently and unattributed, exactly as the K7 threads found at PL 107:447C and the K10 threads at 448D — but with a sentence in front of it that is not Bede's and that answers the crux more sharply than Bede does: 'in the beginning of time, therefore, God made heaven and earth. For time is from this world, not before the world; and a day is a portion of time, not its beginning.' Rabanus also drops Bede's long house-building simile and keeps everything after it. This is the Carolingian method visible in one paragraph: an inherited exposition, silently abridged, with the compiler's own thesis set at its head. On the id: K7 already holds a witness called rabanus-gen-1-1 which is in fact on Gen 1:2, so this one takes the b suffix (see notes/SOURCES-FINDINGS.md)."
+}

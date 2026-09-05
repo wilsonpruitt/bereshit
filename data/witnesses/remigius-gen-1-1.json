@@ -1,0 +1,40 @@
+{
+ "id": "remigius-gen-1-1",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 900,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In principio, et subauditur: temporis",
+  "en": "'In the beginning' — and 'of time' is understood"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio hujus voluminis philosophi confutantur, qui de mundi creatione conati disputare, sicut Plato, qui tria dixit esse principia, Deum videlicet, exemplar, et materiam, et Deum non quasi auctorem ex nihilo cuncta creasse, sed quasi opifici in rebus creandis materiam adjutorium praestitisse. Aristoteles autem duo dixit esse principia, materiam scilicet et speciem, tertium quiddam nescio quid volens dicere operatorium appellavit. Quorum erroribus obvians Moyses utpote a Deo electus veritatem dicitur demonstrasse, ostendens Deum cuncta simul ex nihilo formasse, non quidem in tempore, sed in initio temporis dicens: In principio, et subauditur: temporis, patet procul dubio tunc tempus coepisse quod antea minime erat.",
+  "source": "PL 131, col. 53D",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "At the beginning of this volume the philosophers are refuted, who tried to argue about the creation of the world: Plato, for instance, who said there were three principles, namely God, the exemplar, and matter, and that God did not create all things from nothing as their author, but that matter furnished help to him as to a workman in the making of things. Aristotle said there were two principles, namely matter and form, and something third which he wished to call, I know not what, the operative. Opposing their errors, Moses, as chosen by God, is said to have shown the truth, showing that God formed all things at once out of nothing — not indeed in time, but at the beginning of time, saying 'In the beginning', with 'of time' understood; whence it is beyond doubt that time then began, which before was not at all.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-temporis",
+  "world-has-a-beginning"
+ ],
+ "notes": "Remigius makes the temporal reading do the polemical work Ambrose gave it, and does the crux's grammar out loud: 'In principio, and of time is understood' — a supplied genitive, which is what every Latin reader is doing silently. The named opponents are Plato with his three principles and Aristotle with his two, and the distinction he needs is not in time but at the beginning of time. His neighbour on the rabbinic bench is Bereshit Rabbah 1:9, where a philosopher tells Rabban Gamliel that God is a great artisan who found good materials to hand and is told the list of them is a list of things created — the same refutation of the same philosophy, on the same verse, with the same absence of contact. That section is K4's."
+}

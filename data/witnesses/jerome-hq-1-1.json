@@ -1,0 +1,43 @@
+{
+ "id": "jerome-hq-1-1",
+ "work": "jerome-hq",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In filio fecit Deus coelum et terram",
+  "he": "בְּרֵאשִׁית",
+  "en": "In the Son God made heaven and earth"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio fecit Deus coelum et terram. Plerique existimant, sicut in Altercatione quoque Jasonis et Papisci scriptum est, et Tertullianus in libro contra Praxeam disputat: necnon Hilarius in expositione cujusdam Psalmi affirmat, in Hebraeo haberi: In filio fecit Deus coelum et terram: quod falsum esse, ipsius rei veritas comprobat. Nam et Septuaginta Interpretes, et Symmachus, et Theodotion, in principio, transtulerunt. Et in Hebraeo scriptum est, BRESITH ( ); quod Aquila interpretatur, in capitulo: et non BABEN ( ), quod appellatur [ Al. interpretatur], in filio. Magis itaque secundum sensum quam secundum verbi translationem de Christo accipi potest: qui tam in ipsa fronte Geneseos, quae caput librorum omnium est, quam etiam in principio Joannis Evangelistae, coeli et terrae conditor approbatur. Unde et in Psalterio (Psal. XXXIX, 9) de seipso ait: In capitulo [Al. capite] libri scriptum est de me, id est, in principio 306 Geneseos. Et in Evangelio: Omnia per ipsum facta sunt, et sine ipso factum est nihil (Joan. I, 3) . Sed et hoc sciendum, quod apud Hebraeos liber hic BRESITH vocatur: hanc habentes consuetudinem, ut voluminibus ex principiis eorum nomina imponant.",
+  "source": "PL 23, col. 937C",
+  "cc_idno": "7160",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning God made heaven and earth. Very many suppose — as is written also in the Altercation of Jason and Papiscus, and as Tertullian argues in his book against Praxeas, and as Hilary too asserts in his exposition of a certain Psalm — that the Hebrew has: 'In the Son God made heaven and earth.' That this is false, the truth of the thing itself proves. For both the Seventy Translators and Symmachus and Theodotion rendered 'in the beginning'; and in the Hebrew it is written BRESITH, which Aquila translates 'in the head', and not BABEN, which is rendered 'in the son'. It can therefore be taken of Christ rather according to the sense than according to the translation of the word: he who, both at the very forehead of Genesis, which is the head of all the books, and also at the beginning of John the Evangelist, is shown to be the founder of heaven and earth. Whence also in the Psalter he says of himself: 'In the head of the book it is written of me' (Ps 40:8 [Vg 39:9]) — that is, in the beginning of Genesis. And in the Gospel: 'All things were made through him, and without him was made nothing' (John 1:3). But this too is to be known, that among the Hebrews this book is called BRESITH: they have the custom of giving volumes their names from their opening words.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation",
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "bereshit-book-name"
+ ],
+ "notes": "The pivot of the Latin side of this crux, and it goes against the Latin side. Jerome names three authorities who had said the Hebrew reads 'in the Son' — the lost Altercation of Jason and Papiscus, Tertullian, Hilary — and refutes them from the languages: the three Greek versions all have 'in the beginning', the Hebrew word is bresith, which Aquila renders ἐν κεφαλαίῳ, 'in the head', and the Hebrew for 'in the son' would be ba-ben, which is not what is written. Then the concession that is quoted for the next seven hundred years while the refutation is not: it may still be taken of Christ 'according to the sense rather than the translation of the word', because Genesis and John begin alike. Aquila's in capitulo is rendered 'in the head' here to keep Jerome's pun working — capitulum is what lets him bind bresith to caput librorum and to Ps 40:8's in capite libri. Wigbod reproduces this passage almost entire and drops the refutation."
+}

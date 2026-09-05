@@ -1,0 +1,41 @@
+{
+ "id": "wigbod-gen-1-1",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "aachen",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "secundum sensum magis quam secundum verbi translationem, de Christo accipi potest",
+  "en": "it can be taken of Christ according to the sense rather than the translation of the word"
+ },
+ "original": {
+  "lang": "la",
+  "text": "D. Genesis unde hoc nomen accepit? M. LXX etenim Interpretes, Symmachus et Theodotion in principio transtulerunt, et in Hebraeo scriptum est Bresith, quod Aquila interpretatur in capitulo. Et ideo secundum sensum magis quam secundum verbi translationem, de Christo accipi potest, qui tam in ipso fronte Geneseos, qui caput omnium librorum est, quam in principio Joannis evangelistae, coeli et terrae conditor approbatur. Unde et in Psalterio de seipso ait: In capite libri scriptum est de me (Psal. XXXIX, 8) . Id est in principio Geneseos. Et in Evangelio, Omnia per ipsum facta sunt, et sine ipso factum est nihil (Joan. I, 3) . Ideo sciendum quod liber hic apud Hebraeos Bresith vocetur, hanc habentes consuetudinem ut voluminibus ex principibus eorum nomina imponant.",
+  "source": "PL 96, col. 1105C",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "D. Whence did Genesis take this name? — M. For the Seventy Translators, Symmachus and Theodotion rendered 'in the beginning', and in the Hebrew it is written Bresith, which Aquila translates 'in the head'. And therefore it can be taken of Christ according to the sense rather than according to the translation of the word: he who, both at the very forehead of Genesis, which is the head of all the books, and at the beginning of John the Evangelist, is shown to be the founder of heaven and earth. Whence also in the Psalter he says of himself: 'In the head of the book it is written of me' (Ps 40:8 [Vg 39:8]) — that is, in the beginning of Genesis. And in the Gospel, 'All things were made through him, and without him was made nothing' (John 1:3). Therefore it is to be known that this book is called Bresith among the Hebrews, they having the custom of giving volumes their names from their opening words.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "bereshit-book-name"
+ ],
+ "notes": "A Carolingian catena copying Jerome, and the copying is the finding. Wigbod reproduces the Hebrew Questions on this verse almost word for word — the three Greek versions, Bresith, Aquila's 'in the head', the forehead of Genesis, Ps 40:8, John 1:3, the Hebrew custom of naming books from their openings — and drops exactly two things: the list of authorities who said the Hebrew reads 'in the Son', and Jerome's refutation of them, including the decisive philological sentence that the Hebrew for 'in the son' is ba-ben and is not what is written. What survives is the concession without the correction, and Wigbod reaches it under a question about the book's title rather than about the verse. The K7 threads found him doing the same thing to Jerome on 1:2 under the label HIERONYMUS; here he does not name Jerome at all. Migne's ex principibus is a misprint for Jerome's ex principiis."
+}

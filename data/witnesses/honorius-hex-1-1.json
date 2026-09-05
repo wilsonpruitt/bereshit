@@ -1,0 +1,39 @@
+{
+ "id": "honorius-hex-1-1",
+ "work": "honorius-hex",
+ "author": "honorius",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "range-1110-1130",
+ "place": "regensburg",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Moyses propheta Filium principium, Joannes autem Patrem principium",
+  "en": "Moses the prophet has the Son as the beginning, but John the Father"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et notandum, quod Moyses propheta Filium principium, et in eo omnia creata commemorat: Joannes autem apostolus Patrem principium, et Filium in eo semper, ei coaequalem mansisse, et omnia per ipsum facta praedicat. Quia nimirum unam utriusque substantiam concorditer nobis denuntiant. Dicitur itaque (Gen. I) : In principio creavit Deus coelum et terram, hoc est, Deus Pater creavit in Filio simul coelestia, et terrestria, visibilia et invisibilia.",
+  "source": "PL 172, col. 254B",
+  "cc_idno": "10991",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And it is to be noted that Moses the prophet records the Son as the beginning, and all things created in him; but John the apostle proclaims the Father as the beginning, and that the Son always remained in him, coequal to him, and that all things were made through him. For without doubt they announce to us in concord the one substance of both. It is said therefore (Gen 1): 'In the beginning God created heaven and earth' — that is, God the Father created in the Son, at once, the heavenly and the earthly, the visible and the invisible.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio"
+ ],
+ "notes": "The neatest thing said on this crux in the twelfth century, and the neatness is the problem. Honorius observes that Genesis and John begin with the same words and mean opposite persons by them: in Genesis 'the beginning' is the Son, in whom all is created; in John 'the beginning' is the Father, in whom the Son always was. The two openings had been read together since Jerome as evidence for one another; Honorius is the first on this bench to notice that reading them together requires the same phrase to name two different persons, and he resolves it not by choosing but by an appeal to the single substance. Honorius has already appeared on K7 (PL 172:254C) and K10 (255D) from the same columns of the same work."
+}

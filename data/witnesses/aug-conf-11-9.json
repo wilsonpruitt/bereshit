@@ -1,0 +1,41 @@
+{
+ "id": "aug-conf-11-9",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 398,
+ "date_precision": "range-397-401",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In hoc Principio, Deus, fecisti coelum et terram",
+  "en": "In this Beginning, God, you made heaven and earth"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In hoc Principio, Deus, fecisti coelum et terram, in Verbo tuo, in Filio tuo, in Virtute tua, in Sapientia tua, in Veritate tua, miro modo dicens, et miro modo faciens. Quis comprehendet? quis enarrabit?",
+  "source": "PL 32, col. 813",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In this Beginning, God, you made heaven and earth: in your Word, in your Son, in your Strength, in your Wisdom, in your Truth, speaking in a wondrous way and in a wondrous way making. Who shall grasp it? who shall tell it?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical",
+  "spiritual"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "beginning-is-wisdom"
+ ],
+ "notes": "Two sentences, and the crux's Latin answer at its highest pitch: the Beginning is named five times over — Word, Son, Strength, Wisdom, Truth — and the naming is prayer, not argument. This is also the clearest place to see how close the two benches come without touching. 'In your Wisdom you made heaven and earth' is, as a sentence, what Targum Neofiti prints as the text of Genesis 1:1, and what Prov 3:19 says in the mouth of R. Banai at Bereshit Rabbah 1:4. Augustine is confessing to the second person of the Trinity; Neofiti is translating a Hebrew word; R. Banai means the Torah."
+}

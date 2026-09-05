@@ -1,0 +1,39 @@
+{
+ "id": "vulgate-1-1",
+ "work": "vulgate",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In principio",
+  "en": "In the beginning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio creavit Deus coelum et terram.",
+  "source": "PL 28, col. 163C",
+  "cc_idno": "7204",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning God created the heaven and the earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "principio-temporis"
+ ],
+ "notes": "Jerome translates in principio and not in Filio, and in the Hebrew Questions he says in so many words why: the reading 'in the Son' is false as a translation, however true as a sense. But he also writes creavit where the Old Latin his own contemporaries quote has fecit — Augustine, Ambrose, Bede and the Glossa all argue from fecit — so the Latin bench spends seven centuries reasoning about a verse in two versions at once."
+}

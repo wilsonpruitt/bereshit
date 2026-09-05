@@ -1,0 +1,50 @@
+{
+ "id": "br-1-4",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "שִׁשָּׁה דְבָרִים קָדְמוּ לִבְרִיאַת הָעוֹלָם",
+  "en": "six things preceded the creation of the world"
+ },
+ "original": {
+  "lang": "he",
+  "text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים, שִׁשָּׁה דְבָרִים קָדְמוּ לִבְרִיאַת הָעוֹלָם, יֵשׁ מֵהֶן שֶׁנִּבְרְאוּ, וְיֵשׁ מֵהֶן שֶׁעָלוּ בַּמַּחֲשָׁבָה לְהִבָּרְאוֹת. הַתּוֹרָה וְהַכִּסֵּא הַכָּבוֹד, נִבְרְאוּ. תּוֹרָה מִנַּיִן, שֶׁנֶּאֱמַר (משלי ח, כב): ה' קָנָנִי רֵאשִׁית דַּרְכּוֹ. כִּסֵּא הַכָּבוֹד מִנַּיִן, דִּכְתִיב (תהלים צג, ב): נָכוֹן כִּסְאֲךָ מֵאָז וגו'. הָאָבוֹת וְיִשְׂרָאֵל וּבֵית הַמִּקְדָּשׁ וּשְׁמוֹ שֶׁל מָשִׁיחַ, עָלוּ בַּמַּחֲשָׁבָה לְהִבָּרְאוֹת, הָאָבוֹת מִנַּיִן, שֶׁנֶּאֱמַר (הושע ט, י): כַּעֲנָבִים בַּמִּדְבָּר וגו'. יִשְׂרָאֵל מִנַּיִן, שֶׁנֶּאֱמַר (תהלים עד, ב): זְכֹר עֲדָתְךָ קָנִיתָ קֶדֶם. בֵּית הַמִּקְדָּשׁ מִנַּיִן, שֶׁנֶּאֱמַר (ירמיה יז, יב): כִּסֵּא כָבוֹד מָרוֹם מֵרִאשׁוֹן וגו'. שְׁמוֹ שֶׁל מָשִׁיחַ מִנַּיִן, שֶׁנֶּאֱמַר (תהלים עב, יז): יְהִי שְׁמוֹ לְעוֹלָם וגו'. רַבִּי אַהֲבָה בְּרַבִּי זְעִירָא אָמַר אַף הַתְּשׁוּבָה, שֶׁנֶּאֱמַר (תהלים צ, ב): בְּטֶרֶם הָרִים יֻלָּדוּ, וְאוֹתָהּ הַשָּׁעָה תָּשֵׁב אֱנוֹשׁ עַד דַּכָּא וגו', אֲבָל אֵינִי יוֹדֵעַ אֵיזֶה מֵהֶם קֹדֶם, אִם הַתּוֹרָה קָדְמָה לְכִסֵּא הַכָּבוֹד וְאִם כִּסֵּא הַכָּבוֹד קֹדֶם לַתּוֹרָה, אָמַר רַבִּי אַבָּא בַּר כַּהֲנָא הַתּוֹרָה קָדְמָה לְכִסֵּא הַכָּבוֹד, שֶׁנֶּאֱמַר (משלי ח, כב): ה' קָנָנִי רֵאשִׁית דַּרְכּוֹ וגו', קוֹדֵם לְאוֹתוֹ שֶׁכָּתוּב בּוֹ (תהלים צג, ב): נָכוֹן כִּסְאֲךָ מֵאָז. רַבִּי הוּנָא וְרַבִּי יִרְמְיָה בְּשֵׁם רַבִּי שְׁמוּאֵל בַּר רַבִּי יִצְחָק אָמְרוּ, מַחְשַׁבְתָּן שֶׁל יִשְׂרָאֵל קָדְמָה לְכָל דָּבָר, מָשָׁל לְמֶלֶךְ שֶׁהָיָה נָשׂוּי לְמַטְרוֹנָה אַחַת, וְלֹא הָיָה לוֹ מִמֶּנָּה בֵּן, פַּעַם אַחַת נִמְצָא הַמֶּלֶךְ עוֹבֵר בַּשּׁוּק, אָמַר טְלוּ מִילָנִין וְקַלְמִין זוֹ לִבְנִי, וְהָיוּ הַכֹּל אוֹמְרִין, בֵּן אֵין לוֹ וְהוּא אוֹמֵר טְלוּ מִילָנִין וְקַלְמִין זוֹ לִבְנִי, חָזְרוּ וְאָמְרוּ הַמֶּלֶךְ אַסְטְרוֹלוֹגוּס גָּדוֹל הוּא, אִלּוּלֵי שֶׁצָּפָה הַמֶּלֶךְ שֶׁהוּא עָתִיד לְהַעֲמִיד מִמֶּנָּה בֵּן לֹא הָיָה אוֹמֵר טְלוּ מִילָנִין וְקַלְמִין לִבְנִי. כָּךְ אִלּוּלֵי שֶׁצָּפָה הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁאַחַר עֶשְׂרִים וְשִׁשָּׁה דּוֹרוֹת יִשְׂרָאֵל עֲתִידִין לְקַבֵּל אֶת הַתּוֹרָה, לֹא הָיָה כּוֹתֵב בַּתּוֹרָה צַו אֶת בְּנֵי יִשְׂרָאֵל, דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל. אָמַר רַבִּי בַּנָאי, הָעוֹלָם וּמְלוֹאוֹ לֹא נִבְרָא אֶלָּא בִּזְכוּת הַתּוֹרָה, שֶׁנֶּאֱמַר (משלי ג, יט): ה' בְּחָכְמָה יָסַד אֶרֶץ וגו'. רַבִּי בֶּרֶכְיָה אָמַר בִּזְכוּת משֶׁה, שֶׁנֶּאֱמַר (דברים לג, כא): וַיַּרְא רֵאשִׁית לוֹ. רַב הוּנָא בְּשֵׁם רַב מַתְנָה אָמַר, בִּזְכוּת שְׁלשָׁה דְּבָרִים נִבְרָא הָעוֹלָם, בִּזְכוּת חַלָּה, וּבִזְכוּת מַעַשְׂרוֹת, וּבִזְכוּת בִּכּוּרִים, וּמַה טַּעַם, בְּרֵאשִׁית בָּרָא אֱלֹהִים, וְאֵין רֵאשִׁית אֶלָא חַלָּה, שֶׁנֶּאֱמַר (במדבר טו, כ): רֵאשִׁית עֲרִסֹתֵיכֶם, אֵין רֵאשִׁית אֶלָּא מַעַשְׂרוֹת, הֵיךְ דְּאַתְּ אָמַר (דברים יח, ד): רֵאשִׁית דְּגָנְךָ, וְאֵין רֵאשִׁית אֶלָּא בִּכּוּרִים, שֶׁנֶּאֱמַר (שמות כג, יט): רֵאשִׁית בִּכּוּרֵי אַדְמָתְךָ וגו'.",
+  "source": "Bereshit Rabbah 1:4 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "“In the beginning, God created” – six items preceded the creation of the world; some of them were [actually] created, and some of them God contemplated creating, [though He did not actually do so]. The Torah and the Throne of Glory were created. Torah, from where is it derived? As it is stated: “The Lord made me at the beginning of His way” (Proverbs 8:22). The Throne of Glory, from where is it derived? “Your throne stands firm from earliest time, [You are from eternity]” (Psalms 93:2). The patriarchs, Israel, the Temple, and the name of the messianic king – God contemplated creating them [before the world, but did not]. The patriarchs, from where is it derived? “Like grapes in the wilderness [I found Israel, like a first fruit on the fig tree, at its beginning [bereshitah] I saw your fathers]” (Hosea 9:10). Israel, from where is it derived? “Remember Your congregation, that You acquired from old times” (Psalms 74:2). The Temple, from where is it derived? “Throne of glory, exalted from the beginning, [is the place of our Temple]” (Jeremiah 17:12). The name of the messianic king, from where is it derived? “May his name endure forever. His name is praised before the sun” (Psalms 72:17). Rabbi Ahava ben Rabbi Ze’eira said: Repentance as well, as it is stated: “Before the birth of mountains” (Psalms 90:2), and at that same time, “You bring man down until he is crushed, [and then You say: Return, sons of man]” (Psalms 90:3). But I do not know which of them was first – did the Torah precede the Throne of Glory, or did the Throne of Glory precede the Torah? Rabbi Abba bar Kahana said: The Torah preceded the Throne of Glory, as it is stated: “The Lord made me at the beginning of His way, [before His undertakings of old times]” (Proverbs 8:22) – before that in whose regard it is written: “Your throne stands firm from earliest time” (Psalms 93:2). Rabbi Huna and Rabbi Yirmeya said in the name of Rabbi Shmuel bar Rabbi Yitzḥak: The contemplation about [creating] Israel preceded all other things. This is analogous to a king who married a noblewoman, but did not have a son from her. Once the king was found passing in the marketplace. He said: ‘Take this ink and inkwell for my son.’ Everyone was saying: ‘He has no son and yet he says: Take this ink and inkwell for my son?’ Then they said: ‘The king is a great astrologer, had it not been that he is destined to beget a son from her, he would not have said: Take this ink and inkwell for my son.’ So, too, had it not been that the Holy One blessed be He foresaw that after twenty-six generations Israel was destined to receive the Torah, He would not have written in the Torah: “Command the children of Israel”; “speak to the children of Israel.” Rabbi Banai said: The world and its contents were created only due to the merit of the Torah, as it is stated: “The Lord founded the earth with wisdom [beḥochma]” (Proverbs 3:19). Rabbi Berekhya said: It was due to the merit of Moses, as it is stated: “He saw the first [reshit] for himself, [as there the portion of the lawgiver is hidden]” (Deuteronomy 33:21). Rav Huna said in the name of Rav Matana: The world was created for the sake of three things: For the sake of ḥalla, for the sake of tithes, and for the sake of first fruits. What is the source? “In the beginning, [bereshit] God created,” and reshit is nothing other than ḥalla, as it is stated: “The first of [reshit] your kneading basket” (Numbers 15:20). Reshit is nothing other than tithes, as it says: “The first [reshit] of your grain” (Deuteronomy 18:4). And reshit is nothing other than first fruits, as it is stated: “The choicest of [reshit] the first fruits of your land…” (Exodus 23:19).",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-abba-b-kahana",
+  "r-huna",
+  "r-banai",
+  "r-berekhya",
+  "rav-matana"
+ ],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "six-preceded",
+  "reshit-is-torah",
+  "reshit-is-israel",
+  "beginning-is-wisdom"
+ ],
+ "notes": "If the world has a reshit, what stands in it? Six things precede the creation: the Torah and the Throne of Glory were actually made, while the patriarchs, Israel, the Temple and the name of the Messiah were contemplated. Every one is proved from a verse containing reshit or a synonym, and the Torah's proof is again Prov 8:22. Then the question the section cannot leave alone — which came first, the Torah or the Throne — and R. Abba bar Kahana rules for the Torah. Two other answers close it out: R. Banai, that the world was created only for the merit of the Torah, quoting Prov 3:19, 'the Lord founded the earth be-ḥokhmah, with wisdom' — the very phrase Targum Neofiti puts into Genesis 1:1 itself; and Rav Huna in the name of Rav Matana, that reshit is ḥalla, tithes and first fruits, which turns the first word of Scripture into a warrant for the priestly dues."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "aug-civ-11-32",
+ "work": "aug-civ",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 417,
+ "date_precision": "range-413-427",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "ut Pater fecisse intelligatur in Filio",
+  "en": "so that the Father is understood to have made in the Son"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cum enim ita dicitur, In principio fecit Deus coelum et terram, ut Pater fecisse intelligatur in Filio, sicut attestatur Psalmus, ubi legitur, Quam magnificata sunt opera tua, Domine! omnia in sapientia fecisti (Psal. CIII, 24) : convenientissime paulo post commemoratur etiam Spiritus sanctus. Cum enim dictum esset, qualem terram Deus primitus fecerit, vel quam molem materiamve futurae constructionis mundi coeli et terrae nomine nuncupaverit, subjiciendo et addendo, Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum: mox ut Trinitatis commemoratio compleretur, Et spiritus, inquit, Dei superferebatur super aquam (Gen. I, 1-3) .",
+  "source": "PL 41, col. 345",
+  "cc_idno": "21364",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For when it is said thus, 'In the beginning God made heaven and earth', so that the Father is understood to have made in the Son — as the Psalm bears witness, where it reads, 'How magnified are your works, O Lord! you have made all things in wisdom' (Ps 104:24 [Vg 103:24]) — most fittingly a little after the Holy Spirit also is mentioned. For when it had been said what kind of earth God first made, or what mass and matter he had called by the name of heaven and earth for the construction of the world to come, by subjoining and adding, 'But the earth was invisible and unformed, and darkness was over the abyss', at once, that the mention of the Trinity might be completed, 'And the Spirit,' he says, 'of God was borne above the water' (Gen 1:1–3).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio",
+  "beginning-is-wisdom"
+ ],
+ "notes": "The mature statement of the same reading, and the one that shows the machinery: 'in the beginning' means 'in the Son' because Ps 104:24 says all things were made in wisdom, and Wisdom is the Son. That is an inference through a proof text, not a philological claim, and Jerome had already ruled out the philological claim. The witness is here rather than under K3 because the argument turns on what in principio names; the Trinitarian reading of the whole opening belongs with elohim-and-trinity."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "abelard-hex-1-1",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "range-1130-1135",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "ac si diceretur: In prima die",
+  "en": "as if it were said: On the first day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cum vero in sequentibus dicit diem secundum et tertium, etc. diem primum intelligit quo coelum et terra creata sunt, sicut dictum est: In principio creavit Deus coelum et terram, in quo etiam lux est creata vel a tenebris divisa. Ad opera quippe primae diei sola creatio coeli et terrae pertinet quae primo diei deputanda est, respectu cujus videlicet primae diei secundus aut tertius dies dicatur, ut tale sit in principio creavit ac si diceretur: In prima die, hoc est ante caetera quae sequuntur opera.",
+  "source": "PL 178, col. 741A",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But when in what follows he says a second day and a third and the rest, he means by the first day that on which heaven and earth were created, as it was said: 'In the beginning God created heaven and earth', on which also light was created or divided from the darkness. For to the works of the first day there belongs only the creation of heaven and earth, which is to be assigned to the first day, in respect of which first day the second or third day is so called; so that 'in the beginning he created' is as if it were said: On the first day — that is, before the other works that follow.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-first-of-all",
+  "principio-temporis"
+ ],
+ "notes": "Abelard reads the word as a position in a series and nothing more: 'in the beginning' means 'on the first day', because a second and a third day are named afterwards and something must be first for them to be second to. Of everything on the Latin bench this is the closest to Rashi's plain sense — both make the phrase relative to what follows rather than absolute — and it is arrived at from the opposite end, Rashi from the construct state of a Hebrew noun and Abelard from the ordinals of the Latin chapter. Abelard is also the Latin witness that K7 found reporting the Hebrew against Jerome (volitabat at PL 178:735B): he is the one commentator on this bench who habitually asks what the words are doing rather than what they signify."
+}

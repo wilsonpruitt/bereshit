@@ -1,0 +1,37 @@
+{
+ "id": "targ-psj-1-1",
+ "work": "targ-psj",
+ "author": "targum-pseudo-jonathan",
+ "tradition": "rabbinic",
+ "date": 750,
+ "date_precision": "range-600-800",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "arc": "מִן אַוְולָא",
+  "en": "from the first"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "מִן אַוְולָא בְּרָא יְיָ יַת שְׁמַיָא וְיַת אַרְעָא",
+  "source": "Sefaria, 'Targum Jonathan on Genesis'",
+  "license": "pd"
+ },
+ "english": {
+  "text": "At the beginning the LORD created the heavens and the earth.",
+  "translator": "J. W. Etheridge, 1862",
+  "license": "etheridge"
+ },
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "principio-temporis"
+ ],
+ "notes": "A third Aramaic word for the same Hebrew one: min avvela, 'from the first'. Etheridge prints the Aramaic in transliteration inside his English ('At the beginning (min avella)'), which is why his sentence carries a gloss no other version has; the parenthesis is his."
+}

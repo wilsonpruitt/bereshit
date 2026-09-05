@@ -1,0 +1,44 @@
+{
+ "id": "br-1-1",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "אָמוֹן — אֻמָּן",
+  "en": "amon — artisan"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי הוֹשַׁעְיָה רַבָּה פָּתַח (משלי ח, ל): וָאֶהְיֶה אֶצְלוֹ אָמוֹן וָאֶהְיֶה שַׁעֲשׁוּעִים יוֹם יוֹם וגו', אָמוֹן פַּדְּגוֹג, אָמוֹן מְכֻסֶּה, אָמוֹן מֻצְנָע, וְאִית דַּאֲמַר אָמוֹן רַבָּתָא. אָמוֹן פַּדְּגוֹג, הֵיךְ מָה דְאַתְּ אָמַר (במדבר יא, יב): כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת הַיֹּנֵק. אָמוֹן מְכֻסֶּה, הֵיאַךְ מָה דְאַתְּ אָמַר (איכה ד, ה): הָאֱמֻנִים עֲלֵי תוֹלָע וגו'. אָמוֹן מֻצְנָע, הֵיאַךְ מָה דְאַתְּ אָמַר (אסתר ב, ז): וַיְהִי אֹמֵן אֶת הֲדַסָּה. אָמוֹן רַבָּתָא, כְּמָא דְתֵימָא (נחום ג, ח): הֲתֵיטְבִי מִנֹּא אָמוֹן, וּמְתַרְגְּמִינַן הַאַתְּ טָבָא מֵאֲלֶכְּסַנְדְּרִיָא רַבָּתָא דְּיָתְבָא בֵּין נַהֲרוֹתָא. דָּבָר אַחֵר אָמוֹן, אֻמָּן. הַתּוֹרָה אוֹמֶרֶת אֲנִי הָיִיתִי כְּלִי אֻמְנוּתוֹ שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא, בְּנֹהַג שֶׁבָּעוֹלָם מֶלֶךְ בָּשָׂר וָדָם בּוֹנֶה פָּלָטִין, אֵינוֹ בּוֹנֶה אוֹתָהּ מִדַּעַת עַצְמוֹ אֶלָּא מִדַּעַת אֻמָּן, וְהָאֻמָּן אֵינוֹ בּוֹנֶה אוֹתָהּ מִדַּעַת עַצְמוֹ אֶלָּא דִּפְתְּרָאוֹת וּפִנְקְסָאוֹת יֵשׁ לוֹ, לָדַעַת הֵיאךְ הוּא עוֹשֶׂה חֲדָרִים, הֵיאךְ הוּא עוֹשֶׂה פִּשְׁפְּשִׁין. כָּךְ הָיָה הַקָּדוֹשׁ בָּרוּךְ הוּא מַבִּיט בַּתּוֹרָה וּבוֹרֵא אֶת הָעוֹלָם, וְהַתּוֹרָה אָמְרָה בְּרֵאשִׁית בָּרָא אֱלֹהִים. וְאֵין רֵאשִׁית אֶלָּא תּוֹרָה, הֵיאַךְ מָה דְּאַתְּ אָמַר (משלי ח, כב): ה' קָנָנִי רֵאשִׁית דַּרְכּוֹ.",
+  "source": "Bereshit Rabbah 1:1 (Vilna numbering; Theodor–Albeck differs)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Hoshaya the Great began: “I was with Him as an amon, a delight day after day…” (Proverbs 8:30) – amon means a child’s caretaker, amon means covered, amon means hidden, and some say amon means greatness. Amon means a child’s caretaker, as it says: “As a caretaker [omen] carries a nursing child” (Numbers 11:12). Amon means covered, as it says: “Those covered [ha’emunim] in scarlet…” (Lamentations 4:5). Amon means hidden, as it says: “He was omen Hadassa” (Esther 2:7). Amon means great, as it says: “Are you better than No Amon [which sits in the rivers]?” (Nahum 3:8), which we translate in Targum as: Are you better than the great city of Alexandria, which is located among the rivers? Another matter, amon means artisan [uman]. The Torah is saying: ‘I was the tool of craft of the Holy One blessed be He.’ The way of the world is that when a flesh-and-blood king builds a palace he does not build it based on his own knowledge, but rather based on the knowledge of an artisan. And the artisan does not build it based on his own knowledge, but rather, he has [plans on] sheets and tablets by which to ascertain how he should build its rooms, how he should build its doors. So too, the Holy One blessed be He looked in the Torah and created the world. The Torah says: “Bereshit God created” (Genesis 1:1), and reshit is nothing other than the Torah, as it says: “The Lord made me at the beginning of [reshit] His way” (Proverbs 8:22).",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-hoshaya"
+ ],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "allegorical",
+  "literal"
+ ],
+ "answers": [
+  "reshit-is-torah",
+  "beginning-is-wisdom"
+ ],
+ "notes": "The opening of the whole midrash, and the rabbinic answer to this crux in its classic form. R. Hoshaya reads Proverbs 8:30, 'I was with him as an amon', through four homonyms and then a fifth: amon is uman, artisan. The Torah speaks: I was the tool of the craft of the Holy One. A king does not build a palace out of his own head but from an architect's sheets and tablets; so the Holy One looked into the Torah and created the world. And then the philological hinge on which everything turns — 'reshit is nothing other than the Torah, as it says: The Lord made me reshit of his way' (Prov 8:22). Bereshit therefore means 'by means of the beginning', that is, by the Torah. On the Latin side Augustine, Bede, Bruno and Rupert prove that in principio means 'in Wisdom' from Ps 104:24 [Vg 103], 'you made all things in wisdom'; here the proof text is Prov 8:22 and the Wisdom is the Torah. The two benches share a chapter of Proverbs and a conclusion, and disagree about what the Wisdom is."
+}
