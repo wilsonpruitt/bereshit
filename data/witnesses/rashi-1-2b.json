@@ -1,0 +1,38 @@
+{
+ "id": "rashi-1-2b",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1080-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "כְּיוֹנָה הַמְרַחֶפֶת עַל הַקֵּן",
+  "en": "as a dove hovering over the nest"
+ },
+ "original": {
+  "lang": "he",
+  "text": "ורוח אלהים מרחפת. כִּסֵא הַכָּבוֹד עוֹמֵד בָּאֲוִיר וּמְרַחֵף עַל פְּנֵי הַמַּיִם בְּרוּחַ פִּיו שֶׁל הַקָּבָּ\"ה וּבְמַאֲמָרוֹ, כְּיוֹנָה הַמְרַחֶפֶת עַל הַקֵּן, אקוב\"טיר בְּלַעַ\"ז:",
+  "source": "Rashi on Gen 1:2, s.v. ורוח אלהים מרחפת",
+  "license": "pd"
+ },
+ "english": {
+  "text": "ורוח אלהים מרחפת AND THE SPIRIT OF GOD WAS HOVERING — The throne of Divine Glory was standing in space, hovering over the face of the waters by the breath of the mouth of the Holy One, blessed be He, and by His command, even as a dove hovers over its nest. In old French acoveter.",
+  "translator": "Rosenbaum–Silbermann 1929–34",
+  "license": "pd"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Rashi's dove over the nest is the Bavli's dove (Chagigah 15a), not Bereshit Rabbah's unspecified bird. The Old French gloss acoveter means 'to cover, to brood' — which is exactly Jerome's incubabat. Rashi and Jerome, seven centuries apart, gloss the same Hebrew verb with the same vernacular sense from opposite sides. The Throne of Glory standing in the air is from a different source [CHECK: PdRE / Midrash Konen].",
+ "answers": [
+  "bird-hovering",
+  "throne"
+ ]
+}

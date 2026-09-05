@@ -1,0 +1,40 @@
+{
+ "id": "rabanus-gen-1-1",
+ "work": "rabanus-gen",
+ "author": "rabanus",
+ "tradition": "latin",
+ "date": 822,
+ "date_precision": "circa",
+ "place": "fulda",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "in similitudinem videlicet fabri, cujus voluntas … solet superferri",
+  "en": "like a craftsman, whose will is borne above the things to be made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et Spiritus Dei ferebatur super aquas. Non est opinandum pueriliter quod Spiritus creator, de quo scriptum est: Quia Spiritus Domini replevit orbem terrarum (Sap. I) , positione loci his quae erant creanda superferretur. Sed intelligendum potius quia virtute divina praecellebat creaturis, habens in propria potestate quando aquarum illustraret abyssum, quando in locum eas secerneret unum, ut appareret arida, quando et quomodo creaturas caeteras pro suo nutu disponeret, in similitudinem videlicet fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri.",
+  "source": "PL 107, col. 446D",
+  "cc_idno": "8885",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of God was borne over the waters.' It is not to be supposed childishly that the creator Spirit, of whom it is written 'The Spirit of the Lord has filled the whole earth' (Wis 1:7), was borne above the things to be created by position in place. Rather it is to be understood that by divine power he excelled the creatures, holding in his own power when he would illumine the abyss of waters, when he would part them into one place so that the dry land might appear, when and how he would dispose the other creatures at his nod — in the likeness, that is, of a craftsman, whose will is accustomed to be borne above the things that are to be made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Augustine's craftsman in Rabanus' own words at col. 446D; then at 447C he copies Bede's Trinity sentence verbatim. Rabanus is the bridge by which both lines reach the Glossa.",
+ "answers": [
+  "craftsman",
+  "trinity"
+ ]
+}

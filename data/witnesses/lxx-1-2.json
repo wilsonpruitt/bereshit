@@ -1,0 +1,38 @@
+{
+ "id": "lxx-1-2",
+ "work": "lxx",
+ "author": "lxx-translators",
+ "tradition": "greek-jewish",
+ "date": -250,
+ "date_precision": "circa",
+ "place": "alexandria",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "el": "πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
+  "en": "a spirit of God was borne upon the water"
+ },
+ "original": {
+  "lang": "el",
+  "text": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου, καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος.",
+  "source": "LXX Gen 1:2 (Rahlfs)",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But the earth was unsightly and unfurnished, and darkness was over the deep, and the Spirit of God moved over the water.",
+  "translator": "Brenton 1851",
+  "license": "pd"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "notes": "ἐπεφέρετο ('was borne upon') is the reading every Latin 'ferebatur / superferebatur' descends from. The Greek already drops the bird: the verb is motion-over, not brooding.",
+ "answers": [
+  "borne-over"
+ ]
+}

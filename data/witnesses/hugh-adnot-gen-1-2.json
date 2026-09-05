@@ -1,0 +1,40 @@
+{
+ "id": "hugh-adnot-gen-1-2",
+ "work": "hugh-adnot",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Spiritum Dei vocat ejus intentionem",
+  "en": "He calls 'the Spirit of God' his intention"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et spiritus Dei ferebatur super aquas. Spiritum Dei vocat ejus intentionem, qui quasi artifex operi formando praecerat, aquas vocat nebulam illam propter mobilitatem: et ita eamdem rem modo abyssum propter profunditatem, modo tenebras propter absentiam lucis, modo aquas propter mobilitatem appellat.",
+  "source": "PL 175, col. 36A",
+  "cc_idno": "11054",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of God was borne over the waters.' He calls 'the Spirit of God' his intention, who like a craftsman presided over the work to be formed; 'the waters' he calls that mist, on account of its mobility; and so he names the same thing now 'abyss' for its depth, now 'darkness' for the absence of light, now 'waters' for its mobility.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "The most physical Latin reading: the waters are a mist of mixed elements, the Spirit is God's intention. Hugh's Adnotationes are the literal school; his De sacramentis treats the same verse theologically. The TEI reads 'praecerat' for 'praeerat'.",
+ "answers": [
+  "craftsman"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "targ-psj-1-2",
+ "work": "targ-psj",
+ "author": "targum-pseudo-jonathan",
+ "tradition": "rabbinic",
+ "date": 750,
+ "date_precision": "range-600-800",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "arc": "וְרוּחַ רַחֲמִין מִן קֳדָם יְיָ מְנַתְבָא",
+  "en": "and a spirit of mercies from before the LORD breathed"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וְאַרְעָא הֲוַת תַּהֲיָיא וּבַהֲיָיא צַדְיָא מִבְּנֵי נַשׁ וְרֵיקַנְיָא מִן כָּל בְּעִיר וַחֲשׁוֹכָא עַל אַפֵּי תְהוֹמָא וְרוּחַ רַחֲמִין מִן קֳדָם יְיָ מְנַתְבָא עַל אַנְפֵּי מַיָא",
+  "source": "Sefaria, 'Targum Jonathan on Genesis'",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And the earth was vacancy and desolation, solitary of the sons of men, and void of every animal; and darkness was upon the face of the abyss, and the Spirit of mercies from before the Lord breathed upon the face of the waters.",
+  "translator": "Etheridge 1862",
+  "license": "pd"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "notes": "Same 'spirit of mercies' as Neofiti; the verb menatva ('breathed / blew') keeps the Onkelos line. Etheridge embedded verbatim (PD).",
+ "answers": [
+  "spirit-of-mercy"
+ ]
+}

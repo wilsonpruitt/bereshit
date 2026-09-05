@@ -1,0 +1,41 @@
+{
+ "id": "ambrose-hex-1-8-29",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Syrus … sic habet: Et Spiritus Dei fovebat aquas",
+  "en": "the Syriac has: And the Spirit of God warmed the waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "maxime cum sequatur: Et spiritus Dei superferebatur super aquas (Ibid.) . Quem etsi aliqui pro aere accipiant, aliqui pro spiritu quem spiramus et carpimus aurae hujus vitalis spiritum; nos tamen cum sanctorum et fidelium sententia congruentes, Spiritum sanctum accipimus, ut in constitutione mundi operatio Trinitatis eluceat. Praemisso enim quia in principio fecit Deus coelum et terram, id est in Christo fecit Deus, vel Filius Dei Deus fecit, vel per Filium Deus fecit; quia omnia per ipsum facta sunt, et sine ipso factum est nihil, supererat plenitudo operationis in Spiritu, sicut scriptum est: Verbo Domini coelis firmati sunt, et Spiritu oris ejus omnis virtus eorum (Ps. XXXII, 6) . Itaque quemadmodum in Psalmo docemur operationem Verbi, quod est Verbum Dei, et virtutem quam dedit Spiritus sanctus; ita hic propheticum resultavit oraculum, quia Deus dixit, et Deus fecit. Spiritus quoque Dei superferebatur super aquas. Ornando enim polo coeli, germinaturis terris pulchre Spiritus superferebatur, quia per ipsum habebant novorum partuum semina germinare, secundum quod dixit propheta: 17 Emitte Spiritum tuum et creabuntur, et renovabis faciem terrae (Ps. CIII, 30) . Denique Syrus, qui vicinus Hebraeo est, et sermone consonat in plerisque et congruit, sic habet: Et Spiritus Dei fovebat aquas, id est vivificabat, ut in novas cogeret creaturas, et fotu suo animaret ad vitam. Nam etiam Spiritum sanctum legimus creatorem, dicente Job, Spiritus divinus qui fecit me (Job. XXXIII, 4) .",
+  "source": "PL 14, col. 138C",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "…especially since there follows: 'And the Spirit of God was borne above the waters.' Some take this as the air, others as the breath we draw and take in, the breath of this life-giving atmosphere; but we, agreeing with the judgment of the saints and the faithful, take it as the Holy Spirit, so that in the founding of the world the working of the Trinity may shine out. […] Finally the Syriac, which is neighbor to the Hebrew and in most things agrees and chimes with it in wording, has it thus: 'And the Spirit of God warmed the waters,' that is, quickened them, so as to gather them into new creatures and by his warmth bring them alive. For we also read that the Holy Spirit is creator, Job saying, 'The divine Spirit who made me' (Job 33:4).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Ambrose is reading Basil's Greek directly (Milan, 387; Eustathius' Latin is later). He carries the Syriac 'warmed' but drops the hen. The Latin excerpt here spans two columns; the middle (Ps 33:6 on Word and Spirit) is elided in the English.",
+ "answers": [
+  "brooding-warmth",
+  "trinity"
+ ]
+}

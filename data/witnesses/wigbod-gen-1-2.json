@@ -1,0 +1,40 @@
+{
+ "id": "wigbod-gen-1-2",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "aachen",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "HIERONYMUS. … in Hebraeo habetur merephet",
+  "en": "JEROME: in the Hebrew it is merephet"
+ },
+ "original": {
+  "lang": "la",
+  "text": "D. Quomodo spiritus Dei ferebatur super aquas, edissere? HIERONYMUS. M. Pro eo quod in nostris codicibus scriptum est, ferebatur; in Hebraeo habetur merephet, quod nos appellare possumus, incubabat, sive confovebat in similitudinem volucris ova calore animantis. Ex quo intelligimus, non de spiritu mundi dici, ut nonnulli arbitrantur, sed de Spiritu sancto, qui et ipse vivificator omnium a principio dicitur.",
+  "source": "PL 96, col. 1116C",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Disciple: Explain how the Spirit of God was borne over the waters. — JEROME. Master: For what our copies have as 'was borne,' the Hebrew has merephet, which we may render 'was brooding' or 'was warming,' in the likeness of a bird quickening her eggs with her heat. From this we understand that it is not said of the spirit of the world, as some suppose, but of the Holy Spirit, who is himself called the giver of life to all things from the beginning.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "A Carolingian question-and-answer catena that labels its sources. Jerome quoted verbatim under his name at col. 1116C; Augustine's sun-over-earth (Gnm I.5) quoted at col. 1112D. The first witness that shows the two Latin lines (Hebrew bird, power-not-place) sitting side by side as authorities.",
+ "answers": [
+  "brooding-warmth",
+  "power-not-place"
+ ]
+}

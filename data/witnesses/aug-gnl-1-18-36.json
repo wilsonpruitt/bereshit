@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnl-1-18-36",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 410,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "sicut ova foventur ab alitibus",
+  "en": "as eggs are warmed by birds"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sed ante omnia meminerimus, unde jam multa diximus, non temporalibus quasi animi sui aut corporis motibus operari Deum, sicut operatur homo vel angelus; sed aeternis atque incommutabilibus et stabilibus rationibus coaeterni sibi Verbi sui, et quodam, ut ita dixerim, fotu pariter coaeterni sancti Spiritus sui. Nam et illud quod per graecam et latinam linguam dictum est de Spiritu Dei, quod superferebatur super aquas, secundum syrae linguae intellectum, quae vicina est hebraeae, (nam hoc a quodam docto christiano syro fertur expositum) non superferebatur, sed fovebat potius intelligi perhibetur. Nec sicut foventur tumores aut vulnera in corpore aquis vel frigidis vel calore congruo temperatis; sed sicut ova foventur ab alitibus, ubi calor ille materni corporis etiam formandis pullis quodammodo adminiculatur, per quemdam in suo genere dilectionis affectum.",
+  "source": "PL 34, col. 260",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But before all else let us remember, as we have already said at length, that God does not work by temporal motions, as it were of his mind or body, as a man or an angel works, but by the eternal, unchangeable and stable reasons of his Word, coeternal with himself, and by a certain — if I may so put it — brooding warmth of his Holy Spirit, equally coeternal. For even what is said in Greek and in Latin of the Spirit of God, that he 'was borne above the waters,' according to the sense of the Syriac tongue, which is neighbor to Hebrew (for this is reported to have been explained by a certain learned Syrian Christian), is held to mean not 'was borne above' but rather 'was warming.' Not as swellings or wounds in the body are warmed with water, whether cold or tempered to a fitting heat; but as eggs are warmed by birds, where that heat of the mother's body in a way assists even the forming of the chicks, through a certain affection of love after its kind.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Augustine's mature answer joins his own 'power not place' to the Syrian's warming and adds the mother-bird's love. He cites the Syrian at one remove ('fertur'), almost certainly through Ambrose.",
+ "answers": [
+  "brooding-warmth",
+  "power-not-place"
+ ]
+}

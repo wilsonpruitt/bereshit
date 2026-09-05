@@ -1,0 +1,182 @@
+{
+ "lxx-translators": {
+  "name": "The Seventy",
+  "dates": "3rd c. BCE",
+  "tradition": "greek-jewish"
+ },
+ "jerome": {
+  "name": "Jerome",
+  "la": "Hieronymus Stridonensis",
+  "dates": "c. 347–420",
+  "tradition": "latin"
+ },
+ "onkelos": {
+  "name": "Targum Onkelos",
+  "dates": "2nd c. (redaction 3rd–4th)",
+  "tradition": "rabbinic"
+ },
+ "targum-neofiti": {
+  "name": "Targum Neofiti",
+  "dates": "1st–4th c.",
+  "tradition": "rabbinic"
+ },
+ "targum-pseudo-jonathan": {
+  "name": "Targum Pseudo-Jonathan",
+  "dates": "7th–8th c. (older strata)",
+  "tradition": "rabbinic"
+ },
+ "bereshit-rabbah": {
+  "name": "Bereshit Rabbah",
+  "dates": "compiled 400–500",
+  "tradition": "rabbinic"
+ },
+ "bavli": {
+  "name": "Babylonian Talmud",
+  "dates": "redacted 500–600",
+  "tradition": "rabbinic"
+ },
+ "rashi": {
+  "name": "Rashi",
+  "he": "רש״י",
+  "dates": "1040–1105",
+  "tradition": "rabbinic"
+ },
+ "ben-zoma": {
+  "name": "Shimon ben Zoma",
+  "he": "בן זומא",
+  "dates": "fl. c. 110–135",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yehoshua-b-hananya": {
+  "name": "R. Yehoshua ben Ḥananya",
+  "dates": "fl. c. 90–130",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "resh-lakish": {
+  "name": "R. Shimon ben Lakish",
+  "dates": "c. 200–275",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-hagai": {
+  "name": "R. Ḥaggai",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-pedat": {
+  "name": "R. Pedat",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "rav-aha-b-yaakov": {
+  "name": "Rav Aḥa bar Yaakov",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "mar-zutra": {
+  "name": "Mar Zutra",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "basil": {
+  "name": "Basil of Caesarea",
+  "la": "Basilius Magnus (tr. Eustathius)",
+  "dates": "c. 330–379",
+  "tradition": "greek-christian-in-latin"
+ },
+ "syrian-informant": {
+  "name": "The Syrian",
+  "la": "vir quidam genere Syrus",
+  "dates": "before 378",
+  "tradition": "syriac",
+  "role": "informant",
+  "note": "Basil's unnamed source; often identified with Ephrem, without proof."
+ },
+ "ambrose": {
+  "name": "Ambrose",
+  "la": "Ambrosius Mediolanensis",
+  "dates": "c. 339–397",
+  "tradition": "latin"
+ },
+ "augustine": {
+  "name": "Augustine",
+  "la": "Augustinus Hipponensis",
+  "dates": "354–430",
+  "tradition": "latin"
+ },
+ "isidore": {
+  "name": "Isidore of Seville",
+  "dates": "c. 560–636",
+  "tradition": "latin"
+ },
+ "bede": {
+  "name": "Bede",
+  "dates": "c. 673–735",
+  "tradition": "latin"
+ },
+ "wigbod": {
+  "name": "Wigbod",
+  "la": "Wicbodus",
+  "dates": "fl. c. 790",
+  "tradition": "latin"
+ },
+ "alcuin": {
+  "name": "Alcuin",
+  "dates": "c. 735–804",
+  "tradition": "latin"
+ },
+ "rabanus": {
+  "name": "Rabanus Maurus",
+  "dates": "c. 780–856",
+  "tradition": "latin"
+ },
+ "angelomus": {
+  "name": "Angelomus of Luxeuil",
+  "dates": "d. c. 855",
+  "tradition": "latin"
+ },
+ "remigius": {
+  "name": "Remigius of Auxerre",
+  "dates": "c. 841–908",
+  "tradition": "latin"
+ },
+ "bruno-of-segni": {
+  "name": "Bruno of Segni",
+  "la": "Bruno Astensis",
+  "dates": "c. 1045–1123",
+  "tradition": "latin"
+ },
+ "glossa-ordinaria": {
+  "name": "Glossa ordinaria (school of Laon)",
+  "dates": "c. 1110–1130",
+  "tradition": "latin",
+  "note": "Not Walafrid Strabo."
+ },
+ "rupert": {
+  "name": "Rupert of Deutz",
+  "dates": "c. 1075–1129",
+  "tradition": "latin"
+ },
+ "abelard": {
+  "name": "Peter Abelard",
+  "dates": "1079–1142",
+  "tradition": "latin"
+ },
+ "hugh-of-st-victor": {
+  "name": "Hugh of St Victor",
+  "dates": "c. 1096–1141",
+  "tradition": "latin"
+ },
+ "honorius": {
+  "name": "Honorius Augustodunensis",
+  "dates": "c. 1080–1154",
+  "tradition": "latin"
+ },
+ "comestor": {
+  "name": "Peter Comestor",
+  "dates": "c. 1100–1178",
+  "tradition": "latin"
+ }
+}

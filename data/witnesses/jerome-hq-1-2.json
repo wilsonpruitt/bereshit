@@ -1,0 +1,40 @@
+{
+ "id": "jerome-hq-1-2",
+ "work": "jerome-hq",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 391,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "מְרַחֶפֶת",
+  "la": "incubabat, sive confovebat",
+  "en": "was brooding, or warming"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et Spiritus Dei ferebatur super aquas. Pro eo quod in nostris codicibus scriptum est, ferebatur, in Hebraeo habet MEREFETH ( ), quod nos appellare possumus, incubabat, sive confovebat, in similitudinem volucris, ova calore animantis. Ex quo intelligimus, non de spiritu mundi dici, ut nonnulli arbitrantur, sed de Spiritu Sancto, qui et ipse vivificator omnium a principio dicitur. Si autem vivificator, consequenter et conditor. Quod si conditor, et Deus. Emitte enim, ait, Spiritum tuum, et creabuntur (Psal. CIII, 30) .",
+  "source": "PL 23, col. 939A",
+  "cc_idno": "7160",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of God was borne over the waters.' For what our copies have as 'was borne,' the Hebrew has MERAHEFET, which we may render 'was brooding' or 'was warming,' in the likeness of a bird quickening her eggs with her heat. From this we understand that it is not said of the spirit of the world, as some suppose, but of the Holy Spirit, who is himself called the giver of life to all things from the beginning. And if giver of life, then consequently creator; and if creator, then God. 'Send forth,' he says, 'your Spirit, and they shall be created' (Ps 104:30).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Jerome claims the bird from the Hebrew verb itself, not from the Syrian. His bird broods and warms (incubare, confovere); Ben Zoma's hovers and does not touch. Same verb, opposite physical picture. The star thread's Latin end.",
+ "answers": [
+  "brooding-warmth"
+ ]
+}

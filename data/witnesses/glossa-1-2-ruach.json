@@ -1,0 +1,45 @@
+{
+ "id": "glossa-1-2-ruach",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Et Spiritus Domini ferebatur super aquas",
+  "en": "And the Spirit of the Lord was borne over the waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "« Et Spiritus Domini ferebatur super aquas. » [n: (AUG., lib. I de Gen. ad lit., c. 5, tom. III.)] Sive totam corporalem materiam aquam appellavit, ut insinuaret unde facta et formata sunt omnia quae ex humida natura per species varias in terra formari videmus; sive spiritualem vitam ante conversionis [0070B] formam quasi fluitantem. Spiritus Dei superferebatur, quia subjacebat bonae voluntati Creatoris, quod formandum et perficiendum inchoaverat. Dictum est etiam « Spiritus Domini ferebatur super aquas. » Ne faciendo opera potius per necessitatem indigentiae quam per abundantiam beneficentiae Deus amare putaretur. Commode enim prius insinuatur aliquid inchoatum, cui superferretur: non loco, sed omnia superante potentia.\n\n« Et Spiritus Domini ferebatur, » etc. [n: (HIERON. in Gen. t. III, col. 939.)] In Hebraeo habet *merahephet,* id est, incubabat, vel fovebat, more volucris ova calore animantis. Intelligimus ergo non de spiritu mundi dici, ut putant multi; sed de Spiritu [0070C] sancto, qui et ipse est omnium vivificator: si autem vivificator, et conditor; si conditor, et Deus. Psal. CIII: « Emitte, ait, Spiritum tuum et creabuntur. »\n\n« Et Spiritus, » etc. In quo subsistentes requiesceremus flatu ejus vivificati, et unda baptismi abluti. « Et Spiritus Domini ferebatur super aquas, » etc. Sicut Deus, scilicet et conditor, praeerat fluitanti et confusae materiei, ut distingueret quando vellet. Tota ergo Trinitas hic operata intelligitur, Deus, Pater scilicet; principium, Filius; Spiritus Dei, Spiritus sanctus.\n\n« Et Spiritus, » etc. [n: (ISID., in Gen.? )] Corda scilicet fluctuantia, quae mentis quietem amiserant, [0070D] quia eis spiritus non innitebatur, sed superferebatur: quasi potens naturam a confusione in melius revocare. Deinde per totum hujus Scripturae textum sex quasdam operosas aetates videmus, licet quasi proximis limitibus distinctas, ut in septima quies speretur; et eas habere similitudinem sex dierum, quibus ea facta sunt, quae Deum fecisse Scriptura commemorat. Primordium enim generis humani, quo ista luce frui coepit, comparatur primo diei quo lucem Deus fecit. Haec aetas tanquam infantia est totius saeculi, quod tanquam unum hominem proportione magnitudinis suae cogitamus. Homo enim cum primo nascitur in lucem, infantiam agit primam aetatem, quae tendit ab Adam usque ad Noe generationibus decem: diluvium quasi vespera hujus [0071A] diei est, quia infantia nostra oblivionis diluvio deletur.\n\n[n: (STRAB.)] « Inanis et vacua. » Inutilis scilicet, et infructuosa, et incomposita. Omnia enim elementa commixta, confusa, et totum hoc aeris spatium aquis plenum; non quales nunc sunt, sed sicut nebulae tenues erant, quales adhuc supercoelestes sunt.",
+  "source": "PL 113, col. 70A–70D (marginal glosses on 1:2, in the order printed; the 'inanis et vacua' gloss from 69D appended)",
+  "license": "pd",
+  "cc_idno": "8950"
+ },
+ "english": {
+  "text": "« And the Spirit of the Lord was borne over the waters. » [var: Vulg. Gen. 1:2 *Spiritus Dei*, \"the Spirit of God\"] [n: (AUG., lib. I de Gen. ad lit., c. 5, tom. III.)] Either he called the whole corporeal matter water, that he might intimate whence were made and formed all the things which we see formed on the earth out of a moist nature through divers species; or the spiritual life, as it were floating, before the [0070B] form of its conversion. The Spirit of God was borne above, because that which he had begun to be formed and perfected lay beneath the good will of the Creator. It is also said, « The Spirit of the Lord was borne over the waters. » Lest, by doing works, God should be thought to love through the necessity of want rather than through the abundance of beneficence. For fittingly is something first intimated to have been begun, over which he might be borne: not in place, but by a power surpassing all things.\n\n« And the Spirit of the Lord was borne, » etc. [n: (HIERON. in Gen. t. III, col. 939.)] In the Hebrew it has *merahephet,* that is, it brooded, or cherished, after the manner of a bird warming eggs with the heat of a living thing. We understand therefore that this is not said of the spirit of the world, as many suppose; but of the [0070C] Holy Spirit, who is himself the quickener of all things: and if the quickener, also the founder; if the founder, also God. Psal. CIII: « Send forth, he says, thy Spirit, and they shall be created. » [var: Vulg. Ps. 103:30 *Emittes*, \"Thou shalt send forth\"]\n\n« And the Spirit, » etc. In whom, subsisting, we might rest, quickened by his breath and washed by the wave of baptism. « And the Spirit of the Lord was borne over the waters, » etc. As God, namely, and Creator, he presided over the floating and confused matter, that he might distinguish it when he willed. The whole Trinity therefore is understood to have worked here, God, that is, the Father; the beginning, the Son; the Spirit of God, the Holy Spirit.\n\n« And the Spirit, » etc. [n: (ISID., in Gen.? )] The hearts, namely, that were tossing to and fro, which had lost the quiet of the mind, [0070D] because the Spirit did not rest upon them, but was borne above them: as one able to call back their nature from confusion into something better. Then throughout the whole text of this Scripture we see certain six laborious ages, though distinguished as it were by neighbouring bounds, so that in the seventh rest may be hoped for; and we see that they have a likeness to the six days in which those things were made which Scripture records God to have made. For the first beginning of the human race, in which it began to enjoy this light, is compared to the first day, on which God made light. This age is as it were the infancy of the whole world, which we think of, by the proportion of its greatness, as one man. For man, when he is first born into the light, passes his infancy, the first age, which extends from Adam to Noah in ten generations: the flood is as it were the evening of this [0071A] day, because our infancy is blotted out by the flood of forgetfulness.\n\n[n: (STRAB.)] « Void and empty. » Useless, namely, and unfruitful, and unordered. For all the elements were mingled and confused, and this whole space of air was full of waters; not such as they now are, but they were like thin clouds, such as those above the heavens still are.",
+  "translator": "wilson-pruitt",
+  "license": "wroot-glossa",
+  "edition": "migne.app/glossa, Liber Genesis (8950), chunk 0"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "power-not-place",
+  "brooding-warmth",
+  "trinity",
+  "heart"
+ ],
+ "notes": "Four glosses stand on the verse in the margin: Augustine Gn. litt. I.5 (water as matter; love not from need; 'not in place but by a power surpassing all'); Jerome's merahephet, cited by PL column; an unlabelled sentence that is Bede's Trinity gloss via Rabanus ('Tota ergo Trinitas hic operata'); and one Migne marks 'ISID. in Gen.?' (the floating hearts, which is Isidore's moral reading in Augustine's wording). The lemma reads 'Spiritus Domini', the Old Latin, not the Vulgate's 'Spiritus Dei' — Wilson's [var:] flags it. The bird enters the Glossa through Jerome only; the Syrian and the craftsman are both absent."
+}

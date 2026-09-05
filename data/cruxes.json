@@ -1,0 +1,224 @@
+[
+ {
+  "id": "beginning-of-what",
+  "verse": "gen.1.1",
+  "question": {
+   "en": "The beginning of what — time, a principle, or a person?",
+   "la": "In principio: cujus principio?",
+   "he": "בְּרֵאשִׁית — רֵאשִׁית שֶׁל מָה?"
+  },
+  "lemma": {
+   "he": "בְּרֵאשִׁית",
+   "la": "in principio",
+   "en": "in the beginning"
+  },
+  "summary": "Neofiti's 'with wisdom' and the Latin 'in the Son' are the same move made from opposite ends of Prov 8:22–30.",
+  "witnesses": [
+   "targ-neof-1-2"
+  ],
+  "status": "register-only"
+ },
+ {
+  "id": "why-begin-here",
+  "verse": "gen.1.1",
+  "question": {
+   "en": "Why does Scripture open with creation at all?",
+   "la": "Cur a creatione incipit Scriptura?",
+   "he": "לָמָּה פָּתַח בִּבְרֵאשִׁית?"
+  },
+  "lemma": {
+   "he": "בְּרֵאשִׁית בָּרָא",
+   "la": "in principio creavit",
+   "en": "in the beginning [God] created"
+  },
+  "summary": "The crux where each tradition's reason for having a commentary is exposed.",
+  "witnesses": [],
+  "status": "register-only"
+ },
+ {
+  "id": "elohim-and-trinity",
+  "verse": "gen.1.1",
+  "question": {
+   "en": "Who is the God who creates, and what do grammar and word order say about plurality?",
+   "la": "Quis est Deus qui creat, et quid de Trinitate?",
+   "he": "מִי הוּא אֱלֹהִים הַבּוֹרֵא, וּמַה מַּשְׁמָע לְשׁוֹן רַבִּים?"
+  },
+  "lemma": {
+   "he": "אֱלֹהִים",
+   "la": "Deus … Spiritus",
+   "en": "God … Spirit"
+  },
+  "summary": "Megillah 9a is a Jewish witness to a Greek interpretive move that reaches the Latin bench through the Vetus Latina.",
+  "witnesses": [
+   "ambrose-hex-1-8-29",
+   "aug-conf-13-9-10",
+   "bede-gen-1-2",
+   "rupert-gen-1-8",
+   "honorius-hex-1"
+  ],
+  "status": "register-only"
+ },
+ {
+  "id": "ex-nihilo-or-matter",
+  "verse": "gen.1.1",
+  "question": {
+   "en": "Was anything there before?",
+   "la": "Utrum aliquid praecesserit?",
+   "he": "הֲיֵשׁ דָּבָר שֶׁקָּדַם לָעוֹלָם?"
+  },
+  "lemma": {
+   "he": "בָּרָא",
+   "la": "creavit",
+   "en": "created"
+  },
+  "summary": "Both benches reach for 2 Macc 7:28 and Wis 11:17 and find them pulling in opposite directions.",
+  "witnesses": [
+   "abelard-hex-1-2"
+  ],
+  "status": "register-only"
+ },
+ {
+  "id": "heaven-earth-order",
+  "verse": "gen.1.1",
+  "question": {
+   "en": "Which was created first, and what is 'heaven' here?",
+   "la": "Quid prius, coelum an terra?",
+   "he": "שָׁמַיִם אוֹ אֶרֶץ — מִי נִבְרָא תְּחִלָּה?"
+  },
+  "lemma": {
+   "he": "הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+   "la": "coelum et terram",
+   "en": "the heavens and the earth"
+  },
+  "summary": "Chagigah 12a's ten-things list and Augustine's 'what is contained in caelum et terra' answer the same question.",
+  "witnesses": [
+   "b-chag-15a"
+  ],
+  "status": "register-only"
+ },
+ {
+  "id": "tohu-vabohu",
+  "verse": "gen.1.2",
+  "question": {
+   "en": "What does the pair mean, and is it a state or a thing?",
+   "la": "Quid est inanis et vacua?",
+   "he": "מַהוּ תֹהוּ וָבֹהוּ?"
+  },
+  "lemma": {
+   "he": "תֹהוּ וָבֹהוּ",
+   "la": "inanis et vacua",
+   "en": "formless and empty"
+  },
+  "summary": "The Vulgate's inanis et vacua is a witness in its own right: Latin readers inherited an interpretation, not a transliteration.",
+  "witnesses": [
+   "lxx-1-2",
+   "vulgate-1-2",
+   "targ-onk-1-2",
+   "targ-neof-1-2",
+   "targ-psj-1-2",
+   "hugh-adnot-gen-1-2"
+  ],
+  "status": "register-only"
+ },
+ {
+  "id": "ruach-hovering",
+  "verse": "gen.1.2",
+  "question": {
+   "en": "Wind, spirit, or Spirit — and what is 'hovering'?",
+   "la": "Quis est Spiritus Dei, et quid est ferri super aquas?",
+   "he": "מַה הִיא רוּחַ אֱלֹהִים, וּמַהוּ ׳מְרַחֶפֶת׳?"
+  },
+  "lemma": {
+   "he": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם",
+   "la": "et Spiritus Dei ferebatur super aquas",
+   "el": "καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
+   "en": "and the Spirit of God was hovering over the surface of the waters"
+  },
+  "summary": "The Hebrew verb merahefet occurs once more in the Bible, of an eagle over its nest (Deut 32:11). Greek and Latin flattened it to 'was borne over'. Then, on both benches, a bird came back: Jerome and the Syrian read it as brooding warmth, Ben Zoma and Rashi as a dove hovering and not touching. Same verb, opposite pictures; and around each picture a whole doctrine of how God acts on matter. The Latin line splits again between the bird and Augustine's craftsman whose will is 'above' the wood.",
+  "finding": "Rashi's Old French acoveter and Jerome's incubabat are the same word for the same Hebrew, with no contact. Abelard is the one Latin who reports the Hebrew as 'fluttering' (volitabat), on the rabbinic side of the verb.",
+  "witnesses": [
+   "lxx-1-2",
+   "vulgate-1-2",
+   "targ-onk-1-2",
+   "targ-neof-1-2",
+   "targ-psj-1-2",
+   "br-2-4",
+   "b-chag-15a",
+   "rashi-1-2b",
+   "basil-hex-lat-2-6",
+   "ambrose-hex-1-8-29",
+   "jerome-hq-1-2",
+   "aug-gnm-1-5-8",
+   "aug-gnl-imp-4-16",
+   "aug-conf-13-9-10",
+   "aug-gnl-1-18-36",
+   "isidore-quaest-1-3",
+   "bede-gen-1-2",
+   "wigbod-gen-1-2",
+   "alcuin-int-29",
+   "rabanus-gen-1-1",
+   "angelom-gen-1-2",
+   "remigius-gen-1-2",
+   "bruno-gen-1-2",
+   "rupert-gen-1-8",
+   "abelard-hex-1-2",
+   "hugh-adnot-gen-1-2",
+   "honorius-hex-1",
+   "comestor-hs-gen-1",
+   "aug-gnl-1-5-11",
+   "glossa-1-2-ruach"
+  ],
+  "status": "built"
+ },
+ {
+  "id": "first-light",
+  "verse": "gen.1.3",
+  "question": {
+   "en": "What was the light of day one, before sun and moon?",
+   "la": "Quae lux ante solem?",
+   "he": "מַה הָיָה הָאוֹר שֶׁל יוֹם רִאשׁוֹן?"
+  },
+  "lemma": {
+   "he": "יְהִי אוֹר",
+   "la": "fiat lux",
+   "en": "let there be light"
+  },
+  "summary": "Both benches agree the light is not the sun's; they disagree on what it is.",
+  "witnesses": [],
+  "status": "register-only"
+ },
+ {
+  "id": "good-and-separated",
+  "verse": "gen.1.4",
+  "question": {
+   "en": "Why separate light from darkness, and is darkness a creature, an evil, or the wicked?",
+   "la": "Cur divisit lucem a tenebris?",
+   "he": "לָמָּה הִבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ?"
+  },
+  "lemma": {
+   "he": "וַיַּבְדֵּל",
+   "la": "divisit",
+   "en": "divided"
+  },
+  "summary": "Both traditions allegorize the same verse the same way (light/dark = righteous/wicked); test whether Bede or the Glossa show any Hebrew mediation.",
+  "witnesses": [],
+  "status": "register-only"
+ },
+ {
+  "id": "one-day-evening-first",
+  "verse": "gen.1.5",
+  "question": {
+   "en": "Why 'one day' and not 'first day', and why evening before morning?",
+   "la": "Quare dicitur dies unus et non dies primus?",
+   "he": "לָמָּה נֶאֱמַר ׳יוֹם אֶחָד׳ וְלֹא ׳יוֹם רִאשׁוֹן׳?"
+  },
+  "lemma": {
+   "he": "יוֹם אֶחָד",
+   "la": "dies unus",
+   "en": "one day"
+  },
+  "summary": "Augustine's morning/evening knowledge and Rashi's 'alone in his world' both read unus as a claim about God's solitude, not counting. Note: the WEB English base text prints 'the first day' and so takes a side.",
+  "witnesses": [],
+  "status": "register-only"
+ }
+]

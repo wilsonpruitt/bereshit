@@ -1,0 +1,42 @@
+{
+ "id": "aug-gnl-1-5-11",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 401,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "non ex indigentia, sed ex beneficentia veniens amor",
+  "en": "a love that comes not from need but from bounty"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Propterea priusquam scriberetur, Dixit Deus, Fiat lux; praecessit Scriptura dicens, Et Spiritus Dei superferebatur super aquam. Quia sive aquae nomine appellare voluit totam corporalem materiam, ut eo modo insinuaret unde facta et formata sint omnia, quae in suis generibus jam dignoscere possumus, appellans aquam, quia ex humida natura videmus omnia in terra per species varias formari atque concrescere; sive spiritualem vitam quamdam ante formam conversionis quasi fluitantem: superferebatur utique Spiritus Dei; quia subjacebat scilicet bonae voluntati Creatoris, quidquid illud erat quod formandum perficiendumque inchoaverat: ut dicente Deo in Verbo suo, Fiat lux; in bona voluntate, hoc est in beneplacito ejus pro modulo sui generis maneret quod factum est; et ideo rectum est, quod placuerit Deo, Scriptura dicente, Et facta est lux; et vidit Deus lucem quia bona est. CAPUT VI.-- Trinitas insinuata cum in inchoatione, tum in perfectione creaturae. 12. Ut quemadmodum in ipso exordio inchoatae creaturae, quae coeli et terrae nomine, propter id quod de illa perficiendum erat, commemorata est, Trinitas insinuatur Creatoris (nam dicente Scriptura, In principio fecit Deus coelum et terram; intelligimus Patrem in Dei nomine, et Filium in principii nomine, qui non Patri, sed per seipsum creatae primitus ac potissimum spirituali creaturae, et consequenter etiam universae creaturae principium est: dicente autem Scriptura, Et Spiritus Dei ferebatur super aquam, completam commemorationem Trinitatis agnoscimus); ita et in conversione atque perfectione creaturae, ut rerum species digerantur, eadem Trinitas insinuetur: Verbum Dei scilicet, et Verbi generator, cum dicitur, Dixit Deus; et sancta bonitas, in qua Deo placet quidquid ei pro suae naturae modulo perfectum placet, cum dicitur, Vidit Deus quia bonum est. CAPUT VII.-- Spiritus Dei cur dictus est superferri super aquam. 13. Sed cur commemorata prius quamvis imperfecta creatura, postea commemoratur Spiritus Dei, prius dicente Scriptura, Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum ; ac deinde inferente, Et Spiritus Dei superferebatur super aquam? An quoniam egenus atque indigus amor ita diligit, ut rebus quas diligit, subjiciatur; propterea cum commemoraretur Spiritus Dei, in quo sancta ejus benevolentia dilectioque intelligitur, superferri dictus est, ne facienda opera sua per indigentiae necessitatem potius quam per abundantiam beneficentiae Deus amare putaretur?",
+  "source": "PL 34, col. 250",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Therefore, before it was written 'God said, Let there be light,' Scripture went before it, saying, 'And the Spirit of God was borne above the water.' For whether by the name of water he meant the whole of corporeal matter, so as to intimate by that means whence all the things we can now distinguish in their kinds were made and formed (calling it water because we see everything on earth formed and grown together out of a moist nature through its various species), or a kind of spiritual life, floating as it were before the form of its conversion: in either case the Spirit of God was borne above, because whatever it was that he had begun, to be formed and perfected, lay beneath the good will of the Creator; so that when God said in his Word, 'Let there be light,' what was made might abide in his good will, that is in his good pleasure, after the measure of its kind; and so it is right that it pleased God, Scripture saying, 'And light was made; and God saw the light, that it was good.' […] But why, after the creature had first been mentioned, imperfect as it was, is the Spirit of God mentioned afterwards, Scripture first saying 'But the earth was invisible and unformed, and darkness was over the abyss,' and then bringing in 'And the Spirit of God was borne above the water'? Is it because a needy and destitute love so loves that it is subjected to the things it loves; and therefore, when the Spirit of God was mentioned, in whom his holy benevolence and love are understood, he was said to be borne above, lest God should be thought to love the works he was to make out of the necessity of want rather than out of the abundance of bounty?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "power-not-place",
+  "love-gift",
+  "trinity"
+ ],
+ "notes": "The passage the Glossa quotes in its margin on 1:2 (as 'lib. I de Gen. ad lit., c. 5'). Two answers at once: water is matter or formless spiritual life, and the Spirit is 'above' because divine love is not needy. The middle chapter, which finds the Trinity in the verse, is elided in the English."
+}

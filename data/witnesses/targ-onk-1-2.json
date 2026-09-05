@@ -1,0 +1,39 @@
+{
+ "id": "targ-onk-1-2",
+ "work": "targ-onk",
+ "author": "onkelos",
+ "tradition": "rabbinic",
+ "date": 200,
+ "date_precision": "circa",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "arc": "וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא",
+  "en": "and a wind from before the LORD was blowing"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וְאַרְעָא הֲוַת צָדְיָא וְרֵיקַנְיָא וַחֲשׁוֹכָא פָּרַשׂ עַל אַפֵּי תְהוֹמָא וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא עַל אַפֵּי מַיָּא",
+  "source": "Sefaria, 'Onkelos Genesis'",
+  "license": "public-domain"
+ },
+ "english": {
+  "text": "And the earth was waste and empty, and darkness was spread over the face of the deep, and a wind from before the LORD was blowing over the face of the waters.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "notes": "Onkelos makes two decisions at once: ruach is a wind, not a spirit, and 'from before the LORD' keeps God at a remove; merahefet becomes menashva, 'blowing'. No bird, no hovering. Etheridge's PD English exists on Sefaria but did not return by version title; fetch from archive.org.",
+ "answers": [
+  "wind"
+ ]
+}

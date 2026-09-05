@@ -1,0 +1,39 @@
+{
+ "id": "bruno-gen-1-2",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1100,
+ "date_precision": "circa",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "ut bonus artifex … jam tunc facere disponebat",
+  "en": "like a good craftsman, was even then arranging to make"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Dei. vero Spiritus ferebatur super aquas, quia ut bonus artifex, hanc, quam videmus, tam multiplicem creaturarum varietatem, jam tunc facere disponebat. Sic enim et nos, exempli gratia, domum composituri, lignorum materiam oculis menteque contemplantes, alia trabibus, alia vero columnis, atque alia aliis officiis destinamus.",
+  "source": "PL 164, col. 148C",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But the Spirit of God was borne over the waters, because, like a good craftsman, he was even then arranging to make this so manifold variety of creatures that we see. So we too, for example, when about to build a house, looking over the timber with eye and mind, assign some pieces to beams, some to columns, and others to other uses.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "The craftsman becomes a house-builder sorting timber. The digitization reads 'Dei. vero' — the PL plate should be checked for the stop.",
+ "answers": [
+  "craftsman"
+ ]
+}

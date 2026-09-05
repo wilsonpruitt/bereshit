@@ -1,0 +1,39 @@
+{
+ "id": "isidore-quaest-1-3",
+ "work": "isidore-quaest",
+ "author": "isidore",
+ "tradition": "latin",
+ "date": 620,
+ "date_precision": "circa",
+ "place": "seville",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "super cor nostrum tenebrosum et fluidum, quasi super aquas",
+  "en": "over our dark and fluid heart, as over waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et spiritus Dei ferebatur super aquas. Spiritus autem Dei super cor nostrum tenebrosum et fluidum, quasi super aquas, jam 262 superferebatur; in quo subsistentes requiesceremus, cujusque vivificaremur flatu, et cujus unda ablueremur.",
+  "source": "PL 83, col. 209C",
+  "cc_idno": "21433",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of God was borne over the waters.' The Spirit of God was already being borne over our dark and fluid heart, as over waters: that standing in him we might find rest, be quickened by his breath, and be washed in his wave.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "notes": "Isidore does not answer the physical question at all; the waters are the heart. The allegorical reading the Glossa will carry in its margin.",
+ "answers": [
+  "heart"
+ ]
+}

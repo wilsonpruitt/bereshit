@@ -1,0 +1,40 @@
+{
+ "id": "angelom-gen-1-2",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Unde bene alia translatio dicit: Incumbebat, seu confovebat",
+  "en": "Hence another translation well says: was lying upon, or warming"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sed ferebatur non localiter, sed potentialiter, regendo et sustentando ipsam informem materiam; sicut superfertur rebus fabricandis voluntas artificis. Unde bene alia translatio dicit: Incumbebat [ Z., incubabat ], seu confovebat, in similitudine volucris, ova calore animantis, ut manifeste intelligatur de Spiritu sancto, et non de spiritu hujus mundi, sicut haeretici putaverunt.",
+  "source": "PL 115, col. 116A",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But he was borne not by place but by power, ruling and sustaining that formless matter, as the will of a craftsman is borne above the things to be made. Hence another translation well says 'was lying upon,' or 'was warming,' in the likeness of a bird quickening her eggs with her heat, so that it may be plainly understood of the Holy Spirit and not of the spirit of this world, as the heretics thought.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Angelomus splices the two Latin lines into one sentence: Augustine's 'not by place but by power' and Jerome's bird, the latter presented as 'another translation' and unnamed. Jerome's 'nonnulli' (some suppose) has hardened into 'haeretici'.",
+ "answers": [
+  "power-not-place",
+  "brooding-warmth"
+ ]
+}

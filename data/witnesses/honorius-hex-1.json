@@ -1,0 +1,41 @@
+{
+ "id": "honorius-hex-1",
+ "work": "honorius-hex",
+ "author": "honorius",
+ "tradition": "latin",
+ "date": 1140,
+ "date_precision": "circa",
+ "place": "regensburg",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "vel aquas fovebat, id est cuncta de aquis procreanda animabat",
+  "en": "or was warming the waters, that is, giving life to all that was to come from them"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et Spiritus Domini ferebatur super aquas, vel aquas fovebat, id est cuncta de aquis procreanda animabat. Et nota Trinitatem. Deo Patri ascribitur mundi creatio, Filio rerum dispositio, Spiritui sancto omnium vivificatio, vel ornatio.",
+  "source": "PL 172, col. 254C",
+  "cc_idno": "10991",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of the Lord was borne over the waters,' or 'was warming the waters,' that is, was giving life to all that was to be brought forth from the waters. And note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposing of things, to the Holy Spirit the quickening, or adorning, of all.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "By 1140 'vel aquas fovebat' is offered as a bare variant reading, no Syrian, no bird: the image has become a lemma.",
+ "answers": [
+  "brooding-warmth",
+  "trinity"
+ ]
+}

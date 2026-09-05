@@ -1,0 +1,266 @@
+[
+ {
+  "id": "t-k7-01",
+  "from": "vulgate-1-2",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Vulgate 'ferebatur' renders LXX ἐπεφέρετο, not the Hebrew merahefet; the Latin bench inherits a Greek verb of motion.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-02",
+  "from": "ambrose-hex-1-8-29",
+  "to": "basil-hex-lat-2-6",
+  "type": "cites",
+  "evidence": "'Syrus, qui vicinus Hebraeo est … fovebat aquas, id est vivificabat' reproduces Basil Hex. II.6's Syrian and his gloss 'warmed and quickened'. Ambrose read Basil's Greek; Eustathius' Latin is the bench's later access to the same source.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-03",
+  "from": "aug-gnl-1-18-36",
+  "to": "basil-hex-lat-2-6",
+  "type": "cites",
+  "evidence": "'a quodam docto christiano syro fertur expositum … non superferebatur sed fovebat' names Basil's Syrian at one remove ('fertur'); 'sicut ova foventur ab alitibus' extends the gallina cubans.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-04",
+  "from": "aug-gnl-1-18-36",
+  "to": "ambrose-hex-1-8-29",
+  "type": "echoes",
+  "evidence": "Augustine's access to the Syrian is most plausibly Ambrose's Hexaemeron (heard in Milan 386–7); the 'vivificatio' motif matches Ambrose's 'vivificabat … animaret ad vitam'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-05",
+  "from": "jerome-hq-1-2",
+  "to": "b-chag-15a",
+  "type": "parallel",
+  "evidence": "Both derive a bird from merahefet. Jerome: incubabat/confovebat, a bird warming eggs. Ben Zoma: a dove hovering over her young and NOT touching. Same verb, opposite physical claim. No citation either way; Jerome's 'in Hebraeo' points at the word, not at a rabbinic informant.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-06",
+  "from": "wigbod-gen-1-2",
+  "to": "jerome-hq-1-2",
+  "type": "cites",
+  "evidence": "Wigbod prints Jerome's paragraph verbatim under the label HIERONYMUS (PL 96:1116C).",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-07",
+  "from": "wigbod-gen-1-2",
+  "to": "aug-gnm-1-5-8",
+  "type": "cites",
+  "evidence": "Wigbod prints Augustine's sun-over-earth paragraph verbatim (PL 96:1112D).",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-08",
+  "from": "angelom-gen-1-2",
+  "to": "jerome-hq-1-2",
+  "type": "echoes",
+  "evidence": "'alia translatio dicit: Incumbebat seu confovebat, in similitudine volucris, ova calore animantis' is Jerome's wording, unnamed and re-labelled as a translation variant.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-09",
+  "from": "angelom-gen-1-2",
+  "to": "aug-gnl-imp-4-16",
+  "type": "echoes",
+  "evidence": "'non localiter sed potentialiter … sicut superfertur rebus fabricandis voluntas artificis' is Augustine's craftsman (Gnl imp. §16 / Gnm I.5).",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-10",
+  "from": "rabanus-gen-1-1",
+  "to": "aug-gnl-imp-4-16",
+  "type": "echoes",
+  "evidence": "'in similitudinem fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri' restates Augustine's voluntas artificis; 'positione loci' = 'spatia locorum'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-11",
+  "from": "rabanus-gen-1-1",
+  "to": "bede-gen-1-2",
+  "type": "cites",
+  "evidence": "PL 107:447C copies Bede's 'totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret' verbatim.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-12",
+  "from": "alcuin-int-29",
+  "to": "aug-gnm-1-5-8",
+  "type": "echoes",
+  "evidence": "'Non pervagatione, sed potestate' compresses 'non per spatia locorum … sed per potentiam'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-13",
+  "from": "remigius-gen-1-2",
+  "to": "aug-gnl-imp-4-16",
+  "type": "echoes",
+  "evidence": "'mens vel sapientia alicujus artificis superfertur operi' = voluntas artificis, with 'sapientia' added.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-14",
+  "from": "bruno-gen-1-2",
+  "to": "aug-gnl-imp-4-16",
+  "type": "echoes",
+  "evidence": "'ut bonus artifex … disponebat' with the house-builder sorting timber elaborating Augustine's 'voluntas artificis ligno'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-15",
+  "from": "hugh-adnot-gen-1-2",
+  "to": "aug-gnl-imp-4-16",
+  "type": "echoes",
+  "evidence": "'quasi artifex operi formando praeerat'; Hugh keeps the craftsman but replaces will with 'intentio'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-16",
+  "from": "rupert-gen-1-8",
+  "to": "aug-gnl-1-18-36",
+  "type": "echoes",
+  "evidence": "'ovum … calore volucris animatur et pullum producit' is Augustine's 'ova foventur ab alitibus … formandis pullis'; the Syrian is gone.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-17",
+  "from": "rupert-gen-1-8",
+  "to": "aug-conf-13-9-10",
+  "type": "echoes",
+  "evidence": "'bonitatem amoremque Dei … amorem et vitam' develops Conf. XIII.9's Spirit-as-gift-and-love reading of the same verse.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-18",
+  "from": "abelard-hex-1-2",
+  "to": "aug-gnl-1-18-36",
+  "type": "echoes",
+  "evidence": "'more avis quae ovo incumbit, ut ipsum foveat atque vivificet' = Augustine's warming bird; 'quaedam translatio fovebat' = the Syriac variant as transmitted by Augustine.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-19",
+  "from": "abelard-hex-1-2",
+  "to": "jerome-hq-1-2",
+  "type": "contests",
+  "evidence": "Abelard reports 'Hebraicum habet volitabat' against Jerome's 'in Hebraeo … incubabat'. He does not name Jerome, but the claim about the Hebrew is contradictory and deliberate.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-20",
+  "from": "abelard-hex-1-2",
+  "to": "rashi-1-2b",
+  "type": "parallel",
+  "evidence": "Abelard's 'volitabat' (flutter) is the sense Rashi's 'dove hovering over the nest' gives merahefet. Abelard consulted Jews on Hebrew elsewhere; no citation here. [CHECK for a documented channel]",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-21",
+  "from": "honorius-hex-1",
+  "to": "aug-gnl-1-18-36",
+  "type": "echoes",
+  "evidence": "'vel aquas fovebat, id est … animabat' offers the Syriac 'warmed' as a bare variant; the wording 'animabat' follows Ambrose/Augustine's vivificatio.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-22",
+  "from": "comestor-hs-gen-1",
+  "to": "jerome-hq-1-2",
+  "type": "cites",
+  "evidence": "'Hebraeus habet pro superferebatur incubabat' is Jerome's rendering, attributed to 'the Hebrew'.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-23",
+  "from": "comestor-hs-gen-1",
+  "to": "basil-hex-lat-2-6",
+  "type": "cites",
+  "evidence": "'vel Syra lingua fovebat, sicut avis ova' is Basil's Syrian, via Augustine Gnl I.18.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-24",
+  "from": "rashi-1-2b",
+  "to": "b-chag-15a",
+  "type": "cites",
+  "evidence": "Rashi's 'like a dove (yonah) hovering over the nest' follows the Bavli's dove (Chagigah 15a), not Bereshit Rabbah's unspecified bird ('of); the dove settles which source he is quoting.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-25",
+  "from": "rashi-1-2b",
+  "to": "br-2-4",
+  "type": "echoes",
+  "evidence": "The Ben Zoma story is in both BR 2:4 and Chagigah 15a; Rashi's wording is the Bavli's, but Rashi elsewhere cites BR by name on 1:1–5.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-26",
+  "from": "b-chag-15a",
+  "to": "br-2-4",
+  "type": "parallel",
+  "evidence": "Same Ben Zoma story, two redactions. BR: bird beating its wings, touching-and-not-touching. Bavli: dove over her young, not touching, three fingerbreadths. Compiled independently from a shared Palestinian tradition.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-27",
+  "from": "targ-psj-1-2",
+  "to": "targ-neof-1-2",
+  "type": "parallel",
+  "evidence": "Both render ruach Elohim as 'a spirit of mercy/mercies from before the LORD'; the Palestinian targum tradition shared the phrase.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-29",
+  "from": "glossa-1-2-ruach",
+  "to": "aug-gnl-1-5-11",
+  "type": "cites",
+  "evidence": "Labelled 'AUG., lib. I de Gen. ad lit., c. 5' in the margin; reproduces 'sive totam corporalem materiam aquam appellavit … sive spiritualem vitam … quasi fluitantem' and 'ne … per necessitatem indigentiae quam per abundantiam beneficentiae … amare putaretur' from PL 34:250–251.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-30",
+  "from": "glossa-1-2-ruach",
+  "to": "jerome-hq-1-2",
+  "type": "cites",
+  "evidence": "Labelled 'HIERON. in Gen. t. III, col. 939' — the Glossa (as printed by Migne) cites the very column; 'incubabat vel fovebat, more volucris ova calore animantis' is Jerome's sentence lightly recast.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-31",
+  "from": "glossa-1-2-ruach",
+  "to": "bede-gen-1-2",
+  "type": "echoes",
+  "evidence": "'Tota ergo Trinitas hic operata intelligitur, Deus, Pater scilicet; principium, Filius; Spiritus Dei, Spiritus sanctus' compresses Bede's 'totius simul Trinitatis in creatione mundi virtutem cooperatam' (PL 91:16C) as relayed by Rabanus (107:447C); unlabelled in the margin.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-32",
+  "from": "glossa-1-2-ruach",
+  "to": "isidore-quaest-1-3",
+  "type": "cites",
+  "evidence": "'In quo subsistentes requiesceremus flatu ejus vivificati, et unda baptismi abluti' is Isidore's 'in quo subsistentes requiesceremus, cujusque vivificaremur flatu, et cujus unda ablueremur' (PL 83:209C); a second gloss is labelled 'ISID. in Gen.?' by Migne.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-33",
+  "from": "glossa-1-2-ruach",
+  "to": "alcuin-int-29",
+  "type": "parallel",
+  "evidence": "Both carry the Old Latin lemma 'Spiritus Domini' against the Vulgate's 'Spiritus Dei'; no citation, but a shared Carolingian text-form.",
+  "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k7-28",
+  "from": "jerome-hq-1-2",
+  "to": "rashi-1-2b",
+  "type": "parallel",
+  "evidence": "Jerome's incubabat and Rashi's Old French acoveter ('to cover, brood') give the same vernacular sense to merahefet, 700 years apart, with no possible contact. The only place on this crux where the two benches reach the same word.",
+  "crux": "ruach-hovering"
+ }
+]

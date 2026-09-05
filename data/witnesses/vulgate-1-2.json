@@ -1,0 +1,40 @@
+{
+ "id": "vulgate-1-2",
+ "work": "vulgate",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Spiritus Dei ferebatur super aquas",
+  "en": "the Spirit of God was borne over the waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua, et tenebrae [ Vulg. addit erant] super faciem abyssi, et Spiritus Dei ferebatur super aquas.",
+  "source": "PL 28, col. 163C",
+  "cc_idno": "7204",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But the earth was empty and void, and darkness [was] upon the face of the deep, and the Spirit of God was borne over the waters.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "notes": "Jerome's own Vulgate keeps the Old Latin/LXX 'ferebatur' even though his Hebrew Questions (same decade) insist the Hebrew means brooding. The Latin bench inherits the verb he declined to change. PL 28 prints Jerome's text without 'erant' and flags the Vulgate's addition.",
+ "answers": [
+  "borne-over"
+ ]
+}

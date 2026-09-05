@@ -1,0 +1,41 @@
+{
+ "id": "abelard-hex-1-2",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Hebraicum habet, volitabat super faciem aquarum",
+  "en": "the Hebrew has, was fluttering over the face of the waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et Spiritus Domini ferebatur super aquas. Hebraicum habet, volitabat super faciem aquarum. Translatio vero quaedam habet, fovebat aquas, quaedam, ferebatur super aquas, sicut habet praesens quam prae manibus habemus, ac primum nobis occurrit exponenda. Quantum ergo nobis videtur, aquarum etiam nomine fluidam illam atque instabilem congeriem nondum certa partium suarum collocatione firmatam comprehendit. Super hanc itaque Spiritus Domini ferebatur, quia ut eam ordinaret, tanquam imperio suo subjectam divina disponebat gratia, ne videlicet ulterius esset inanis aut vacua, seu tenebrosa vel fluida. Quid enim Spiritus Dei nisi ejus bonitas intelligitur, cujus participatione sunt bona universa? Quae videlicet Dei bonitas, quia nondum in illa elementorum confusione apparebat, superferri potius illi quam inferri dicebatur, quia nondum in ea operatus fuerat unde aliquid utilitatis ipsa praetenderet. Unde nec in ejus commendatione: dicitur vidit Deus quia bonum est, sicut in commendatione reliquorum operum. Diligenter etiam dicit, ferebatur super aquas potius quam erat, quasi ostendens eum habere quemdam transitum in istis, ut de tenebris ad lucem produceret, non in eis permanentiam habere, quas nequaquam in hac confusione proposuerat relinquere. Alia etiam, ut diximus, translatio habet, et Spiritus Domini fovebat aquas, more videlicet avis, quae ovo incumbit, ut ipsum foveat atque vivificet; unde et bene vivificatorem Spiritum sanctum appellamus. Bene autem ovo nondum vivificato aut formato illa confusa congeries comparatur, in qua tanquam in ovo quatuor in se continenti quatuor elementa comprehendun",
+  "source": "PL 178, col. 735B",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'And the Spirit of the Lord was borne over the waters.' The Hebrew has 'was fluttering over the face of the waters.' One translation has 'was warming the waters,' another 'was borne over the waters,' as does the present one we have in hand, which first comes to us to be expounded. […] Another translation, as we said, also has 'and the Spirit of the Lord was warming the waters,' after the manner of a bird that sits upon an egg to warm and quicken it; whence we rightly call the Holy Spirit the giver of life. And that confused mass is well compared to an egg not yet quickened or formed, in which, as in an egg containing four things in itself, the four elements are comprised…",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "The one Latin witness who reports the Hebrew as 'fluttering' (volitabat) — which is what merahefet means in Deut 32:11 and what Ben Zoma and Rashi hear — rather than Jerome's 'brooding'. He keeps 'warming' only as 'a certain translation'. Where did Abelard get volitabat? Not from Jerome. A Jewish informant is possible [CHECK]. The excerpt spans cols 735B–735D; the middle is elided in the English.",
+ "answers": [
+  "fluttering",
+  "brooding-warmth"
+ ]
+}

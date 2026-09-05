@@ -1,0 +1,37 @@
+{
+ "pd": {
+  "label": "Public domain"
+ },
+ "cc-by": {
+  "label": "CC BY 4.0"
+ },
+ "cc-by-sa": {
+  "label": "CC BY-SA",
+  "note": "Wikisource Talmud Bavli and Miqra according to the Masorah. Share-alike attaches to the Hebrew/Aramaic text as republished; fresh English is our own work."
+ },
+ "check": {
+  "label": "Licence to confirm before publication"
+ },
+ "sefaria-midrash-rabbah": {
+  "label": "The Sefaria Midrash Rabbah, 2022 — CC BY",
+  "attribution": "[CHECK: paste the exact attribution string Sefaria specifies for the Midrash Rabbah translation]"
+ },
+ "silbermann": {
+  "label": "Pentateuch with Rashi's commentary, M. Rosenbaum and A. M. Silbermann, 1929–34 — public domain (via Sefaria)"
+ },
+ "etheridge": {
+  "label": "J. W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel, 1862 — public domain"
+ },
+ "brenton": {
+  "label": "L. C. L. Brenton, The Septuagint with Apocrypha, 1851 — public domain"
+ },
+ "pl": {
+  "label": "Patrologia Latina (Migne, 1844–65) — public domain text. Located and extracted with the Corpus Corporum TEI (mlat.uzh.ch); the TEI files themselves are not republished."
+ },
+ "wroot-glossa": {
+  "label": "Wilson Pruitt's Englished Glossa ordinaria (migne.app/glossa) — Wroot Press; licence for this site to be set by Wilson (Wroot Press default is CC BY-NC 4.0; the plan bars embedding NC text that is not ours)"
+ },
+ "claude-draft": {
+  "label": "Fresh English draft (Claude, 2026-09-05), awaiting Wilson Pruitt's revision — CC BY on approval"
+ }
+}

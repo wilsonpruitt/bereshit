@@ -1,0 +1,39 @@
+{
+ "id": "aug-gnm-1-5-8",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-389",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "non per spatia locorum … sed per potentiam invisibilis sublimitatis suae",
+  "en": "not across spaces of place, but by the power of his invisible loftiness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quod autem scriptum est, Et Spiritus Dei superferebatur super aquam, sic solent Manichaei reprehendere, ut dicant: Aqua ergo erat habitaculum Spiritus Dei, et ipsa continebat Spiritum Dei? Totum conantur perversa mente pervertere, et excaecantur malitia sua. Cum enim dicimus, Sol superfertur super terram, numquid hoc intelligi volumus, quod in terra habitet sol, et terra solem contineat? Et tamen non sic Spiritus Dei superferebatur super aquam, sicut superfertur sol super terram; sed alio modo quem pauci intelligunt. Non enim per spatia locorum superferebatur aquae ille Spiritus, sicut sol terrae superfertur; sed per potentiam invisibilis sublimitatis suae. Dicant autem nobis isti, quomodo iis rebus quae fabricandae sunt, superferatur voluntas fabri.",
+  "source": "PL 34, col. 177",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "As for what is written, 'And the Spirit of God was borne above the water,' the Manichees are in the habit of carping at it thus: 'So the water was the dwelling of the Spirit of God, and it contained the Spirit of God?' They try to twist everything with a perverse mind, and are blinded by their own malice. When we say 'the sun is borne above the earth,' do we mean by this that the sun lives in the earth and that the earth contains the sun? And yet the Spirit of God was not borne above the water the way the sun is borne above the earth, but in another way, which few understand. For that Spirit was not borne above the water across the spaces of place, as the sun is borne above the earth, but by the power of his invisible loftiness. Let these people tell us how the will of a craftsman is borne above the things that are to be made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Augustine's first answer, against the Manichees: the verb is about power, not position. The craftsman's will (voluntas fabri) is born here and becomes the Carolingian bench's stock answer.",
+ "answers": [
+  "power-not-place"
+ ]
+}

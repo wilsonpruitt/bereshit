@@ -1,0 +1,39 @@
+{
+ "id": "alcuin-int-29",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Non pervagatione, sed potestate",
+  "en": "Not by wandering over, but by power"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 29. Quid est: Spiritus Domini ferebatur super aquas (Gen. I, 2) ?-- Resp. Non pervagatione [ Edit., per vagationem], sed potestate, et regentis imperio, ad formandum et vivificandum informem materiam, quae hoc loco aquae nomine significatur",
+  "source": "PL 100, col. 519D",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 29. What is 'The Spirit of the Lord was borne over the waters'? — Answer: Not by wandering over them, but by power and a ruler's command, to form and quicken the formless matter which in this place is signified by the name of water.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Augustine compressed to one sentence for the schoolroom. Note 'Spiritus Domini' (Old Latin) not 'Spiritus Dei' (Vulgate) — the Vetus Latina lingers in Alcuin's lemma.",
+ "answers": [
+  "power-not-place"
+ ]
+}

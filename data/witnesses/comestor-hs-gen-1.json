@@ -1,0 +1,39 @@
+{
+ "id": "comestor-hs-gen-1",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Hebraeus habet pro super ferebatur, incubabat, vel Syra lingua, fovebat, sicut avis ova",
+  "en": "The Hebrew has 'was brooding', or in Syriac 'was warming', as a bird her eggs"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Hebraeus habet pro super ferebatur, incubabat, vel Syra lingua, fovebat, sicut avis ova. In quo etiam omne cum regimine nascentis mundi notatur initium. Hunc locum male intellexit Plato, dictum hoc putans de anima mundi. Sed dictum est de Spiritu sancto creante, de quo legitur: Emitte Spiritum tuum, et creabuntur (Psal. CIII) .",
+  "source": "PL 198, col. 1057A",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "The Hebrew has, for 'was borne above,' 'was brooding,' or in the Syriac tongue 'was warming,' as a bird her eggs. In this, too, the whole beginning of the world being born is noted, together with its governance. Plato misunderstood this passage, thinking it was said of the world-soul. But it is said of the Holy Spirit creating, of whom we read, 'Send forth your Spirit, and they shall be created' (Ps 104:30).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "The textbook of the schools fuses Jerome's Hebrew and Basil's Syriac into one sentence and adds a new opponent: Plato's world-soul, i.e. William of Conches and the Chartres reading of the Spirit as anima mundi. The bird has become a proof against philosophers.",
+ "answers": [
+  "brooding-warmth"
+ ]
+}

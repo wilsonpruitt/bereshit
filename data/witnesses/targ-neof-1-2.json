@@ -1,0 +1,40 @@
+{
+ "id": "targ-neof-1-2",
+ "work": "targ-neof",
+ "author": "targum-neofiti",
+ "tradition": "rabbinic",
+ "date": 300,
+ "date_precision": "range-100-400",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "arc": "וְרוּחַ דְּרַחֲמִין מִן קֳדָם יְיָ הֲוָה מְנַשְּׁבָא",
+  "en": "and a spirit of mercy from before the LORD was blowing"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "מלקדמין בחכמה [בחוכמתא] ברא (ד)יי שכלל [ושכלל] ית שמיא וית ארעא: וארעא הוות תהיא ובהיא וצדי [וצדיה] מן בר נש ומן בעיר וריקנא מן כל פלחן צמחין ומן אילנין וחשוכא פריס על אפי תהומא ורוח דרחמין מן קדם יי הוה מנשבא על אפי מיא: ואמר ממ(רא) [נ\"א ממרה] דיי יהוי נהור והות נהור כגזירת ממריה׃ וגלי קדם יי ית נהורא ארום טב הוא ואפשר ממרא דיי בין נהורא לבין חשוכא׃ וקרא ממרא דיי לנהורא איממ׳ ולחשוכא קרא לליא והוא רמש והוה צפר סדר עבד בראשית יום קדמאיי׃ ואמר ממרא דיי יהוי רקיעא במציעות מיא ויהוי מפרש בין מיא ארעא לבין מיא עיליא׃ וברא יי ית רקיעא ואפרש בין מיא די מן תחות רקיעא ובין מיא די מלעיל לרקיעא [לרקיע שמיא] והוה כן כמימריה׃ וקרא ממרא דיי לרקיעא שמיא והוה רמש והוה צפר סדר עבד בראשית יום תניין׃",
+  "source": "Sefaria, Vatican MS Neofiti 1 (whole of 1:1–5 in one segment)",
+  "license": "check"
+ },
+ "english": {
+  "text": "In the beginning, with wisdom, the Word of the LORD created and perfected the heavens and the earth. And the earth was waste and empty, desolate of human and beast, empty of all tillage of plants and of trees; and darkness was spread over the face of the deep, and a spirit of mercy from before the LORD was blowing over the face of the waters.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "beginning-of-what",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "notes": "'Spirit of mercy' answers the wind/spirit question in a third way: neither the weather nor the Holy Spirit but a divine disposition. Neofiti's 1:1 'with wisdom' is the K1 anchor. Hebrew licence on Sefaria is 'unknown' — the MS transcription is PD in substance; confirm before embedding.",
+ "answers": [
+  "spirit-of-mercy"
+ ]
+}

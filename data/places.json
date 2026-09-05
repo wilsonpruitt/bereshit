@@ -1,0 +1,117 @@
+{
+ "alexandria": {
+  "name": "Alexandria",
+  "lat": 31.2,
+  "lon": 29.92
+ },
+ "bethlehem": {
+  "name": "Bethlehem",
+  "lat": 31.7,
+  "lon": 35.2
+ },
+ "babylonia": {
+  "name": "Babylonia (Sura / Pumbedita)",
+  "lat": 32.5,
+  "lon": 44.4
+ },
+ "palestine": {
+  "name": "Palestine",
+  "lat": 32.0,
+  "lon": 35.3
+ },
+ "galilee": {
+  "name": "Galilee (Tiberias / Sepphoris)",
+  "lat": 32.79,
+  "lon": 35.53
+ },
+ "troyes": {
+  "name": "Troyes",
+  "lat": 48.3,
+  "lon": 4.08
+ },
+ "caesarea-cappadociae": {
+  "name": "Caesarea in Cappadocia",
+  "lat": 38.72,
+  "lon": 35.49
+ },
+ "milan": {
+  "name": "Milan",
+  "lat": 45.46,
+  "lon": 9.19
+ },
+ "thagaste": {
+  "name": "Thagaste",
+  "lat": 36.29,
+  "lon": 7.95
+ },
+ "hippo": {
+  "name": "Hippo Regius",
+  "lat": 36.88,
+  "lon": 7.75
+ },
+ "seville": {
+  "name": "Seville",
+  "lat": 37.39,
+  "lon": -5.99
+ },
+ "jarrow": {
+  "name": "Jarrow",
+  "lat": 54.98,
+  "lon": -1.49
+ },
+ "aachen": {
+  "name": "Aachen",
+  "lat": 50.78,
+  "lon": 6.08
+ },
+ "tours": {
+  "name": "Tours",
+  "lat": 47.39,
+  "lon": 0.69
+ },
+ "fulda": {
+  "name": "Fulda",
+  "lat": 50.55,
+  "lon": 9.68
+ },
+ "luxeuil": {
+  "name": "Luxeuil",
+  "lat": 47.82,
+  "lon": 6.38
+ },
+ "auxerre": {
+  "name": "Auxerre",
+  "lat": 47.8,
+  "lon": 3.57
+ },
+ "segni": {
+  "name": "Segni",
+  "lat": 41.69,
+  "lon": 13.02
+ },
+ "laon": {
+  "name": "Laon",
+  "lat": 49.56,
+  "lon": 3.62
+ },
+ "liege": {
+  "name": "Liège",
+  "lat": 50.63,
+  "lon": 5.57
+ },
+ "paraclete": {
+  "name": "The Paraclete (Nogent-sur-Seine)",
+  "lat": 48.49,
+  "lon": 3.5
+ },
+ "paris": {
+  "name": "Paris",
+  "lat": 48.86,
+  "lon": 2.35
+ },
+ "regensburg": {
+  "name": "Regensburg",
+  "lat": 49.02,
+  "lon": 12.1
+ }
+}

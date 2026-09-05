@@ -1,0 +1,866 @@
+{
+ "book": "gen",
+ "chapter": 1,
+ "verses": [
+  {
+   "ref": "gen.1.1",
+   "he": {
+    "text": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+    "source": "Miqra according to the Masorah (Sefaria)",
+    "license": "cc-by-sa",
+    "tokens": [
+     {
+      "id": "he.gen.1.1.1",
+      "t": "בְּרֵאשִׁ֖ית"
+     },
+     {
+      "id": "he.gen.1.1.2",
+      "t": "בָּרָ֣א"
+     },
+     {
+      "id": "he.gen.1.1.3",
+      "t": "אֱלֹהִ֑ים"
+     },
+     {
+      "id": "he.gen.1.1.4",
+      "t": "אֵ֥ת"
+     },
+     {
+      "id": "he.gen.1.1.5",
+      "t": "הַשָּׁמַ֖יִם"
+     },
+     {
+      "id": "he.gen.1.1.6",
+      "t": "וְאֵ֥ת"
+     },
+     {
+      "id": "he.gen.1.1.7",
+      "t": "הָאָֽרֶץ׃"
+     }
+    ]
+   },
+   "la": {
+    "text": "In principio creavit Deus coelum et terram.",
+    "source": "Vulgate (PL 28, col. 163C; 'erant' and 'a tenebris' per Clementine, flagged there as Vulg. variants)",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "la.gen.1.1.1",
+      "t": "In"
+     },
+     {
+      "id": "la.gen.1.1.2",
+      "t": "principio"
+     },
+     {
+      "id": "la.gen.1.1.3",
+      "t": "creavit"
+     },
+     {
+      "id": "la.gen.1.1.4",
+      "t": "Deus"
+     },
+     {
+      "id": "la.gen.1.1.5",
+      "t": "coelum"
+     },
+     {
+      "id": "la.gen.1.1.6",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.1.7",
+      "t": "terram."
+     }
+    ]
+   },
+   "en": {
+    "text": "In the beginning, God created the heavens and the earth.",
+    "source": "World English Bible",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "en.gen.1.1.1",
+      "t": "In"
+     },
+     {
+      "id": "en.gen.1.1.2",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.1.3",
+      "t": "beginning,"
+     },
+     {
+      "id": "en.gen.1.1.4",
+      "t": "God"
+     },
+     {
+      "id": "en.gen.1.1.5",
+      "t": "created"
+     },
+     {
+      "id": "en.gen.1.1.6",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.1.7",
+      "t": "heavens"
+     },
+     {
+      "id": "en.gen.1.1.8",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.1.9",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.1.10",
+      "t": "earth."
+     }
+    ]
+   }
+  },
+  {
+   "ref": "gen.1.2",
+   "he": {
+    "text": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+    "source": "Miqra according to the Masorah (Sefaria)",
+    "license": "cc-by-sa",
+    "tokens": [
+     {
+      "id": "he.gen.1.2.1",
+      "t": "וְהָאָ֗רֶץ"
+     },
+     {
+      "id": "he.gen.1.2.2",
+      "t": "הָיְתָ֥ה"
+     },
+     {
+      "id": "he.gen.1.2.3",
+      "t": "תֹ֙הוּ֙"
+     },
+     {
+      "id": "he.gen.1.2.4",
+      "t": "וָבֹ֔הוּ"
+     },
+     {
+      "id": "he.gen.1.2.5",
+      "t": "וְחֹ֖שֶׁךְ"
+     },
+     {
+      "id": "he.gen.1.2.6",
+      "t": "עַל־פְּנֵ֣י"
+     },
+     {
+      "id": "he.gen.1.2.7",
+      "t": "תְה֑וֹם"
+     },
+     {
+      "id": "he.gen.1.2.8",
+      "t": "וְר֣וּחַ"
+     },
+     {
+      "id": "he.gen.1.2.9",
+      "t": "אֱלֹהִ֔ים"
+     },
+     {
+      "id": "he.gen.1.2.10",
+      "t": "מְרַחֶ֖פֶת"
+     },
+     {
+      "id": "he.gen.1.2.11",
+      "t": "עַל־פְּנֵ֥י"
+     },
+     {
+      "id": "he.gen.1.2.12",
+      "t": "הַמָּֽיִם׃"
+     }
+    ]
+   },
+   "la": {
+    "text": "Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi, et Spiritus Dei ferebatur super aquas.",
+    "source": "Vulgate (PL 28, col. 163C; 'erant' and 'a tenebris' per Clementine, flagged there as Vulg. variants)",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "la.gen.1.2.1",
+      "t": "Terra"
+     },
+     {
+      "id": "la.gen.1.2.2",
+      "t": "autem"
+     },
+     {
+      "id": "la.gen.1.2.3",
+      "t": "erat"
+     },
+     {
+      "id": "la.gen.1.2.4",
+      "t": "inanis"
+     },
+     {
+      "id": "la.gen.1.2.5",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.2.6",
+      "t": "vacua,"
+     },
+     {
+      "id": "la.gen.1.2.7",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.2.8",
+      "t": "tenebrae"
+     },
+     {
+      "id": "la.gen.1.2.9",
+      "t": "erant"
+     },
+     {
+      "id": "la.gen.1.2.10",
+      "t": "super"
+     },
+     {
+      "id": "la.gen.1.2.11",
+      "t": "faciem"
+     },
+     {
+      "id": "la.gen.1.2.12",
+      "t": "abyssi,"
+     },
+     {
+      "id": "la.gen.1.2.13",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.2.14",
+      "t": "Spiritus"
+     },
+     {
+      "id": "la.gen.1.2.15",
+      "t": "Dei"
+     },
+     {
+      "id": "la.gen.1.2.16",
+      "t": "ferebatur"
+     },
+     {
+      "id": "la.gen.1.2.17",
+      "t": "super"
+     },
+     {
+      "id": "la.gen.1.2.18",
+      "t": "aquas."
+     }
+    ]
+   },
+   "en": {
+    "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+    "source": "World English Bible",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "en.gen.1.2.1",
+      "t": "The"
+     },
+     {
+      "id": "en.gen.1.2.2",
+      "t": "earth"
+     },
+     {
+      "id": "en.gen.1.2.3",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.2.4",
+      "t": "formless"
+     },
+     {
+      "id": "en.gen.1.2.5",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.2.6",
+      "t": "empty."
+     },
+     {
+      "id": "en.gen.1.2.7",
+      "t": "Darkness"
+     },
+     {
+      "id": "en.gen.1.2.8",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.2.9",
+      "t": "on"
+     },
+     {
+      "id": "en.gen.1.2.10",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.2.11",
+      "t": "surface"
+     },
+     {
+      "id": "en.gen.1.2.12",
+      "t": "of"
+     },
+     {
+      "id": "en.gen.1.2.13",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.2.14",
+      "t": "deep"
+     },
+     {
+      "id": "en.gen.1.2.15",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.2.16",
+      "t": "God’s"
+     },
+     {
+      "id": "en.gen.1.2.17",
+      "t": "Spirit"
+     },
+     {
+      "id": "en.gen.1.2.18",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.2.19",
+      "t": "hovering"
+     },
+     {
+      "id": "en.gen.1.2.20",
+      "t": "over"
+     },
+     {
+      "id": "en.gen.1.2.21",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.2.22",
+      "t": "surface"
+     },
+     {
+      "id": "en.gen.1.2.23",
+      "t": "of"
+     },
+     {
+      "id": "en.gen.1.2.24",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.2.25",
+      "t": "waters."
+     }
+    ]
+   }
+  },
+  {
+   "ref": "gen.1.3",
+   "he": {
+    "text": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+    "source": "Miqra according to the Masorah (Sefaria)",
+    "license": "cc-by-sa",
+    "tokens": [
+     {
+      "id": "he.gen.1.3.1",
+      "t": "וַיֹּ֥אמֶר"
+     },
+     {
+      "id": "he.gen.1.3.2",
+      "t": "אֱלֹהִ֖ים"
+     },
+     {
+      "id": "he.gen.1.3.3",
+      "t": "יְהִ֣י"
+     },
+     {
+      "id": "he.gen.1.3.4",
+      "t": "א֑וֹר"
+     },
+     {
+      "id": "he.gen.1.3.5",
+      "t": "וַֽיְהִי־אֽוֹר׃"
+     }
+    ]
+   },
+   "la": {
+    "text": "Dixitque Deus: Fiat lux. Et facta est lux.",
+    "source": "Vulgate (PL 28, col. 163C; 'erant' and 'a tenebris' per Clementine, flagged there as Vulg. variants)",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "la.gen.1.3.1",
+      "t": "Dixitque"
+     },
+     {
+      "id": "la.gen.1.3.2",
+      "t": "Deus:"
+     },
+     {
+      "id": "la.gen.1.3.3",
+      "t": "Fiat"
+     },
+     {
+      "id": "la.gen.1.3.4",
+      "t": "lux."
+     },
+     {
+      "id": "la.gen.1.3.5",
+      "t": "Et"
+     },
+     {
+      "id": "la.gen.1.3.6",
+      "t": "facta"
+     },
+     {
+      "id": "la.gen.1.3.7",
+      "t": "est"
+     },
+     {
+      "id": "la.gen.1.3.8",
+      "t": "lux."
+     }
+    ]
+   },
+   "en": {
+    "text": "God said, “Let there be light,” and there was light.",
+    "source": "World English Bible",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "en.gen.1.3.1",
+      "t": "God"
+     },
+     {
+      "id": "en.gen.1.3.2",
+      "t": "said,"
+     },
+     {
+      "id": "en.gen.1.3.3",
+      "t": "“Let"
+     },
+     {
+      "id": "en.gen.1.3.4",
+      "t": "there"
+     },
+     {
+      "id": "en.gen.1.3.5",
+      "t": "be"
+     },
+     {
+      "id": "en.gen.1.3.6",
+      "t": "light,”"
+     },
+     {
+      "id": "en.gen.1.3.7",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.3.8",
+      "t": "there"
+     },
+     {
+      "id": "en.gen.1.3.9",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.3.10",
+      "t": "light."
+     }
+    ]
+   }
+  },
+  {
+   "ref": "gen.1.4",
+   "he": {
+    "text": "וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃",
+    "source": "Miqra according to the Masorah (Sefaria)",
+    "license": "cc-by-sa",
+    "tokens": [
+     {
+      "id": "he.gen.1.4.1",
+      "t": "וַיַּ֧רְא"
+     },
+     {
+      "id": "he.gen.1.4.2",
+      "t": "אֱלֹהִ֛ים"
+     },
+     {
+      "id": "he.gen.1.4.3",
+      "t": "אֶת־הָא֖וֹר"
+     },
+     {
+      "id": "he.gen.1.4.4",
+      "t": "כִּי־ט֑וֹב"
+     },
+     {
+      "id": "he.gen.1.4.5",
+      "t": "וַיַּבְדֵּ֣ל"
+     },
+     {
+      "id": "he.gen.1.4.6",
+      "t": "אֱלֹהִ֔ים"
+     },
+     {
+      "id": "he.gen.1.4.7",
+      "t": "בֵּ֥ין"
+     },
+     {
+      "id": "he.gen.1.4.8",
+      "t": "הָא֖וֹר"
+     },
+     {
+      "id": "he.gen.1.4.9",
+      "t": "וּבֵ֥ין"
+     },
+     {
+      "id": "he.gen.1.4.10",
+      "t": "הַחֹֽשֶׁךְ׃"
+     }
+    ]
+   },
+   "la": {
+    "text": "Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris.",
+    "source": "Vulgate (PL 28, col. 163C; 'erant' and 'a tenebris' per Clementine, flagged there as Vulg. variants)",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "la.gen.1.4.1",
+      "t": "Et"
+     },
+     {
+      "id": "la.gen.1.4.2",
+      "t": "vidit"
+     },
+     {
+      "id": "la.gen.1.4.3",
+      "t": "Deus"
+     },
+     {
+      "id": "la.gen.1.4.4",
+      "t": "lucem"
+     },
+     {
+      "id": "la.gen.1.4.5",
+      "t": "quod"
+     },
+     {
+      "id": "la.gen.1.4.6",
+      "t": "esset"
+     },
+     {
+      "id": "la.gen.1.4.7",
+      "t": "bona:"
+     },
+     {
+      "id": "la.gen.1.4.8",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.4.9",
+      "t": "divisit"
+     },
+     {
+      "id": "la.gen.1.4.10",
+      "t": "lucem"
+     },
+     {
+      "id": "la.gen.1.4.11",
+      "t": "a"
+     },
+     {
+      "id": "la.gen.1.4.12",
+      "t": "tenebris."
+     }
+    ]
+   },
+   "en": {
+    "text": "God saw the light, and saw that it was good. God divided the light from the darkness.",
+    "source": "World English Bible",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "en.gen.1.4.1",
+      "t": "God"
+     },
+     {
+      "id": "en.gen.1.4.2",
+      "t": "saw"
+     },
+     {
+      "id": "en.gen.1.4.3",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.4.4",
+      "t": "light,"
+     },
+     {
+      "id": "en.gen.1.4.5",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.4.6",
+      "t": "saw"
+     },
+     {
+      "id": "en.gen.1.4.7",
+      "t": "that"
+     },
+     {
+      "id": "en.gen.1.4.8",
+      "t": "it"
+     },
+     {
+      "id": "en.gen.1.4.9",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.4.10",
+      "t": "good."
+     },
+     {
+      "id": "en.gen.1.4.11",
+      "t": "God"
+     },
+     {
+      "id": "en.gen.1.4.12",
+      "t": "divided"
+     },
+     {
+      "id": "en.gen.1.4.13",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.4.14",
+      "t": "light"
+     },
+     {
+      "id": "en.gen.1.4.15",
+      "t": "from"
+     },
+     {
+      "id": "en.gen.1.4.16",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.4.17",
+      "t": "darkness."
+     }
+    ]
+   }
+  },
+  {
+   "ref": "gen.1.5",
+   "he": {
+    "text": "וַיִּקְרָ֨א אֱלֹהִ֤ים&thinsp;׀&thinsp;לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃&nbsp;{פ}",
+    "source": "Miqra according to the Masorah (Sefaria)",
+    "license": "cc-by-sa",
+    "tokens": [
+     {
+      "id": "he.gen.1.5.1",
+      "t": "וַיִּקְרָ֨א"
+     },
+     {
+      "id": "he.gen.1.5.2",
+      "t": "אֱלֹהִ֤ים&thinsp;׀&thinsp;לָאוֹר֙"
+     },
+     {
+      "id": "he.gen.1.5.3",
+      "t": "י֔וֹם"
+     },
+     {
+      "id": "he.gen.1.5.4",
+      "t": "וְלַחֹ֖שֶׁךְ"
+     },
+     {
+      "id": "he.gen.1.5.5",
+      "t": "קָ֣רָא"
+     },
+     {
+      "id": "he.gen.1.5.6",
+      "t": "לָ֑יְלָה"
+     },
+     {
+      "id": "he.gen.1.5.7",
+      "t": "וַֽיְהִי־עֶ֥רֶב"
+     },
+     {
+      "id": "he.gen.1.5.8",
+      "t": "וַֽיְהִי־בֹ֖קֶר"
+     },
+     {
+      "id": "he.gen.1.5.9",
+      "t": "י֥וֹם"
+     },
+     {
+      "id": "he.gen.1.5.10",
+      "t": "אֶחָֽד׃&nbsp;{פ}"
+     }
+    ]
+   },
+   "la": {
+    "text": "Appellavitque lucem Diem, et tenebras Noctem: factumque est vespere et mane, dies unus.",
+    "source": "Vulgate (PL 28, col. 163C; 'erant' and 'a tenebris' per Clementine, flagged there as Vulg. variants)",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "la.gen.1.5.1",
+      "t": "Appellavitque"
+     },
+     {
+      "id": "la.gen.1.5.2",
+      "t": "lucem"
+     },
+     {
+      "id": "la.gen.1.5.3",
+      "t": "Diem,"
+     },
+     {
+      "id": "la.gen.1.5.4",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.5.5",
+      "t": "tenebras"
+     },
+     {
+      "id": "la.gen.1.5.6",
+      "t": "Noctem:"
+     },
+     {
+      "id": "la.gen.1.5.7",
+      "t": "factumque"
+     },
+     {
+      "id": "la.gen.1.5.8",
+      "t": "est"
+     },
+     {
+      "id": "la.gen.1.5.9",
+      "t": "vespere"
+     },
+     {
+      "id": "la.gen.1.5.10",
+      "t": "et"
+     },
+     {
+      "id": "la.gen.1.5.11",
+      "t": "mane,"
+     },
+     {
+      "id": "la.gen.1.5.12",
+      "t": "dies"
+     },
+     {
+      "id": "la.gen.1.5.13",
+      "t": "unus."
+     }
+    ]
+   },
+   "en": {
+    "text": "God called the light “day”, and the darkness he called “night”. There was evening and there was morning, the first day.",
+    "source": "World English Bible",
+    "license": "pd",
+    "tokens": [
+     {
+      "id": "en.gen.1.5.1",
+      "t": "God"
+     },
+     {
+      "id": "en.gen.1.5.2",
+      "t": "called"
+     },
+     {
+      "id": "en.gen.1.5.3",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.5.4",
+      "t": "light"
+     },
+     {
+      "id": "en.gen.1.5.5",
+      "t": "“day”,"
+     },
+     {
+      "id": "en.gen.1.5.6",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.5.7",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.5.8",
+      "t": "darkness"
+     },
+     {
+      "id": "en.gen.1.5.9",
+      "t": "he"
+     },
+     {
+      "id": "en.gen.1.5.10",
+      "t": "called"
+     },
+     {
+      "id": "en.gen.1.5.11",
+      "t": "“night”."
+     },
+     {
+      "id": "en.gen.1.5.12",
+      "t": "There"
+     },
+     {
+      "id": "en.gen.1.5.13",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.5.14",
+      "t": "evening"
+     },
+     {
+      "id": "en.gen.1.5.15",
+      "t": "and"
+     },
+     {
+      "id": "en.gen.1.5.16",
+      "t": "there"
+     },
+     {
+      "id": "en.gen.1.5.17",
+      "t": "was"
+     },
+     {
+      "id": "en.gen.1.5.18",
+      "t": "morning,"
+     },
+     {
+      "id": "en.gen.1.5.19",
+      "t": "the"
+     },
+     {
+      "id": "en.gen.1.5.20",
+      "t": "first"
+     },
+     {
+      "id": "en.gen.1.5.21",
+      "t": "day."
+     }
+    ]
+   }
+  }
+ ]
+}

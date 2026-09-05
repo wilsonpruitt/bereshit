@@ -1,0 +1,128 @@
+{
+ "origen-hom-gen": {
+  "idno": null,
+  "note": "NOT in PL (PG 12). Rufinus' Latin not in Corpus Corporum PL harvest. Source separately or Phase 2."
+ },
+ "basil-hex-lat": {
+  "idno": "7608",
+  "cc_name": "Metaphrasis Latina Hexaemeri (Eustathius)",
+  "pl": 53
+ },
+ "ambrose-hex": {
+  "idno": "6958",
+  "cc_name": "Hexaemeron (Ambrosius)",
+  "pl": 14
+ },
+ "jerome-hq": {
+  "idno": "7160",
+  "cc_name": "Quaestiones Hebraicae in Genesim",
+  "pl": 23
+ },
+ "aug-gnm": {
+  "idno": "7303",
+  "cc_name": "De Genesi contra Manichaeos",
+  "pl": 34
+ },
+ "aug-gnl-imp": {
+  "idno": "7310",
+  "cc_name": "Liber imperfectus de Genesi ad litteram",
+  "pl": 34
+ },
+ "aug-conf": {
+  "idno": "7270",
+  "cc_name": "Confessiones",
+  "pl": 32
+ },
+ "aug-gnl": {
+  "idno": "7302",
+  "cc_name": "De Genesi ad litteram",
+  "pl": 34
+ },
+ "aug-civ": {
+  "idno": "21364",
+  "cc_name": "De civitate Dei",
+  "pl": 41
+ },
+ "isidore-quaest": {
+  "idno": "21433",
+  "cc_name": "Quaestiones in Veterum Testamentum",
+  "pl": 83
+ },
+ "bede-gen": {
+  "idno": "8466",
+  "cc_name": "Hexaemeron (Beda) = In Genesim",
+  "pl": 91
+ },
+ "alcuin-int": {
+  "idno": "21416",
+  "cc_name": "Interrogationes et responsiones in Genesin",
+  "pl": 100
+ },
+ "wigbod-gen": {
+  "idno": "8606",
+  "cc_name": "Quaestiones in Octateuchum (Wicbodus)",
+  "pl": 96
+ },
+ "claudius-gen": {
+  "idno": null,
+  "note": "Claudius of Turin's Genesis commentary is not in PL/Corpus Corporum. Drop from pilot."
+ },
+ "rabanus-gen": {
+  "idno": "8885",
+  "cc_name": "Commentariorum in Genesim",
+  "pl": 107
+ },
+ "angelom-gen": {
+  "idno": "9032",
+  "cc_name": "Commentarius in Genesin",
+  "pl": 115
+ },
+ "remigius-gen": {
+  "idno": "9346",
+  "cc_name": "Commentarius in Genesim",
+  "pl": 131
+ },
+ "bruno-gen": {
+  "idno": "21403",
+  "cc_name": "Expositio in Pentateuchum (Bruno Astensis)",
+  "pl": 164
+ },
+ "glossa": {
+  "idno": null,
+  "note": "Wilson's Englished Glossa on Genesis — in progress 2026-09-05, migne.app/glossa. Slot reserved."
+ },
+ "rupert-gen": {
+  "idno": "10873",
+  "cc_name": "De Trinitate et operibus ejus (661K words — extract In Genesim I only)",
+  "pl": 167
+ },
+ "abelard-hex": {
+  "idno": "11118",
+  "cc_name": "Expositio in Hexaemeron",
+  "pl": 178
+ },
+ "hugh-adnot": {
+  "idno": "11054",
+  "cc_name": "Adnotationes in Pentateuchon",
+  "pl": 175
+ },
+ "hugh-sacr": {
+  "idno": "11082",
+  "cc_name": "De sacramentis",
+  "pl": 176
+ },
+ "honorius-hex": {
+  "idno": "10991",
+  "cc_name": "Hexaemeron",
+  "pl": 172
+ },
+ "comestor-hs": {
+  "idno": "11575",
+  "cc_name": "Historia scholastica",
+  "pl": 198
+ },
+ "bonaventure-sent": {
+  "idno": null,
+  "note": "~/bonaventure-sentences vol2, II Sent. d.12–13 (check file names)."
+ }
+}

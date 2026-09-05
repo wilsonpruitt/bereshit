@@ -1,0 +1,39 @@
+{
+ "id": "basil-hex-lat-2-6",
+ "work": "basil-hex-lat",
+ "author": "basil",
+ "tradition": "latin",
+ "date": 400,
+ "date_precision": "circa",
+ "place": "caesarea-cappadociae",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "fovebat et vivificabat aquarum naturam, ad similitudinem gallinae cubantis",
+  "en": "warmed and quickened the nature of the waters, like a hen sitting"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quomodo ergo hic spiritus aquis superferebatur? dicam tibi non meum sermonem, sed viri cujusdam genere Syri, qui tantum aberat a sapientia saeculi quantum verae doctrinae proximus habebatur. Dicebat enim Syrorum vocem facundiorem esse, et propter Hebraicae linguae cognationem, Scripturarum magis sermonibus indulsisse. Sensus itaque dicti illius hoc modo est: Superferebatur, inquit, Spiritus, hoc est fovebat et vivificabat aquarum naturam, ad similitudinem gallinae cubantis: vitalem virtutem his quae fovebantur injiciens. Hujusmodi ergo ratio quod dixit superferebatur, sic interpretatur, id est ad vivificandam aquarum naturam compellebat. Ex quo sufficienter etiam illud quod a quibusdam valde requiritur, approbari potest: quia nec genitali potentia Spiritus sanctus caret.",
+  "source": "PL 53, col. 886C",
+  "cc_idno": "7608",
+  "license": "pd"
+ },
+ "english": {
+  "text": "How, then, was this Spirit borne above the waters? I will tell you not my own account but that of a certain man, a Syrian by birth, who was as far from the wisdom of this age as he was reckoned near to true doctrine. He used to say that the Syrian tongue is the more expressive, and that because of its kinship with Hebrew it comes closer to the idiom of the Scriptures. The sense of his saying, then, is this: 'was borne above,' he says, means that the Spirit warmed and quickened the nature of the waters, in the likeness of a hen sitting on her eggs, putting a living power into the things that were being warmed. So the reason for the phrase 'was borne above' is explained thus: he was driving the nature of the waters toward being quickened. From this the point that some so insistently demand can be sufficiently proved: that the Holy Spirit does not lack generative power.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Basil, Hexaemeron II.6, delivered in Greek in 378; the Latin bench read it in Eustathius' version (c. 400). The unnamed Syrian is the source of the whole Latin 'warming' line: Ambrose, Augustine, Rupert, Abelard, Comestor all descend from this paragraph. Basil's bird is a hen (gallina); Jerome's, independently, is a generic volucris.",
+ "answers": [
+  "brooding-warmth"
+ ]
+}

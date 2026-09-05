@@ -1,0 +1,42 @@
+{
+ "id": "rupert-gen-1-8",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1114,
+ "date_precision": "circa",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "melioratur ovum in eo quod calore volucris animatur et pullum producit",
+  "en": "an egg is bettered in that it is quickened by a bird's warmth and brings forth a chick"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Deinceps namque creaturae ejusdem formatio vel exornatio succedit, tantamque ex intentione Spiritus Dei meliorationem et tantum inopiae suae supplementum capit, quantum pro modulo suo melioratur ovum in eo quod calore volucris animatur et pullum producit. Quid autem putamus esse hunc spiritum, nisi bonitatem amoremque Dei, amorem non affectuum, sed substantialem, amorem, inquam, et vitam, virtutemque vivam in Filio et Patre manentem, vel ab utroque procedentem, Patri Filioque consubstantialem.",
+  "source": "PL 167, col. 205C",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For next follows the forming or adorning of that same creature, and it receives from the attention of the Spirit of God as great a bettering and as great a supplying of its poverty as, in its own small measure, an egg is bettered in that it is quickened by a bird's warmth and brings forth a chick. And what do we think this spirit is, but the goodness and love of God — a love not of feelings but substantial; love, I say, and life, and living power abiding in the Son and the Father, or proceeding from both, consubstantial with Father and Son.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "notes": "Rupert has the egg but not the Syrian: the image arrives already naturalized. His 'love' is Confessions XIII.9 turned Trinitarian. Not found by the plan's search; surfaced by grepping the TEI for the bird vocabulary.",
+ "answers": [
+  "brooding-warmth",
+  "love-gift"
+ ]
+}

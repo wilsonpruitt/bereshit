@@ -1,0 +1,841 @@
+<title>Ruach Merahefet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=Frank+Ruhl+Libre:wght@400;500&display=swap">
+<style>
+:root {
+  --bg:#F3F4F1; --ink:#1A1E21; --mute:#5B615E; --rule:#CBCFC9; --card:#FAFAF7;
+  --lat:#A0392A; --rab:#2B4A9C; --grk:#67762B; --hi:#FFF3C4;
+  --edge-cites:#1A1E21; --edge-echo:#6B716D; --edge-contest:#A0392A; --edge-par:#A7ACA7; --edge-trans:#2B4A9C;
+  --serif:"EB Garamond",Garamond,"Times New Roman",serif; --sans:Inter,system-ui,sans-serif; --heb:"Frank Ruhl Libre","Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#151819; --ink:#E7E5DD; --mute:#9AA09B; --rule:#33393B; --card:#1C2022;
+  --lat:#E28A73; --rab:#8EA6EC; --grk:#B9C66A; --hi:#3A3520;
+  --edge-cites:#E7E5DD; --edge-echo:#9AA09B; --edge-contest:#E28A73; --edge-par:#5A605C; --edge-trans:#8EA6EC; } }
+:root[data-theme="dark"] {
+  --bg:#151819; --ink:#E7E5DD; --mute:#9AA09B; --rule:#33393B; --card:#1C2022;
+  --lat:#E28A73; --rab:#8EA6EC; --grk:#B9C66A; --hi:#3A3520;
+  --edge-cites:#E7E5DD; --edge-echo:#9AA09B; --edge-contest:#E28A73; --edge-par:#5A605C; --edge-trans:#8EA6EC; }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--serif); font-size:17px; line-height:1.5 }
+.wrap { max-width:1180px; margin:0 auto; padding:40px 24px 96px }
+.eyebrow { font:500 12px/1 var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--mute) }
+h1 { font:500 40px/1.15 var(--serif); margin:12px 0 4px; text-wrap:balance; max-width:22ch }
+.q { display:grid; gap:6px; margin:18px 0 0; max-width:64ch }
+.q .la { font-style:italic; font-size:22px }
+.q .heb { font-family:var(--heb); font-size:22px; direction:rtl; text-align:right; max-width:36ch }
+.q .en { font-size:19px; color:var(--mute) }
+.verse { margin:28px 0 0; padding:18px 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px }
+.verse > div { display:grid; gap:6px; align-content:start }
+.verse .heb { font-family:var(--heb); font-size:21px; direction:rtl; text-align:right; line-height:1.7 }
+.verse .lat { font-style:italic; font-size:19px }
+.verse .web { font-size:18px }
+.verse mark { background:var(--hi); color:inherit; padding:0 .15em }
+.summary { max-width:66ch; font-size:18px; margin:24px 0 0 }
+.finding { max-width:66ch; margin:12px 0 0; padding-left:14px; border-left:2px solid var(--lat); color:var(--ink) }
+.legend { display:flex; flex-wrap:wrap; gap:18px; margin:22px 0 0; font:13px var(--sans); color:var(--mute); align-items:center }
+.legend i { display:inline-block; width:34px; height:0; border-top:2px solid var(--edge-cites); vertical-align:middle; margin-right:8px }
+.legend .echo i { border-top-style:dashed; border-color:var(--edge-echo) }
+.legend .contest i { border-color:var(--edge-contest) }
+.legend .par i { border-top-style:dotted; border-color:var(--edge-par); border-top-width:3px }
+.legend .trans i { border-color:var(--edge-trans) }
+.legend b { font-weight:600; color:var(--ink) }
+.layout { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:40px; margin-top:36px; align-items:start }
+.stream { position:relative; display:grid; grid-template-columns:88px 56px minmax(0,1fr) }
+.stream svg { position:absolute; left:88px; top:0; width:56px; height:100%; overflow:visible; pointer-events:none }
+.stream svg path { fill:none; stroke-width:1.5; pointer-events:stroke; transition:stroke-width .15s }
+.stream svg path.cites { stroke:var(--edge-cites) }
+.stream svg path.echoes { stroke:var(--edge-echo); stroke-dasharray:6 4 }
+.stream svg path.contests { stroke:var(--edge-contest) }
+.stream svg path.parallel { stroke:var(--edge-par); stroke-dasharray:2 4; stroke-width:2 }
+.stream svg path.transmits { stroke:var(--edge-trans) }
+.stream svg path.on { stroke-width:3.5 }
+.w { display:contents }
+.w .axis { grid-column:1; padding:22px 12px 0 0; text-align:right; font:500 13px var(--sans); color:var(--mute); font-variant-numeric:tabular-nums; border-top:1px solid var(--rule) }
+.w .node { grid-column:2; position:relative; border-top:1px solid var(--rule) }
+.w .node::after { content:""; position:absolute; left:50%; top:24px; width:9px; height:9px; margin-left:-4.5px; border-radius:50%; background:var(--bg); border:2px solid var(--ink) }
+.w.latin .node::after { border-color:var(--lat) } .w.rabbinic .node::after { border-color:var(--rab) } .w.greek-jewish .node::after { border-color:var(--grk) }
+.w .body { grid-column:3; padding:18px 0 26px; border-top:1px solid var(--rule); max-width:72ch; min-width:0 }
+.w.hot .body { background:var(--card); box-shadow:0 0 0 12px var(--card) }
+.w header { display:flex; flex-wrap:wrap; gap:0 14px; font:500 12.5px/1.6 var(--sans); color:var(--mute); align-items:baseline }
+.w .trad { letter-spacing:.1em; text-transform:uppercase; font-weight:600 }
+.w.latin .trad { color:var(--lat) } .w.rabbinic .trad { color:var(--rab) } .w.greek-jewish .trad { color:var(--grk) }
+.w .who { color:var(--ink); font-size:14px; font-weight:600 }
+.w .lemma { margin:8px 0 6px; font-size:19px; line-height:1.5 }
+.lem.lat { font-style:italic } .lem.heb { font-family:var(--heb); font-size:20px; unicode-bidi:isolate } .lem.grk { font-style:italic }
+.w .en { font-size:17.5px }
+.w .en.draft::before { content:"draft"; float:right; font:500 10.5px var(--sans); letter-spacing:.1em; text-transform:uppercase; color:var(--mute); border:1px solid var(--rule); padding:2px 6px; margin:4px 0 0 12px }
+.orig { margin:10px 0 0 }
+.orig summary { cursor:pointer; font:500 12.5px var(--sans); color:var(--mute); list-style:none; display:inline-flex; gap:6px; align-items:center }
+.orig summary::before { content:"+"; font-weight:600; width:1em; display:inline-block }
+.orig[open] summary::before { content:"–" }
+.orig > div { margin-top:8px; padding:10px 14px; background:var(--card); border-left:1px solid var(--rule); font-size:16.5px; line-height:1.55 }
+.orig .lat { font-style:italic } .orig .heb { font-family:var(--heb); font-size:19px; line-height:1.8 }
+.w .note { margin:12px 0 0; font-size:15.5px; color:var(--mute); max-width:64ch }
+.w footer { margin-top:12px; display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; font:12px var(--sans); color:var(--mute) }
+.chips { display:flex; flex-wrap:wrap; gap:6px }
+.chip { font:500 11.5px var(--sans); color:var(--ink); background:none; border:1px solid var(--rule); border-radius:2px; padding:3px 8px; cursor:pointer }
+.chip.cites { border-color:var(--ink) } .chip.contests { border-color:var(--edge-contest); color:var(--edge-contest) } .chip.parallel { border-style:dotted } .chip.echoes { border-style:dashed } .chip.transmits { border-color:var(--edge-trans) }
+.chip:focus-visible, .orig summary:focus-visible { outline:2px solid var(--rab); outline-offset:2px }
+.w.slot .body { opacity:.55 } .w.slot .en { font-style:italic }
+.gap { grid-column:1 / 4; display:grid; grid-template-columns:88px 56px 1fr; align-items:center; height:34px }
+.gap span { grid-column:2; justify-self:center; font:11px var(--sans); color:var(--mute); background:var(--bg); padding:2px 4px; letter-spacing:.06em; white-space:nowrap }
+.rail { position:sticky; top:24px; display:grid; gap:26px; font-family:var(--sans); font-size:13px }
+.rail h3 { margin:0 0 8px; font:600 11px var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--mute) }
+.rail ul { list-style:none; margin:0; padding:0; display:grid; gap:4px }
+.rail li { display:flex; justify-content:space-between; gap:8px; border-bottom:1px solid var(--rule); padding:3px 0 }
+.rail li small { color:var(--mute); font-variant-numeric:tabular-nums; white-space:nowrap }
+.rail .ev { font-family:var(--serif); font-size:15px; line-height:1.45; min-height:4lh; color:var(--ink); border-top:2px solid var(--ink); padding-top:8px }
+.rail .ev b { font:600 11px var(--sans); letter-spacing:.1em; text-transform:uppercase; color:var(--mute); display:block; margin-bottom:4px }
+.colophon { margin-top:56px; padding-top:18px; border-top:1px solid var(--rule); font:13px/1.6 var(--sans); color:var(--mute); max-width:80ch }
+@media (max-width: 900px) {
+  .layout { grid-template-columns:1fr } .rail { position:static } .verse { grid-template-columns:1fr }
+  .stream { grid-template-columns:64px 32px minmax(0,1fr) } .stream svg { left:64px; width:32px } .gap { grid-template-columns:64px 32px 1fr }
+}
+@media (prefers-reduced-motion: reduce) { .stream svg path { transition:none } }
+</style>
+<div class="wrap">
+  <div class="eyebrow">Bereshit / In Principio · Crux Genesis 1:2 · K7</div>
+  <h1>Wind, spirit, or Spirit — and what is &#x27;hovering&#x27;?</h1>
+  <div class="q">
+    <div class="la">Quis est Spiritus Dei, et quid est ferri super aquas?</div>
+    <div class="heb">מַה הִיא רוּחַ אֱלֹהִים, וּמַהוּ ׳מְרַחֶפֶת׳?</div>
+  </div>
+  <div class="verse">
+    <div><span class="eyebrow">Masoretic</span><div class="heb">וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם <mark>וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת</mark> עַל־פְּנֵ֥י הַמָּֽיִם׃</div></div>
+    <div><span class="eyebrow">Vulgate</span><div class="lat">Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi, et <mark>Spiritus Dei ferebatur</mark> super aquas.</div></div>
+    <div><span class="eyebrow">WEB</span><div class="web">The earth was formless and empty. Darkness was on the surface of the deep and <mark>God’s Spirit was hovering</mark> over the surface of the waters.</div></div>
+  </div>
+  <p class="summary">The Hebrew verb merahefet occurs once more in the Bible, of an eagle over its nest (Deut 32:11). Greek and Latin flattened it to &#x27;was borne over&#x27;. Then, on both benches, a bird came back: Jerome and the Syrian read it as brooding warmth, Ben Zoma and Rashi as a dove hovering and not touching. Same verb, opposite pictures; and around each picture a whole doctrine of how God acts on matter. The Latin line splits again between the bird and Augustine&#x27;s craftsman whose will is &#x27;above&#x27; the wood.</p>
+  <p class="finding">Rashi&#x27;s Old French acoveter and Jerome&#x27;s incubabat are the same word for the same Hebrew, with no contact. Abelard is the one Latin who reports the Hebrew as &#x27;fluttering&#x27; (volitabat), on the rabbinic side of the verb.</p>
+  <div class="legend">
+    <span><i></i><b>cites</b> named or verbatim</span>
+    <span class="echo"><i></i><b>echoes</b> wording or image, argued</span>
+    <span class="contest"><i></i><b>contests</b></span>
+    <span class="par"><i></i><b>parallel</b> same move, no known contact</span>
+    <span class="trans"><i></i><b>transmits</b> translation</span>
+    <span>· 29 witnesses, 28 threads · hover a line or chip for its evidence</span>
+  </div>
+  <div class="layout">
+    <section class="stream" id="stream">
+      <svg id="edges" aria-hidden="true"></svg>
+      
+<article class="w greek-jewish" id="lxx-1-2" data-date="-250">
+  <div class="axis"><span class="yr">c. 250 BCE</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Greek-Jewish</span>
+      <span class="who">The Seventy</span>
+      <span class="what">lxx</span>
+      <span class="where">Alexandria</span>
+    </header>
+    <p class="lemma"><span class="lem grk" dir="ltr">πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος</span></p>
+    <div class="en">But the earth was unsightly and unfurnished, and darkness was over the deep, and the Spirit of God moved over the water.</div>
+    <details class="orig">
+      <summary>Greek · LXX Gen 1:2 (Rahlfs)</summary>
+      <div class="grk" dir="ltr">ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος, καὶ σκότος ἐπάνω τῆς ἀβύσσου, καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος.</div>
+    </details>
+    <p class="note">ἐπεφέρετο (&#x27;was borne upon&#x27;) is the reading every Latin &#x27;ferebatur / superferebatur&#x27; descends from. The Greek already drops the bird: the verb is motion-over, not brooding.</p>
+    <footer>
+      <span class="cred">English: Brenton 1851 · PD</span>
+      <span class="chips"><button class="chip transmits" data-thread="t-k7-01" title="Vulgate &#x27;ferebatur&#x27; renders LXX ἐπεφέρετο, not the Hebrew merahefet; the Latin bench inherits a Greek verb of motion.">← transmits · Jerome</button></span>
+    </footer>
+  </div>
+</article><div class="gap" aria-hidden="true"><span>450 years</span></div>
+<article class="w rabbinic" id="targ-onk-1-2" data-date="200">
+  <div class="axis"><span class="yr">c. 200</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Targum Onkelos</span>
+      <span class="what">targ-onk</span>
+      <span class="where">Babylonia (Sura / Pumbedita)</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא</span></p>
+    <div class="en draft">And the earth was waste and empty, and darkness was spread over the face of the deep, and a wind from before the LORD was blowing over the face of the waters.</div>
+    <details class="orig">
+      <summary>Hebrew · Sefaria, &#x27;Onkelos Genesis&#x27;</summary>
+      <div class="heb" dir="rtl">וְאַרְעָא הֲוַת צָדְיָא וְרֵיקַנְיָא וַחֲשׁוֹכָא פָּרַשׂ עַל אַפֵּי תְהוֹמָא וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא עַל אַפֵּי מַיָּא</div>
+    </details>
+    <p class="note">Onkelos makes two decisions at once: ruach is a wind, not a spirit, and &#x27;from before the LORD&#x27; keeps God at a remove; merahefet becomes menashva, &#x27;blowing&#x27;. No bird, no hovering. Etheridge&#x27;s PD English exists on Sefaria but did not return by version title; fetch from archive.org.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"></span>
+    </footer>
+  </div>
+</article>
+<article class="w rabbinic" id="targ-neof-1-2" data-date="300">
+  <div class="axis"><span class="yr">100–400</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Targum Neofiti</span>
+      <span class="what">targ-neof</span>
+      <span class="where">Palestine</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">וְרוּחַ דְּרַחֲמִין מִן קֳדָם יְיָ הֲוָה מְנַשְּׁבָא</span></p>
+    <div class="en draft">In the beginning, with wisdom, the Word of the LORD created and perfected the heavens and the earth. And the earth was waste and empty, desolate of human and beast, empty of all tillage of plants and of trees; and darkness was spread over the face of the deep, and a spirit of mercy from before the LORD was blowing over the face of the waters.</div>
+    <details class="orig">
+      <summary>Hebrew · Sefaria, Vatican MS Neofiti 1 (whole of 1:1–5 in one segment)</summary>
+      <div class="heb" dir="rtl">מלקדמין בחכמה [בחוכמתא] ברא (ד)יי שכלל [ושכלל] ית שמיא וית ארעא: וארעא הוות תהיא ובהיא וצדי [וצדיה] מן בר נש ומן בעיר וריקנא מן כל פלחן צמחין ומן אילנין וחשוכא פריס על אפי תהומא ורוח דרחמין מן קדם יי הוה מנשבא על אפי מיא: ואמר ממ(רא) [נ&quot;א ממרה] דיי יהוי נהור והות נהור כגזירת ממריה׃ וגלי קדם יי ית נהורא ארום טב הוא ואפשר ממרא דיי בין נהורא לבין חשוכא׃ וקרא ממרא דיי לנהורא איממ׳ ולחשוכא קרא לליא והוא רמש והוה צפר סדר עבד בראשית יום קדמאיי׃ ואמר ממרא דיי יהוי רקיעא במציעות מיא ויהוי מפרש בין מיא ארעא לבין מיא עיליא׃ וברא יי ית רקיעא ואפרש בין מיא די מן תחות רקיעא ובין מיא די מלעיל לרקיעא [לרקיע שמיא] והוה כן כמימריה׃ וקרא ממרא דיי לרקיעא שמיא והוה רמש והוה צפר סדר עבד בראשית יום תניין׃</div>
+    </details>
+    <p class="note">&#x27;Spirit of mercy&#x27; answers the wind/spirit question in a third way: neither the weather nor the Holy Spirit but a divine disposition. Neofiti&#x27;s 1:1 &#x27;with wisdom&#x27; is the K1 anchor. Hebrew licence on Sefaria is &#x27;unknown&#x27; — the MS transcription is PD in substance; confirm before embedding.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip parallel" data-thread="t-k7-27" title="Both render ruach Elohim as &#x27;a spirit of mercy/mercies from before the LORD&#x27;; the Palestinian targum tradition shared the phrase.">← parallel · Targum Pseudo-Jonathan</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="ambrose-hex-1-8-29" data-date="387">
+  <div class="axis"><span class="yr">c. 387</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Ambrose</span>
+      <span class="what">ambrose-hex</span>
+      <span class="where">Milan</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Syrus … sic habet: Et Spiritus Dei fovebat aquas</span></p>
+    <div class="en draft">…especially since there follows: &#x27;And the Spirit of God was borne above the waters.&#x27; Some take this as the air, others as the breath we draw and take in, the breath of this life-giving atmosphere; but we, agreeing with the judgment of the saints and the faithful, take it as the Holy Spirit, so that in the founding of the world the working of the Trinity may shine out. […] Finally the Syriac, which is neighbor to the Hebrew and in most things agrees and chimes with it in wording, has it thus: &#x27;And the Spirit of God warmed the waters,&#x27; that is, quickened them, so as to gather them into new creatures and by his warmth bring them alive. For we also read that the Holy Spirit is creator, Job saying, &#x27;The divine Spirit who made me&#x27; (Job 33:4).</div>
+    <details class="orig">
+      <summary>Latin · PL 14, col. 138C</summary>
+      <div class="lat" dir="ltr">maxime cum sequatur: Et spiritus Dei superferebatur super aquas (Ibid.) . Quem etsi aliqui pro aere accipiant, aliqui pro spiritu quem spiramus et carpimus aurae hujus vitalis spiritum; nos tamen cum sanctorum et fidelium sententia congruentes, Spiritum sanctum accipimus, ut in constitutione mundi operatio Trinitatis eluceat. Praemisso enim quia in principio fecit Deus coelum et terram, id est in Christo fecit Deus, vel Filius Dei Deus fecit, vel per Filium Deus fecit; quia omnia per ipsum facta sunt, et sine ipso factum est nihil, supererat plenitudo operationis in Spiritu, sicut scriptum est: Verbo Domini coelis firmati sunt, et Spiritu oris ejus omnis virtus eorum (Ps. XXXII, 6) . Itaque quemadmodum in Psalmo docemur operationem Verbi, quod est Verbum Dei, et virtutem quam dedit Spiritus sanctus; ita hic propheticum resultavit oraculum, quia Deus dixit, et Deus fecit. Spiritus quoque Dei superferebatur super aquas. Ornando enim polo coeli, germinaturis terris pulchre Spiritus superferebatur, quia per ipsum habebant novorum partuum semina germinare, secundum quod dixit propheta: 17 Emitte Spiritum tuum et creabuntur, et renovabis faciem terrae (Ps. CIII, 30) . Denique Syrus, qui vicinus Hebraeo est, et sermone consonat in plerisque et congruit, sic habet: Et Spiritus Dei fovebat aquas, id est vivificabat, ut in novas cogeret creaturas, et fotu suo animaret ad vitam. Nam etiam Spiritum sanctum legimus creatorem, dicente Job, Spiritus divinus qui fecit me (Job. XXXIII, 4) .</div>
+    </details>
+    <p class="note">Ambrose is reading Basil&#x27;s Greek directly (Milan, 387; Eustathius&#x27; Latin is later). He carries the Syriac &#x27;warmed&#x27; but drops the hen. The Latin excerpt here spans two columns; the middle (Ps 33:6 on Word and Spirit) is elided in the English.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-02" title="&#x27;Syrus, qui vicinus Hebraeo est … fovebat aquas, id est vivificabat&#x27; reproduces Basil Hex. II.6&#x27;s Syrian and his gloss &#x27;warmed and quickened&#x27;. Ambrose read Basil&#x27;s Greek; Eustathius&#x27; Latin is the bench&#x27;s later access to the same source.">→ cites · Basil of Caesarea</button><button class="chip echoes" data-thread="t-k7-04" title="Augustine&#x27;s access to the Syrian is most plausibly Ambrose&#x27;s Hexaemeron (heard in Milan 386–7); the &#x27;vivificatio&#x27; motif matches Ambrose&#x27;s &#x27;vivificabat … animaret ad vitam&#x27;.">← echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="aug-gnm-1-5-8" data-date="389">
+  <div class="axis"><span class="yr">388–389</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Augustine</span>
+      <span class="what">aug-gnm</span>
+      <span class="where">Thagaste</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">non per spatia locorum … sed per potentiam invisibilis sublimitatis suae</span></p>
+    <div class="en draft">As for what is written, &#x27;And the Spirit of God was borne above the water,&#x27; the Manichees are in the habit of carping at it thus: &#x27;So the water was the dwelling of the Spirit of God, and it contained the Spirit of God?&#x27; They try to twist everything with a perverse mind, and are blinded by their own malice. When we say &#x27;the sun is borne above the earth,&#x27; do we mean by this that the sun lives in the earth and that the earth contains the sun? And yet the Spirit of God was not borne above the water the way the sun is borne above the earth, but in another way, which few understand. For that Spirit was not borne above the water across the spaces of place, as the sun is borne above the earth, but by the power of his invisible loftiness. Let these people tell us how the will of a craftsman is borne above the things that are to be made.</div>
+    <details class="orig">
+      <summary>Latin · PL 34, col. 177</summary>
+      <div class="lat" dir="ltr">Quod autem scriptum est, Et Spiritus Dei superferebatur super aquam, sic solent Manichaei reprehendere, ut dicant: Aqua ergo erat habitaculum Spiritus Dei, et ipsa continebat Spiritum Dei? Totum conantur perversa mente pervertere, et excaecantur malitia sua. Cum enim dicimus, Sol superfertur super terram, numquid hoc intelligi volumus, quod in terra habitet sol, et terra solem contineat? Et tamen non sic Spiritus Dei superferebatur super aquam, sicut superfertur sol super terram; sed alio modo quem pauci intelligunt. Non enim per spatia locorum superferebatur aquae ille Spiritus, sicut sol terrae superfertur; sed per potentiam invisibilis sublimitatis suae. Dicant autem nobis isti, quomodo iis rebus quae fabricandae sunt, superferatur voluntas fabri.</div>
+    </details>
+    <p class="note">Augustine&#x27;s first answer, against the Manichees: the verb is about power, not position. The craftsman&#x27;s will (voluntas fabri) is born here and becomes the Carolingian bench&#x27;s stock answer.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-07" title="Wigbod prints Augustine&#x27;s sun-over-earth paragraph verbatim (PL 96:1112D).">← cites · Wigbod</button><button class="chip echoes" data-thread="t-k7-12" title="&#x27;Non pervagatione, sed potestate&#x27; compresses &#x27;non per spatia locorum … sed per potentiam&#x27;.">← echoes · Alcuin</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="jerome-hq-1-2" data-date="391">
+  <div class="axis"><span class="yr">c. 391</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Jerome</span>
+      <span class="what">jerome-hq</span>
+      <span class="where">Bethlehem</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">מְרַחֶפֶת</span> <span class="lem lat" dir="ltr">incubabat, sive confovebat</span></p>
+    <div class="en draft">&#x27;And the Spirit of God was borne over the waters.&#x27; For what our copies have as &#x27;was borne,&#x27; the Hebrew has MERAHEFET, which we may render &#x27;was brooding&#x27; or &#x27;was warming,&#x27; in the likeness of a bird quickening her eggs with her heat. From this we understand that it is not said of the spirit of the world, as some suppose, but of the Holy Spirit, who is himself called the giver of life to all things from the beginning. And if giver of life, then consequently creator; and if creator, then God. &#x27;Send forth,&#x27; he says, &#x27;your Spirit, and they shall be created&#x27; (Ps 104:30).</div>
+    <details class="orig">
+      <summary>Latin · PL 23, col. 939A</summary>
+      <div class="lat" dir="ltr">Et Spiritus Dei ferebatur super aquas. Pro eo quod in nostris codicibus scriptum est, ferebatur, in Hebraeo habet MEREFETH ( ), quod nos appellare possumus, incubabat, sive confovebat, in similitudinem volucris, ova calore animantis. Ex quo intelligimus, non de spiritu mundi dici, ut nonnulli arbitrantur, sed de Spiritu Sancto, qui et ipse vivificator omnium a principio dicitur. Si autem vivificator, consequenter et conditor. Quod si conditor, et Deus. Emitte enim, ait, Spiritum tuum, et creabuntur (Psal. CIII, 30) .</div>
+    </details>
+    <p class="note">Jerome claims the bird from the Hebrew verb itself, not from the Syrian. His bird broods and warms (incubare, confovere); Ben Zoma&#x27;s hovers and does not touch. Same verb, opposite physical picture. The star thread&#x27;s Latin end.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip parallel" data-thread="t-k7-05" title="Both derive a bird from merahefet. Jerome: incubabat/confovebat, a bird warming eggs. Ben Zoma: a dove hovering over her young and NOT touching. Same verb, opposite physical claim. No citation either way; Jerome&#x27;s &#x27;in Hebraeo&#x27; points at the word, not at a rabbinic informant.">→ parallel · Babylonian Talmud</button><button class="chip parallel" data-thread="t-k7-28" title="Jerome&#x27;s incubabat and Rashi&#x27;s Old French acoveter (&#x27;to cover, brood&#x27;) give the same vernacular sense to merahefet, 700 years apart, with no possible contact. The only place on this crux where the two benches reach the same word.">→ parallel · Rashi</button><button class="chip cites" data-thread="t-k7-06" title="Wigbod prints Jerome&#x27;s paragraph verbatim under the label HIERONYMUS (PL 96:1116C).">← cites · Wigbod</button><button class="chip echoes" data-thread="t-k7-08" title="&#x27;alia translatio dicit: Incumbebat seu confovebat, in similitudine volucris, ova calore animantis&#x27; is Jerome&#x27;s wording, unnamed and re-labelled as a translation variant.">← echoes · Angelomus of Luxeuil</button><button class="chip contests" data-thread="t-k7-19" title="Abelard reports &#x27;Hebraicum habet volitabat&#x27; against Jerome&#x27;s &#x27;in Hebraeo … incubabat&#x27;. He does not name Jerome, but the claim about the Hebrew is contradictory and deliberate.">← contests · Peter Abelard</button><button class="chip cites" data-thread="t-k7-22" title="&#x27;Hebraeus habet pro superferebatur incubabat&#x27; is Jerome&#x27;s rendering, attributed to &#x27;the Hebrew&#x27;.">← cites · Peter Comestor</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="vulgate-1-2" data-date="392">
+  <div class="axis"><span class="yr">c. 392</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Jerome</span>
+      <span class="what">vulgate</span>
+      <span class="where">Bethlehem</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Spiritus Dei ferebatur super aquas</span></p>
+    <div class="en draft">But the earth was empty and void, and darkness [was] upon the face of the deep, and the Spirit of God was borne over the waters.</div>
+    <details class="orig">
+      <summary>Latin · PL 28, col. 163C</summary>
+      <div class="lat" dir="ltr">Terra autem erat inanis et vacua, et tenebrae [ Vulg. addit erant] super faciem abyssi, et Spiritus Dei ferebatur super aquas.</div>
+    </details>
+    <p class="note">Jerome&#x27;s own Vulgate keeps the Old Latin/LXX &#x27;ferebatur&#x27; even though his Hebrew Questions (same decade) insist the Hebrew means brooding. The Latin bench inherits the verb he declined to change. PL 28 prints Jerome&#x27;s text without &#x27;erant&#x27; and flags the Vulgate&#x27;s addition.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip transmits" data-thread="t-k7-01" title="Vulgate &#x27;ferebatur&#x27; renders LXX ἐπεφέρετο, not the Hebrew merahefet; the Latin bench inherits a Greek verb of motion.">→ transmits · The Seventy</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="aug-gnl-imp-4-16" data-date="393">
+  <div class="axis"><span class="yr">c. 393</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Augustine</span>
+      <span class="what">aug-gnl-imp</span>
+      <span class="where">Hippo Regius</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">sicut superfertur voluntas artificis ligno</span></p>
+    <div class="en draft">&#x27;And the Spirit of God was borne above the water.&#x27; He was not borne above it as oil is above water, or water above earth, that is, as though he were contained; but, if examples are to be taken from visible things for this, as the light of the sun or moon is borne above the bodies it illuminates on earth: for it is not contained in them, but, while it is contained by the sky, it is borne above them. Likewise we must take care not to think the Spirit of God is borne above matter as though across spaces of place, but by a certain effecting and fashioning force, so that what he is borne above is effected and fashioned; as the will of a craftsman is borne above the wood, or above whatever thing is set under him to be worked, or even above the very limbs of his own body, which he moves in order to work.</div>
+    <details class="orig">
+      <summary>Latin · PL 34, col. 226</summary>
+      <div class="lat" dir="ltr">Et Spiritus Dei superferebatur super aquam. Non ita superferebatur sicut oleum aquae, vel aqua terrae, id est, quasi contineretur; sed, si ad hoc de visibilibus exempla capienda sunt, sicut superfertur lux ista solis aut lunae his corporibus, quae illuminat in terra: non enim continetur illis; sed cum coelo contineatur, istis superfertur. Item cavendum est ne quasi locorum spatiis Dei Spiritum superferri materiae putemus, sed vi quadam effectoria et fabricatoria, ut illud cui superfertur efficiatur, et fabricetur; sicut superfertur voluntas artificis ligno, vel cuique rei subjectae ad operandum, vel etiam ipsis membris corporis sui, quae ad operandum movet.</div>
+    </details>
+    <p class="note">The craftsman image sharpened: will over wood, will over one&#x27;s own limbs. Remigius, Bruno and Hugh&#x27;s &#x27;artifex&#x27; all come from here.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-09" title="&#x27;non localiter sed potentialiter … sicut superfertur rebus fabricandis voluntas artificis&#x27; is Augustine&#x27;s craftsman (Gnl imp. §16 / Gnm I.5).">← echoes · Angelomus of Luxeuil</button><button class="chip echoes" data-thread="t-k7-10" title="&#x27;in similitudinem fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri&#x27; restates Augustine&#x27;s voluntas artificis; &#x27;positione loci&#x27; = &#x27;spatia locorum&#x27;.">← echoes · Rabanus Maurus</button><button class="chip echoes" data-thread="t-k7-13" title="&#x27;mens vel sapientia alicujus artificis superfertur operi&#x27; = voluntas artificis, with &#x27;sapientia&#x27; added.">← echoes · Remigius of Auxerre</button><button class="chip echoes" data-thread="t-k7-14" title="&#x27;ut bonus artifex … disponebat&#x27; with the house-builder sorting timber elaborating Augustine&#x27;s &#x27;voluntas artificis ligno&#x27;.">← echoes · Bruno of Segni</button><button class="chip echoes" data-thread="t-k7-15" title="&#x27;quasi artifex operi formando praeerat&#x27;; Hugh keeps the craftsman but replaces will with &#x27;intentio&#x27;.">← echoes · Hugh of St Victor</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="aug-conf-13-9-10" data-date="400">
+  <div class="axis"><span class="yr">c. 400</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Augustine</span>
+      <span class="what">aug-conf</span>
+      <span class="where">Hippo Regius</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Cur solus Spiritus sanctus superferebatur super aquas</span></p>
+    <div class="en draft">Was not the Father, or the Son, borne above the waters too? If we mean by place, as a body is, then neither was the Holy Spirit; but if we mean the eminence of unchangeable Godhead over everything changeable, then Father and Son and Holy Spirit were borne above the waters. Why then is this said only of your Spirit? Why of him alone? As if there were a place there, where there is no place, for him alone of whom it is said that he is your gift. In your gift we rest; there we enjoy you. Our rest is our place. Love lifts us there, and your good Spirit raises our lowliness from the gates of death. In good will is our peace. A body by its weight strives toward its own place. Weight is not only toward what is lowest, but toward its own place. Fire tends upward, a stone downward. They are driven by their weights; they seek their places.</div>
+    <details class="orig">
+      <summary>Latin · PL 32, col. 848</summary>
+      <div class="lat" dir="ltr">Numquid aut Pater aut Filius non superferebatur super aquas? Si tanquam loco sicut corpus, nec Spiritus sanctus: si autem incommutabilis divinitatis eminentia super omne mutabile, et Pater et Filius et Spiritus sanctus superferebatur super aquas. Cur ergo tantum de Spiritu tuo dictum est hoc? cur de illo tantum dictum est? Quasi locus ibi esset, qui non est locus, de quo solo dictum est quod sit donum tuum. In dono tuo requiescimus; ibi te fruimur. Requies nostra, locus noster. Amor illuc attollit nos, et Spiritus tuus bonus exaltat humilitatem nostram de portis mortis (Psal. IX, 15) . In bona voluntate pax nobis est (Luc. II, 14) . Corpus pondere suo nititur ad locum suum. Pondus non ad ima tantum est, sed ad locum suum. Ignis sursum tendit, deorsum lapsis. Ponderibus suis aguntur, loca sua petunt.</div>
+    </details>
+    <p class="note">The question turned inward: not what &#x27;above&#x27; means but why the Spirit alone is said to be above. Answer: because the Spirit is gift, and love is weight. &#x27;Pondus meum amor meus&#x27; follows a few lines on.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-17" title="&#x27;bonitatem amoremque Dei … amorem et vitam&#x27; develops Conf. XIII.9&#x27;s Spirit-as-gift-and-love reading of the same verse.">← echoes · Rupert of Deutz</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="basil-hex-lat-2-6" data-date="400">
+  <div class="axis"><span class="yr">c. 400</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Basil of Caesarea</span>
+      <span class="what">basil-hex-lat</span>
+      <span class="where">Caesarea in Cappadocia</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">fovebat et vivificabat aquarum naturam, ad similitudinem gallinae cubantis</span></p>
+    <div class="en draft">How, then, was this Spirit borne above the waters? I will tell you not my own account but that of a certain man, a Syrian by birth, who was as far from the wisdom of this age as he was reckoned near to true doctrine. He used to say that the Syrian tongue is the more expressive, and that because of its kinship with Hebrew it comes closer to the idiom of the Scriptures. The sense of his saying, then, is this: &#x27;was borne above,&#x27; he says, means that the Spirit warmed and quickened the nature of the waters, in the likeness of a hen sitting on her eggs, putting a living power into the things that were being warmed. So the reason for the phrase &#x27;was borne above&#x27; is explained thus: he was driving the nature of the waters toward being quickened. From this the point that some so insistently demand can be sufficiently proved: that the Holy Spirit does not lack generative power.</div>
+    <details class="orig">
+      <summary>Latin · PL 53, col. 886C</summary>
+      <div class="lat" dir="ltr">Quomodo ergo hic spiritus aquis superferebatur? dicam tibi non meum sermonem, sed viri cujusdam genere Syri, qui tantum aberat a sapientia saeculi quantum verae doctrinae proximus habebatur. Dicebat enim Syrorum vocem facundiorem esse, et propter Hebraicae linguae cognationem, Scripturarum magis sermonibus indulsisse. Sensus itaque dicti illius hoc modo est: Superferebatur, inquit, Spiritus, hoc est fovebat et vivificabat aquarum naturam, ad similitudinem gallinae cubantis: vitalem virtutem his quae fovebantur injiciens. Hujusmodi ergo ratio quod dixit superferebatur, sic interpretatur, id est ad vivificandam aquarum naturam compellebat. Ex quo sufficienter etiam illud quod a quibusdam valde requiritur, approbari potest: quia nec genitali potentia Spiritus sanctus caret.</div>
+    </details>
+    <p class="note">Basil, Hexaemeron II.6, delivered in Greek in 378; the Latin bench read it in Eustathius&#x27; version (c. 400). The unnamed Syrian is the source of the whole Latin &#x27;warming&#x27; line: Ambrose, Augustine, Rupert, Abelard, Comestor all descend from this paragraph. Basil&#x27;s bird is a hen (gallina); Jerome&#x27;s, independently, is a generic volucris.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-02" title="&#x27;Syrus, qui vicinus Hebraeo est … fovebat aquas, id est vivificabat&#x27; reproduces Basil Hex. II.6&#x27;s Syrian and his gloss &#x27;warmed and quickened&#x27;. Ambrose read Basil&#x27;s Greek; Eustathius&#x27; Latin is the bench&#x27;s later access to the same source.">← cites · Ambrose</button><button class="chip cites" data-thread="t-k7-03" title="&#x27;a quodam docto christiano syro fertur expositum … non superferebatur sed fovebat&#x27; names Basil&#x27;s Syrian at one remove (&#x27;fertur&#x27;); &#x27;sicut ova foventur ab alitibus&#x27; extends the gallina cubans.">← cites · Augustine</button><button class="chip cites" data-thread="t-k7-23" title="&#x27;vel Syra lingua fovebat, sicut avis ova&#x27; is Basil&#x27;s Syrian, via Augustine Gnl I.18.">← cites · Peter Comestor</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="aug-gnl-1-18-36" data-date="410">
+  <div class="axis"><span class="yr">401–415</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Augustine</span>
+      <span class="what">aug-gnl</span>
+      <span class="where">Hippo Regius</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">sicut ova foventur ab alitibus</span></p>
+    <div class="en draft">But before all else let us remember, as we have already said at length, that God does not work by temporal motions, as it were of his mind or body, as a man or an angel works, but by the eternal, unchangeable and stable reasons of his Word, coeternal with himself, and by a certain — if I may so put it — brooding warmth of his Holy Spirit, equally coeternal. For even what is said in Greek and in Latin of the Spirit of God, that he &#x27;was borne above the waters,&#x27; according to the sense of the Syriac tongue, which is neighbor to Hebrew (for this is reported to have been explained by a certain learned Syrian Christian), is held to mean not &#x27;was borne above&#x27; but rather &#x27;was warming.&#x27; Not as swellings or wounds in the body are warmed with water, whether cold or tempered to a fitting heat; but as eggs are warmed by birds, where that heat of the mother&#x27;s body in a way assists even the forming of the chicks, through a certain affection of love after its kind.</div>
+    <details class="orig">
+      <summary>Latin · PL 34, col. 260</summary>
+      <div class="lat" dir="ltr">Sed ante omnia meminerimus, unde jam multa diximus, non temporalibus quasi animi sui aut corporis motibus operari Deum, sicut operatur homo vel angelus; sed aeternis atque incommutabilibus et stabilibus rationibus coaeterni sibi Verbi sui, et quodam, ut ita dixerim, fotu pariter coaeterni sancti Spiritus sui. Nam et illud quod per graecam et latinam linguam dictum est de Spiritu Dei, quod superferebatur super aquas, secundum syrae linguae intellectum, quae vicina est hebraeae, (nam hoc a quodam docto christiano syro fertur expositum) non superferebatur, sed fovebat potius intelligi perhibetur. Nec sicut foventur tumores aut vulnera in corpore aquis vel frigidis vel calore congruo temperatis; sed sicut ova foventur ab alitibus, ubi calor ille materni corporis etiam formandis pullis quodammodo adminiculatur, per quemdam in suo genere dilectionis affectum.</div>
+    </details>
+    <p class="note">Augustine&#x27;s mature answer joins his own &#x27;power not place&#x27; to the Syrian&#x27;s warming and adds the mother-bird&#x27;s love. He cites the Syrian at one remove (&#x27;fertur&#x27;), almost certainly through Ambrose.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-03" title="&#x27;a quodam docto christiano syro fertur expositum … non superferebatur sed fovebat&#x27; names Basil&#x27;s Syrian at one remove (&#x27;fertur&#x27;); &#x27;sicut ova foventur ab alitibus&#x27; extends the gallina cubans.">→ cites · Basil of Caesarea</button><button class="chip echoes" data-thread="t-k7-04" title="Augustine&#x27;s access to the Syrian is most plausibly Ambrose&#x27;s Hexaemeron (heard in Milan 386–7); the &#x27;vivificatio&#x27; motif matches Ambrose&#x27;s &#x27;vivificabat … animaret ad vitam&#x27;.">→ echoes · Ambrose</button><button class="chip echoes" data-thread="t-k7-16" title="&#x27;ovum … calore volucris animatur et pullum producit&#x27; is Augustine&#x27;s &#x27;ova foventur ab alitibus … formandis pullis&#x27;; the Syrian is gone.">← echoes · Rupert of Deutz</button><button class="chip echoes" data-thread="t-k7-18" title="&#x27;more avis quae ovo incumbit, ut ipsum foveat atque vivificet&#x27; = Augustine&#x27;s warming bird; &#x27;quaedam translatio fovebat&#x27; = the Syriac variant as transmitted by Augustine.">← echoes · Peter Abelard</button><button class="chip echoes" data-thread="t-k7-21" title="&#x27;vel aquas fovebat, id est … animabat&#x27; offers the Syriac &#x27;warmed&#x27; as a bare variant; the wording &#x27;animabat&#x27; follows Ambrose/Augustine&#x27;s vivificatio.">← echoes · Honorius Augustodunensis</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w rabbinic" id="br-2-4" data-date="450">
+  <div class="axis"><span class="yr">compilation 400–500</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Bereshit Rabbah</span>
+      <span class="what">br</span>
+      <span class="where">Galilee (Tiberias / Sepphoris)</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">וְרוּחַ אֱלֹהִים מְרַחֶפֶת</span></p>
+    <div class="en">“And the spirit of God was hovering” – this is the spirit of the messianic king, as it says: “The spirit of the Lord will rest upon him” (Isaiah 11:2). By what merit will it [the Messianic kingdom] come? “Hovering over the surface of the water” – by the merit of repentance, that is likened to water, as it is stated: “Pour out your heart like water [before the face of the Lord]” (Lamentations 2:19). Rabbi Ḥagai said in the name of Rabbi Pedat: A covenant is made with the water, that even when the weather is hot, the wind blows over it. It happened once that Rabbi Shimon ben Zoma was sitting, entranced in thought. Rabbi Yehoshua passed and greeted him once, twice, but he did not answer him. The third time, he answered him with a start. He said to him: ‘Ben Zoma, where were your thoughts?’ He said to him: ‘I have been contemplating.’ He said to him: ‘As the heavens and the earth are my witnesses, I shall not move from here until you inform me where your thoughts were.’ He said to him: ‘I was looking at the act of Creation, and [I saw that] between the upper waters and the lower waters there were only two or three fingerbreadths. “The spirit of the Lord was blowing” is not written, but rather, “was hovering” – like a bird that flaps its wings, they touch [the nest] but do not quite touch.’ Rabbi Yehoshua turned and said to his disciples: Ben Zoma is gone. Not even a few days passed with ben Zoma still in the world.</div>
+    <details class="orig">
+      <summary>Hebrew · Bereshit Rabbah 2:4 (Vilna numbering; Theodor–Albeck differs)</summary>
+      <div class="heb" dir="rtl">וְרוּחַ אֱלֹהִים מְרַחֶפֶת, זֶה רוּחוֹ שֶׁל מֶלֶךְ הַמָּשִׁיחַ, הֵיאַךְ מָה דְאַתְּ אָמַר (ישעיה יא, ב): וְנָחָה עָלָיו רוּחַ ה&#x27;, בְּאֵיזוֹ זְכוּת מְמַשְׁמֶשֶׁת וּבָאָה, הַמְרַחֶפֶת עַל פְּנֵי הַמָּיִם, בִּזְכוּת הַתְּשׁוּבָה שֶׁנִּמְשְׁלָה כַּמַּיִם, שֶׁנֶּאֱמַר (איכה ב, יט): שִׁפְכִי כַמַּיִם לִבֵּךְ. רַבִּי חַגַּי בְּשֵׁם רַבִּי פְּדָת אָמַר, בְּרִית כְּרוּתָה לַמַּיִם שֶׁאֲפִלּוּ בִּשְׁעַת שָׁרָב רוּחָה שַׁיְיפָה, וּכְבָר הָיָה רַבִּי שִׁמְעוֹן בֶּן זוֹמָא יוֹשֵׁב וְתוֹהֶא, וְעָבַר רַבִּי יְהוֹשֻׁעַ וְשָׁאַל בִּשְׁלוֹמוֹ, פַּעַם וּשְׁתַּיִם וְלֹא הֵשִׁיבוֹ, בַּשְׁלִישִׁית הֵשִׁיבוֹ בִּבְהִילוּת, אָמַר לוֹ בֶּן זוֹמָא מֵאַיִן הָרַגְלַיִם, אָמַר לוֹ מְעַיֵּן הָיִיתִי, אָמַר לוֹ מֵעִיד אֲנִי עָלַי שָׁמַיִם וָאָרֶץ שֶׁאֵינִי זָז מִכָּאן עַד שֶׁתּוֹדִיעֵנִי מֵאַיִן הָרַגְלַיִם. אָמַר לוֹ מִסְתַּכֵּל הָיִיתִי בְּמַעֲשֵׂה בְרֵאשִׁית, וְלֹא הָיָה בֵּין מַיִם הָעֶלְיוֹנִים לַמַּיִם הַתַּחְתּוֹנִים אֶלָּא כִּשְׁתַּיִם וְשָׁלשׁ אֶצְבָּעוֹת, וְרוּחַ אֱלֹהִים מְנַשֶּׁבֶת אֵין כְּתִיב כָּאן אֶלָּא מְרַחֶפֶת, כָּעוֹף הַזֶּה שֶׁהוּא מְרַפְרֵף בִּכְנָפָיו וּכְנָפָיו נוֹגְעוֹת וְאֵינָן נוֹגְעוֹת. נֶהְפַּךְ רַבִּי יְהוֹשֻׁעַ וְאָמַר לְתַלְמִידָיו, הָלַךְ לוֹ בֶּן זוֹמָא, וְלֹא שָׁהוּ יָמִים מֻעָטִים וּבֶן זוֹמָא בָּעוֹלָם.</div>
+    </details>
+    <p class="note">Two answers in one section. Resh Lakish: the ruach is the spirit of the King Messiah (Isa 11:2), brought by repentance-as-water. Then the Ben Zoma story: &#x27;blowing&#x27; is not written but &#x27;hovering&#x27; — like a bird beating its wings, touching and not touching. Note the bird is an unspecified &#x27;of&#x27; and the claim is touching-and-not-touching; the Bavli&#x27;s version has a dove and no touching at all.</p>
+    <footer>
+      <span class="cred">English: The Sefaria Midrash Rabbah, 2022 · CC-BY</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-25" title="The Ben Zoma story is in both BR 2:4 and Chagigah 15a; Rashi&#x27;s wording is the Bavli&#x27;s, but Rashi elsewhere cites BR by name on 1:1–5.">← echoes · Rashi</button><button class="chip parallel" data-thread="t-k7-26" title="Same Ben Zoma story, two redactions. BR: bird beating its wings, touching-and-not-touching. Bavli: dove over her young, not touching, three fingerbreadths. Compiled independently from a shared Palestinian tradition.">← parallel · Babylonian Talmud</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w rabbinic" id="b-chag-15a" data-date="550">
+  <div class="axis"><span class="yr">redaction 500–600</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Babylonian Talmud</span>
+      <span class="what">bavli-chagigah</span>
+      <span class="where">Babylonia (Sura / Pumbedita)</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">כְּיוֹנָה שֶׁמְּרַחֶפֶת עַל בָּנֶיהָ וְאֵינָהּ נוֹגַעַת</span></p>
+    <div class="en draft">Our rabbis taught: It once happened that Rabbi Yehoshua ben Ḥananya was standing on a step on the Temple Mount, and Ben Zoma saw him and did not rise before him. He said to him: From where and to where, Ben Zoma? He said to him: I was gazing between the upper waters and the lower waters, and between the one and the other there are only three fingerbreadths, as it is said, &#x27;and the spirit of God was hovering over the face of the waters&#x27; (Gen 1:2) — like a dove that hovers over her young and does not touch them. Rabbi Yehoshua said to his disciples: Ben Zoma is still outside. — Now, &#x27;the spirit of God was hovering over the face of the waters&#x27;: when was that? On the first day. But the dividing was on the second day, as it is written, &#x27;and let it divide water from water&#x27; (Gen 1:6). And how much [lies between them]? Rav Aḥa bar Yaakov said: a hair&#x27;s breadth. The rabbis say: like the gap between the planks of a bridge. Mar Zutra, or some say Rav Ashi, said: like two cloaks spread one over the other; and some say, like two cups tipped one upon the other.</div>
+    <details class="orig">
+      <summary>Hebrew · b. Chagigah 15a (Vilna)</summary>
+      <div class="heb" dir="rtl">ת&quot;ר מעשה ברבי יהושע בן חנניה שהיה עומד על גב מעלה בהר הבית וראהו בן זומא ולא עמד מלפניו אמר לו מאין ולאין בן זומא אמר לו צופה הייתי בין מים העליונים למים התחתונים ואין בין זה לזה אלא שלש אצבעות בלבד שנאמר (בראשית א, ב) ורוח אלהים מרחפת על פני המים כיונה שמרחפת על בניה ואינה נוגעת אמר להן רבי יהושע לתלמידיו עדיין בן זומא מבחוץ מכדי ורוח אלהים מרחפת על פני המים אימת הוי ביום הראשון הבדלה ביום שני הוא דהואי דכתיב (בראשית א, ו) ויהי מבדיל בין מים למים וכמה אמר רב אחא בר יעקב כמלא נימא ורבנן אמרי כי גודא דגמלא מר זוטרא ואיתימא רב אסי אמר כתרי גלימי דפריסי אהדדי ואמרי לה כתרי כסי דסחיפי אהדדי</div>
+    </details>
+    <p class="note">The Bavli&#x27;s Ben Zoma reads merahefet as a physical fact about distance: hovering measures the gap between upper and lower waters. The anonymous continuation then argues the gap into a hair&#x27;s breadth. Steinsaltz/Davidson English is CC BY-NC and is NOT embedded; this is a fresh draft against the Wikisource Aramaic.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip parallel" data-thread="t-k7-26" title="Same Ben Zoma story, two redactions. BR: bird beating its wings, touching-and-not-touching. Bavli: dove over her young, not touching, three fingerbreadths. Compiled independently from a shared Palestinian tradition.">→ parallel · Bereshit Rabbah</button><button class="chip parallel" data-thread="t-k7-05" title="Both derive a bird from merahefet. Jerome: incubabat/confovebat, a bird warming eggs. Ben Zoma: a dove hovering over her young and NOT touching. Same verb, opposite physical claim. No citation either way; Jerome&#x27;s &#x27;in Hebraeo&#x27; points at the word, not at a rabbinic informant.">← parallel · Jerome</button><button class="chip cites" data-thread="t-k7-24" title="Rashi&#x27;s &#x27;like a dove (yonah) hovering over the nest&#x27; follows the Bavli&#x27;s dove (Chagigah 15a), not Bereshit Rabbah&#x27;s unspecified bird (&#x27;of); the dove settles which source he is quoting.">← cites · Rashi</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="isidore-quaest-1-3" data-date="620">
+  <div class="axis"><span class="yr">c. 620</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Isidore of Seville</span>
+      <span class="what">isidore-quaest</span>
+      <span class="where">Seville</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">super cor nostrum tenebrosum et fluidum, quasi super aquas</span></p>
+    <div class="en draft">&#x27;And the Spirit of God was borne over the waters.&#x27; The Spirit of God was already being borne over our dark and fluid heart, as over waters: that standing in him we might find rest, be quickened by his breath, and be washed in his wave.</div>
+    <details class="orig">
+      <summary>Latin · PL 83, col. 209C</summary>
+      <div class="lat" dir="ltr">Et spiritus Dei ferebatur super aquas. Spiritus autem Dei super cor nostrum tenebrosum et fluidum, quasi super aquas, jam 262 superferebatur; in quo subsistentes requiesceremus, cujusque vivificaremur flatu, et cujus unda ablueremur.</div>
+    </details>
+    <p class="note">Isidore does not answer the physical question at all; the waters are the heart. The allegorical reading the Glossa will carry in its margin.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="bede-gen-1-2" data-date="720">
+  <div class="axis"><span class="yr">c. 720</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Bede</span>
+      <span class="what">bede-gen</span>
+      <span class="where">Jarrow</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">totius simul Trinitatis in creatione mundi virtutem</span></p>
+    <div class="en draft">And rightly, having first declared that in the beginning, that is, in the Son, the Father made heaven and earth, he brought in mention of the Holy Spirit too by adding, &#x27;And the Spirit of God was borne above the waters,&#x27; so as to signify that the power of the whole Trinity together worked in the creation of the world.</div>
+    <details class="orig">
+      <summary>Latin · PL 91, col. 16C</summary>
+      <div class="lat" dir="ltr">Bene autem cum in principio Deum, id est, in Filio Patrem fecisse coelum et terram praediceret, etiam sancti Spiritus intulit mentionem addendo: Et Spiritus Dei superferebatur super aquas, ut videlicet totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret.</div>
+    </details>
+    <p class="note">Bede has no bird and no Syrian on this verse: his 1:2 is Trinitarian (K3). Included here because Rabanus copies this sentence verbatim and it becomes the Glossa&#x27;s spine.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-11" title="PL 107:447C copies Bede&#x27;s &#x27;totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret&#x27; verbatim.">← cites · Rabanus Maurus</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w rabbinic" id="targ-psj-1-2" data-date="750">
+  <div class="axis"><span class="yr">600–800</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Targum Pseudo-Jonathan</span>
+      <span class="what">targ-psj</span>
+      <span class="where">Palestine</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">וְרוּחַ רַחֲמִין מִן קֳדָם יְיָ מְנַתְבָא</span></p>
+    <div class="en">And the earth was vacancy and desolation, solitary of the sons of men, and void of every animal; and darkness was upon the face of the abyss, and the Spirit of mercies from before the Lord breathed upon the face of the waters.</div>
+    <details class="orig">
+      <summary>Hebrew · Sefaria, &#x27;Targum Jonathan on Genesis&#x27;</summary>
+      <div class="heb" dir="rtl">וְאַרְעָא הֲוַת תַּהֲיָיא וּבַהֲיָיא צַדְיָא מִבְּנֵי נַשׁ וְרֵיקַנְיָא מִן כָּל בְּעִיר וַחֲשׁוֹכָא עַל אַפֵּי תְהוֹמָא וְרוּחַ רַחֲמִין מִן קֳדָם יְיָ מְנַתְבָא עַל אַנְפֵּי מַיָא</div>
+    </details>
+    <p class="note">Same &#x27;spirit of mercies&#x27; as Neofiti; the verb menatva (&#x27;breathed / blew&#x27;) keeps the Onkelos line. Etheridge embedded verbatim (PD).</p>
+    <footer>
+      <span class="cred">English: Etheridge 1862 · PD</span>
+      <span class="chips"><button class="chip parallel" data-thread="t-k7-27" title="Both render ruach Elohim as &#x27;a spirit of mercy/mercies from before the LORD&#x27;; the Palestinian targum tradition shared the phrase.">→ parallel · Targum Neofiti</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="wigbod-gen-1-2" data-date="790">
+  <div class="axis"><span class="yr">c. 790</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Wigbod</span>
+      <span class="what">wigbod-gen</span>
+      <span class="where">Aachen</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">HIERONYMUS. … in Hebraeo habetur merephet</span></p>
+    <div class="en draft">Disciple: Explain how the Spirit of God was borne over the waters. — JEROME. Master: For what our copies have as &#x27;was borne,&#x27; the Hebrew has merephet, which we may render &#x27;was brooding&#x27; or &#x27;was warming,&#x27; in the likeness of a bird quickening her eggs with her heat. From this we understand that it is not said of the spirit of the world, as some suppose, but of the Holy Spirit, who is himself called the giver of life to all things from the beginning.</div>
+    <details class="orig">
+      <summary>Latin · PL 96, col. 1116C</summary>
+      <div class="lat" dir="ltr">D. Quomodo spiritus Dei ferebatur super aquas, edissere? HIERONYMUS. M. Pro eo quod in nostris codicibus scriptum est, ferebatur; in Hebraeo habetur merephet, quod nos appellare possumus, incubabat, sive confovebat in similitudinem volucris ova calore animantis. Ex quo intelligimus, non de spiritu mundi dici, ut nonnulli arbitrantur, sed de Spiritu sancto, qui et ipse vivificator omnium a principio dicitur.</div>
+    </details>
+    <p class="note">A Carolingian question-and-answer catena that labels its sources. Jerome quoted verbatim under his name at col. 1116C; Augustine&#x27;s sun-over-earth (Gnm I.5) quoted at col. 1112D. The first witness that shows the two Latin lines (Hebrew bird, power-not-place) sitting side by side as authorities.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-06" title="Wigbod prints Jerome&#x27;s paragraph verbatim under the label HIERONYMUS (PL 96:1116C).">→ cites · Jerome</button><button class="chip cites" data-thread="t-k7-07" title="Wigbod prints Augustine&#x27;s sun-over-earth paragraph verbatim (PL 96:1112D).">→ cites · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="alcuin-int-29" data-date="796">
+  <div class="axis"><span class="yr">c. 796</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Alcuin</span>
+      <span class="what">alcuin-int</span>
+      <span class="where">Tours</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Non pervagatione, sed potestate</span></p>
+    <div class="en draft">Question 29. What is &#x27;The Spirit of the Lord was borne over the waters&#x27;? — Answer: Not by wandering over them, but by power and a ruler&#x27;s command, to form and quicken the formless matter which in this place is signified by the name of water.</div>
+    <details class="orig">
+      <summary>Latin · PL 100, col. 519D</summary>
+      <div class="lat" dir="ltr">Inter. 29. Quid est: Spiritus Domini ferebatur super aquas (Gen. I, 2) ?-- Resp. Non pervagatione [ Edit., per vagationem], sed potestate, et regentis imperio, ad formandum et vivificandum informem materiam, quae hoc loco aquae nomine significatur</div>
+    </details>
+    <p class="note">Augustine compressed to one sentence for the schoolroom. Note &#x27;Spiritus Domini&#x27; (Old Latin) not &#x27;Spiritus Dei&#x27; (Vulgate) — the Vetus Latina lingers in Alcuin&#x27;s lemma.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-12" title="&#x27;Non pervagatione, sed potestate&#x27; compresses &#x27;non per spatia locorum … sed per potentiam&#x27;.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="rabanus-gen-1-1" data-date="822">
+  <div class="axis"><span class="yr">c. 822</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Rabanus Maurus</span>
+      <span class="what">rabanus-gen</span>
+      <span class="where">Fulda</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">in similitudinem videlicet fabri, cujus voluntas … solet superferri</span></p>
+    <div class="en draft">&#x27;And the Spirit of God was borne over the waters.&#x27; It is not to be supposed childishly that the creator Spirit, of whom it is written &#x27;The Spirit of the Lord has filled the whole earth&#x27; (Wis 1:7), was borne above the things to be created by position in place. Rather it is to be understood that by divine power he excelled the creatures, holding in his own power when he would illumine the abyss of waters, when he would part them into one place so that the dry land might appear, when and how he would dispose the other creatures at his nod — in the likeness, that is, of a craftsman, whose will is accustomed to be borne above the things that are to be made.</div>
+    <details class="orig">
+      <summary>Latin · PL 107, col. 446D</summary>
+      <div class="lat" dir="ltr">Et Spiritus Dei ferebatur super aquas. Non est opinandum pueriliter quod Spiritus creator, de quo scriptum est: Quia Spiritus Domini replevit orbem terrarum (Sap. I) , positione loci his quae erant creanda superferretur. Sed intelligendum potius quia virtute divina praecellebat creaturis, habens in propria potestate quando aquarum illustraret abyssum, quando in locum eas secerneret unum, ut appareret arida, quando et quomodo creaturas caeteras pro suo nutu disponeret, in similitudinem videlicet fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri.</div>
+    </details>
+    <p class="note">Augustine&#x27;s craftsman in Rabanus&#x27; own words at col. 446D; then at 447C he copies Bede&#x27;s Trinity sentence verbatim. Rabanus is the bridge by which both lines reach the Glossa.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-10" title="&#x27;in similitudinem fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri&#x27; restates Augustine&#x27;s voluntas artificis; &#x27;positione loci&#x27; = &#x27;spatia locorum&#x27;.">→ echoes · Augustine</button><button class="chip cites" data-thread="t-k7-11" title="PL 107:447C copies Bede&#x27;s &#x27;totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret&#x27; verbatim.">→ cites · Bede</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="angelom-gen-1-2" data-date="850">
+  <div class="axis"><span class="yr">c. 850</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Angelomus of Luxeuil</span>
+      <span class="what">angelom-gen</span>
+      <span class="where">Luxeuil</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Unde bene alia translatio dicit: Incumbebat, seu confovebat</span></p>
+    <div class="en draft">But he was borne not by place but by power, ruling and sustaining that formless matter, as the will of a craftsman is borne above the things to be made. Hence another translation well says &#x27;was lying upon,&#x27; or &#x27;was warming,&#x27; in the likeness of a bird quickening her eggs with her heat, so that it may be plainly understood of the Holy Spirit and not of the spirit of this world, as the heretics thought.</div>
+    <details class="orig">
+      <summary>Latin · PL 115, col. 116A</summary>
+      <div class="lat" dir="ltr">Sed ferebatur non localiter, sed potentialiter, regendo et sustentando ipsam informem materiam; sicut superfertur rebus fabricandis voluntas artificis. Unde bene alia translatio dicit: Incumbebat [ Z., incubabat ], seu confovebat, in similitudine volucris, ova calore animantis, ut manifeste intelligatur de Spiritu sancto, et non de spiritu hujus mundi, sicut haeretici putaverunt.</div>
+    </details>
+    <p class="note">Angelomus splices the two Latin lines into one sentence: Augustine&#x27;s &#x27;not by place but by power&#x27; and Jerome&#x27;s bird, the latter presented as &#x27;another translation&#x27; and unnamed. Jerome&#x27;s &#x27;nonnulli&#x27; (some suppose) has hardened into &#x27;haeretici&#x27;.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-08" title="&#x27;alia translatio dicit: Incumbebat seu confovebat, in similitudine volucris, ova calore animantis&#x27; is Jerome&#x27;s wording, unnamed and re-labelled as a translation variant.">→ echoes · Jerome</button><button class="chip echoes" data-thread="t-k7-09" title="&#x27;non localiter sed potentialiter … sicut superfertur rebus fabricandis voluntas artificis&#x27; is Augustine&#x27;s craftsman (Gnl imp. §16 / Gnm I.5).">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="remigius-gen-1-2" data-date="900">
+  <div class="axis"><span class="yr">c. 900</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Remigius of Auxerre</span>
+      <span class="what">remigius-gen</span>
+      <span class="where">Auxerre</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Sicut mens vel sapientia alicujus artificis superfertur operi</span></p>
+    <div class="en draft">&#x27;The Spirit of God was borne over the waters.&#x27; As the mind or wisdom of some craftsman is borne above the work he is going to make, so that he may make it as he wills, so too the Holy Spirit was borne above, fore-ordaining and as it were arranging what, and in what manner, he willed to make.</div>
+    <details class="orig">
+      <summary>Latin · PL 131, col. 55B</summary>
+      <div class="lat" dir="ltr">Spiritus Dei ferebatur super aquas. Sicut mens vel sapientia alicujus artificis superfertur operi quod facturus est, ut quomodo vult ita illud faciat: ita et Spiritus sanctus superferebatur, praeordinans et quasi disponens quid, qualiter facere vellet.</div>
+    </details>
+    <p class="note">Augustine&#x27;s craftsman, now with &#x27;wisdom&#x27; — the Spirit as the plan before the work. Remigius also gives a moral reading at col. 55D (the fluid hearts of men).</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-13" title="&#x27;mens vel sapientia alicujus artificis superfertur operi&#x27; = voluntas artificis, with &#x27;sapientia&#x27; added.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article><div class="gap" aria-hidden="true"><span>190 years</span></div>
+<article class="w rabbinic" id="rashi-1-2b" data-date="1090">
+  <div class="axis"><span class="yr">1080–1105</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Rabbinic</span>
+      <span class="who">Rashi</span>
+      <span class="what">rashi-gen</span>
+      <span class="where">Troyes</span>
+    </header>
+    <p class="lemma"><span class="lem heb" dir="rtl">כְּיוֹנָה הַמְרַחֶפֶת עַל הַקֵּן</span></p>
+    <div class="en">ורוח אלהים מרחפת AND THE SPIRIT OF GOD WAS HOVERING — The throne of Divine Glory was standing in space, hovering over the face of the waters by the breath of the mouth of the Holy One, blessed be He, and by His command, even as a dove hovers over its nest. In old French acoveter.</div>
+    <details class="orig">
+      <summary>Hebrew · Rashi on Gen 1:2, s.v. ורוח אלהים מרחפת</summary>
+      <div class="heb" dir="rtl">ורוח אלהים מרחפת. כִּסֵא הַכָּבוֹד עוֹמֵד בָּאֲוִיר וּמְרַחֵף עַל פְּנֵי הַמַּיִם בְּרוּחַ פִּיו שֶׁל הַקָּבָּ&quot;ה וּבְמַאֲמָרוֹ, כְּיוֹנָה הַמְרַחֶפֶת עַל הַקֵּן, אקוב&quot;טיר בְּלַעַ&quot;ז:</div>
+    </details>
+    <p class="note">Rashi&#x27;s dove over the nest is the Bavli&#x27;s dove (Chagigah 15a), not Bereshit Rabbah&#x27;s unspecified bird. The Old French gloss acoveter means &#x27;to cover, to brood&#x27; — which is exactly Jerome&#x27;s incubabat. Rashi and Jerome, seven centuries apart, gloss the same Hebrew verb with the same vernacular sense from opposite sides. The Throne of Glory standing in the air is from a different source [CHECK: PdRE / Midrash Konen].</p>
+    <footer>
+      <span class="cred">English: Rosenbaum–Silbermann 1929–34 · PD</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-24" title="Rashi&#x27;s &#x27;like a dove (yonah) hovering over the nest&#x27; follows the Bavli&#x27;s dove (Chagigah 15a), not Bereshit Rabbah&#x27;s unspecified bird (&#x27;of); the dove settles which source he is quoting.">→ cites · Babylonian Talmud</button><button class="chip echoes" data-thread="t-k7-25" title="The Ben Zoma story is in both BR 2:4 and Chagigah 15a; Rashi&#x27;s wording is the Bavli&#x27;s, but Rashi elsewhere cites BR by name on 1:1–5.">→ echoes · Bereshit Rabbah</button><button class="chip parallel" data-thread="t-k7-20" title="Abelard&#x27;s &#x27;volitabat&#x27; (flutter) is the sense Rashi&#x27;s &#x27;dove hovering over the nest&#x27; gives merahefet. Abelard consulted Jews on Hebrew elsewhere; no citation here. [CHECK for a documented channel]">← parallel · Peter Abelard</button><button class="chip parallel" data-thread="t-k7-28" title="Jerome&#x27;s incubabat and Rashi&#x27;s Old French acoveter (&#x27;to cover, brood&#x27;) give the same vernacular sense to merahefet, 700 years apart, with no possible contact. The only place on this crux where the two benches reach the same word.">← parallel · Jerome</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="bruno-gen-1-2" data-date="1100">
+  <div class="axis"><span class="yr">c. 1100</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Bruno of Segni</span>
+      <span class="what">bruno-gen</span>
+      <span class="where">Segni</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">ut bonus artifex … jam tunc facere disponebat</span></p>
+    <div class="en draft">But the Spirit of God was borne over the waters, because, like a good craftsman, he was even then arranging to make this so manifold variety of creatures that we see. So we too, for example, when about to build a house, looking over the timber with eye and mind, assign some pieces to beams, some to columns, and others to other uses.</div>
+    <details class="orig">
+      <summary>Latin · PL 164, col. 148C</summary>
+      <div class="lat" dir="ltr">Dei. vero Spiritus ferebatur super aquas, quia ut bonus artifex, hanc, quam videmus, tam multiplicem creaturarum varietatem, jam tunc facere disponebat. Sic enim et nos, exempli gratia, domum composituri, lignorum materiam oculis menteque contemplantes, alia trabibus, alia vero columnis, atque alia aliis officiis destinamus.</div>
+    </details>
+    <p class="note">The craftsman becomes a house-builder sorting timber. The digitization reads &#x27;Dei. vero&#x27; — the PL plate should be checked for the stop.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-14" title="&#x27;ut bonus artifex … disponebat&#x27; with the house-builder sorting timber elaborating Augustine&#x27;s &#x27;voluntas artificis ligno&#x27;.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="rupert-gen-1-8" data-date="1114">
+  <div class="axis"><span class="yr">c. 1114</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Rupert of Deutz</span>
+      <span class="what">rupert-gen</span>
+      <span class="where">Liège</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">melioratur ovum in eo quod calore volucris animatur et pullum producit</span></p>
+    <div class="en draft">For next follows the forming or adorning of that same creature, and it receives from the attention of the Spirit of God as great a bettering and as great a supplying of its poverty as, in its own small measure, an egg is bettered in that it is quickened by a bird&#x27;s warmth and brings forth a chick. And what do we think this spirit is, but the goodness and love of God — a love not of feelings but substantial; love, I say, and life, and living power abiding in the Son and the Father, or proceeding from both, consubstantial with Father and Son.</div>
+    <details class="orig">
+      <summary>Latin · PL 167, col. 205C</summary>
+      <div class="lat" dir="ltr">Deinceps namque creaturae ejusdem formatio vel exornatio succedit, tantamque ex intentione Spiritus Dei meliorationem et tantum inopiae suae supplementum capit, quantum pro modulo suo melioratur ovum in eo quod calore volucris animatur et pullum producit. Quid autem putamus esse hunc spiritum, nisi bonitatem amoremque Dei, amorem non affectuum, sed substantialem, amorem, inquam, et vitam, virtutemque vivam in Filio et Patre manentem, vel ab utroque procedentem, Patri Filioque consubstantialem.</div>
+    </details>
+    <p class="note">Rupert has the egg but not the Syrian: the image arrives already naturalized. His &#x27;love&#x27; is Confessions XIII.9 turned Trinitarian. Not found by the plan&#x27;s search; surfaced by grepping the TEI for the bird vocabulary.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-16" title="&#x27;ovum … calore volucris animatur et pullum producit&#x27; is Augustine&#x27;s &#x27;ova foventur ab alitibus … formandis pullis&#x27;; the Syrian is gone.">→ echoes · Augustine</button><button class="chip echoes" data-thread="t-k7-17" title="&#x27;bonitatem amoremque Dei … amorem et vitam&#x27; develops Conf. XIII.9&#x27;s Spirit-as-gift-and-love reading of the same verse.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin slot" id="glossa-1-2-ruach" data-date="1120">
+  <div class="axis"><span class="yr">compilation 1110–1130</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Glossa ordinaria (school of Laon)</span>
+      <span class="what">glossa</span>
+      <span class="where">Laon</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Spiritus Dei ferebatur super aquas</span></p>
+    <div class="en">[SLOT — pending Wilson&#x27;s edition]</div>
+    <details class="orig">
+      <summary>Latin · migne.app/glossa (Wilson&#x27;s edition), not PL 113</summary>
+      <div class="lat" dir="ltr">[SLOT — Wilson&#x27;s Englished Glossa on Genesis is in progress 2026-09-05; paste marginal and interlinear glosses on 1:2 here]</div>
+    </details>
+    <p class="note">Reserved. Expect Bede/Rabanus (Trinity), Augustine (power not place), Isidore (heart) in the margin; check whether the bird reaches the interlinear.</p>
+    <footer>
+      <span class="cred">English: wilson-pruitt · CHECK</span>
+      <span class="chips"></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="abelard-hex-1-2" data-date="1130">
+  <div class="axis"><span class="yr">c. 1130</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Peter Abelard</span>
+      <span class="what">abelard-hex</span>
+      <span class="where">The Paraclete (Nogent-sur-Seine)</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Hebraicum habet, volitabat super faciem aquarum</span></p>
+    <div class="en draft">&#x27;And the Spirit of the Lord was borne over the waters.&#x27; The Hebrew has &#x27;was fluttering over the face of the waters.&#x27; One translation has &#x27;was warming the waters,&#x27; another &#x27;was borne over the waters,&#x27; as does the present one we have in hand, which first comes to us to be expounded. […] Another translation, as we said, also has &#x27;and the Spirit of the Lord was warming the waters,&#x27; after the manner of a bird that sits upon an egg to warm and quicken it; whence we rightly call the Holy Spirit the giver of life. And that confused mass is well compared to an egg not yet quickened or formed, in which, as in an egg containing four things in itself, the four elements are comprised…</div>
+    <details class="orig">
+      <summary>Latin · PL 178, col. 735B</summary>
+      <div class="lat" dir="ltr">Et Spiritus Domini ferebatur super aquas. Hebraicum habet, volitabat super faciem aquarum. Translatio vero quaedam habet, fovebat aquas, quaedam, ferebatur super aquas, sicut habet praesens quam prae manibus habemus, ac primum nobis occurrit exponenda. Quantum ergo nobis videtur, aquarum etiam nomine fluidam illam atque instabilem congeriem nondum certa partium suarum collocatione firmatam comprehendit. Super hanc itaque Spiritus Domini ferebatur, quia ut eam ordinaret, tanquam imperio suo subjectam divina disponebat gratia, ne videlicet ulterius esset inanis aut vacua, seu tenebrosa vel fluida. Quid enim Spiritus Dei nisi ejus bonitas intelligitur, cujus participatione sunt bona universa? Quae videlicet Dei bonitas, quia nondum in illa elementorum confusione apparebat, superferri potius illi quam inferri dicebatur, quia nondum in ea operatus fuerat unde aliquid utilitatis ipsa praetenderet. Unde nec in ejus commendatione: dicitur vidit Deus quia bonum est, sicut in commendatione reliquorum operum. Diligenter etiam dicit, ferebatur super aquas potius quam erat, quasi ostendens eum habere quemdam transitum in istis, ut de tenebris ad lucem produceret, non in eis permanentiam habere, quas nequaquam in hac confusione proposuerat relinquere. Alia etiam, ut diximus, translatio habet, et Spiritus Domini fovebat aquas, more videlicet avis, quae ovo incumbit, ut ipsum foveat atque vivificet; unde et bene vivificatorem Spiritum sanctum appellamus. Bene autem ovo nondum vivificato aut formato illa confusa congeries comparatur, in qua tanquam in ovo quatuor in se continenti quatuor elementa comprehendun</div>
+    </details>
+    <p class="note">The one Latin witness who reports the Hebrew as &#x27;fluttering&#x27; (volitabat) — which is what merahefet means in Deut 32:11 and what Ben Zoma and Rashi hear — rather than Jerome&#x27;s &#x27;brooding&#x27;. He keeps &#x27;warming&#x27; only as &#x27;a certain translation&#x27;. Where did Abelard get volitabat? Not from Jerome. A Jewish informant is possible [CHECK]. The excerpt spans cols 735B–735D; the middle is elided in the English.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-18" title="&#x27;more avis quae ovo incumbit, ut ipsum foveat atque vivificet&#x27; = Augustine&#x27;s warming bird; &#x27;quaedam translatio fovebat&#x27; = the Syriac variant as transmitted by Augustine.">→ echoes · Augustine</button><button class="chip contests" data-thread="t-k7-19" title="Abelard reports &#x27;Hebraicum habet volitabat&#x27; against Jerome&#x27;s &#x27;in Hebraeo … incubabat&#x27;. He does not name Jerome, but the claim about the Hebrew is contradictory and deliberate.">→ contests · Jerome</button><button class="chip parallel" data-thread="t-k7-20" title="Abelard&#x27;s &#x27;volitabat&#x27; (flutter) is the sense Rashi&#x27;s &#x27;dove hovering over the nest&#x27; gives merahefet. Abelard consulted Jews on Hebrew elsewhere; no citation here. [CHECK for a documented channel]">→ parallel · Rashi</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="hugh-adnot-gen-1-2" data-date="1130">
+  <div class="axis"><span class="yr">c. 1130</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Hugh of St Victor</span>
+      <span class="what">hugh-adnot</span>
+      <span class="where">Paris</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Spiritum Dei vocat ejus intentionem</span></p>
+    <div class="en draft">&#x27;And the Spirit of God was borne over the waters.&#x27; He calls &#x27;the Spirit of God&#x27; his intention, who like a craftsman presided over the work to be formed; &#x27;the waters&#x27; he calls that mist, on account of its mobility; and so he names the same thing now &#x27;abyss&#x27; for its depth, now &#x27;darkness&#x27; for the absence of light, now &#x27;waters&#x27; for its mobility.</div>
+    <details class="orig">
+      <summary>Latin · PL 175, col. 36A</summary>
+      <div class="lat" dir="ltr">Et spiritus Dei ferebatur super aquas. Spiritum Dei vocat ejus intentionem, qui quasi artifex operi formando praecerat, aquas vocat nebulam illam propter mobilitatem: et ita eamdem rem modo abyssum propter profunditatem, modo tenebras propter absentiam lucis, modo aquas propter mobilitatem appellat.</div>
+    </details>
+    <p class="note">The most physical Latin reading: the waters are a mist of mixed elements, the Spirit is God&#x27;s intention. Hugh&#x27;s Adnotationes are the literal school; his De sacramentis treats the same verse theologically. The TEI reads &#x27;praecerat&#x27; for &#x27;praeerat&#x27;.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-15" title="&#x27;quasi artifex operi formando praeerat&#x27;; Hugh keeps the craftsman but replaces will with &#x27;intentio&#x27;.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="honorius-hex-1" data-date="1140">
+  <div class="axis"><span class="yr">c. 1140</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Honorius Augustodunensis</span>
+      <span class="what">honorius-hex</span>
+      <span class="where">Regensburg</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">vel aquas fovebat, id est cuncta de aquis procreanda animabat</span></p>
+    <div class="en draft">&#x27;And the Spirit of the Lord was borne over the waters,&#x27; or &#x27;was warming the waters,&#x27; that is, was giving life to all that was to be brought forth from the waters. And note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposing of things, to the Holy Spirit the quickening, or adorning, of all.</div>
+    <details class="orig">
+      <summary>Latin · PL 172, col. 254C</summary>
+      <div class="lat" dir="ltr">Et Spiritus Domini ferebatur super aquas, vel aquas fovebat, id est cuncta de aquis procreanda animabat. Et nota Trinitatem. Deo Patri ascribitur mundi creatio, Filio rerum dispositio, Spiritui sancto omnium vivificatio, vel ornatio.</div>
+    </details>
+    <p class="note">By 1140 &#x27;vel aquas fovebat&#x27; is offered as a bare variant reading, no Syrian, no bird: the image has become a lemma.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip echoes" data-thread="t-k7-21" title="&#x27;vel aquas fovebat, id est … animabat&#x27; offers the Syriac &#x27;warmed&#x27; as a bare variant; the wording &#x27;animabat&#x27; follows Ambrose/Augustine&#x27;s vivificatio.">→ echoes · Augustine</button></span>
+    </footer>
+  </div>
+</article>
+<article class="w latin" id="comestor-hs-gen-1" data-date="1170">
+  <div class="axis"><span class="yr">c. 1170</span></div>
+  <div class="node" aria-hidden="true"></div>
+  <div class="body">
+    <header>
+      <span class="trad">Latin</span>
+      <span class="who">Peter Comestor</span>
+      <span class="what">comestor-hs</span>
+      <span class="where">Paris</span>
+    </header>
+    <p class="lemma"><span class="lem lat" dir="ltr">Hebraeus habet pro super ferebatur, incubabat, vel Syra lingua, fovebat, sicut avis ova</span></p>
+    <div class="en draft">The Hebrew has, for &#x27;was borne above,&#x27; &#x27;was brooding,&#x27; or in the Syriac tongue &#x27;was warming,&#x27; as a bird her eggs. In this, too, the whole beginning of the world being born is noted, together with its governance. Plato misunderstood this passage, thinking it was said of the world-soul. But it is said of the Holy Spirit creating, of whom we read, &#x27;Send forth your Spirit, and they shall be created&#x27; (Ps 104:30).</div>
+    <details class="orig">
+      <summary>Latin · PL 198, col. 1057A</summary>
+      <div class="lat" dir="ltr">Hebraeus habet pro super ferebatur, incubabat, vel Syra lingua, fovebat, sicut avis ova. In quo etiam omne cum regimine nascentis mundi notatur initium. Hunc locum male intellexit Plato, dictum hoc putans de anima mundi. Sed dictum est de Spiritu sancto creante, de quo legitur: Emitte Spiritum tuum, et creabuntur (Psal. CIII) .</div>
+    </details>
+    <p class="note">The textbook of the schools fuses Jerome&#x27;s Hebrew and Basil&#x27;s Syriac into one sentence and adds a new opponent: Plato&#x27;s world-soul, i.e. William of Conches and the Chartres reading of the Spirit as anima mundi. The bird has become a proof against philosophers.</p>
+    <footer>
+      <span class="cred">Draft English (Claude), awaiting Wilson</span>
+      <span class="chips"><button class="chip cites" data-thread="t-k7-22" title="&#x27;Hebraeus habet pro superferebatur incubabat&#x27; is Jerome&#x27;s rendering, attributed to &#x27;the Hebrew&#x27;.">→ cites · Jerome</button><button class="chip cites" data-thread="t-k7-23" title="&#x27;vel Syra lingua fovebat, sicut avis ova&#x27; is Basil&#x27;s Syrian, via Augustine Gnl I.18.">→ cites · Basil of Caesarea</button></span>
+    </footer>
+  </div>
+</article>
+    </section>
+    <aside class="rail">
+      <div class="ev" id="ev"><b>Evidence</b>Hover or focus a thread to read why the edge exists.</div>
+      <div><h3>Persons</h3><ul><li><span>Peter Abelard</span><small>1079–1142</small></li><li><span>Alcuin</span><small>c. 735–804</small></li><li><span>Ambrose</span><small>c. 339–397</small></li><li><span>Angelomus of Luxeuil</span><small>d. c. 855</small></li><li><span>Augustine</span><small>354–430</small></li><li><span>Basil of Caesarea</span><small>c. 330–379</small></li><li><span>Babylonian Talmud</span><small>redacted 500–600</small></li><li><span>Bede</span><small>c. 673–735</small></li><li><span>Shimon ben Zoma</span><small>fl. c. 110–135</small></li><li><span>Bereshit Rabbah</span><small>compiled 400–500</small></li><li><span>Bruno of Segni</span><small>c. 1045–1123</small></li><li><span>Peter Comestor</span><small>c. 1100–1178</small></li><li><span>Glossa ordinaria (school of Laon)</span><small>c. 1110–1130</small></li><li><span>Honorius Augustodunensis</span><small>c. 1080–1154</small></li><li><span>Hugh of St Victor</span><small>c. 1096–1141</small></li><li><span>Isidore of Seville</span><small>c. 560–636</small></li><li><span>Jerome</span><small>c. 347–420</small></li><li><span>The Seventy</span><small>3rd c. BCE</small></li><li><span>Mar Zutra</span><small></small></li><li><span>Targum Onkelos</span><small>2nd c. (redaction 3rd–4th)</small></li><li><span>R. Ḥaggai</span><small></small></li><li><span>R. Pedat</span><small></small></li><li><span>R. Yehoshua ben Ḥananya</span><small>fl. c. 90–130</small></li><li><span>Rabanus Maurus</span><small>c. 780–856</small></li><li><span>Rashi</span><small>1040–1105</small></li><li><span>Rav Aḥa bar Yaakov</span><small></small></li><li><span>Remigius of Auxerre</span><small>c. 841–908</small></li><li><span>R. Shimon ben Lakish</span><small>c. 200–275</small></li><li><span>Rupert of Deutz</span><small>c. 1075–1129</small></li><li><span>Targum Neofiti</span><small>1st–4th c.</small></li><li><span>Targum Pseudo-Jonathan</span><small>7th–8th c. (older strata)</small></li><li><span>Wigbod</span><small>fl. c. 790</small></li></ul></div>
+      <div><h3>Places</h3><ul><li>Aachen</li><li>Alexandria</li><li>Auxerre</li><li>Babylonia (Sura / Pumbedita)</li><li>Bethlehem</li><li>Caesarea in Cappadocia</li><li>Fulda</li><li>Galilee (Tiberias / Sepphoris)</li><li>Hippo Regius</li><li>Jarrow</li><li>Laon</li><li>Liège</li><li>Luxeuil</li><li>Milan</li><li>Palestine</li><li>The Paraclete (Nogent-sur-Seine)</li><li>Paris</li><li>Regensburg</li><li>Segni</li><li>Seville</li><li>Thagaste</li><li>Tours</li><li>Troyes</li></ul></div>
+    </aside>
+  </div>
+  <div class="colophon">
+    Latin from the Patrologia Latina (public domain), located with the Corpus Corporum TEI and cited by PL volume and column. Hebrew and Aramaic from Sefaria: Wikisource Talmud Bavli (CC BY-SA), Bereshit Rabbah, Rashi (Silbermann, PD), Targums. English: Sefaria Midrash Rabbah 2022 (CC BY, attribution to be pasted), Silbermann (PD), Etheridge (PD), Brenton (PD); all other English is a fresh draft awaiting Wilson Pruitt's revision. The Glossa ordinaria slot awaits Wilson's edition (migne.app/glossa). No CC BY-NC text is embedded.
+  </div>
+</div>
+<script>
+(function(){
+  const T = [{"id": "t-k7-01", "from": "vulgate-1-2", "to": "lxx-1-2", "type": "transmits", "evidence": "Vulgate 'ferebatur' renders LXX ἐπεφέρετο, not the Hebrew merahefet; the Latin bench inherits a Greek verb of motion.", "crux": "ruach-hovering"}, {"id": "t-k7-02", "from": "ambrose-hex-1-8-29", "to": "basil-hex-lat-2-6", "type": "cites", "evidence": "'Syrus, qui vicinus Hebraeo est … fovebat aquas, id est vivificabat' reproduces Basil Hex. II.6's Syrian and his gloss 'warmed and quickened'. Ambrose read Basil's Greek; Eustathius' Latin is the bench's later access to the same source.", "crux": "ruach-hovering"}, {"id": "t-k7-03", "from": "aug-gnl-1-18-36", "to": "basil-hex-lat-2-6", "type": "cites", "evidence": "'a quodam docto christiano syro fertur expositum … non superferebatur sed fovebat' names Basil's Syrian at one remove ('fertur'); 'sicut ova foventur ab alitibus' extends the gallina cubans.", "crux": "ruach-hovering"}, {"id": "t-k7-04", "from": "aug-gnl-1-18-36", "to": "ambrose-hex-1-8-29", "type": "echoes", "evidence": "Augustine's access to the Syrian is most plausibly Ambrose's Hexaemeron (heard in Milan 386–7); the 'vivificatio' motif matches Ambrose's 'vivificabat … animaret ad vitam'.", "crux": "ruach-hovering"}, {"id": "t-k7-05", "from": "jerome-hq-1-2", "to": "b-chag-15a", "type": "parallel", "evidence": "Both derive a bird from merahefet. Jerome: incubabat/confovebat, a bird warming eggs. Ben Zoma: a dove hovering over her young and NOT touching. Same verb, opposite physical claim. No citation either way; Jerome's 'in Hebraeo' points at the word, not at a rabbinic informant.", "crux": "ruach-hovering"}, {"id": "t-k7-06", "from": "wigbod-gen-1-2", "to": "jerome-hq-1-2", "type": "cites", "evidence": "Wigbod prints Jerome's paragraph verbatim under the label HIERONYMUS (PL 96:1116C).", "crux": "ruach-hovering"}, {"id": "t-k7-07", "from": "wigbod-gen-1-2", "to": "aug-gnm-1-5-8", "type": "cites", "evidence": "Wigbod prints Augustine's sun-over-earth paragraph verbatim (PL 96:1112D).", "crux": "ruach-hovering"}, {"id": "t-k7-08", "from": "angelom-gen-1-2", "to": "jerome-hq-1-2", "type": "echoes", "evidence": "'alia translatio dicit: Incumbebat seu confovebat, in similitudine volucris, ova calore animantis' is Jerome's wording, unnamed and re-labelled as a translation variant.", "crux": "ruach-hovering"}, {"id": "t-k7-09", "from": "angelom-gen-1-2", "to": "aug-gnl-imp-4-16", "type": "echoes", "evidence": "'non localiter sed potentialiter … sicut superfertur rebus fabricandis voluntas artificis' is Augustine's craftsman (Gnl imp. §16 / Gnm I.5).", "crux": "ruach-hovering"}, {"id": "t-k7-10", "from": "rabanus-gen-1-1", "to": "aug-gnl-imp-4-16", "type": "echoes", "evidence": "'in similitudinem fabri, cujus voluntas his quae fabricandae sunt rebus solet superferri' restates Augustine's voluntas artificis; 'positione loci' = 'spatia locorum'.", "crux": "ruach-hovering"}, {"id": "t-k7-11", "from": "rabanus-gen-1-1", "to": "bede-gen-1-2", "type": "cites", "evidence": "PL 107:447C copies Bede's 'totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret' verbatim.", "crux": "ruach-hovering"}, {"id": "t-k7-12", "from": "alcuin-int-29", "to": "aug-gnm-1-5-8", "type": "echoes", "evidence": "'Non pervagatione, sed potestate' compresses 'non per spatia locorum … sed per potentiam'.", "crux": "ruach-hovering"}, {"id": "t-k7-13", "from": "remigius-gen-1-2", "to": "aug-gnl-imp-4-16", "type": "echoes", "evidence": "'mens vel sapientia alicujus artificis superfertur operi' = voluntas artificis, with 'sapientia' added.", "crux": "ruach-hovering"}, {"id": "t-k7-14", "from": "bruno-gen-1-2", "to": "aug-gnl-imp-4-16", "type": "echoes", "evidence": "'ut bonus artifex … disponebat' with the house-builder sorting timber elaborating Augustine's 'voluntas artificis ligno'.", "crux": "ruach-hovering"}, {"id": "t-k7-15", "from": "hugh-adnot-gen-1-2", "to": "aug-gnl-imp-4-16", "type": "echoes", "evidence": "'quasi artifex operi formando praeerat'; Hugh keeps the craftsman but replaces will with 'intentio'.", "crux": "ruach-hovering"}, {"id": "t-k7-16", "from": "rupert-gen-1-8", "to": "aug-gnl-1-18-36", "type": "echoes", "evidence": "'ovum … calore volucris animatur et pullum producit' is Augustine's 'ova foventur ab alitibus … formandis pullis'; the Syrian is gone.", "crux": "ruach-hovering"}, {"id": "t-k7-17", "from": "rupert-gen-1-8", "to": "aug-conf-13-9-10", "type": "echoes", "evidence": "'bonitatem amoremque Dei … amorem et vitam' develops Conf. XIII.9's Spirit-as-gift-and-love reading of the same verse.", "crux": "ruach-hovering"}, {"id": "t-k7-18", "from": "abelard-hex-1-2", "to": "aug-gnl-1-18-36", "type": "echoes", "evidence": "'more avis quae ovo incumbit, ut ipsum foveat atque vivificet' = Augustine's warming bird; 'quaedam translatio fovebat' = the Syriac variant as transmitted by Augustine.", "crux": "ruach-hovering"}, {"id": "t-k7-19", "from": "abelard-hex-1-2", "to": "jerome-hq-1-2", "type": "contests", "evidence": "Abelard reports 'Hebraicum habet volitabat' against Jerome's 'in Hebraeo … incubabat'. He does not name Jerome, but the claim about the Hebrew is contradictory and deliberate.", "crux": "ruach-hovering"}, {"id": "t-k7-20", "from": "abelard-hex-1-2", "to": "rashi-1-2b", "type": "parallel", "evidence": "Abelard's 'volitabat' (flutter) is the sense Rashi's 'dove hovering over the nest' gives merahefet. Abelard consulted Jews on Hebrew elsewhere; no citation here. [CHECK for a documented channel]", "crux": "ruach-hovering"}, {"id": "t-k7-21", "from": "honorius-hex-1", "to": "aug-gnl-1-18-36", "type": "echoes", "evidence": "'vel aquas fovebat, id est … animabat' offers the Syriac 'warmed' as a bare variant; the wording 'animabat' follows Ambrose/Augustine's vivificatio.", "crux": "ruach-hovering"}, {"id": "t-k7-22", "from": "comestor-hs-gen-1", "to": "jerome-hq-1-2", "type": "cites", "evidence": "'Hebraeus habet pro superferebatur incubabat' is Jerome's rendering, attributed to 'the Hebrew'.", "crux": "ruach-hovering"}, {"id": "t-k7-23", "from": "comestor-hs-gen-1", "to": "basil-hex-lat-2-6", "type": "cites", "evidence": "'vel Syra lingua fovebat, sicut avis ova' is Basil's Syrian, via Augustine Gnl I.18.", "crux": "ruach-hovering"}, {"id": "t-k7-24", "from": "rashi-1-2b", "to": "b-chag-15a", "type": "cites", "evidence": "Rashi's 'like a dove (yonah) hovering over the nest' follows the Bavli's dove (Chagigah 15a), not Bereshit Rabbah's unspecified bird ('of); the dove settles which source he is quoting.", "crux": "ruach-hovering"}, {"id": "t-k7-25", "from": "rashi-1-2b", "to": "br-2-4", "type": "echoes", "evidence": "The Ben Zoma story is in both BR 2:4 and Chagigah 15a; Rashi's wording is the Bavli's, but Rashi elsewhere cites BR by name on 1:1–5.", "crux": "ruach-hovering"}, {"id": "t-k7-26", "from": "b-chag-15a", "to": "br-2-4", "type": "parallel", "evidence": "Same Ben Zoma story, two redactions. BR: bird beating its wings, touching-and-not-touching. Bavli: dove over her young, not touching, three fingerbreadths. Compiled independently from a shared Palestinian tradition.", "crux": "ruach-hovering"}, {"id": "t-k7-27", "from": "targ-psj-1-2", "to": "targ-neof-1-2", "type": "parallel", "evidence": "Both render ruach Elohim as 'a spirit of mercy/mercies from before the LORD'; the Palestinian targum tradition shared the phrase.", "crux": "ruach-hovering"}, {"id": "t-k7-28", "from": "jerome-hq-1-2", "to": "rashi-1-2b", "type": "parallel", "evidence": "Jerome's incubabat and Rashi's Old French acoveter ('to cover, brood') give the same vernacular sense to merahefet, 700 years apart, with no possible contact. The only place on this crux where the two benches reach the same word.", "crux": "ruach-hovering"}];
+  const svg = document.getElementById('edges'), stream = document.getElementById('stream'), ev = document.getElementById('ev');
+  const byId = id => document.getElementById(id);
+  function draw(){
+    const sb = stream.getBoundingClientRect(); svg.innerHTML='';
+    const W = svg.getBoundingClientRect().width || 56;
+    const ys = {};
+    T.forEach((t,i) => {
+      const a = byId(t.from), b = byId(t.to); if(!a||!b) return;
+      const na = a.querySelector('.node'), nb = b.querySelector('.node');
+      const ya = na.getBoundingClientRect().top - sb.top + 28.5, yb = nb.getBoundingClientRect().top - sb.top + 28.5;
+      const x = W/2, bulge = Math.min(40, 10 + Math.abs(ya-yb)/40) * (i % 2 ? -1 : -1);
+      const p = document.createElementNS('http://www.w3.org/2000/svg','path');
+      p.setAttribute('d', `M ${x} ${ya} C ${x+bulge} ${ya}, ${x+bulge} ${yb}, ${x} ${yb}`);
+      p.setAttribute('class', t.type); p.dataset.thread = t.id;
+      p.addEventListener('mouseenter', ()=>hi(t.id,true)); p.addEventListener('mouseleave', ()=>hi(t.id,false));
+      svg.appendChild(p);
+    });
+  }
+  function hi(id,on){
+    const t = T.find(x=>x.id===id); if(!t) return;
+    svg.querySelectorAll('path').forEach(p=>p.classList.toggle('on', on && p.dataset.thread===id));
+    [t.from,t.to].forEach(w=>{ const el=byId(w); el && el.classList.toggle('hot', on); });
+    if(on){ const f=byId(t.from), g=byId(t.to);
+      const nm = el => el ? el.querySelector('.who').textContent : '?';
+      ev.innerHTML = '<b>'+t.type+' · '+nm(f)+' → '+nm(g)+'</b>'+t.evidence.replace(/</g,'&lt;'); }
+  }
+  document.querySelectorAll('.chip').forEach(c=>{
+    const id=c.dataset.thread;
+    c.addEventListener('mouseenter',()=>hi(id,true)); c.addEventListener('mouseleave',()=>hi(id,false));
+    c.addEventListener('focus',()=>hi(id,true)); c.addEventListener('blur',()=>hi(id,false));
+    c.addEventListener('click',()=>{ const t=T.find(x=>x.id===id); const other = c.textContent.startsWith('→')? t.to : t.from; const el=byId(other); el && el.querySelector('.body').scrollIntoView({behavior:'smooth',block:'center'}); });
+  });
+  draw();
+  document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle', draw));
+  window.addEventListener('resize', draw);
+  if (document.fonts) document.fonts.ready.then(draw);
+})();
+</script>

@@ -1,0 +1,48 @@
+{
+ "id": "br-2-4",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת",
+  "en": "and the spirit of God was hovering"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת, זֶה רוּחוֹ שֶׁל מֶלֶךְ הַמָּשִׁיחַ, הֵיאַךְ מָה דְאַתְּ אָמַר (ישעיה יא, ב): וְנָחָה עָלָיו רוּחַ ה', בְּאֵיזוֹ זְכוּת מְמַשְׁמֶשֶׁת וּבָאָה, הַמְרַחֶפֶת עַל פְּנֵי הַמָּיִם, בִּזְכוּת הַתְּשׁוּבָה שֶׁנִּמְשְׁלָה כַּמַּיִם, שֶׁנֶּאֱמַר (איכה ב, יט): שִׁפְכִי כַמַּיִם לִבֵּךְ. רַבִּי חַגַּי בְּשֵׁם רַבִּי פְּדָת אָמַר, בְּרִית כְּרוּתָה לַמַּיִם שֶׁאֲפִלּוּ בִּשְׁעַת שָׁרָב רוּחָה שַׁיְיפָה, וּכְבָר הָיָה רַבִּי שִׁמְעוֹן בֶּן זוֹמָא יוֹשֵׁב וְתוֹהֶא, וְעָבַר רַבִּי יְהוֹשֻׁעַ וְשָׁאַל בִּשְׁלוֹמוֹ, פַּעַם וּשְׁתַּיִם וְלֹא הֵשִׁיבוֹ, בַּשְׁלִישִׁית הֵשִׁיבוֹ בִּבְהִילוּת, אָמַר לוֹ בֶּן זוֹמָא מֵאַיִן הָרַגְלַיִם, אָמַר לוֹ מְעַיֵּן הָיִיתִי, אָמַר לוֹ מֵעִיד אֲנִי עָלַי שָׁמַיִם וָאָרֶץ שֶׁאֵינִי זָז מִכָּאן עַד שֶׁתּוֹדִיעֵנִי מֵאַיִן הָרַגְלַיִם. אָמַר לוֹ מִסְתַּכֵּל הָיִיתִי בְּמַעֲשֵׂה בְרֵאשִׁית, וְלֹא הָיָה בֵּין מַיִם הָעֶלְיוֹנִים לַמַּיִם הַתַּחְתּוֹנִים אֶלָּא כִּשְׁתַּיִם וְשָׁלשׁ אֶצְבָּעוֹת, וְרוּחַ אֱלֹהִים מְנַשֶּׁבֶת אֵין כְּתִיב כָּאן אֶלָּא מְרַחֶפֶת, כָּעוֹף הַזֶּה שֶׁהוּא מְרַפְרֵף בִּכְנָפָיו וּכְנָפָיו נוֹגְעוֹת וְאֵינָן נוֹגְעוֹת. נֶהְפַּךְ רַבִּי יְהוֹשֻׁעַ וְאָמַר לְתַלְמִידָיו, הָלַךְ לוֹ בֶּן זוֹמָא, וְלֹא שָׁהוּ יָמִים מֻעָטִים וּבֶן זוֹמָא בָּעוֹלָם.",
+  "source": "Bereshit Rabbah 2:4 (Vilna numbering; Theodor–Albeck differs)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "“And the spirit of God was hovering” – this is the spirit of the messianic king, as it says: “The spirit of the Lord will rest upon him” (Isaiah 11:2). By what merit will it [the Messianic kingdom] come? “Hovering over the surface of the water” – by the merit of repentance, that is likened to water, as it is stated: “Pour out your heart like water [before the face of the Lord]” (Lamentations 2:19). Rabbi Ḥagai said in the name of Rabbi Pedat: A covenant is made with the water, that even when the weather is hot, the wind blows over it. It happened once that Rabbi Shimon ben Zoma was sitting, entranced in thought. Rabbi Yehoshua passed and greeted him once, twice, but he did not answer him. The third time, he answered him with a start. He said to him: ‘Ben Zoma, where were your thoughts?’ He said to him: ‘I have been contemplating.’ He said to him: ‘As the heavens and the earth are my witnesses, I shall not move from here until you inform me where your thoughts were.’ He said to him: ‘I was looking at the act of Creation, and [I saw that] between the upper waters and the lower waters there were only two or three fingerbreadths. “The spirit of the Lord was blowing” is not written, but rather, “was hovering” – like a bird that flaps its wings, they touch [the nest] but do not quite touch.’ Rabbi Yehoshua turned and said to his disciples: Ben Zoma is gone. Not even a few days passed with ben Zoma still in the world.",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "resh-lakish",
+  "r-hagai",
+  "r-pedat",
+  "ben-zoma",
+  "r-yehoshua-b-hananya"
+ ],
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "allegorical",
+  "literal"
+ ],
+ "notes": "Two answers in one section. Resh Lakish: the ruach is the spirit of the King Messiah (Isa 11:2), brought by repentance-as-water. Then the Ben Zoma story: 'blowing' is not written but 'hovering' — like a bird beating its wings, touching and not touching. Note the bird is an unspecified 'of' and the claim is touching-and-not-touching; the Bavli's version has a dove and no touching at all.",
+ "answers": [
+  "messiah",
+  "bird-hovering"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "remigius-gen-1-2",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 900,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Sicut mens vel sapientia alicujus artificis superfertur operi",
+  "en": "As the mind or wisdom of a craftsman is borne above his work"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Spiritus Dei ferebatur super aquas. Sicut mens vel sapientia alicujus artificis superfertur operi quod facturus est, ut quomodo vult ita illud faciat: ita et Spiritus sanctus superferebatur, praeordinans et quasi disponens quid, qualiter facere vellet.",
+  "source": "PL 131, col. 55B",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'The Spirit of God was borne over the waters.' As the mind or wisdom of some craftsman is borne above the work he is going to make, so that he may make it as he wills, so too the Holy Spirit was borne above, fore-ordaining and as it were arranging what, and in what manner, he willed to make.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Augustine's craftsman, now with 'wisdom' — the Spirit as the plan before the work. Remigius also gives a moral reading at col. 55D (the fluid hearts of men).",
+ "answers": [
+  "craftsman"
+ ]
+}

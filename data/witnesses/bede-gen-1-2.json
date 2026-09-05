@@ -1,0 +1,40 @@
+{
+ "id": "bede-gen-1-2",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "circa",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "totius simul Trinitatis in creatione mundi virtutem",
+  "en": "the power of the whole Trinity together in the creation of the world"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Bene autem cum in principio Deum, id est, in Filio Patrem fecisse coelum et terram praediceret, etiam sancti Spiritus intulit mentionem addendo: Et Spiritus Dei superferebatur super aquas, ut videlicet totius simul Trinitatis in creatione mundi virtutem cooperatam esse signaret.",
+  "source": "PL 91, col. 16C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And rightly, having first declared that in the beginning, that is, in the Son, the Father made heaven and earth, he brought in mention of the Holy Spirit too by adding, 'And the Spirit of God was borne above the waters,' so as to signify that the power of the whole Trinity together worked in the creation of the world.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ruach-hovering",
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "notes": "Bede has no bird and no Syrian on this verse: his 1:2 is Trinitarian (K3). Included here because Rabanus copies this sentence verbatim and it becomes the Glossa's spine.",
+ "answers": [
+  "trinity"
+ ]
+}
