@@ -1166,5 +1166,229 @@
   "type": "parallel",
   "evidence": "The schools' settled answer in its two registers, as at K10: Comestor prints the luminous cloud in a handbook without noticing that anyone ever thought otherwise, and Bonaventure raises the question in a disputation in order to rule the same way. The corporeal light wins by handbook and by quaestio at once.",
   "crux": "first-light"
+ },
+ {
+  "id": "t-k6-01",
+  "from": "vulgate-1-2",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Jerome renders tohu va-vohu 'inanis et vacua', where the Greek had ἀόρατος καὶ ἀκατασκεύαστος and the Old Latin 'invisibilis et incomposita'. The two Latin lemmas ask different questions — what the earth looked like, and what it lacked — and both are on the bench from the fifth century on.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-02",
+  "from": "aug-gnm-1-3-5",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Augustine's lemma throughout is 'terra invisibilis et incomposita', the Old Latin of the Greek pair; he never quotes Jerome's 'inanis et vacua' on this verse, in the Manichaean books, the Confessions or De Genesi ad litteram.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-03",
+  "from": "basil-hex-2-4",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Basil expounds ἀόρατος καὶ ἀκατασκεύαστος word by word — invisible for two reasons, unordered because not yet fruitful — and Eustathius' Latin keeps the Old Latin pair, so the Greek argument reaches the Latin bench with its lemma intact.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-04",
+  "from": "ambrose-hex-1-7-25",
+  "to": "basil-hex-2-4",
+  "type": "echoes",
+  "evidence": "Basil asks why, of two elements built with equal honour, heaven was complete and the earth still unordered; Ambrose answers with the good craftsman who lays a foundation before he distinguishes the parts and adds the adornment. Ambrose is expounding Basil's Hexaemeron through this book (cf. the Syrian at K7).",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-05",
+  "from": "aug-conf-12-21",
+  "to": "aug-gnm-1-3-5",
+  "type": "echoes",
+  "evidence": "The first of the five readings set out in Confessions XII.21 — 'that bodily thing which God made was still the formless matter of bodily things, without order, without light' — is the answer Augustine had given the Manichaeans thirteen years earlier; in the Confessions it is one true reading among five rather than the reading.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-06",
+  "from": "alcuin-int-30",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Alcuin's question carries its own source-note, '(Ibid. ex vers. LXX)': he knows the lemma he is glossing is the Septuagint's and not the text his pupils read.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-07",
+  "from": "angelom-gen-1-2-tohu",
+  "to": "alcuin-int-30",
+  "type": "echoes",
+  "evidence": "'Invisa propter obscuritatem, Incomposita propter deformitatem' is Alcuin's answer to Interrogatio 30 word for word, unattributed, with 'invisa' for 'invisibilis' — and Angelomus has moved it inside a discussion of the Vulgate's lemma, where it glosses 'the other translation'.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-08",
+  "from": "angelom-gen-1-2-tohu",
+  "to": "bede-gen-1-2-tohu",
+  "type": "echoes",
+  "evidence": "'quale sit coelum, quod primum condiderat, potest intelligi, videlicet quod ab omni hujus mundi volubili statu secretum … manet semper quietum' is Bede's sentence (PL 91:13C), unnamed; Angelomus reads 'divinae praesentiae' where the Corpus Corporum Bede prints 'divinae gloria praescientiae'.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-09",
+  "from": "glossa-1-2-terra",
+  "to": "bede-gen-1-2-tohu",
+  "type": "cites",
+  "evidence": "The gloss is labelled '(BEDA, Hexaem. tom. II.)' and compresses Bede's paragraph — the two heavens, the upper one filled with angels as soon as it was made, Job 38:7 with the morning stars glossed as the angels — to five sentences.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-10",
+  "from": "glossa-1-2-ruach",
+  "to": "remigius-gen-1-2-tohu",
+  "type": "cites",
+  "evidence": "The gloss Migne prints under '(STRAB.)' on this lemma — 'Inanis et vacua. Inutilis scilicet, et infructuosa, et incomposita. Omnia enim elementa commixta, confusa, et totum hoc aeris spatium aquis plenum; non quales nunc sunt, sed sicut nebulae tenues' — is Remigius of Auxerre at PL 131:55A, verbatim to the last clause about the waters above the heavens.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-11",
+  "from": "comestor-hs-1-2-tohu",
+  "to": "glossa-1-2-ruach",
+  "type": "echoes",
+  "evidence": "'machina mundialis adhuc erat inutilis, et infructuosa, et vacua ornatu suo' keeps two of the Glossa's three adjectives and replaces the third ('incomposita') with a phrase of his own; the subject has moved from the earth to the world-machine.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-12",
+  "from": "wigbod-gen-1-2-tohu",
+  "to": "isidore-quaest-1-2",
+  "type": "cites",
+  "evidence": "'Item spiritaliter: Terra scilicet carnis nostrae inanis et vacua erat, priusquam doctrinae acceperit formam' is Isidore, Quaestiones in Genesim I.2 (PL 83:209B), verbatim.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-13",
+  "from": "wigbod-gen-1-2-tohu",
+  "to": "aug-gnm-1-3-5",
+  "type": "cites",
+  "evidence": "The same compilation prints Augustine's Manichaean paragraph on this verse verbatim at PL 96:1111B under the Old Latin lemma 'terra invisibilis et incomposita', five columns before it asks 'Cur inanis et vacua?' under the Vulgate's. One book, two Latin texts of Gen 1:2, no seam.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-14",
+  "from": "abelard-hex-1-2-tohu",
+  "to": "bede-gen-1-2-tohu",
+  "type": "parallel",
+  "evidence": "Both withhold the pair from heaven on the ground that heaven had its inhabitants from the first: Bede from the silence ('why did he say these things of the earth, passing heaven by?'), Abelard from the adversative conjunction in 'terra AUTEM erat inanis'. Abelard does not name Bede, and the reasons for the angels' being passed over are different.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-15",
+  "from": "abelard-hex-1-2-tohu",
+  "to": "rupert-gen-1-2-tohu",
+  "type": "parallel",
+  "evidence": "The same split of the pair into two privations, sixteen years apart and with the terms distributed differently: Abelard, empty of fruit and void of an inhabitant; Rupert, empty of every shoot and void of all living things. No citation either way.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-16",
+  "from": "hugh-adnot-1-2-tohu",
+  "to": "abelard-hex-1-2-tohu",
+  "type": "parallel",
+  "evidence": "'Inanis a seminibus; vacua a germinibus' is the same operation again with a third distribution — and Hugh then offers a fourth, hollowness and the mist in the hollow, as an alternative in the same breath. The formula is school property by 1130; no one on this crux claims it.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-17",
+  "from": "hugh-sacr-1-1-tohu",
+  "to": "lxx-1-2",
+  "type": "cites",
+  "evidence": "'sive, ut alia translatio habet, « incomposita »' names the variant in the act of expounding the Vulgate — the first place on this bench where a reader is told plainly that the clause exists in two Latin forms.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-18",
+  "from": "hugh-sacr-1-1-tohu",
+  "to": "aug-conf-12-21",
+  "type": "parallel",
+  "evidence": "Hugh's reading — 'heaven and earth' name the matter of all things heavenly and earthly, in which all were created together in essence before they were made one after another in form — is Augustine's fifth reading in Confessions XII.21, reached without citation and stated as the single sense rather than as one of five.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-19",
+  "from": "bruno-gen-1-2-tohu",
+  "to": "br-2-3",
+  "type": "parallel",
+  "evidence": "The same clause read as a periodization of sacred history, from opposite ends. R. Yehuda bar Simon: tohu is Adam, va-vohu is Cain, the darkness is the generation of Enosh, the deep is the Flood, 'let there be light' is Abraham. Bruno: the earth is empty while the Church is without children, the darkness is the unread Scripture, and the emptiness ends when the fullness of the Gentiles has come in and Israel is saved. No contact is possible; the shape is identical and the contents are opposed.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-20",
+  "from": "bruno-gen-1-2-tohu",
+  "to": "isidore-quaest-1-2",
+  "type": "echoes",
+  "evidence": "Isidore's 'terra carnis nostrae', the flesh before it takes the form of doctrine, moved from the soul to the Church: Bruno's 'terra nostra' will no longer be called empty and void when it is inhabited by the fullness of so many sons.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-21",
+  "from": "rashi-1-2a",
+  "to": "br-2-2",
+  "type": "echoes",
+  "evidence": "Rashi's 'tohu is a word for astonishment and desolation, for a person would be astonished and appalled at the bohu in it' is the verb of Bereshit Rabbah 2:2, where the earth sits toheh u-voheh over her lot. The midrash's parable has become a lexical entry, and the one who is astonished has changed from the earth to the reader.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-22",
+  "from": "rashi-1-2a",
+  "to": "targ-onk-1-2",
+  "type": "echoes",
+  "evidence": "Rashi glosses bohu as 'reikut ve-tzadu', emptiness and waste — the two Aramaic words Onkelos uses to render the whole pair, 'tzadya ve-reikanya', in the other order. Rashi's peshat on the pair is the targum's, split between the two Hebrew words.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-23",
+  "from": "ibn-ezra-1-2",
+  "to": "b-chag-12a-tohu",
+  "type": "contests",
+  "evidence": "'Now in Sefer Yetzira: tohu — this is the green line, and bohu — these are the mefulamot stones. What is correct is as the Aramaic translator said.' Ibn Ezra names the tradition the Chagigah baraita carries and sets it aside in favour of Onkelos: the pair is a privation, not two objects.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-24",
+  "from": "ibn-ezra-1-2",
+  "to": "targ-onk-1-2",
+  "type": "cites",
+  "evidence": "'as the Aramaic translator has said' — Onkelos' tzadya ve-reikanya, supported from 'the howling waste of tohu' (Deut 32:10) and 'after tohu' (1 Sam 12:21), where the word means without substance.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-25",
+  "from": "ramban-1-2-tohu",
+  "to": "b-chag-12a-tohu",
+  "type": "echoes",
+  "evidence": "Both build on Isa 34:11, 'the line of tohu and the stones of bohu', and read it as an inventory of what tohu and bohu are. The baraita: a green line encircling the world, and slimy stones sunk in the deep. Ramban: the cord with which the craftsman marks out the plan of his building, and the stones as the forms in it. Ramban cites Sefer Yetzirah by name in the same paragraph, so the tradition is in front of him.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-26",
+  "from": "ramban-1-2-tohu",
+  "to": "rashi-1-2a",
+  "type": "echoes",
+  "evidence": "Ramban quotes the Bahir's R. Berekhya — 'what is tohu? a thing which astonishes people' — which is Rashi's etymology from the same root; but in Ramban the thing that astonishes is the primary matter itself, which cannot hold a name, rather than the sight of an empty land.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-27",
+  "from": "ramban-1-2-tohu",
+  "to": "ibn-ezra-1-2",
+  "type": "contests",
+  "evidence": "Ibn Ezra sets Sefer Yetzirah's green line aside and takes tohu as 'without substance', following Onkelos; Ramban keeps Sefer Yetzirah, cites it approvingly, and makes tohu a substance — the hyle — with bohu for its form. The two commentators Ramban reads side by side on 1:1 divide here on whether the word names anything at all.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-28",
+  "from": "br-2-3",
+  "to": "br-2-1",
+  "type": "echoes",
+  "evidence": "Both hang on Jer 4:23, 'I have seen the land, and behold, it is tohu va-vohu'. The prophet's re-use of the phrase for a land under judgement is what licenses the whole series of historical readings in Bereshit Rabbah 2; no Latin witness on this crux cites Jer 4:23 at all.",
+  "crux": "tohu-vabohu"
  }
 ]

@@ -1,0 +1,39 @@
+{
+ "id": "aug-conf-12-4",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 400,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Quid ergo vocaretur … nisi usitato aliquo vocabulo?",
+  "en": "What then was it to be called, if not by some familiar word?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quid ergo vocaretur, quod etiam sensu tardioribus utcumque insinuaretur, nisi usitato aliquo vocabulo? Quid autem in omnibus mundi partibus reperiri potest propinquius informati omnimodae, quam terra et abyssus? Minus enim speciosa sunt, pro suo gradu infimo, quam caetera superiora perlucida et luculenta omnia. Cur ergo non accipiam informitatem materiae, quam sine specie feceras, unde speciosum mundum faceres, ita commode hominibus intimatam, ut appellaretur terra invisibilis et incomposita? CAPUT V. Cur sic appellata videtur materia informis. 5. Ut cum in ea quaerit cogitatio quid sensus attingat, et dicit sibi, Non est intelligibilis forma sicut vita, sicut justitia, quia materies est corporum; neque sensibilis, quoniam quod videatur et quod sentiatur in invisibili et incomposita non est: dum sibi haec dicit humana cogitatio, conetur eam vel nosse ignorando, vel ignorare noscendo.",
+  "source": "PL 32, col. 827",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "What then was it to be called, so as to be conveyed even to those slower of understanding, if not by some familiar word? And what can be found in all the parts of the world nearer to complete formlessness than earth and the deep? For they are less comely, in their lowest degree, than all the other higher things, translucent and full of light. Why then should I not accept that the formlessness of matter — which you had made without form, that from it you might make a world of form — was so conveniently intimated to men that it should be called 'earth invisible and unordered'? [Chapter V. Why formless matter seems to be so called.] So that when thought searches in it for what sense may reach, and says to itself, It is not an intelligible form like life, like justice, since it is the matter of bodies; nor is it perceptible by sense, since what may be seen and what may be felt is not in the invisible and unordered — while human thought says this to itself, let it try either to know it by not knowing, or to be ignorant of it by knowing.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-a-name-for-us"
+ ],
+ "notes": "The answer that takes the question away. The pair is not a description of the earth and not the name of a thing: it is the most serviceable word available for formlessness, chosen because earth and the deep are what slower minds already know as the least comely things there are. Augustine keeps it strictly as a name — formless matter is neither an intelligible form like justice nor anything the senses can reach, so the mind can only try to know it by not knowing. That is the exact opposite of the Chagigah baraita, which answers the same question by pointing at a green line and a heap of stones."
+}

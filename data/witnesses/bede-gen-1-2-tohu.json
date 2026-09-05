@@ -1,0 +1,40 @@
+{
+ "id": "bede-gen-1-2-tohu",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "circa",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Ut quid enim haec de terra, praetermisso coelo, intulit?",
+  "en": "Why did he say these things of the earth and pass heaven by?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua, et tenebrae super faciem abyssi. Ut quid enim haec de terra, praetermisso coelo, intulit, nisi quia nihil tale de coelo intelligi voluit? Ipsum est enim coelum superius, quod ab omni hujus mundi volubili statu secretum divinae gloria praescientiae manet semper quietum. Nam de nostro coelo, in quo sunt posita luminaria, huic saeculo necessaria, in sequentibus scriptura, vel quomodo, vel quando sit factum declarat. Non ergo superius illud coelum, quod mortalium omnium est inaccessibile conspectibus, inane creatum est et vacuum in terra, quae nihil in prima sua creatione virentium germinum vel viventium produxit animantium, quia nimirum suis incolis mox creatum, hoc est beatissimis angelorum agminibus impletum est; quos in principio cum coelo et terra conditos esse, ac mox conditionem suam simul et totius creaturae primordialis ad laudem creatoris retulisse, testatur ipse Conditor, qui loquens ad sanctum famulum suum Job dicit: Ubi eras quando ponebam fundamenta terrae (Job. XXXVIII, 4) ? Et paulo post: Cum me laudarent simul astra matutina, et jubilarent omnes filii Dei (Ibid., 7)",
+  "source": "PL 91, col. 13C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void, and darkness upon the face of the deep.' For why did he say these things of the earth, passing heaven by, unless because he wanted nothing of the sort understood of heaven? For that is the heaven above, which, set apart from all the turning state of this world, remains always at rest [in the glory of the divine foreknowledge]. As for our heaven, in which are set the lights necessary to this age, Scripture declares in what follows both how and when it was made. That heaven above, then, which is unreachable by the sight of all mortals, was not created empty and void as the earth was, which in its first creation brought forth nothing of green shoots or of living creatures — because, of course, as soon as it was created it was filled with its own inhabitants, that is, with the most blessed ranks of the angels; and that these were founded in the beginning together with heaven and earth, and at once referred their own founding, and that of the whole first creation, to the praise of the Creator, the Founder himself bears witness, who speaking to his holy servant Job says: 'Where were you when I laid the foundations of the earth?' (Job 38:4), and a little after: 'When the morning stars praised me together, and all the sons of God shouted for joy' (Job 38:7).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-not-of-heaven",
+  "pair-is-unfurnished"
+ ],
+ "notes": "Bede answers the crux by asking what the verse does not say. The pair is predicated of the earth and withheld from heaven, and that silence is information: the upper heaven was not empty, because it was filled with its inhabitants as soon as it was made, and Job 38:7 supplies the angels singing at the founding. It is the argument Abelard will make four hundred years later from the adversative conjunction, and the Glossa carries it in the margin at the head of verse 2. The Corpus Corporum text reads 'divinae gloria praescientiae' where Angelomus and the Glossa both have 'divinae praesentiae'; the English brackets the phrase. [CHECK the PL plate.]"
+}

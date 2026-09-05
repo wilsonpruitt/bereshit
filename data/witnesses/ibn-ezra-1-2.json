@@ -1,0 +1,40 @@
+{
+ "id": "ibn-ezra-1-2",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "תֹהוּ",
+  "en": "tohu"
+ },
+ "original": {
+  "lang": "he",
+  "text": "תהו, אמר הגאון תהו שהוא מתהום, וזה לא יתכן כי מ\"ם תהום שרש כמו מ\"ם \"הדום\", ובס' יצירה תהו זה קו ירוק ובהו אלו אבנים מפולמות והנכון כאשר אמר המתרגם ארמית, וכן \"ובתהו יליל ישימון\" (דבר' לב י), וכן \"אחרי התהו\" (ש\"א יב כא) שאין בו ממש: ובהו אחי תהו, והווי\"ן תהת ה\"א, כוי\"ו \"וישתחו\" (בראשית יח ב) \"ותרענה באחו\" (בראשית מא ב), והטעם כי בראשית בריאת הרקיע והיבשה לא היה בארץ יישוב כי היתה מכוסה במים וכן שם אלהים כח תולדתה להיות למטה מהמים",
+  "source": "Ibn Ezra on Gen 1:2, s.v. תהו",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "“Void” (tohu) – The Ga’on [Rav Sa’adiah] said that [this word] is from “deep” (tehom), but that is not possible, since the mem of tehom is a root letter, like the mem of hadom. Now in Sefer Yetzira: “tohu - this [refers to] the green line”, and bohu - this [refers to] MEFULAM stones”. What’s correct is as the Aramaic translator has said, and likewise with “the howling, desolate tohu Deuteronomy 32:10, and likewise, “after tohu” Samuel I 12:21 – without substance. “And confused” – \"The brother of\", and the vav in place of the hey, like the vav in [the word] vayishtachu (“and he bowed”) Genesis 18:2, “and they pastured amongst he reeds (achu)” Genesis 41:2. The meaning is [as follows:] The creation of the firmament and the dry land was not in a area to be settled, since it was covered with water, and thus G-d placed its generative power to be beneath the water.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [],
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-under-water",
+  "pair-is-unfurnished"
+ ],
+ "notes": "A grammarian clearing the ground. Saadia Gaon had derived tohu from tehom, the deep; Ibn Ezra refuses it, because the mem of tehom is a root letter, as in hadom. Then he names Sefer Yetzirah's green line and slimy stones — the baraita of b. Chagigah 12a in its other home — and sets it aside in four words: 'what is correct is as the Aramaic translator said', that is, Onkelos' tzadya ve-reikanya, waste and empty; and he proves it from 'the howling waste of tohu' (Deut 32:10) and 'after tohu' (1 Sam 12:21), where the word means without substance. Bohu is 'the brother of' tohu, its vav standing for a hey. His own answer is then physical and is Basil's: at the creation of the firmament and the dry land there was no settled place on the earth, because it was covered with water. The community translation embedded here leaves mefulamot untranslated and renders bohu as 'and confused'; it is CC0 and is kept as it stands."
+}

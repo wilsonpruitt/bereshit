@@ -1,0 +1,40 @@
+{
+ "id": "bruno-gen-1-2-tohu",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1100,
+ "date_precision": "circa",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "absque liberis erat Ecclesia",
+  "en": "the Church was without children"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Adhuc tamen inanis et vacua erat terra, adhuc infecunda, et absque liberis erat Ecclesia, quam etiam propheta de sterilitate consolans, fecunditatemque promittens, dicebat: « Laetare, sterilis, quae non paris; erumpe, et clama, quae non parturis, quia multi filii desertae magis, quam ejus quae habet virum (Isa. LIV, 1; Gal. IV, 27) . » Sed quare inanis et vacua? Quia adhuc tenebrae erant super faciem abyssi. Nemo enim Scripturas intelligebat, utpote profundas et ignorantiae tenebris obvolutas, quae quidem ut intelligi valeant, « abyssus abyssum invocat (Psal. XLI, 8) . » Has autem tenebras Christus amovit, quando apostolis sensum aperuit, ut Scripturas intelligerent. Si enim Judaei has intelligerent, 3 ad Ecclesiam confugerent; sed quia, ut Apostolus ait: « Usque hodie dum legitur Moyses, velamen positum est super corda eorum (II Cor. III, 15) , » eas quidem intelligere non valent. Cum autem plenitudo gentium introierit, tunc amoto velamine Israel salvus fiet (Rom. XI, 25) . Neque enim ulterius inanis, et vacua terra nostra vocabitur, tantorum filiorum plenitudine inhabitata.",
+  "source": "PL 164, col. 150B",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Still, however, the earth was empty and void, still unfruitful, and the Church was without children — she whom the prophet also, comforting her for her barrenness and promising fruitfulness, addressed: « Rejoice, barren one, who do not bear; break forth and cry out, you who do not travail, for many are the children of the desolate, more than of her who has a husband » (Isa 54:1; Gal 4:27). But why empty and void? Because darkness was still upon the face of the deep. For no one understood the Scriptures, deep as they are and wrapped in the darkness of ignorance — which, that they may be understood, « deep calls unto deep » (Ps 42:7 [Vg 41:8]). But Christ took away this darkness when he opened the apostles' understanding, that they might understand the Scriptures. For if the Jews understood them, they would take refuge in the Church; but because, as the Apostle says, « to this day, while Moses is read, a veil is placed over their hearts » (2 Cor 3:15), they are not able to understand them. But when the fullness of the Gentiles has come in, then, the veil taken away, Israel shall be saved (Rom 11:25). For our earth shall no longer be called empty and void, inhabited by the fullness of so many sons.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "pair-is-history",
+  "pair-is-our-flesh"
+ ],
+ "notes": "Isidore's allegory moved off the individual soul and onto history: the empty earth is the Church before she had children, the darkness on the deep is the unread Scripture, and the emptiness ends not at the third day but at the end — when the fullness of the Gentiles has come in and Israel is saved, the earth will no longer be called empty and void. Structurally this is Bereshit Rabbah 2:3, which reads the same clause as the generations from Adam to Abraham and ends with the morning of Jacob; and it is Resh Lakish's four kingdoms in 2:4, which ends with the spirit of the Messiah. Three readings of one clause as a periodization of sacred history, with the same shape and opposite contents, and no possible contact. Bruno's Corpus Corporum text carries a stray '3' before 'ad Ecclesiam confugerent', which is dropped here as a printer's mark."
+}

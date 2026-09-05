@@ -1,0 +1,40 @@
+{
+ "id": "comestor-hs-1-2-tohu",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "machina mundialis adhuc erat inutilis",
+  "en": "the world-machine was still useless"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua (Gen. I) , id est machina mundialis adhuc erat inutilis, et infructuosa, et vacua ornatu suo. Et tenebrae erant super faciem abyssi. Eamdem machinam quam terram dixerat, abyssum vocat pro sui confusione et obscuritate. Unde et Graecus eam chaos dixit.",
+  "source": "PL 198, col. 1056B",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void' (Gen 1) — that is, the world-machine was still useless, and unfruitful, and void of its adornment. 'And darkness was upon the face of the deep.' The same machine which he had called earth he calls the deep, on account of its confusion and darkness. Whence the Greek called it chaos.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-unfurnished",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The gloss arrives at the Paris schools in its final form: Remigius' three adjectives, minus one, applied not to the earth but to the machina mundialis, the world considered as a piece of apparatus not yet fit for use. Comestor then identifies the deep with what the Greeks call chaos, which is the classical name the earlier bench avoids — Abelard, in the sentences that follow the slice built here (PL 178:734D), had said that 'certain of the philosophers or poets called this confusion chaos' and kept his distance; Comestor states it as a fact of vocabulary. From here it goes into the Historia's readership, which is everyone."
+}

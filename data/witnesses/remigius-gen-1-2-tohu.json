@@ -1,0 +1,40 @@
+{
+ "id": "remigius-gen-1-2-tohu",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 900,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Inutilis, infructuosa et incomposita",
+  "en": "Useless, unfruitful, and unordered"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Vers. 2. Terra autem inanis et vacua. Id est, inutilis, infructuosa et incomposita. Omnia enim elementa commista erant et confusa, et totum hoc aeris spatium quod est a terra usque ad coelum plenum erat aquis, quae tamen non erant ejusmodi qualitatis cujus nunc sunt, sed in modum nubium tenues, quam qualitatem adhuc illae supercoelestes aquae retinent.",
+  "source": "PL 131, col. 55A",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 2. 'But the earth was empty and void.' That is, useless, unfruitful, and unordered. For all the elements were mingled and confused, and this whole space of air which is from the earth up to heaven was full of waters — which, however, were not of the same quality as they now are, but thin, after the manner of clouds, a quality which those waters above the heavens still keep.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-unfurnished",
+  "pair-is-under-water"
+ ],
+ "notes": "Three adjectives that outlived their author. 'Useless, unfruitful, and unordered' is the gloss the Glossa Ordinaria prints on this lemma under the siglum STRAB., word for word and with the sentence about the mingled elements and the thin waters after it; from the Glossa it reaches Comestor, who keeps 'useless and unfruitful' and drops 'unordered'. The last clause is worth noticing on its own: the waters above the firmament still have the quality the primordial waters had, so that a reader can look up and see what verse 2 was talking about."
+}

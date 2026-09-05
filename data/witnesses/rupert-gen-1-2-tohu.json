@@ -1,0 +1,39 @@
+{
+ "id": "rupert-gen-1-2-tohu",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1114,
+ "date_precision": "circa",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "inanis ab omni germine … vacua a cunctis animantibus",
+  "en": "empty of every shoot … void of all living things"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Caeterum secundum quod jam dictum est, terra erat inanis et vacua, quia nondum illam Creator ab aquis aridam segregaverat, nondum firmaverat, nondum sidera coeli hujus palla vestiverat, nondum tot creaturarum generibus exornaverat. Itaque si diligenter litteram consideres, non cum sua, quae tunc apparet visibili specie, creata est in principio terra, sed erat inanis, inanis scilicet ab omni germine, quod nunc in ea radicatur, et vacua, videlicet a cunctis animantibus quae nunc in ea moventur.",
+  "source": "PL 167, col. 205A",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For the rest, according to what has already been said, the earth was empty and void, because the Creator had not yet separated it as dry land from the waters, had not yet made it firm, had not yet clothed it with the mantle of the stars of this heaven, had not yet furnished it with so many kinds of creatures. And so, if you consider the letter carefully, the earth was not created in the beginning with the visible appearance of its own which it now shows, but was empty — empty, that is, of every shoot which is now rooted in it — and void, namely of all the living things which now move in it.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-unfurnished"
+ ],
+ "notes": "'If you consider the letter carefully' — and the letter, considered carefully, yields a list of what was not there yet: dry land, firmness, stars, kinds. Rupert then splits the pair the way the twelfth century regularly splits it, empty of shoots and void of animals, which is Abelard's division (fruit and inhabitant) and Hugh's in the Adnotationes (seeds and shoots) with the terms moved about. None of the three cites another, and the distribution of the two terms differs each time: what they share is the conviction that the pair is a pair, and that each word must be given its own privation."
+}

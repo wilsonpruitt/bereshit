@@ -1,0 +1,38 @@
+{
+ "id": "rashi-1-2a",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1080-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "תֹּהוּ לְשׁוֹן תֵּמַהּ וְשִׁמָּמוֹן",
+  "en": "tohu is a word for astonishment and desolation"
+ },
+ "original": {
+  "lang": "he",
+  "text": "תהו ובהו. תֹּהוּ לְשׁוֹן תֵּמַהּ וְשִׁמָּמוֹן, שֶׁאָדָם תּוֹהֵא וּמִשְׁתּוֹמֵם עַל בֹּהוּ שֶׁבָּהּ: תהו. אשטורדי\"שון בְּלַעַ\"ז: בהו. לְשׁוֹן רֵקוּת וְצָדוּ:",
+  "source": "Rashi on Gen 1:2, s.v. תהו ובהו",
+  "license": "pd"
+ },
+ "english": {
+  "text": "תהו ובהו DESOLATE AND VOID — The word תהו signifies astonishment and amazement, for a person would have been astonished and amazed at its emptiness. תהו is estordison in old French. בהו VOID — The word signifies emptiness and empty space.",
+  "translator": "Rosenbaum–Silbermann 1929–34",
+  "license": "silbermann"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-astonishment",
+  "pair-is-unfurnished"
+ ],
+ "notes": "Three lines that turn the parable of BR 2:2 into a lexicon. Tohu is a word for astonishment and desolation, because a person would be astonished and appalled at the bohu in it — the emptiness is the thing seen and the astonishment is what seeing it does. Then the la'az: tohu is estordison in Old French, from estordir, to stun or daze, the word for the swimming in the head after a blow; Rashi gives the reader the sensation rather than the definition. Bohu he glosses reikut ve-tzadu, emptiness and waste — which are the two Aramaic words Onkelos used for the whole pair, in the other order. The Latins who answer this crux describe what was missing from the earth; Rashi describes what looking at it would do to you."
+}

@@ -114,3 +114,41 @@ It is stated in K8's `finding` for now.
 **Two K10 witnesses now appear on the K8 daf without K8 threads** — `aug-gnl-4-22` and
 `alcuin-int-34` carry `first-light` in their own facets. See the Phase 4 note in
 `SOURCES-FINDINGS.md`.
+
+## From K6 (built 2026-09-05)
+
+**`br-2-4` (K7) is half a K6 witness.** Resh Lakish reads the whole verse as the four kingdoms:
+*tohu* is Babylon (Jer 4:23), *va-vohu* is Media, the darkness is Greece, the deep is Edom — and
+only then does the spirit become the Messiah's, which is why K7 built it. The first half is the
+same move as BR 2:3's generations and Bruno of Segni's Church, both of which are on K6's daf, and
+the thread `bruno-gen-1-2-tohu → br-2-4` was not written because a crux's threads should join
+witnesses on its own roster. Phase 4: add `tohu-vabohu` to `br-2-4`'s cruxes facet and write the
+edge.
+
+**`glossa-1-2-ruach` carries the Strabo gloss on *inanis et vacua* inside a witness whose lemma is
+the Spirit clause.** Wilson's edition chunk appended it, K7 built it, and K6 threads to it
+(`t-k6-10`, `t-k6-11`) rather than duplicating the text. Phase 4 should decide whether that gloss
+becomes its own witness on the K6 lemma — and if it does, `glossa-1-2-terra` (the Bede gloss, built
+here with a draft English) should be merged with it into one Glossa witness per lemma block.
+
+**The third gloss on Gen 1:2 in the Glossa** — Bede again, on *tenebrae erant*, ending *"Ipsa autem
+terra et aqua informis dicuntur materia, quia omnia quae videmus vel ex istis sumpserunt exordium,
+vel ex nihilo"* (PL 113:69D–70A) — is **K4's**, and is the Glossa's only statement of *materia
+informis* on this verse. Not sliced.
+
+| left for | crux | note |
+|---|---|---|
+| Basil/Eustathius, PL 53:880C | K4 | the paragraph after K6's slice: against those who read *invisibilis et incomposita* as proof of an unbegotten matter coeval with God — the Greek bench's answer to BR 1:9's philosopher |
+| b. Chagigah 12a, segments 4–5 | K5 | Rav Yehudah in Rav's name, the ten things created on day one, with *tohu va-vohu* among them; the list is K5's core text and is on disk, read |
+| Ramban on 1:1, first movement | K4 | creation from absolute nothing and the hyle as the only created thing — the paragraph immediately before K6's slice, ending `וְאַחַר הַהִיּוּלִי לֹא בָּרָא דָּבָר` |
+| BR 2:5 | K8 or K9 | R. Abahu: *tohu va-vohu* is the deeds of the wicked and *fiat lux* the deeds of the righteous, with God preferring the latter at 1:4 — the moral reading of the separation; R. Ḥiyya: the Temple built, destroyed, rebuilt |
+| Honorius, PL 172:260C | K4 | *corporalis creatura adhuc informata, sed in verbo Dei causaliter posita*, with *creavit omnia simul* following |
+| Abelard, PL 178:734D (continuation) | K4 or K5 | the confused heap of the elements named *chaos* by "certain of the philosophers or poets", immediately after K6's slice |
+| Ibn Ezra on 1:2 (continuation) | K5 | the seven earths, and the refutation of those who take *heaven* in v. 1 as the heaven of heavens |
+| Bruno, PL 164:148B | K5 | *"natura tamen prior terra non exstitit"* — the order of heaven and earth, immediately before K6's slice |
+
+**Witnesses now on two benches with the same shape.** BR 2:3, BR 2:4 and Bruno of Segni all read
+Gen 1:2 as a periodization of sacred history running to a final redemption; Isidore, Wigbod,
+Rabanus and Remigius read it as the soul before doctrine. The K9 pass (`good-and-separated`) will
+meet the same pairing again on *vayavdel*, where BR 3:8 and Augustine both make the division moral
+— worth checking whether the two allegorical strands are one habit or two.

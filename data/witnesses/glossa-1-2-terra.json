@@ -1,0 +1,39 @@
+{
+ "id": "glossa-1-2-terra",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Terra autem erat inanis",
+  "en": "But the earth was empty"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 2.-- « Terra autem erat inanis, » etc. (BEDA, Hexaem. tom. II.) Quod vel quale coelum in principio cum terra factum est, ostendit. Hoc enim de terra subdit, quod de coelo intelligi noluit. Hoc enim superius coelum quod a volubilitate mundi secretum est, mox ut creatum est, sanctis angelis est impletum: quos in principio cum coelo et terra conditos testatur Dominus dicens Job XXXVIII: « Ubi eras cum me laudarent astra matutina, et jubilarent omnes filii Dei? » Astra matutina eosdem angelos et filios Dei vocat. De coelo enim in quo posita sunt luminaria, quomodo vel quando factum sit postea dicit.",
+  "source": "PL 113, col. 69C",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 2. « But the earth was empty, » etc. [n: (BEDE, Hexaemeron, vol. II.)] He shows which heaven, and of what kind, was made in the beginning together with the earth. For he adds this of the earth, which he did not want understood of heaven. For that upper heaven, which is set apart from the turning of the world, as soon as it was created was filled with the holy angels — whom the Lord bears witness were founded in the beginning together with heaven and earth, saying in Job 38: « Where were you when the morning stars praised me, and all the sons of God shouted for joy? » He calls the same angels morning stars and sons of God. For of the heaven in which the lights are set, he says afterwards how and when it was made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-not-of-heaven"
+ ],
+ "notes": "The gloss that stands at the head of verse 2 in the margin, labelled BEDA and compressing his paragraph to five sentences, keeping Job 38:7 and the two heavens. The second gloss on this lemma — Walahfrid's 'useless, unfruitful, and unordered', which is Remigius verbatim — is already on the site inside the K7 witness glossa-1-2-ruach, where Wilson's edition appended it; it is not sliced again here. A third gloss, again from Bede, follows on 'and there was darkness' and ends by naming earth and water as the unformed matter: that belongs to K4. English here is a fresh draft, superseded when Wilson's Glossa edition reaches this lemma."
+}

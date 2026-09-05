@@ -1,0 +1,41 @@
+{
+ "id": "wigbod-gen-1-2-tohu",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "aachen",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Cur inanis et vacua?",
+  "en": "Why 'empty and void'?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "D. Terra autem erat inanis et vacua (Gen. I, 2) . Cur inanis et vacua? M. Id est quia non erat a mari distincta; vacua, inquit, quia littoribus non erat circumdata, vel vicibus suis ornata, id est arboribus et animalibus. Item spiritaliter: Terra scilicet carnis nostrae inanis et vacua erat, priusquam doctrinae acceperit formam.",
+  "source": "PL 96, col. 1116B",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "D. 'But the earth was empty and void' (Gen 1:2). Why empty and void? M. That is, because it was not divided off from the sea; void, he says, because it was not surrounded by shores, nor adorned with its own furnishings, that is, with trees and animals. Likewise spiritually: the earth, namely, of our flesh was empty and void, before it received the form of doctrine.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "pair-is-unfurnished",
+  "pair-is-our-flesh"
+ ],
+ "notes": "The crux asked as a schoolroom question — Cur inanis et vacua? — and answered twice, once about coastlines and once about the soul; the second answer is Isidore word for word. What makes this witness matter is not the answer but where it stands. Five columns earlier, at PL 96:1111B, the same compilation prints Augustine's Manichaean paragraph on the same verse under the Old Latin lemma, terra invisibilis et incomposita, and at 1114C it prints Augustine again on the same words. Here it reads the Vulgate's lemma and asks a different question of it. Wigbod does not notice, and neither does the reader: the two Latin texts of Gen 1:2 sit in one book without a seam."
+}

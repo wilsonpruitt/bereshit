@@ -1,0 +1,38 @@
+{
+ "id": "b-chag-12a-tohu",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "תֹּהוּ קַו יָרוֹק שֶׁמַּקִּיף אֶת כָּל הָעוֹלָם",
+  "en": "tohu is a green line encircling the whole world"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "תנא תהו קו ירוק שמקיף את כל העולם כולו שממנו יצא חשך שנאמר (תהלים יח, יב) ישת חשך סתרו סביבותיו בהו אלו אבנים המפולמות המשוקעות בתהום שמהן יוצאין מים שנאמר (ישעיהו לד, יא) ונטה עליה קו תהו ואבני בהו",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "It was taught in a Baraita, Chaos is a green line encompassing all the world, and from it darkness springs, as it is said, (Psalms 18:12) \"He made darkness His hiding place round about Him.\" Desolation, these are smooth stones sunk in the deep, from which waters come forth, as it is said, (Isaiah 34:11) \"and He shall stretch upon it the line of chaos and the stones of desolation.\"",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-two-things"
+ ],
+ "notes": "Two sentences, and they answer the crux's second question in the way no Latin does: the pair names two things, and you could point at them. Tohu is a green line that encircles the whole world and darkness comes out of it (Ps 18:12); bohu are the slimy stones sunk in the deep from which the waters come out — and the proof is Isa 34:11, 'he shall stretch over it the line of tohu and the stones of bohu', read as an inventory rather than as a curse. The baraita stands in the list of the ten things created on the first day (segments 4–5 here, which are K5's text), so tohu and bohu are creatures with a day of creation. Ibn Ezra knows this tradition from Sefer Yetzirah and sets it aside; Ramban knows it and keeps the proof-text while turning the line into a builder's measuring cord."
+}

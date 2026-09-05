@@ -1,0 +1,42 @@
+{
+ "id": "angelom-gen-1-2-tohu",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Unde alia translatio dicit: Invisa et incomposita",
+  "en": "Whence another translation says: unseen and unordered"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sequitur: VERS. 2.-- Terra autem erat inanis et vacua. Cum superius ait: Creavit Deus coelum et terram, cur dicitur: Terra autem erat inanis et vacua? nisi quia ipsa informis materia, quae nomine terrae dicta est, inanis erat et vacua. Inanis videlicet, id est incomposita et necdum coadunata in species suas. Vacua vero, quia vacabat a gignendis fructibus. Unde alia translatio dicit: Invisa et incomposita. Invisa propter obscuritatem, Incomposita propter deformitatem, quia adhuc tota abysso, id est, immensa profunditate tegebatur aquarum. Unde per hoc quod ait: Terra autem erat inanis et vacua, quale sit coelum, quod primum condiderat, potest intelligi, videlicet quod ab omni hujus mundi volubili statu secretum, divinae praesentiae manet semper quietum.",
+  "source": "PL 115, col. 114D",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "There follows, verse 2: 'But the earth was empty and void.' Since he said above, 'God created heaven and earth', why is it said, 'But the earth was empty and void'? — unless because that unformed matter, which is called by the name of earth, was empty and void. Empty, that is, unordered and not yet gathered into its own kinds. Void, because it was free of any fruits to be brought forth. Whence another translation says: 'unseen and unordered'. Unseen because of darkness, unordered because of shapelessness, since it was still wholly covered by the deep, that is, by the measureless depth of the waters. Whence, by what he says — 'But the earth was empty and void' — it can be understood what kind of heaven it was that he had made first: namely that, set apart from all the turning state of this world, it remains always at rest in the divine presence.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "pair-is-formless-matter",
+  "pair-is-under-water",
+  "pair-is-not-of-heaven"
+ ],
+ "notes": "A ninth-century compiler doing, in one paragraph, what this crux exists to show. He asks the Vulgate's question, answers it with Augustine's unformed matter, then reaches for the other version — 'unseen and unordered' — and glosses it with Alcuin's eight words from Interrogatio 30, unattributed; then he turns to Bede's argument that the phrase is withheld from heaven, and copies Bede's sentence about the heaven set apart from the turning of this world. Three sources and two Latin translations, spliced without a join. His 'invisa' for 'invisibilis' is his own or his exemplar's."
+}

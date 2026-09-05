@@ -62,13 +62,15 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10, K1 and K8 built (2026-09-05). Next up is K6 `tohu-vabohu`, row 4 of the table.**
-To start that session, paste: *"Build the crux `tohu-vabohu` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* On disk and already read: the Glossa's *inanis / vacua* glosses
-(TEI 8950, VERS. 2, sliced whole for K7's `glossa-1-2-ruach`), BR 2:2–3, Rashi on 1:2 with the Old
-French *estordison*, and the targums. The Vulgate's *inanis et vacua* is a witness in its own right
-— see `PLAN.md` §5. Ramban's *hyle* paragraph (anchors in `notes/cross-crux.md`) belongs to K4 but
-touches *tohu*, so read it and leave it.
+**State: K10, K1, K8 and K6 built (2026-09-05). Next up is K5 `heaven-earth-order`, row 5.**
+To start that session, paste: *"Build the crux `heaven-earth-order` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* On disk and already read: **b. Chagigah 12a segments 4–5**, Rav
+Yehudah in Rav's name on the ten things created on the first day — K5's core text, read at K6 and
+left; BR 1:15 (Shammai and Hillel) in `raw/sefaria/br-1.json`; PdRE 3; and Bruno PL 164:148B on
+whether earth is prior in nature, sliced up to but not including K6's passage. Augustine's *caelum*
+= spiritual creation runs through the Confessions XII passages K6 built, so read
+`aug-conf-12-21` before grepping — its five readings of v. 2 all turn on what "heaven and earth"
+in v. 1 names, which is K5's question.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -82,7 +84,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~1~~ | ~~K10 `one-day-evening-first`~~ | **BUILT 2026-09-05** — 28 witnesses, 34 threads | 20–25 |
 | ~~2~~ | ~~K1 `beginning-of-what`~~ | **BUILT 2026-09-05** — 34 witnesses, 44 threads | 25–30 |
 | ~~3~~ | ~~K8 `first-light`~~ | **BUILT 2026-09-05** — 27 witnesses, 35 threads | 20–25 |
-| 4 | K6 `tohu-vabohu` | Glossa 69D gloss already sliced; Rashi's *estordison*; BR 2:2–3; Vulgate as witness | 15–20 |
+| ~~4~~ | ~~K6 `tohu-vabohu`~~ | **BUILT 2026-09-05** — 25 new witnesses (32 on the daf with K7's), 28 threads | 15–20 |
 | 5 | K5 `heaven-earth-order` | Shammai/Hillel (BR 1:15, Chag 12a) vs Augustine's *caelum* = spiritual creation | 15–20 |
 | 6 | K4 `ex-nihilo-or-matter` | BR 1:9 philosopher; Conf XII; Abelard already sliced; Ramban Phase 2 | 15–20 |
 | 7 | K9 `good-and-separated` | moral allegory both sides; test Bede for Hebrew mediation | 12–15 |
@@ -172,3 +174,35 @@ reason `notes/cross-crux.md` predicted: every rabbinic locus was already on disk
 once, so the session cost was the Latin survey and the drafting. The Latin side was bigger than the
 table's 20–25 estimate suggested — the twelfth century alone yields six witnesses — but Latin
 witnesses are cheaper than rabbinic ones, because the slicer does the work.
+
+**Added for K6** (extends the frozen renderings, does not re-decide them). The crux turns on two
+Latin texts of one clause, so both lemmas are fixed: *inanis et vacua* = "empty and void" (as at
+K7) and *invisibilis et incomposita* = "invisible and unordered" — **never** "formless", which is
+reserved for *informis*; *materia informis / informis materia* = "unformed matter" (as at K1) but
+*informitas* = "formlessness"; Angelomus' *invisa* = "unseen", to keep his variant visible.
+*inutilis, infructuosa et incomposita* = "useless, unfruitful, and unordered", which is **Wilson's
+own wording** in the Glossa chunk and must not drift, since Remigius, the Glossa and Comestor all
+carry the phrase. Further: *ornatus* = "adornment" and *exornare* = "to furnish"; *machina
+mundialis* = "the world-machine"; *germen* = "shoot", *semina* = "seeds", *animantia* = "living
+things"; *conjunctio adversativa* = "adversative conjunction"; *chaos* = "chaos"; *spectator* =
+"beholder"; *arida* = "dry land"; *hyle* = "hyle" (as at K1). Rabbinic: *tohu va-vohu*, *toheh
+u-voheh*, *reikut*, *tzadya ve-reikanya*, *betohe*, *bo hu*, *kav yarok* transliterated; "the
+Holy One, blessed be He"; Rashi's Old French *estordison* is printed as the text has it. Note that
+K6's rabbinic English is **all embedded and licensed** (Sefaria Midrash Rabbah, Silbermann, Chavel,
+two community translations) — the fresh drafts on this crux are Latin only, and the community
+translation of Ibn Ezra leaves *mefulamot* untranslated and is kept as it stands.
+
+**Burn, measured on K6 (Opus, 2026-09-05): ~135K tokens**, the cheapest of the four so far against
+K10's ~170K, K1's ~200K and K8's ~170K. Three reasons, and two of them will not repeat: every
+rabbinic locus was already on disk (BR 2, Rashi, Chagigah 12a, Ibn Ezra, Ramban, the targums), the
+rabbinic English needed **no drafting at all** because every text had a licensed translation, and
+`grep-bench.py` on a four-alternative regex laid out the whole Latin bench — both lemmas, 87 hits
+across 23 works — in one call, which is what turned "which witnesses exist" into a reading problem
+rather than a search problem. **A crux whose lemma has two Latin forms should be grepped for both
+in one regex from the start**; doing so is what made this crux's finding visible in the first five
+minutes rather than at the end.
+
+The roster ran over the table's 15–20 estimate (25 new, 32 on the daf) and the overrun is real
+rather than sloppy: the two-text split doubles the number of Latin witnesses that say something
+distinct, and Bereshit Rabbah 2 alone yields four continuous arguments on the pair. Honorius,
+Rabanus and BR 2:5 were read and dropped to `notes/cross-crux.md`.

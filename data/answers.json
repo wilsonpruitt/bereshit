@@ -210,5 +210,49 @@
  "fiat-is-instantaneous": {
   "label": "Speaking is making",
   "gloss": "No interval between the command and the thing: the Hebrew says only 'let it be, and it was' (Ambrose, Basil, Angelomus, Abelard)."
+ },
+ "pair-is-formless-matter": {
+  "label": "Unformed matter",
+  "gloss": "The pair names the matter God had made and not yet given form to (Augustine, Angelomus, Hugh, Comestor)."
+ },
+ "pair-is-under-water": {
+  "label": "Hidden under the waters",
+  "gloss": "Invisible because the waters covered it, and because there was neither light nor anyone to see (Basil, Alcuin, Angelomus, Ibn Ezra)."
+ },
+ "pair-is-unfurnished": {
+  "label": "No seed, no living thing",
+  "gloss": "Empty of shoots and void of animals: a list of what was not there yet (Bede, Remigius, Rupert, Abelard, Hugh, Comestor, the targums)."
+ },
+ "pair-is-a-name-for-us": {
+  "label": "A name fitted to slow minds",
+  "gloss": "Not a description but the most serviceable word for formlessness, since earth and the deep are the least comely things men know (Augustine, Confessions XII)."
+ },
+ "pair-many-senses": {
+  "label": "More than one true reading",
+  "gloss": "Five readings of the clause are all true and none can be shown to be Moses' own (Augustine, Confessions XII.21)."
+ },
+ "pair-is-two-things": {
+  "label": "A green line and slimy stones",
+  "gloss": "Tohu and bohu are two creatures made on the first day: a line encircling the world, and stones sunk in the deep (b. Chagigah 12a, Sefer Yetzirah)."
+ },
+ "pair-is-matter-and-form": {
+  "label": "Matter and its form",
+  "gloss": "Tohu is the hyle, which can hold no name; bohu is bo hu, the form it puts on (Ramban)."
+ },
+ "pair-is-astonishment": {
+  "label": "Astonishment",
+  "gloss": "Tohu is what astonishes whoever looks at it — the earth bewildered at her lot, or the reader appalled at the emptiness (Bereshit Rabbah 2:2, Rashi, the Bahir)."
+ },
+ "pair-is-history": {
+  "label": "The verse tells history",
+  "gloss": "The clause is the first term of a periodization: the generations from Adam, the four kingdoms, or the Church before her children (Bereshit Rabbah 2:1, 2:3, 2:4; Bruno)."
+ },
+ "pair-is-our-flesh": {
+  "label": "The earth of our flesh",
+  "gloss": "The soul before it has taken the form of doctrine (Isidore, Wigbod, Rabanus, Remigius, Bruno)."
+ },
+ "pair-is-not-of-heaven": {
+  "label": "Said of earth, not of heaven",
+  "gloss": "The phrase is withheld from heaven, which was filled with angels as soon as it was made (Bede, the Glossa, Angelomus, Abelard)."
  }
 }

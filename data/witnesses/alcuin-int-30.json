@@ -1,0 +1,41 @@
+{
+ "id": "alcuin-int-30",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Invisibilis propter obscuritatem; incomposita propter deformitatem",
+  "en": "Invisible because of darkness; unordered because of shapelessness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 30. Quid est: Terra autem erat invisibilis et incomposita (Ibid. ex vers. LXX) ?-- Resp. Invisibilis propter obscuritatem; incomposita propter deformitatem.",
+  "source": "PL 100, col. 519D",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 30. What is: 'But the earth was invisible and unordered' (ibid., from the Septuagint version)? — Answer. Invisible because of darkness; unordered because of shapelessness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "pair-is-under-water",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The whole crux compressed into eight words for the schoolroom, and the most interesting thing about it is the parenthesis: 'ex vers. LXX'. Alcuin knows he is expounding a lemma that is not in the Bible his pupils carry, and says so. He splits the pair between the two answers the Latin bench will keep — invisible has to do with light, unordered with form — and gives no reason for either. Angelomus takes this answer over word for word two generations later and puts it inside a discussion of Jerome's text, where it becomes a gloss on 'the other translation'."
+}

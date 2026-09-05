@@ -1,0 +1,40 @@
+{
+ "id": "hugh-sacr-1-1-tohu",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "sive, ut alia translatio habet, incomposita",
+  "en": "or, as another translation has it, unordered"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua (Gen. I) ; sive, ut alia translatio habet, « incomposita, » et tenebrae erant super faciem abyssi (ibid.) . Per coelum namque et terram, materiam illam omnium coelestium terrestriumque, hoc loco significari puto, de qua postea succedenter in forma facta sunt quae in ipsa prius per essentiam simul creata fuerunt. Ibi namque terra erat ipsum terrae elementum, et coelum mobile erat illa et levis confusio reliquorum trium quae in circuitu medio jacentis terrae suspensa ferebatur; et his duobus omnium corporum coelestium sive terrestrium formandorum materia continebatur.",
+  "source": "PL 176, col. 190D",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void' (Gen 1) — or, as another translation has it, « unordered » — 'and darkness was upon the face of the deep' (ibid.). For by 'heaven and earth' I think there is signified in this place that matter of all things heavenly and earthly, out of which were afterwards made, one after another, in form, the things which had first been created in it together in their essence. For there 'earth' was the element of earth itself, and 'heaven' was that mobile and light confusion of the remaining three, which was carried suspended around the earth lying in the middle; and in these two was contained the matter of all bodies, heavenly or earthly, that were to be formed.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation",
+  "literal"
+ ],
+ "answers": [
+  "pair-is-formless-matter"
+ ],
+ "notes": "The first plain statement on the Latin bench that there is another translation of this clause. Hugh quotes the Vulgate's lemma, gives the Old Latin word in the same breath, and then goes on to Augustine's reading — heaven and earth name the matter of everything, in which all things were made together in essence before they were made one after another in form. He does not say which text is better, or where the other comes from; he simply will not let a reader think there is only one. Alcuin had named the Septuagint three hundred years earlier and then expounded the Greek lemma as if it were the Bible; Hugh names the variant while expounding the Vulgate. Wigbod printed both, five columns apart, and said nothing."
+}

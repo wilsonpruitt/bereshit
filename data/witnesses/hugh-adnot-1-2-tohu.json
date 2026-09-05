@@ -1,0 +1,39 @@
+{
+ "id": "hugh-adnot-1-2-tohu",
+ "work": "hugh-adnot",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Inanis a seminibus; vacua a germinibus",
+  "en": "Empty of seeds; void of shoots"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua. Inanis a seminibus; vacua a germinibus; vel inanis propter concavitatem: vacua, quia in tanta concavitate terrae non erat nisi aer et nebula.",
+  "source": "PL 175, col. 35D",
+  "cc_idno": "11054",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void.' Empty of seeds; void of shoots; or empty on account of its hollowness; void, because in so great a hollowness of the earth there was nothing but air and mist.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-unfurnished"
+ ],
+ "notes": "The school formula at its shortest, and it gives two distributions rather than one: empty of seeds and void of shoots — or else empty because the earth was hollow and void because there was nothing in the hollow but air and mist. The second is a physical picture, and it is the one Hugh's own Adnotationes go on to develop in the sentences on the mist, the deep and the waters that are built as the K7 witness hugh-adnot-gen-1-2, immediately after this."
+}

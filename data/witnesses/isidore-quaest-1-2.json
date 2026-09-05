@@ -1,0 +1,39 @@
+{
+ "id": "isidore-quaest-1-2",
+ "work": "isidore-quaest",
+ "author": "isidore",
+ "tradition": "latin",
+ "date": 620,
+ "date_precision": "circa",
+ "place": "seville",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Terra scilicet carnis nostrae",
+  "en": "the earth, that is, of our flesh"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua. Terra scilicet carnis nostrae inanis erat et vacua, priusquam doctrinae acciperet formam. Et tenebrae erant super faciem abyssi, quia delictorum caecitas et ignorantiae profunda obscuritas corda nostra tegebat.",
+  "source": "PL 83, col. 209B",
+  "cc_idno": "21433",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void.' The earth, that is, of our flesh was empty and void, before it received the form of doctrine. 'And darkness was upon the face of the deep', because the blindness of our sins and the deep obscurity of ignorance covered our hearts.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "pair-is-our-flesh"
+ ],
+ "notes": "Two sentences that found a lineage. Isidore is not asking what the earth was; he says at the head of the work that he is setting down how the Church's teachers take these things spiritually, and the earth is the flesh of the reader before it has taken the form of doctrine. Wigbod copies it verbatim, Rabanus copies it verbatim (PL 107:467A), Remigius has it at PL 131:55D, and Bruno of Segni turns the same move on the Church rather than the soul. It is the one Latin reading of the pair that does not ask a question about the world at all — and it is, in its structure, what Bereshit Rabbah 2:3 does with the generations."
+}

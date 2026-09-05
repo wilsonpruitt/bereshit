@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-7-25",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Quid est, Erat",
+  "en": "What does 'was' mean?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat invisibilis et incomposita (Gen. I, 2) . Bonus artifex prius fundamentum ponit: postea, fundamento posito, aedificationis membra distinguit, et adjungit ornatum. Posito igitur fundamento terrae, et confirmata coeli substantia, duo enim ista sunt velut cardines rerum, subtexuit: Terra autem erat invisibilis et incomposita. Quid est, Erat, nisi ne forte in infinitum et sine principio extendant opinionem suam, et dicant: Ecce quia materia, id est, hyle, sicut philosophi dicunt, etiam secundum Scripturam divinam non habuit initium. Verum hoc dicentibus respondebis, quia scriptum est: Erat autem Cain operarius terrae (Gen. IV, 2) . Et 14 de eo qui Jubal dictus est, habet Scriptura: Hic erat pater qui demonstravit psalterium et citharam (Ibid., 21) . Et, Homo erat in Ausitide regione, cui nomen Job (Job. I, 1) . Desinant ergo de verbo quaestionem movere, cum praesertim praemiserit Moyses, quia fecit Deus terram. Erat ergo, ex quo facta est.",
+  "source": "PL 14, col. 135D",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was invisible and unordered' (Gen 1:2). A good craftsman lays the foundation first; afterwards, the foundation laid, he distinguishes the parts of the building and adds the adornment. So, the foundation of the earth having been laid and the substance of heaven made firm — for these two are as it were the hinges of things — he wove in below: 'But the earth was invisible and unordered.' What does 'was' mean, unless it is said lest they stretch their opinion out to infinity and without a beginning, and say: See, matter, that is hyle, as the philosophers say, had no beginning even according to divine Scripture. But to those who say this you will answer that it is written: 'And Cain was a worker of the earth' (Gen 4:2). And of the man called Jubal, Scripture has: 'He was the father who showed forth the psaltery and the lyre' (Gen 4:21). And, 'There was a man in the land of Uz, whose name was Job' (Job 1:1). Let them stop raising a question about the word, especially since Moses has said beforehand that God made the earth. It was, then, from the time it was made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "world-has-a-beginning",
+  "pair-is-unfurnished"
+ ],
+ "notes": "Ambrose does not argue about the pair at all; he argues about the verb standing in front of it. If the earth 'was' invisible and unordered, someone will say that the matter it was made of has no beginning, which is what the philosophers say of hyle — and the answer is grammatical and slightly impatient: Scripture says Cain 'was' a worker of the earth and Job 'was' in the land of Uz, and nobody makes them eternal. It was, from the time it was made. The image before it is the builder's: foundation first, then the parts distinguished, then the adornment, which is the order of the six days and is Basil's answer to the same question turned into a plan of work."
+}

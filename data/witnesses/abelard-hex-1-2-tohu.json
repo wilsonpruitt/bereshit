@@ -1,0 +1,40 @@
+{
+ "id": "abelard-hex-1-2-tohu",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "ex illa apposita conjunctione adversativa",
+  "en": "from that adversative conjunction set beside it"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inanis et vacua. Quoniam ad hominis creationem de terra formandi et in terra conversaturi specialiter iste spectat tractatus, quo propheta, ut diximus, ad cultum Dei hominem allicere intendens, ad terrena opera stylum convertit, coelestis et superioris naturae, id est angelicae creatione praeterita; ne forte,, si eam perscrutaretur et ad Creatoris sui laudem ejus excellentiam ostenderet, minus hominem ad amorem Dei alliceret, qui sibi aliam praeferri naturam conspiceret. Praemittens itaque terram in creatione sua inanem et vacuam exstitisse, quomodo postmodum ejus inanitati et vacuitati divina operatio consuluerit posteriorum dierum operibus declarat. Inanem, dicit terram a fructu, quem nondum produxerat; vacuam, ab habitatore, non solum homine, verum etiam ab omni penitus animantium genere, cum nulla adhuc animantia vel terrestris vel aquatica mansio contineret, quae utraque, ut diximus, terrae vocabulo comprehendit. Terram itaque dicit, secundum quod expositum est, hanc ex elementis gravibus constantem inferiorem mundi regionem. Et notandum quod, dum ait, terra autem erat inanis et vacua, subinnuit ex illa apposita conjunctione adversativa de coelo non sic esse intelligendum, cum videlicet angeli vel ante ipsum coelum vel cum coelo creati esse intelligantur, qui quasi coelestes habitatores dicuntur, ut, licet eorum creationem propheta non exsequatur, in transitu tamen eam perstringat, ne quid ejus narrationi de divinis operibus deesse videatur.",
+  "source": "PL 178, col. 734C",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth was empty and void.' Since this treatise looks especially to the creation of man, who was to be formed from the earth and to live on the earth — in which the prophet, as we have said, intending to draw man to the worship of God, turned his pen to earthly works, passing over the creation of the heavenly and higher nature, that is the angelic; lest perhaps, if he examined it and displayed its excellence to the praise of its Creator, he should draw man less to the love of God, seeing another nature preferred to himself. And so, having said first that the earth in its creation stood empty and void, he declares by the works of the later days how the divine working afterwards saw to its emptiness and its voidness. He calls the earth empty of fruit, which it had not yet brought forth; void of an inhabitant, not only of man but of every kind of living thing whatever, since as yet no dwelling, whether of land or of water, held any living things — both of which, as we have said, he takes in under the word 'earth'. And so he calls 'earth', according to what has been set out, this lower region of the world consisting of the heavy elements. And it is to be noted that when he says 'but the earth was empty and void', he hints, from that adversative conjunction set beside it, that heaven is not to be so understood — since the angels are understood to have been created either before heaven itself or together with heaven, and are called, as it were, the dwellers in heaven; so that although the prophet does not pursue their creation, he yet touches it in passing, lest anything should seem missing from his account of the divine works.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-unfurnished",
+  "pair-is-not-of-heaven"
+ ],
+ "notes": "Abelard gets Bede's conclusion out of a single word. 'Terra AUTEM erat inanis et vacua': the adversative conjunction implies a contrast, so what is said of the earth is being denied of heaven, and heaven is not empty because the angels are its inhabitants — whose creation Moses passes over on purpose, lest man, drawn to the worship of God, should see another nature preferred to himself. That last reason is Abelard's own and belongs to no one else on this crux. The division of the pair — empty of fruit, void of an inhabitant — matches Rupert's and Hugh's without citing either."
+}

@@ -308,3 +308,107 @@ already on disk and read; the Latin side was larger than the plan expected.
 so appear on this crux's daf without any K8-tagged thread attached to them. That is the design
 working, not a fault; but Phase 4 should decide whether a witness that appears on a crux ought to be
 threaded into it, or whether unthreaded cross-crux carriers are acceptable on the page.
+
+---
+
+# K6 (tohu-vabohu) — 2026-09-05, fifth session
+
+## The crux is a text-critical fact before it is an exegetical one
+
+`PLAN.md` §5 said the Vulgate's *inanis et vacua* is "a witness in its own right: Latin readers
+inherited an interpretation, not a transliteration." That is true and it is only half of it. **The
+Latin bench holds two texts of Gen 1:2 at once**, and the split runs straight down the middle of
+the roster:
+
+- *terra invisibilis et incomposita* — the Old Latin of the LXX's ἀόρατος καὶ ἀκατασκεύαστος — is
+  the lemma of **Augustine everywhere** (Gnm, Gnl, Gnl imp., Conf. XII, Civ.), of **Ambrose**, of
+  **Eustathius' Basil**, and of **Alcuin**, who flags it: *(Ibid. ex vers. LXX)*.
+- *inanis et vacua* is the lemma of **Isidore, Bede, Wigbod (in one half of his book), Rabanus,
+  Remigius, the Glossa, Bruno, Rupert, Abelard, both Hughs, Honorius and Comestor**.
+
+The two lemmas ask different questions. "Invisible and unordered" invites answers about light and
+form; "empty and void" invites a list of what was missing. The second question is the one the
+schools inherit, and by the twelfth century the seeds-and-shoots answer is standard property
+(Rupert, Abelard, Hugh *Adnot.*, each with the two privations distributed differently, none citing
+another).
+
+- **Wigbod has both and does not notice.** PL 96:1111B prints Augustine's Manichaean paragraph
+  under *invisibilis et incomposita*; PL 96:1116B asks *"Cur inanis et vacua?"* and answers about
+  coastlines. Five columns, one book, no seam.
+- **Angelomus splices them in one paragraph** (PL 115:114D): the Vulgate question, Augustine's
+  unformed matter, then *"Unde alia translatio dicit: Invisa et incomposita"* — glossed with
+  **Alcuin's Interrogatio 30 word for word**, unattributed.
+- **Hugh of St Victor is the first to tell a reader plainly** that the clause exists in two Latin
+  forms: *"sive, ut alia translatio habet, incomposita"* (PL 176:190D).
+
+## Jerome does not gloss the pair he made — `PLAN.md`'s [CHECK] resolved
+
+`grep-bench.py "inanis|vacua|incomposit" jerome-hq` returns **0 hits**. The *Hebrew Questions* run
+straight from *In principio fecit Deus coelum et terram* (PL 23:937C) to *(Vers. 2.) Et Spiritus
+Dei ferebatur super aquas* (939A). The translator who put *inanis et vacua* into the Latin Bible
+left no note on it, and the note he did leave on this verse — *merefeth / incubabat* — is K7's.
+
+## What the plan listed vs. what the sources are
+
+- **Bereshit Rabbah 2 is four readings of the pair, not one.** 2:1 (R. Berekhya, Prov 20:11 →
+  Jer 4:23), 2:2 (R. Abahu and R. Yehuda bar Simon: the two slaves, the two maidservants — the
+  earth sits *toheh u-voheh* with a grievance), 2:3 (the generations: Adam, Cain, Enosh, the Flood,
+  Abraham), 2:5 (the deeds of the wicked; the Temple built, destroyed, rebuilt). **2:4, the four
+  kingdoms, is already built as a K7 witness** for the Messiah's spirit and its first half belongs
+  here too — left for Phase 4, per the frozen rule.
+- **The whole rabbinic side reads the pair through Jer 4:23**, "I have seen the land, and behold it
+  is *tohu va-vohu*" — a prophet using the phrase of a land under judgement. **No Latin witness on
+  this crux cites Jer 4:23 at all.** That single intertext is why one bench can read the clause as
+  history and the other cannot.
+- **b. Chagigah 12a segment 6 was not in the plan and is the sharpest answer on either bench** to
+  "state or thing": *tohu* is a green line encircling the world, *bohu* are slimy stones sunk in
+  the deep, proved from Isa 34:11. It sits inside the ten-things-made-on-day-one list (segments
+  4–5, which are **K5's** text), so both are creatures with a date.
+- **Ramban's *bohu* paragraph is a K6 witness, not only a K4 one.** `notes/cross-crux.md` had
+  filed the whole *hyle* passage under K4. The first half (creation from absolute nothing, the
+  hyle as the only created thing) is K4's; the second half — *tohu* = the hyle, from *betohe*
+  "he bethinks himself", because matter can hold no name; *bohu* = *bo hu*, "in it there is", the
+  form; Isa 34:11 as a craftsman's measuring cord and the stones as forms — is the only place on
+  either bench where the pair is a matched technical vocabulary. Sliced here from
+  `וְהַחֹמֶר הַזֶּה, שֶׁקָּרְאוּ הִיּוּלִי`; the K4 half is untouched.
+- **Ibn Ezra and Ramban divide on this verse.** Ibn Ezra names Sefer Yetzirah's green line and
+  slimy stones and sets them aside for Onkelos (*tohu* = without substance); Ramban keeps Sefer
+  Yetzirah, cites it approvingly, and makes *tohu* a substance. The two commentators Ramban reads
+  side by side on 1:1 split here on whether the word names anything at all.
+- **Rashi's *bohu* gloss is Onkelos.** He renders it *reikut ve-tzadu* — the two Aramaic words
+  Onkelos uses for the whole pair, *tzadya ve-reikanya*, in the other order.
+- **Isidore founds a lineage nobody else on the Latin bench starts.** PL 83:209B, *terra carnis
+  nostrae … priusquam doctrinae acciperet formam*, is copied verbatim by Wigbod (96:1116B) and
+  Rabanus (107:467A), stands at Remigius 131:55D, and is turned on the Church by **Bruno of Segni**
+  (164:150B), whose reading of the clause as a periodization ending at Rom 11:25 has the same shape
+  as Bereshit Rabbah 2:3's and 2:4's and the opposite contents.
+- **The Glossa's second gloss on this lemma is Remigius verbatim.** Migne prints it under
+  *(STRAB.)* at 113:69D — *"Inutilis scilicet, et infructuosa, et incomposita. Omnia enim elementa
+  commixta, confusa…"* — and it is PL 131:55A to the last clause about the waters above the
+  heavens. It is already on the site inside K7's `glossa-1-2-ruach` (Wilson's edition appended it),
+  so only the *first* gloss on the lemma, Bede's, is sliced here as `glossa-1-2-terra`.
+- **Comestor carries the Glossa's formula minus one adjective**, applied to the *machina mundialis*
+  rather than to the earth, and identifies the deep with *chaos* flatly where Abelard had kept his
+  distance.
+- **Honorius (PL 172:260C) was read and not built.** *"corporalis creatura adhuc informata, sed in
+  verbo Dei causaliter posita"* is one sentence and repeats Augustine's answer with nothing added;
+  the *creavit omnia simul* argument around it is K10's and K4's.
+- **Rabanus (PL 107:445A) copies Bede verbatim** on the angels-in-heaven argument, as at K7, and is
+  not built; the transmission is already carried by the Glossa's gloss.
+
+## Text problems found
+
+- **Bede, PL 91:13C** reads *"divinae gloria praescientiae manet semper quietum"* where **both**
+  Angelomus (115:114D) and the Glossa (113:69C) have *divinae praesentiae*. The Corpus Corporum
+  reading is probably corrupt; the English brackets the phrase. **[CHECK the PL plate.]**
+- **Bruno, PL 164:150C** carries a stray *3* before *ad Ecclesiam confugerent* (a signature or
+  line mark pulled into the text). Dropped from the English. Bruno's digitisation continues to be
+  the dirtiest on the bench (cf. *tuce* for *luce* at K10, *Dei. vero* at K7).
+- **Abelard, PL 178:734C** prints *"ne forte,,"* with a doubled comma.
+
+## Pipeline
+
+- **`hcut` is now in `scripts/bench.py`.** PHASES.md said to lift the vocalized-Hebrew skeleton
+  slicer out of `cruxes/beginning-of-what.py` at the third crux that needed it; K6 needed it for
+  Ramban, so it moved. `beginning-of-what.py` still carries its own private copy and is untouched,
+  since rebuilding K1 is not this session's business.

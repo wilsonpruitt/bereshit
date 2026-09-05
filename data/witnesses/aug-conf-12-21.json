@@ -1,0 +1,40 @@
+{
+ "id": "aug-conf-12-21",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 400,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Aliud sibi tollit qui dicit",
+  "en": "One man takes one thing for himself when he says"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Item quod attinet ad intellectum verborum sequentium, ex illis omnibus veris, aliud sibi tollit qui dicit: Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, id est, Corporale illud quod fecit Deus, adhuc materies erat corporearum rerum informis, sine ordine, sine luce. Aliud qui dicit: Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, id est, Hoc totum quod coelum et terra appellatum est, adhuc informis et tenebrosa materies erat, unde fieret coelum corporeum et terra corporea, cum omnibus quae in eis sunt corporeis sensibus nota. Aliud qui dicit: Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, id est, Hoc totum quod coelum et terra appellatum est, adhuc informis et tenebrosa materies erat, unde fieret coelum intelligibile quod alibi dicitur coelum coeli (Psal. CXIII, 16) ; et terra, scilicet omnis natura corporea, sub quo nomine intelligatur etiam hoc coelum corporeum; id est unde fieret omnis invisibilis visibilisque creatura. Aliud qui dicit: Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum; non illam informitatem nomine coeli et terrae Scriptura appellavit; sed jam erat, inquit, ipsa informitas quam terram invisibilem et incompositam tenebrosamque abyssum nominavit, de qua coelum et terram Deum fecisse praedixerat, spiritualem scilicet, corporalemque creaturam. Aliud qui dicit: Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, id est, Informitas quaedam jam materies erat, unde coelum et terram Deum fecisse Scriptura praedixit: totam scilicet corpoream mundi molem, in duas maximas partes, superiorem atque inferiorem distributam, cum omnibus quae in eis sunt usitatis notisque creaturis.",
+  "source": "PL 32, col. 837",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Again, as regards the understanding of the words that follow, out of all those true meanings one man takes this for himself when he says: 'But the earth was invisible and unordered, and darkness was over the deep' — that is, That bodily thing which God made was still the formless matter of bodily things, without order, without light. Another when he says: 'But the earth was invisible and unordered, and darkness was over the deep' — that is, This whole which was called heaven and earth was still formless and dark matter, out of which bodily heaven and bodily earth were to be made, with all the things in them known to the bodily senses. Another when he says: 'But the earth was invisible and unordered, and darkness was over the deep' — that is, This whole which was called heaven and earth was still formless and dark matter, out of which was to be made the intelligible heaven, which is elsewhere called the heaven of heaven (Ps 115:16 [Vg 113:16]); and earth, that is, every bodily nature, under which name this bodily heaven too is to be understood: that is, out of which every invisible and visible creature was to be made. Another when he says: 'But the earth was invisible and unordered, and darkness was over the deep' — Scripture did not call that formlessness by the name of heaven and earth; rather, he says, that formlessness which he named 'earth invisible and unordered' and 'the dark deep' already was, and out of it, as he had said beforehand, God made heaven and earth, that is, the spiritual and the bodily creature. Another when he says: 'But the earth was invisible and unordered, and darkness was over the deep' — that is, A certain formlessness was already the matter out of which Scripture said beforehand that God made heaven and earth: namely the whole bodily mass of the world, divided into two greatest parts, the upper and the lower, with all the familiar and known creatures in them.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-many-senses",
+  "pair-is-formless-matter"
+ ],
+ "notes": "Augustine sets out five readings of this one clause, each introduced with the same formula, and does not choose. They differ over what the formlessness is the matter of — bodies only, or the whole of heaven and earth, or the intelligible heaven as well — and over whether Scripture called that formlessness 'heaven and earth' in verse 1 or only named it here. His point is that all five are true and none of them can be shown to be Moses' own, so a reader who insists on one against the others is defending himself rather than Scripture. This is the only place on either bench where the plurality of answers is itself the answer, and it is worth setting beside Bereshit Rabbah 2, which likewise prints four readings of the pair without adjudicating — though there the readings are of history and here they are of physics."
+}

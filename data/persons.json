@@ -352,5 +352,12 @@
   "name": "R. Yaakov",
   "tradition": "rabbinic",
   "role": "tradent"
+ },
+ "r-abahu": {
+  "name": "R. Abahu",
+  "he": "רַבִּי אַבָּהוּ",
+  "dates": "c. 250–320",
+  "tradition": "rabbinic",
+  "role": "tradent"
  }
 }

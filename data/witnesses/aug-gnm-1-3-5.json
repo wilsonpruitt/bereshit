@@ -1,0 +1,39 @@
+{
+ "id": "aug-gnm-1-3-5",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-389",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Quomodo fecit Deus in principio coelum et terram, si jam et terra erat invisibilis?",
+  "en": "How did God make heaven and earth in the beginning, if the earth was already invisible?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quod autem sequitur in libro Geneseos, Terra autem erat invisibilis et incomposita, sic reprehendunt Manichaei, ut dicant: Quomodo fecit Deus in principio coelum et terram, si jam et terra erat invisibilis et incomposita? Ita, cum volunt Scripturas divinas prius vituperare quam nosse, etiam res apertissimas non intelligunt. Quid enim manifestius dici potuit, quam hoc dictum est, In principio fecit Deus coelum et terram; terra autem erat invisibilis et incomposita; id est, In principio fecit Deus coelum et terram; terra autem ipsa quam fecit Deus, invisibilis erat et incomposita, antequam Deus omnium rerum formas locis et sedibus suis ordinata distinctione disponeret: antequam diceret, Fiat lux, et, Fiat firmamentum, et Congregentur aquae, et, Appareat arida, et caetera quae in eodem libro sic exponuntur per ordinem, quemadmodum possint ea parvuli capere? Quae omnia continent tam magna mysteria, ut quisquis ea didicerit, omnium haereticorum vanitatem vel doleat quia homines sunt, vel derideat quia superbi sunt.",
+  "source": "PL 34, col. 176",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "What follows in the book of Genesis, 'But the earth was invisible and unordered', the Manichaeans find fault with in this way, saying: How did God make heaven and earth in the beginning, if the earth was already invisible and unordered? So, wanting to blame the divine Scriptures before they know them, they fail to understand even the plainest things. For what could have been said more plainly than what is said here: 'In the beginning God made heaven and earth; but the earth was invisible and unordered' — that is, In the beginning God made heaven and earth; but that very earth which God made was invisible and unordered, before God set out the forms of all things in their places and seats by an ordered distinction: before he said, 'Let there be light', and 'Let there be a firmament', and 'Let the waters be gathered', and 'Let the dry land appear', and the rest, which are set forth in order in the same book in such a way that little ones can take them in? All of which hold mysteries so great that whoever has learned them either grieves over the emptiness of all the heretics, because they are men, or laughs at it, because they are proud.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-formless-matter"
+ ],
+ "notes": "The crux in the sharpest form anyone puts it, and it is put by an opponent: if God made the earth in the beginning, how was it already invisible and unordered? The objection assumes the pair describes something God had not yet made, and Augustine's whole answer is a single word of grammar — 'that very earth which God made was invisible and unordered', before he distinguished the forms of things. Everything the Latin bench does with this verse for the next eight hundred years is a development of that reading of the sentence. Note the lemma: Augustine's text is the Old Latin invisibilis et incomposita, from the Greek, and not Jerome's inanis et vacua, which he never quotes."
+}

@@ -63,5 +63,20 @@ def sef(slug, lang, idx=None, he_file=None):
     if idx is not None: t = t[idx]
     return flat(t), v["versionTitle"], v.get("license")
 
+_NIQQUD = re.compile(r"[\u0591-\u05C7]")
+def hcut(t, a, b, label="hcut"):
+    """Slice vocalized Hebrew between two anchors, matching on the consonantal skeleton: Sefaria's
+    pointed text and any anchor retyped through a terminal differ in combining-mark order, so a
+    plain str.find fails on a phrase that is plainly there. Lifted out of cruxes/beginning-of-what.py
+    at K6, the third crux to need it (PHASES.md, Phase 2)."""
+    bare = _NIQQUD.sub("", t)
+    back = [k for k, ch in enumerate(t) if not _NIQQUD.match(ch)]
+    a, b = _NIQQUD.sub("", a), _NIQQUD.sub("", b)
+    i = bare.find(a)
+    if i < 0: raise SystemExit(f"{label}: start anchor not found: {a!r}")
+    j = bare.find(b, i)
+    if j < 0: raise SystemExit(f"{label}: end anchor not found: {b!r}")
+    return t[back[i]:back[j + len(b) - 1] + 1].strip()
+
 def thread(crux_id, tid, frm, to, ty, ev):
     return {"id": tid, "from": frm, "to": to, "type": ty, "evidence": ev, "crux": crux_id}

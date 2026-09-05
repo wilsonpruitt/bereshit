@@ -1,0 +1,40 @@
+{
+ "id": "basil-hex-2-4",
+ "work": "basil-hex-lat",
+ "author": "basil",
+ "tradition": "latin",
+ "date": 400,
+ "date_precision": "circa",
+ "place": "caesarea-cappadociae",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Terra autem erat invisibilis et incomposita",
+  "en": "But the earth was invisible and unordered"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem, inquit, erat invisibilis et incomposita. Quomodo igitur utrisque elementis, id est coelo et terra, pari honore constructis, coelum quidem perfectum fuerat, tellus vero adhuc incomposita est? Aut quid omnino causae fuit, quo minus perficeretur, et visibilis non esset? Igitur terrae plena compositio est propria fecunditas, id est universarum germinatio plantarum, et arborum fructiferarum vel infructiferarum copia, nec non colores odoresque florei, et alia quae paulo post divino jussu progenita, decoravere tellurem. Quorum quia nondum aliquid exstiterat, merito eam sermo Scripturae incompositam nominavit. Haec autem etiam de coelo imperfecto rite dicemus, quoniam nec ipsum proprium sumpsisset ornatum, quippe quod minime solis adhuc et lunae fuerat fulgore lustratum, nec choris siderum coronatum. Ita non videberis a veritate deflectere, si etiam coelum incompositum dixeris. Terram autem invisibilem dixit ob duas causas, aut quia necdum spectator ejus processerat homo, aut quia sub aquis, quae tunc ei supererant, latens, nullo modo cernebatur. Nondum enim aquae congregatae fuerant in propriis conceptaculis, quas in unum postea collectas Dominus maria nuncupavit. Invisibile itaque est, vel quod oculis non potest carnalibus comprehendi, sicut mens nostra, vel illud quod natura quidem cerni potest, sed propter obductum sibi velamentum corporis alicujus absconditur, sicut ferrum quod in profundo jacet. Hac itaque ratione nunc invisibilem terram dictam esse putandum est, ut pote quae aquarum superficie tegebatur. Deinde quia necdum luce constituta, mirum non est si haberetur invisibilis: cum aer ipse splendore carens esset obscurus.",
+  "source": "PL 53, col. 879C",
+  "cc_idno": "7608",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'But the earth,' he says, 'was invisible and unordered.' How then, when both elements, that is heaven and earth, were built with equal honour, was heaven complete while the ground was still unordered? Or what cause was there at all that it should be less than finished, and should not be visible? The full ordering of the earth is its own fruitfulness — that is, the sprouting of all plants, and the abundance of trees bearing fruit and bearing none, and the colours and scents of flowers, and the other things which, brought forth a little later at the divine command, adorned the ground. Since none of these yet existed, the word of Scripture rightly called it unordered. And we shall be right to say the same of heaven as unfinished, since it had not taken up its own adornment either, having not yet been lit by the brightness of the sun and the moon, nor crowned with the choirs of the stars. So you will not seem to turn aside from the truth if you call heaven too unordered. But he called the earth invisible for two reasons: either because man, the beholder of it, had not yet come forth, or because, lying hidden under the waters that then stood over it, it could in no way be seen. For the waters had not yet been gathered into their own basins, which the Lord afterwards, when they were collected into one, named seas. A thing is invisible either because it cannot be grasped by bodily eyes, as our mind cannot, or because it can indeed be seen by nature but is hidden by the covering of some body drawn over it, as iron is that lies in the deep. It is in this sense, then, that the earth is now to be thought called invisible, inasmuch as it was covered by the surface of the waters. And then, since light was not yet established, it is no wonder if it was held invisible, when the air itself, lacking brightness, was dark.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-under-water",
+  "pair-is-unfurnished"
+ ],
+ "notes": "The Greek pair expounded as a report on conditions, and every answer is a physical one. Unordered means not yet fruitful — and Basil is willing to say heaven was unordered too, since it had no sun or stars yet, which no Latin after him will say. Invisible means either that there was no one to see it, or that it was under water; and he adds a small definition of invisibility that a modern reader can use — invisible as a mind is invisible, or invisible as iron lying at the bottom of the sea. Ibn Ezra reaches the second of these in Lucca seven centuries later from the Aramaic rather than the Greek. The paragraph that follows in Eustathius (PL 53:880C), against those who take the pair to prove an unbegotten matter, is a different argument and belongs to K4."
+}
