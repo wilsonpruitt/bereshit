@@ -1,0 +1,39 @@
+{
+ "id": "hugh-sacr-1-1b",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non ordinis sed dignitatis causa sic positum",
+  "en": "so placed not for the sake of order but of dignity"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Duo in principio posita sunt coelum et terra. Quid horum putas subtus, aut quod supra fuisse dicemus? Aut terra supra et coelum subtus; aut terra subtus et coelum supra? Sed nunquid credendum est prima illa conditione rerum coelum subter creatum fuisse; et postea in formatione supra dispositum? Fortassis quia prius Scriptura nominavit coelum quam terram, propterea coelum quasi fundamentum subtus creatum fuisse quis dicat. Ego aut non ordinis sed dignitatis causa sic positum reor; et quia etiam sermo sequens de elemento terrae quasi de proximo (et ob hoc posterius nominato) habendus fuit, ideo et prius coelum et postea terra nominari debuit. Sed neque ipsa conditorum natura alium positionis aut locationis ordinem pateretur, quam ut ponderosa deorsum, et sursum levia disponerentur. Ergo terra deorsum erat et coelum sursum, et quod supra terram erat coelum erat. Ergo coelum supra terram erat.",
+  "source": "PL 176, col. 191B",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Two things are set down in the beginning, heaven and earth. Which of these do you suppose was below, and which shall we say was above? Either earth above and heaven below, or earth below and heaven above? But is it to be believed that in that first condition of things heaven was created underneath, and afterwards in the forming was set above? Perhaps, because Scripture named heaven before earth, someone may say that heaven was created below as a foundation. But I judge it to be so placed not for the sake of order but of dignity; and because the discourse that follows had to be about the element of earth, as about the nearer thing — and for this reason named later — therefore heaven had to be named first and earth afterwards. Nor indeed would the very nature of the things founded allow any other order of position or placing than that the weighty should be disposed downward and the light upward. Therefore the earth was below and heaven above, and what was above the earth was heaven. Therefore heaven was above the earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "order-of-dignity"
+ ],
+ "notes": "Hugh takes the question seriously enough to consider the absurd answer — that heaven was made underneath, as a foundation, because it is named first — and then gives the school's rule: word order is dignity, not sequence. His second reason is better than his first and is entirely about composition: the discourse that follows is going to be about the earth, so the earth is named last, nearest to what comes next. That is a claim about how the sentence was written rather than about what happened, and it is R. Yoḥanan's distinction between creation and completion, and Resh Lakish's between creating and stretching, arrived at from the writer's side rather than the world's."
+}

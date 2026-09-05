@@ -359,5 +359,77 @@
   "dates": "c. 250–320",
   "tradition": "rabbinic",
   "role": "tradent"
+ },
+ "bet-shammai": {
+  "name": "Beit Shammai",
+  "he": "בֵּית שַׁמַּאי",
+  "dates": "1st c.",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "bet-hillel": {
+  "name": "Beit Hillel",
+  "he": "בֵּית הִלֵּל",
+  "dates": "1st c.",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yishmael": {
+  "name": "R. Yishmael",
+  "he": "רַבִּי יִשְׁמָעֵאל",
+  "dates": "d. c. 135",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-akiva": {
+  "name": "R. Akiva",
+  "he": "רַבִּי עֲקִיבָא",
+  "dates": "c. 50–135",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "nachum-of-gam-zo": {
+  "name": "Naḥum of Gam Zo",
+  "he": "נַחוּם אִישׁ גַּם זוּ",
+  "dates": "fl. c. 90–110",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yehuda-b-ilai": {
+  "name": "R. Yehuda bar Ilai",
+  "dates": "fl. c. 140–165",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-hanin": {
+  "name": "R. Ḥanin",
+  "dates": "fl. c. 300",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-tanchuma": {
+  "name": "R. Tanḥuma",
+  "dates": "fl. c. 380",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-shimon-b-yochai": {
+  "name": "R. Shimon ben Yoḥai",
+  "he": "רַבִּי שִׁמְעוֹן בֶּן יוֹחַאי",
+  "dates": "fl. c. 140–165",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-elazar-b-r-shimon": {
+  "name": "R. Elazar be-Rabbi Shimon",
+  "dates": "fl. c. 165–200",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yose-b-chanina": {
+  "name": "R. Yose bar Ḥanina",
+  "dates": "fl. c. 270",
+  "tradition": "rabbinic",
+  "role": "tradent"
  }
 }

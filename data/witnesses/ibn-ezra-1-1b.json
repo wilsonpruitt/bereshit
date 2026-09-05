@@ -1,0 +1,38 @@
+{
+ "id": "ibn-ezra-1-1b",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "שְׁמֵי הַשָּׁמַיִם",
+  "en": "the heavens of the heavens"
+ },
+ "original": {
+  "lang": "he",
+  "text": "ואל תתמה על וי\"ו והארץ כי פירושו כפ\"א רפה בלשון ישמעאל, וכמוהו \"ואד יעלה מן הארץ\" (בראשית ב ו), כי לא דבר משה על העולם הבא, שהוא עולם המלאכים כי אם על עולם ההויה והשחתה, והמפרשים שהשמים בפסוק הראשון הם שמי השמים, מה יעשו בארץ, והנה ראיות גמורות לאנשי שיקול הדעת שאין שם רק ארץ אחת ודרש שבע ארצות הוא שהיישוב נחלק על שבעה ובית המקדש היה באמצע היישוב כי רחוק הוא מאמצע הארץ",
+  "source": "Ibn Ezra on Gen 1:2, s.v. והארץ (on the heavens of v. 1)",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "Now don’t be surprised by the vav of veha’aretz (“and the earth’), for its meaning is like the feh in Arabic and like “and a mist” v’ed would rise up from the earth” Genesis 2:6, for Moshe did not speak about the World to Come, which is the world of the angels, but rather of this transitory world. And those who explain that the heavens in the first verse are really the heavenly heavens, what will they do [here] with the earth? Behold, complete proofs, for reasonable people, that there is only earth. Now it is expounded that there were seven earths is [actually] that the earth is divided into seven and the Temple was in the center of the settled region, for it was distant from the center of the earth.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "one-earth-only"
+ ],
+ "notes": "A grammarian refusing the whole allegorical apparatus, and the argument is a symmetry argument. Moses, he says, did not speak of the world to come, which is the world of the angels, but of this world of coming-to-be and passing-away; and to those who explain that the heavens of the first verse are really the heavens of the heavens he puts one question — then what will you do with the earth? If shamayim in v. 1 is the intelligible heaven, aretz beside it must be something other than the ground, and no one is willing to say so. That is precisely the position of Remigius, the Glossa and Comestor, who take the heaven of v. 1 to be the empyrean and are then obliged to make the earth beside it into prime matter or the four elements. Ibn Ezra also disposes of the seven earths: there is one earth, divided into seven settled regions, with the Temple at the centre of the settlement and not at the centre of the globe."
+}

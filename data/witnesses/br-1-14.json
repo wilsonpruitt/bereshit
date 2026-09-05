@@ -1,0 +1,45 @@
+{
+ "id": "br-1-14",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+  "en": "et the heavens and et the earth"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי יִשְׁמָעֵאל שָׁאַל אֶת רַבִּי עֲקִיבָא אָמַר לוֹ בִּשְׁבִיל שֶׁשִּׁמַּשְׁתָּ אֶת נַחוּם אִישׁ גַּם זוּ עֶשְׂרִים וּשְׁתַּיִם שָׁנָה, אַכִין וְרַקִּין מִעוּטִין, אֶתִין וְגַמִּין רִבּוּיִן, הָדֵין אֶת דִּכְתִיב הָכָא, מַה הוּא, אֲמַר לֵיהּ, אִלּוּ נֶאֱמַר בְּרֵאשִׁית בָּרָא אֱלֹהִים שָׁמַיִם וָאָרֶץ, הָיִינוּ אוֹמְרִים הַשָּׁמַיִם וְהָאָרֶץ אֱלָהוּת הֵן, אֲמַר לֵיהּ (דברים לב, מז): כִּי לֹא דָבָר רֵק הוּא מִכֶּם, וְאִם רֵק הוּא מִכֶּם, לָמָּה שֶׁאֵין אַתֶּם יוֹדְעִין לִדְרשׁ בְּשָׁעָה שֶׁאִי אַתֶּם יְגֵעִין בּוֹ, (דברים לב, מז): כִּי הוּא חַיֵּיכֶם, אֵימָתַי הוּא חַיֵּיכֶם, בְּשָׁעָה שֶׁאַתֶּם יְגֵעִין בּוֹ. אֶלָּא אֵת הַשָּׁמַיִם, לְרַבּוֹת חַמָּה וּלְבָנָה וּמַזָּלוֹת, וְאֵת הָאָרֶץ, לְרַבּוֹת אִילָנוֹת וּדְשָׁאִין וְגַן עֵדֶן.",
+  "source": "Bereshit Rabbah 1:14 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Yishmael asked Rabbi Akiva, saying to him: ‘Because you studied under Naḥum of Gam Zo for twenty-two years, [who taught:] The words akh and rak are restrictive expressions, et and gam are inclusive expressions, [I ask you:] What is the meaning of the et that is written here [twice]?’ He said to him: ‘Had it been stated: “In the beginning God created heavens and earth [bereshit bara elohim shamayim vaaretz]” – we might have said that the heavens and the earth are deities.’ He [Rabbi Yishmael] said to him: “For it is not an empty matter for you [mikem]” (Deuteronomy 32:47) – if it is empty, it is because of you [mikem], because you do not know how to expound, because you do not exert yourself in its regard. “As it [the Torah] is your life” (Deuteronomy 32:47) – when is it your life? It is when you exert yourself in its regard. Rather [the explanation is]: “et hashamayim” – to include the sun, the moon, and the constellations; “ve’et haaretz” – to include trees, vegetation, and the Garden of Eden.",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yishmael",
+  "r-akiva",
+  "nachum-of-gam-zo"
+ ],
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "et-includes",
+  "heaven-earth-is-everything"
+ ],
+ "notes": "The question of what 'heaven and earth' contains, asked as a question about a particle. R. Yishmael puts it to R. Akiva, who served Naḥum of Gam Zo twenty-two years and learned from him that akh and rak restrict while et and gam include: what, then, are the two ets doing here? Akiva's first answer is theological — without them we might have said that the heavens and the earth are deities — and R. Yishmael slaps it down with Deut 32:47, if the Torah is empty it is empty because of you, because you do not exert yourself in it. Then the real answer, and it is an inventory: et ha-shamayim brings in the sun, the moon and the constellations; ve-et ha-aretz brings in the trees, the plants and the Garden of Eden. Augustine asks the identical question in Latin — what is signified by the name of heaven and earth — and answers that the two words are a name for the whole creation, given in visible terms for the sake of little ones. Ramban quotes this passage by name eight hundred years later and treats it as settling the matter."
+}

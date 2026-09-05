@@ -1,0 +1,41 @@
+{
+ "id": "comestor-hs-1-1b",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "id est continens et contentum",
+  "en": "that is, the container and the thing contained"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Mundus quatuor modis dicitur: quandoque empyreum coelum mundus dicitur propter sui munditiam; quaudoque sensibilis mundus, qui a Graecis pan, a Latinis omne dictus est quia, philosophus empyreum non cognovit; quandoque sola regio sublunaris, quia haec sola animantia nobis nota habet de qua: Princeps hujus mundi ejicietur foras (Joan. XII) ; quandoque homo mundus dicitur, quia in se totius mundi imaginem repraesentat. Unde a Domino homo omnis creatura dictus est, et Graecus hominem microcosmum, id est minorem mundum vocat. Empyreum autem et sensibilem mundum, et sublunarem regionem creavit Deus, id est de nihilo fecit; hominem vero creavit, id est plasmavit. De creatione ergo illorum trium inquit legislator: In principio creavit Deus coelum et terram (Gen. I) , id est continens et contentum, id est coelum empyreum et angelicam naturam. Terram vero materiam omnium corporum, id est quatuor elementa, id est mundum sensibilem ex his constantem. Quidam coelum superiores partes mundi sensibilis intelligunt; terram inferiores et palpabiles.",
+  "source": "PL 198, col. 1055A",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'World' is said in four ways: sometimes the empyrean heaven is called world, on account of its cleanness; sometimes the sensible world, which is called by the Greeks pan and by the Latins 'all', because the philosopher did not know the empyrean; sometimes the region below the moon alone, because this alone has the living creatures known to us — of which it is said, 'The prince of this world shall be cast out' (John 12:31); sometimes man is called a world, because he presents in himself the image of the whole world, whence by the Lord man was called 'every creature', and the Greek calls man microcosm, that is, the lesser world. Now the empyrean and the sensible world and the sublunary region God created, that is, made out of nothing; but man he created, that is, moulded. Of the creation, then, of those three the lawgiver says: 'In the beginning God created heaven and earth' (Gen 1) — that is, the container and the thing contained, that is, the empyrean heaven and the angelic nature. But 'earth' is the matter of all bodies, that is, the four elements, that is, the sensible world consisting of them. Some understand 'heaven' as the upper parts of the sensible world, and 'earth' as the lower and palpable.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "heaven-is-empyrean",
+  "heaven-earth-four-elements",
+  "heaven-earth-is-everything"
+ ],
+ "notes": "The twelfth-century synthesis, and it is the most systematic thing said on this crux in Latin: four senses of 'world' laid out first, so that when the verse is read the reader already knows which world is meant. Heaven and earth are then 'the container and the thing contained' — the empyrean heaven with the angelic nature, and the matter of all bodies, the four elements. Remigius' empyrean and Abelard's elements are here in one sentence, which is what Comestor is for; and the aside that the philosopher did not know the empyrean is a quiet acknowledgement that the best-attested part of this reading has no ancient authority behind it. He then reports the rival, flatter reading — heaven the upper parts of the sensible world, earth the lower — without deciding."
+}

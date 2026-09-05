@@ -1,0 +1,40 @@
+{
+ "id": "alcuin-int-28",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non quia jam hoc erat, sed quia jam hoc esse poterat",
+  "en": "not because it already was this, but because it already could be this"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 28. Quid in coeli terraeque nomine significatur, quando dicitur: In principio fecit Deus coelum et terram (Gen. I, 1) ?-- Resp. Informis illa materia, quam de nihilo fecit Deus, appellata est primo coelum et terra: non quia jam hoc erat, sed quia jam hoc esse poterat. Nam secundo die coelum istud sidereum factum esse legitur, et tertio die terram apparuisse et vestiri floribus coepisse. Sive, in coeli et terrae nomine spirituales et terrenae creaturae intelligi possunt.",
+  "source": "PL 100, col. 519C",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 28. What is signified by the name of heaven and earth, when it is said, 'In the beginning God made heaven and earth' (Gen 1:1)? — Answer. That formless matter, which God made out of nothing, was first called heaven and earth: not because it already was this, but because it already could be this. For on the second day this starry heaven is read to have been made, and on the third day the earth to have appeared and begun to be clothed with flowers. Or else, by the name of heaven and earth the spiritual and the earthly creatures can be understood.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "heaven-earth-is-everything",
+  "heaven-is-empyrean"
+ ],
+ "notes": "Augustine reduced to a rule a pupil can hold: heaven and earth in v. 1 are the names of formless matter, given proleptically — not because it already was this, but because it already could be this — and the proof is the calendar, since the starry heaven comes on the second day and the earth appears on the third. Then, as usual, Alcuin adds the alternative without weighing it: 'or else the spiritual and the earthly creatures'. That second answer is the seed of the empyrean reading which Remigius, the Glossa and Comestor will make the standard one."
+}

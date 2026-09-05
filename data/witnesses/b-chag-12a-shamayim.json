@@ -1,0 +1,41 @@
+{
+ "id": "b-chag-12a-shamayim",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "מַאי שָׁמַיִם",
+  "en": "What is 'heaven'?"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "מאי שמים א\"ר יוסי בר חנינא ששם מים במתניתא תנא אש ומים מלמד שהביאן הקב\"ה וטרפן זה בזה ועשה מהן רקיע",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "What is heaven? R. Yose bar Chanina said, That there is water. It was taught in a Mishnah, fire and water. Teaching that the Holy One, blessed be He, brought them and mingled them one with the other, and made from them the firmament.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "r-yose-b-chanina"
+ ],
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "shamayim-is-water"
+ ],
+ "notes": "The crux's second half asked in three words — mai shamayim, what is heaven — and answered from the name itself. R. Yose bar Ḥanina: sham mayim, 'there is water'. A mishnaic tradition: fire and water, which the Holy One brought and mingled with each other, and out of them made the firmament. It is an answer of exactly the kind the Latin bench never gives, because the Latin word yields nothing: caelum can be etymologised (Isidore tries chaos, others caelare, 'to engrave', for the stars) but it cannot be made to spell out what heaven is made of. Where the Bavli reads the substance out of the noun, Remigius and the Glossa have to import a substance — the empyrean, fiery not by heat but by brightness — from elsewhere."
+}

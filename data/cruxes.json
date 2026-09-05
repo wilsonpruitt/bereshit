@@ -128,9 +128,29 @@
   },
   "summary": "Chagigah 12a's ten-things list and Augustine's 'what is contained in caelum et terra' answer the same question.",
   "witnesses": [
+   "br-1-14",
+   "br-1-15",
+   "b-chag-12a-order",
+   "b-chag-12a-shamayim",
+   "b-chag-12a-akiva",
+   "ibn-ezra-1-1b",
+   "ramban-1-1b",
+   "ambrose-hex-1-6-20",
+   "ambrose-hex-1-6-24",
+   "aug-gnm-1-7-11",
+   "aug-gnl-1-9",
+   "alcuin-int-28",
+   "angelom-gen-1-1b",
+   "remigius-gen-1-1b",
+   "abelard-hex-1-1b",
+   "hugh-sacr-1-1b",
+   "comestor-hs-1-1b",
+   "b-chag-12a",
    "b-chag-15a"
   ],
-  "status": "register-only"
+  "status": "built",
+  "finding": "Both benches ask which was made first, and both end by refusing the question — and they refuse it with the same psalm. Ps 102:26 names the earth before the heavens: R. Yehuda bar Ilai brings it for Beit Hillel, Ambrose brings the same reversal to prove that the order of naming settles nothing, 'lest heaven be reckoned the better by the privilege of being the firstborn creature' — which is R. Shimon ben Yoḥai's stewpot and its lid and Bereshit Rabbah's closing rule that a reversed order teaches equality of honour. Where the two benches genuinely divide is on the second half of the question. Asked what 'heaven' is, the Bavli reads the answer out of the Hebrew noun — sham mayim, 'there is water' — while Latin, whose word will not spell anything, has to import a substance, and imports the empyrean: a fiery heaven, fiery from brightness and not from heat, filled with angels the moment it was made, which Comestor admits in passing that no ancient philosopher knew. Abelard throws it out and puts the four elements back, and Ibn Ezra, who never heard of him, makes the same objection from the other side: if the heavens of v. 1 are the heavens of the heavens, what will you do with the earth?",
+  "short": "heaven and earth"
  },
  {
   "id": "tohu-vabohu",

@@ -412,3 +412,101 @@ left no note on it, and the note he did leave on this verse — *merefeth / incu
   slicer out of `cruxes/beginning-of-what.py` at the third crux that needed it; K6 needed it for
   Ramban, so it moved. `beginning-of-what.py` still carries its own private copy and is untouched,
   since rebuilding K1 is not this session's business.
+
+---
+
+# K5 (heaven-earth-order) — 2026-09-05, sixth session
+
+## The two benches refuse the same question with the same psalm
+
+`PLAN.md` §5 predicted one `parallel` — Chagigah 12a's ten-things list beside Augustine's "what is
+contained in *caelum et terra*" — and that thread is real (`t-k5-08`: an enumeration and a
+generalisation of the same clause, at the same date, with no contact). But the sharper one was not
+in the plan:
+
+**Ps 102:26 [Vg 101:26] is on both benches, doing opposite work with the same logic.** The verse
+names the earth before the heavens. R. Yehuda bar Ilai brings it as Beit Hillel's proof that the
+earth was created first (BR 1:15). Ambrose brings the same reversal (from Ps 148:5, with 101:26
+quoted whole immediately before) to prove that **the order of naming decides nothing**, since both
+were made together — *"nihil interest quid prius exprimas, cum simul utrumque sit factum"* — and
+then gives the reason: *lest heaven be reckoned the better by the privilege of being the firstborn
+creature* (PL 14:135C). That is R. Shimon ben Yoḥai's stewpot and its lid, and it is exactly the
+rule Bereshit Rabbah 1:15 closes with — where Scripture reverses an order in one place, it teaches
+that the two are equal in honour (turtledoves and pigeons, father and mother, heaven and earth).
+Milan, c. 387; Galilee, c. 450; no contact.
+
+## Where they really divide: what "heaven" is
+
+- **The Bavli reads the substance out of the noun.** *Mai shamayim?* — *sham mayim*, "there is
+  water"; or, in the mishnaic tradition, fire and water mingled into the firmament (b. Chag 12a,
+  segment 18). The Hebrew word can be made to spell what heaven is made of.
+- **Latin's word will not spell anything**, so the bench imports a substance, and what it imports
+  is **the empyrean**: not the visible firmament but a heaven *igneum … non ab ardore sed a
+  splendore*, filled with angels the moment it was made (Job 38:7). **Remigius PL 131:54D is where
+  it enters the gloss tradition**; the Glossa prints it almost verbatim at 113:68C (inside the
+  VERS. 1 block K1 sliced whole); Comestor has it as *coelum empyreum et angelica natura* — and
+  admits in passing that *philosophus empyreum non cognovit*.
+- **Abelard throws it out** (PL 178:733C–734A): heaven is fire and air, earth is earth and water,
+  and *"the angels, being of an incorporeal nature, are not included among the creatures of the
+  world at all."* **Ibn Ezra makes the same objection from the other bench**, and it is a symmetry
+  argument: those who say the heavens of v. 1 are the heavens of the heavens — *what will they then
+  do with the earth?* Neither could have known the other.
+
+## What the plan listed vs. what the sources are
+
+- **Bereshit Rabbah 1:15 has five answers, not two.** Beit Shammai (throne then footstool, Isa
+  66:1), Beit Hillel (palace from the ground up; Gen 2:4; Ps 102:26), R. Ḥanin turning Beit
+  Shammai's own proof against them (*"the earth WAS"* — it already was), R. Yoḥanan in the sages'
+  name splitting creation from completion, and R. Shimon ben Yoḥai's stewpot and lid. The section
+  then generalises into a rule about Scripture's word order.
+- **b. Chagigah 12a argues where Bereshit Rabbah illustrates**, and adds a resolution the
+  Palestinian version does not have: **Resh Lakish** — created in one order, stretched out in the
+  other (segment 17). That is Hugh of St Victor's *non ordinis sed dignitatis* six hundred years
+  early, arrived at from the world's side rather than the writer's.
+- **The R. Yishmael / R. Akiva encounter is on both rabbinic texts with different answers.** BR
+  1:14: without the two *ets* "we might have said the heavens and the earth are deities" — and
+  Akiva is rebuked for the answer (Deut 32:47) before giving the real one. b. Chag 12a segment 19:
+  without them *shamayim* would be a name of the Holy One — and the answer stands unchallenged.
+  Neither version ever considers that the *et* might include the angels; the Latin bench can think
+  of little else.
+- **Ramban gives the schools' answer and the midrash's in one paragraph and does not notice they
+  are two.** *"The word ha'aretz includes these four elements"* is Abelard to the letter; then the
+  particle *et*, with Bereshit Rabbah 1:14 named and quoted. The sentence joining them is "these
+  include all created things which are corporeal."
+- **Hugh of St Victor entertains the absurd answer before refusing it** (PL 176:191B): if heaven is
+  named first, was heaven created *underneath*, as a foundation, and only set above at the
+  forming? His second reason for the word order is better than his first and is purely
+  compositional — the discourse that follows is about the earth, so the earth is named last.
+- **PdRE 3 was not built.** Its cosmogony is the garment and the stretching-out (K8's material,
+  already built as `pdre-3-6`); it has no dispute about which of the two came first.
+- **Bruno of Segni PL 164:147B is the best Latin match to BR 1:15 and could not be built**, because
+  K1 sliced exactly that passage as `bruno-gen-1-1`. He quotes Ps 101:26, concludes *"non igitur
+  prius coelum, quam terram, sed simul et coelum Deus creavit et terram"*, and proves it from
+  Sir 18:1. Phase 4 item — see `notes/cross-crux.md`.
+
+## A structural gap this crux exposes
+
+The daf rendered with **no `versiones` and no `glossa` column** (rab 9, patres 4, scholae 6). Every
+version witness on Gen 1:1 — LXX, Vulgate, the three targums — and the Glossa's VERS. 1 block
+belong to K1 and carry only that crux. **On a crux whose whole subject is the order of two words,
+the witnesses that actually preserve that order are absent from the page.** Phase 4 should add
+`heaven-earth-order` to the facets of `lxx-1-1`, `vulgate-1-1`, `targ-onk-1-1`, `targ-neof-1-1`,
+`targ-psj-1-1` and `glossa-1-1` — the versions are relevant precisely because none of them reverses
+the Hebrew order, while Gen 2:4, which every one of them also renders, does.
+
+## Text problems found
+
+- **Comestor, PL 198:1055A** prints *quaudoque* for *quandoque* (third occurrence only) and
+  *hemines* for *homines* at 734A in Abelard — both plainly typographic, both left in the Latin and
+  silently right in the English.
+- **Abelard, PL 178:734A**: *natureae* for *naturae*.
+
+## Method note
+
+Because Gen 1:1 already carried 34 witnesses from K1, **every Latin slice was checked against K1's
+slice boundaries before it was written** (`python3 -c` dump of each K1 witness's source column and
+first/last 110 characters). Three of the eleven candidates turned out to be inside a K1 slice —
+Bruno 147B, the Glossa's VERS. 1 block, and Rabanus 444B (which copies Ambrose Hex I.6.20 verbatim,
+the passage this crux builds from Ambrose himself). **Do this check first on any remaining crux
+anchored to a verse another crux has already built** — K2 (`why-begin-here`) and K3
+(`elohim-and-trinity`) are both on 1:1–1:2 and will hit it harder than K5 did.

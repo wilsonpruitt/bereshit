@@ -254,5 +254,53 @@
  "pair-is-not-of-heaven": {
   "label": "Said of earth, not of heaven",
   "gloss": "The phrase is withheld from heaven, which was filled with angels as soon as it was made (Bede, the Glossa, Angelomus, Abelard)."
+ },
+ "heaven-first": {
+  "label": "Heaven first",
+  "gloss": "Beit Shammai: the word order is the order of the acts, and a king has his throne made before its footstool (Isa 66:1)."
+ },
+ "earth-first": {
+  "label": "Earth first",
+  "gloss": "Beit Hillel: a builder raises the lower storey first (Amos 9:6), and Gen 2:4 and Ps 102:26 name the earth before the heavens."
+ },
+ "both-at-once": {
+  "label": "Both together",
+  "gloss": "The sages, and R. Shimon ben Yoḥai's stewpot and its lid (Isa 48:13); Ambrose, that the order of naming gives heaven no privilege of the firstborn."
+ },
+ "order-of-dignity": {
+  "label": "Named for dignity, not order",
+  "gloss": "Heaven stands first because it is worthier, or because the account is about to turn to the earth (Hugh of St Victor; R. Yoḥanan's creation-and-completion)."
+ },
+ "created-then-stretched": {
+  "label": "Created in one order, stretched in the other",
+  "gloss": "Resh Lakish: heaven was created first, the earth was stretched out first — so both proof-texts stand."
+ },
+ "heaven-earth-is-everything": {
+  "label": "A name for the whole creation",
+  "gloss": "Two visible words standing for all that God made, given so for the weakness of little ones (Augustine, Alcuin, Angelomus, Comestor)."
+ },
+ "heaven-is-empyrean": {
+  "label": "The empyrean heaven",
+  "gloss": "Not the visible firmament but a fiery — from brightness, not heat — and intellectual heaven, filled with angels as soon as it was made (Remigius, the Glossa, Comestor)."
+ },
+ "heaven-earth-four-elements": {
+  "label": "The four elements",
+  "gloss": "Heaven names fire and air, earth names earth and water; the verse announces the material first principles of bodies (Ambrose, Abelard, Ramban, Comestor)."
+ },
+ "et-includes": {
+  "label": "The particle includes",
+  "gloss": "Et ha-shamayim brings in the sun, moon and constellations; ve-et ha-aretz the trees, the plants and the Garden of Eden (Bereshit Rabbah 1:14, b. Chagigah 12a, Ramban)."
+ },
+ "shamayim-is-water": {
+  "label": "Sham mayim — 'there is water'",
+  "gloss": "The name itself says what heaven is made of: water, or fire and water mingled into the firmament (b. Chagigah 12a)."
+ },
+ "one-earth-only": {
+  "label": "One earth, and no heaven of heavens here",
+  "gloss": "If the heavens of v. 1 were the intelligible heaven, the earth beside it could not be the ground; the seven earths are seven regions of the one (Ibn Ezra; Abelard, from the other end)."
+ },
+ "whole-then-parts": {
+  "label": "The whole first, then the parts",
+  "gloss": "V. 1 is a heading: Scripture commends everything God made in two words before going through it with 'God said' (Augustine, Angelomus, the Glossa)."
  }
 }

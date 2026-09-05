@@ -1,0 +1,46 @@
+{
+ "id": "b-chag-12a-order",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "בֵּית שַׁמַּאי אוֹמְרִים שָׁמַיִם נִבְרְאוּ תְּחִלָּה",
+  "en": "Beit Shammai say: the heavens were created first"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "ת\"ר ב\"ש אומרים שמים נבראו תחלה ואח\"כ נבראת הארץ שנאמר בראשית ברא אלהים את השמים ואת הארץ וב\"ה אומרים ארץ נבראת תחלה ואח\"כ שמים שנאמר (בראשית ב, ד) ביום עשות ה' אלהים ארץ ושמים אמר להם ב\"ה לב\"ש לדבריכם אדם בונה עלייה ואח\"כ בונה בית שנאמר (עמוס ט, ו) הבונה בשמים מעלותיו ואגודתו על ארץ יסדה אמר להם ב\"ש לב\"ה לדבריכם אדם עושה שרפרף ואח\"כ עושה כסא שנאמר (ישעיהו סו, א) כה אמר ה' השמים כסאי והארץ הדום רגלי וחכ\"א זה וזה כאחת נבראו שנאמר (ישעיהו מח, יג) אף ידי יסדה ארץ וימיני טפחה שמים קורא אני אליהם יעמדו יחדו ואידך מאי יחדו דלא משתלפי מהדדי קשו קראי אהדדי אמר ר\"ל כשנבראו ברא שמים ואח\"כ ברא הארץ וכשנטה נטה הארץ ואחר כך נטה שמים",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "Our Rabbis have taught, The house of Shammai say, The heavens were created first, and afterwards the earth was created, as it is said, (Genesis 1:1) \"In the beginning God created the heaven and the earth.\" But the house of Hillel say, The earth was created first, and afterwards the heavens, as it is said, (Genesis 2:4) \"In the day that the Lord God made earth and heaven.\" The house of Hillel said to the house of Shammai, According to you, [does] a person builds an upper story, and afterwards builds the house? [The heavens are called an upper story,] as it is said, (Amos 9:6) \"He builds his upper story in the heavens and sets its foundation on the earth.\" The house of Shammai said to the house of Hillel, According to you, [does] a person makes a footstool and afterwards makes a throne? [The heavens are called a throne,] as it is said, (Isaiah 66:1) \"So says the Lord, The heaven is My throne and the earth is My footstool.\" But the sages say, This and that were created at once, as it is said, (Isaiah 48:13) \"My own hand laid the foundations of the earth, and my right hand spread out the heavens; when I summon them, they all stand up together.\" And the other [opinions of Shammai and Hillel], what is \"together\"? That they cannot be separated the one from the other [once created]. The verses contradicts each other! Resh Lakish said, When they were created, He created the heavens, and afterwards created the earth, but when He stretched them out, He stretched out the earth, and afterwards stretched out the heavens.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "bet-shammai",
+  "bet-hillel",
+  "resh-lakish"
+ ],
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "heaven-first",
+  "earth-first",
+  "both-at-once",
+  "created-then-stretched"
+ ],
+ "notes": "The Babylonian redaction of the same dispute, and it argues where Bereshit Rabbah illustrates. Beit Hillel now put the objection as a question — on your view does a man build the upper storey and then the house? (Amos 9:6) — and Beit Shammai answer in kind: on your view does a man make a footstool and then a throne? (Isa 66:1). The sages say both at once, from Isa 48:13, and the Bavli will not leave it there: if 'together' only means that once made they cannot be parted, the two proof-texts still contradict each other, and Resh Lakish settles it with a distinction the Palestinian version does not have — when they were created, heaven was created first; when they were stretched out, the earth was stretched out first. It is the same move Hugh of St Victor makes in Paris six hundred years later with 'not order but dignity', and R. Yoḥanan's 'in creation first, in completion first' in Bereshit Rabbah: the sequence of the words is not the sequence of the acts."
+}

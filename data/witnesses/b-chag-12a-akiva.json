@@ -1,0 +1,43 @@
+{
+ "id": "b-chag-12a-akiva",
+ "work": "bavli-chagigah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "מַאי דָּרַשׁ בְּאֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+  "en": "what did he expound on 'et the heavens and et the earth'?"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "שאל רבי ישמעאל את ר\"ע כשהיו מהלכין בדרך א\"ל אתה ששימשת את נחום איש גם זו כ\"ב שנה שהיה דורש כל אתין שבתורה את השמים ואת הארץ מה היה דורש בהן א\"ל אילו נאמר שמים וארץ הייתי אומר שמים שמו של הקב\"ה עכשיו שנאמר את השמים ואת הארץ שמים שמים ממש ארץ ארץ ממש",
+  "source": "b. Chagigah 12a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "R. Yishmael asked R. Akiva, while they were walking on the road. He said to him, You are one who served Nachum Ish Gamzu for twenty-two years, who expounded the meaning of all the particles \"et\" in the Torah. What was his exposition of \"the heaven and earth\" - \"et hashamayim v'et ha'aretz\"? He said to him, If it had said \"shamayim va'aretz,\" I would have said, \"Shamayim\" is the name of the Holy One, blessed be He. Now that the words are \"et hashamayim v'et ha'aretz,\" \"shamayim\" means the heaven, literally, and aretz means the earth, literally.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "r-yishmael",
+  "r-akiva",
+  "nachum-of-gam-zo"
+ ],
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "et-includes"
+ ],
+ "notes": "The same encounter as Bereshit Rabbah 1:14 — R. Yishmael asking R. Akiva what Naḥum of Gam Zo made of the two ets — and the answer has changed. Here Akiva says that without the particles he would have taken shamayim to be a name of the Holy One, blessed be He; now that the text reads et ha-shamayim ve-et ha-aretz, heaven means heaven literally and earth means earth literally. In the Palestinian version the danger is that the heavens and the earth would be taken for deities and Akiva is rebuked for the answer; here the danger is narrower, that one word would be a divine name, and the answer stands unchallenged. Both are a Jewish witness to the same anxiety the Latin bench meets at Megillah 9a and in the Greek word order (K3). And note what neither version does: it never occurs to either that the et might include the angels."
+}

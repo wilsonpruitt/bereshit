@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-6-24",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "nihil interest quid prius exprimas, cum simul utrumque sit factum",
+  "en": "it makes no difference which you utter first, since both were made together"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Dixit enim David: Principio terram tu fundasti, Domine, et opera manuum tuarum sunt coeli. Ipsi peribunt, tu autem permanes, et omnia sicut vestimentum veterascent, et tamquam amictum mutabis ea, et mutabuntur; tu vero ipse es, et anni tui non deficient (Psal. CI, 26 et seq.) . Quod adeo probavit in Evangelio Dominus, ut diceret: Coelum et terra praeteribunt, mea autem verba non praeteribunt (Matth. XXIV, 35) . Nihil igitur agunt, qui propter coeli asserendam perpetuitatem, quintum corpus aethereum introducendum putarunt; cum aeque videant dissimilem caeteris adjunctam membri unius portionem, labem corpori magis afferre consuevisse. Simul illud adverte, quia propheta David cum terram priori loco nominavit (Ps. CXLVIII, 5) , et postea coelum, credidit opus esse Domini declarandum; quando enim dixit et facta sunt, nihil interest quid prius exprimas, cum simul utrumque sit factum; simul ne haec saltem praerogativa coelo divinae videatur adjudicata substantiae, ut primogenitae creaturae privilegio potior aestimetur.",
+  "source": "PL 14, col. 135B",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For David said: 'In the beginning you founded the earth, Lord, and the heavens are the works of your hands. They shall perish, but you remain, and all shall grow old as a garment, and as a cloak you shall change them, and they shall be changed; but you are the same, and your years shall not fail' (Ps 102:26 [Vg 101:26]). Which the Lord so confirmed in the Gospel that he said: 'Heaven and earth shall pass away, but my words shall not pass away' (Matt 24:35). Those, then, accomplish nothing who thought a fifth, ethereal body had to be brought in to establish the perpetuity of heaven — since they equally see that a part of a single limb joined on unlike the rest usually brings more harm to the body. Note this at the same time, that when the prophet David named the earth in the first place (Ps 148:5) and heaven afterwards, he judged that the work of the Lord had to be declared; for when he said 'and they were made', it makes no difference which you utter first, since both were made together — and at the same time, lest even this prerogative should seem to be adjudged to heaven's divine substance, that it should be reckoned the better by the privilege of being the firstborn creature.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "both-at-once",
+  "order-of-dignity"
+ ],
+ "notes": "The Latin answer that matches the rabbinic one exactly, and it turns on the same verse. Ps 102:26 names the earth first and the heavens second — the proof R. Yehuda bar Ilai brings for Beit Hillel in Bereshit Rabbah 1:15 — and Ambrose draws from it not that the earth was made first but that the order of naming decides nothing, since both were made together; and then the reason, which is the interesting half: lest heaven be given the privilege of the firstborn. That is R. Shimon ben Yoḥai's stewpot and its lid, and it is Bereshit Rabbah's closing rule that a reversed order teaches equality of honour. Two benches, one psalm verse, the same conclusion, and no contact of any kind."
+}

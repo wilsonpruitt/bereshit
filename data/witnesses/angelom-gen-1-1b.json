@@ -1,0 +1,39 @@
+{
+ "id": "angelom-gen-1-1b",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "prius universaliter nomine coeli et terrae comprehendendum erat",
+  "en": "first it had to be taken in universally under the name of heaven and earth"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sed quaeritur cur ita dictum est: In principio fecit Deus coelum et terram, et non dictum est: In principio dixit Deus: Fiat coelum et terra, sicut de luce narratur: Dixit Deus: Fiat lux, et reliqua? Nisi quia prius universaliter nomine coeli et terrae comprehendendum erat, et commendandum quod fecit, et deinde per partes exsequendum, sicuti actum legitur.",
+  "source": "PL 115, col. 114C",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But it is asked why it is said thus: 'In the beginning God made heaven and earth', and not said: 'In the beginning God said, Let heaven and earth be made', as it is told of the light: 'God said, Let there be light', and the rest? — Unless because first what he made had to be taken in universally under the name of heaven and earth, and commended, and then gone through in its parts, as it is read to have been done.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "whole-then-parts"
+ ],
+ "notes": "Augustine's question and his first answer, compressed to two sentences and shorn of the second answer that made the first provisional. What in De Genesi ad litteram is one horn of a dilemma ('was it that…? or was it that…?') is here the explanation, flatly. The sentences that follow immediately are Angelomus' treatment of 'empty and void' (built at K6), so this witness and that one are one continuous stretch of his commentary divided between two cruxes."
+}

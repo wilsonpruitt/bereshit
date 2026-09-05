@@ -62,15 +62,21 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10, K1, K8 and K6 built (2026-09-05). Next up is K5 `heaven-earth-order`, row 5.**
-To start that session, paste: *"Build the crux `heaven-earth-order` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* On disk and already read: **b. Chagigah 12a segments 4–5**, Rav
-Yehudah in Rav's name on the ten things created on the first day — K5's core text, read at K6 and
-left; BR 1:15 (Shammai and Hillel) in `raw/sefaria/br-1.json`; PdRE 3; and Bruno PL 164:148B on
-whether earth is prior in nature, sliced up to but not including K6's passage. Augustine's *caelum*
-= spiritual creation runs through the Confessions XII passages K6 built, so read
-`aug-conf-12-21` before grepping — its five readings of v. 2 all turn on what "heaven and earth"
-in v. 1 names, which is K5's question.
+**State: K10, K1, K8, K6 and K5 built (2026-09-05). Next up is K4 `ex-nihilo-or-matter`, row 6.**
+To start that session, paste: *"Build the crux `ex-nihilo-or-matter` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* K4 has the largest pile of already-read, already-anchored
+material of any crux left, and almost all of it is listed in `notes/cross-crux.md` with its column
+or its Hebrew anchor: Basil/Eustathius PL 53:880C (against an unbegotten matter, the paragraph
+after K6's slice), Ramban's *hyle* paragraph (the half before K6's, ending
+`וְאַחַר הַהִיּוּלִי לֹא בָּרָא דָּבָר`), Augustine *Conf.* XII.22 (the paragraph after
+`aug-conf-12-21`), Rupert 167:202B, Comestor 198:1055D–1056A (Plato, Aristotle, Epicurus), Hugh
+*Sacr.* 176:247B, the Glossa's third gloss on 1:2, Honorius 172:260C, Bonaventure II Sent. d.12
+q.2, and BR 1:9 (the philosopher to Rabban Gamliel), which still needs reading.
+
+⚠ **Run the K1-overlap check before writing any slice** (see the method note at the end of the K5
+entry in `notes/SOURCES-FINDINGS.md`): K4 is anchored across 1:1–1:2, where K1, K6 and K7 have all
+built already, and three of K5's eleven Latin candidates turned out to be inside an existing
+slice.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -85,7 +91,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~2~~ | ~~K1 `beginning-of-what`~~ | **BUILT 2026-09-05** — 34 witnesses, 44 threads | 25–30 |
 | ~~3~~ | ~~K8 `first-light`~~ | **BUILT 2026-09-05** — 27 witnesses, 35 threads | 20–25 |
 | ~~4~~ | ~~K6 `tohu-vabohu`~~ | **BUILT 2026-09-05** — 25 new witnesses (32 on the daf with K7's), 28 threads | 15–20 |
-| 5 | K5 `heaven-earth-order` | Shammai/Hillel (BR 1:15, Chag 12a) vs Augustine's *caelum* = spiritual creation | 15–20 |
+| ~~5~~ | ~~K5 `heaven-earth-order`~~ | **BUILT 2026-09-05** — 17 new witnesses (19 on the daf), 20 threads | 15–20 |
 | 6 | K4 `ex-nihilo-or-matter` | BR 1:9 philosopher; Conf XII; Abelard already sliced; Ramban Phase 2 | 15–20 |
 | 7 | K9 `good-and-separated` | moral allegory both sides; test Bede for Hebrew mediation | 12–15 |
 | 8 | K3 `elohim-and-trinity` | Megillah 9a; Rupert's whole design; much already tagged from K7 | 12–15 |
@@ -206,3 +212,30 @@ The roster ran over the table's 15–20 estimate (25 new, 32 on the daf) and the
 rather than sloppy: the two-text split doubles the number of Latin witnesses that say something
 distinct, and Bereshit Rabbah 2 alone yields four continuous arguments on the pair. Honorius,
 Rabanus and BR 2:5 were read and dropped to `notes/cross-crux.md`.
+
+**Added for K5** (extends the frozen renderings). *coelum et terra* = "heaven and earth" (not "the
+heavens"), so that the Latin pair and the Hebrew *ha-shamayim ve-et ha-aretz* stay visibly
+different; *coelum empyreum* = "the empyrean heaven" and *igneum non ab ardore sed a splendore* =
+"fiery not from burning but from brightness" — the qualification is the whole content of the
+gloss and must not be smoothed; *firmamentum* = "the firmament"; *elementa* = "the elements" and
+*levia / gravia* = "light / heavy"; *continens et contentum* = "the container and the thing
+contained"; *praerogativa* = "prerogative" and *privilegio primogenitae creaturae* = "by the
+privilege of being the firstborn creature"; *non ordinis sed dignitatis causa* = "not for the sake
+of order but of dignity"; *universaliter … per partes* = "universally … in its parts"; *mundus
+sensibilis* = "the sensible world" and *regio sublunaris* = "the region below the moon";
+*microcosmus* = "microcosm". Rabbinic: *bet shammai / bet hillel* = "Beit Shammai / Beit Hillel";
+*sham mayim*, *et*, *ribbuyin*, *mi'utin* transliterated; *ke-kadera ve-khisuyah* = "like a stewpot
+and its lid".
+
+**Burn, measured on K5 (Opus, 2026-09-05): ~125K tokens**, the cheapest yet — but the number is
+misleading and should not be used to estimate K2 or K3. It is low because **every rabbinic text was
+on disk and licensed** (as at K6) *and* because the Latin survey was short: the crux's vocabulary
+(`coeli et terrae nomine`, `empyre`) is distinctive enough that two greps found the whole bench.
+What K5 spent instead of survey tokens was the **K1-overlap check**, which is a fixed cost on every
+remaining crux and cost about 8K here.
+
+The overlap is the thing to plan for. Gen 1:1 already carried 34 witnesses when K5 started, and
+three of eleven Latin candidates — Bruno 147B, the Glossa's VERS. 1, Rabanus 444B — were inside a
+K1 slice and had to be dropped to `notes/cross-crux.md`. **K2 and K3 are both on 1:1–1:2 and will
+lose more.** Neither is a reason to widen a slice or to rebuild another crux's witness: the Phase 4
+pass exists for exactly this, and the cross-crux table now carries the edges it will need.

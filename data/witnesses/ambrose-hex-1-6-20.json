@@ -1,0 +1,39 @@
+{
+ "id": "ambrose-hex-1-6-20",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "In his enim quatuor illa elementa creata sunt",
+  "en": "For in these two the four elements were created"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio itaque temporis coelum et terram Deus fecit. Tempus enim ab hoc mundo, non ante mundum: dies autem temporis portio est, non principium. Et quamquam lectionis serie possimus adstruere quod primo diem fecerit Dominus et noctem, quae sunt vices temporum; et secundo die firmamentum fecerit, quo discrevit aquam quae sub coelo est, et aquam quae super coelum; tamen satis est ad praesentem assertionem, quod in principio coelum fecerit, unde praerogativa generationis et causa; et terram fecerit, in qua esset generationis substantia. In his enim quatuor illa elementa creata sunt, ex quibus generantur omnia ista quae mundi sunt. Elementa autem quatuor, aer, ignis, aqua, et terra, quae in omnibus sibi mixta sunt.",
+  "source": "PL 14, col. 132A",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "In the beginning of time, then, God made heaven and earth. For time is from this world, not before the world; and a day is a portion of time, not its beginning. And although from the order of the reading we could establish that the Lord first made day and night, which are the alternations of times, and on the second day made the firmament, by which he divided the water which is under heaven from the water which is above heaven — yet for the present assertion it is enough that in the beginning he made heaven, from which comes the prerogative of generation and its cause; and made earth, in which the substance of generation should be. For in these two the four elements were created, out of which are generated all these things which belong to the world. And the elements are four — air, fire, water, and earth — which are mingled with one another in all things. Indeed you will find fire in the earth too, which is often struck out of stones and iron; and in heaven, since the vault is fiery and glitters with shining stars, water can be understood to be, which is either above heaven, or is often sent down from that upper place upon the earth in a full shower.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "heaven-earth-four-elements"
+ ],
+ "notes": "The chapter heading Migne prints over this is the crux itself: 'that in heaven and earth the four elements were created, out of which all things are composed; of what substance heaven is, and what the position of the earth.' Ambrose's answer is that the two words are a container for the four elements — heaven supplying the prerogative and cause of generation, earth the substance of it — and he proves the mixture empirically, fire struck from flint and iron in the earth, water inferred in heaven from the rain and from the waters above. It is Abelard's reading of the verse seven hundred years early and Ramban's a century after Abelard, and none of the three cites another. Rabanus copies this paragraph verbatim at PL 107:444B, where K1 has already built it."
+}

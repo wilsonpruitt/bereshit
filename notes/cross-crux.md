@@ -152,3 +152,34 @@ Gen 1:2 as a periodization of sacred history running to a final redemption; Isid
 Rabanus and Remigius read it as the soul before doctrine. The K9 pass (`good-and-separated`) will
 meet the same pairing again on *vayavdel*, where BR 3:8 and Augustine both make the division moral
 — worth checking whether the two allegorical strands are one habit or two.
+
+## From K5 (built 2026-09-05)
+
+**Three passages that belong to K5 were already sliced whole by K1 and could not be built.** The
+frozen rule is that a crux does not revise another crux's witnesses, so these are threads and
+facets for Phase 4, not edits:
+
+| witness (built for) | add crux | why |
+|---|---|---|
+| `bruno-gen-1-1` (K1) | `heaven-earth-order` | PL 164:147B is the closest Latin analogue to BR 1:15 anywhere on the bench: Ps 101:26 quoted, then *"non igitur prius coelum, quam terram, sed simul et coelum Deus creavit et terram"*, then Sir 18:1. Write the edge to `br-1-15` and to `ambrose-hex-1-6-24`. |
+| `glossa-1-1` (K1) | `heaven-earth-order` | the VERS. 1 block carries **two** K5 glosses — Augustine's *universaliter … deinde per partes* at 113:67B (thread to `aug-gnl-1-9` and `angelom-gen-1-1b`) and the empyrean gloss at 68C, which is Remigius PL 131:54D almost verbatim (thread to `remigius-gen-1-1b`). |
+| `rabanus-gen-1-1b` (K1) | `heaven-earth-order` | PL 107:444B copies Ambrose *Hex.* I.6.20 verbatim from *"In principio itaque temporis, coelum et terram Deus fecit"* — the passage K5 builds as `ambrose-hex-1-6-20`. A clean `cites` edge, invisible while the two sit in different cruxes. |
+
+**The version witnesses on Gen 1:1 should carry K5.** `lxx-1-1`, `vulgate-1-1`, `targ-onk-1-1`,
+`targ-neof-1-1`, `targ-psj-1-1` all render the word order the crux is about, and none of them
+reverses it; Gen 2:4, which reverses it in Hebrew, is what both benches argue from. Without them
+the K5 daf renders with an empty `versiones` column — see `notes/SOURCES-FINDINGS.md`.
+
+**`b-chag-12a` (K10's ten-things witness) now carries three cruxes** and is threaded on K5 to
+Augustine (`t-k5-08`). Its segments 7–11 are K8's light material, built separately as
+`b-chag-12a-light`; segments 15–19 are K5's, built here as three witnesses. One Talmud page is now
+divided among four cruxes and five witnesses — the largest single locus in the project, and worth a
+line in the Phase 8 introduction.
+
+| left for | crux | note |
+|---|---|---|
+| b. Chagigah 12a, segments 12–14 | K1 or K4 | R. Zutra bar Tuvya: with ten things the world was created (wisdom, understanding, knowledge…), Prov 3:19 for the first two — the same verse the Latin bench uses for *in principio = in Wisdom* (K1) |
+| b. Chagigah 12a, segment 14 | K4 | the world expanding like warp and woof until God rebuked it and said *dai* — the El Shaddai etymology, which PdRE 3 (K8's `pdre-3-6`) also carries |
+| Comestor, PL 198:1055A (continuation) | K4 | Plato, Aristotle and Epicurus set against Moses' *creavit* — noted at K1 too, still unbuilt |
+| Ramban on 1:1 (continuation) | K9 | the four elements named again under the terms of v. 2: *fire* is what "darkness" means, *water* is "the deep" — a physical reading of the words K9 is built on |
+| Abelard, PL 178:737B | K5 (second pass) | a second treatment of *nomine coeli et terrae* on the fourth day's works, restricting the pair to the earthy and fiery elements; not built, the first is fuller |

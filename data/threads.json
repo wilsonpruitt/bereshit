@@ -1390,5 +1390,165 @@
   "type": "echoes",
   "evidence": "Both hang on Jer 4:23, 'I have seen the land, and behold, it is tohu va-vohu'. The prophet's re-use of the phrase for a land under judgement is what licenses the whole series of historical readings in Bereshit Rabbah 2; no Latin witness on this crux cites Jer 4:23 at all.",
   "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k5-01",
+  "from": "b-chag-12a-order",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "The same dispute in two redactions. Both give Beit Shammai the throne and footstool (Isa 66:1), Beit Hillel Gen 2:4, and the sages 'both at once' from Isa 48:13. Bereshit Rabbah adds the palace built from the ground up, R. Ḥanin's turning of Beit Shammai's proof, and R. Shimon ben Yoḥai's stewpot and lid; the Bavli adds Amos 9:6 for the upper storey and Resh Lakish's created-first/stretched-first distinction. Independent redactions of one Palestinian dispute.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-02",
+  "from": "b-chag-12a-akiva",
+  "to": "br-1-14",
+  "type": "parallel",
+  "evidence": "One encounter, two answers. Both have R. Yishmael asking R. Akiva what Naḥum of Gam Zo made of the two ets. In Bereshit Rabbah, Akiva's first answer is that without them we might have said heaven and earth were deities, and he is rebuked for it with Deut 32:47 before the real answer (the sun, moon and constellations; the trees, plants and Eden). In the Bavli the danger is narrower — shamayim would be a name of the Holy One — and the answer, that heaven means heaven literally, stands unchallenged.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-03",
+  "from": "b-chag-12a-shamayim",
+  "to": "b-chag-12a-order",
+  "type": "echoes",
+  "evidence": "The sugya passes from when heaven was made to what heaven is without a break: Resh Lakish's stretching, then 'mai shamayim' — sham mayim, or fire and water mingled into the firmament. The Bavli treats the two halves of this crux as one question.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-04",
+  "from": "ramban-1-1b",
+  "to": "br-1-14",
+  "type": "cites",
+  "evidence": "'And so did our Rabbis say: eth hashamayim — eth includes the sun, moon, stars and constellations; ve'eth ha'aretz — ve'eth includes the trees, herbs, and the Garden of Eden.' Ramban names Bereshit Rabbah (parashah 1) and reproduces the inventory, adding only the derivation of et from 'atha boker' (Isa 21:12).",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-05",
+  "from": "ramban-1-1b",
+  "to": "abelard-hex-1-1b",
+  "type": "parallel",
+  "evidence": "'The word ha'aretz includes these four elements' and 'by the name of heaven and earth I judge the four elements to be taken in here' are the same reading of the verse, reached in Girona and at the Paraclete a century and a half apart with no possible contact. The distribution differs: Abelard splits the four between the two words, Ramban puts all four under 'earth'.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-06",
+  "from": "abelard-hex-1-1b",
+  "to": "ambrose-hex-1-6-20",
+  "type": "parallel",
+  "evidence": "'In these two the four elements were created' (Ambrose) and 'by the name of heaven and earth the four elements are taken in' (Abelard) are one doctrine, and both argue it from the mixture of the elements in each other. Abelard does not cite Ambrose, and his division of the four is his own: Ambrose puts all four in the pair without assigning them, Abelard gives fire and air to heaven, earth and water to earth.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-07",
+  "from": "ambrose-hex-1-6-24",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "The star thread of this crux. Both turn on Ps 102:26 [Vg 101:26], 'you founded the earth … and the heavens are the work of your hands' — which names the earth first. R. Yehuda bar Ilai brings it as proof for Beit Hillel that the earth was created first. Ambrose brings the same reversal (from Ps 148:5) to prove that the order of naming settles nothing, since both were made together, and adds the reason: lest heaven be reckoned the better by the privilege of being the firstborn creature. That is R. Shimon ben Yoḥai's stewpot and lid and Bereshit Rabbah's closing rule that a reversed order teaches equality of honour, in Milan, four hundred years earlier, with no contact of any kind.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-08",
+  "from": "b-chag-12a",
+  "to": "aug-gnm-1-7-11",
+  "type": "parallel",
+  "evidence": "Both answer the question 'what is contained in heaven and earth?' — and answer it in opposite modes. Rav Yehudah in Rav's name enumerates: ten things were created on the first day, and heaven and earth head the list, each proved from its verse. Augustine generalises: by the name of heaven and earth the whole creation is signified, put in visible words for the weakness of little ones. An enumeration and a generalisation of the same clause, at roughly the same date, with no contact.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-09",
+  "from": "aug-gnl-1-9",
+  "to": "aug-gnm-1-7-11",
+  "type": "echoes",
+  "evidence": "Twenty years apart, the same observation about the shape of v. 1 — that it commends the whole before the parts — first as a remark about visible names for little ones, then as the answer to why Scripture does not say 'let heaven and earth be made'.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-10",
+  "from": "angelom-gen-1-1b",
+  "to": "aug-gnl-1-9",
+  "type": "cites",
+  "evidence": "'Sed quaeritur cur ita dictum est … Nisi quia prius universaliter nomine coeli et terrae comprehendendum erat, et commendandum quod fecit, et deinde per partes exsequendum' reproduces De Genesi ad litteram I.9 sentence for sentence, unnamed, and drops the second answer that made the first one provisional.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-11",
+  "from": "alcuin-int-28",
+  "to": "aug-gnm-1-7-11",
+  "type": "echoes",
+  "evidence": "'Informis illa materia, quam de nihilo fecit Deus, appellata est primo coelum et terra' is Augustine's answer with the proleptic reason added ('not because it already was this, but because it already could be this'); the alternative Alcuin appends without weighing it — 'or else the spiritual and the earthly creatures' — is not Augustine's here and is the seed of the empyrean reading.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-12",
+  "from": "comestor-hs-1-1b",
+  "to": "remigius-gen-1-1b",
+  "type": "echoes",
+  "evidence": "The empyrean heaven, fiery from brightness and not from heat, filled at once with the angelic spirits: Remigius states it at PL 131:54D, the Glossa prints it almost verbatim at 113:68C, and Comestor has it as 'the empyrean heaven and the angelic nature'. Comestor adds the admission Remigius does not make — that the philosopher did not know the empyrean.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-13",
+  "from": "comestor-hs-1-1b",
+  "to": "abelard-hex-1-1b",
+  "type": "echoes",
+  "evidence": "'Terram vero materiam omnium corporum, id est quatuor elementa' is Abelard's reading of the second word, absorbed into a scheme that keeps the empyrean for the first; Comestor then reports the rival reading — 'some understand heaven as the upper parts of the sensible world, and earth as the lower' — without deciding between them.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-14",
+  "from": "abelard-hex-1-1b",
+  "to": "remigius-gen-1-1b",
+  "type": "contests",
+  "evidence": "Directly opposed on what 'heaven' names in this verse. Remigius: not the visible firmament but the empyrean, filled at once with angels. Abelard: fire and air, and 'the angels, being of an incorporeal nature, are not included among the creatures of the world at all'. Abelard does not name Remigius, but the empyrean-with-angels is the standing gloss he is writing against.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-15",
+  "from": "ibn-ezra-1-1b",
+  "to": "remigius-gen-1-1b",
+  "type": "parallel",
+  "evidence": "The objection to the empyrean reading, made from the other bench and with no knowledge of it: those who explain that the heavens of the first verse are the heavens of the heavens — what will they then do with the earth beside it? Ibn Ezra's symmetry argument is exactly what forces Remigius, the Glossa and Comestor to turn 'earth' into prime matter or the four elements once they have made 'heaven' the empyrean.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-16",
+  "from": "hugh-sacr-1-1b",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "Both refuse to read the sequence of the words as the sequence of the acts, and both put something else in its place. Hugh: 'not for the sake of order but of dignity', and because the discourse that follows is about the earth, which is therefore named last. R. Yoḥanan in the sages' name: in creation the heavens were first, in completion the earth. The Latin reason is compositional, the rabbinic one is about the work itself.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-17",
+  "from": "hugh-sacr-1-1b",
+  "to": "b-chag-12a-order",
+  "type": "parallel",
+  "evidence": "Resh Lakish resolves the contradiction of the proof-texts by splitting the act — created in one order, stretched out in the other. Hugh resolves the same difficulty by splitting the sentence from the act. Neither will let one verse's word order overrule the other's.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-18",
+  "from": "br-1-15",
+  "to": "b-chag-15a",
+  "type": "echoes",
+  "evidence": "Both measure the relation of the upper and lower by a physical image and refuse to let them come apart: the stewpot and its lid, which are made together and belong together (Isa 48:13); Ben Zoma's three fingerbreadths between the upper and lower waters, a gap that is not a separation. The same instinct about heaven and earth, in the two Chagigah contexts this project has built.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-19",
+  "from": "comestor-hs-1-1b",
+  "to": "alcuin-int-28",
+  "type": "echoes",
+  "evidence": "Alcuin's unweighed alternative — 'or else, by the name of heaven and earth the spiritual and the earthly creatures can be understood' — is what Comestor has hardened into 'the container and the thing contained, that is, the empyrean heaven and the angelic nature' on one side and the four elements on the other.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-20",
+  "from": "ramban-1-1b",
+  "to": "b-chag-12a-akiva",
+  "type": "parallel",
+  "evidence": "Ramban gives the Palestinian form of the et-derivation (sun, moon, stars, constellations; trees, herbs, Eden) and not the Babylonian one (that without the particles shamayim would be a divine name), although both were before him — the inventory is usable for his physics and the anxiety about the divine name is not.",
+  "crux": "heaven-earth-order"
  }
 ]

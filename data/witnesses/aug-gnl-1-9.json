@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnl-1-9",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 410,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "prius universaliter … deinde per partes",
+  "en": "first universally … then in its parts"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et cur ita dictum est, In principio fecit Deus coelum et terram; et non dictum est, In principio dixit Deus, Fiat coelum et terra; et facta sunt coelum et terra: sicut de luce narratur, Dixit Deus, Fiat lux; et facta est lux? Utrum prius universaliter nomine coeli et terrae comprehendendum erat et commendandum quod fecit Deus; et deinde per partes exsequendum, quomodo fecit, cum per singula dicitur, Dixit Deus; id est, quia per Verbum suum fecit, quidquid fecit?",
+  "source": "PL 34, col. 249",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And why is it said thus, 'In the beginning God made heaven and earth', and not said, 'In the beginning God said, Let heaven and earth be made; and heaven and earth were made', as it is told of the light, 'God said, Let there be light; and light was made'? Was it that first, under the name of heaven and earth, what God made had to be taken in universally and commended; and then to be gone through in its parts — how he made it — when at each thing it is said, 'God said', that is, because through his Word he made whatever he made?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "whole-then-parts",
+  "heaven-earth-is-everything"
+ ],
+ "notes": "A question about the shape of the sentence, and the answer settles what 'heaven and earth' is doing in it: the phrase is a heading. Scripture takes the whole in at one stroke and commends it, and only then goes through the parts with 'God said' at each — which is why v. 1 has no 'let there be' in it. Augustine offers a second answer immediately after (that formless matter cannot be addressed with 'let it be made', since it does not yet imitate the Word), which belongs to K4. This paragraph is the one the Carolingians take: Angelomus compresses it into two lines, and it stands at the head of the Glossa's VERS. 1 in the margin, which K1 has already sliced whole."
+}

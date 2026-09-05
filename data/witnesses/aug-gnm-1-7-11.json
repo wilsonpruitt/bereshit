@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnm-1-7-11",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-389",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "coeli et terrae nomine universa creatura significata est",
+  "en": "by the name of heaven and earth the whole creation is signified"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sed illud quod dictum est, In principio fecit Deus coelum et terram, coeli et terrae nomine universa creatura significata est, quam fecit et condidit Deus. Ideo autem nominibus visibilium rerum haec appellata sunt, propter parvulorum infirmitatem, qui minus idonei sunt invisibilia comprehendere. Primo ergo materia facta est confusa et informis, unde omnia fierent quae distincta atque formata sunt, quod credo a Graecis chaos appellari. Sic enim et alio loco legimus dictum in laudibus Dei, Qui fecisti mundum de materia informi (Sap. XI, 18) : quod aliqui codices habent, de materia invisa.",
+  "source": "PL 34, col. 178",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But as to what is said, 'In the beginning God made heaven and earth' — by the name of heaven and earth the whole creation is signified, which God made and founded. And these were called by the names of visible things on account of the weakness of little ones, who are less able to grasp invisible things. First, then, was made the confused and formless matter, out of which should be made all the things that are distinguished and formed — which I believe is called chaos by the Greeks. For so we read it said elsewhere too, in the praises of God: 'You who made the world out of formless matter' (Wis 11:17) — which some manuscripts have as 'out of unseen matter'.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "heaven-earth-is-everything",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The answer that dissolves the question. 'Heaven and earth' is not a list of two things in an order; it is a name for everything God made, put in visible words because the audience cannot yet hold invisible ones. The Bavli's ten-things list is answering the same question — what does 'heaven and earth' contain, and what else was made with them — and answers it by enumeration where Augustine answers it by generalisation. Note also the variant Augustine records at the end: some copies of Wis 11:17 read 'de materia invisa' for 'de materia informi'. His own text of Gen 1:2, 'invisibilis et incomposita', is the reason he notices."
+}
