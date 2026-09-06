@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "(Bede, in the place cited.) 'There was darkness,' etc. Those are not to be listened to who say by way of reproach that God created darkness before light: for he made no darkness in the water or the air; but by a distinct order of providence he first created the waters together with heaven, and the earth, and adorned them with the grace of light when he willed. And note that with heaven two elements of the world were created, into which two others were inserted, namely water and earth, in which are fire and air. The waters covered the whole surface of the earth to such a height that they reached to those places where they still in part remain above the firmament. But the earth itself and the water are called formless matter, because all the things we see either took their beginning out of these, or out of nothing: and before they came into the light there was nothing from which they might have form.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

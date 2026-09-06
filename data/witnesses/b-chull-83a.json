@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "MISHNAH. The 'one day' stated with regard to an animal and its young (Lev 22:28) means that the day follows the night. This is what Ben Zoma expounded: it is said in the work of creation 'one day' (Gen 1:5), and it is said with regard to an animal and its young 'one day'; just as the 'one day' stated in the work of creation means that the day follows the night, so too the 'one day' stated with regard to an animal and its young means that the day follows the night. GEMARA. Our rabbis taught: this is what Ben Zoma expounded. Since the whole passage speaks of nothing but consecrated things, and with consecrated things the night follows the day, one might have thought it is so here too; therefore it is said here 'one day' and it is said in the work of creation 'one day' — just as the 'one day' stated in the work of creation means that the day follows the night, so too the 'one day' stated with regard to an animal and its young means that the day follows the night.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "tradents": [
   "ben-zoma"

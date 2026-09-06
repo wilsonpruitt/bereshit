@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And he called the light Day, and the darkness Night. And there was made evening and morning, one day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

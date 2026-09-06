@@ -22,12 +22,12 @@
  },
  "english": {
   "text": "Have men taken up so much opinion that some of them set up three principles of all things — God, and the exemplar, and matter — and asserted that these are incorruptible and uncreated and without beginning, as Plato and his disciples do; and that God made the world not as the creator of matter but as a craftsman looking to an exemplar, that is, to an idea, out of the matter which they call hyle, which is said to have given the causes of generation to all things; and thought the world itself too incorruptible, neither created nor made? Others also, as Aristotle with his followers thought fit to argue, laid down two principles, matter and form, and a third along with them, which is called operative, to which it should belong to bring about fitly what it had judged should be undertaken.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "ex-nihilo-or-matter"
+  "ex-nihilo-or-matter",
+  "why-begin-here"
  ],
  "senses": [
   "literal"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But fire, once distinguished, furnished light of some kind to the lower world, and had a circular motion: it was carried round like a kind of luminous cloud, as the sun is now.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

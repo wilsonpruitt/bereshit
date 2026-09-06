@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But if anyone should object that man too, though made not out of nothing but out of the earth, is said to be created — as it is written, 'And God created man to his own image; to the image of God he created him' (Gen 1:27); or again what is likewise said, 'And God created the great sea-creatures' (Gen 1:21) — we say to this that it is rightly said, but in this respect only, that the matter out of which those forms were produced or taken had already been created. And by these names, that is heaven and earth, as was said above, the whole creation visible and invisible together is signified. That nothing is excepted is proved from the apostolic creed also, in which we say: I believe in God the Father almighty, creator of heaven and earth — adding nothing of the creatures; we do not doubt that under these names we have taken in all things visible and invisible together. For in the other creed of the catholic faith no less, when we say: I believe in one God the Father almighty, maker of heaven and earth, at once, explaining what we have said by heaven and earth, we add: of all things visible and invisible. Therefore what is said, 'in the beginning God created heaven and earth', is the same as if it were said: through his Son, God the Father created the whole substance of all things visible and invisible, such as yet as the earth that follows expresses: 'But the earth was empty and void.'",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

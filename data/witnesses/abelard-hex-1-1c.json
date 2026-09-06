@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And it is well said of the elements 'created' rather than 'formed', because that is properly said to be created which is so brought forth from non-being to being that it has no pre-existing matter, and did not first subsist in any state of nature. But when something is made out of matter already prepared, by the joining on of a form, that is rightly said to be formed — as is what is set down in what follows: 'The Lord God therefore formed man of the slime of the earth' (Gen 2:7). And again: 'All the animals of the earth therefore having been formed out of the ground' (Gen 2:19). For when a pre-existing matter is denoted — as when 'out of the ground' is put first, since it was to be formed into some appearance — then a thing is most rightly said to be formed.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

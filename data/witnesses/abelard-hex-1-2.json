@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And the Spirit of the Lord was borne over the waters.' The Hebrew has 'was fluttering over the face of the waters.' One translation has 'was warming the waters,' another 'was borne over the waters,' as does the present one we have in hand, which first comes to us to be expounded. […] Another translation, as we said, also has 'and the Spirit of the Lord was warming the waters,' after the manner of a bird that sits upon an egg to warm and quicken it; whence we rightly call the Holy Spirit the giver of life. And that confused mass is well compared to an egg not yet quickened or formed, in which, as in an egg containing four things in itself, the four elements are comprised…",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",

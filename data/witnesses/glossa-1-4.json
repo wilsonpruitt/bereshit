@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "VERSE 4. 'And God saw the light,' etc. (STRABO.) God made both the light and the darkness, whence Daniel 3: 'Bless the Lord, light and darkness,' since every creature is invited to bless. (ISIDORE, on Genesis, ch. 2.) Everyone has in his works and upright life six distinct days, after which he may hope for rest: on the first day, the light of faith, since he first believes in things invisible, for which faith the Lord deigned to appear.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

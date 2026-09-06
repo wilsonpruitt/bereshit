@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "At the beginning of this volume the philosophers are refuted, who tried to argue about the creation of the world: Plato, for instance, who said there were three principles, namely God, the exemplar, and matter, and that God did not create all things from nothing as their author, but that matter furnished help to him as to a workman in the making of things. Aristotle said there were two principles, namely matter and form, and something third which he wished to call, I know not what, the operative. Opposing their errors, Moses, as chosen by God, is said to have shown the truth, showing that God formed all things at once out of nothing — not indeed in time, but at the beginning of time, saying 'In the beginning', with 'of time' understood; whence it is beyond doubt that time then began, which before was not at all.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'Let there be light.' Light (lux) is so called from cleansing (luendo), that is, from purging away the darkness. But that light was not of the kind that now is, with the sun set above; rather it was such as it is wont to be before the rising of the sun, or after its setting.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

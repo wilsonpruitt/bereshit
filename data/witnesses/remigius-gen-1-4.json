@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And he divided the light from the darkness. Darkness (tenebrae) is so called from holding (tenendo), because it holds the eyes so that they may not see. But God made both, the light and the darkness — namely, that men might work in the light and rest in the night. Therefore the darkness too is a work of God. Whence in the hymn of the three young men, in which every creature is invited to bless God, the darkness also is set down along with the light.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

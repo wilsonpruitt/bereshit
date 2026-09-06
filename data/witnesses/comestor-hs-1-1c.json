@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But when Moses said 'created', he struck down the errors of three men: Plato, Aristotle, and Epicurus. Plato said that three things were from eternity, namely God, the ideas, and hyle, and that in the beginning of time the world was made out of hyle. Aristotle said two, the world and the workman, who worked out of two principles, namely matter and form, without a beginning, and works without an end. Epicurus said two, the void and the atoms: and in the beginning nature solidified certain atoms into earth, others into water, others into air, others into fire.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

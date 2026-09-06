@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But if it is asked in what places, at God's bidding, the light was made, since the abyss still covered the whole breadth of the earth — it is quite plain that that first light shone in the upper parts of that same earth, the parts which the daily light of the sun is now accustomed to illumine. Nor should we wonder that by a divine working light can shine in the waters, since it is agreed that they are often lit by a human working too: by sailors, that is, who, sunk in the deep of the sea, make it clear and bright for themselves by letting oil out of their mouths. For if a man can do such things by the oil of his mouth, how much must God be believed able to create by the Spirit of his mouth.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

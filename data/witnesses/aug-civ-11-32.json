@@ -21,10 +21,9 @@
   "license": "pd"
  },
  "english": {
-  "text": "For when it is said thus, 'In the beginning God made heaven and earth', so that the Father is understood to have made in the Son — as the Psalm bears witness, where it reads, 'How magnified are your works, O Lord! you have made all things in wisdom' (Ps 104:24 [Vg 103:24]) — most fittingly a little after the Holy Spirit also is mentioned. For when it had been said what kind of earth God first made, or what mass and matter he had called by the name of heaven and earth for the construction of the world to come, by subjoining and adding, 'But the earth was invisible and unformed, and darkness was over the abyss', at once, that the mention of the Trinity might be completed, 'And the Spirit,' he says, 'of God was borne above the water' (Gen 1:1–3).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "text": "For when it is said thus, 'In the beginning God made heaven and earth', so that the Father is understood to have made in the Son — as the Psalm bears witness, where it reads, 'How magnified are your works, O Lord! you have made all things in wisdom' (Ps 104:24 [Vg 103:24]) — most fittingly a little after the Holy Spirit also is mentioned. For when it had been said what kind of earth God first made, or what mass and matter he had called by the name of heaven and earth for the construction of the world to come, by subjoining and adding, 'But the earth was invisible and unordered, and darkness was over the abyss', at once, that the mention of the Trinity might be completed, 'And the Spirit,' he says, 'of God was borne above the water' (Gen 1:1–3).",
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

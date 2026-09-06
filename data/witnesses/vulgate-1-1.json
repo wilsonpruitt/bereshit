@@ -22,12 +22,14 @@
  },
  "english": {
   "text": "In the beginning God created the heaven and the earth.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "beginning-of-what"
+  "beginning-of-what",
+  "heaven-earth-order",
+  "ex-nihilo-or-matter",
+  "elohim-and-trinity"
  ],
  "senses": [
   "translation"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "If, then, that Scripture is to be searched in both ways, let us ask how it was said, apart from the allegorical signification, 'In the beginning God made heaven and earth': whether in the beginning of time; or because they were made first of all; or in the beginning which is the Word of God, the only-begotten Son.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "If the Manichees chose whom they deceive, we too would choose the words with which to answer them: but since they pursue both those learned in letters and the unlearned with their error, and while they promise truth try to turn men away from truth, their emptiness must be refuted not with ornate and polished speech but with plain facts. For I was pleased by the judgement of certain truly Christian men who, being themselves educated in liberal letters, when they had read our other books which we published against the Manichees, saw that they were either not understood by the less skilled, or understood with difficulty, and most kindly warned me not to abandon the common manner of speaking, if I meant to drive errors so ruinous out of the minds even of the unlearned. For this usual and simple speech the learned also understand, but that other the unlearned do not understand.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "why-begin-here"

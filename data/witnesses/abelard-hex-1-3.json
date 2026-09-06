@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But that light which removed the aforesaid darkness we take to be the distinction itself of the works that follow — that distinction, namely, by which that confused heap, which did not yet present itself as visible, nor could be known as fit for any use, nor could yet be perceived from itself for what it had been created…",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

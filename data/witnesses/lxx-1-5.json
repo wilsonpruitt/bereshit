@@ -21,9 +21,8 @@
  },
  "english": {
   "text": "And God called the light Day, and the darkness he called Night. And there was evening and there was morning, one day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Verse 2. 'But the earth was empty and void.' That is, useless, unfruitful, and unordered. For all the elements were mingled and confused, and this whole space of air which is from the earth up to heaven was full of waters — which, however, were not of the same quality as they now are, but thin, after the manner of clouds, a quality which those waters above the heavens still keep.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

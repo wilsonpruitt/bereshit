@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "In the beginning of time, then, God made heaven and earth. For time is from this world, not before the world; and a day is a portion of time, not its beginning. And although from the order of the reading we could establish that the Lord first made day and night, which are the alternations of times, and on the second day made the firmament, by which he divided the water which is under heaven from the water which is above heaven — yet for the present assertion it is enough that in the beginning he made heaven, from which comes the prerogative of generation and its cause; and made earth, in which the substance of generation should be. For in these two the four elements were created, out of which are generated all these things which belong to the world. And the elements are four — air, fire, water, and earth — which are mingled with one another in all things. Indeed you will find fire in the earth too, which is often struck out of stones and iron; and in heaven, since the vault is fiery and glitters with shining stars, water can be understood to be, which is either above heaven, or is often sent down from that upper place upon the earth in a full shower.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "heaven-earth-order"

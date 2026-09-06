@@ -23,9 +23,8 @@
  },
  "english": {
   "text": "'And the Spirit of God was borne over the waters.' For what our copies have as 'was borne,' the Hebrew has MERAHEFET, which we may render 'was brooding' or 'was warming,' in the likeness of a bird quickening her eggs with her heat. From this we understand that it is not said of the spirit of the world, as some suppose, but of the Holy Spirit, who is himself called the giver of life to all things from the beginning. And if giver of life, then consequently creator; and if creator, then God. 'Send forth,' he says, 'your Spirit, and they shall be created' (Ps 104:30).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering"

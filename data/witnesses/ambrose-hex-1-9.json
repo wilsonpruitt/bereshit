@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'Let there be light,' he says. Where should the voice of God in divine Scripture begin, if not from light? Whence should the adorning of the world take its start, if not from light? For it would be in vain, if it were not seen. God himself was indeed in light, for he dwells in light inaccessible, and he was the true light, which enlightens every man coming into this world; but he made that light which we see. […] Where the builder lays the foundations he looks out from where he may pour light into it, and that is the first grace, and if it is wanting the whole house bristles with an unlovely neglect. It is light that commends the rest of the house's ornament. 'Let there be light,' he says. A full utterance of light — it does not signify the apparatus of an arrangement, but shines out with the effect of an operation. The maker of nature spoke light, and created it.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "This world, then, is a specimen of the divine working; because while the work is seen, the workman is put forward. For as of these arts of ours some are active, which consist in the movement of the body or the sound of the voice — the movement or the sound ceased, nothing was left over, nothing remained to those who watched or listened; others are theoretical, which exercise the vigour of the mind; others of such a kind that, the office of working having ceased, the work's own service still appears, as building and weaving, which even when the craftsman is silent show his skill.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "why-begin-here"

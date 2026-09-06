@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And he divided the light from the darkness; for then God, according to the favour of his foreknowledge, divided the just — that is, the sons of God and of light — from sinners, as from darkness; calling the just day, and those others night. For that in the Church the just are called by the name of light, hear the Apostle: You were once, he says, darkness, but now light in the Lord (Eph 5:8).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

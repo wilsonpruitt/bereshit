@@ -22,12 +22,12 @@
  },
  "english": {
   "text": "In the beginning of time, therefore, God made heaven and earth. For time is from this world, not before the world; and a day is a portion of time, not its beginning. But God, whose hand is omnipotent, needed no delay of times to accomplish his work, because, as it is written, 'Whatever he willed, he did' (Ps 115:3 [Vg 113B:3]). Whence it is well said that in the beginning God created heaven and earth, so that it may be plainly understood that both were made by him at once, although both cannot be said at once by a man. And then the prophet says: 'In the beginning, Lord, you founded the earth' (Ps 102:25 [Vg 101:26]); but here the Lord is related to have created heaven and earth in the beginning. Whence it is plainly gathered that the making of both elements was completed together, and this with such swiftness of divine power that not even the first moment of the world's birth had been passed. It can also be understood, not improbably, that God made heaven and earth in the beginning in his Only-begotten Son, who answered the Jews when they asked what they should believe him to be: 'The Beginning, who also speak to you' (John 8:25); because in him, as the Apostle says, 'all things were created in the heavens and on the earth' (Col 1:16).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "beginning-of-what"
+  "beginning-of-what",
+  "heaven-earth-order"
  ],
  "senses": [
   "literal",

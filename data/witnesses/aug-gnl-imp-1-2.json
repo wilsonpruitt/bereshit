@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And since many heretics have been accustomed to drag the exposition of the divine Scriptures to their own opinion, which is beside the faith of catholic teaching, before the treatment of this book the catholic faith must briefly be set out. It is this: that God the Father almighty made and established the whole creation through his only-begotten Son, that is, his Wisdom and Power, consubstantial with him and coeternal, in the unity of the Holy Spirit, himself also consubstantial and coeternal. That this Trinity, then, is called one God, and that he made and created all things that are, in so far as they are, catholic teaching bids us believe; so that every creature, whether intellectual or corporeal — or, as it may be more briefly said in the words of the divine Scriptures, whether invisible or visible — is made not of God's nature but by God out of nothing: and that there is nothing in it belonging to the Trinity, except that the Trinity founded it and it was founded. Wherefore it is not lawful to say or believe that the whole creation is either consubstantial with God or coeternal.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "elohim-and-trinity"

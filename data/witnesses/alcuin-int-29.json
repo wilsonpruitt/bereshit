@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 29. What is 'The Spirit of the Lord was borne over the waters'? — Answer: Not by wandering over them, but by power and a ruler's command, to form and quicken the formless matter which in this place is signified by the name of water.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering"

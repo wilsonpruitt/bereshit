@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And there was evening and morning, one day.' There was evening, that is, the light setting little by little after the space of a day's length was spent, and passing beneath the lower parts of the world — which is now done by the accustomed circuit of the sun in the nights; and there was morning, the same light returning little by little above the lands and beginning another day; and up to this point one day was completed, of twenty-four hours, that is. By the commendation of which word Scripture watchfully warns us to say that the light which was made lit the lower parts of the world by its setting. For if it did not do this, but rather, evening having come, it wholly perished and again at morning rose up in the thing created, it would have said the day was completed not at the morning of the following day but rather at the evening of the first.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

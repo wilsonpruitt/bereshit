@@ -21,10 +21,9 @@
   "license": "pd"
  },
  "english": {
-  "text": "There follows, verse 2: 'But the earth was empty and void.' Since he said above, 'God created heaven and earth', why is it said, 'But the earth was empty and void'? — unless because that unformed matter, which is called by the name of earth, was empty and void. Empty, that is, unordered and not yet gathered into its own kinds. Void, because it was free of any fruits to be brought forth. Whence another translation says: 'unseen and unordered'. Unseen because of darkness, unordered because of shapelessness, since it was still wholly covered by the deep, that is, by the measureless depth of the waters. Whence, by what he says — 'But the earth was empty and void' — it can be understood what kind of heaven it was that he had made first: namely that, set apart from all the turning state of this world, it remains always at rest in the divine presence.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "text": "There follows, verse 2: 'But the earth was empty and void.' Since he said above, 'God created heaven and earth', why is it said, 'But the earth was empty and void'? — unless because that formless matter, which is called by the name of earth, was empty and void. Empty, that is, unordered and not yet gathered into its own kinds. Void, because it was free of any fruits to be brought forth. Whence another translation says: 'unseen and unordered'. Unseen because of darkness, unordered because of shapelessness, since it was still wholly covered by the deep, that is, by the measureless depth of the waters. Whence, by what he says — 'But the earth was empty and void' — it can be understood what kind of heaven it was that he had made first: namely that, set apart from all the turning state of this world, it remains always at rest in the divine presence.",
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

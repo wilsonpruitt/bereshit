@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Why then was the sun made 'to rule the day' (Ps 136:8), to shine over the earth, if that light was sufficient for making a day — the light that was itself called Day? Or did that earlier light illuminate regions high and far from the earth, so that it could not be felt on earth, and so the sun had to be made, through which day might appear to the lower parts of the world? This too can be said: that the brightness was increased by the addition of the sun, so that the day is believed to have been less bright by that earlier light than it is now. This too I know to have been said by someone: that the nature of light was first brought in in the Creator's work, when it was said 'Let there be light, and light was made'; but afterwards, when the luminaries are spoken of, it was recorded what was made out of that same light, in the order of the days in which it seemed good to the Creator that all things should be made.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

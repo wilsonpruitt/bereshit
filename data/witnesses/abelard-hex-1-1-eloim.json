@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It is to be noted that in this very opening of Genesis the prophet carefully expressed the foundation of our faith concerning the unity of God and the Trinity. For when he said 'the Spirit of the Lord', he plainly distinguished at once both the person of the Holy Spirit and that of the Father, from whom that Spirit principally proceeds, as blessed Augustine records. But in that he added 'God said', he openly expressed God's own saying, that is, his Word, which is the Son, together with the Father himself. For no one of sound head can be so foolish as to reckon this saying corporeal, since the Godhead is not corporeal, nor has it to speak in a bodily way, nor was there yet anyone present to whom it would have had to speak bodily. Now where we say 'God created', for what is 'God' the Hebrew has Eloim, which shows a plurality of divine persons. For El is singular, which is interpreted 'God'; but Eloim is plural, by which we understand the diversity of the persons, of which each one is God. But why is it said 'Eloim created' and not 'they created'? — namely, so that a singular verb should be referred to a plural noun; in order that it might be intimated that in those three persons not three creators but one only is to be understood. When therefore he said 'Eloim created', in which he taught that the divine persons work equally together, he assuredly laid down beforehand that the works of the Trinity are undivided. And when afterwards, as we have said, he distinguished the persons of the Father and the Spirit and the Word, he determined wherein that Trinity consists.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "elohim-and-trinity"

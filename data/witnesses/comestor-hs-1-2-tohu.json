@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'But the earth was empty and void' (Gen 1) — that is, the world-machine was still useless, and unfruitful, and void of its adornment. 'And darkness was upon the face of the deep.' The same machine which he had called earth he calls the deep, on account of its confusion and darkness. Whence the Greek called it chaos.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

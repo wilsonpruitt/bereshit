@@ -22,12 +22,12 @@
  },
  "english": {
   "text": "'In the beginning,' he says, and before every creature, God created heaven and earth. For this the Psalmist too testifies, saying: 'And you, God, in the beginning founded the earth, and the heavens are the works of your hands' (Ps 102:25 [Vg 101:26]). Not, therefore, heaven before earth, but God created heaven and earth together. Whence also this: 'He who lives for ever created all things at once' (Sir 18:1). For even if God is narrated in this same book to have made all things in six days, it is not to be doubted that he nevertheless created all things at once out of nothing. He created at once the very matter of all things, out of which he commanded the rest to be made at distinct times, as he willed. Let it be said, then: In the beginning of all creatures God created heaven — and those things, namely, which are contained in it, that is, the angels and the heavenly powers — and the earth, already as it were pregnant and in labour, and the matter and mother of all those things that arise from it.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "beginning-of-what"
+  "beginning-of-what",
+  "heaven-earth-order"
  ],
  "senses": [
   "literal"

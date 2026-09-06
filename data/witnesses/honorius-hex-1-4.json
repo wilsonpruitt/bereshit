@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God saw the light, that it was good. That is, he gave the rational creature to understand how good are all the things it discerns by the light. And he divided the light and the darkness: namely, so that the light should shine twelve hours above the earth and twelve below the earth; and the darkness, put to flight by the light, should lie hidden twelve hours below the earth and as many above it.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

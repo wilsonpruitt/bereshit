@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Two things are set down in the beginning, heaven and earth. Which of these do you suppose was below, and which shall we say was above? Either earth above and heaven below, or earth below and heaven above? But is it to be believed that in that first condition of things heaven was created underneath, and afterwards in the forming was set above? Perhaps, because Scripture named heaven before earth, someone may say that heaven was created below as a foundation. But I judge it to be so placed not for the sake of order but of dignity; and because the discourse that follows had to be about the element of earth, as about the nearer thing — and for this reason named later — therefore heaven had to be named first and earth afterwards. Nor indeed would the very nature of the things founded allow any other order of position or placing than that the weighty should be disposed downward and the light upward. Therefore the earth was below and heaven above, and what was above the earth was heaven. Therefore heaven was above the earth.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "heaven-earth-order"

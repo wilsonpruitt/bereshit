@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God separated between the light and the darkness — that is, he fashioned their nature unmingled, and unlike itself by contrariety; for he both set them apart from one another by long spaces and distinguished them, as it is said: And God called the light day, and the darkness he called night.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

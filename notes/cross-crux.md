@@ -1,7 +1,50 @@
-# Cross-crux notes — for the Phase 4 pass
+# Cross-crux notes — the Phase 4 pass
 
-Edges and facets noticed while building one crux that belong to another. Nothing here has been
-acted on; Phase 4 merges it. Do not revise another crux's threads to fit an entry in this file.
+Edges and facets noticed while building one crux that belong to another.
+
+## ✅ PHASE 4 RUN 2026-09-05 — what was merged
+
+Everything below is the record of *why*; this section is the record of *what was done*. All edits
+were made in the `cruxes/*.py` spec files (the source of truth) and all ten cruxes rebuilt, so the
+merge survives any future rebuild. `check.py` clean: 235 witnesses, **321 threads** (was 304).
+
+**16 facet edits.** `targ-neof-1-2` lost `beginning-of-what` (K1 built the properly-sliced
+`targ-neof-1-1`). `br-2-4` gained `tohu-vabohu`. `bruno-gen-1-1`, `glossa-1-1` and
+`rabanus-gen-1-1b` gained `heaven-earth-order`. `comestor-hs-1-1` gained `elohim-and-trinity`.
+`ramban-1-2-tohu` gained `ex-nihilo-or-matter`. `rashi-1-4` and `b-chag-12a-light` gained
+`good-and-separated`. `ambrose-hex-1-1-hyle` and `hugh-sacr-1-1-nihilo` gained `why-begin-here`.
+**And the five version witnesses on Gen 1:1** — `lxx-1-1`, `vulgate-1-1`, `targ-onk-1-1`,
+`targ-neof-1-1`, `targ-psj-1-1` — gained `heaven-earth-order`, `ex-nihilo-or-matter` and
+`elohim-and-trinity`, which **fixes the empty versiones column on all three dafs** (the defect
+K5 first hit and K4, K9 and K3 each hit again).
+
+**17 new threads**, tagged `t-k*-x*`, each beginning "Phase 4." in its evidence so the pass is
+auditable: 1 on K6, 5 on K5, 2 on K4, 4 on K9, 3 on K3, 2 on K2.
+
+**1 slice repair.** `br-3-6` (K8) trimmed from 3,255 to 997 characters, ending at R. Neḥemya's
+seven days of mourning. It had taken the whole Sefaria segment and so swallowed the *va-yavdel*
+material that K9 built as `br-3-6b`. The trim was the fix, not deletion of the new witness.
+
+**Deliberately not merged, with reasons:**
+- **Ben Zoma on K7 and K10** (`b-chag-15a` / `b-chull-83a`) — the two passages share a person and a
+  habit of mind, not a crux. An edge between them would be an edge about a tradent, which the graph
+  has no type for. **Phase 8 prose, or the `/persons/` page.**
+- **A doctrine settled at one crux foreclosing an answer at another** — K8's finding (BR 1:3 and
+  BR 3:8 debar the rabbinic bench from Augustine's angelic light) and K4's (Alcuin's list of what
+  was made from nothing against b. Chagigah's ten and PdRE's eight). Three cruxes raised this shape
+  and it still has no edge type. **Escalate to Fable at Phase 8**, per PHASES.md's rule that a new
+  edge type is a Fable decision; it is the one structural question Phase 2 left open.
+- **Prov 8 as Genesis 1:1's commentary on both benches** (K1) — not a single-witness observation.
+  Phase 8 introduction.
+- **`aug-gnl-4-22` and `alcuin-int-34`** carry `first-light` from K10 but no K8 thread was written:
+  the available edges were thin and the rule against inventing edges applies. Facets left as they
+  are.
+- **The witness-id collision** (`rabanus-gen-1-1` is on Gen 1:2) was **not** renamed — renaming a
+  built witness breaks every thread pointing at it for a cosmetic gain. The real fix is a guard in
+  `build-crux.py`; see the Phase 5 list.
+
+Do not revise another crux's threads to fit an entry below; the merge is done and further
+cross-crux material found in Phase 6 should be appended here for a second pass.
 
 ## From K10 (built 2026-09-05)
 

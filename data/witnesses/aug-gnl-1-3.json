@@ -21,10 +21,9 @@
   "license": "pd"
  },
  "english": {
-  "text": "And what is that light itself which was made? Is it something spiritual, or something bodily? For if spiritual, it can itself be the first creature, already made perfect by this saying, which was first called heaven when it was said, 'In the beginning God made heaven and earth' — so that what God said, 'Let there be light, and light was made', may be understood as its conversion and illumination, the Creator calling it back to himself.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "text": "And what is that light itself which was made? Is it something spiritual, or something bodily? For if spiritual, it can itself be the first creature, already made perfect by this saying, which was first called heaven when it was said, 'In the beginning God made heaven and earth' — so that what God said, 'Let there be light, and light was made', may be understood as its turning and illumination, the Creator calling it back to himself.",
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

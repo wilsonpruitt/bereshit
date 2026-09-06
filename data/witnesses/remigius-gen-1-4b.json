@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "He divided the light from the darkness on this day: because in this age the sons of God, that is, the sons of Seth, were separated from the impious generation of Cain, whose evening was the multiplied iniquity of men, that God might bring on the flood.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 30. What is: 'But the earth was invisible and unordered' (ibid., from the Septuagint version)? — Answer. Invisible because of darkness; unordered because of shapelessness.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

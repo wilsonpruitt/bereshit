@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "…for the lighting of bodily and visible things, nothing but a bodily light could have been suitable. And every body, however fine and however near it comes to a spiritual nature, must be circumscribed by place. And again, unless that light had been mobile, it could in no way have distinguished day and night by their alternating turns, nor traversed any space of time at all without motion. According to this consideration, then, I think it more fitting that we believe that light, made in the beginning for the lighting of bodily things, to have been beyond doubt bodily — such as some luminous body might perhaps have been, by whose presence all things were lit, as can now be seen in the sun — and that it was made in the sun's stead and place, so that for the time being it was carried round by its own motion, and marked off night and day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

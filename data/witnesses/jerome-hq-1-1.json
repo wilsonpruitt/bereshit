@@ -23,9 +23,8 @@
  },
  "english": {
   "text": "In the beginning God made heaven and earth. Very many suppose — as is written also in the Altercation of Jason and Papiscus, and as Tertullian argues in his book against Praxeas, and as Hilary too asserts in his exposition of a certain Psalm — that the Hebrew has: 'In the Son God made heaven and earth.' That this is false, the truth of the thing itself proves. For both the Seventy Translators and Symmachus and Theodotion rendered 'in the beginning'; and in the Hebrew it is written BRESITH, which Aquila translates 'in the head', and not BABEN, which is rendered 'in the son'. It can therefore be taken of Christ rather according to the sense than according to the translation of the word: he who, both at the very forehead of Genesis, which is the head of all the books, and also at the beginning of John the Evangelist, is shown to be the founder of heaven and earth. Whence also in the Psalter he says of himself: 'In the head of the book it is written of me' (Ps 40:8 [Vg 39:9]) — that is, in the beginning of Genesis. And in the Gospel: 'All things were made through him, and without him was made nothing' (John 1:3). But this too is to be known, that among the Hebrews this book is called BRESITH: they have the custom of giving volumes their names from their opening words.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

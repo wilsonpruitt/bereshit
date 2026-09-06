@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'But the earth was empty and void.' Empty of seeds; void of shoots; or empty on account of its hollowness; void, because in so great a hollowness of the earth there was nothing but air and mist.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

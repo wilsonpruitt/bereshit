@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And why is it said thus, 'In the beginning God made heaven and earth', and not said, 'In the beginning God said, Let heaven and earth be made; and heaven and earth were made', as it is told of the light, 'God said, Let there be light; and light was made'? Was it that first, under the name of heaven and earth, what God made had to be taken in universally and commended; and then to be gone through in its parts — how he made it — when at each thing it is said, 'God said', that is, because through his Word he made whatever he made?",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "heaven-earth-order"

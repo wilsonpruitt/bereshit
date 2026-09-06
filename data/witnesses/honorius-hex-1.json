@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And the Spirit of the Lord was borne over the waters,' or 'was warming the waters,' that is, was giving life to all that was to be brought forth from the waters. And note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposing of things, to the Holy Spirit the quickening, or adorning, of all.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It is worth asking why this volume is called Genesis in particular, since many things are recorded in it which are known not to pertain to generation — unless it be that the Hebrews have the custom of imposing the names of books from their openings, as Exodus and many others are named. Whence Bresith in Hebrew is not undeservedly rendered Genesis in Latin: because in its very opening the creation of heaven and earth, and the generation of men and living creatures, is narrated.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

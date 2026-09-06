@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It is to be noted here first of all that he did not say, 'And there were made darkness and light, one day.' This was well and prudently observed by the sacred writer. For how can the things God divided be joined together, or make some one thing? Now he divided light and darkness, and called the light Day — day, I say, whole and full, without partnership of darkness. […] For, as has been said already, things separated by God's dividing cannot be associated or make some one thing.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

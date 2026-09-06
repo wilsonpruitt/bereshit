@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Or is this day the name of the whole of time, and does it include all the volumes of the ages under this one word — and is that why it was called not 'first' but 'one day'? For 'and there was evening,' he says, 'and there was morning, one day': so that by the evening's being made the sin of the rational creature may be signified, and by the morning's being made, its renewal.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

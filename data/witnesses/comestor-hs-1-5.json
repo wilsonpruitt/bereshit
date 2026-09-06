@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And there was evening, and after that there was morning.' And so one natural day was completed. For first, with heaven and earth, light was created; and as it set little by little, there was made the evening of the first usual day; and as the same light passed under the earth and came to the rising, there was made morning — that is, the night was ended and the second day began. And so, with the light of the day preceding and the night following being ended, one day came to be.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

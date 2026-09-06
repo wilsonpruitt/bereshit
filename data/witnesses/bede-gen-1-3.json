@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It befits the works of God that he should begin the adorning of the world from light: he who, being himself the true light and dwelling in light inaccessible, in the beholding of which the angels, newly created in the heaven of heavens, had already begun to rejoice, fittingly gave to this world too, for its adorning, the first grace of material light, so that there might be something from which the rest that he would create could appear.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Here too the Manichees carp, supposing it was said as though the day began from evening. They do not understand that the whole of that working — by which the light was made, and division was made between light and darkness, and the light was called Day and the darkness Night — that this whole working belongs to the day; and that after this working, the day being as it were finished, evening was made. But because the night also belongs to its own day, the one day is not said to have passed until, the night too being over, morning came: and so thereafter the remaining days are counted from morning to morning.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

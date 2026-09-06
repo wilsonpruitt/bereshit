@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 19. In how many ways is the divine working? — Answer. Four. First, that in the dispensation of the Word of God all things are eternal. Second, that in formless matter he who lives for ever created all things at once (Sir 18:1). Third, that through the works of the six days he distinguished the various creatures. Fourth, that out of the primordial seeds natures do not arise unknown, but known ones are more often re-formed, lest they perish. Question 20. Which creatures were made out of nothing? — Answer. Heaven, earth, angels, light, air, water, and the soul of man.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "For that that first matter of all things arose in the beginning of time, or rather with time itself, is clear from what was said: 'In the beginning God created heaven and earth.' But how long it remained in this unformedness or confusion, Scripture does not plainly show. To me, however, it seems, so far as I can conjecture, that between the creation and the disposing of things there was indeed an order of time but no delay interposed; so that it can truly be said that this was made after that, yet that between this making and that no postponement whatever came between.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

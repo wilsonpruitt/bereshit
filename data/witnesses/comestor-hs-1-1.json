@@ -22,12 +22,12 @@
  },
  "english": {
   "text": "But Moses prophesied God alone to be eternal, and the world created without pre-existing matter. And it was created in the beginning, that is, in the Son; and 'in the beginning' is to be repeated thus: In the beginning God created heaven and earth, in the beginning, namely, of time. For the world and time are coeval. And as God alone is eternal, so the world is everlasting, that is, always eternal, eternal in a temporal way; the angels too are everlasting. Or: in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "beginning-of-what"
+  "beginning-of-what",
+  "elohim-and-trinity"
  ],
  "senses": [
   "literal",

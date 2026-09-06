@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God said, Let there be light. The first voice of God fashioned the nature of light, and drove away the darkness, and dissolved gloom, and suddenly brought forth every glad and pleasant appearance. Then the vault appeared, which had until then been hidden by the Lord; and so great a beauty of it shone out as the sight bears witness to even now. And the air was lit up by that light which had been mingled with it, and it stretched the sharp penetration of its own brightness everywhere through all its bounds.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

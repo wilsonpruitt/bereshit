@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God said: Let there be light. And light was made (Gen 1) — that is, he begot the Word in whom it was that light should be made; that is, as easily as if someone were to say it in a word. By 'light' he means a kind of luminous cloud, lighting the upper parts of the world, but with a thin brightness, such as comes about at dawn; and this driven round much as the sun is. By its presence it lights the upper hemisphere and in turn the lower.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

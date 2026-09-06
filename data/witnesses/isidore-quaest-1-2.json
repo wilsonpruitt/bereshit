@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'But the earth was empty and void.' The earth, that is, of our flesh was empty and void, before it received the form of doctrine. 'And darkness was upon the face of the deep', because the blindness of our sins and the deep obscurity of ignorance covered our hearts.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

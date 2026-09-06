@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It is to be noted that, where we say 'Let there be light, and light was made', in the Hebrew it is: 'Let light be, and light was'; and likewise in the rest that follow, wherever we have 'God said, Let this be made, and it was made so', in the Hebrew it is 'Let this be, and it was so'. By which words perhaps the greatest swiftness of the divine working is expressed. For while something is being made which is not yet, there can be some delay in the making. But when it is said 'let it be' and 'it was', with no delay interposed the perfecting of the thing…",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

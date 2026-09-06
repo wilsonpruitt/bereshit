@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It befits the works of God that he should begin the adorning of the world from light, since he himself is the true light and dwells in light inaccessible (1 Tim 6:16); in the most blessed beholding of which the angels, newly created in the heaven of heavens, had already begun to rejoice. Fittingly he gave to this world too, for its adorning, the first grace of material light, so that there might be something from which the rest that he would create could appear. […] But if it is asked in what places, at God's bidding, the light was made, since the abyss still covered the whole breadth of the earth — it is quite plain that it was in the upper parts of that same earth.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

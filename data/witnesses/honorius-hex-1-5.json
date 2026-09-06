@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And there was evening and morning, one day.' Evening is the end of the day; morning, however, is the end of the night: which two joined together make twenty-four hours and complete one day. And it is called not first but one day, because the same day is always repeated, as it is written: 'By your ordinance the day continues' (Ps 119:91). During that first three days the night remained wholly dark, because neither moon nor stars lit it. It is to be noted, moreover, that the day begins from light and ends in light: because all the works of God are begun from Christ, who is the true light, and in him all are completed.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

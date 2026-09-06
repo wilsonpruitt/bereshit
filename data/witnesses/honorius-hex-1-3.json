@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God said: Let there be light. When 'he said' is written of God, it is said after our manner, and the efficacy of the one commanding is expressed. But for God to speak is nothing other than to found all things through his Word. Through this Word he brought forth this bodily light from the element of fire, and brought it into this world. Which light then showed such a brightness as there now is before the rising of the sun; and it lit the waters, then thin, as it now lights the air. For twelve hours it remained above the earth, as the sun does now; and for twelve it lit the lower parts of the globe.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 35. What is: God saw that it was good? — Answer. That is: what he made pleased him to remain in that goodness in which it pleased him to be made.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

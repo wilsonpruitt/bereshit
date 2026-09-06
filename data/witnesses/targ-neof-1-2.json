@@ -21,13 +21,11 @@
  },
  "english": {
   "text": "In the beginning, with wisdom, the Word of the LORD created and perfected the heavens and the earth. And the earth was waste and empty, desolate of human and beast, empty of all tillage of plants and of trees; and darkness was spread over the face of the deep, and a spirit of mercy from before the LORD was blowing over the face of the waters.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",
-  "beginning-of-what",
   "tohu-vabohu"
  ],
  "senses": [

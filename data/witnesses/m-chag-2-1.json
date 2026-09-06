@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "One does not expound the forbidden sexual relations before three, nor the work of creation before two, nor the Chariot before one — unless he was wise and understood of his own knowledge. Whoever looks at four things, it were fitting for him that he had not come into the world: what is above, what is below, what is before, and what is after. And whoever has no care for the honour of his Maker, it were fitting for him that he had not come into the world.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "why-begin-here"

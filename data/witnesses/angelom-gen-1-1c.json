@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "For God founded formless matter out of nothing, and out of it created all things, according to what is written in the book of Wisdom: 'For your hand, Lord, was not powerless, which created the world out of formless matter' (Wis 11:17). Whence the philosophers, as has already been said, not being able to penetrate how the divine Wisdom created the world out of nothing, reckoned the world to be coeternal. They say these things because they attend to the craftsman and not to God. For they say: wood helps the craftsman, and silver the silversmith, and gold the goldsmith. Yet although they need these, they cannot create. But the Lord needed none of these, and founded all things out of formless matter, not outside himself as a craftsman does — for the craftsman does not make the wood, but makes something out of wood. And the almighty had no need to be helped by any thing that he had not himself made in order to bring about what he willed; otherwise he would not be God.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

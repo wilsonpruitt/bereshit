@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God divided between the light and the darkness. From this it may be understood with how great an ease of divine working these things are said to have been effected. For there is no one who so supposes the light to have been made that it was confused with the darkness, and for that reason needed a separation afterwards; but by the very fact that the light was made, the division between light and darkness also followed. For what fellowship has light with darkness (2 Cor 6:14)? God therefore divided between light and darkness, because he made the light, whose absence is called darkness. And there is a difference between light and darkness such as there is between a garment and nakedness, or the full and the empty, and the like.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "It is God, then, who speaks. Was it to the angels? God forbid! For man was not created by angels; otherwise there would be not one but many creators, whereas God alone is the Creator of all. For thus it is written: The Creator of all, terrible and strong (2 Macc 1:24). And again: You have made all things in wisdom (Ps 104:24 [Vg 103:24]). If therefore it is true, as cannot be denied, that God alone created all things, whom was he inviting to the making of man when he said, Let us make man? Let us hear, then, what is said at the head of this book: In the beginning God created heaven and earth. You have therefore God, that is, the Father; you have also a beginning, that is, the Son — for so he himself says: I am the beginning, who also speak to you (John 8:25). But what follows? And the Spirit of God was borne over the waters. You have therefore the Holy Spirit also. And that not the Father alone created heaven, but the Son and the Holy Spirit together with him, let the psalmist say: By the word of the Lord the heavens were established, and all their power by the spirit of his mouth (Ps 33:6 [Vg 32:6]). Now the whole Trinity, that is, God and his Word and his Spirit, is one God; and it is he who says, Let us make man — not seeking help outside himself, but disposing all things within himself with his Son and the Holy Spirit.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "elohim-and-trinity"

@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 33. Why is light read to have been created on the first day? — Answer. It befits the works of God that on the first day a temporal light should first be made from the eternal light, so that there might be something from which the rest that he would create could appear.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

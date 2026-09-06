@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Question 33. Why is the light read as created on the first day? — Answer: It suits the works of God that on the first day a temporal light should first be made from the eternal light, so that there might be something by which the rest he would create could appear. Question 34. What is 'there was evening and morning, one day'? — Answer: That is, the end of a work completed, and the beginning of a work begun.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first",

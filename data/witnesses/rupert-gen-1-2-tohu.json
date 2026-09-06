@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "For the rest, according to what has already been said, the earth was empty and void, because the Creator had not yet separated it as dry land from the waters, had not yet made it firm, had not yet clothed it with the mantle of the stars of this heaven, had not yet furnished it with so many kinds of creatures. And so, if you consider the letter carefully, the earth was not created in the beginning with the visible appearance of its own which it now shows, but was empty — empty, that is, of every shoot which is now rooted in it — and void, namely of all the living things which now move in it.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "tohu-vabohu"

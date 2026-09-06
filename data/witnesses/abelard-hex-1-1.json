@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But when in what follows he says a second day and a third and the rest, he means by the first day that on which heaven and earth were created, as it was said: 'In the beginning God created heaven and earth', on which also light was created or divided from the darkness. For to the works of the first day there belongs only the creation of heaven and earth, which is to be assigned to the first day, in respect of which first day the second or third day is so called; so that 'in the beginning he created' is as if it were said: On the first day — that is, before the other works that follow.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

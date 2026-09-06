@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "The Hebrew has, for 'was borne above,' 'was brooding,' or in the Syriac tongue 'was warming,' as a bird her eggs. In this, too, the whole beginning of the world being born is noted, together with its governance. Plato misunderstood this passage, thinking it was said of the world-soul. But it is said of the Holy Spirit creating, of whom we read, 'Send forth your Spirit, and they shall be created' (Ps 104:30).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering"

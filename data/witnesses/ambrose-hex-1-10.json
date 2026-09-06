@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Some ask why Scripture recorded evening first and morning afterward, lest it should seem to put night before day. They fail to notice, first, that it put the day first by saying, 'And God called the light Day, and the darkness he called Night'; and then that evening is the end of the day, and morning the end of the night. So, to give the day the prerogative and the birthright, it named the end of the day first, since night was to follow, and afterward added the end of the night. […] Excellently, too, he said one day and not first day. For with a second day and a third and the rest to follow he could have said 'first,' and that seemed to be the order; but he laid down a law, that twenty-four hours of day and night together be defined by the name of day only — as if he were saying: the measure of twenty-four hours is the time of one day. For as the generation of men is counted and the women are understood along with them, since the lesser are bound to the greater, so too the days are numbered and the nights reckoned as joined to them. Therefore as there is one circuit, so there is one day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

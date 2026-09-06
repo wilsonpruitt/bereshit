@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'For he created heaven and earth.' By 'heaven' we ought not to understand this visible firmament, but that empyrean — that is, fiery, or intellectual — heaven, which is called fiery not from burning but from brightness, and which was at once filled with the angelic spirits, of whom it is said in Job: 'When the morning stars praised me together, and all the sons of God shouted for joy' (Job 38:7). And note that three elements are named here. For under the name of heaven gather the air; under the name of earth, the earth itself, and the fire that lies hidden in its bowels. Of the fourth element, that is water, mention is made in what follows.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "heaven-earth-order"

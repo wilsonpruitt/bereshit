@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But as to what is said, 'In the beginning God made heaven and earth' — by the name of heaven and earth the whole creation is signified, which God made and founded. And these were called by the names of visible things on account of the weakness of little ones, who are less able to grasp invisible things. First, then, was made the confused and formless matter, out of which should be made all the things that are distinguished and formed — which I believe is called chaos by the Greeks. For so we read it said elsewhere too, in the praises of God: 'You who made the world out of formless matter' (Wis 11:17) — which some manuscripts have as 'out of unseen matter'.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "heaven-earth-order"

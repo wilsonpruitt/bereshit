@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And therefore, because the first day had no dawn preceding it — since before the light was created there was full darkness, and as soon as the light appeared over the earth there was full day, and because God's work ought to have begun from what is perfect — therefore Scripture said: 'There was made evening and morning, one day.' For it did not say, 'There was made morning and evening,' but 'There was made,' it says, 'evening and morning, one day.' Because, as we have said, the first day had no morning preceding it, since it took its beginning from full and perfect light; and therefore every dawn belongs to the preceding day, and every day takes its beginning from sunrise. And the natural day is that space of time which, passing from sunrise to sunrise, encloses within itself both night and day; in which — since day naturally precedes night — we call the end of the day evening and the end of the night dawn; and it stands beyond doubt that dawn is always to be referred to the preceding day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "one-day-evening-first"

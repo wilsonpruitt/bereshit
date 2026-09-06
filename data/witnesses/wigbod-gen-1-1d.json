@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "M[aster]. Let us say that in a Beginning coeternal with himself God made heaven and earth — in the only-begotten Son, who is the Wisdom of the Father, of whom the Apostle says: Christ the power of God and the wisdom of God (1 Cor 1:24).",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "elohim-and-trinity"

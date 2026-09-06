@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And it is to be noted that Moses the prophet records the Son as the beginning, and all things created in him; but John the apostle proclaims the Father as the beginning, and that the Son always remained in him, coequal to him, and that all things were made through him. For without doubt they announce to us in concord the one substance of both. It is said therefore (Gen 1): 'In the beginning God created heaven and earth' — that is, God the Father created in the Son, at once, the heavenly and the earthly, the visible and the invisible.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "beginning-of-what"

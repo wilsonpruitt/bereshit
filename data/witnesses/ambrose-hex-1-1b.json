@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Finally it was not in the persuasion of human wisdom, nor in the counterfeit disputations of philosophy, but in the showing of the Spirit and of power, as a witness of the divine work, that he dared to say: In the beginning God made heaven and earth. Not he, so that the world should come together by a concourse of atoms […]. For a man full of prudence perceived that the divine mind alone contains the substances of things visible and invisible, their origins and their causes — not, as the philosophers dispute, that a stronger interlacing of atoms furnishes the cause of unbroken endurance: but he judged that they were weaving a spider's web who gave such minute and unsubstantial first principles to heaven and earth — principles which, as they were joined by chance, would by chance and at random be dissolved, did they not stand fast in the divine power of their governor. Nor is it without cause that they do not know the governor, who have not known God, by whom all things are ruled and governed. Let us follow him, then, who knows both the author and the governor, and let us not be led away by empty opinions.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "why-begin-here"

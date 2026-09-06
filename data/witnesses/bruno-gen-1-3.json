@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But what is that light, which is said to be prior to the sun, the moon and the stars? Hear what follows: 'He called the light Day, and the darkness Night.' Light, therefore, is put for day.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "first-light"

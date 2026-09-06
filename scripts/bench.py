@@ -12,6 +12,10 @@ TEI = pathlib.Path.home() / "patrologia" / "sources" / "pl" / "tei"
 RAW = ROOT / "raw" / "sefaria"
 
 DRAFT = {"translator": "claude-draft", "license": "cc-by", "status": "draft-awaiting-approval"}
+# Phase 3, 2026-09-05: Wilson approved the whole body of fresh English as it stood. Passages he
+# has not revised himself carry translator "claude-draft-approved" and no status, per the frozen
+# convention. DRAFT stays for anything drafted after this point (Phase 6's second-tier sources).
+APPROVED = {"translator": "claude-draft-approved", "license": "cc-by"}
 
 _tei_cache = {}
 def tei_text(idno):

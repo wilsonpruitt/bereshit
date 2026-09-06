@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Our rabbis taught: It once happened that Rabbi Yehoshua ben Ḥananya was standing on a step on the Temple Mount, and Ben Zoma saw him and did not rise before him. He said to him: From where and to where, Ben Zoma? He said to him: I was gazing between the upper waters and the lower waters, and between the one and the other there are only three fingerbreadths, as it is said, 'and the spirit of God was hovering over the face of the waters' (Gen 1:2) — like a dove that hovers over her young and does not touch them. Rabbi Yehoshua said to his disciples: Ben Zoma is still outside. — Now, 'the spirit of God was hovering over the face of the waters': when was that? On the first day. But the dividing was on the second day, as it is written, 'and let it divide water from water' (Gen 1:6). And how much [lies between them]? Rav Aḥa bar Yaakov said: a hair's breadth. The rabbis say: like the gap between the planks of a bridge. Mar Zutra, or some say Rav Ashi, said: like two cloaks spread one over the other; and some say, like two cups tipped one upon the other.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "tradents": [
   "ben-zoma",

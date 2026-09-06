@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And God divided between the light and the darkness, and God called the light day, and the darkness he called night. It is not said here, God made the darkness; because the darkness, as was said above, is the absence of light: yet a distinction was made between light and darkness. Just as we make a voice by crying out, but make silence by not sounding, because the ceasing of the voice is silence — yet we distinguish by a kind of sense between voice and silence, and call the one voice and the other silence: as therefore we are rightly said to make silence, so in many places of the divine Scriptures God is rightly said to make darkness, because he either does not give light, or withdraws it, at what times and in what places he wills.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "good-and-separated"

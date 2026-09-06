@@ -22,12 +22,12 @@
  },
  "english": {
   "text": "'In the beginning God created heaven and earth' (Gen 1:1). What was created was made out of nothing. For what was made out of something was indeed made, but was not created, because it was not made out of nothing. God therefore made heaven and earth; and not only made but created, that is, made out of nothing. The philosophers of the gentiles laid down three principles of things without a principle: the workman, matter, and form — professing that all the things that were made were brought forth out of matter into form through the workman. But they professed God to be only a maker and not a creator. The true faith, however, confesses one only first principle, which always was; and through it alone it came about that what once was not should be. And the power of his unspeakable omnipotence, just as it could not have anything coeternal besides itself by which it might be helped in making, so it had at hand, when it willed, that what it willed and when and how much it willed should be created out of nothing. All things therefore that were made, God not only made out of matter, but himself created the matter of all things out of nothing.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
-  "ex-nihilo-or-matter"
+  "ex-nihilo-or-matter",
+  "why-begin-here"
  ],
  "senses": [
   "literal"

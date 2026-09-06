@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Hence if Genesis has passed over in silence something that God made — which nevertheless neither sound faith nor sure understanding doubts that God made — no sober teaching will on that account dare to say that those waters are coeternal with God, merely because we have heard them mentioned in the book of Genesis but do not find where they were made. Why then should we not understand, with truth teaching us, that the formless matter also, which this Scripture calls the invisible and unordered earth and the dark deep, was made by God out of nothing, and is therefore not coeternal with him — although this narrative has omitted to state where it was made?",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

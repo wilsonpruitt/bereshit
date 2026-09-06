@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "Only to this extent is that matter formless out of which Scripture testifies that the world was made, when it says in the praises of God: 'You who made the world out of formless matter' (Wis 11:17). For all the things which we are accustomed to see in the world along with the waters and the earth either took the beginning of their nature from these, or took it out of nothing; but the earth itself and the waters themselves have received the name of formless matter for this reason, that before they came into the light there was nothing from which they might have comeliness.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ex-nihilo-or-matter"

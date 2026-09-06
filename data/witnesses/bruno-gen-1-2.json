@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But the Spirit of God was borne over the waters, because, like a good craftsman, he was even then arranging to make this so manifold variety of creatures that we see. So we too, for example, when about to build a house, looking over the timber with eye and mind, assign some pieces to beams, some to columns, and others to other uses.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering"

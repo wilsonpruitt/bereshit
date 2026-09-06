@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "And rightly, having first declared that in the beginning, that is, in the Son, the Father made heaven and earth, he brought in mention of the Holy Spirit too by adding, 'And the Spirit of God was borne above the waters,' so as to signify that the power of the whole Trinity together worked in the creation of the world.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",

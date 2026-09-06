@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "But the earth was empty and void, and darkness [was] upon the face of the deep, and the Spirit of God was borne over the waters.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",

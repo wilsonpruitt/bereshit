@@ -22,9 +22,8 @@
  },
  "english": {
   "text": "'And the Spirit of God was borne over the waters.' He calls 'the Spirit of God' his intention, who like a craftsman presided over the work to be formed; 'the waters' he calls that mist, on account of its mobility; and so he names the same thing now 'abyss' for its depth, now 'darkness' for the absence of light, now 'waters' for its mobility.",
-  "translator": "claude-draft",
-  "license": "cc-by",
-  "status": "draft-awaiting-approval"
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
  },
  "cruxes": [
   "ruach-hovering",
