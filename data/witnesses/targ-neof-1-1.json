@@ -17,8 +17,8 @@
   "lang": "arc",
   "text": "מלקדמין בחכמה [בחוכמתא] ברא (ד)יי שכלל [ושכלל] ית שמיא וית ארעא:",
   "source": "Targum Neofiti, Gen 1:1 (Vatican, Neofiti 1)",
-  "license": "check",
-  "version": "Sefaria, 'The Vatican Manuscript of the Targum Neofiti' (licence unknown)"
+  "license": "neofiti-vatican",
+  "version": "Sefaria, 'The Vatican Manuscript of the Targum Neofiti'"
  },
  "english": {
   "text": "In the beginning and in great wisdom, God created and finished the heavens and the earth.",

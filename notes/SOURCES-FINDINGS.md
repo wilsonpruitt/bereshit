@@ -1326,3 +1326,36 @@ keeps the argument and drops the knowledge that there was anyone to argue with.
 > Jew in it, Rabanus and Angelomus copy Bede, and by the twelfth century the reading survives in
 > the Gloss only at Babel and with nobody's name on it. Twice, then, and by two unrelated routes,
 > the Latin bench was handed the other bench's words and kept only the answer.
+
+## Three rulings, 2026-09-06 — all executed
+
+1. **K1's finding takes the Basil sentence.** ⚠ Placed **beside the Chalcidius loss-case, not at
+   the literal end** as the proposal said. The finding closes on the JPS Tanakh removing the crux,
+   which is the right last beat; a second loss-case buried after it would be wasted. It now sits
+   immediately after "never met the text that had already got there from the other side", which is
+   the sentence it doubles.
+2. **Targum Neofiti ships as public domain**, with the reasoning on the page under a new licence
+   key `neofiti-vatican`. **This clears the last `check` in the data** — the two Neofiti witnesses
+   were the only ones left. The reasoning is the shop's own, applied to someone else's
+   transcription rather than to ours: a faithful transcription of a public-domain text creates no
+   new copyright, and Sefaria's "unknown" is a metadata gap, not an assertion. The note records the
+   limit — it covers the text and not the Vatican's page images, which this edition does not
+   reproduce — and says the two witnesses come down if anyone asserts a right.
+3. **Push to a public GitHub repo — approved in principle, and the exact commands are surfaced for
+   a per-action OK** before anything runs. Nothing has been pushed.
+
+## Two stale things found while answering, both fixed
+
+- **PHASES.md's Phase 7 still asked a question Wilson answered the same day.** It said to confirm
+  whether the site takes the Wroot Press CC BY-NC licence. It does not, and the ruling was already
+  recorded on the `cc-by` key in `data/licenses.json`: **the edition is CC BY 4.0, a deliberate
+  departure from house policy**, because BY-NC cannot legally sit on top of the inbound CC BY-SA
+  Hebrew (Wikisource Bavli, Miqra according to the Masorah). The Press rule is unchanged for every
+  other corpus; this edition is the documented exception and the colophon must say so. That key's
+  own passage count was stale too (177 → 197).
+- **K1's finding was the only one in the edition carrying markdown markers**, and they rendered as
+  literal asterisks on the live page — `*ab Hebraeis*`, `**The contact existed…**`. Seven of them,
+  in one string. Stripped, keeping the words; every witness note and every other finding is plain
+  prose, so K1 was the outlier and the renderer is not at fault. **Worth knowing as a class:** the
+  `finding` and `notes` fields are plain text end to end, and nothing on the pipeline strips or
+  interprets emphasis, so a marker written into either one ships to the reader as an asterisk.

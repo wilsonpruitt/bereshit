@@ -42,7 +42,7 @@ neof_en, neof_ver, neof_lic = sef("targ-neof", "en", 0)
 add(id="targ-neof-1-2", work="targ-neof", author="targum-neofiti", tradition="rabbinic",
     date=300, date_precision="range-100-400", place="palestine",
     anchor={"verse": "gen.1.2"}, lemma={"arc": "וְרוּחַ דְּרַחֲמִין מִן קֳדָם יְיָ הֲוָה מְנַשְּׁבָא", "en": "and a spirit of mercy from before the LORD was blowing"},
-    original={"lang": "arc", "text": neof_he, "source": "Sefaria, Vatican MS Neofiti 1 (whole of 1:1–5 in one segment)", "license": "check"},
+    original={"lang": "arc", "text": neof_he, "source": "Sefaria, Vatican MS Neofiti 1 (whole of 1:1–5 in one segment)", "license": "neofiti-vatican"},
     english={"text": "In the beginning, with wisdom, the Word of the LORD created and perfected the heavens and the earth. And the earth was waste and empty, desolate of human and beast, empty of all tillage of plants and of trees; and darkness was spread over the face of the deep, and a spirit of mercy from before the LORD was blowing over the face of the waters.", **APPROVED},
     cruxes=["ruach-hovering", "tohu-vabohu"], senses=["translation"],
     notes="'Spirit of mercy' answers the wind/spirit question in a third way: neither the weather nor the Holy Spirit but a divine disposition. Neofiti's 1:1 'with wisdom' is the K1 anchor. Hebrew licence on Sefaria is 'unknown' — the MS transcription is PD in substance; confirm before embedding.")

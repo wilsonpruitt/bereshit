@@ -21,12 +21,14 @@ Checks:
      colophon renders only what is there. Added at Phase 6, after 23 Sefaria Midrash Rabbah
      passages and 6 Sefaria Vocalized Ramban passages were found keyed to the generic "cc-by",
      which is also the key on our own drafts and so carries no attribution line.
+  10. No markdown emphasis marker in notes, findings or thread evidence — those fields are plain
+     text end to end and an asterisk ships to the reader as an asterisk. Added 2026-09-06.
   7. No witness has a truncated slice: an original or English shorter than 40 characters, or an
      original under a quarter the length of its English. Added at Phase 6, after br-3-8 was found
      shipping an original of "." — a str.find that returned -1 and was used as a slice index. It
      passed checks 1-6, a daf read, and three phases. Use bench.hcut / bench.ecut, which raise.
 """
-import json, pathlib, sys
+import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 W = ROOT / "data" / "witnesses"
@@ -120,6 +122,23 @@ for k in sorted(x for x in used_keys if x):
 for k in sorted(x for x in used_keys if x):
     if "[CHECK" in json.dumps(licenses.get(k, {}), ensure_ascii=False):
         errors.append(f"licence {k!r} is used by a witness and still carries an unresolved [CHECK] marker")
+
+
+# 10. No markdown emphasis markers in prose that ships to a reader. `notes`, `finding` and thread
+# `evidence` are plain text end to end: nothing on the pipeline strips or interprets emphasis, so a
+# *word* or **word** written into any of them renders to the reader as a literal asterisk. Added
+# 2026-09-06, after 20 markers across 11 witness notes and 7 in K1's finding were found shipping on
+# the live site — K1's had been visible since Phase 6 part one.
+_EMPH = re.compile(r'\*\*[^*]+\*\*|(?<!\*)\*[^*]+\*(?!\*)')
+for wid, w in witnesses.items():
+    if _EMPH.search(w.get("notes", "") or ""):
+        errors.append(f"witness {wid!r}: notes carry markdown emphasis, which ships as a literal asterisk")
+for c in cruxes:
+    if _EMPH.search(c.get("finding", "") or ""):
+        errors.append(f"crux {c['id']!r}: finding carries markdown emphasis, which ships as a literal asterisk")
+for t in threads:
+    if _EMPH.search(t.get("evidence", "") or ""):
+        errors.append(f"thread {t['id']!r}: evidence carries markdown emphasis, which ships as a literal asterisk")
 
 if errors:
     print(f"check.py: {len(errors)} problem(s)")

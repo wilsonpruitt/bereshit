@@ -65,5 +65,10 @@
  "daat-br": {
   "label": "Daat Bereshit Rabbah — public domain (via Sefaria)",
   "note": "The Bereshit Rabbah Hebrew on this site comes from two versions, by chapter, and this is not an editorial preference. Chapters 1–3 are from 'Wikisource Bereshit Rabbah' (CC BY-SA), which does not cover chapter 8; chapter 8 is from 'Daat Bereshit Rabbah' (public domain), which returns no text at all for chapters 1–3. The third version Sefaria lists for the work, 'Midrash Rabbah — TE' (Torat Emet), is not used anywhere here: its own site prints an all-rights-reserved notice. The two versions differ in orthography — abbreviations printed rather than expanded, plene and defective spelling varying freely — so an anchor phrase retyped from one will not always match the other; see the note on _HFUZZ in scripts/bench.py."
+ },
+ "neofiti-vatican": {
+  "label": "Targum Neofiti, Vatican MS Neofiti 1 — public domain (transcription via Sefaria)",
+  "attribution": "Aramaic of Targum Neofiti transcribed from Vatican, Biblioteca Apostolica Vaticana, MS Neofiti 1, via www.sefaria.org.",
+  "note": "Sefaria records this version's licence as 'unknown', and it is the only Hebrew of Neofiti it carries. That is a metadata gap and not a rights assertion: the version is sourced from the Vatican Library's own digitisation of a manuscript copied in 1504, and the manuscript is centuries out of copyright. This edition treats the transcription as public domain on the same principle it states in every Wroot Press rights statement and applies against itself — a faithful transcription of a public-domain text creates no new copyright, and claiming one over it would be copyfraud. Note the limit of the reasoning: it covers the TEXT, not the Vatican's page images, which this edition does not reproduce. If the Vatican Library or Sefaria asserts a right in the transcription, these two witnesses come down."
  }
 }
