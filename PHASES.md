@@ -62,7 +62,7 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**STATE: PHASE 2 COMPLETE (2026-09-05). All ten cruxes built — K7, K10, K1, K8, K6, K5, K4, K9, K3, K2. 235 witnesses, 304 threads, `check.py` clean, all ten dafs rendered. Next is Phase 3 (English review, Wilson + Opus), and it has two rulings waiting for Wilson at the top: the anchor-rule question from K2/K3, and the four `claude-draft` witnesses in drift from the 'unformed matter' correction.**
+**STATE: PHASES 1–4 COMPLETE (2026-09-05). All ten cruxes built, the cross-crux pass merged, and the English approved. **235 witnesses, 321 threads, `check.py` clean, ten dafs rendered, 176 passages at `claude-draft-approved`, 0 drafts outstanding.** **Next is Phase 5 (Astro site, Sonnet).** Two things carried forward: the anchor-rule ruling from K2/K3 is still open and is Wilson's; and Wilson has pointed **bereshit.wrootpress.com** at the project (2026-09-05) although there is nothing to deploy until Phase 5 exists.**
 
 Phase 2 is finished; nothing further starts from this section. The per-crux checklist below stands as the record of how the ten were built, and Phase 6 will use it again for the second-tier sources.
 
@@ -137,15 +137,35 @@ disk except one (Chullin 83a). A crux needing several new Sefaria pulls or visio
 What actually took the time was not extraction but **deciding the roster** — the bench yielded far
 more than 25 usable witnesses and the pruning is a judgement call each time. Budget for that.
 
-## Phase 3 — English review · **Wilson**, with **Opus** as second reader
+## Phase 3 — English review · **DONE 2026-09-05**
 
-- Wilson revises every `claude-draft` passage or approves it as is; set `translator` and clear `status`.
-- An Opus pass afterward checks each approved passage against the frozen renderings above and flags drift (does not rewrite).
-- The Glossa English keeps `translator: wilson-pruitt`; Wilson sets its licence in `data/licenses.json` (`wroot-glossa`).
+Wilson approved the whole body of fresh English as it stood. `bench.py` now carries **`APPROVED`**
+alongside `DRAFT`; all 176 passages are `translator: "claude-draft-approved"` with no status, and
+`DRAFT` remains for anything drafted from here (Phase 6). The second-reader pass was run **before**
+the flip rather than after, on the reasoning that approving unread drift defeats the purpose, and it
+found six real violations of the frozen renderings — all in drafts, all fixed: *informis materia*
+rendered "unformed matter" (`angelom-gen-1-2-tohu`, `glossa-1-1`); *invisibilis et incomposita*
+rendered "invisible and unformed" instead of "unordered" (`aug-civ-11-32`, `aug-gnl-1-5-11`); and a
+creature's *conversio* to its Creator rendered "conversion" instead of "turning" (`aug-gnl-1-5-11`,
+`aug-gnl-1-3`). `bonaventure-sent-2-13-1-1` is Wilson's own English and was left untouched, as ruled.
+`glossa-1-2-terra`, named in the original drift list, turned out clean.
 
-## Phase 4 — Cross-crux pass · **Opus** · 1 session
+**Still open and still Wilson's**: the Glossa English keeps `translator: wilson-pruitt` and its
+licence key `wroot-glossa` is unset in `data/licenses.json`, as are `wroot-bonaventure` and
+`chavel-ramban`. No witness is marked `ships: true`, so `check.py` does not yet enforce them.
 
-Merge `notes/cross-crux.md`: edges between witnesses in different cruxes, witnesses that belong to more cruxes than tagged, duplicated witnesses across crux files (one witness file, many `cruxes`). Re-run `check.py` over all ten.
+⚠ **One convention question the drift check raised and did not decide**: *operator* is rendered
+"workman" at `ambrose-hex-1-3` and `ambrose-hex-1-5`, which collides with the frozen *opifex* =
+"workman" (K4). The frozen list has no entry for *operator*. Flagged, not changed.
+
+## Phase 4 — Cross-crux pass · **DONE 2026-09-05**
+
+Run as part of the same session. 16 facet edits, 17 new threads, 1 slice repair, all made in the
+`cruxes/*.py` spec files so the merge survives a rebuild; three items deliberately not merged. The
+full record is the top section of `notes/cross-crux.md`. The one structural question Phase 2 left
+open — whether the graph can carry an edge between a doctrine settled at one crux and an answer
+foreclosed at another, which K8, K4 and K9 each raised — is **escalated to Phase 8 as a Fable
+decision**, per the standing rule that a new edge type is not a builder's call.
 
 ## Phase 5 — Astro site · **Sonnet** (Opus on second failure)
 
@@ -157,7 +177,19 @@ Only after Phases 2–4: Origen/Rufinus Hom. in Gen. I (GCS Baehrens, archive.or
 
 ## Phase 7 — Deploy · **Haiku**
 
-`git` push to a new Labs repo (Wilson's OK per push), Vercel project on the Labs team, Cloudflare DNS-only record for the subdomain Wilson names (open decision §9.1), production deploy on Wilson's per-action OK.
+**Open decision §9.1 is answered: the site is `bereshit.wrootpress.com`.** Wilson added the CNAME on
+2026-09-05, ahead of the build — there is nothing to deploy until Phase 5 exists, and the repo has
+never been pushed anywhere.
+
+⚠ **The subdomain is `wrootpress.com`, not `wrootlabs.com`**, which puts the edition under the Press
+imprint rather than Labs. That is a licensing and colophon fact, not only a DNS one: Wroot Press
+publishes under CC BY-NC 4.0 on English and encoding with the source PD. **Confirm with Wilson
+before the colophon is written** whether the site takes the Press licence, and note that this entry
+previously said "Vercel project on the Labs team" — a Press subdomain served by a Labs Vercel
+project is fine technically but the two should be a deliberate choice, not a leftover.
+
+Remaining: `git` push to a new repo (Wilson's OK per push), Vercel project, Cloudflare record is
+DNS-only (already added), production deploy on Wilson's per-action OK.
 
 ## Phase 8 — Fable, once
 
