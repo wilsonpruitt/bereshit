@@ -35,7 +35,8 @@
  "wroot-glossa": {
   "label": "Wilson Pruitt's Englished Glossa ordinaria — CC BY 4.0",
   "attribution": "Glossa ordinaria, English by Wilson Pruitt, published at migne.app/glossa (Wroot Press). Licensed CC BY 4.0.",
-  "note": "Set 2026-09-05 by Wilson's ruling, as wroot-bonaventure. One witness: glossa-1-2-ruach."
+  "note": "Set 2026-09-05 by Wilson's ruling, as wroot-bonaventure. One witness: glossa-1-2-ruach.",
+  "home": "https://migne.app/glossa"
  },
  "claude-draft": {
   "label": "Fresh English draft (Claude, 2026-09-05), awaiting Wilson Pruitt's revision — CC BY on approval"
@@ -45,6 +46,7 @@
  },
  "wroot-bonaventure": {
   "label": "Wilson Pruitt's English of Bonaventure, In II Sent. — CC BY 4.0",
+  "home": "https://bonaventure.wrootpress.com",
   "attribution": "Bonaventure, Commentary on the Sentences, Book II, English by Wilson Pruitt, published at bonaventure.wrootpress.com (Wroot Press). Licensed CC BY 4.0.",
   "note": "Set 2026-09-05 by Wilson's ruling: his own Englishings carry the same licence as the edition, CC BY 4.0, with the colophon linking each back to its published home per the one-translation-one-home rule. Three witnesses: bonaventure-sent-2-12-1-2, bonaventure-sent-2-13-1-1, bonaventure-sent-2-13-1-2 — the third is fresh English of Phase 6 and is credited to the same edition."
  },

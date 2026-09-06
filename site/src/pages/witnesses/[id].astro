@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import SiteHeader from "../../components/SiteHeader.astro";
-import { getAllWitnesses, getPersons, getPlaces, getAnswers, getThreads, getCruxes, dateLabel, verseLabel } from "../../lib/data";
+import { getAllWitnesses, getPersons, getPlaces, getAnswers, getThreads, getCruxes, dateLabel, verseLabel, getLicenses } from "../../lib/data";
 import { escapeHtml } from "../../lib/render";
 
 export function getStaticPaths() {
@@ -25,6 +25,8 @@ const nameOf = (id: string) => {
   return ww ? (persons[ww.author]?.name || ww.author) : id;
 };
 
+const licenses = getLicenses();
+const home = w.english.license ? licenses[w.english.license]?.home : undefined;
 const draft = w.english.translator === "claude-draft";
 const translator = w.english.translator || "";
 const credit = draft
@@ -53,7 +55,7 @@ const credit = draft
     <div class="card">
       <h2>English</h2>
       {escapeHtml(w.english.text).split(/\n\n+/).map((p) => <p set:html={p} />)}
-      <p style="font:12px var(--sans);color:var(--mute)">{credit}{w.english.license && <> · {w.english.license}</>}</p>
+      <p style="font:12px var(--sans);color:var(--mute)">{credit}{w.english.license && <> · {w.english.license}</>}{home && <> · published at <a href={home}>{home.replace(/^https?:\/\//, "")}</a>{w.english.edition && <> ({w.english.edition})</>}. This page quotes it; that is its home.</>}</p>
     </div>
 
     <div class="card">

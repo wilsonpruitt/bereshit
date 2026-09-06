@@ -371,6 +371,7 @@ FINDING = (
     "heavens from the light of his garment, the earth from the snow beneath the Throne of Glory. Nothing "
     "on the Latin bench has that shape, and nothing could have: once matter is the thing at issue, a "
     "material that belongs to God is still a material."
+    " Two later witnesses widen the frame at both ends. Philo holds, without embarrassment, the position everyone on this daf refutes: there was a substance, of itself without order, quality or life, and God, being good, did not grudge it his own best nature — and he declines to say where the substance came from, which is exactly the clause Augustine adds at Confessions 12 to make the same description orthodox. Ambrose refutes the hyle of the philosophers by name and does not know that the book he is following most closely, the De opificio, is where the vocabulary comes from. And at the far end Paul of Burgos answers eight centuries of the question by ruling it out of order: the philosophers proceed only by opinion, as their disagreeing with each other shows and as geometers do not, so the sense of Scripture must not be made to vary with them — and he reads the whole Latin bench as having agreed with him, sancti doctores modicum curaverunt de huiusmodi opinionibus, which is a remarkable thing to say about a bench that spent eight hundred years on it."
 )
 
 # ---------------------------------------------------------------- threads (K4, Chalcidius block)

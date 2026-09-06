@@ -624,3 +624,36 @@ K6 `tohu-vabohu` — from two leaves. Full write-up in `notes/SOURCES-FINDINGS.m
   the place entry says why: the identification rests on a dedicatee traditionally but not certainly
   identified with Hosius of Cordoba, and Milan has also been argued. The coordinates exist so the
   map has a point to draw and are not evidence.
+
+### Phase 8 — done, 2026-09-06 (Fable 5.1, one session)
+
+**1. The editorial introduction** is `site/src/pages/introduction.astro`, linked from the header;
+the index keeps a two-sentence lede pointing at it. It says what the edition is, names the three
+benches, defines the five thread types (with *parallel* stated as a confession, not a claim), and
+states what the ten findings add up to as four things: the benches reach the same places by
+different roads; where contact existed it was lost, and lost in both directions; the one page where
+they are in the same room; and the modern translations settle the cruxes by removing them.
+
+**2. The findings, in one voice.** Nothing Wilson approved was removed. Six findings were touched,
+all by addition: K1's "Twice, then" now says *twice on the Latin side*, because the finding holds
+three loss-cases and the third runs the other way; K4, K5, K6 and K8 each gained a closing
+paragraph for the Phase 6 witnesses they predated (Chalcidius, Philo, Lyra, Burgos); and K7,
+which had been two approved sentences, keeps those two and has the argument written out after
+them. K2, K3, K9 and K10 stand as amended this morning.
+
+**3. Phase-2 views — ruled.** Build **one**: a **transmission map** over the whole edition,
+restricted to the 206 `cites` / `echoes` / `transmits` edges (of 456), date-ordered, all cruxes on
+one canvas. That is the edition's second finding drawn: what was handed on, and where each line
+stops. Sonnet work, ~40K, over `data/threads.json` as it stands. **Defer the other three.** The
+time scrubber is subsumed by the map's date axis; the lemma view's cost is data entry, not the view
+(`tokens` is populated on 0 of 292 witnesses); the invertible centre is what the daf's hover already
+does per note. Reopen any of them only against a named reader's need.
+
+**4. One translation, one home — ruled.** The Glossa and Bonaventure English on this site are
+**quotations of a witness's length, not a second copy**: a daf that cannot print its witness is not
+a daf. The canonical addresses stay `migne.app/glossa` and `bonaventure.wrootpress.com` (both
+verified 200 today), and the site now says so on the page — the two licence keys carry a `home`,
+and every witness under them prints *published at <home>. This page quotes it; that is its home.*
+The drift risk the rule exists for is real and is mitigated by naming the home, not removed; the
+remaining guard is a per-witness `home` URL and a fetch-and-compare check, which needs the section
+URLs on both sites and is a Sonnet follow-up, not a reason to hold the page.

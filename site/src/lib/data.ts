@@ -43,7 +43,7 @@ export interface Witness {
   anchor: { verse: string };
   lemma?: Record<string, string>;
   original: { lang: string; text: string; source?: string; license?: string; cc_idno?: string; version?: string };
-  english: { text: string; translator?: string; license?: string; status?: string; attribution_required?: boolean };
+  english: { text: string; translator?: string; license?: string; status?: string; attribution_required?: boolean; edition?: string; };
   tradents?: string[];
   cruxes: string[];
   senses?: string[];
@@ -56,7 +56,9 @@ export interface Thread { id: string; from: string; to: string; type: string; ev
 export interface Person { name: string; he?: string; dates?: string; tradition?: string; role?: string; note?: string }
 export interface Place { name: string; lat?: number; lon?: number }
 export interface Answer { label: string; gloss: string }
-export interface License { label: string; note?: string; attribution?: string }
+export interface License { label: string; note?: string; attribution?: string
+  home?: string;
+}
 
 let _witnessCache: Map<string, Witness> | null = null;
 

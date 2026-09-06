@@ -451,6 +451,7 @@ LICENSES = {
  "cc0": {"label": "CC0 1.0 (public domain dedication)"},
  "wroot-bonaventure": {
   "label": "Wilson Pruitt's English of Bonaventure, In II Sent. — CC BY 4.0",
+  "home": "https://bonaventure.wrootpress.com",
   "attribution": "Bonaventure, Commentary on the Sentences, Book II, English by Wilson Pruitt, published at bonaventure.wrootpress.com (Wroot Press). Licensed CC BY 4.0.",
   "note": "Set 2026-09-05 by Wilson's ruling: his own Englishings carry the same licence as the edition, CC BY 4.0, with the colophon linking each back to its published home per the one-translation-one-home rule. Three witnesses: bonaventure-sent-2-12-1-2, bonaventure-sent-2-13-1-1, bonaventure-sent-2-13-1-2 — the third is fresh English of Phase 6 and is credited to the same edition.",
  },

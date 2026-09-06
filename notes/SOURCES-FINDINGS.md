@@ -1887,3 +1887,26 @@ resolved, the anchor rule has been applied and once declined (Additio ix), and t
 is settled. The remaining work is Phase 7 (deploy) and Phase 8 (the Fable editorial-voice pass),
 plus optional small additions — Bonaventure II Sent. d.12 a.2 q.3 → K6 and d.13 a.2–a.3 → K8, and
 the thin tail of the Lyra leaves.
+
+---
+
+# Phase 8 — the editorial voice pass (2026-09-06, Fable)
+
+Four deliverables, all done; the rulings are recorded in `PHASES.md` under Phase 8 and are not
+repeated here. Two things worth keeping from the reading itself.
+
+**The findings were already in one voice, and the unevenness was coverage, not register.** Every
+finding was written by the same pipeline against the same frozen renderings and read by Wilson, so
+a rewrite for voice would have destroyed approved text to fix a problem that was not there. What
+was actually uneven was *date*: K4, K5, K6, K7 and K8 predate Chalcidius, Philo and Lyra, and read
+as though the daf ended in the twelfth century. The pass therefore added and did not replace — a
+closing paragraph on each, and the K7 argument written out behind its two approved sentences.
+
+**The four things the ten findings add up to** (the introduction's spine, stated here so a later
+session can check the page against it): (1) same place by different roads, with no contact —
+*in wisdom*, the read silence at Gen 1:4, the psalm at K5, the two-verse pairing at K3;
+(2) contact, where it existed, was lost, and in both directions — Chalcidius, Basil→Bede, and
+Philo lost by the rabbinic bench; (3) the one page at Gen 1:4 where the benches are audibly in the
+same room; (4) the moderns settle cruxes by translating them away — *the first day*, *When God began
+to create*. If a future crux does not sit under one of those four, the introduction needs a fifth,
+not a longer fourth.
