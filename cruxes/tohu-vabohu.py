@@ -21,7 +21,7 @@ def add(**kw): WITNESSES.append(kw)
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-2-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -104,7 +104,7 @@ add(id="ramban-1-2-tohu", work="ramban-gen", author="ramban", tradition="rabbini
     date=1267, date_precision="range-1263-1270", place="girona",
     anchor={"verse": "gen.1.2"}, lemma={"he": "תֹּהוּ … בֹּהוּ", "en": "tohu … bohu"},
     original={"lang": "he", "text": hcut(_ram_text("he"), 'וְהַחֹמֶר הַזֶּה, שֶׁקָּרְאוּ הִיּוּלִי', 'דָּבָר שֶׁיֵּשׁ בּוֹ מַמָּשׁ, דִּכְתִיב "בּוֹ הוּא"', "K6 ramban he"),
-              "source": "Ramban on Gen 1:1, s.v. בראשית (the tohu–bohu paragraph)", "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+              "source": "Ramban on Gen 1:1, s.v. בראשית (the tohu–bohu paragraph)", "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": hcut(_ram_text("en"), "This substance, which the Greeks called hyly", "‘bo hu’ (in it there is substance)", "K6 ramban en"),
              "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},
     tradents=["r-berekhya"],

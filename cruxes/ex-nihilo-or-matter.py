@@ -48,7 +48,7 @@ LICENSES = {}
 
 # ================================================================ rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-5b", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -118,7 +118,7 @@ add(id="ramban-1-1c", work="ramban-gen", author="ramban", tradition="rabbinic",
     lemma={"he": "מֵאֲפִיסָה מֻחְלֶטֶת", "en": "from absolute non-existence"},
     original={"lang": "he", "text": hcut(_ram_text("he"), "וְעַתָּה שְׁמַע פֵּרוּשׁ הַמִּקְרָא עַל פְּשׁוּטוֹ נָכוֹן וּבָרוּר",
                                          "וְהַכֹּל נַעֲשִׂים מֵהֶם.", "K4 ramban he"),
-              "source": "Ramban on Gen 1:1, s.v. בראשית (the hyle)", "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+              "source": "Ramban on Gen 1:1, s.v. בראשית (the hyle)", "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": hcut(_ram_text("en"), "Now listen to the correct and clear explanation of the verse in its simplicity.",
                           "they alone were created, and everything else was constructed from them.", "K4 ramban en"),
              "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},

@@ -37,7 +37,7 @@ def _raw(f, lang, idx=None):
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="rashi-1-1", work="rashi-gen", author="rashi", tradition="rabbinic",
     date=1090, date_precision="range-1075-1105", place="troyes",

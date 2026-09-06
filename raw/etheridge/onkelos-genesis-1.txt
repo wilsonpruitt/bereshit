@@ -1,0 +1,49 @@
+Source: J. W. Etheridge, "The Targums of Onkelos and Jonathan ben Uzziel on the Pentateuch,
+with the Fragments of the Jerusalem Targum" vol. 1 (Genesis and Exodus), London: Longmans,
+Green, 1862 — public domain.
+archive.org item: targumsonkelosa00ethegoog (OCR text, targumsonkelosa00ethegoog_djvu.txt).
+Fetched 2026-09-05 for Phase 6, because Sefaria's Etheridge Onkelos has no text for Genesis 1
+(it returns 0 versions for Genesis.1 and Genesis.49 but 20 segments for Genesis.12 — the version
+is on Sefaria's index but sparsely populated, so the plan's "fetch by alternate route" was right
+for a reason the plan did not state). OCR is uncorrected below; anything quoted into a witness
+is retyped against the page and marked as such.
+
+OR 
+
+
+GENESIS. 
+
+
+SECTION I. 
+BERESHITH BARA ELOHIM. 
+
+
+I. In the first times® the Lord created the heavens 
+and the earth. And the earth was waste and empty, 
+and darkness was upon‘ the face of the abyss; and a 
+wind from before the Lord blew upon the face of the 
+waters. And the Lord said, Let there be light; and 
+there was light. And the Lord saw the light that it was 
+good. And the Lord distinguished between the light 
+and between the darkness. And the Lord called the 
+light the Day, and the darkness He called the Night. 
+And there was evening, and there was morning, Day 
+the First. 
+
+And the Lord said, Let there be an expanse in the 
+midst of the waters, and let it distinguish between 
+waters and waters. And the Lord made the expanse, 
+and distingnished between the waters which were under 
+
+
+3 Be-kadmin, “in antiquities.” This expression, when used, as here, 
+in the plural, is sometimes put for “eternity.” Compare Onkelos on 
+Dent. xxxii. 27, Eloha de-milkadmin, “ the Eternal God,” or, “ God 
+who is from eternity,” with Jonathan on Micah v. 2, “ Messiah,...... 
+whose name is called (milkadmin) from eternity.” 
+
+“ Some copies, “ Darkness was outspread upon the face,” &c. 
+
+
+36 TARGUM OF ONKELOS [onar. 
+

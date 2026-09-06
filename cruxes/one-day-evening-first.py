@@ -34,6 +34,15 @@ add(id="vulgate-1-5", work="vulgate", author="jerome", tradition="latin",
     answers=["unus-cardinal"],
     notes="Jerome keeps the cardinal against the Latin ear: dies unus, then dies secundus, tertius. Every Latin argument in this crux — Ambrose's, Bruno's, Rupert's — exists because he did not write dies primus. PL 28 prints the text with 'Factumque est vespere et mane, dies unus'.")
 
+add(id="targ-onk-1-5", work="targ-onk", author="onkelos", tradition="rabbinic",
+    date=200, date_precision="range-100-300", place="palestine",
+    anchor={"verse": "gen.1.5"}, lemma={"arc": "יוֹמָא חָד", "en": "one day"},
+    original={"lang": "arc", "text": sef("targ-onk", "he", 4)[0], "source": "Sefaria, 'Onkelos Genesis'", "license": "pd"},
+    english={"text": "And the LORD called the light Day, and the darkness he called Night. And there was evening and there was morning, one day.", **APPROVED},
+    cruxes=["one-day-evening-first"], senses=["translation"],
+    answers=["unus-cardinal"],
+    notes="Added at Phase 6. Onkelos was cited twice on this daf — by the Pseudo-Jonathan note and by the answer gloss — and was not on it: the plain targum renders the cardinal exactly, yoma chad, and then yom tinyan for the second day, so the Aramaic preserves the unevenness as the Greek and the Vulgate do — and preserves a second unevenness of its own that no other version has, since yoma chad is determined and yom tinyan is not. It interprets nothing here at all, which is the point: of the three targums only Neofiti ever adds a doctrine, and it does not add one to this verse either. Etheridge's 1862 English, fetched from archive.org for this phase, prints 'Day the First' and then 'the Second Day' — see the Pseudo-Jonathan note; the cardinal is restored here in a fresh draft for the same reason.")
+
 add(id="targ-psj-1-5", work="targ-psj", author="targum-pseudo-jonathan", tradition="rabbinic",
     date=750, date_precision="range-600-800", place="palestine",
     anchor={"verse": "gen.1.5"}, lemma={"arc": "יוֹמָא חָד", "en": "one day"},
@@ -41,7 +50,7 @@ add(id="targ-psj-1-5", work="targ-psj", author="targum-pseudo-jonathan", traditi
     english={"text": "And the LORD called the light Day, and made it that the inhabitants of the world might labour in it; and the darkness he called Night, and made it that in it the creatures might have rest. And it was evening, and it was morning, one day.", **APPROVED},
     cruxes=["one-day-evening-first"], senses=["translation", "literal"],
     answers=["unus-cardinal", "night-for-rest"],
-    notes="Two things at once. The targum keeps the cardinal, yoma chad, as Onkelos does. And it supplies a reason for the pair that no Hebrew word demands: day is for labour, night for rest. Etheridge's 1862 English prints 'the First Day' — a translator taking the side of the ordinal, exactly as the WEB does — so the cardinal is restored here in a fresh draft.")
+    notes="Two things at once. The targum keeps the cardinal, yoma chad, as Onkelos does. And it supplies a reason for the pair that no Hebrew word demands: day is for labour, night for rest. Etheridge's 1862 English prints 'the First Day' — a translator taking the side of the ordinal, exactly as the WEB does — so the cardinal is restored here in a fresh draft. **Corrected at Phase 6**: this was written as though the ordinal were Etheridge's response to the expansive targum. It is not. His Onkelos, fetched from archive.org because Sefaria's Etheridge has no Genesis 1, prints 'Day the First' for the same Aramaic yoma chad, and 'the Second Day' after it — so the ordinal is a habit of the translator applied evenly, not a judgement about this text.")
 
 # ---------------------------------------------------------------- rabbinic bench
 br8_he, _, _ = sef("br-3", "he", 7, he_file="br-3-he.json")
@@ -56,7 +65,7 @@ add(id="br-3-8", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.5"}, lemma={"he": "יוֹם אֶחָד", "en": "one day"},
     original={"lang": "he", "text": cut8_he, "source": "Bereshit Rabbah 3:8 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
-    english={"text": cut8_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True},
+    english={"text": cut8_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["r-yannai", "r-tanchum-b-yirmeya", "r-yudan", "r-yochanan", "r-hanina", "r-lulyana"],
     cruxes=["one-day-evening-first"], senses=["allegorical", "literal"],
     answers=["evening-moral", "unus-yom-kippur", "unus-alone"],
@@ -68,7 +77,7 @@ add(id="br-3-9", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.5"}, lemma={"he": "אֶחָד, שֵׁנִי, שְׁלִישִׁי", "en": "one, second, third"},
     original={"lang": "he", "text": br9_he, "source": "Bereshit Rabbah 3:9 (Vilna numbering)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown)"},
-    english={"text": br9_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True},
+    english={"text": br9_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["r-shmuel-b-ami"],
     cruxes=["one-day-evening-first"], senses=["literal"],
     answers=["unus-grammatical"],
@@ -313,6 +322,8 @@ THREADS = [
  # the versions
  E("t-k10-01", "vulgate-1-5", "lxx-1-5", "transmits", "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew."),
  E("t-k10-02", "targ-psj-1-5", "lxx-1-5", "parallel", "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same."),
+ E("t-k10-35", "targ-psj-1-5", "targ-onk-1-5", "echoes", "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help."),
+ E("t-k10-36", "targ-onk-1-5", "lxx-1-5", "parallel", "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own."),
  # the rabbinic bench
  E("t-k10-03", "rashi-1-5", "br-3-8", "cites", "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day."),
  E("t-k10-04", "br-3-9", "br-3-8", "parallel", "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty."),

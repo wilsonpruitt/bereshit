@@ -38,7 +38,7 @@ def _raw(f, lang, idx=None):
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-7", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -77,7 +77,7 @@ add(id="ramban-1-1-elohim", work="ramban-gen", author="ramban", tradition="rabbi
     date=1267, date_precision="range-1263-1270", place="girona",
     anchor={"verse": "gen.1.1"}, lemma={"he": "אֱלֹהִים בַּעַל הַכֹּחוֹת כֻּלָּם", "en": "Elohim, the Master of all the forces"},
     original={"lang": "he", "text": hcut(_ram, "וְאָמַר אֱלֹהִים בַּעַל הַכֹּחוֹת", "וְעוֹד יִתְבָּאֵר סוֹד בָּזֶה.", "K3 ramban he"),
-              "source": "Ramban on Gen 1:1, s.v. אלהים", "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+              "source": "Ramban on Gen 1:1, s.v. אלהים", "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": hcut(_raw("ramban-gen-1.json", "en", 0)[0], "AND ‘ELOKIM’ (G-D) SAID. The word Elokim means",
                           "A secret will yet be disclosed in connection with this.", "K3 ramban en"),
              "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},

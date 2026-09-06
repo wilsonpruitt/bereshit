@@ -65,7 +65,7 @@ add(id="br-2-4", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.2"}, lemma={"he": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת", "en": "and the spirit of God was hovering"},
     original={"lang": "he", "text": br_he[cut_he:], "source": "Bereshit Rabbah 2:4 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
-    english={"text": br_en[cut_en:], "translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True},
+    english={"text": br_en[cut_en:], "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["resh-lakish", "r-hagai", "r-pedat", "ben-zoma", "r-yehoshua-b-hananya"],
     cruxes=["ruach-hovering", "tohu-vabohu"], senses=["allegorical", "literal"],
     notes="Two answers in one section. Resh Lakish: the ruach is the spirit of the King Messiah (Isa 11:2), brought by repentance-as-water. Then the Ben Zoma story: 'blowing' is not written but 'hovering' — like a bird beating its wings, touching and not touching. Note the bird is an unspecified 'of' and the claim is touching-and-not-touching; the Bavli's version has a dove and no touching at all.")

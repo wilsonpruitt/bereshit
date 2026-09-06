@@ -1,0 +1,37 @@
+{
+ "id": "targ-onk-1-5",
+ "work": "targ-onk",
+ "author": "onkelos",
+ "tradition": "rabbinic",
+ "date": 200,
+ "date_precision": "range-100-300",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "arc": "יוֹמָא חָד",
+  "en": "one day"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חָד",
+  "source": "Sefaria, 'Onkelos Genesis'",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And the LORD called the light Day, and the darkness he called Night. And there was evening and there was morning, one day.",
+  "translator": "claude-draft-approved",
+  "license": "cc-by"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "unus-cardinal"
+ ],
+ "notes": "Added at Phase 6. Onkelos was cited twice on this daf — by the Pseudo-Jonathan note and by the answer gloss — and was not on it: the plain targum renders the cardinal exactly, yoma chad, and then yom tinyan for the second day, so the Aramaic preserves the unevenness as the Greek and the Vulgate do — and preserves a second unevenness of its own that no other version has, since yoma chad is determined and yom tinyan is not. It interprets nothing here at all, which is the point: of the three targums only Neofiti ever adds a doctrine, and it does not add one to this verse either. Etheridge's 1862 English, fetched from archive.org for this phase, prints 'Day the First' and then 'the Second Day' — see the Pseudo-Jonathan note; the cardinal is restored here in a fresh draft for the same reason."
+}

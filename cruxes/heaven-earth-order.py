@@ -21,7 +21,7 @@ def add(**kw): WITNESSES.append(kw)
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-14", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -110,7 +110,7 @@ add(id="ramban-1-1b", work="ramban-gen", author="ramban", tradition="rabbinic",
     anchor={"verse": "gen.1.1"}, lemma={"he": "וְהָאָרֶץ תִּכְלֹל אַרְבַּע הַיְּסוֹדוֹת", "en": "'the earth' includes all four elements"},
     original={"lang": "he", "text": hcut(_ram_text("he"), '"וְהָאָרֶץ" תִּכְלֹל אַרְבַּע הַיְּסוֹדוֹת',
                                         "וְאֵלּוּ כְּלַל כָּל הַנִּבְרָאִים בַּעַל הַגּוּף.", "K5 ramban he"),
-              "source": "Ramban on Gen 1:1, s.v. בראשית (the four elements and the particle et)", "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+              "source": "Ramban on Gen 1:1, s.v. בראשית (the four elements and the particle et)", "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": hcut(_ram_text("en"), "And the earth, includes all the four elements",
                           "These include all created things which are corporeal.", "K5 ramban en"),
              "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},

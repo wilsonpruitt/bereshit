@@ -67,7 +67,7 @@ add(id="targ-psj-1-4", work="targ-psj", author="targum-pseudo-jonathan", traditi
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-2-5", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -126,7 +126,7 @@ add(id="ramban-1-2-choshech", work="ramban-gen", author="ramban", tradition="rab
     anchor={"verse": "gen.1.2"}, lemma={"he": "וְהָאֵשׁ נִקְרֵאת חֹשֶׁךְ", "en": "and the fire is called 'darkness'"},
     original={"lang": "he", "text": hcut(_ram, "וְהָאֵשׁ נִקְרֵאת", "וּתְרַחֵף עַל הַמַּיִם.", "K9 ramban he"),
               "source": "Ramban on Gen 1:1–2, s.v. בראשית (the four elements under the words of v. 2)",
-              "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+              "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": hcut(_raw("ramban-gen-1.json", "en", 0)[0], "In this verse, the element of fire is called “darkness”",
                           "and hovered over the waters.", "K9 ramban en"),
              "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},

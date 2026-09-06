@@ -1,5 +1,445 @@
 [
  {
+  "id": "t-k3-01",
+  "from": "abelard-hex-1-1-eloim",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "The star thread of the site. Both ask why the plural noun Elohim takes a singular verb, in the same words. R. Yitzḥak: 'bereshit bare'u Elohim is not written here, but bara Elohim' — and therefore no creature can say that two authorities created the world. Abelard: 'unde autem dictum est Eloim creavit, non creaverunt? ut videlicet ad plurale nomen singulare verbum referretur; quatenus insinuaretur in tribus illis personis non tres creatores, sed unum tantum debere intelligi.' One grammatical fact, seven hundred years apart, no contact, and the same conclusion drawn about the verb — one creator — from opposite conclusions about the noun.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-02",
+  "from": "ibn-ezra-1-1-elohim",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "contests",
+  "evidence": "The same question and the opposite answer, twenty years apart and with no possible contact. Abelard: Eloim is plural, showing a plurality of divine persons, each of which is God, and the singular verb shows they are one creator. Ibn Ezra: Elohim is the plural of eloah, and the plural is how the Holy Tongue speaks of the great — as adonim and be'alim are plural for one master, and as a king in Arabic speaks of himself in the plural — 'and for this reason Scripture says bara and not bare'u.' Each has the whole of the other's evidence and takes the plural to mean the opposite thing.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-03",
+  "from": "ibn-ezra-1-1-elohim",
+  "to": "br-1-7",
+  "type": "echoes",
+  "evidence": "Ibn Ezra's closing clause is Bereshit Rabbah's argument reduced to a grammarian's note: 'for this reason Scripture says bara and not bare'u.' What the midrash offers as a refutation of two authorities, he offers as the expected concord of an honorific plural — the same reading with the polemic taken out and a comparative philology of Arabic, Hebrew and the vernaculars put in.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-04",
+  "from": "ramban-1-1-elohim",
+  "to": "ibn-ezra-1-1-elohim",
+  "type": "contests",
+  "evidence": "Ramban has Ibn Ezra open in front of him throughout the comment on this verse and takes the plural the other way: not an honorific but a compound, el hem, the force and 'they' — all the other forces — so that Elohim is the force of all forces. He does not deny the grammar; he refuses to let the plural be empty. 'A secret will yet be disclosed in connection with this' says that the real answer is one he will not print.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-05",
+  "from": "ramban-1-1-elohim",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "parallel",
+  "evidence": "The two witnesses on this daf who make the plurality of the noun a plurality in God, and they could not be further apart on what it is. Abelard: a diversity of persons, of which each one is God, and the doctrine is preachable and technical — opera Trinitatis indivisa. Ramban: the master of all the forces, and a secret that will be disclosed elsewhere. A century apart, in Paris and in Girona, with nothing between them but the same three consonants.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-06",
+  "from": "b-meg-9a",
+  "to": "br-1-7",
+  "type": "echoes",
+  "evidence": "The same anxiety twice, once as exegesis and once as translation history. R. Yitzḥak proves from the singular verbs that no one can say two authorities created the world; the elders before Ptolemy move the divine name to the front of the sentence — 'God created in the beginning' — so that bereshit cannot be read as the subject of bara, that is, as a power that made God. Both are defending the first verse against a reading that finds more than one maker in it.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-07",
+  "from": "b-meg-9a",
+  "to": "br-1-12",
+  "type": "contests",
+  "evidence": "The elders reverse the word order that R. Yudan and Ben Azzai explain and praise. For the Bavli's baraita the sequence bereshit bara … Elohim is a danger to be removed for a Greek reader; for Bereshit Rabbah it is the Holy One's modesty — a mortal king proclaims his name and produces his works afterwards, but God acted first and was named after. The same three words are a liability in Alexandria and a virtue in Caesarea.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-08",
+  "from": "b-meg-9a",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "parallel",
+  "evidence": "The baraita reports the elders removing from the Greek exactly the two features the Latin bench builds on, and neither removal reached the Church. The first item on their list is the word order of Gen 1:1; the second is the plural of Gen 1:26 turned singular. The Septuagint as transmitted has neither change. Abelard's argument needs the plural noun standing next to a singular verb in the first verse, which is what the elders are said to have rearranged, and Bruno's needs the 'let us make' of Gen 1:26, which is what they are said to have made singular.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-09",
+  "from": "bruno-gen-1-1c",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Both refuse a plurality of creators in the same words and against different opponents. R. Yitzḥak: no creature can say that two authorities created the world. Bruno: was he speaking to the angels? God forbid — for otherwise there would be not one creator but many, whereas God alone is the creator of all. The premise is shared exactly; what Bruno does next with it, and the midrash cannot, is find the second and third persons in the same verses.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-10",
+  "from": "bruno-gen-1-1c",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "'Habes ergo Deum, id est Patrem; habes et principium, id est Filium … Habes igitur et Spiritum sanctum' is Augustine's three-term reading turned into a schoolroom enumeration, with the same John 8:25 for the Son and the same Spirit of v. 2 for the third. What Augustine reached at the end of a search and called a riddle, Bruno hands over in three sentences as something the reader can check.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-11",
+  "from": "aug-conf-13-5",
+  "to": "aug-gnl-1-5-11",
+  "type": "echoes",
+  "evidence": "The same triad in the same order in two works: the Father in the name of God, the Son in the name of the Beginning, the Spirit borne over the waters, which De Genesi ad litteram calls the completa commemoratio Trinitatis. What the Confessions add is the sequence of the search — he held two, he already believed the third, and he went looking for it in the text.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-12",
+  "from": "aug-gnl-imp-1-2",
+  "to": "aug-conf-13-5",
+  "type": "contests",
+  "evidence": "Augustine on both sides of the question this crux really turns on. In the unfinished commentary the catholic faith is set out before the exposition begins, expressly because heretics drag Scripture to their own opinion, so that the Trinity is the rule the chapter will be read under. In the Confessions the Trinity 'appears to me in a riddle' out of the first words. The two are not incompatible and he never reconciles them, and every later Latin witness on this daf writes as though only the second were true.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-13",
+  "from": "basil-hex-2-6b",
+  "to": "ambrose-hex-1-8-29",
+  "type": "transmits",
+  "evidence": "Ambrose is reading Basil at Milan and makes the same choice between the same two readings: either the spirit of v. 2 is the air, or it is the Holy Spirit — 'but we, agreeing with the judgement of the saints and the faithful, take it as the Holy Spirit, so that the working of the Trinity may shine out in the constitution of the world.' Basil's reason is that Scripture reserved the name; Ambrose's is that the third person is needed to complete the triad the first verse began.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-14",
+  "from": "basil-hex-2-6b",
+  "to": "bede-gen-1-2",
+  "type": "parallel",
+  "evidence": "Expletor and the same argument from the shape of the sentence, three centuries and a language apart: Basil, that no other spirit is meant but the Holy, who is the completer of the venerable Trinity; Bede, that having first declared that in the beginning, that is in the Son, the Father made heaven and earth, Scripture brought in mention of the Holy Spirit too, so as to signify the power of the whole Trinity together in the creation of the world.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-15",
+  "from": "aug-conf-13-5",
+  "to": "bede-gen-1-2",
+  "type": "cites",
+  "evidence": "Bede's sentence is Augustine's triad with the two halves welded: 'in principio, id est in Filio, Pater fecit coelum et terram' and then the Spirit added 'ut totius simul Trinitatis in creatione mundi virtutem significaret'. The riddle has become a demonstration, and the word aenigma is gone.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-16",
+  "from": "wigbod-gen-1-1d",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "'In principio sibi coaeterno fecit Deus coelum et terram, in unigenito Filio qui est sapientia Patris' is Augustine's 'in Principio sapientiae nostrae quod est tua Sapientia de te nata, aequalis tibi et coaeterna, id est in Filio tuo' with the possessives dropped and 1 Cor 1:24 put in for the identification. The Carolingian dialogue asked a question about time and was answered with a person.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-17",
+  "from": "remigius-gen-1-1c",
+  "to": "wigbod-gen-1-1d",
+  "type": "echoes",
+  "evidence": "The same identification with the same proof text, and Remigius adds the guard the dialogue does not have: God the Father too is a beginning, but not from a beginning, since he is begotten of none. Once 'in the beginning' names the Son because the Son is a principium, the word will fit the Father as well, and only Remigius notices.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-18",
+  "from": "remigius-gen-1-1c",
+  "to": "br-1-12",
+  "type": "parallel",
+  "evidence": "Both benches ask what may properly be predicated of the creator and answer it out of the first verse's word order. R. Yudan in the name of Akilas: to this one it is fitting to call God — because he acted first and was named afterwards, unlike a king acclaimed before he has built anything. Remigius: the Father is a beginning, but not from a beginning. The rabbinic argument is about the order of the words in the sentence and the Latin about the order of the persons in God, and both are reading the same three words.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-19",
+  "from": "rupert-gen-1-3-trinitas",
+  "to": "aug-gnl-1-5-11",
+  "type": "contests",
+  "evidence": "Rupert builds his whole Hexaemeron on the reading Augustine considered and refused. Augustine asks whether the Trinity is to be understood in 'God said, let it be — and God made — and God saw that it was good', and answers that it does not befit the unity of the Trinity for the Son to be understood as making under orders and the Spirit as freely approving. Rupert takes the threefold formula as the Trinity's signature everywhere in the six days, and escapes the objection by making the three words a testimony rather than three offices.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-20",
+  "from": "rupert-gen-1-3-trinitas",
+  "to": "rupert-gen-1-8",
+  "type": "echoes",
+  "evidence": "One design stated twice. At Gen 1:2 the Spirit's brooding is what betters the creature as a bird's warmth betters an egg; here the threefold formula of every day's work is the trace of the creating Trinity, tied to the law of three witnesses. Both are claims about how the chapter was written, not about what happened in it.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-21",
+  "from": "honorius-hex-1",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "Honorius states the triad and then does something Augustine does not: he distributes the works. 'Note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposition of things, to the Holy Spirit the quickening or adorning of all.' That is the appropriation doctrine of the twelfth-century schools laid over the first two verses, and it is the distribution of labour Augustine had warned against.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-22",
+  "from": "glossa-1-2-ruach",
+  "to": "aug-gnl-1-5-11",
+  "type": "cites",
+  "evidence": "The standard gloss on the Spirit clause is Augustine's De Genesi ad litteram I.5 printed under his name, so that what the twelfth-century schoolroom reads on Gen 1:2 is the third term of Augustine's triad in Augustine's own words — the Spirit borne over the waters not by place but as the will of a craftsman is over what he makes, a love that comes not from need but from bounty.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-23",
+  "from": "abelard-hex-1-1-eloim",
+  "to": "aug-gnl-1-5-11",
+  "type": "cites",
+  "evidence": "Abelard names Augustine for the procession — 'the person of the Holy Spirit and of the Father, from whom that Spirit principally proceeds, as blessed Augustine records' — and gets the first half of his Trinity the Augustinian way, out of the sequence of the verses: the Spirit from 'the Spirit of the Lord', the Word from 'God said'. Only then does he turn to the Hebrew noun, which Augustine did not have and could not have used.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-24",
+  "from": "bruno-gen-1-1c",
+  "to": "remigius-gen-1-1c",
+  "type": "echoes",
+  "evidence": "The same identification of the Son with the principium of Gen 1:1 from the same verse of John — 'ego principium qui et loquor vobis' — in Auxerre about 890 and at Segni about 1090. It is the most stable single move on the Latin bench and it is what makes the three-term reading possible at all: without a person in the second word there is no triad to complete.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-25",
+  "from": "aug-gnl-imp-1-2",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Both texts open their treatment of Genesis by fencing it against a dualism, and both do it before expounding a word. Augustine sets out the catholic faith first, because many heretics drag the Scriptures to their own opinion, and ends by ruling that nothing in the creature belongs to the Trinity except that the Trinity made it. R. Yitzḥak rules that no creature can say that two authorities created the world. The heresies are not the same and the manoeuvre is identical: the first verse is made to exclude a second maker before it is made to say anything else.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x1",
+  "from": "comestor-hs-1-1",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "Phase 4. 'Creatus autem est in principio, id est in Filio' is Augustine's second term reduced to an apposition and taught as settled — the riddle of Confessions XIII.5 become a gloss a reader passes over. Written at Phase 4 because `comestor-hs-1-1` was built for K1 and its opening clause belongs to this crux.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x2",
+  "from": "b-meg-9a",
+  "to": "lxx-1-1",
+  "type": "contests",
+  "evidence": "Phase 4. The baraita says the seventy-two elders wrote 'God created in the beginning' for Ptolemy, moving the divine name to the front so that bereshit could not be read as a subject. The Septuagint as transmitted has not moved it: en archē epoiēsen ho theos keeps the Hebrew order. The change the rabbinic bench remembers making is not in the Greek the Church inherited, and the Latin reading of the verse stands in the space it would have closed.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x3",
+  "from": "targ-onk-1-1",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Phase 4. The targum removes the difficulty the midrash has to argue about. Where the Hebrew has the plural-looking Elohim with a singular verb, Onkelos writes YY — the Tetragrammaton, which is not plural in form — so that no reader of the Aramaic could raise the question of two authorities at all. R. Yitzḥak has to answer it three times from the verbs.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k4-01",
+  "from": "br-1-9",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "The philosopher: 'Your God was a great artist, but he found good materials that helped him.' Augustine: 'those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen cannot make anything unless they have something to make it from … wood helps the craftsman, silver the silversmith.' The same inference from the same analogy, and the verb is the same in both — the materials help. Thagaste 389, Galilee c. 450, no contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-02",
+  "from": "br-1-9",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Basil diagnoses the position the philosopher states: 'with us each art is exercised upon some matter brought to it — smithcraft upon iron, carpentry upon wood … so they suppose it is with the divine working too.' Two trades where the midrash has none and Augustine has four, and the same conclusion drawn about God's poverty.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-03",
+  "from": "aug-gnm-1-6-10",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Both answer the craftsman analogy by denying that God receives anything from outside: Basil, 'God is not the deviser of figures but the creator of the whole nature'; Augustine, 'if some thing that he had not himself made helped him, he was not almighty'. Augustine did not read Eustathius' Latin Basil in 389, and the arguments differ in kind — Basil's from the dignity of the unbegotten, Augustine's from omnipotence.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-04",
+  "from": "wigbod-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "transmits",
+  "evidence": "Verbatim to the last clause, including the four trades and 'quod sacrilegum est credere'; Wigbod reads 'de nihilo facta est' where Augustine has 'de omnino nihilo'. Wigbod does not name Augustine here, though he names Jerome elsewhere in the same work.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-05",
+  "from": "angelom-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem … non enim faber facit lignum, sed de ligno aliquid facit' — Augustine's clauses reused without his name and recast as reported speech, with the potter dropped and a diagnosis added ('quia attendunt fabrum, et non Deum').",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-06",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "Ambrose: 'tria principia constituerent omnium, Deum, et exemplar, et materiam … de materia, quam vocant hylen'. Hugh: 'Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam.' The same three-item list with the same qualification (without a principle / uncreated and without beginning), abbreviated to single words and unattributed.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-07",
+  "from": "comestor-hs-1-1c",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "'Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile' is Ambrose's 'Deum, et exemplar, et materiam … quam vocant hylen' with exemplar resolved into ideae, and Aristotle's two principles, materia et forma, follow in the same order. Epicurus is Comestor's addition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-08",
+  "from": "basil-hex-2-2-materia",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "parallel",
+  "evidence": "The same position described from the two sides of the Latin/Greek divide within about fifteen years: Ambrose names it (Plato's three principles, hyle uncreated) and Basil argues against it without naming anyone ('if we call this matter unbegotten it is made equal to God'). Ambrose knew Basil's Greek Hexaemeron; this Latin Basil is Eustathius' later version, so the Latin words are not a source for Ambrose's.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-09",
+  "from": "ibn-ezra-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "The same objection from the same two verses, in the same order, answered in opposite directions. Rupert: 'if anyone should object that man too … is said to be created — as it is written, God created man to his own image … or again, God created the great sea-creatures'. Ibn Ezra: 'they have forgotten And God created the crocodiles (Gen 1:21), as well as three times in the same verse, God created man in his image (Gen 1:27)'. Rupert saves the doctrine with a distinction about the matter; Ibn Ezra concludes the verb has a second sense. Liège c. 1115, Lucca c. 1155, no possible contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-10",
+  "from": "ibn-ezra-1-1c",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "Abelard secures ex nihilo on the difference between two Latin verbs — creavit of the elements, formavit of man at Gen 2:7 and the animals at 2:19 — where Ibn Ezra dissolves it by showing that the one Hebrew verb bara stands at 1:21 and 1:27 of things made out of something. The Latin distinction is available only because the translation supplies two words where the Hebrew has one at the decisive places.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-11",
+  "from": "abelard-hex-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "Two Latin answers to one difficulty within about fifteen years: Rupert grants that creavit is used of things shaped from matter and refers the word back to the creation of the matter; Abelard denies that it is properly so used at all and assigns those cases to formare. Neither cites the other, and the two answers are incompatible.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-12",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "The same definition by contrast, in Paris within four years: Abelard, 'creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam'; Hugh, 'quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est'. Neither names the other, and the school relations between them make silence the interesting fact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-13",
+  "from": "glossa-1-2-materia",
+  "to": "bede-gen-1-2-materia",
+  "type": "transmits",
+  "evidence": "Migne prints the gloss under (BEDA ubi supra.). Bede: 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.' Glossa: 'Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.' The restriction that opened Bede's paragraph — 'Ad haec tantum informis est illa materies' — is not carried over.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-14",
+  "from": "bede-gen-1-2-materia",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Both hang the difficulty on Wisdom 11:17, 'qui fecisti mundum de materia informi', and take opposite routes out of it: Augustine grants the formless matter and pushes creation one step behind it; Bede restricts the phrase to the earth and the waters before the light came, so that no substrate is conceded at all.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-15",
+  "from": "angelom-gen-1-1c",
+  "to": "bede-gen-1-2-materia",
+  "type": "parallel",
+  "evidence": "Wisdom 11:17 again, quoted in full by Angelomus in the form 'non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia', and used to the opposite end: for Angelomus the verse proves that God made the matter and then made everything out of it, for Bede that 'formless matter' is only a name for the earth and waters in the dark.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-16",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnl-5-18",
+  "type": "echoes",
+  "evidence": "Alcuin's second mode of divine working — 'in materia informi qui vivit in aeternum, creavit omnia simul (Eccli. XVIII, 1)' — is Augustine's simul doctrine with Augustine's proof text, reduced to one clause and set in a list of four.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-17",
+  "from": "br-1-5b",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Four sections apart in one compilation, and the second answers the first. BR 1:5: 'were the matter not written explicitly it would not be possible to say it — In the beginning God created — from what? The earth was emptiness and disorder.' BR 1:9: the philosopher names emptiness, disorder, darkness, wind, water and the deeps as the materials God found, and Rabban Gamliel answers that of every one of them creation is written. The same list of six, read once as the stuff the world was made of and once as a list of created things.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-18",
+  "from": "pdre-3-7",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Pirkei de-Rabbi Eliezer answers 'from what?' with substances — the earth from the snow beneath the Throne of Glory, congealed on the waters, with Job 37:6 for proof; the heavens, in the preceding section, from the light of his garment. Rabban Gamliel's answer to the same question is that nothing was found and everything was created. Neither text acknowledges the other, and both stand in the rabbinic bench's own tradition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-19",
+  "from": "ramban-1-1c",
+  "to": "ibn-ezra-1-1c",
+  "type": "contests",
+  "evidence": "Ramban names R. Abraham a few lines above this passage and then writes 'there is no expression in the sacred tongue for bringing forth something from nothing other than the word bara' — which is the exact claim Ibn Ezra had refuted from Gen 1:21, Gen 1:27 and Isaiah 45:7. The contest is direct and is the reason the sentence is phrased as an exclusive.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-20",
+  "from": "ramban-1-1c",
+  "to": "hugh-sacr-1-1-nihilo",
+  "type": "parallel",
+  "evidence": "Hugh: 'omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.' Ramban: 'the Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.' The same two-stage doctrine — one creation out of nothing, everything afterwards made out of what was created — with the Greek word for the matter on the Hebrew side and not on the Latin.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-21",
+  "from": "ramban-1-1c",
+  "to": "br-1-5b",
+  "type": "cites",
+  "evidence": "Ramban's tohu is bar Kappara's difficulty resolved: BR 1:5 asks 'from what?' and answers 'the earth was tohu va-vohu', with an apology; Ramban makes tohu the name in the sacred tongue for the hyle, so that the verse now says the world was made out of the one thing that was created out of nothing. He quotes the rabbinic material of this section (and Sefer Yetzirah, 'he created substance from tohu') by name in the lines that follow.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-22",
+  "from": "aug-conf-12-22",
+  "to": "br-1-9",
+  "type": "parallel",
+  "evidence": "One difficulty, two opposite methods. Augustine argues that Genesis' silence about when a thing was made cannot prove it coeternal, and makes the case with a second silence (the waters above the firmament). Rabban Gamliel meets the same objection by breaking the silence item by item: Isaiah 45:7 for tohu and darkness, Psalm 148:4–5 for the waters, Amos 4:13 for the wind, Proverbs 8:24 for the deeps.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-23",
+  "from": "aug-conf-12-22",
+  "to": "aug-conf-12-7",
+  "type": "echoes",
+  "evidence": "The same conclusion reached twice in one book by different routes — at XII.7 from the exhaustive dilemma (not out of God, and nothing else was there, therefore out of nothing), at XII.22 from the failure of the argument from Scripture's silence. The second is the defensive form of the first.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-24",
+  "from": "aug-conf-12-7",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'De nihilo fecisti coelum et terram' restates in prayer what De Genesi contra Manichaeos argued nine years earlier, with the same two-stage structure — formed things out of the matter, the matter out of nothing — now expressed as 'unum prope te, alterum prope nihil'.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-25",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Augustine's doctrine turned into an inventory: 'Quae creaturae de nihilo factae sunt? — Coelum, terra, angeli, lux, aer, aqua et anima hominis.' The list form has no Latin precedent on this crux and exact rabbinic counterparts (b. Chagigah 12a's ten things, PdRE 3's eight), and Alcuin's items are chosen so that no unformed substrate appears on it.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-x1",
+  "from": "ramban-1-2-tohu",
+  "to": "ramban-1-1c",
+  "type": "echoes",
+  "evidence": "Phase 4. One continuous argument that the crux boundaries split in two: having said that the Holy One created all things from absolute non-existence and that after the hyle he created nothing, Ramban goes straight on to name it — the substance the Greeks called hyly is what the sacred tongue calls tohu. The hyle and the tohu are the same thing, and the two witnesses are consecutive sentences.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-x2",
+  "from": "abelard-hex-1-1c",
+  "to": "vulgate-1-1",
+  "type": "cites",
+  "evidence": "Phase 4. Abelard's whole definition of creation rests on a distinction between two Latin verbs — created of what has no pre-existing matter, formed of what is shaped out of matter — and the distinction is available only because the translation supplies two verbs where the Hebrew has one at the places that matter. Ibn Ezra brings the same two verses (Gen 1:21, 1:27) to the opposite conclusion, that bara does not mean bringing forth from nothing, because in Hebrew there is no second verb to escape into.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
   "id": "t-k8-01",
   "from": "pdre-3-6",
   "to": "br-3-4",
@@ -278,654 +718,6 @@
   "type": "parallel",
   "evidence": "The schools' settled answer in its two registers, as at K10: Comestor prints the luminous cloud in a handbook without noticing that anyone ever thought otherwise, and Bonaventure raises the question in a disputation in order to rule the same way. The corporeal light wins by handbook and by quaestio at once.",
   "crux": "first-light"
- },
- {
-  "id": "t-k6-01",
-  "from": "vulgate-1-2",
-  "to": "lxx-1-2",
-  "type": "transmits",
-  "evidence": "Jerome renders tohu va-vohu 'inanis et vacua', where the Greek had ἀόρατος καὶ ἀκατασκεύαστος and the Old Latin 'invisibilis et incomposita'. The two Latin lemmas ask different questions — what the earth looked like, and what it lacked — and both are on the bench from the fifth century on.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-02",
-  "from": "aug-gnm-1-3-5",
-  "to": "lxx-1-2",
-  "type": "transmits",
-  "evidence": "Augustine's lemma throughout is 'terra invisibilis et incomposita', the Old Latin of the Greek pair; he never quotes Jerome's 'inanis et vacua' on this verse, in the Manichaean books, the Confessions or De Genesi ad litteram.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-03",
-  "from": "basil-hex-2-4",
-  "to": "lxx-1-2",
-  "type": "transmits",
-  "evidence": "Basil expounds ἀόρατος καὶ ἀκατασκεύαστος word by word — invisible for two reasons, unordered because not yet fruitful — and Eustathius' Latin keeps the Old Latin pair, so the Greek argument reaches the Latin bench with its lemma intact.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-04",
-  "from": "ambrose-hex-1-7-25",
-  "to": "basil-hex-2-4",
-  "type": "echoes",
-  "evidence": "Basil asks why, of two elements built with equal honour, heaven was complete and the earth still unordered; Ambrose answers with the good craftsman who lays a foundation before he distinguishes the parts and adds the adornment. Ambrose is expounding Basil's Hexaemeron through this book (cf. the Syrian at K7).",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-05",
-  "from": "aug-conf-12-21",
-  "to": "aug-gnm-1-3-5",
-  "type": "echoes",
-  "evidence": "The first of the five readings set out in Confessions XII.21 — 'that bodily thing which God made was still the formless matter of bodily things, without order, without light' — is the answer Augustine had given the Manichaeans thirteen years earlier; in the Confessions it is one true reading among five rather than the reading.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-06",
-  "from": "alcuin-int-30",
-  "to": "lxx-1-2",
-  "type": "transmits",
-  "evidence": "Alcuin's question carries its own source-note, '(Ibid. ex vers. LXX)': he knows the lemma he is glossing is the Septuagint's and not the text his pupils read.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-07",
-  "from": "angelom-gen-1-2-tohu",
-  "to": "alcuin-int-30",
-  "type": "echoes",
-  "evidence": "'Invisa propter obscuritatem, Incomposita propter deformitatem' is Alcuin's answer to Interrogatio 30 word for word, unattributed, with 'invisa' for 'invisibilis' — and Angelomus has moved it inside a discussion of the Vulgate's lemma, where it glosses 'the other translation'.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-08",
-  "from": "angelom-gen-1-2-tohu",
-  "to": "bede-gen-1-2-tohu",
-  "type": "echoes",
-  "evidence": "'quale sit coelum, quod primum condiderat, potest intelligi, videlicet quod ab omni hujus mundi volubili statu secretum … manet semper quietum' is Bede's sentence (PL 91:13C), unnamed; Angelomus reads 'divinae praesentiae' where the Corpus Corporum Bede prints 'divinae gloria praescientiae'.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-09",
-  "from": "glossa-1-2-terra",
-  "to": "bede-gen-1-2-tohu",
-  "type": "cites",
-  "evidence": "The gloss is labelled '(BEDA, Hexaem. tom. II.)' and compresses Bede's paragraph — the two heavens, the upper one filled with angels as soon as it was made, Job 38:7 with the morning stars glossed as the angels — to five sentences.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-10",
-  "from": "glossa-1-2-ruach",
-  "to": "remigius-gen-1-2-tohu",
-  "type": "cites",
-  "evidence": "The gloss Migne prints under '(STRAB.)' on this lemma — 'Inanis et vacua. Inutilis scilicet, et infructuosa, et incomposita. Omnia enim elementa commixta, confusa, et totum hoc aeris spatium aquis plenum; non quales nunc sunt, sed sicut nebulae tenues' — is Remigius of Auxerre at PL 131:55A, verbatim to the last clause about the waters above the heavens.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-11",
-  "from": "comestor-hs-1-2-tohu",
-  "to": "glossa-1-2-ruach",
-  "type": "echoes",
-  "evidence": "'machina mundialis adhuc erat inutilis, et infructuosa, et vacua ornatu suo' keeps two of the Glossa's three adjectives and replaces the third ('incomposita') with a phrase of his own; the subject has moved from the earth to the world-machine.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-12",
-  "from": "wigbod-gen-1-2-tohu",
-  "to": "isidore-quaest-1-2",
-  "type": "cites",
-  "evidence": "'Item spiritaliter: Terra scilicet carnis nostrae inanis et vacua erat, priusquam doctrinae acceperit formam' is Isidore, Quaestiones in Genesim I.2 (PL 83:209B), verbatim.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-13",
-  "from": "wigbod-gen-1-2-tohu",
-  "to": "aug-gnm-1-3-5",
-  "type": "cites",
-  "evidence": "The same compilation prints Augustine's Manichaean paragraph on this verse verbatim at PL 96:1111B under the Old Latin lemma 'terra invisibilis et incomposita', five columns before it asks 'Cur inanis et vacua?' under the Vulgate's. One book, two Latin texts of Gen 1:2, no seam.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-14",
-  "from": "abelard-hex-1-2-tohu",
-  "to": "bede-gen-1-2-tohu",
-  "type": "parallel",
-  "evidence": "Both withhold the pair from heaven on the ground that heaven had its inhabitants from the first: Bede from the silence ('why did he say these things of the earth, passing heaven by?'), Abelard from the adversative conjunction in 'terra AUTEM erat inanis'. Abelard does not name Bede, and the reasons for the angels' being passed over are different.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-15",
-  "from": "abelard-hex-1-2-tohu",
-  "to": "rupert-gen-1-2-tohu",
-  "type": "parallel",
-  "evidence": "The same split of the pair into two privations, sixteen years apart and with the terms distributed differently: Abelard, empty of fruit and void of an inhabitant; Rupert, empty of every shoot and void of all living things. No citation either way.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-16",
-  "from": "hugh-adnot-1-2-tohu",
-  "to": "abelard-hex-1-2-tohu",
-  "type": "parallel",
-  "evidence": "'Inanis a seminibus; vacua a germinibus' is the same operation again with a third distribution — and Hugh then offers a fourth, hollowness and the mist in the hollow, as an alternative in the same breath. The formula is school property by 1130; no one on this crux claims it.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-17",
-  "from": "hugh-sacr-1-1-tohu",
-  "to": "lxx-1-2",
-  "type": "cites",
-  "evidence": "'sive, ut alia translatio habet, « incomposita »' names the variant in the act of expounding the Vulgate — the first place on this bench where a reader is told plainly that the clause exists in two Latin forms.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-18",
-  "from": "hugh-sacr-1-1-tohu",
-  "to": "aug-conf-12-21",
-  "type": "parallel",
-  "evidence": "Hugh's reading — 'heaven and earth' name the matter of all things heavenly and earthly, in which all were created together in essence before they were made one after another in form — is Augustine's fifth reading in Confessions XII.21, reached without citation and stated as the single sense rather than as one of five.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-19",
-  "from": "bruno-gen-1-2-tohu",
-  "to": "br-2-3",
-  "type": "parallel",
-  "evidence": "The same clause read as a periodization of sacred history, from opposite ends. R. Yehuda bar Simon: tohu is Adam, va-vohu is Cain, the darkness is the generation of Enosh, the deep is the Flood, 'let there be light' is Abraham. Bruno: the earth is empty while the Church is without children, the darkness is the unread Scripture, and the emptiness ends when the fullness of the Gentiles has come in and Israel is saved. No contact is possible; the shape is identical and the contents are opposed.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-20",
-  "from": "bruno-gen-1-2-tohu",
-  "to": "isidore-quaest-1-2",
-  "type": "echoes",
-  "evidence": "Isidore's 'terra carnis nostrae', the flesh before it takes the form of doctrine, moved from the soul to the Church: Bruno's 'terra nostra' will no longer be called empty and void when it is inhabited by the fullness of so many sons.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-21",
-  "from": "rashi-1-2a",
-  "to": "br-2-2",
-  "type": "echoes",
-  "evidence": "Rashi's 'tohu is a word for astonishment and desolation, for a person would be astonished and appalled at the bohu in it' is the verb of Bereshit Rabbah 2:2, where the earth sits toheh u-voheh over her lot. The midrash's parable has become a lexical entry, and the one who is astonished has changed from the earth to the reader.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-22",
-  "from": "rashi-1-2a",
-  "to": "targ-onk-1-2",
-  "type": "echoes",
-  "evidence": "Rashi glosses bohu as 'reikut ve-tzadu', emptiness and waste — the two Aramaic words Onkelos uses to render the whole pair, 'tzadya ve-reikanya', in the other order. Rashi's peshat on the pair is the targum's, split between the two Hebrew words.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-23",
-  "from": "ibn-ezra-1-2",
-  "to": "b-chag-12a-tohu",
-  "type": "contests",
-  "evidence": "'Now in Sefer Yetzira: tohu — this is the green line, and bohu — these are the mefulamot stones. What is correct is as the Aramaic translator said.' Ibn Ezra names the tradition the Chagigah baraita carries and sets it aside in favour of Onkelos: the pair is a privation, not two objects.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-24",
-  "from": "ibn-ezra-1-2",
-  "to": "targ-onk-1-2",
-  "type": "cites",
-  "evidence": "'as the Aramaic translator has said' — Onkelos' tzadya ve-reikanya, supported from 'the howling waste of tohu' (Deut 32:10) and 'after tohu' (1 Sam 12:21), where the word means without substance.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-25",
-  "from": "ramban-1-2-tohu",
-  "to": "b-chag-12a-tohu",
-  "type": "echoes",
-  "evidence": "Both build on Isa 34:11, 'the line of tohu and the stones of bohu', and read it as an inventory of what tohu and bohu are. The baraita: a green line encircling the world, and slimy stones sunk in the deep. Ramban: the cord with which the craftsman marks out the plan of his building, and the stones as the forms in it. Ramban cites Sefer Yetzirah by name in the same paragraph, so the tradition is in front of him.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-26",
-  "from": "ramban-1-2-tohu",
-  "to": "rashi-1-2a",
-  "type": "echoes",
-  "evidence": "Ramban quotes the Bahir's R. Berekhya — 'what is tohu? a thing which astonishes people' — which is Rashi's etymology from the same root; but in Ramban the thing that astonishes is the primary matter itself, which cannot hold a name, rather than the sight of an empty land.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-27",
-  "from": "ramban-1-2-tohu",
-  "to": "ibn-ezra-1-2",
-  "type": "contests",
-  "evidence": "Ibn Ezra sets Sefer Yetzirah's green line aside and takes tohu as 'without substance', following Onkelos; Ramban keeps Sefer Yetzirah, cites it approvingly, and makes tohu a substance — the hyle — with bohu for its form. The two commentators Ramban reads side by side on 1:1 divide here on whether the word names anything at all.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-28",
-  "from": "br-2-3",
-  "to": "br-2-1",
-  "type": "echoes",
-  "evidence": "Both hang on Jer 4:23, 'I have seen the land, and behold, it is tohu va-vohu'. The prophet's re-use of the phrase for a land under judgement is what licenses the whole series of historical readings in Bereshit Rabbah 2; no Latin witness on this crux cites Jer 4:23 at all.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k6-x1",
-  "from": "bruno-gen-1-2-tohu",
-  "to": "br-2-4",
-  "type": "parallel",
-  "evidence": "Phase 4. Both read the whole of Gen 1:2 as a periodization of sacred history running to a final redemption, and neither could have known the other. Resh Lakish: tohu is Babylon (Jer 4:23), va-vohu Media, the darkness Greece, the deep Edom, and the spirit hovering is the spirit of the messianic king (Isa 11:2). Bruno of Segni reads the same clause as the ages of the Church. Written at Phase 4 because `br-2-4` was built for K7 and did not carry this crux until then.",
-  "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k5-01",
-  "from": "b-chag-12a-order",
-  "to": "br-1-15",
-  "type": "parallel",
-  "evidence": "The same dispute in two redactions. Both give Beit Shammai the throne and footstool (Isa 66:1), Beit Hillel Gen 2:4, and the sages 'both at once' from Isa 48:13. Bereshit Rabbah adds the palace built from the ground up, R. Ḥanin's turning of Beit Shammai's proof, and R. Shimon ben Yoḥai's stewpot and lid; the Bavli adds Amos 9:6 for the upper storey and Resh Lakish's created-first/stretched-first distinction. Independent redactions of one Palestinian dispute.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-02",
-  "from": "b-chag-12a-akiva",
-  "to": "br-1-14",
-  "type": "parallel",
-  "evidence": "One encounter, two answers. Both have R. Yishmael asking R. Akiva what Naḥum of Gam Zo made of the two ets. In Bereshit Rabbah, Akiva's first answer is that without them we might have said heaven and earth were deities, and he is rebuked for it with Deut 32:47 before the real answer (the sun, moon and constellations; the trees, plants and Eden). In the Bavli the danger is narrower — shamayim would be a name of the Holy One — and the answer, that heaven means heaven literally, stands unchallenged.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-03",
-  "from": "b-chag-12a-shamayim",
-  "to": "b-chag-12a-order",
-  "type": "echoes",
-  "evidence": "The sugya passes from when heaven was made to what heaven is without a break: Resh Lakish's stretching, then 'mai shamayim' — sham mayim, or fire and water mingled into the firmament. The Bavli treats the two halves of this crux as one question.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-04",
-  "from": "ramban-1-1b",
-  "to": "br-1-14",
-  "type": "cites",
-  "evidence": "'And so did our Rabbis say: eth hashamayim — eth includes the sun, moon, stars and constellations; ve'eth ha'aretz — ve'eth includes the trees, herbs, and the Garden of Eden.' Ramban names Bereshit Rabbah (parashah 1) and reproduces the inventory, adding only the derivation of et from 'atha boker' (Isa 21:12).",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-05",
-  "from": "ramban-1-1b",
-  "to": "abelard-hex-1-1b",
-  "type": "parallel",
-  "evidence": "'The word ha'aretz includes these four elements' and 'by the name of heaven and earth I judge the four elements to be taken in here' are the same reading of the verse, reached in Girona and at the Paraclete a century and a half apart with no possible contact. The distribution differs: Abelard splits the four between the two words, Ramban puts all four under 'earth'.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-06",
-  "from": "abelard-hex-1-1b",
-  "to": "ambrose-hex-1-6-20",
-  "type": "parallel",
-  "evidence": "'In these two the four elements were created' (Ambrose) and 'by the name of heaven and earth the four elements are taken in' (Abelard) are one doctrine, and both argue it from the mixture of the elements in each other. Abelard does not cite Ambrose, and his division of the four is his own: Ambrose puts all four in the pair without assigning them, Abelard gives fire and air to heaven, earth and water to earth.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-07",
-  "from": "ambrose-hex-1-6-24",
-  "to": "br-1-15",
-  "type": "parallel",
-  "evidence": "The star thread of this crux. Both turn on Ps 102:26 [Vg 101:26], 'you founded the earth … and the heavens are the work of your hands' — which names the earth first. R. Yehuda bar Ilai brings it as proof for Beit Hillel that the earth was created first. Ambrose brings the same reversal (from Ps 148:5) to prove that the order of naming settles nothing, since both were made together, and adds the reason: lest heaven be reckoned the better by the privilege of being the firstborn creature. That is R. Shimon ben Yoḥai's stewpot and lid and Bereshit Rabbah's closing rule that a reversed order teaches equality of honour, in Milan, four hundred years earlier, with no contact of any kind.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-08",
-  "from": "b-chag-12a",
-  "to": "aug-gnm-1-7-11",
-  "type": "parallel",
-  "evidence": "Both answer the question 'what is contained in heaven and earth?' — and answer it in opposite modes. Rav Yehudah in Rav's name enumerates: ten things were created on the first day, and heaven and earth head the list, each proved from its verse. Augustine generalises: by the name of heaven and earth the whole creation is signified, put in visible words for the weakness of little ones. An enumeration and a generalisation of the same clause, at roughly the same date, with no contact.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-09",
-  "from": "aug-gnl-1-9",
-  "to": "aug-gnm-1-7-11",
-  "type": "echoes",
-  "evidence": "Twenty years apart, the same observation about the shape of v. 1 — that it commends the whole before the parts — first as a remark about visible names for little ones, then as the answer to why Scripture does not say 'let heaven and earth be made'.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-10",
-  "from": "angelom-gen-1-1b",
-  "to": "aug-gnl-1-9",
-  "type": "cites",
-  "evidence": "'Sed quaeritur cur ita dictum est … Nisi quia prius universaliter nomine coeli et terrae comprehendendum erat, et commendandum quod fecit, et deinde per partes exsequendum' reproduces De Genesi ad litteram I.9 sentence for sentence, unnamed, and drops the second answer that made the first one provisional.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-11",
-  "from": "alcuin-int-28",
-  "to": "aug-gnm-1-7-11",
-  "type": "echoes",
-  "evidence": "'Informis illa materia, quam de nihilo fecit Deus, appellata est primo coelum et terra' is Augustine's answer with the proleptic reason added ('not because it already was this, but because it already could be this'); the alternative Alcuin appends without weighing it — 'or else the spiritual and the earthly creatures' — is not Augustine's here and is the seed of the empyrean reading.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-12",
-  "from": "comestor-hs-1-1b",
-  "to": "remigius-gen-1-1b",
-  "type": "echoes",
-  "evidence": "The empyrean heaven, fiery from brightness and not from heat, filled at once with the angelic spirits: Remigius states it at PL 131:54D, the Glossa prints it almost verbatim at 113:68C, and Comestor has it as 'the empyrean heaven and the angelic nature'. Comestor adds the admission Remigius does not make — that the philosopher did not know the empyrean.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-13",
-  "from": "comestor-hs-1-1b",
-  "to": "abelard-hex-1-1b",
-  "type": "echoes",
-  "evidence": "'Terram vero materiam omnium corporum, id est quatuor elementa' is Abelard's reading of the second word, absorbed into a scheme that keeps the empyrean for the first; Comestor then reports the rival reading — 'some understand heaven as the upper parts of the sensible world, and earth as the lower' — without deciding between them.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-14",
-  "from": "abelard-hex-1-1b",
-  "to": "remigius-gen-1-1b",
-  "type": "contests",
-  "evidence": "Directly opposed on what 'heaven' names in this verse. Remigius: not the visible firmament but the empyrean, filled at once with angels. Abelard: fire and air, and 'the angels, being of an incorporeal nature, are not included among the creatures of the world at all'. Abelard does not name Remigius, but the empyrean-with-angels is the standing gloss he is writing against.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-15",
-  "from": "ibn-ezra-1-1b",
-  "to": "remigius-gen-1-1b",
-  "type": "parallel",
-  "evidence": "The objection to the empyrean reading, made from the other bench and with no knowledge of it: those who explain that the heavens of the first verse are the heavens of the heavens — what will they then do with the earth beside it? Ibn Ezra's symmetry argument is exactly what forces Remigius, the Glossa and Comestor to turn 'earth' into prime matter or the four elements once they have made 'heaven' the empyrean.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-16",
-  "from": "hugh-sacr-1-1b",
-  "to": "br-1-15",
-  "type": "parallel",
-  "evidence": "Both refuse to read the sequence of the words as the sequence of the acts, and both put something else in its place. Hugh: 'not for the sake of order but of dignity', and because the discourse that follows is about the earth, which is therefore named last. R. Yoḥanan in the sages' name: in creation the heavens were first, in completion the earth. The Latin reason is compositional, the rabbinic one is about the work itself.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-17",
-  "from": "hugh-sacr-1-1b",
-  "to": "b-chag-12a-order",
-  "type": "parallel",
-  "evidence": "Resh Lakish resolves the contradiction of the proof-texts by splitting the act — created in one order, stretched out in the other. Hugh resolves the same difficulty by splitting the sentence from the act. Neither will let one verse's word order overrule the other's.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-18",
-  "from": "br-1-15",
-  "to": "b-chag-15a",
-  "type": "echoes",
-  "evidence": "Both measure the relation of the upper and lower by a physical image and refuse to let them come apart: the stewpot and its lid, which are made together and belong together (Isa 48:13); Ben Zoma's three fingerbreadths between the upper and lower waters, a gap that is not a separation. The same instinct about heaven and earth, in the two Chagigah contexts this project has built.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-19",
-  "from": "comestor-hs-1-1b",
-  "to": "alcuin-int-28",
-  "type": "echoes",
-  "evidence": "Alcuin's unweighed alternative — 'or else, by the name of heaven and earth the spiritual and the earthly creatures can be understood' — is what Comestor has hardened into 'the container and the thing contained, that is, the empyrean heaven and the angelic nature' on one side and the four elements on the other.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-20",
-  "from": "ramban-1-1b",
-  "to": "b-chag-12a-akiva",
-  "type": "parallel",
-  "evidence": "Ramban gives the Palestinian form of the et-derivation (sun, moon, stars, constellations; trees, herbs, Eden) and not the Babylonian one (that without the particles shamayim would be a divine name), although both were before him — the inventory is usable for his physics and the anxiety about the divine name is not.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-x1",
-  "from": "bruno-gen-1-1",
-  "to": "br-1-15",
-  "type": "parallel",
-  "evidence": "Phase 4. The closest Latin analogue to Beit Shammai and Beit Hillel anywhere on the bench, and it turns on the same psalm. Bruno quotes Ps 102:25 [Vg 101:26], 'you in the beginning founded the earth, and the heavens are the works of your hands', and concludes: 'not, therefore, heaven before earth, but God created heaven and earth together'. R. Yehuda bar Ilai brings the identical verse for Beit Hillel to prove the earth was first, and R. Shimon ben Yoḥai closes the section with the stewpot and its lid. Written at Phase 4 because `bruno-gen-1-1` was built for K1.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-x2",
-  "from": "bruno-gen-1-1",
-  "to": "ambrose-hex-1-6-24",
-  "type": "echoes",
-  "evidence": "Phase 4. Both answer the order question with Sir 18:1, 'he who lives for ever created all things at once', set against a psalm that names the earth first, and both conclude that the sequence of the words gives heaven no privilege. Bruno does not name Ambrose and the argument is the same argument.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-x3",
-  "from": "glossa-1-1",
-  "to": "aug-gnl-1-9",
-  "type": "cites",
-  "evidence": "Phase 4. 'Quia universaliter nomine coeli et terrae comprehendendum erat quidquid fecit Deus, deinde per partes explicandum quomodo fecit' is De Genesi ad litteram I.9 reproduced almost word for word at the head of the standard gloss on Gen 1:1. Written at Phase 4 because the VERS. 1 block was sliced whole for K1 and carries several cruxes' glosses at once.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-x4",
-  "from": "glossa-1-1",
-  "to": "remigius-gen-1-1b",
-  "type": "echoes",
-  "evidence": "Phase 4. The empyrean gloss inside the Glossa's VERS. 1 block — a heaven fiery not from burning but from brightness, filled at once with the angelic spirits — is Remigius at PL 131:54D almost verbatim, and it is how the empyrean reading became the schoolroom default that Abelard and Ibn Ezra each attack from their own side.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k5-x5",
-  "from": "rabanus-gen-1-1b",
-  "to": "ambrose-hex-1-6-20",
-  "type": "transmits",
-  "evidence": "Phase 4. PL 107:444B copies Ambrose Hexaemeron I.6.20 verbatim and unnamed, from 'In principio itaque temporis, coelum et terram Deus fecit' — time is from this world, not before the world, and a day is a portion of time, not its beginning. The transmission is what puts Ambrose's answer into the Carolingian schools. Written at Phase 4 because `rabanus-gen-1-1b` was built for K1.",
-  "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k4-01",
-  "from": "br-1-9",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "The philosopher: 'Your God was a great artist, but he found good materials that helped him.' Augustine: 'those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen cannot make anything unless they have something to make it from … wood helps the craftsman, silver the silversmith.' The same inference from the same analogy, and the verb is the same in both — the materials help. Thagaste 389, Galilee c. 450, no contact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-02",
-  "from": "br-1-9",
-  "to": "basil-hex-2-2-materia",
-  "type": "parallel",
-  "evidence": "Basil diagnoses the position the philosopher states: 'with us each art is exercised upon some matter brought to it — smithcraft upon iron, carpentry upon wood … so they suppose it is with the divine working too.' Two trades where the midrash has none and Augustine has four, and the same conclusion drawn about God's poverty.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-03",
-  "from": "aug-gnm-1-6-10",
-  "to": "basil-hex-2-2-materia",
-  "type": "parallel",
-  "evidence": "Both answer the craftsman analogy by denying that God receives anything from outside: Basil, 'God is not the deviser of figures but the creator of the whole nature'; Augustine, 'if some thing that he had not himself made helped him, he was not almighty'. Augustine did not read Eustathius' Latin Basil in 389, and the arguments differ in kind — Basil's from the dignity of the unbegotten, Augustine's from omnipotence.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-04",
-  "from": "wigbod-gen-1-1c",
-  "to": "aug-gnm-1-6-10",
-  "type": "transmits",
-  "evidence": "Verbatim to the last clause, including the four trades and 'quod sacrilegum est credere'; Wigbod reads 'de nihilo facta est' where Augustine has 'de omnino nihilo'. Wigbod does not name Augustine here, though he names Jerome elsewhere in the same work.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-05",
-  "from": "angelom-gen-1-1c",
-  "to": "aug-gnm-1-6-10",
-  "type": "echoes",
-  "evidence": "'Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem … non enim faber facit lignum, sed de ligno aliquid facit' — Augustine's clauses reused without his name and recast as reported speech, with the potter dropped and a diagnosis added ('quia attendunt fabrum, et non Deum').",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-06",
-  "from": "hugh-sacr-1-1-nihilo",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "echoes",
-  "evidence": "Ambrose: 'tria principia constituerent omnium, Deum, et exemplar, et materiam … de materia, quam vocant hylen'. Hugh: 'Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam.' The same three-item list with the same qualification (without a principle / uncreated and without beginning), abbreviated to single words and unattributed.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-07",
-  "from": "comestor-hs-1-1c",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "echoes",
-  "evidence": "'Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile' is Ambrose's 'Deum, et exemplar, et materiam … quam vocant hylen' with exemplar resolved into ideae, and Aristotle's two principles, materia et forma, follow in the same order. Epicurus is Comestor's addition.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-08",
-  "from": "basil-hex-2-2-materia",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "parallel",
-  "evidence": "The same position described from the two sides of the Latin/Greek divide within about fifteen years: Ambrose names it (Plato's three principles, hyle uncreated) and Basil argues against it without naming anyone ('if we call this matter unbegotten it is made equal to God'). Ambrose knew Basil's Greek Hexaemeron; this Latin Basil is Eustathius' later version, so the Latin words are not a source for Ambrose's.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-09",
-  "from": "ibn-ezra-1-1c",
-  "to": "rupert-gen-1-1c",
-  "type": "parallel",
-  "evidence": "The same objection from the same two verses, in the same order, answered in opposite directions. Rupert: 'if anyone should object that man too … is said to be created — as it is written, God created man to his own image … or again, God created the great sea-creatures'. Ibn Ezra: 'they have forgotten And God created the crocodiles (Gen 1:21), as well as three times in the same verse, God created man in his image (Gen 1:27)'. Rupert saves the doctrine with a distinction about the matter; Ibn Ezra concludes the verb has a second sense. Liège c. 1115, Lucca c. 1155, no possible contact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-10",
-  "from": "ibn-ezra-1-1c",
-  "to": "abelard-hex-1-1c",
-  "type": "parallel",
-  "evidence": "Abelard secures ex nihilo on the difference between two Latin verbs — creavit of the elements, formavit of man at Gen 2:7 and the animals at 2:19 — where Ibn Ezra dissolves it by showing that the one Hebrew verb bara stands at 1:21 and 1:27 of things made out of something. The Latin distinction is available only because the translation supplies two words where the Hebrew has one at the decisive places.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-11",
-  "from": "abelard-hex-1-1c",
-  "to": "rupert-gen-1-1c",
-  "type": "parallel",
-  "evidence": "Two Latin answers to one difficulty within about fifteen years: Rupert grants that creavit is used of things shaped from matter and refers the word back to the creation of the matter; Abelard denies that it is properly so used at all and assigns those cases to formare. Neither cites the other, and the two answers are incompatible.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-12",
-  "from": "hugh-sacr-1-1-nihilo",
-  "to": "abelard-hex-1-1c",
-  "type": "parallel",
-  "evidence": "The same definition by contrast, in Paris within four years: Abelard, 'creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam'; Hugh, 'quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est'. Neither names the other, and the school relations between them make silence the interesting fact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-13",
-  "from": "glossa-1-2-materia",
-  "to": "bede-gen-1-2-materia",
-  "type": "transmits",
-  "evidence": "Migne prints the gloss under (BEDA ubi supra.). Bede: 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.' Glossa: 'Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.' The restriction that opened Bede's paragraph — 'Ad haec tantum informis est illa materies' — is not carried over.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-14",
-  "from": "bede-gen-1-2-materia",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "Both hang the difficulty on Wisdom 11:17, 'qui fecisti mundum de materia informi', and take opposite routes out of it: Augustine grants the formless matter and pushes creation one step behind it; Bede restricts the phrase to the earth and the waters before the light came, so that no substrate is conceded at all.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-15",
-  "from": "angelom-gen-1-1c",
-  "to": "bede-gen-1-2-materia",
-  "type": "parallel",
-  "evidence": "Wisdom 11:17 again, quoted in full by Angelomus in the form 'non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia', and used to the opposite end: for Angelomus the verse proves that God made the matter and then made everything out of it, for Bede that 'formless matter' is only a name for the earth and waters in the dark.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-16",
-  "from": "alcuin-int-19-20",
-  "to": "aug-gnl-5-18",
-  "type": "echoes",
-  "evidence": "Alcuin's second mode of divine working — 'in materia informi qui vivit in aeternum, creavit omnia simul (Eccli. XVIII, 1)' — is Augustine's simul doctrine with Augustine's proof text, reduced to one clause and set in a list of four.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-17",
-  "from": "br-1-5b",
-  "to": "br-1-9",
-  "type": "contests",
-  "evidence": "Four sections apart in one compilation, and the second answers the first. BR 1:5: 'were the matter not written explicitly it would not be possible to say it — In the beginning God created — from what? The earth was emptiness and disorder.' BR 1:9: the philosopher names emptiness, disorder, darkness, wind, water and the deeps as the materials God found, and Rabban Gamliel answers that of every one of them creation is written. The same list of six, read once as the stuff the world was made of and once as a list of created things.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-18",
-  "from": "pdre-3-7",
-  "to": "br-1-9",
-  "type": "contests",
-  "evidence": "Pirkei de-Rabbi Eliezer answers 'from what?' with substances — the earth from the snow beneath the Throne of Glory, congealed on the waters, with Job 37:6 for proof; the heavens, in the preceding section, from the light of his garment. Rabban Gamliel's answer to the same question is that nothing was found and everything was created. Neither text acknowledges the other, and both stand in the rabbinic bench's own tradition.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-19",
-  "from": "ramban-1-1c",
-  "to": "ibn-ezra-1-1c",
-  "type": "contests",
-  "evidence": "Ramban names R. Abraham a few lines above this passage and then writes 'there is no expression in the sacred tongue for bringing forth something from nothing other than the word bara' — which is the exact claim Ibn Ezra had refuted from Gen 1:21, Gen 1:27 and Isaiah 45:7. The contest is direct and is the reason the sentence is phrased as an exclusive.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-20",
-  "from": "ramban-1-1c",
-  "to": "hugh-sacr-1-1-nihilo",
-  "type": "parallel",
-  "evidence": "Hugh: 'omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.' Ramban: 'the Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.' The same two-stage doctrine — one creation out of nothing, everything afterwards made out of what was created — with the Greek word for the matter on the Hebrew side and not on the Latin.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-21",
-  "from": "ramban-1-1c",
-  "to": "br-1-5b",
-  "type": "cites",
-  "evidence": "Ramban's tohu is bar Kappara's difficulty resolved: BR 1:5 asks 'from what?' and answers 'the earth was tohu va-vohu', with an apology; Ramban makes tohu the name in the sacred tongue for the hyle, so that the verse now says the world was made out of the one thing that was created out of nothing. He quotes the rabbinic material of this section (and Sefer Yetzirah, 'he created substance from tohu') by name in the lines that follow.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-22",
-  "from": "aug-conf-12-22",
-  "to": "br-1-9",
-  "type": "parallel",
-  "evidence": "One difficulty, two opposite methods. Augustine argues that Genesis' silence about when a thing was made cannot prove it coeternal, and makes the case with a second silence (the waters above the firmament). Rabban Gamliel meets the same objection by breaking the silence item by item: Isaiah 45:7 for tohu and darkness, Psalm 148:4–5 for the waters, Amos 4:13 for the wind, Proverbs 8:24 for the deeps.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-23",
-  "from": "aug-conf-12-22",
-  "to": "aug-conf-12-7",
-  "type": "echoes",
-  "evidence": "The same conclusion reached twice in one book by different routes — at XII.7 from the exhaustive dilemma (not out of God, and nothing else was there, therefore out of nothing), at XII.22 from the failure of the argument from Scripture's silence. The second is the defensive form of the first.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-24",
-  "from": "aug-conf-12-7",
-  "to": "aug-gnm-1-6-10",
-  "type": "echoes",
-  "evidence": "'De nihilo fecisti coelum et terram' restates in prayer what De Genesi contra Manichaeos argued nine years earlier, with the same two-stage structure — formed things out of the matter, the matter out of nothing — now expressed as 'unum prope te, alterum prope nihil'.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-25",
-  "from": "alcuin-int-19-20",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "Augustine's doctrine turned into an inventory: 'Quae creaturae de nihilo factae sunt? — Coelum, terra, angeli, lux, aer, aqua et anima hominis.' The list form has no Latin precedent on this crux and exact rabbinic counterparts (b. Chagigah 12a's ten things, PdRE 3's eight), and Alcuin's items are chosen so that no unformed substrate appears on it.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-x1",
-  "from": "ramban-1-2-tohu",
-  "to": "ramban-1-1c",
-  "type": "echoes",
-  "evidence": "Phase 4. One continuous argument that the crux boundaries split in two: having said that the Holy One created all things from absolute non-existence and that after the hyle he created nothing, Ramban goes straight on to name it — the substance the Greeks called hyly is what the sacred tongue calls tohu. The hyle and the tohu are the same thing, and the two witnesses are consecutive sentences.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-x2",
-  "from": "abelard-hex-1-1c",
-  "to": "vulgate-1-1",
-  "type": "cites",
-  "evidence": "Phase 4. Abelard's whole definition of creation rests on a distinction between two Latin verbs — created of what has no pre-existing matter, formed of what is shaped out of matter — and the distinction is available only because the translation supplies two verbs where the Hebrew has one at the places that matter. Ibn Ezra brings the same two verses (Gen 1:21, 1:27) to the opposite conclusion, that bara does not mean bringing forth from nothing, because in Hebrew there is no second verb to escape into.",
-  "crux": "ex-nihilo-or-matter"
  },
  {
   "id": "t-k9-01",
@@ -1320,228 +1112,492 @@
   "crux": "good-and-separated"
  },
  {
-  "id": "t-k3-01",
-  "from": "abelard-hex-1-1-eloim",
-  "to": "br-1-7",
+  "id": "t-k5-01",
+  "from": "b-chag-12a-order",
+  "to": "br-1-15",
   "type": "parallel",
-  "evidence": "The star thread of the site. Both ask why the plural noun Elohim takes a singular verb, in the same words. R. Yitzḥak: 'bereshit bare'u Elohim is not written here, but bara Elohim' — and therefore no creature can say that two authorities created the world. Abelard: 'unde autem dictum est Eloim creavit, non creaverunt? ut videlicet ad plurale nomen singulare verbum referretur; quatenus insinuaretur in tribus illis personis non tres creatores, sed unum tantum debere intelligi.' One grammatical fact, seven hundred years apart, no contact, and the same conclusion drawn about the verb — one creator — from opposite conclusions about the noun.",
-  "crux": "elohim-and-trinity"
+  "evidence": "The same dispute in two redactions. Both give Beit Shammai the throne and footstool (Isa 66:1), Beit Hillel Gen 2:4, and the sages 'both at once' from Isa 48:13. Bereshit Rabbah adds the palace built from the ground up, R. Ḥanin's turning of Beit Shammai's proof, and R. Shimon ben Yoḥai's stewpot and lid; the Bavli adds Amos 9:6 for the upper storey and Resh Lakish's created-first/stretched-first distinction. Independent redactions of one Palestinian dispute.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-02",
-  "from": "ibn-ezra-1-1-elohim",
-  "to": "abelard-hex-1-1-eloim",
-  "type": "contests",
-  "evidence": "The same question and the opposite answer, twenty years apart and with no possible contact. Abelard: Eloim is plural, showing a plurality of divine persons, each of which is God, and the singular verb shows they are one creator. Ibn Ezra: Elohim is the plural of eloah, and the plural is how the Holy Tongue speaks of the great — as adonim and be'alim are plural for one master, and as a king in Arabic speaks of himself in the plural — 'and for this reason Scripture says bara and not bare'u.' Each has the whole of the other's evidence and takes the plural to mean the opposite thing.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-03",
-  "from": "ibn-ezra-1-1-elohim",
-  "to": "br-1-7",
-  "type": "echoes",
-  "evidence": "Ibn Ezra's closing clause is Bereshit Rabbah's argument reduced to a grammarian's note: 'for this reason Scripture says bara and not bare'u.' What the midrash offers as a refutation of two authorities, he offers as the expected concord of an honorific plural — the same reading with the polemic taken out and a comparative philology of Arabic, Hebrew and the vernaculars put in.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-04",
-  "from": "ramban-1-1-elohim",
-  "to": "ibn-ezra-1-1-elohim",
-  "type": "contests",
-  "evidence": "Ramban has Ibn Ezra open in front of him throughout the comment on this verse and takes the plural the other way: not an honorific but a compound, el hem, the force and 'they' — all the other forces — so that Elohim is the force of all forces. He does not deny the grammar; he refuses to let the plural be empty. 'A secret will yet be disclosed in connection with this' says that the real answer is one he will not print.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-05",
-  "from": "ramban-1-1-elohim",
-  "to": "abelard-hex-1-1-eloim",
+  "id": "t-k5-02",
+  "from": "b-chag-12a-akiva",
+  "to": "br-1-14",
   "type": "parallel",
-  "evidence": "The two witnesses on this daf who make the plurality of the noun a plurality in God, and they could not be further apart on what it is. Abelard: a diversity of persons, of which each one is God, and the doctrine is preachable and technical — opera Trinitatis indivisa. Ramban: the master of all the forces, and a secret that will be disclosed elsewhere. A century apart, in Paris and in Girona, with nothing between them but the same three consonants.",
-  "crux": "elohim-and-trinity"
+  "evidence": "One encounter, two answers. Both have R. Yishmael asking R. Akiva what Naḥum of Gam Zo made of the two ets. In Bereshit Rabbah, Akiva's first answer is that without them we might have said heaven and earth were deities, and he is rebuked for it with Deut 32:47 before the real answer (the sun, moon and constellations; the trees, plants and Eden). In the Bavli the danger is narrower — shamayim would be a name of the Holy One — and the answer, that heaven means heaven literally, stands unchallenged.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-06",
-  "from": "b-meg-9a",
-  "to": "br-1-7",
+  "id": "t-k5-03",
+  "from": "b-chag-12a-shamayim",
+  "to": "b-chag-12a-order",
   "type": "echoes",
-  "evidence": "The same anxiety twice, once as exegesis and once as translation history. R. Yitzḥak proves from the singular verbs that no one can say two authorities created the world; the elders before Ptolemy move the divine name to the front of the sentence — 'God created in the beginning' — so that bereshit cannot be read as the subject of bara, that is, as a power that made God. Both are defending the first verse against a reading that finds more than one maker in it.",
-  "crux": "elohim-and-trinity"
+  "evidence": "The sugya passes from when heaven was made to what heaven is without a break: Resh Lakish's stretching, then 'mai shamayim' — sham mayim, or fire and water mingled into the firmament. The Bavli treats the two halves of this crux as one question.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-07",
-  "from": "b-meg-9a",
-  "to": "br-1-12",
-  "type": "contests",
-  "evidence": "The elders reverse the word order that R. Yudan and Ben Azzai explain and praise. For the Bavli's baraita the sequence bereshit bara … Elohim is a danger to be removed for a Greek reader; for Bereshit Rabbah it is the Holy One's modesty — a mortal king proclaims his name and produces his works afterwards, but God acted first and was named after. The same three words are a liability in Alexandria and a virtue in Caesarea.",
-  "crux": "elohim-and-trinity"
+  "id": "t-k5-04",
+  "from": "ramban-1-1b",
+  "to": "br-1-14",
+  "type": "cites",
+  "evidence": "'And so did our Rabbis say: eth hashamayim — eth includes the sun, moon, stars and constellations; ve'eth ha'aretz — ve'eth includes the trees, herbs, and the Garden of Eden.' Ramban names Bereshit Rabbah (parashah 1) and reproduces the inventory, adding only the derivation of et from 'atha boker' (Isa 21:12).",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-08",
-  "from": "b-meg-9a",
-  "to": "abelard-hex-1-1-eloim",
+  "id": "t-k5-05",
+  "from": "ramban-1-1b",
+  "to": "abelard-hex-1-1b",
   "type": "parallel",
-  "evidence": "The baraita reports the elders removing from the Greek exactly the two features the Latin bench builds on, and neither removal reached the Church. The first item on their list is the word order of Gen 1:1; the second is the plural of Gen 1:26 turned singular. The Septuagint as transmitted has neither change. Abelard's argument needs the plural noun standing next to a singular verb in the first verse, which is what the elders are said to have rearranged, and Bruno's needs the 'let us make' of Gen 1:26, which is what they are said to have made singular.",
-  "crux": "elohim-and-trinity"
+  "evidence": "'The word ha'aretz includes these four elements' and 'by the name of heaven and earth I judge the four elements to be taken in here' are the same reading of the verse, reached in Girona and at the Paraclete a century and a half apart with no possible contact. The distribution differs: Abelard splits the four between the two words, Ramban puts all four under 'earth'.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-09",
-  "from": "bruno-gen-1-1c",
-  "to": "br-1-7",
+  "id": "t-k5-06",
+  "from": "abelard-hex-1-1b",
+  "to": "ambrose-hex-1-6-20",
   "type": "parallel",
-  "evidence": "Both refuse a plurality of creators in the same words and against different opponents. R. Yitzḥak: no creature can say that two authorities created the world. Bruno: was he speaking to the angels? God forbid — for otherwise there would be not one creator but many, whereas God alone is the creator of all. The premise is shared exactly; what Bruno does next with it, and the midrash cannot, is find the second and third persons in the same verses.",
-  "crux": "elohim-and-trinity"
+  "evidence": "'In these two the four elements were created' (Ambrose) and 'by the name of heaven and earth the four elements are taken in' (Abelard) are one doctrine, and both argue it from the mixture of the elements in each other. Abelard does not cite Ambrose, and his division of the four is his own: Ambrose puts all four in the pair without assigning them, Abelard gives fire and air to heaven, earth and water to earth.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-10",
-  "from": "bruno-gen-1-1c",
-  "to": "aug-conf-13-5",
+  "id": "t-k5-07",
+  "from": "ambrose-hex-1-6-24",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "The star thread of this crux. Both turn on Ps 102:26 [Vg 101:26], 'you founded the earth … and the heavens are the work of your hands' — which names the earth first. R. Yehuda bar Ilai brings it as proof for Beit Hillel that the earth was created first. Ambrose brings the same reversal (from Ps 148:5) to prove that the order of naming settles nothing, since both were made together, and adds the reason: lest heaven be reckoned the better by the privilege of being the firstborn creature. That is R. Shimon ben Yoḥai's stewpot and lid and Bereshit Rabbah's closing rule that a reversed order teaches equality of honour, in Milan, four hundred years earlier, with no contact of any kind.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-08",
+  "from": "b-chag-12a",
+  "to": "aug-gnm-1-7-11",
+  "type": "parallel",
+  "evidence": "Both answer the question 'what is contained in heaven and earth?' — and answer it in opposite modes. Rav Yehudah in Rav's name enumerates: ten things were created on the first day, and heaven and earth head the list, each proved from its verse. Augustine generalises: by the name of heaven and earth the whole creation is signified, put in visible words for the weakness of little ones. An enumeration and a generalisation of the same clause, at roughly the same date, with no contact.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-09",
+  "from": "aug-gnl-1-9",
+  "to": "aug-gnm-1-7-11",
   "type": "echoes",
-  "evidence": "'Habes ergo Deum, id est Patrem; habes et principium, id est Filium … Habes igitur et Spiritum sanctum' is Augustine's three-term reading turned into a schoolroom enumeration, with the same John 8:25 for the Son and the same Spirit of v. 2 for the third. What Augustine reached at the end of a search and called a riddle, Bruno hands over in three sentences as something the reader can check.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Twenty years apart, the same observation about the shape of v. 1 — that it commends the whole before the parts — first as a remark about visible names for little ones, then as the answer to why Scripture does not say 'let heaven and earth be made'.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-11",
-  "from": "aug-conf-13-5",
-  "to": "aug-gnl-1-5-11",
+  "id": "t-k5-10",
+  "from": "angelom-gen-1-1b",
+  "to": "aug-gnl-1-9",
+  "type": "cites",
+  "evidence": "'Sed quaeritur cur ita dictum est … Nisi quia prius universaliter nomine coeli et terrae comprehendendum erat, et commendandum quod fecit, et deinde per partes exsequendum' reproduces De Genesi ad litteram I.9 sentence for sentence, unnamed, and drops the second answer that made the first one provisional.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-11",
+  "from": "alcuin-int-28",
+  "to": "aug-gnm-1-7-11",
   "type": "echoes",
-  "evidence": "The same triad in the same order in two works: the Father in the name of God, the Son in the name of the Beginning, the Spirit borne over the waters, which De Genesi ad litteram calls the completa commemoratio Trinitatis. What the Confessions add is the sequence of the search — he held two, he already believed the third, and he went looking for it in the text.",
-  "crux": "elohim-and-trinity"
+  "evidence": "'Informis illa materia, quam de nihilo fecit Deus, appellata est primo coelum et terra' is Augustine's answer with the proleptic reason added ('not because it already was this, but because it already could be this'); the alternative Alcuin appends without weighing it — 'or else the spiritual and the earthly creatures' — is not Augustine's here and is the seed of the empyrean reading.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-12",
-  "from": "aug-gnl-imp-1-2",
-  "to": "aug-conf-13-5",
+  "id": "t-k5-12",
+  "from": "comestor-hs-1-1b",
+  "to": "remigius-gen-1-1b",
+  "type": "echoes",
+  "evidence": "The empyrean heaven, fiery from brightness and not from heat, filled at once with the angelic spirits: Remigius states it at PL 131:54D, the Glossa prints it almost verbatim at 113:68C, and Comestor has it as 'the empyrean heaven and the angelic nature'. Comestor adds the admission Remigius does not make — that the philosopher did not know the empyrean.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-13",
+  "from": "comestor-hs-1-1b",
+  "to": "abelard-hex-1-1b",
+  "type": "echoes",
+  "evidence": "'Terram vero materiam omnium corporum, id est quatuor elementa' is Abelard's reading of the second word, absorbed into a scheme that keeps the empyrean for the first; Comestor then reports the rival reading — 'some understand heaven as the upper parts of the sensible world, and earth as the lower' — without deciding between them.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-14",
+  "from": "abelard-hex-1-1b",
+  "to": "remigius-gen-1-1b",
   "type": "contests",
-  "evidence": "Augustine on both sides of the question this crux really turns on. In the unfinished commentary the catholic faith is set out before the exposition begins, expressly because heretics drag Scripture to their own opinion, so that the Trinity is the rule the chapter will be read under. In the Confessions the Trinity 'appears to me in a riddle' out of the first words. The two are not incompatible and he never reconciles them, and every later Latin witness on this daf writes as though only the second were true.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Directly opposed on what 'heaven' names in this verse. Remigius: not the visible firmament but the empyrean, filled at once with angels. Abelard: fire and air, and 'the angels, being of an incorporeal nature, are not included among the creatures of the world at all'. Abelard does not name Remigius, but the empyrean-with-angels is the standing gloss he is writing against.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-13",
-  "from": "basil-hex-2-6b",
-  "to": "ambrose-hex-1-8-29",
+  "id": "t-k5-15",
+  "from": "ibn-ezra-1-1b",
+  "to": "remigius-gen-1-1b",
+  "type": "parallel",
+  "evidence": "The objection to the empyrean reading, made from the other bench and with no knowledge of it: those who explain that the heavens of the first verse are the heavens of the heavens — what will they then do with the earth beside it? Ibn Ezra's symmetry argument is exactly what forces Remigius, the Glossa and Comestor to turn 'earth' into prime matter or the four elements once they have made 'heaven' the empyrean.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-16",
+  "from": "hugh-sacr-1-1b",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "Both refuse to read the sequence of the words as the sequence of the acts, and both put something else in its place. Hugh: 'not for the sake of order but of dignity', and because the discourse that follows is about the earth, which is therefore named last. R. Yoḥanan in the sages' name: in creation the heavens were first, in completion the earth. The Latin reason is compositional, the rabbinic one is about the work itself.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-17",
+  "from": "hugh-sacr-1-1b",
+  "to": "b-chag-12a-order",
+  "type": "parallel",
+  "evidence": "Resh Lakish resolves the contradiction of the proof-texts by splitting the act — created in one order, stretched out in the other. Hugh resolves the same difficulty by splitting the sentence from the act. Neither will let one verse's word order overrule the other's.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-18",
+  "from": "br-1-15",
+  "to": "b-chag-15a",
+  "type": "echoes",
+  "evidence": "Both measure the relation of the upper and lower by a physical image and refuse to let them come apart: the stewpot and its lid, which are made together and belong together (Isa 48:13); Ben Zoma's three fingerbreadths between the upper and lower waters, a gap that is not a separation. The same instinct about heaven and earth, in the two Chagigah contexts this project has built.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-19",
+  "from": "comestor-hs-1-1b",
+  "to": "alcuin-int-28",
+  "type": "echoes",
+  "evidence": "Alcuin's unweighed alternative — 'or else, by the name of heaven and earth the spiritual and the earthly creatures can be understood' — is what Comestor has hardened into 'the container and the thing contained, that is, the empyrean heaven and the angelic nature' on one side and the four elements on the other.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-20",
+  "from": "ramban-1-1b",
+  "to": "b-chag-12a-akiva",
+  "type": "parallel",
+  "evidence": "Ramban gives the Palestinian form of the et-derivation (sun, moon, stars, constellations; trees, herbs, Eden) and not the Babylonian one (that without the particles shamayim would be a divine name), although both were before him — the inventory is usable for his physics and the anxiety about the divine name is not.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-x1",
+  "from": "bruno-gen-1-1",
+  "to": "br-1-15",
+  "type": "parallel",
+  "evidence": "Phase 4. The closest Latin analogue to Beit Shammai and Beit Hillel anywhere on the bench, and it turns on the same psalm. Bruno quotes Ps 102:25 [Vg 101:26], 'you in the beginning founded the earth, and the heavens are the works of your hands', and concludes: 'not, therefore, heaven before earth, but God created heaven and earth together'. R. Yehuda bar Ilai brings the identical verse for Beit Hillel to prove the earth was first, and R. Shimon ben Yoḥai closes the section with the stewpot and its lid. Written at Phase 4 because `bruno-gen-1-1` was built for K1.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-x2",
+  "from": "bruno-gen-1-1",
+  "to": "ambrose-hex-1-6-24",
+  "type": "echoes",
+  "evidence": "Phase 4. Both answer the order question with Sir 18:1, 'he who lives for ever created all things at once', set against a psalm that names the earth first, and both conclude that the sequence of the words gives heaven no privilege. Bruno does not name Ambrose and the argument is the same argument.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-x3",
+  "from": "glossa-1-1",
+  "to": "aug-gnl-1-9",
+  "type": "cites",
+  "evidence": "Phase 4. 'Quia universaliter nomine coeli et terrae comprehendendum erat quidquid fecit Deus, deinde per partes explicandum quomodo fecit' is De Genesi ad litteram I.9 reproduced almost word for word at the head of the standard gloss on Gen 1:1. Written at Phase 4 because the VERS. 1 block was sliced whole for K1 and carries several cruxes' glosses at once.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-x4",
+  "from": "glossa-1-1",
+  "to": "remigius-gen-1-1b",
+  "type": "echoes",
+  "evidence": "Phase 4. The empyrean gloss inside the Glossa's VERS. 1 block — a heaven fiery not from burning but from brightness, filled at once with the angelic spirits — is Remigius at PL 131:54D almost verbatim, and it is how the empyrean reading became the schoolroom default that Abelard and Ibn Ezra each attack from their own side.",
+  "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k5-x5",
+  "from": "rabanus-gen-1-1b",
+  "to": "ambrose-hex-1-6-20",
   "type": "transmits",
-  "evidence": "Ambrose is reading Basil at Milan and makes the same choice between the same two readings: either the spirit of v. 2 is the air, or it is the Holy Spirit — 'but we, agreeing with the judgement of the saints and the faithful, take it as the Holy Spirit, so that the working of the Trinity may shine out in the constitution of the world.' Basil's reason is that Scripture reserved the name; Ambrose's is that the third person is needed to complete the triad the first verse began.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Phase 4. PL 107:444B copies Ambrose Hexaemeron I.6.20 verbatim and unnamed, from 'In principio itaque temporis, coelum et terram Deus fecit' — time is from this world, not before the world, and a day is a portion of time, not its beginning. The transmission is what puts Ambrose's answer into the Carolingian schools. Written at Phase 4 because `rabanus-gen-1-1b` was built for K1.",
+  "crux": "heaven-earth-order"
  },
  {
-  "id": "t-k3-14",
-  "from": "basil-hex-2-6b",
-  "to": "bede-gen-1-2",
+  "id": "t-k10-01",
+  "from": "vulgate-1-5",
+  "to": "lxx-1-5",
+  "type": "transmits",
+  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-02",
+  "from": "targ-psj-1-5",
+  "to": "lxx-1-5",
   "type": "parallel",
-  "evidence": "Expletor and the same argument from the shape of the sentence, three centuries and a language apart: Basil, that no other spirit is meant but the Holy, who is the completer of the venerable Trinity; Bede, that having first declared that in the beginning, that is in the Son, the Father made heaven and earth, Scripture brought in mention of the Holy Spirit too, so as to signify the power of the whole Trinity together in the creation of the world.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-15",
-  "from": "aug-conf-13-5",
-  "to": "bede-gen-1-2",
+  "id": "t-k10-35",
+  "from": "targ-psj-1-5",
+  "to": "targ-onk-1-5",
+  "type": "echoes",
+  "evidence": "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-36",
+  "from": "targ-onk-1-5",
+  "to": "lxx-1-5",
+  "type": "parallel",
+  "evidence": "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-03",
+  "from": "rashi-1-5",
+  "to": "br-3-8",
   "type": "cites",
-  "evidence": "Bede's sentence is Augustine's triad with the two halves welded: 'in principio, id est in Filio, Pater fecit coelum et terram' and then the Spirit added 'ut totius simul Trinitatis in creatione mundi virtutem significaret'. The riddle has become a demonstration, and the word aenigma is gone.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-16",
-  "from": "wigbod-gen-1-1d",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "'In principio sibi coaeterno fecit Deus coelum et terram, in unigenito Filio qui est sapientia Patris' is Augustine's 'in Principio sapientiae nostrae quod est tua Sapientia de te nata, aequalis tibi et coaeterna, id est in Filio tuo' with the possessives dropped and 1 Cor 1:24 put in for the identification. The Carolingian dialogue asked a question about time and was answered with a person.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-17",
-  "from": "remigius-gen-1-1c",
-  "to": "wigbod-gen-1-1d",
-  "type": "echoes",
-  "evidence": "The same identification with the same proof text, and Remigius adds the guard the dialogue does not have: God the Father too is a beginning, but not from a beginning, since he is begotten of none. Once 'in the beginning' names the Son because the Son is a principium, the word will fit the Father as well, and only Remigius notices.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-18",
-  "from": "remigius-gen-1-1c",
-  "to": "br-1-12",
+  "id": "t-k10-04",
+  "from": "br-3-9",
+  "to": "br-3-8",
   "type": "parallel",
-  "evidence": "Both benches ask what may properly be predicated of the creator and answer it out of the first verse's word order. R. Yudan in the name of Akilas: to this one it is fitting to call God — because he acted first and was named afterwards, unlike a king acclaimed before he has built anything. Remigius: the Father is a beginning, but not from a beginning. The rabbinic argument is about the order of the words in the sentence and the Latin about the order of the persons in God, and both are reading the same three words.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-19",
-  "from": "rupert-gen-1-3-trinitas",
-  "to": "aug-gnl-1-5-11",
+  "id": "t-k10-05",
+  "from": "b-chull-83a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-06",
+  "from": "b-chag-12a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-07",
+  "from": "ambrose-hex-1-10",
+  "to": "lxx-1-5",
+  "type": "echoes",
+  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-08",
+  "from": "ambrose-hex-1-10",
+  "to": "rashi-1-5",
+  "type": "parallel",
+  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-09",
+  "from": "bruno-gen-1-5",
+  "to": "br-3-9",
+  "type": "parallel",
+  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-10",
+  "from": "aug-gnm-1-10",
+  "to": "b-chull-83a",
   "type": "contests",
-  "evidence": "Rupert builds his whole Hexaemeron on the reading Augustine considered and refused. Augustine asks whether the Trinity is to be understood in 'God said, let it be — and God made — and God saw that it was good', and answers that it does not befit the unity of the Trinity for the Son to be understood as making under orders and the Spirit as freely approving. Rupert takes the threefold formula as the Trinity's signature everywhere in the six days, and escapes the objection by making the three words a testimony rather than three offices.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-20",
-  "from": "rupert-gen-1-3-trinitas",
-  "to": "rupert-gen-1-8",
-  "type": "echoes",
-  "evidence": "One design stated twice. At Gen 1:2 the Spirit's brooding is what betters the creature as a bird's warmth betters an egg; here the threefold formula of every day's work is the trace of the creating Trinity, tied to the law of three witnesses. Both are claims about how the chapter was written, not about what happened in it.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-21",
-  "from": "honorius-hex-1",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "Honorius states the triad and then does something Augustine does not: he distributes the works. 'Note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposition of things, to the Holy Spirit the quickening or adorning of all.' That is the appropriation doctrine of the twelfth-century schools laid over the first two verses, and it is the distribution of labour Augustine had warned against.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-22",
-  "from": "glossa-1-2-ruach",
-  "to": "aug-gnl-1-5-11",
-  "type": "cites",
-  "evidence": "The standard gloss on the Spirit clause is Augustine's De Genesi ad litteram I.5 printed under his name, so that what the twelfth-century schoolroom reads on Gen 1:2 is the third term of Augustine's triad in Augustine's own words — the Spirit borne over the waters not by place but as the will of a craftsman is over what he makes, a love that comes not from need but from bounty.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-23",
-  "from": "abelard-hex-1-1-eloim",
-  "to": "aug-gnl-1-5-11",
-  "type": "cites",
-  "evidence": "Abelard names Augustine for the procession — 'the person of the Holy Spirit and of the Father, from whom that Spirit principally proceeds, as blessed Augustine records' — and gets the first half of his Trinity the Augustinian way, out of the sequence of the verses: the Spirit from 'the Spirit of the Lord', the Word from 'God said'. Only then does he turn to the Hebrew noun, which Augustine did not have and could not have used.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-24",
-  "from": "bruno-gen-1-1c",
-  "to": "remigius-gen-1-1c",
-  "type": "echoes",
-  "evidence": "The same identification of the Son with the principium of Gen 1:1 from the same verse of John — 'ego principium qui et loquor vobis' — in Auxerre about 890 and at Segni about 1090. It is the most stable single move on the Latin bench and it is what makes the three-term reading possible at all: without a person in the second word there is no triad to complete.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-25",
-  "from": "aug-gnl-imp-1-2",
-  "to": "br-1-7",
+  "id": "t-k10-11",
+  "from": "ambrose-hex-1-10",
+  "to": "aug-gnm-1-10",
   "type": "parallel",
-  "evidence": "Both texts open their treatment of Genesis by fencing it against a dualism, and both do it before expounding a word. Augustine sets out the catholic faith first, because many heretics drag the Scriptures to their own opinion, and ends by ruling that nothing in the creature belongs to the Trinity except that the Trinity made it. R. Yitzḥak rules that no creature can say that two authorities created the world. The heresies are not the same and the manoeuvre is identical: the first verse is made to exclude a second maker before it is made to say anything else.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-x1",
-  "from": "comestor-hs-1-1",
-  "to": "aug-conf-13-5",
+  "id": "t-k10-12",
+  "from": "hugh-sacr-1-5",
+  "to": "aug-gnm-1-10",
   "type": "echoes",
-  "evidence": "Phase 4. 'Creatus autem est in principio, id est in Filio' is Augustine's second term reduced to an apposition and taught as settled — the riddle of Confessions XIII.5 become a gloss a reader passes over. Written at Phase 4 because `comestor-hs-1-1` was built for K1 and its opening clause belongs to this crux.",
-  "crux": "elohim-and-trinity"
+  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-x2",
-  "from": "b-meg-9a",
-  "to": "lxx-1-1",
+  "id": "t-k10-13",
+  "from": "bruno-gen-1-5",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-14",
+  "from": "bruno-gen-1-5",
+  "to": "targ-psj-1-5",
+  "type": "parallel",
+  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-15",
+  "from": "aug-gnl-4-22",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-16",
+  "from": "aug-gnl-5-18",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-17",
+  "from": "aug-civ-11-7",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-18",
+  "from": "rabanus-gen-1-5",
+  "to": "bede-gen-1-5",
+  "type": "cites",
+  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-19",
+  "from": "alcuin-int-34",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-20",
+  "from": "wigbod-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-21",
+  "from": "wigbod-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "parallel",
+  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-22",
+  "from": "angelom-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "echoes",
+  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-23",
+  "from": "angelom-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-24",
+  "from": "remigius-gen-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-25",
+  "from": "glossa-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-26",
+  "from": "glossa-1-5",
+  "to": "aug-civ-11-7",
+  "type": "parallel",
+  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-27",
+  "from": "honorius-hex-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-28",
+  "from": "honorius-hex-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-29",
+  "from": "comestor-hs-1-5",
+  "to": "bede-gen-1-5",
+  "type": "echoes",
+  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-30",
+  "from": "hugh-sacr-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-31",
+  "from": "abelard-hex-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-32",
+  "from": "rupert-gen-1-5",
+  "to": "bruno-gen-1-5",
+  "type": "parallel",
+  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-33",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "aug-gnl-5-18",
   "type": "contests",
-  "evidence": "Phase 4. The baraita says the seventy-two elders wrote 'God created in the beginning' for Ptolemy, moving the divine name to the front so that bereshit could not be read as a subject. The Septuagint as transmitted has not moved it: en archē epoiēsen ho theos keeps the Hebrew order. The change the rabbinic bench remembers making is not in the Greek the Church inherited, and the Latin reading of the verse stands in the space it would have closed.",
-  "crux": "elohim-and-trinity"
+  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
+  "crux": "one-day-evening-first"
  },
  {
-  "id": "t-k3-x3",
-  "from": "targ-onk-1-1",
-  "to": "br-1-7",
+  "id": "t-k10-34",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "comestor-hs-1-5",
   "type": "parallel",
-  "evidence": "Phase 4. The targum removes the difficulty the midrash has to argue about. Where the Hebrew has the plural-looking Elohim with a singular verb, Onkelos writes YY — the Tetragrammaton, which is not plural in form — so that no reader of the Aramaic could raise the question of two authorities at all. R. Yitzḥak has to answer it three times from the verbs.",
-  "crux": "elohim-and-trinity"
+  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
+  "crux": "one-day-evening-first"
  },
  {
   "id": "t-k7-01",
@@ -1806,6 +1862,374 @@
   "type": "parallel",
   "evidence": "Jerome's incubabat and Rashi's Old French acoveter ('to cover, brood') give the same vernacular sense to merahefet, 700 years apart, with no possible contact. The only place on this crux where the two benches reach the same word.",
   "crux": "ruach-hovering"
+ },
+ {
+  "id": "t-k6-01",
+  "from": "vulgate-1-2",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Jerome renders tohu va-vohu 'inanis et vacua', where the Greek had ἀόρατος καὶ ἀκατασκεύαστος and the Old Latin 'invisibilis et incomposita'. The two Latin lemmas ask different questions — what the earth looked like, and what it lacked — and both are on the bench from the fifth century on.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-02",
+  "from": "aug-gnm-1-3-5",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Augustine's lemma throughout is 'terra invisibilis et incomposita', the Old Latin of the Greek pair; he never quotes Jerome's 'inanis et vacua' on this verse, in the Manichaean books, the Confessions or De Genesi ad litteram.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-03",
+  "from": "basil-hex-2-4",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Basil expounds ἀόρατος καὶ ἀκατασκεύαστος word by word — invisible for two reasons, unordered because not yet fruitful — and Eustathius' Latin keeps the Old Latin pair, so the Greek argument reaches the Latin bench with its lemma intact.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-04",
+  "from": "ambrose-hex-1-7-25",
+  "to": "basil-hex-2-4",
+  "type": "echoes",
+  "evidence": "Basil asks why, of two elements built with equal honour, heaven was complete and the earth still unordered; Ambrose answers with the good craftsman who lays a foundation before he distinguishes the parts and adds the adornment. Ambrose is expounding Basil's Hexaemeron through this book (cf. the Syrian at K7).",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-05",
+  "from": "aug-conf-12-21",
+  "to": "aug-gnm-1-3-5",
+  "type": "echoes",
+  "evidence": "The first of the five readings set out in Confessions XII.21 — 'that bodily thing which God made was still the formless matter of bodily things, without order, without light' — is the answer Augustine had given the Manichaeans thirteen years earlier; in the Confessions it is one true reading among five rather than the reading.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-06",
+  "from": "alcuin-int-30",
+  "to": "lxx-1-2",
+  "type": "transmits",
+  "evidence": "Alcuin's question carries its own source-note, '(Ibid. ex vers. LXX)': he knows the lemma he is glossing is the Septuagint's and not the text his pupils read.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-07",
+  "from": "angelom-gen-1-2-tohu",
+  "to": "alcuin-int-30",
+  "type": "echoes",
+  "evidence": "'Invisa propter obscuritatem, Incomposita propter deformitatem' is Alcuin's answer to Interrogatio 30 word for word, unattributed, with 'invisa' for 'invisibilis' — and Angelomus has moved it inside a discussion of the Vulgate's lemma, where it glosses 'the other translation'.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-08",
+  "from": "angelom-gen-1-2-tohu",
+  "to": "bede-gen-1-2-tohu",
+  "type": "echoes",
+  "evidence": "'quale sit coelum, quod primum condiderat, potest intelligi, videlicet quod ab omni hujus mundi volubili statu secretum … manet semper quietum' is Bede's sentence (PL 91:13C), unnamed; Angelomus reads 'divinae praesentiae' where the Corpus Corporum Bede prints 'divinae gloria praescientiae'.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-09",
+  "from": "glossa-1-2-terra",
+  "to": "bede-gen-1-2-tohu",
+  "type": "cites",
+  "evidence": "The gloss is labelled '(BEDA, Hexaem. tom. II.)' and compresses Bede's paragraph — the two heavens, the upper one filled with angels as soon as it was made, Job 38:7 with the morning stars glossed as the angels — to five sentences.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-10",
+  "from": "glossa-1-2-ruach",
+  "to": "remigius-gen-1-2-tohu",
+  "type": "cites",
+  "evidence": "The gloss Migne prints under '(STRAB.)' on this lemma — 'Inanis et vacua. Inutilis scilicet, et infructuosa, et incomposita. Omnia enim elementa commixta, confusa, et totum hoc aeris spatium aquis plenum; non quales nunc sunt, sed sicut nebulae tenues' — is Remigius of Auxerre at PL 131:55A, verbatim to the last clause about the waters above the heavens.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-11",
+  "from": "comestor-hs-1-2-tohu",
+  "to": "glossa-1-2-ruach",
+  "type": "echoes",
+  "evidence": "'machina mundialis adhuc erat inutilis, et infructuosa, et vacua ornatu suo' keeps two of the Glossa's three adjectives and replaces the third ('incomposita') with a phrase of his own; the subject has moved from the earth to the world-machine.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-12",
+  "from": "wigbod-gen-1-2-tohu",
+  "to": "isidore-quaest-1-2",
+  "type": "cites",
+  "evidence": "'Item spiritaliter: Terra scilicet carnis nostrae inanis et vacua erat, priusquam doctrinae acceperit formam' is Isidore, Quaestiones in Genesim I.2 (PL 83:209B), verbatim.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-13",
+  "from": "wigbod-gen-1-2-tohu",
+  "to": "aug-gnm-1-3-5",
+  "type": "cites",
+  "evidence": "The same compilation prints Augustine's Manichaean paragraph on this verse verbatim at PL 96:1111B under the Old Latin lemma 'terra invisibilis et incomposita', five columns before it asks 'Cur inanis et vacua?' under the Vulgate's. One book, two Latin texts of Gen 1:2, no seam.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-14",
+  "from": "abelard-hex-1-2-tohu",
+  "to": "bede-gen-1-2-tohu",
+  "type": "parallel",
+  "evidence": "Both withhold the pair from heaven on the ground that heaven had its inhabitants from the first: Bede from the silence ('why did he say these things of the earth, passing heaven by?'), Abelard from the adversative conjunction in 'terra AUTEM erat inanis'. Abelard does not name Bede, and the reasons for the angels' being passed over are different.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-15",
+  "from": "abelard-hex-1-2-tohu",
+  "to": "rupert-gen-1-2-tohu",
+  "type": "parallel",
+  "evidence": "The same split of the pair into two privations, sixteen years apart and with the terms distributed differently: Abelard, empty of fruit and void of an inhabitant; Rupert, empty of every shoot and void of all living things. No citation either way.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-16",
+  "from": "hugh-adnot-1-2-tohu",
+  "to": "abelard-hex-1-2-tohu",
+  "type": "parallel",
+  "evidence": "'Inanis a seminibus; vacua a germinibus' is the same operation again with a third distribution — and Hugh then offers a fourth, hollowness and the mist in the hollow, as an alternative in the same breath. The formula is school property by 1130; no one on this crux claims it.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-17",
+  "from": "hugh-sacr-1-1-tohu",
+  "to": "lxx-1-2",
+  "type": "cites",
+  "evidence": "'sive, ut alia translatio habet, « incomposita »' names the variant in the act of expounding the Vulgate — the first place on this bench where a reader is told plainly that the clause exists in two Latin forms.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-18",
+  "from": "hugh-sacr-1-1-tohu",
+  "to": "aug-conf-12-21",
+  "type": "parallel",
+  "evidence": "Hugh's reading — 'heaven and earth' name the matter of all things heavenly and earthly, in which all were created together in essence before they were made one after another in form — is Augustine's fifth reading in Confessions XII.21, reached without citation and stated as the single sense rather than as one of five.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-19",
+  "from": "bruno-gen-1-2-tohu",
+  "to": "br-2-3",
+  "type": "parallel",
+  "evidence": "The same clause read as a periodization of sacred history, from opposite ends. R. Yehuda bar Simon: tohu is Adam, va-vohu is Cain, the darkness is the generation of Enosh, the deep is the Flood, 'let there be light' is Abraham. Bruno: the earth is empty while the Church is without children, the darkness is the unread Scripture, and the emptiness ends when the fullness of the Gentiles has come in and Israel is saved. No contact is possible; the shape is identical and the contents are opposed.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-20",
+  "from": "bruno-gen-1-2-tohu",
+  "to": "isidore-quaest-1-2",
+  "type": "echoes",
+  "evidence": "Isidore's 'terra carnis nostrae', the flesh before it takes the form of doctrine, moved from the soul to the Church: Bruno's 'terra nostra' will no longer be called empty and void when it is inhabited by the fullness of so many sons.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-21",
+  "from": "rashi-1-2a",
+  "to": "br-2-2",
+  "type": "echoes",
+  "evidence": "Rashi's 'tohu is a word for astonishment and desolation, for a person would be astonished and appalled at the bohu in it' is the verb of Bereshit Rabbah 2:2, where the earth sits toheh u-voheh over her lot. The midrash's parable has become a lexical entry, and the one who is astonished has changed from the earth to the reader.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-22",
+  "from": "rashi-1-2a",
+  "to": "targ-onk-1-2",
+  "type": "echoes",
+  "evidence": "Rashi glosses bohu as 'reikut ve-tzadu', emptiness and waste — the two Aramaic words Onkelos uses to render the whole pair, 'tzadya ve-reikanya', in the other order. Rashi's peshat on the pair is the targum's, split between the two Hebrew words.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-23",
+  "from": "ibn-ezra-1-2",
+  "to": "b-chag-12a-tohu",
+  "type": "contests",
+  "evidence": "'Now in Sefer Yetzira: tohu — this is the green line, and bohu — these are the mefulamot stones. What is correct is as the Aramaic translator said.' Ibn Ezra names the tradition the Chagigah baraita carries and sets it aside in favour of Onkelos: the pair is a privation, not two objects.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-24",
+  "from": "ibn-ezra-1-2",
+  "to": "targ-onk-1-2",
+  "type": "cites",
+  "evidence": "'as the Aramaic translator has said' — Onkelos' tzadya ve-reikanya, supported from 'the howling waste of tohu' (Deut 32:10) and 'after tohu' (1 Sam 12:21), where the word means without substance.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-25",
+  "from": "ramban-1-2-tohu",
+  "to": "b-chag-12a-tohu",
+  "type": "echoes",
+  "evidence": "Both build on Isa 34:11, 'the line of tohu and the stones of bohu', and read it as an inventory of what tohu and bohu are. The baraita: a green line encircling the world, and slimy stones sunk in the deep. Ramban: the cord with which the craftsman marks out the plan of his building, and the stones as the forms in it. Ramban cites Sefer Yetzirah by name in the same paragraph, so the tradition is in front of him.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-26",
+  "from": "ramban-1-2-tohu",
+  "to": "rashi-1-2a",
+  "type": "echoes",
+  "evidence": "Ramban quotes the Bahir's R. Berekhya — 'what is tohu? a thing which astonishes people' — which is Rashi's etymology from the same root; but in Ramban the thing that astonishes is the primary matter itself, which cannot hold a name, rather than the sight of an empty land.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-27",
+  "from": "ramban-1-2-tohu",
+  "to": "ibn-ezra-1-2",
+  "type": "contests",
+  "evidence": "Ibn Ezra sets Sefer Yetzirah's green line aside and takes tohu as 'without substance', following Onkelos; Ramban keeps Sefer Yetzirah, cites it approvingly, and makes tohu a substance — the hyle — with bohu for its form. The two commentators Ramban reads side by side on 1:1 divide here on whether the word names anything at all.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-28",
+  "from": "br-2-3",
+  "to": "br-2-1",
+  "type": "echoes",
+  "evidence": "Both hang on Jer 4:23, 'I have seen the land, and behold, it is tohu va-vohu'. The prophet's re-use of the phrase for a land under judgement is what licenses the whole series of historical readings in Bereshit Rabbah 2; no Latin witness on this crux cites Jer 4:23 at all.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k6-x1",
+  "from": "bruno-gen-1-2-tohu",
+  "to": "br-2-4",
+  "type": "parallel",
+  "evidence": "Phase 4. Both read the whole of Gen 1:2 as a periodization of sacred history running to a final redemption, and neither could have known the other. Resh Lakish: tohu is Babylon (Jer 4:23), va-vohu Media, the darkness Greece, the deep Edom, and the spirit hovering is the spirit of the messianic king (Isa 11:2). Bruno of Segni reads the same clause as the ages of the Church. Written at Phase 4 because `br-2-4` was built for K7 and did not carry this crux until then.",
+  "crux": "tohu-vabohu"
+ },
+ {
+  "id": "t-k2-01",
+  "from": "rashi-1-1",
+  "to": "br-1-2",
+  "type": "cites",
+  "evidence": "Rashi's answer is Bereshit Rabbah 1:2 almost entire — Ps 111:6, 'he declared to his people the power of his works, in order to give them the inheritance of the nations'; the nations calling Israel robbers; and Israel's reply that the whole earth belongs to the Holy One, who gave it and took it and gave it again. What Rashi adds, and what makes it the opening of a commentary rather than a piece of polemic, is R. Isaac's premise: the Torah should have begun at Exod 12:2.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-02",
+  "from": "hugh-sacr-prologus",
+  "to": "rashi-1-1",
+  "type": "parallel",
+  "evidence": "The star thread of this crux, and both benches say it about the book they are expounding. R. Isaac: the Torah is Israel's law book and ought to have begun with the first commandment given to Israel, at Exod 12:2. Hugh: the matter of all divine Scripture is the works of restoration, and the works of foundation are the matter of secular writings. Each has ruled that the first chapter of Genesis is not what its book is for, in Troyes and in Paris within fifty years, and each then supplies a reason external to the chapter — a claim on the land, a descent toward the Incarnation.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-03",
+  "from": "m-chag-2-1",
+  "to": "br-1-10",
+  "type": "cites",
+  "evidence": "Bereshit Rabbah reads the Mishnah's four forbidden matters out of the shape of the first letter of the verse: as the bet is closed on its three sides and open at the front, you have no permission to ask what is below, what is above, what was before and what is after. The list is the Mishnah's, item for item and in the same order; what is new is that it is now a property of the text rather than a rule of the school.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-04",
+  "from": "br-1-5a",
+  "to": "m-chag-2-1",
+  "type": "echoes",
+  "evidence": "The Mishnah restricts the audience and the midrash curses the motive. Rav Huna in the name of Bar Kappara reads Ps 31:19 against those who speak 'with arrogance' — is it in order to boast, I am expounding the work of creation? — and 'with contempt', for the honour of the Maker. The Mishnah's closing clause is the same: whoever has no care for the honour of his Maker, it were fitting he had not come into the world.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-05",
+  "from": "br-1-5a",
+  "to": "br-1-10",
+  "type": "echoes",
+  "evidence": "Two fences in one chapter of the same commentary, five sections apart, and both about the same book they are introducing: a curse on those who expound the work of creation for their own honour, and a letter shaped so that the questions before and behind may not be put. Bereshit Rabbah opens by making the case against itself twice.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-06",
+  "from": "aug-gnm-1-1",
+  "to": "m-chag-2-1",
+  "type": "contests",
+  "evidence": "The identical question and the opposite discipline. The Mishnah: whoever looks at what is above, what is below, what is before, what is after, it were fitting for him that he had not come into the world. Augustine, in the chapter following this one: the Manichees ask 'in what beginning? if God made heaven and earth in some beginning of time, what was he doing before he made heaven and earth?' — and he answers it, at length and in the plainest Latin he can manage. On one bench the question is put by a student who must be stopped; on the other by an opponent who must be answered, and being answered it becomes part of the commentary tradition for good.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-07",
+  "from": "aug-gnm-1-1",
+  "to": "br-1-5a",
+  "type": "contests",
+  "evidence": "Both texts stand at the head of an exposition of Genesis 1 and both are about who should be doing the expounding. Bereshit Rabbah: may they be silenced, may they be made mute — is it in order to boast, I am expounding the work of creation? Augustine: since the Manichees pursue the learned and the unlearned alike, the reply must be made not in ornate and polished speech but in plain facts, and educated friends warned him kindly that his earlier books could not be followed by ordinary readers. One tradition's answer to a wide audience is to restrict the teaching; the other's is to change the prose.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-08",
+  "from": "ambrose-hex-1-1b",
+  "to": "rashi-1-1",
+  "type": "contests",
+  "evidence": "The two benches' reasons for the chapter, and they do not meet at any point. Ambrose: Moses spoke not in the persuasion of human wisdom nor in philosophy's counterfeit disputations but as a witness of the divine work, and therefore dared to say 'in the beginning God made heaven and earth'. R. Isaac: the book should have begun at the first commandment, and begins here so that Israel may answer the charge of robbery. One answers from the writer's authority, the other from the reader's need; neither would recognise the other's question as the question.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-09",
+  "from": "ambrose-hex-1-5",
+  "to": "ambrose-hex-1-1b",
+  "type": "echoes",
+  "evidence": "Two answers a few columns apart and they are the two halves of one: Moses could write it because he was a witness of the divine work, and it is worth writing because a work goes on showing its worker after he has fallen silent, as building and weaving do. The first secures the text, the second secures the subject.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-10",
+  "from": "comestor-hs-prologus",
+  "to": "hugh-sacr-prologus",
+  "type": "echoes",
+  "evidence": "Two Paris prologues a generation apart, and the second answers the difficulty the first creates. Hugh has left the works of foundation to secular writings and must explain how Scripture descends through them; Comestor makes history the foundation of the building and allegory the wall that leans upon it, so that beginning with the creation is not a detour but the first course of masonry. Comestor is Hugh's pupil's pupil and the metaphor is doing structural work.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-11",
+  "from": "comestor-hs-prologus",
+  "to": "br-1-5a",
+  "type": "contests",
+  "evidence": "The most complete opposition on the daf, and neither text knows the other exists. Comestor's Scripture is a dining-hall in which the Emperor makes his own drunk so as to render them sober, with a threefold curriculum built on it and a book to follow. Bereshit Rabbah's fifth section curses those who expound the work of creation for their own honour and reserves the concealed matters to the Righteous One. One tradition institutionalises the exposition; the other keeps warning itself against it — and both then produce the exposition anyway.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-12",
+  "from": "hugh-sacr-prologus",
+  "to": "ambrose-hex-1-5",
+  "type": "contests",
+  "evidence": "Ambrose puts the world in the class of works that keep showing their maker when the maker is silent, which makes the creation the natural first subject of any book about God. Hugh assigns the works of foundation to secular writings and keeps the works of restoration for Scripture, which makes it the least natural. The Latin bench holds both, seven hundred years apart, and Hugh does not mention that anyone had thought otherwise.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-13",
+  "from": "br-1-10",
+  "to": "aug-gnm-1-1",
+  "type": "parallel",
+  "evidence": "Both fence the same question from opposite sides at the head of the same chapter. R. Yona in the name of R. Levi: the bet is closed behind, so you may not ask what was before, only from the day the world was created onward. Augustine's opponents ask precisely what was before, and his answer — that no time could pass before God made time, since none can be the maker of times except one who is before times — is the fence rebuilt as an argument. Bar Kappara reaches for Deut 4:32, 'ask now of the early days that were before you, from the day God created man'; Augustine reaches for Titus 1:2, 'before eternal times'. Each has a verse for the boundary and only one of them will say what lies past it.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-14",
+  "from": "rashi-1-1",
+  "to": "m-chag-2-1",
+  "type": "contests",
+  "evidence": "The first sentence of the most-read Jewish commentary on the Torah asks why the book begins with the work of creation, in a tradition whose Mishnah says the work of creation may not be expounded before two. Rashi does not cite the rule and does not need to break it: his answer removes the chapter from the domain the Mishnah is fencing by making it a matter of public law rather than of hidden things — the peoples of the world say, and Israel answers.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-15",
+  "from": "br-1-2",
+  "to": "ambrose-hex-1-5",
+  "type": "parallel",
+  "evidence": "Both make the creation account public evidence, and for opposite audiences. R. Yehoshua of Sikhnin in R. Levi's name: God revealed what was made on each day because of the idolaters, so that Israel could answer the charge of robbery. Ambrose: the world is a specimen of the divine working, so that while the work is seen the worker is put forward, as a building shows its craftsman when he is silent. The rabbinic bench's evidence is a text and its jury is the nations; the Latin bench's evidence is the world and its jury is anyone with eyes.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-x1",
+  "from": "ambrose-hex-1-1b",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "Phase 4. Two halves of Ambrose's first chapter, split between two cruxes. The earlier passage sets out what the philosophers held — Plato's three principles, uncreated and coeternal with God, and the atomists' concourse; this one clears them away in a sentence by making Moses a witness rather than a disputant. The refutation is unintelligible without the doxography that precedes it.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-x2",
+  "from": "hugh-sacr-prologus",
+  "to": "hugh-sacr-1-1-nihilo",
+  "type": "echoes",
+  "evidence": "Phase 4. Hugh sets out in his prologue that the matter of secular writings is the works of foundation, and then, when he reaches the works of foundation himself, opens by refuting the philosophers of the nations who posited three first principles without a beginning — workman, matter and form. The prologue explains why that refutation has to come first: he is on ground he has just assigned to somebody else.",
+  "crux": "why-begin-here"
  },
  {
   "id": "t-k1-01",
@@ -2158,413 +2582,5 @@
   "type": "echoes",
   "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
   "crux": "beginning-of-what"
- },
- {
-  "id": "t-k2-01",
-  "from": "rashi-1-1",
-  "to": "br-1-2",
-  "type": "cites",
-  "evidence": "Rashi's answer is Bereshit Rabbah 1:2 almost entire — Ps 111:6, 'he declared to his people the power of his works, in order to give them the inheritance of the nations'; the nations calling Israel robbers; and Israel's reply that the whole earth belongs to the Holy One, who gave it and took it and gave it again. What Rashi adds, and what makes it the opening of a commentary rather than a piece of polemic, is R. Isaac's premise: the Torah should have begun at Exod 12:2.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-02",
-  "from": "hugh-sacr-prologus",
-  "to": "rashi-1-1",
-  "type": "parallel",
-  "evidence": "The star thread of this crux, and both benches say it about the book they are expounding. R. Isaac: the Torah is Israel's law book and ought to have begun with the first commandment given to Israel, at Exod 12:2. Hugh: the matter of all divine Scripture is the works of restoration, and the works of foundation are the matter of secular writings. Each has ruled that the first chapter of Genesis is not what its book is for, in Troyes and in Paris within fifty years, and each then supplies a reason external to the chapter — a claim on the land, a descent toward the Incarnation.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-03",
-  "from": "m-chag-2-1",
-  "to": "br-1-10",
-  "type": "cites",
-  "evidence": "Bereshit Rabbah reads the Mishnah's four forbidden matters out of the shape of the first letter of the verse: as the bet is closed on its three sides and open at the front, you have no permission to ask what is below, what is above, what was before and what is after. The list is the Mishnah's, item for item and in the same order; what is new is that it is now a property of the text rather than a rule of the school.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-04",
-  "from": "br-1-5a",
-  "to": "m-chag-2-1",
-  "type": "echoes",
-  "evidence": "The Mishnah restricts the audience and the midrash curses the motive. Rav Huna in the name of Bar Kappara reads Ps 31:19 against those who speak 'with arrogance' — is it in order to boast, I am expounding the work of creation? — and 'with contempt', for the honour of the Maker. The Mishnah's closing clause is the same: whoever has no care for the honour of his Maker, it were fitting he had not come into the world.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-05",
-  "from": "br-1-5a",
-  "to": "br-1-10",
-  "type": "echoes",
-  "evidence": "Two fences in one chapter of the same commentary, five sections apart, and both about the same book they are introducing: a curse on those who expound the work of creation for their own honour, and a letter shaped so that the questions before and behind may not be put. Bereshit Rabbah opens by making the case against itself twice.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-06",
-  "from": "aug-gnm-1-1",
-  "to": "m-chag-2-1",
-  "type": "contests",
-  "evidence": "The identical question and the opposite discipline. The Mishnah: whoever looks at what is above, what is below, what is before, what is after, it were fitting for him that he had not come into the world. Augustine, in the chapter following this one: the Manichees ask 'in what beginning? if God made heaven and earth in some beginning of time, what was he doing before he made heaven and earth?' — and he answers it, at length and in the plainest Latin he can manage. On one bench the question is put by a student who must be stopped; on the other by an opponent who must be answered, and being answered it becomes part of the commentary tradition for good.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-07",
-  "from": "aug-gnm-1-1",
-  "to": "br-1-5a",
-  "type": "contests",
-  "evidence": "Both texts stand at the head of an exposition of Genesis 1 and both are about who should be doing the expounding. Bereshit Rabbah: may they be silenced, may they be made mute — is it in order to boast, I am expounding the work of creation? Augustine: since the Manichees pursue the learned and the unlearned alike, the reply must be made not in ornate and polished speech but in plain facts, and educated friends warned him kindly that his earlier books could not be followed by ordinary readers. One tradition's answer to a wide audience is to restrict the teaching; the other's is to change the prose.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-08",
-  "from": "ambrose-hex-1-1b",
-  "to": "rashi-1-1",
-  "type": "contests",
-  "evidence": "The two benches' reasons for the chapter, and they do not meet at any point. Ambrose: Moses spoke not in the persuasion of human wisdom nor in philosophy's counterfeit disputations but as a witness of the divine work, and therefore dared to say 'in the beginning God made heaven and earth'. R. Isaac: the book should have begun at the first commandment, and begins here so that Israel may answer the charge of robbery. One answers from the writer's authority, the other from the reader's need; neither would recognise the other's question as the question.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-09",
-  "from": "ambrose-hex-1-5",
-  "to": "ambrose-hex-1-1b",
-  "type": "echoes",
-  "evidence": "Two answers a few columns apart and they are the two halves of one: Moses could write it because he was a witness of the divine work, and it is worth writing because a work goes on showing its worker after he has fallen silent, as building and weaving do. The first secures the text, the second secures the subject.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-10",
-  "from": "comestor-hs-prologus",
-  "to": "hugh-sacr-prologus",
-  "type": "echoes",
-  "evidence": "Two Paris prologues a generation apart, and the second answers the difficulty the first creates. Hugh has left the works of foundation to secular writings and must explain how Scripture descends through them; Comestor makes history the foundation of the building and allegory the wall that leans upon it, so that beginning with the creation is not a detour but the first course of masonry. Comestor is Hugh's pupil's pupil and the metaphor is doing structural work.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-11",
-  "from": "comestor-hs-prologus",
-  "to": "br-1-5a",
-  "type": "contests",
-  "evidence": "The most complete opposition on the daf, and neither text knows the other exists. Comestor's Scripture is a dining-hall in which the Emperor makes his own drunk so as to render them sober, with a threefold curriculum built on it and a book to follow. Bereshit Rabbah's fifth section curses those who expound the work of creation for their own honour and reserves the concealed matters to the Righteous One. One tradition institutionalises the exposition; the other keeps warning itself against it — and both then produce the exposition anyway.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-12",
-  "from": "hugh-sacr-prologus",
-  "to": "ambrose-hex-1-5",
-  "type": "contests",
-  "evidence": "Ambrose puts the world in the class of works that keep showing their maker when the maker is silent, which makes the creation the natural first subject of any book about God. Hugh assigns the works of foundation to secular writings and keeps the works of restoration for Scripture, which makes it the least natural. The Latin bench holds both, seven hundred years apart, and Hugh does not mention that anyone had thought otherwise.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-13",
-  "from": "br-1-10",
-  "to": "aug-gnm-1-1",
-  "type": "parallel",
-  "evidence": "Both fence the same question from opposite sides at the head of the same chapter. R. Yona in the name of R. Levi: the bet is closed behind, so you may not ask what was before, only from the day the world was created onward. Augustine's opponents ask precisely what was before, and his answer — that no time could pass before God made time, since none can be the maker of times except one who is before times — is the fence rebuilt as an argument. Bar Kappara reaches for Deut 4:32, 'ask now of the early days that were before you, from the day God created man'; Augustine reaches for Titus 1:2, 'before eternal times'. Each has a verse for the boundary and only one of them will say what lies past it.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-14",
-  "from": "rashi-1-1",
-  "to": "m-chag-2-1",
-  "type": "contests",
-  "evidence": "The first sentence of the most-read Jewish commentary on the Torah asks why the book begins with the work of creation, in a tradition whose Mishnah says the work of creation may not be expounded before two. Rashi does not cite the rule and does not need to break it: his answer removes the chapter from the domain the Mishnah is fencing by making it a matter of public law rather than of hidden things — the peoples of the world say, and Israel answers.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-15",
-  "from": "br-1-2",
-  "to": "ambrose-hex-1-5",
-  "type": "parallel",
-  "evidence": "Both make the creation account public evidence, and for opposite audiences. R. Yehoshua of Sikhnin in R. Levi's name: God revealed what was made on each day because of the idolaters, so that Israel could answer the charge of robbery. Ambrose: the world is a specimen of the divine working, so that while the work is seen the worker is put forward, as a building shows its craftsman when he is silent. The rabbinic bench's evidence is a text and its jury is the nations; the Latin bench's evidence is the world and its jury is anyone with eyes.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-x1",
-  "from": "ambrose-hex-1-1b",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "echoes",
-  "evidence": "Phase 4. Two halves of Ambrose's first chapter, split between two cruxes. The earlier passage sets out what the philosophers held — Plato's three principles, uncreated and coeternal with God, and the atomists' concourse; this one clears them away in a sentence by making Moses a witness rather than a disputant. The refutation is unintelligible without the doxography that precedes it.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k2-x2",
-  "from": "hugh-sacr-prologus",
-  "to": "hugh-sacr-1-1-nihilo",
-  "type": "echoes",
-  "evidence": "Phase 4. Hugh sets out in his prologue that the matter of secular writings is the works of foundation, and then, when he reaches the works of foundation himself, opens by refuting the philosophers of the nations who posited three first principles without a beginning — workman, matter and form. The prologue explains why that refutation has to come first: he is on ground he has just assigned to somebody else.",
-  "crux": "why-begin-here"
- },
- {
-  "id": "t-k10-01",
-  "from": "vulgate-1-5",
-  "to": "lxx-1-5",
-  "type": "transmits",
-  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-02",
-  "from": "targ-psj-1-5",
-  "to": "lxx-1-5",
-  "type": "parallel",
-  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-03",
-  "from": "rashi-1-5",
-  "to": "br-3-8",
-  "type": "cites",
-  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-04",
-  "from": "br-3-9",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-05",
-  "from": "b-chull-83a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-06",
-  "from": "b-chag-12a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-07",
-  "from": "ambrose-hex-1-10",
-  "to": "lxx-1-5",
-  "type": "echoes",
-  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-08",
-  "from": "ambrose-hex-1-10",
-  "to": "rashi-1-5",
-  "type": "parallel",
-  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-09",
-  "from": "bruno-gen-1-5",
-  "to": "br-3-9",
-  "type": "parallel",
-  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-10",
-  "from": "aug-gnm-1-10",
-  "to": "b-chull-83a",
-  "type": "contests",
-  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-11",
-  "from": "ambrose-hex-1-10",
-  "to": "aug-gnm-1-10",
-  "type": "parallel",
-  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-12",
-  "from": "hugh-sacr-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-13",
-  "from": "bruno-gen-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-14",
-  "from": "bruno-gen-1-5",
-  "to": "targ-psj-1-5",
-  "type": "parallel",
-  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-15",
-  "from": "aug-gnl-4-22",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-16",
-  "from": "aug-gnl-5-18",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-17",
-  "from": "aug-civ-11-7",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-18",
-  "from": "rabanus-gen-1-5",
-  "to": "bede-gen-1-5",
-  "type": "cites",
-  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-19",
-  "from": "alcuin-int-34",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-20",
-  "from": "wigbod-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-21",
-  "from": "wigbod-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "parallel",
-  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-22",
-  "from": "angelom-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "echoes",
-  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-23",
-  "from": "angelom-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-24",
-  "from": "remigius-gen-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-25",
-  "from": "glossa-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-26",
-  "from": "glossa-1-5",
-  "to": "aug-civ-11-7",
-  "type": "parallel",
-  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-27",
-  "from": "honorius-hex-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-28",
-  "from": "honorius-hex-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-29",
-  "from": "comestor-hs-1-5",
-  "to": "bede-gen-1-5",
-  "type": "echoes",
-  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-30",
-  "from": "hugh-sacr-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-31",
-  "from": "abelard-hex-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-32",
-  "from": "rupert-gen-1-5",
-  "to": "bruno-gen-1-5",
-  "type": "parallel",
-  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-33",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "aug-gnl-5-18",
-  "type": "contests",
-  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-34",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "comestor-hs-1-5",
-  "type": "parallel",
-  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
-  "crux": "one-day-evening-first"
  }
 ]

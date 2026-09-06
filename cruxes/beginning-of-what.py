@@ -62,7 +62,7 @@ add(id="targ-neof-1-1", work="targ-neof", author="targum-neofiti", tradition="ra
 
 # ---------------------------------------------------------------- rabbinic bench
 _BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
-_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True}
+_BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
@@ -135,7 +135,7 @@ def _cut(t, a, b):
 add(id="ramban-1-1", work="ramban-gen", author="ramban", tradition="rabbinic",
     date=1267, date_precision="range-1263-1270", place="girona",
     anchor={"verse": "gen.1.1"}, lemma={"he": "בְּרֵאשִׁית", "en": "In the beginning"},
-    original={"lang": "he", "text": _cut(_ram_he, "בְּרֵאשִׁית כָּתַב רַשִׁ", "וְטָעַן בָּזֶה עוֹד טְעָנוֹת."), "source": "Ramban on Gen 1:1, s.v. בראשית", "license": "cc-by", "version": "Sefaria 'Vocalized Edition'"},
+    original={"lang": "he", "text": _cut(_ram_he, "בְּרֵאשִׁית כָּתַב רַשִׁ", "וְטָעַן בָּזֶה עוֹד טְעָנוֹת."), "source": "Ramban on Gen 1:1, s.v. בראשית", "license": "sefaria-vocalized", "version": "Sefaria 'Vocalized Edition'"},
     english={"text": _cut(_ram_en, "IN THE BEGINNING. Rashi wrote", "And Rashi raised other objections."), "translator": "Charles B. Chavel, 1971–76", "license": "chavel-ramban"},
     cruxes=["beginning-of-what"], senses=["literal"],
     answers=["reshit-construct", "world-has-a-beginning"],
@@ -442,7 +442,24 @@ ANSWERS = {
  "read-it-twice": {"label": "Say the phrase twice", "gloss": "In principio is to be repeated — once in the Son, once at the beginning of time — rather than decided (Comestor)."},
 }
 
+# Phase 6 filled the attribution strings these three keys need. They live here, in the spec file,
+# rather than in data/licenses.json, because build-crux.py merges LICENSES over that file on every
+# rebuild — an edit made only in data/ is silently reverted the next time this crux is built.
 LICENSES = {
- "chavel-ramban": {"label": "Charles B. Chavel's English of Ramban (Shilo, 1971–76), shown as CC BY on Sefaria. [CHECK: surprising for a 1971 text; verify the version page before publication, or replace with a fresh draft]"},
+ "chavel-ramban": {
+  "label": "Charles B. Chavel's English of Ramban, Commentary on the Torah (New York: Shilo, 1971–76) — shown as CC BY on Sefaria",
+  "attribution": "Ramban (Nachmanides), Commentary on the Torah, translated and annotated by Charles B. Chavel (New York: Shilo, 1971–76). Shown as CC BY on Sefaria. Via www.sefaria.org.",
+  "note": "Phase 6 verified what Sefaria asserts, which was the open question, not whether the assertion is right: the v3 API returns license 'CC-BY' for this versionTitle, versionSource nli.org.il. That a 1971–76 Shilo translation is CC BY remains surprising, and that is a rights judgement rather than a metadata question. [CHECK — Wilson's call before publication.] Six witnesses use this key.",
+ },
+ "sefaria-midrash-rabbah": {
+  "label": "The Sefaria Midrash Rabbah, 2022 — CC BY 4.0",
+  "attribution": "The Sefaria Midrash Rabbah, 2022, licensed CC BY 4.0. Managing Editor: Jason Rappoport. Translator: Joshua Schreier. Editors: Michael Siev, Yaacov Francus. Copy-editors: Deborah Meghnagi Bailey, Ilana Sobel. Via www.sefaria.org.",
+  "note": "Filled at Phase 6 from the version record Sefaria's own v3 API returns (versionTitle, license CC-BY, and the credits in versionNotes), not from a boilerplate: Sefaria publishes no separate per-version attribution string, and the credits it ships with the version are the attribution it specifies. Twenty-three witnesses use this key; until Phase 6 they were keyed to the generic cc-by, which carries no attribution line, so the colophon rendered none.",
+ },
+ "sefaria-vocalized": {
+  "label": "Ramban's Hebrew, Sefaria 'Vocalized Edition' — CC BY 4.0",
+  "attribution": "Ramban, Commentary on the Torah, Hebrew: Sefaria 'Vocalized Edition', licensed CC BY 4.0. Via www.sefaria.org.",
+  "note": "Split out of the generic cc-by key at Phase 6 for the same reason as the Midrash Rabbah English: cc-by is also the key on our own fresh drafts and carries no attribution, and CC BY requires one. Six witnesses.",
+ },
 }
 SHORT = "Bereshit / in principio"

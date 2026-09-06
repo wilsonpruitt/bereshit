@@ -11,6 +11,12 @@ Checks:
   5. Every witness's anchor.verse resolves to a verse in data/scripture/gen-1.json.
   6. Every answer id on a witness exists in data/answers.json, and every licence key used by a
      witness exists in data/licenses.json.
+  8. Every licence key a witness uses whose label names CC BY or CC BY-SA (but not CC BY-NC, which
+     is a different licence and is barred from embedding anyway) carries a non-empty
+     "attribution" in data/licenses.json — attribution is a condition of those licences and the
+     colophon renders only what is there. Added at Phase 6, after 23 Sefaria Midrash Rabbah
+     passages and 6 Sefaria Vocalized Ramban passages were found keyed to the generic "cc-by",
+     which is also the key on our own drafts and so carries no attribution line.
   7. No witness has a truncated slice: an original or English shorter than 40 characters, or an
      original under a quarter the length of its English. Added at Phase 6, after br-3-8 was found
      shipping an original of "." — a str.find that returned -1 and was used as a slice index. It
@@ -98,6 +104,13 @@ for wid, w in witnesses.items():
         errors.append(f"witness {wid!r}: english.text is {len(e)} char(s) — {e[:30]!r}. Truncated slice?")
     elif len(o) < 0.25 * len(e):
         errors.append(f"witness {wid!r}: original.text ({len(o)}) is under a quarter of english.text ({len(e)}). Truncated slice?")
+
+# 8. CC BY / CC BY-SA keys in use must carry an attribution string (see the module docstring)
+used_keys = {w.get(f, {}).get("license") for w in witnesses.values() for f in ("original", "english")}
+for k in sorted(x for x in used_keys if x):
+    lab = (licenses.get(k, {}).get("label") or "")
+    if ("CC BY" in lab or "CC-BY" in lab) and "NC" not in lab and not (licenses.get(k, {}).get("attribution") or "").strip():
+        errors.append(f"licence {k!r} ({lab}) is used by a witness and requires attribution, but data/licenses.json gives it no non-empty 'attribution'")
 
 if errors:
     print(f"check.py: {len(errors)} problem(s)")
