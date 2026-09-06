@@ -301,8 +301,16 @@ inbound share-alike, which BY-NC cannot legally sit on top of.
 Labs Vercel project is fine technically. Labs is the default for everything that is not Circuit;
 say so deliberately rather than inheriting it.
 
-Remaining: `git` push to a new repo (Wilson's OK per push), Vercel project, Cloudflare record is
-DNS-only (already added), production deploy on Wilson's per-action OK.
+✅ **Pushed 2026-09-06 on Wilson's per-action OK: https://github.com/wilsonpruitt/bereshit, public,
+branch `main`.** ⚠ Two things learned doing it. The owner is **`wilsonpruitt`**, not the
+`littleeachdayapp-droid` bridge CLAUDE.md still names — `gh auth status` prints the old label and
+only `gh api user --jq .login` is truthful, and an owner-prefixed `gh repo create` 404s on the
+stale name. And the first push died with `RPC failed; HTTP 400`; `git config http.postBuffer
+524288000` fixed it and is now set on this repo.
+
+Remaining: Vercel project (**Labs team**, deliberately — see above), Cloudflare record is DNS-only
+(already added), production deploy on Wilson's per-action OK. **Merging and pushing are not
+deploying; the deploy gets its own OK.**
 
 ## Phase 8 — Fable, once
 
