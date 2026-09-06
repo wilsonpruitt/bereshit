@@ -1264,3 +1264,65 @@ crux `summary` still frames the question as one about the word *Elohim*; on the 
 crux is about plural speech about God, of which the noun is one case and the verb another. (3)
 The answer `elohim-is-honorific-plural` reads as Ibn Ezra's whole position and, after `t-k3-54`,
 is only half of it.
+
+## Ruling executed, 2026-09-05 — and the K1 review that came with it
+
+**Wilson said go.** Three things done, one thing reviewed and found not to need doing, one small
+thing newly escalated.
+
+**Done.**
+1. **K3's `finding` amended.** The drafted paragraph is in, as a fourth paragraph rather than as a
+   replacement for the third. ⚠ **This is a deviation from what was approved and it is flagged
+   here because the drafting error was mine.** The proposal said "replace the third and last
+   paragraph"; what it did not say is that the third paragraph carries the Megillah 9a material —
+   the seventy-two elders moving the divine name and turning *na'aseh* singular for Ptolemy —
+   which nothing else on the daf states. Deleting it would have been a silent loss Wilson was not
+   told he was approving. The three existing paragraphs are accurate about Gen 1:1 and stand; the
+   new one opens by naming exactly what changes ("At Gen 1:1 nobody is answering anybody. One
+   verse over, at *Faciamus hominem*, they are"). **Say the word and the third paragraph goes.**
+2. **The crux `summary` replaced.** It had read "Megillah 9a is a Jewish witness to a Greek
+   interpretive move that reaches the Latin bench through the Vetus Latina" — true, and no longer
+   the headline. It now reads: "One question asked of two different plurals — the noun *Elohim* at
+   Gen 1:1 and the verb *na'aseh* at Gen 1:26 — and the second is where the two benches turn out to
+   be arguing with each other rather than past each other." ⚠ **Correction to what was escalated:**
+   the item said the crux's `question` still framed this as being about the word *Elohim*. It does
+   not — the `question` already read "what do grammar and word order say about plurality?" and was
+   general enough. Only the `summary` needed the change.
+3. **`elohim-is-honorific-plural` re-glossed** to say that the honorific plural is Ibn Ezra's
+   account of the **noun**, and to point at `plural-of-majesty-refused` for what he does to the
+   same reading of the **verb**.
+
+**Reviewed, and it needs nothing.** K1's finding does not say "no contact either way" and has not
+said it since Phase 6 part one: the Chalcidius amendment is already in it, and the sentence that
+carries the claim is already hedged — "Neither side knows the other is there … which is what the
+Latin bench looks like from the inside, **and is not the whole truth**" — before the amendment
+corrects it outright. The phrase I remembered is from the PHASES.md escalation note, not from the
+finding. Nothing in the Gen 1:26 block contradicts K1: its claim is about *bereshit / in principio*
+specifically, that both benches reach "in wisdom" from different proof texts, and the Prov 8:22 /
+Ps 104:24 split that proves it is untouched.
+
+## ⚠ Newly escalated, one paragraph, not executed — an addition to K1
+
+The Gen 1:26 block **strengthens** K1's finding by documenting its mechanism a second time, in a
+different century and through a different text, and K1 does not know it yet. K1 says the contact
+existed at the head of the tradition and the Latin transmission lost it: Chalcidius has Origen
+persuaded *ab Hebraeis*, quoting the rabbinic bench's own verse, and nothing downstream carries it.
+That is one channel. Basil is a second, and it fails the same way. Eustathius's Latin *Hexaemeron*
+— which is how the entire Latin west read Basil — carries an **accurate report of the rabbinic
+reading of Gen 1:26**, *ferunt enim, quod angelis dixerit: Faciamus hominem*, which is what Targum
+Pseudo-Jonathan prints. Bede copies the passage at Jarrow, keeps the sentence about the preaching
+of the Godhead lying hidden in the deep word for word, and **removes every Jew in it**, replacing
+the polemic with a *ratio*; Rabanus copies Bede at Fulda and Angelomus at Luxeuil, and by the
+Glossa the reading survives only at Gen 11:7, unattributed. So the same thing happens twice: a
+fourth-century Latin text reports what the other bench actually says, and the copying tradition
+keeps the argument and drops the knowledge that there was anyone to argue with.
+
+**Proposed, as one added sentence at the end of K1's finding — yes or no:**
+
+> The same loss happens a second time and in the other direction. Basil's Latin *Hexaemeron*
+> carries an accurate report of the rabbinic reading of Gen 1:26 — *ferunt enim, quod angelis
+> dixerit: Faciamus hominem*, which is what Targum Pseudo-Jonathan prints in the biblical line —
+> and Bede copies the passage at Jarrow keeping every sentence of the argument and removing every
+> Jew in it, Rabanus and Angelomus copy Bede, and by the twelfth century the reading survives in
+> the Gloss only at Babel and with nobody's name on it. Twice, then, and by two unrelated routes,
+> the Latin bench was handed the other bench's words and kept only the answer.

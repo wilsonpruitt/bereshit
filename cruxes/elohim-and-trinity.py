@@ -250,7 +250,30 @@ FINDING = (
  "order and whose Gen 1:26 keeps the plural. So the Latin reading of both verses stands in exactly "
  "the space the elders are said to have closed — and Bruno of Segni, refuting it at Segni about "
  "1090, refuses the plurality in the rabbinic bench's own words: was he speaking to the angels? God "
- "forbid, for otherwise there would be not one creator but many."
+ "forbid, for otherwise there would be not one creator but many.\n\n"
+ # Phase 6 part three, 2026-09-05: Wilson's ruling on the escalation in notes/SOURCES-FINDINGS.md.
+ # The first three paragraphs stand — they are accurate about Gen 1:1, and the third carries the
+ # Megillah 9a material nothing else on the daf states. What was false was the finding's silence
+ # about the other verse, and this paragraph is what the Gen 1:26 block showed.
+ "At Gen 1:1 nobody is answering anybody. One verse over, at Faciamus hominem, they are, and the "
+ "daf now carries the evidence. Basil reports the rabbinic reading by name — ferunt enim, quod "
+ "angelis dixerit: Faciamus hominem — and it is what Targum Pseudo-Jonathan prints in the biblical "
+ "line itself; he refutes it with Fecit Deus hominem: non fecerunt, which is R. Simlai's own proof "
+ "at Bereshit Rabbah 8:9 turned around. Bereshit Rabbah 8:8 has Moses stop while writing the verse "
+ "to ask why God is giving the minim an opening, and is told to write it and let whoever wants to "
+ "err, err. So on this verse each bench knows what the other does with the words and says so, "
+ "which is not true of the first verse at all. The deeper contact is the one neither side could "
+ "have arranged. R. Yoḥanan at b. Sanhedrin 38b lists the plural verses with their singular "
+ "refutations beside them, and the first two are Gen 1:26 answered by Gen 1:27 and Gen 11:7 "
+ "answered by Gen 11:5; Augustine's De civitate Dei XVI.6, in a chapter headed de locutione qua "
+ "Deus Angelis loquitur, takes the same two verses in the same order and applies the same test, "
+ "refusing the angels at the first because of the image clause and granting them at the second "
+ "because nothing forbids it; and the Glossa Ordinaria joins the same pair at PL 113:114D. Three "
+ "benches choose the same two verses out of the Pentateuch by the same criterion and test them the "
+ "same way, and none of them has read another. The pairing is not borrowed. It is what the Hebrew "
+ "does to anyone who reads it carefully, and the disagreement that remains is only about what the "
+ "plural was doing there — a court of angels, a plurality of persons, the earth beside its maker, "
+ "or nothing at all."
 )
 
 # ---------------------------------------------------------------- new persons / places / answers
@@ -265,7 +288,7 @@ PLACES = {}
 ANSWERS = {
  "one-authority-singular-verb": {"label": "The verb is singular, so one maker", "gloss": "Not vaydaberu but vaydaber, not bare'u but bara — no one may say that two authorities created the world (Bereshit Rabbah 1:7; Ibn Ezra; and, to the opposite end, Abelard)."},
  "elohim-is-plural-of-persons": {"label": "Eloim is plural: three persons", "gloss": "El is singular and Eloim plural, showing a diversity of persons each of which is God; the singular verb shows that they are one creator and their works undivided (Abelard)."},
- "elohim-is-honorific-plural": {"label": "A plural of honour", "gloss": "Every language honours the great with a plural — adonim, be'alim, the king speaking of himself in Arabic — so Elohim is the plural of eloah and means nothing more (Ibn Ezra)."},
+ "elohim-is-honorific-plural": {"label": "A plural of honour", "gloss": "Every language honours the great with a plural — adonim, be'alim, the king speaking of himself in Arabic — so Elohim is the plural of eloah and means nothing more (Ibn Ezra). This is his account of the NOUN. He refuses the same reading of the plural VERB at Gen 1:26, where Saadia offers it to him: see plural-of-majesty-refused."},
  "elohim-is-plural-of-powers": {"label": "The force of all forces", "gloss": "El hem: the root el is force, and 'they' points to all the other forces, so Elohim is the master of them all — with a secret not disclosed (Ramban)."},
  "trinity-in-the-triad": {"label": "Father, Beginning, Spirit", "gloss": "The three persons are named in order across the first two verses: God the Father, the Beginning who is the Son, the Spirit borne over the waters (Augustine, Basil, Ambrose, Bede, Bruno, Honorius, the Glossa)."},
  "trinity-in-the-formula": {"label": "The threefold formula of the six days", "gloss": "God said — and it was so — and God made: the testimony is tripled everywhere because the creating Trinity works everywhere (Rupert; considered and refused by Augustine)."},

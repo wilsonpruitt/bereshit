@@ -533,3 +533,14 @@ ma'alah* = "the household above"; *sanqlitin* given as "senators" with the Greek
 brief itself and is worth keeping: **the survey had been run in a previous session, so this session
 did roster judgement, slicing and drafting and no discovery.** The one thing the survey could not
 do was find the witness whose vocabulary it did not share.
+
+**Wilson's ruling on the escalation, 2026-09-05 — executed.** K3's `finding` amended (the drafted
+paragraph added as a fourth, **not** as a replacement for the third, which carries the Megillah 9a
+material nothing else states — flagged in `notes/SOURCES-FINDINGS.md`, reversible on a word); the
+crux `summary` replaced, since it still headlined Megillah 9a; `elohim-is-honorific-plural`
+re-glossed as Ibn Ezra's account of the *noun* only. **K1 reviewed and needs nothing** — it has not
+said "no contact either way" since Phase 6 part one, when the Chalcidius amendment went in, and
+nothing in the Gen 1:26 block touches its Prov 8:22 / Ps 104:24 split. ⚠ **One sentence newly
+escalated for K1**: Basil's Latin *Hexaemeron* is a second channel that fails exactly as Chalcidius
+did — it carries an accurate report of the rabbinic reading of Gen 1:26, and Bede copies it keeping
+the whole argument and removing every Jew in it. Drafted at the end of `notes/SOURCES-FINDINGS.md`.
