@@ -36,7 +36,7 @@ def _raw(f, lang, idx=None):
     return _flat(t), v["versionTitle"]
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="rashi-1-1", work="rashi-gen", author="rashi", tradition="rabbinic",
@@ -56,7 +56,7 @@ add(id="rashi-1-1", work="rashi-gen", author="rashi", tradition="rabbinic",
 add(id="br-1-2", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "כֹּחַ מַעֲשָׂיו הִגִּיד לְעַמּוֹ", "en": "the power of his deeds he told to his people"},
-    original={"lang": "he", "text": _raw("br-1-he.json", "he", 1)[0], "source": "Bereshit Rabbah 1:2 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": _raw("br-1.json", "he", 1)[0], "source": "Bereshit Rabbah 1:2 (Vilna numbering)", **_BR_SRC},
     english={"text": _raw("br-1.json", "en", 1)[0], **_BR_EN},
     tradents=["r-yehoshua-of-sikhnin", "r-levi"],
     cruxes=["why-begin-here"], senses=["literal"],
@@ -66,7 +66,7 @@ add(id="br-1-2", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-5a", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "תֵּאָלַמְנָה שִׂפְתֵי שָׁקֶר", "en": "may they be silenced, those lying lips"},
-    original={"lang": "he", "text": hcut(_raw("br-1-he.json", "he", 4)[0], "רַב הוּנָא בְּשֵׁם בַּר קַפָּרָא פָּתַח",
+    original={"lang": "he", "text": hcut(_raw("br-1.json", "he", 4)[0], "רַב הוּנָא בְּשֵׁם בַּר קַפָּרָא פָּתַח",
                                          "מָה רַב טוּבְךָ", "K2 br-1-5a he"),
               "source": "Bereshit Rabbah 1:5, first half (Vilna numbering)", **_BR_SRC},
     english={"text": hcut(_raw("br-1.json", "en", 4)[0], "Rav Huna began in the name of bar Kapara",
@@ -79,7 +79,7 @@ add(id="br-1-5a", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-10", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "לָמָּה נִבְרָא הָעוֹלָם בְּבֵי\"ת", "en": "why was the world created with a bet?"},
-    original={"lang": "he", "text": _raw("br-1-he.json", "he", 9)[0], "source": "Bereshit Rabbah 1:10 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": _raw("br-1.json", "he", 9)[0], "source": "Bereshit Rabbah 1:10 (Vilna numbering)", **_BR_SRC},
     english={"text": _raw("br-1.json", "en", 9)[0], **_BR_EN},
     tradents=["r-yona", "r-levi", "bar-kappara", "r-shimon-b-pazi"],
     cruxes=["why-begin-here"], senses=["literal", "spiritual"],

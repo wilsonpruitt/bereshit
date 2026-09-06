@@ -1,0 +1,42 @@
+{
+ "id": "br-3-6c",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "he": "וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+  "en": "and to the darkness he called Night"
+ },
+ "original": {
+  "lang": "he",
+  "text": "א\"ר אלעזר לעולם אין הקדוש ברוך הוא מיחד שמו על הרעה אלא על הטובה \"וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם\" ולחושך קרא אלהים לילה אין כתיב כאן אלא \"וְלַחֹשֶׁךְ קָרָא לַיְלָה",
+  "source": "Bereshit Rabbah 3:6, R. Elazar on the withheld name (Vilna numbering)",
+  "license": "cc-by-sa",
+  "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"
+ },
+ "english": {
+  "text": "Rabbi Elazar said: The Holy One blessed be He never associates His name with the bad, but only with the good. “God called the light, Day and to the darkness God called night” is not written here, but rather, “to the darkness He called night.”",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "sefaria-midrash-rabbah",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-elazar"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-withheld"
+ ],
+ "notes": "Split out of `br-3-6b` at Phase 6, and it should always have stood alone: this is the single rabbinic argument that the Latin bench matches technique for technique, and it was buried at the end of a seven-tradent card. R. Elazar reads a silence in the syntax. It is not written 'and to the darkness GOD called night' but 'and to the darkness he called night' — the divine name is present at the naming of the day and absent at the naming of the night, and the Holy One never joins his name to the bad but only to the good. Augustine notices the mirror-image silence in the Latin at Civ. XI.20 — 'and God saw that it was good' stands before the division on day one and after it on day four — and draws the same conclusion, that the placing is deliberate lest both should be called good when one of them was evil. Neither could have read the other. That is the star thread of this crux (t-k9-01) and it now points at the argument itself rather than at the block that contained it."
+}

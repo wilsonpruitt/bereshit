@@ -35,13 +35,13 @@ add(id="vulgate-1-3", work="vulgate", author="jerome", tradition="latin",
     notes="Four words that carry the crux: the light is made on the first day, the sun on the fourth, and Scripture never says what this light is. Every witness on both benches is answering a question the verse creates by silence.")
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-3-4", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.3"}, lemma={"he": "מֵהֵיכָן נִבְרֵאת הָאוֹרָה", "en": "from what was the light created"},
-    original={"lang": "he", "text": sef("br-3", "he", 3, he_file="br-3-he.json")[0], "source": "Bereshit Rabbah 3:4 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-3", "he", 3)[0], "source": "Bereshit Rabbah 3:4 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-3", "en", 3)[0], **_BR_EN},
     tradents=["r-shimon-b-yehotzadak", "r-shmuel-b-nachman", "r-berekhya", "r-yitzchak"],
     cruxes=["first-light"], senses=["allegorical", "literal"],
@@ -54,11 +54,17 @@ add(id="br-3-6", work="br", author="bereshit-rabbah", tradition="rabbinic",
     # Phase 4 (2026-09-05): trimmed to the first half. K9 found that this slice took the whole Sefaria
     # segment, including the va-yavdel block that is K9's core text and is now built as `br-3-6b`.
     # Two distinct arguments on two clauses were on one card, which the frozen rule forbids.
-    original={"lang": "he", "text": hcut(sef("br-3", "he", 5, he_file="br-3-he.json")[0],
-                                        "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם, לֹא הוּא אוֹר",
+    # ⚠ Phase 6: the Hebrew moved to the Wikisource recension, which does NOT have the opening
+    # question — «ויקרא אלהים לאור יום, לא הוא אור ולא הוא יום, אתמהא» — that Torat Emet prints and
+    # that Sefaria's English still translates ("are light and day not the same thing? This is
+    # bewildering"). Both sides are therefore cut to the material the two recensions share, and the
+    # English now opens at "It is taught" rather than at the lemma. The missing question is a real
+    # divergence between the recensions, not a slicing loss; see notes/SOURCES-FINDINGS.md.
+    original={"lang": "he", "text": hcut(sef("br-3", "he", 5)[0],
+                                        "תְּנִי אוֹרָה שֶׁנִּבְרֵאת בְּשֵׁשֶׁת יְמֵי בְרֵאשִׁית",
                                         "שֶׁהִשְׁפִּיעַ לָהֶן הַקָּדוֹשׁ בָּרוּךְ הוּא אוֹרָה.", "K8 br-3-6 he"),
-              "source": "Bereshit Rabbah 3:6, first half (Vilna numbering)", **_BR_SRC},
-    english={"text": hcut(sef("br-3", "en", 5)[0], "“God called the light, Day”",
+              "source": "Bereshit Rabbah 3:6, the stored light (Vilna numbering)", **_BR_SRC},
+    english={"text": hcut(sef("br-3", "en", 5)[0], "It is taught: The light that was created",
                           "the Holy One blessed be He conferred extra light upon them.", "K8 br-3-6 en"), **_BR_EN},
     tradents=["r-nechemya"],
     cruxes=["first-light"], senses=["literal", "allegorical"],

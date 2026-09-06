@@ -114,45 +114,6 @@
   ]
  },
  {
-  "slug": "br-1",
-  "ref": "Bereshit_Rabbah.1",
-  "title": "Bereshit Rabbah 1",
-  "versions": [
-   {
-    "lang": "en",
-    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
-    "license": "CC-BY",
-    "segments": 15
-   }
-  ]
- },
- {
-  "slug": "br-2",
-  "ref": "Bereshit_Rabbah.2",
-  "title": "Bereshit Rabbah 2",
-  "versions": [
-   {
-    "lang": "en",
-    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
-    "license": "CC-BY",
-    "segments": 5
-   }
-  ]
- },
- {
-  "slug": "br-3",
-  "ref": "Bereshit_Rabbah.3",
-  "title": "Bereshit Rabbah 3",
-  "versions": [
-   {
-    "lang": "en",
-    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
-    "license": "CC-BY",
-    "segments": 9
-   }
-  ]
- },
- {
   "slug": "rashi-gen-1",
   "ref": "Rashi_on_Genesis.1.1-5",
   "title": "Rashi on Genesis 1:1-5",
@@ -313,6 +274,63 @@
     "versionTitle": "Wikisource Talmud Bavli",
     "license": "CC-BY-SA",
     "segments": 16
+   }
+  ]
+ },
+ {
+  "slug": "br-1",
+  "ref": "Bereshit_Rabbah.1",
+  "title": "Bereshit Rabbah 1",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Wikisource Bereshit Rabbah",
+    "license": "CC-BY-SA",
+    "segments": 15
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
+    "license": "CC-BY",
+    "segments": 15
+   }
+  ]
+ },
+ {
+  "slug": "br-2",
+  "ref": "Bereshit_Rabbah.2",
+  "title": "Bereshit Rabbah 2",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Wikisource Bereshit Rabbah",
+    "license": "CC-BY-SA",
+    "segments": 5
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
+    "license": "CC-BY",
+    "segments": 5
+   }
+  ]
+ },
+ {
+  "slug": "br-3",
+  "ref": "Bereshit_Rabbah.3",
+  "title": "Bereshit Rabbah 3",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Wikisource Bereshit Rabbah",
+    "license": "CC-BY-SA",
+    "segments": 9
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
+    "license": "CC-BY",
+    "segments": 9
    }
   ]
  }

@@ -68,6 +68,41 @@ def sef(slug, lang, idx=None, he_file=None):
     return flat(t), v["versionTitle"], v.get("license")
 
 _NIQQUD = re.compile(r"[\u0591-\u05C7]")
+
+# Phase 6: the Bereshit Rabbah Hebrew moved from Torat Emet (vocalized, abbreviations expanded,
+# licence asserted) to Wikisource (CC BY-SA, unvocalized, abbreviations printed). An anchor retyped
+# from one will not match the other on the consonantal skeleton alone: א"ר stands for אמר רבי, and
+# plene/defective spelling varies freely (מיחד/מייחד, ולחשך/ולחושך). _HFUZZ is the fallback used
+# only when the exact skeleton match fails, and it must match UNIQUELY or hcut refuses it.
+_ABBR = [('א"ר', "אמר רבי"), ("ר'", "רבי"), ('רשב"י', "רבי שמעון בן יוחאי"),
+         ('הקב"ה', "הקדוש ברוך הוא"), ('ר"ש', "רבי שמעון"), ("שנא'", "שנאמר"),
+         ('אר"י', "אמר רבי יהודה"), ('ב"ו', "בשר ודם"), ('ד"א', "דבר אחר")]
+def _hfuzz_map(bare):
+    """Fuzz a consonants-only Hebrew string and return (fuzzed, index) where index[k] is the offset
+    in `bare` that produced fuzzed[k]. Abbreviations expand to several letters, so the map cannot be
+    built character by character — that was the first attempt and it silently failed to expand any
+    multi-letter abbreviation at all."""
+    out, idx, i = [], [], 0
+    while i < len(bare):
+        for a, b in _ABBR:
+            a_bare = re.sub(r"[^\u05d0-\u05ea\"']", "", a)
+            if a_bare and bare.startswith(a_bare, i):
+                for ch in b:
+                    if "\u05d0" <= ch <= "\u05ea" and ch not in "\u05d5\u05d9":
+                        out.append(ch); idx.append(i)
+                i += len(a_bare); break
+        else:
+            ch = bare[i]
+            if "\u05d0" <= ch <= "\u05ea" and ch not in "\u05d5\u05d9":
+                out.append(ch); idx.append(i)
+            i += 1
+    return "".join(out), idx
+
+def _hfuzz(s):
+    """The same normalisation for a short anchor, where no offset map is needed."""
+    bare = re.sub(r"[^\u05d0-\u05ea\"']", "", _NIQQUD.sub("", s))
+    return _hfuzz_map(bare)[0]
+
 def hcut(t, a, b=None, label="hcut"):
     """Slice vocalized Hebrew between two anchors, matching on the consonantal skeleton: Sefaria's
     pointed text and any anchor retyped through a terminal differ in combining-mark order, so a
@@ -80,14 +115,29 @@ def hcut(t, a, b=None, label="hcut"):
     Phase 6 found it."""
     bare = _NIQQUD.sub("", t)
     back = [k for k, ch in enumerate(t) if not _NIQQUD.match(ch)]
-    a = _NIQQUD.sub("", a)
-    i = bare.find(a)
-    if i < 0: raise SystemExit(f"{label}: start anchor not found: {a!r}")
+
+    def locate(anchor, frm, which):
+        i = bare.find(_NIQQUD.sub("", anchor), frm)
+        if i >= 0: return i, len(_NIQQUD.sub("", anchor))
+        # Fallback for a text in a different orthography (see _hfuzz_map above).
+        fz, idx = _hfuzz_map(bare)
+        fa = _hfuzz(anchor)
+        if not fa: raise SystemExit(f"{label}: {which} anchor has no Hebrew letters: {anchor!r}")
+        hits = [m.start() for m in re.finditer(re.escape(fa), fz)]
+        hits = [h for h in hits if idx[h] >= frm]
+        if not hits:
+            raise SystemExit(f"{label}: {which} anchor not found, exactly or fuzzily: {anchor!r}")
+        if len(hits) > 1:
+            raise SystemExit(f"{label}: {which} anchor matches {len(hits)} places under orthographic "
+                             f"normalisation and so is not safe to use — lengthen it: {anchor!r}")
+        h = hits[0]
+        end = idx[min(h + len(fa) - 1, len(idx) - 1)]
+        return idx[h], end - idx[h] + 1
+
+    i, alen = locate(a, 0, "start")
     if b is None: return t[back[i]:].strip()
-    b = _NIQQUD.sub("", b)
-    j = bare.find(b, i)
-    if j < 0: raise SystemExit(f"{label}: end anchor not found: {b!r}")
-    return t[back[i]:back[j + len(b) - 1] + 1].strip()
+    j, blen = locate(b, i + alen, "end")
+    return t[back[i]:back[j + blen - 1] + 1].strip()
 
 def ecut(t, a, b=None, label="ecut"):
     """The same guarded slice for a non-Hebrew (English/Latin) string: raises instead of returning

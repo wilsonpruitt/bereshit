@@ -37,13 +37,13 @@ def _raw(f, lang, idx=None):
     return _flat(t), v["versionTitle"]
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-7", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "בְּרֵאשִׁית בָּרְאוּ אֱלֹהִים, אֵין כְּתִיב כָּאן", "en": "'In the beginning the gods created' is not written here"},
-    original={"lang": "he", "text": _raw("br-1-he.json", "he", 6)[0], "source": "Bereshit Rabbah 1:7 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": _raw("br-1.json", "he", 6)[0], "source": "Bereshit Rabbah 1:7 (Vilna numbering)", **_BR_SRC},
     english={"text": _raw("br-1.json", "en", 6)[0], **_BR_EN},
     tradents=["r-yitzchak"],
     cruxes=["elohim-and-trinity"], senses=["literal"],
@@ -53,7 +53,7 @@ add(id="br-1-7", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-12", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "בְּרֵאשִׁית בָּרָא, וְאַחַר כָּךְ אֱלֹהִים", "en": "'In the beginning created', and only then 'God'"},
-    original={"lang": "he", "text": _raw("br-1-he.json", "he", 11)[0], "source": "Bereshit Rabbah 1:12 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": _raw("br-1.json", "he", 11)[0], "source": "Bereshit Rabbah 1:12 (Vilna numbering)", **_BR_SRC},
     english={"text": _raw("br-1.json", "en", 11)[0], **_BR_EN},
     tradents=["r-yudan", "akilas", "ben-azzai"],
     cruxes=["elohim-and-trinity"], senses=["literal"],

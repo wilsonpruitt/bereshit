@@ -20,13 +20,13 @@ WITNESSES = []
 def add(**kw): WITNESSES.append(kw)
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-2-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.2"}, lemma={"he": "גַּם בְּמַעֲלָלָיו יִתְנַכֶּר נָעַר", "en": "even a boy is known by his deeds"},
-    original={"lang": "he", "text": sef("br-2", "he", 0, he_file="br-2-he.json")[0], "source": "Bereshit Rabbah 2:1 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-2", "he", 0)[0], "source": "Bereshit Rabbah 2:1 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-2", "en", 0)[0], **_BR_EN},
     tradents=["r-berekhya"],
     cruxes=["tohu-vabohu"], senses=["allegorical"],
@@ -36,7 +36,7 @@ add(id="br-2-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-2-2", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.2"}, lemma={"he": "תּוֹהָה וּבוֹהָה", "en": "bewildered and astonished"},
-    original={"lang": "he", "text": sef("br-2", "he", 1, he_file="br-2-he.json")[0], "source": "Bereshit Rabbah 2:2 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-2", "he", 1)[0], "source": "Bereshit Rabbah 2:2 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-2", "en", 1)[0], **_BR_EN},
     tradents=["r-abahu", "r-yehuda-b-simon"],
     cruxes=["tohu-vabohu"], senses=["allegorical"],
@@ -46,7 +46,7 @@ add(id="br-2-2", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-2-3", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.2"}, lemma={"he": "פָּתַר קְרָיָא בַּדּוֹרוֹת", "en": "he interpreted the verse of the generations"},
-    original={"lang": "he", "text": sef("br-2", "he", 2, he_file="br-2-he.json")[0], "source": "Bereshit Rabbah 2:3 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-2", "he", 2)[0], "source": "Bereshit Rabbah 2:3 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-2", "en", 2)[0], **_BR_EN},
     tradents=["r-yehuda-b-simon"],
     cruxes=["tohu-vabohu"], senses=["allegorical"],

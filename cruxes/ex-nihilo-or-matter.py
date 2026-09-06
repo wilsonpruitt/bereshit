@@ -47,14 +47,14 @@ ANSWERS = {
 LICENSES = {}
 
 # ================================================================ rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-5b", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"},
     lemma={"he": "מִנַּיִן הֵן", "en": "From what were they?"},
-    original={"lang": "he", "text": hcut(sef("br-1", "he", 4, he_file="br-1-he.json")[0],
+    original={"lang": "he", "text": hcut(sef("br-1", "he", 4)[0],
                                          "בְּנֹהַג שֶׁבָּעוֹלָם מֶלֶךְ בָּשָׂר וָדָם בּוֹנֶה פָּלָטִין",
                                          "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ.", "K4 br-1-5b he"),
               "source": "Bereshit Rabbah 1:5 (Vilna numbering), second half", **_BR_SRC},
@@ -69,7 +69,7 @@ add(id="br-1-9", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"},
     lemma={"he": "אֱלֹהֶיךָ צַיָּר גָּדוֹל הָיָה", "en": "Your God was a great artist"},
-    original={"lang": "he", "text": sef("br-1", "he", 8, he_file="br-1-he.json")[0],
+    original={"lang": "he", "text": sef("br-1", "he", 8)[0],
               "source": "Bereshit Rabbah 1:9 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-1", "en", 8)[0], **_BR_EN},
     tradents=["the-philosopher", "rabban-gamliel"],

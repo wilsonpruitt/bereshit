@@ -53,7 +53,7 @@ add(id="targ-psj-1-5", work="targ-psj", author="targum-pseudo-jonathan", traditi
     notes="Two things at once. The targum keeps the cardinal, yoma chad, as Onkelos does. And it supplies a reason for the pair that no Hebrew word demands: day is for labour, night for rest. Etheridge's 1862 English prints 'the First Day' — a translator taking the side of the ordinal, exactly as the WEB does — so the cardinal is restored here in a fresh draft. **Corrected at Phase 6**: this was written as though the ordinal were Etheridge's response to the expansive targum. It is not. His Onkelos, fetched from archive.org because Sefaria's Etheridge has no Genesis 1, prints 'Day the First' for the same Aramaic yoma chad, and 'the Second Day' after it — so the ordinal is a habit of the translator applied evenly, not a judgement about this text.")
 
 # ---------------------------------------------------------------- rabbinic bench
-br8_he, _, _ = sef("br-3", "he", 7, he_file="br-3-he.json")
+br8_he, _, _ = sef("br-3", "he", 7)
 br8_en, _, _ = sef("br-3", "en", 7)
 # ⛔ These two were `br8_he.find(...)` and `br8_en.find(...)` used directly as slice indices. The
 # Hebrew anchor failed on combining-mark order (the documented niqqud trap), find returned -1, and
@@ -64,19 +64,19 @@ cut8_en = ecut(br8_en, "“It was evening” (Genesis 1:5)", label="br-3-8 en")
 add(id="br-3-8", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.5"}, lemma={"he": "יוֹם אֶחָד", "en": "one day"},
-    original={"lang": "he", "text": cut8_he, "source": "Bereshit Rabbah 3:8 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
+    original={"lang": "he", "text": cut8_he, "source": "Bereshit Rabbah 3:8 (Vilna numbering; Theodor–Albeck differs)", "license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA)"},
     english={"text": cut8_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["r-yannai", "r-tanchum-b-yirmeya", "r-yudan", "r-yochanan", "r-hanina", "r-lulyana"],
     cruxes=["one-day-evening-first"], senses=["allegorical", "literal"],
     answers=["evening-moral", "unus-yom-kippur", "unus-alone"],
     notes="Three answers to 'one day' stacked in one section, and the last of them is the one Rashi will carry into Christendom's reading list. (1) Evening and morning are the deeds of the wicked and of the righteous — the moral reading. (2) 'One day' is the day God gave Israel: the Day of Atonement. (3) R. Yudan: it was the day on which the Holy One was alone (yachid) in his world. That third answer forces the angel question, and the section closes by ruling that on the first day nothing whatever was created besides God — lest anyone say Michael held the sky at the south and Gabriel at the north while God measured in the middle.")
 
-br9_he, _, _ = sef("br-3", "he", 8, he_file="br-3-he.json")
+br9_he, _, _ = sef("br-3", "he", 8)
 br9_en, _, _ = sef("br-3", "en", 8)
 add(id="br-3-9", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.5"}, lemma={"he": "אֶחָד, שֵׁנִי, שְׁלִישִׁי", "en": "one, second, third"},
-    original={"lang": "he", "text": br9_he, "source": "Bereshit Rabbah 3:9 (Vilna numbering)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown)"},
+    original={"lang": "he", "text": br9_he, "source": "Bereshit Rabbah 3:9 (Vilna numbering)", "license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA)"},
     english={"text": br9_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["r-shmuel-b-ami"],
     cruxes=["one-day-evening-first"], senses=["literal"],
@@ -305,7 +305,11 @@ def _bon_slice(lines, cut):
     t = re.sub(r"\*([^*]+)\*", r"\1", t)   # Quaracchi's marginal labels, italic in Wilson's markdown
     t = re.sub(r"[ \t]+", " ", t)
     i = t.find(cut)
-    return (t[:i + len(cut)] if i >= 0 else t).strip()
+    # Phase 6: was `if i >= 0 else t`, which on a failed anchor silently returned the WHOLE text
+    # instead of the intended slice — the same class of bug as br-3-8, degrading quietly rather
+    # than loudly. It raises now; nothing in this repo may use a find result as an index unguarded.
+    if i < 0: raise SystemExit(f"_bon_slice: cut anchor not found: {cut!r}")
+    return t[:i + len(cut)].strip()
 _bon_la = _bon_slice([_bon[68], _bon[70]], "esse distincta in forma.")
 _bon_en = _bon_slice([_bon[139], _bon[141]], "were distinguished in form.")
 

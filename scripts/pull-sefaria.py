@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """Pull the rabbinic bench from Sefaria v3 API, pinning FREE versions only.
+
+⛔ Bereshit Rabbah Hebrew is "Wikisource Bereshit Rabbah" (CC BY-SA), NOT "Daat Bereshit Rabbah"
+and NOT "Midrash Rabbah -- TE". Daat is listed on Sefaria's index for the work but returns ZERO
+versions for chapters 1-3; Torat Emet ("Midrash Rabbah -- TE") returns text but its own site prints
+כל הזכויות שמורות. A version title in api/texts/versions/<work> is a claim about the WORK, not the
+passage — always probe the actual ref. (Phase 6, 2026-09-05.)
 Writes raw/sefaria/<slug>.json with he + en text arrays and the version/license actually returned."""
 import json, urllib.request, urllib.parse, time, pathlib, sys
 OUT = pathlib.Path(__file__).resolve().parent.parent / "raw" / "sefaria"
@@ -12,9 +18,9 @@ PULLS = [
  ("b-rh-10b-11a", "Rosh_Hashanah.10b-11a", "Wikisource Talmud Bavli", "Sefaria Community Translation"),
  ("m-chag-2-1", "Mishnah_Chagigah.2.1", None, None),
  ("y-chag-2-1", "Jerusalem_Talmud_Chagigah.2.1", "The Jerusalem Talmud, edition by Heinrich W. Guggenheimer. Berlin, De Gruyter, 1999-2015", "The Jerusalem Talmud, translation and commentary by Heinrich W. Guggenheimer. Berlin, De Gruyter, 1999-2015"),
- ("br-1", "Bereshit_Rabbah.1", "Daat Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
- ("br-2", "Bereshit_Rabbah.2", "Daat Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
- ("br-3", "Bereshit_Rabbah.3", "Daat Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
+ ("br-1", "Bereshit_Rabbah.1", "Wikisource Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
+ ("br-2", "Bereshit_Rabbah.2", "Wikisource Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
+ ("br-3", "Bereshit_Rabbah.3", "Wikisource Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
  ("rashi-gen-1", "Rashi_on_Genesis.1.1-5", None, "Pentateuch with Rashi's commentary by M. Rosenbaum and A.M. Silbermann, 1929-1934"),
  ("targ-onk", "Targum_Onkelos_Genesis.1.1-5", "Onkelos Genesis", "J.W. Etheridge. The Targums of Onkelos and Jonathan Ben Uzziel on the Pentateuch. London: Longmans, Green, 1862"),
  ("targ-psj", "Targum_Jonathan_on_Genesis.1.1-5", "Targum Jonathan on Genesis", "The Targum of Jonathan ben Uzziel, trans. J. W. Etheridge, London, 1862"),

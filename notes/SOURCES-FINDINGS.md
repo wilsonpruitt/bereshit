@@ -1015,3 +1015,54 @@ does show is that "no contact either way" is a claim about the *Latin* transmiss
 its Greek head — which is a sharper finding than the one K1 now prints, not a weaker one. **Neither
 Chalcidius nor the Catena was consulted directly; both are read off Baehrens's apparatus on the page
 image.** Verifying them, and then deciding whether K1's `finding` is amended, is Wilson's.
+
+### The Bereshit Rabbah Hebrew swap — done 2026-09-05 (Wilson's ruling)
+
+Moved off Torat Emet onto **"Wikisource Bereshit Rabbah", CC BY-SA**. All 23 BR witnesses now carry
+a licence; `raw/sefaria/br-{1,2,3}-he.json` (the Torat Emet pulls) are deleted and
+`pull-sefaria.py` is repinned with a warning at the top. The only witnesses still on `check` are the
+two Neofiti ones, which are a separate question.
+
+**What it actually cost, measured rather than estimated.** Every one of the 23 slices was diffed
+against its Torat Emet text at word level, after normalising abbreviations and matres lectionis.
+Similarity: **two identical** (`br-1-7`, `br-3-8-yanai`), **eighteen above 0.90**, and three below —
+`br-3-4` (0.833), `br-3-6b` (0.869, and that one is the deliberate split described below),
+`br-1-8` (0.875). No witness lost its argument. The differences fall into three kinds:
+
+1. **Abbreviation style**, the largest share: Wikisource prints א"ר, א"ל, הה"ד, בהמ"ק where Torat
+   Emet expands them.
+2. **Scripture-citation format**, and this one is a genuine small loss to the reader: Torat Emet
+   quotes proof texts more fully and supplies chapter-and-verse references that Wikisource
+   abbreviates to וגו' or drops (Prov 8:21–22 at `br-1-8`, Deut 2:23 at `br-1-2`).
+3. **A handful of real variants**: בזוזים / בזויים at `br-1-2`; לאמרה מקמי כן / ממרינה מקומיכן at
+   `br-3-4`, where Wikisource also carries more of Ezek 43:2 and lacks Torat Emet's ברבים לא היה.
+
+⛔ **The recension difference that forced an editorial change.** In Torat Emet, BR 3:6 runs: the
+question *לא הוא אור ולא הוא יום*, then the stored light, then the va-yavdel block, and R. Elazar on
+the withheld divine name **last**. Wikisource has no opening question at all, and puts **R. Elazar
+second**, before the va-yavdel block. Two consequences, both handled:
+
+- `br-3-6` (K8) is cut to what the two recensions share. Its English no longer opens at the lemma —
+  Sefaria's English still translates the Torat Emet opening ("are 'light' and 'day' not the same
+  thing? This is bewildering"), which the Wikisource Hebrew does not have, so the English is cut to
+  match the Hebrew rather than left with an untranslated head. **The Hebrew and the English of this
+  edition's BR witnesses now come from different recensions**, and where they disagree the pair is
+  trimmed to the overlap. That is worth saying in the colophon.
+- `br-3-6b` (K9) could not survive as one span, because its old cut runs from R. Ze'eira to
+  R. Elazar and in Wikisource R. Elazar comes first. ⭐ **This forced a correction the frozen rule
+  already required**: that card carried two arguments on two clauses. R. Elazar on the withheld
+  divine name is now **`br-3-6c`**, and the two threads that were always about him — `t-k9-01`, the
+  star thread of the crux, with Augustine's *Civ.* XI.20, and `t-k9-24` with Hugh on naming — point
+  there. K9's headline finding is about that argument, and it now has a witness of its own instead
+  of being the seventh tradent on somebody else's card.
+
+**Tooling.** `bench.hcut` gained an orthography-tolerant fallback, used only when the exact
+consonantal match fails and required to match **uniquely** or it refuses: abbreviations expanded,
+vav and yod dropped as matres lectionis. ⚠ It equates רב and ר'/רבי, which are different titles —
+harmless for locating an anchor, since the stored text is always the source text as it stands, but
+not to be used for comparing readings. A first version expanded abbreviations character by
+character and so expanded none of them; the offset map has to be built over the whole string.
+
+**Every remaining silent-truncation path is closed.** `br-2-4` and `targ-neof-1-1` were still using
+bare `find` results as slice indices, and `_bon_slice` in the K10 spec fell back to returning the
+whole text on a failed anchor. All three raise now. Nothing in `cruxes/` uses an unguarded find.

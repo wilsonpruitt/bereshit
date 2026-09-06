@@ -20,13 +20,13 @@ WITNESSES = []
 def add(**kw): WITNESSES.append(kw)
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-14", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ", "en": "et the heavens and et the earth"},
-    original={"lang": "he", "text": hcut(sef("br-1", "he", 13, he_file="br-1-he.json")[0],
+    original={"lang": "he", "text": hcut(sef("br-1", "he", 13)[0],
                                         "רַבִּי יִשְׁמָעֵאל שָׁאַל אֶת רַבִּי עֲקִיבָא",
                                         "לְרַבּוֹת אִילָנוֹת וּדְשָׁאִין וְגַן עֵדֶן.", "K5 br-1-14 he"),
               "source": "Bereshit Rabbah 1:14 (Vilna numbering)", **_BR_SRC},
@@ -40,7 +40,7 @@ add(id="br-1-14", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-15", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "כְּקַדֵּרָה וְכִסּוּיָהּ", "en": "like a stewpot and its lid"},
-    original={"lang": "he", "text": sef("br-1", "he", 14, he_file="br-1-he.json")[0], "source": "Bereshit Rabbah 1:15 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-1", "he", 14)[0], "source": "Bereshit Rabbah 1:15 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-1", "en", 14)[0], **_BR_EN},
     tradents=["bet-shammai", "bet-hillel", "r-yehuda-b-ilai", "r-hanin", "r-yochanan", "r-tanchuma", "r-shimon-b-yochai", "r-elazar-b-r-shimon"],
     cruxes=["heaven-earth-order"], senses=["literal"],

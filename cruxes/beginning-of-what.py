@@ -4,7 +4,7 @@ Built 2026-09-05 (Phase 2, crux 2 of 9). See PHASES.md for the spec-file contrac
 Latin sliced from the local PL TEI by anchor phrase; rabbinic from raw/sefaria/*.json.
 """
 import json, pathlib, re
-from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread
+from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread, hcut, ecut
 
 CRUX_ID = "beginning-of-what"
 E = lambda i, f, t, ty, ev: thread(CRUX_ID, i, f, t, ty, ev)
@@ -54,20 +54,20 @@ _neof_en = sef("targ-neof", "en", 0)[0]
 add(id="targ-neof-1-1", work="targ-neof", author="targum-neofiti", tradition="rabbinic",
     date=300, date_precision="range-100-400", place="palestine",
     anchor={"verse": "gen.1.1"}, lemma={"arc": "מלקדמין בחכמה", "en": "from the first, in wisdom"},
-    original={"lang": "arc", "text": _neof_he[:_neof_he.find("וית ארעא:") + len("וית ארעא:")], "source": "Targum Neofiti, Gen 1:1 (Vatican, Neofiti 1)", "license": "check", "version": "Sefaria, 'The Vatican Manuscript of the Targum Neofiti' (licence unknown)"},
-    english={"text": _neof_en[:_neof_en.find(".") + 1], "translator": "Sefaria Community Translation", "license": "cc0"},
+    original={"lang": "arc", "text": hcut(_neof_he, "מלקדמין בחכמה", "וית ארעא:", "K1 targ-neof-1-1 he"), "source": "Targum Neofiti, Gen 1:1 (Vatican, Neofiti 1)", "license": "check", "version": "Sefaria, 'The Vatican Manuscript of the Targum Neofiti' (licence unknown)"},
+    english={"text": ecut(_neof_en, _neof_en[:1], "." , "K1 targ-neof-1-1 en"), "translator": "Sefaria Community Translation", "license": "cc0"},
     cruxes=["beginning-of-what", "heaven-earth-order", "ex-nihilo-or-matter", "elohim-and-trinity"], senses=["translation"],
     answers=["beginning-is-wisdom"],
     notes="The single most consequential word on this crux: Neofiti does not translate bereshit, it interprets it — min qadmin be-ḥokhmah, 'from the first, in wisdom' — and then adds a second verb, shakhlel, 'and finished'. A Palestinian targumist and the Latin fathers reach the same gloss on the same word, 'in Wisdom', and then part company entirely over what Wisdom is: for Bereshit Rabbah it is the Torah, for Augustine and Bede it is the Son. Neither side knows the other is there. The CC0 English prints 'in great wisdom'; there is no word for 'great' in the Aramaic, and the reading בחוכמתא recorded in the manuscript's own margin is simply the emphatic state. Note that this witness and K7's targ-neof-1-2 are two slices of one Sefaria segment: the whole of Gen 1:1–5 comes back as a single block.")
 
 # ---------------------------------------------------------------- rabbinic bench
-_BR_SRC = {"license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"}
+_BR_SRC = {"license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA). Phase 6, 2026-09-05: moved off 'Midrash Rabbah -- TE', whose own site asserts all rights reserved"}
 _BR_EN = {"translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True}
 
 add(id="br-1-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "אָמוֹן — אֻמָּן", "en": "amon — artisan"},
-    original={"lang": "he", "text": sef("br-1", "he", 0, he_file="br-1-he.json")[0], "source": "Bereshit Rabbah 1:1 (Vilna numbering; Theodor–Albeck differs)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-1", "he", 0)[0], "source": "Bereshit Rabbah 1:1 (Vilna numbering; Theodor–Albeck differs)", **_BR_SRC},
     english={"text": sef("br-1", "en", 0)[0], **_BR_EN},
     tradents=["r-hoshaya"],
     cruxes=["beginning-of-what"], senses=["allegorical", "literal"],
@@ -77,7 +77,7 @@ add(id="br-1-1", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-4", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "שִׁשָּׁה דְבָרִים קָדְמוּ לִבְרִיאַת הָעוֹלָם", "en": "six things preceded the creation of the world"},
-    original={"lang": "he", "text": sef("br-1", "he", 3, he_file="br-1-he.json")[0], "source": "Bereshit Rabbah 1:4 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-1", "he", 3)[0], "source": "Bereshit Rabbah 1:4 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-1", "en", 3)[0], **_BR_EN},
     tradents=["r-abba-b-kahana", "r-huna", "r-banai", "r-berekhya", "rav-matana"],
     cruxes=["beginning-of-what"], senses=["literal", "allegorical"],
@@ -87,7 +87,7 @@ add(id="br-1-4", work="br", author="bereshit-rabbah", tradition="rabbinic",
 add(id="br-1-8", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.1"}, lemma={"he": "שֵׁשׁ לְשׁוֹנוֹת שֶׁל קְדִימָה", "en": "six expressions of precedence"},
-    original={"lang": "he", "text": sef("br-1", "he", 7, he_file="br-1-he.json")[0], "source": "Bereshit Rabbah 1:8 (Vilna numbering)", **_BR_SRC},
+    original={"lang": "he", "text": sef("br-1", "he", 7)[0], "source": "Bereshit Rabbah 1:8 (Vilna numbering)", **_BR_SRC},
     english={"text": sef("br-1", "en", 7)[0], **_BR_EN},
     tradents=["r-yehoshua-b-levi", "r-levi"],
     cruxes=["beginning-of-what"], senses=["literal"],

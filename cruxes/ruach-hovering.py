@@ -2,7 +2,7 @@
 Phase 1 generalization. See PHASES.md for the spec-file contract (WITNESSES, THREADS, FINDING,
 PERSONS, PLACES)."""
 import json, pathlib
-from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread
+from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread, hcut, ecut
 
 CRUX_ID = "ruach-hovering"
 E = lambda i, f, t, ty, ev: thread(CRUX_ID, i, f, t, ty, ev)
@@ -57,15 +57,16 @@ add(id="targ-psj-1-2", work="targ-psj", author="targum-pseudo-jonathan", traditi
     cruxes=["ruach-hovering", "tohu-vabohu"], senses=["translation"],
     notes="Same 'spirit of mercies' as Neofiti; the verb menatva ('breathed / blew') keeps the Onkelos line. Etheridge embedded verbatim (PD).")
 
-br_he, _, _ = sef("br-2", "he", 3, he_file="br-2-he.json")
+br_he, _, _ = sef("br-2", "he", 3)
 br_en, br_ver, br_lic = sef("br-2", "en", 3)
-cut_he = br_he.find("וְרוּחַ אֱלֹהִים מְרַחֶפֶת")
-cut_en = br_en.find("“And the spirit of God was hovering”")
+# Guarded slicers, not bare find — see bench.hcut's docstring and the br-3-8 case.
+cut_he = hcut(br_he, "וְרוּחַ אֱלֹהִים מְרַחֶפֶת", label="br-2-4 he")
+cut_en = ecut(br_en, "“And the spirit of God was hovering”", label="br-2-4 en")
 add(id="br-2-4", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.2"}, lemma={"he": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת", "en": "and the spirit of God was hovering"},
-    original={"lang": "he", "text": br_he[cut_he:], "source": "Bereshit Rabbah 2:4 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
-    english={"text": br_en[cut_en:], "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
+    original={"lang": "he", "text": cut_he, "source": "Bereshit Rabbah 2:4 (Vilna numbering; Theodor–Albeck differs)", "license": "cc-by-sa", "version": "Sefaria 'Wikisource Bereshit Rabbah' (CC BY-SA)"},
+    english={"text": cut_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "sefaria-midrash-rabbah", "attribution_required": True},
     tradents=["resh-lakish", "r-hagai", "r-pedat", "ben-zoma", "r-yehoshua-b-hananya"],
     cruxes=["ruach-hovering", "tohu-vabohu"], senses=["allegorical", "literal"],
     notes="Two answers in one section. Resh Lakish: the ruach is the spirit of the King Messiah (Isa 11:2), brought by repentance-as-water. Then the Ben Zoma story: 'blowing' is not written but 'hovering' — like a bird beating its wings, touching and not touching. Note the bird is an unspecified 'of' and the claim is touching-and-not-touching; the Bavli's version has a dove and no touching at all.")
