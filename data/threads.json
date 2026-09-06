@@ -720,398 +720,6 @@
   "crux": "first-light"
  },
  {
-  "id": "t-k9-01",
-  "from": "aug-civ-11-20",
-  "to": "br-3-6b",
-  "type": "parallel",
-  "evidence": "The star thread of this crux, and both benches reach it by reading a silence in the syntax. Augustine: on day one 'and God saw that it was good' is placed before the division and not after it, 'lest he should seem to have borne the testimony of his approval to such darkness along with the light' — and on day four, where the darkness is blameless, it is placed after. R. Elazar: 'the Holy One never joins his name to the bad but only to the good, for it is not written and to the darkness GOD called night, but and to the darkness he called night.' One argues from where a clause of approval stands, the other from where the divine name is dropped, at consecutive verses, with no contact of any kind.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-02",
-  "from": "aug-civ-11-20",
-  "to": "br-2-5",
-  "type": "parallel",
-  "evidence": "The same inference from the same omission at the same clause. R. Abahu: 'but I do not know which of them he desires — since it is written and God saw the light that it was good, he desires the deeds of the righteous and does not desire the deeds of the wicked.' Augustine: 'lest both should be called good, when one of them was evil.' Both take the absence of an approval of the darkness to be a deliberate withholding, and both make it decisive.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-03",
-  "from": "br-3-8-yanai",
-  "to": "br-2-5",
-  "type": "echoes",
-  "evidence": "The same reading twice in the same midrash, once as an argument and once as a mapping. R. Abahu at 2:5 states the difficulty ('I do not know which of them he desires') and resolves it from Gen 1:4; R. Yanai at 3:8 runs the same identifications through every clause of 1:2–1:5 without raising a difficulty at all. The mapping is identical: tohu the deeds of the wicked, 'let there be light' the deeds of the righteous.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-04",
-  "from": "isidore-quaest-1-4",
-  "to": "br-3-8-yanai",
-  "type": "parallel",
-  "evidence": "The moral reading on both benches at the same clause, and the difference between them is exact. R. Yanai: 'and God divided between the light and the darkness — between the deeds of the righteous and the deeds of the wicked.' Isidore: 'then God, according to the favour of his foreknowledge, divided the just, that is, the sons of God and of light, from sinners, as from darkness; calling the just day and those others night.' The rabbinic bench divides deeds, the Latin bench divides people. Neither ever discusses the difference, and it holds across every allegory on this verse.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-05",
-  "from": "aug-gnl-imp-5-25",
-  "to": "br-3-8-yanai",
-  "type": "parallel",
-  "evidence": "Augustine reaches the righteous and the wicked at this clause too, and gets there by a route the rabbinic bench does not need: God is not the author of our vices but is their orderer, when he sets sinners in the place they deserve — sheep on the right, goats on the left. Because he has made the darkness a privation he cannot let the wicked be the darkness outright, only be ordered under it; R. Yanai, under no such constraint, simply says the darkness is their deeds.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-06",
-  "from": "aug-gnm-1-9",
-  "to": "aug-gnl-imp-5-23",
-  "type": "echoes",
-  "evidence": "Four years apart, the same doctrine argued from two different angles: at De Genesi contra Manichaeos from the analogy of silence, which explains how Scripture can say God makes darkness; at De Genesi ad litteram imperfectus from the analogy of the garment and nakedness, which explains why no separate act of dividing was needed.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-07",
-  "from": "aug-gnl-imp-5-25",
-  "to": "aug-gnm-1-9",
-  "type": "echoes",
-  "evidence": "The privation doctrine completed. The earlier work says God does not make the darkness but is rightly said to make it by withholding light; the later adds the term that the whole tradition will use — he does not make it, but he orders it, 'lest even those privations should not have their own order' — and supplies the rests in music and the shadows in painting to show what ordering a nothing can mean.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-08",
-  "from": "aug-civ-11-19",
-  "to": "aug-gnl-imp-5-25",
-  "type": "contests",
-  "evidence": "Augustine against Augustine, and he knows it: the earlier work takes the light of day one as possibly ethereal, sensitive or rational and the darkness as the privation of whichever it is; the City of God offers the reading in which the light is the angels and the darkness the apostate spirits, and hedges it — 'it does not seem to me an opinion at odds with the works of God'. Every later Latin witness on this crux has to hold both, and Hugh's solution is to say that both divisions happened at the same instant.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-09",
-  "from": "wigbod-gen-1-4",
-  "to": "aug-civ-11-20",
-  "type": "cites",
-  "evidence": "'Et cur non dicit Scriptura, vidit Deus tenebras quod essent bonae, sicut de luce dictum est? … in his dicens quia boni sunt, in illis nullatenus dicens, ne peccata quae erant tenebrae adprobare videretur' reproduces City of God XI.20's argument and its reason almost word for word, under the rubric AUGUSTINUS — on the same page as the proposition that there is an essence of darkness, which Augustine denies everywhere.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-10",
-  "from": "wigbod-gen-1-4",
-  "to": "aug-gnm-1-9",
-  "type": "contests",
-  "evidence": "The sharpest disagreement on the Latin bench, and it is invisible because it is filed under Augustine's name. Augustine: Scripture does not say God made the darkness, because darkness is the absence of light. Wigbod's pupil: everything that is divided can also be, so as there is an essence of light, so there is an essence of darkness. The inference is valid on its own terms and it destroys the doctrine the same compilation is transmitting.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-11",
-  "from": "angelom-gen-1-4",
-  "to": "aug-gnm-1-9",
-  "type": "cites",
-  "evidence": "The silence analogy copied close enough to be certain — clamando vocem, silentium autem non clamando, cessatio vocis silentium est — with one word altered: Augustine writes that God makes darkness because he 'either does not give light or withdraws it', Angelomus that he 'either gives or withdraws light'. The change turns a withholding into a conferring, and Angelomus names Augustine two sentences later as the authority he is following.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-12",
-  "from": "angelom-gen-1-4",
-  "to": "bede-gen-1-4",
-  "type": "cites",
-  "evidence": "'Lucem videlicet in superiore orbis parte diffundendo, in qua humana erat conversatio futura, inferiora vero ejus priscis in tenebris remanendo' is Bede's sentence with one verb changed, introduced by 'as Clement says: lighting up one part of the world, he left the other dark.' Angelomus has the words from Bede and the attribution from somewhere else.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-13",
-  "from": "rabanus-gen-1-4",
-  "to": "bede-gen-1-4",
-  "type": "transmits",
-  "evidence": "Verbatim and unnamed, from 'Divisit namque eas non solum qualitatis, sed et locorum distantia' to the end of the sentence. The transmission is what makes 'by quality and by place' the standing literal answer of the Latin bench.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-14",
-  "from": "comestor-hs-1-4",
-  "to": "bede-gen-1-4",
-  "type": "echoes",
-  "evidence": "'Et creatas divisit locorum distantia, et qualitate' is Bede's pair of terms four centuries on, with the mechanism supplied — 'so that they should never be together, but always claim opposite hemispheres in turn' — and with the darkness made a created shadow rather than an ancient dark left in place.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-15",
-  "from": "honorius-hex-1-4",
-  "to": "bede-gen-1-4",
-  "type": "echoes",
-  "evidence": "The same answer turned into a timetable: twelve hours above the earth and twelve below, the darkness put to flight and lying hidden. Bede's 'difference of places' has become a circuit with a count of hours, and the darkness has become the kind of thing that can be driven off and can hide.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-16",
-  "from": "basil-hex-2-8",
-  "to": "bede-gen-1-4",
-  "type": "parallel",
-  "evidence": "Both answer 'why divide them?' with distance, and neither could have got it from the other in this form: Basil, that God fashioned their natures unmingled and set them apart from one another by long spaces; Bede, that he divided them not only by quality but by place, the light over the upper part of the world. Basil's Latin was available in Northumbria, but the shared term is the commonplace, not a phrase.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-17",
-  "from": "remigius-gen-1-4",
-  "to": "aug-gnm-1-9",
-  "type": "contests",
-  "evidence": "The flattest contradiction of Augustine on this crux, without naming him and without argument from authority: 'God made both, the light and the darkness … therefore the darkness too is a work of God', proved from the Benedicite, where light and darkness are called together to bless the Lord (Dan 3:72). If darkness is the absence of light it cannot be summoned to praise; the canticle summons it.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-18",
-  "from": "glossa-1-4",
-  "to": "remigius-gen-1-4",
-  "type": "cites",
-  "evidence": "The Glossa's whole literal gloss on this verse is Remigius' sentence with its proof text — 'Lucem et tenebras fecit Deus, unde Dan. III: Benedicite, lux et tenebrae, Domino, cum omnis creatura ad benedicendum invitatur' — printed under the name of Strabo. What the twelfth-century schoolroom reads on Gen 1:4 is therefore the anti-Augustinian answer.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-19",
-  "from": "glossa-1-4",
-  "to": "isidore-quaest-1-4",
-  "type": "cites",
-  "evidence": "'Habet quisque in operibus et recta vita, distinctos sex dies, post quos requiem speret: primo die, lucem fidei' is Isidore's six ages of the Christian life, named as such, reduced to its first day. The Glossa keeps the moral reading and drops the division of the just from sinners that was its content.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-20",
-  "from": "remigius-gen-1-4b",
-  "to": "isidore-quaest-1-4",
-  "type": "echoes",
-  "evidence": "The same six-day allegory carried from the individual life to the history of the world: Isidore's first day is the light of faith and the dividing of the just from sinners, Remigius' is the separation of the sons of Seth from the generation of Cain, with the flood as its evening. The scheme is Isidore's, the datable content is not.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-21",
-  "from": "remigius-gen-1-4b",
-  "to": "remigius-gen-1-4",
-  "type": "contests",
-  "evidence": "One commentator, one verse, two incompatible readings a few columns apart, and no attempt to reconcile them: on the literal pass the darkness is a work of God made so that men might rest, and on the allegorical pass the darkness is the impious line of Cain that God drowned. The Latin bench's habit of running the six days twice is what allows the same writer to hold both.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-22",
-  "from": "hugh-sacr-1-4",
-  "to": "aug-civ-11-19",
-  "type": "echoes",
-  "evidence": "Hugh takes over the angelic division and removes Augustine's hedge, then adds what Augustine does not say: that the visible division and the invisible one happened at precisely the same moment of time, because the visible works of wisdom and the invisible outcomes had to correspond.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-23",
-  "from": "hugh-sacr-1-4",
-  "to": "aug-gnl-imp-5-23",
-  "type": "echoes",
-  "evidence": "The instantaneity argument transferred. Augustine: no separate act of separation was needed, because the division followed by the very fact that the light was made. Hugh: the division of the darknesses and of the light was made at once — and applies it to the angels, so that the fall and the confirmation are one instant with the making of light.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-24",
-  "from": "hugh-sacr-1-4",
-  "to": "br-3-6b",
-  "type": "parallel",
-  "evidence": "'He divided by judgement, and by merit he named' and R. Elazar's 'the Holy One never joins his name to the bad but only to the good' are the same doctrine of naming: what a thing is called follows what it deserves, and the naming is therefore a second act after the judging, not a label. Hugh gets it from the order divisit … vocavit, R. Elazar from a missing subject in the second half of the verse.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-25",
-  "from": "rupert-gen-1-4",
-  "to": "aug-civ-11-19",
-  "type": "echoes",
-  "evidence": "The angelic reading with a new argument under it. Augustine offers it as one true reading among several; Rupert derives it from the word 'good' — none is good but God, only a rational creature can partake of him, therefore the light of which it is said 'that it was good' must be intellectual — and then makes the division a sentence pronounced on the devil, unchangeable in both directions.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-26",
-  "from": "rupert-gen-1-4",
-  "to": "aug-civ-11-20",
-  "type": "contests",
-  "evidence": "Both build on the placing of 'God saw that it was good', and they build opposite things. Augustine: the approval is put before the division so that God should not seem to approve the darkness. Rupert: the approval is put where it is because it is a judgement passed on a rational light — and the division that follows is the judgement passed on the rest. Where Augustine finds a refusal to approve, Rupert finds a verdict delivered.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-27",
-  "from": "hugh-sacr-1-4b",
-  "to": "ambrose-hex-1-9b",
-  "type": "parallel",
-  "evidence": "The same difficulty and two refusals to let it become a problem about God's knowledge. Ambrose: 'he did not see what he did not know; nor did he approve what he had not known before' — the seeing is the self-attestation of a good work. Hugh takes the question seriously and answers it with a second light: in the unchangeable light he saw that this changeable light was good in its own mode and order.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-28",
-  "from": "hugh-sacr-1-4b",
-  "to": "alcuin-int-35",
-  "type": "echoes",
-  "evidence": "Alcuin dissolves the difficulty — what pleased him to be made pleased him to remain — and Hugh reopens it as a question about the medium of the seeing. Both are answering the objection that if God saw the light was good he learned something; the Carolingian schoolbook answers in one sentence what the Paris schoolroom takes a chapter over.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-29",
-  "from": "comestor-hs-1-4",
-  "to": "alcuin-int-35",
-  "type": "echoes",
-  "evidence": "'Quae placuerat in praesentia, vel praescientia, ut fieret; placuit in essentia, ut maneret' is Alcuin's answer with the moment divided in two, foreknowledge and being; the doubling is Comestor's and the pattern — what pleased to be made pleased to remain — is Alcuin's.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-30",
-  "from": "ibn-ezra-1-4",
-  "to": "aug-gnm-1-9",
-  "type": "parallel",
-  "evidence": "Both come to the possibility that the dividing and the naming are one act, and only one of them takes it. Augustine: 'perhaps, then, the dividing between light and darkness just is the calling of the light day and the darkness night, so that to have ordered these is to have named them' — and he leaves it as a perhaps and goes on. Ibn Ezra states it flatly as the meaning of the word: 'and the sense of and he divided is by the calling of names.' Nothing else on the Latin bench even entertains it.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-31",
-  "from": "ibn-ezra-1-4",
-  "to": "ambrose-hex-1-9b",
-  "type": "parallel",
-  "evidence": "The seeing removed from the world in two ways. Ibn Ezra: 'and he saw' is like Qohelet's 'I myself saw' — it is in the thought, so no act is reported. Ambrose: God did not see what he did not know, and the seeing is the good work attesting itself. Both refuse to let the verse describe an inspection, and neither has to posit anything to do it, which is what separates them from Hugh's second light.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-32",
-  "from": "ramban-1-2-choshech",
-  "to": "comestor-hs-1-4",
-  "type": "parallel",
-  "evidence": "The two most physical accounts of what the darkness is, from benches that cannot borrow. Ramban: the darkness is elemental fire, which is dark, 'and were it red, it would redden the night for us'. Comestor: God created the darkness with the light, that is, the shadow made by bodies set against the light. Both make the darkness a real thing with a cause, and Comestor has to introduce his with quasi because Augustine stands behind him; Ramban states his as the plain sense.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-33",
-  "from": "pdre-3-5",
-  "to": "remigius-gen-1-4",
-  "type": "parallel",
-  "evidence": "Darkness as a creature, stated without argument on both benches. Pirkei de-Rabbi Eliezer puts it fourth in a list of eight things created on the first day, between light and tohu, with no proof text and no defence. Remigius says God made both and proves it from the Benedicite. Neither is arguing with anybody; each is the settled answer of a tradition, and they are the same answer.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-34",
-  "from": "pdre-3-5",
-  "to": "alcuin-int-35",
-  "type": "parallel",
-  "evidence": "Two enumerations of what was made at the beginning, answering the same question with incompatible inventories. Alcuin, at the question next but one to this: heaven, earth, angels, light, air, water and the soul of man. Pirkei de-Rabbi Eliezer: heaven, earth, light, darkness, tohu, bohu, wind and water. The Latin list has the angels and the soul and no darkness; the rabbinic list has the darkness and the tohu and no angels. Neither list argues, and between them they contain the whole disagreement of this crux.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-35",
-  "from": "abelard-hex-1-4",
-  "to": "wigbod-gen-1-4",
-  "type": "parallel",
-  "evidence": "'Distinctio rei formatae ab informi', given as a third answer in a Carolingian dialogue, and 'operatione sua perfectum discrevit ab imperfecto et distinctum a confuso', argued at the Paraclete three hundred years later to prove that the creator of the matter and the former of the works are one and the same. The same reading of the darkness — not a privation, not a creature, but the unordered state of the world — put to two entirely different uses.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-36",
-  "from": "abelard-hex-1-4",
-  "to": "aug-gnl-imp-5-25",
-  "type": "contests",
-  "evidence": "Both make the division an ordering rather than a making, and they mean opposite things by it. Augustine orders privations, so that even a nothing has its place. Abelard orders works, so that the distinction of the works just is the light and the confusion before them is the darkness — which leaves nothing for the privation doctrine to be about.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-37",
-  "from": "vulgate-1-4",
-  "to": "lxx-1-4",
-  "type": "transmits",
-  "evidence": "The Greek keeps the Hebrew's doubled preposition, ana meson tou photos kai ana meson tou skotous, and the Old Latin behind Augustine keeps it too: divisit inter lucem et tenebras. Jerome writes divisit lucem a tenebris. Which form a Latin witness quotes tracks his text closely enough to be visible on this daf: Augustine, Angelomus and Alcuin have the older form, Bede, Remigius, the Glossa and Comestor Jerome's, and Rupert has neither.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-38",
-  "from": "targ-psj-1-4",
-  "to": "targ-onk-1-4",
-  "type": "echoes",
-  "evidence": "Pseudo-Jonathan reproduces Onkelos word for word at Gen 1:4 and expands freely at Gen 1:5 — the light made so that the inhabitants of the world might labour by it, the darkness so that the creatures might rest in it. The expansive targum finds nothing to expand in the dividing, which is the whole of the Latin bench's difficulty.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-39",
-  "from": "remigius-gen-1-4",
-  "to": "targ-psj-1-4",
-  "type": "parallel",
-  "evidence": "The same reason for the division, given in Aramaic and in Latin with no possible contact: Pseudo-Jonathan, that God made the day so that the inhabitants of the world might labour by it and the night so that the creatures might rest in it; Remigius, that God made both the light and the darkness 'that men might work in the light and rest in the night'. Remigius uses it to prove the darkness is a creature; the targum draws no conclusion from it at all.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-40",
-  "from": "br-3-6b",
-  "to": "bede-gen-1-4",
-  "type": "parallel",
-  "evidence": "R. Yoḥanan and Resh Lakish's king with two generals, each claiming the day, told 'day shall be your bound' and 'night shall be your bound', and Bede's division 'not only by quality but by place', with the light over the upper part of the world and the lower left dark. Both make va-yavdel an assignment of territory, and the midrash says outright what Bede assumes: havdala mamash, a real separating and not a figure.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-41",
-  "from": "br-3-6b",
-  "to": "aug-gnl-imp-5-25",
-  "type": "contests",
-  "evidence": "The two benches at their furthest apart on the same clause. Augustine: God did not make the darkness, he ordered it, as a singer orders his silences. R. Tanḥuma, on Isa 45:7, 'who forms light and creates darkness, who makes peace': after they were created he made peace between them — the darkness is created, the making of peace is the dividing, and both are works. The rabbinic text has no term for a privation and never needs one.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-42",
-  "from": "rupert-gen-1-4",
-  "to": "br-3-6b",
-  "type": "parallel",
-  "evidence": "The division as a judicial sentence, on both benches, with the same insistence that it is irreversible. Rupert: a terrible judgement of God upon the devil, 'by an unchangeable separation, so that neither can those who fell rise again, nor can those who refused to fall ever fall'. The midrash: the king calls each general and fixes his bound, and R. Berekhya introduces it as havdala mamash. The Latin makes it a verdict on persons and the rabbinic a decree about times, and both are about what may never be crossed again.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-43",
-  "from": "ibn-ezra-1-4",
-  "to": "br-3-6b",
-  "type": "contests",
-  "evidence": "Ibn Ezra's 'the sense of and he divided is by the calling of names' is the flat denial of R. Yoḥanan and Resh Lakish's havdala mamash, a real separating, and he does not name them. He is also refusing R. Ze'eira's derivation, since a naming cannot be the source of a rule about looking at a flame. The grammarian dismantles in one clause the two things the midrash builds on this word.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-44",
-  "from": "aug-civ-11-19",
-  "to": "br-3-6b",
-  "type": "contests",
-  "evidence": "Both benches read the darkness of this verse as something set aside, and the thing set aside is not the same. For Augustine it is the apostate angels, ordered but not approved; for R. Yehuda bar Simon and the Rabbis it is the light that is set aside — hivdilo lo, he separated it for himself, or for the righteous in the time to come. One tradition takes the division to be a removal of the darkness from fellowship, the other a reservation of the light from use, and each is unavailable to the other.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-45",
-  "from": "glossa-1-4",
-  "to": "aug-gnm-1-9",
-  "type": "contests",
-  "evidence": "The Glossa's own gloss on Gen 1:2, three columns earlier, is 'and there were darknesses, namely the privation of true light'; its gloss on Gen 1:4 is 'God made both the light and the darkness'. The standard schoolbook prints Augustine's doctrine on one verse and its contradiction on the next, and marks neither as disputed.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-x1",
-  "from": "rashi-1-4",
-  "to": "br-3-6b",
-  "type": "cites",
-  "evidence": "Phase 4. Rashi's plain sense names Bereshit Rabbah 3:6 for it: 'he saw that it was good, and that it was not seemly that light and darkness should function together in a confused manner. He therefore limited this one's sphere of activity to the daytime, and this one's to the nighttime' — which is R. Yoḥanan and Resh Lakish's king with two generals, each told his bound. Written at Phase 4 because `rashi-1-4` was built for K8 and carries both cruxes' answers in one dibbur.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-x2",
-  "from": "rashi-1-4",
-  "to": "b-chag-12a-light",
-  "type": "cites",
-  "evidence": "Phase 4. Rashi's aggadic half names Chagigah 12a: 'he saw that the wicked were unworthy of using it; he therefore set it apart, reserving it for the righteous in the world to come'. The dibbur gives its two sources in order, the aggadah first and the peshat second, and each belongs to a different crux on this site.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-x3",
-  "from": "rashi-1-4",
-  "to": "ambrose-hex-1-9b",
-  "type": "parallel",
-  "evidence": "Phase 4. The same purpose clause in Troyes and in Milan, seven hundred years apart. Rashi: it was not seemly that light and darkness should function together in a confused manner. Ambrose: the distinction is made between the light and the darkness so that, their natures being separated, nothing may be seen to have anything confused within it. Neither could have known the other, and it is the closest verbal agreement between the benches on this crux.",
-  "crux": "good-and-separated"
- },
- {
-  "id": "t-k9-x4",
-  "from": "b-chag-12a-light",
-  "to": "br-3-6b",
-  "type": "parallel",
-  "evidence": "Phase 4. Two redactions of one answer to va-yavdel: the Bavli that the light was stored away for the righteous, and Bereshit Rabbah's Rabbis that 'he separated it for the righteous in the time to come, like a king who had a fine portion and set it aside for his son' — beside R. Yehuda bar Simon's harder reading, that he separated it for himself.",
-  "crux": "good-and-separated"
- },
- {
   "id": "t-k5-01",
   "from": "b-chag-12a-order",
   "to": "br-1-15",
@@ -1310,294 +918,6 @@
   "type": "transmits",
   "evidence": "Phase 4. PL 107:444B copies Ambrose Hexaemeron I.6.20 verbatim and unnamed, from 'In principio itaque temporis, coelum et terram Deus fecit' — time is from this world, not before the world, and a day is a portion of time, not its beginning. The transmission is what puts Ambrose's answer into the Carolingian schools. Written at Phase 4 because `rabanus-gen-1-1b` was built for K1.",
   "crux": "heaven-earth-order"
- },
- {
-  "id": "t-k10-01",
-  "from": "vulgate-1-5",
-  "to": "lxx-1-5",
-  "type": "transmits",
-  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-02",
-  "from": "targ-psj-1-5",
-  "to": "lxx-1-5",
-  "type": "parallel",
-  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-35",
-  "from": "targ-psj-1-5",
-  "to": "targ-onk-1-5",
-  "type": "echoes",
-  "evidence": "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-36",
-  "from": "targ-onk-1-5",
-  "to": "lxx-1-5",
-  "type": "parallel",
-  "evidence": "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-03",
-  "from": "rashi-1-5",
-  "to": "br-3-8",
-  "type": "cites",
-  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-04",
-  "from": "br-3-9",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-05",
-  "from": "b-chull-83a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-06",
-  "from": "b-chag-12a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-07",
-  "from": "ambrose-hex-1-10",
-  "to": "lxx-1-5",
-  "type": "echoes",
-  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-08",
-  "from": "ambrose-hex-1-10",
-  "to": "rashi-1-5",
-  "type": "parallel",
-  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-09",
-  "from": "bruno-gen-1-5",
-  "to": "br-3-9",
-  "type": "parallel",
-  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-10",
-  "from": "aug-gnm-1-10",
-  "to": "b-chull-83a",
-  "type": "contests",
-  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-11",
-  "from": "ambrose-hex-1-10",
-  "to": "aug-gnm-1-10",
-  "type": "parallel",
-  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-12",
-  "from": "hugh-sacr-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-13",
-  "from": "bruno-gen-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-14",
-  "from": "bruno-gen-1-5",
-  "to": "targ-psj-1-5",
-  "type": "parallel",
-  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-15",
-  "from": "aug-gnl-4-22",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-16",
-  "from": "aug-gnl-5-18",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-17",
-  "from": "aug-civ-11-7",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-18",
-  "from": "rabanus-gen-1-5",
-  "to": "bede-gen-1-5",
-  "type": "cites",
-  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-19",
-  "from": "alcuin-int-34",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-20",
-  "from": "wigbod-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-21",
-  "from": "wigbod-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "parallel",
-  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-22",
-  "from": "angelom-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "echoes",
-  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-23",
-  "from": "angelom-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-24",
-  "from": "remigius-gen-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-25",
-  "from": "glossa-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-26",
-  "from": "glossa-1-5",
-  "to": "aug-civ-11-7",
-  "type": "parallel",
-  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-27",
-  "from": "honorius-hex-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-28",
-  "from": "honorius-hex-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-29",
-  "from": "comestor-hs-1-5",
-  "to": "bede-gen-1-5",
-  "type": "echoes",
-  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-30",
-  "from": "hugh-sacr-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-31",
-  "from": "abelard-hex-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-32",
-  "from": "rupert-gen-1-5",
-  "to": "bruno-gen-1-5",
-  "type": "parallel",
-  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-33",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "aug-gnl-5-18",
-  "type": "contests",
-  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-34",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "comestor-hs-1-5",
-  "type": "parallel",
-  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
-  "crux": "one-day-evening-first"
  },
  {
   "id": "t-k7-01",
@@ -2582,5 +1902,717 @@
   "type": "echoes",
   "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
   "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k10-01",
+  "from": "vulgate-1-5",
+  "to": "lxx-1-5",
+  "type": "transmits",
+  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-02",
+  "from": "targ-psj-1-5",
+  "to": "lxx-1-5",
+  "type": "parallel",
+  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-35",
+  "from": "targ-psj-1-5",
+  "to": "targ-onk-1-5",
+  "type": "echoes",
+  "evidence": "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-37",
+  "from": "ambrose-hex-1-10",
+  "to": "basil-hex-2-8b",
+  "type": "echoes",
+  "evidence": "Phase 6, and the strongest single edge on the daf. Basil: nox diem comitatur, and evening is named first ut nativitatis diurnae privilegia reservaret. Ambrose, five years later in Milan: evening is the end of the day and morning the end of the night, so 'to give the day the prerogative and the birthright, it named the end of the day first, since night was to follow'. Prerogative and birthright is privilegia and nativitas, in that order, on the same clause. Ambrose is reading Basil's Greek, not this Latin — Eustathius translated a generation after the Hexaemeron of Milan — so the two Latin texts here are independent renderings of one Greek sentence, and every later Latin answer to 'why evening first', Bede's and Bruno's included, comes down from Ambrose's.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-38",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "basil-hex-2-8b",
+  "type": "cites",
+  "evidence": "Bonaventure quotes this sentence by name — 'Et Basilius in Hexaëmero' — as the Greek doctors' position, and quotes it with a variant that decides its sense. Quaracchi prints non solaris corporis motu, 'not by the motion of the solar body'; the Patrologia column reads non solum corporis motu, 'not only by the motion of the body'. The first makes Basil deny that the first light moved as the sun does, which is the whole ground of Bonaventure's division into Greeks and Latins; the second makes him concede motion and add diffusion to it, and so dissolves the division. Basil's own context favours Quaracchi — the sentence has just distinguished what happens after the sun's creation from what happened then, when there was no solar body to move — and the same TEI column carries two plain OCR faults within six lines. Reported as a divergence, not adjudicated: neither the Greek nor a second Latin witness was consulted.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-39",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "bede-gen-1-5",
+  "type": "cites",
+  "evidence": "The Latin half of Bonaventure's division is Bede, named and quoted: 'Beda autem et alii expositores Latini dicunt, quod diem et noctem faciebat sua revolutione; et hoc habitum fuit in auctoritate prius posita, quae inducitur in littera: Occidente luce paulatim' — the opening words of the Bede witness on this daf. What Bede argued from the behaviour of light, the schools have by the thirteenth century filed as the position of the Latins.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-40",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "bonaventure-sent-2-12-1-2",
+  "type": "parallel",
+  "evidence": "Phase 6. The same judgement twice, one distinction apart, and both times against the more spiritual reading on the same ground. At d.12 he grants Augustine's simultaneous days are 'multum rationabilis et valde subtilis' and declines them because Scripture would have to be twisted; at d.13 he grants the Greek doctors their emission and contraction of rays and declines it because the Latin account is 'rationabilior, quia virtuti naturali possibilior'. Reasonableness in the first case is fidelity to the letter, in the second what nature can do — and both times the literal, physical day wins.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-36",
+  "from": "targ-onk-1-5",
+  "to": "lxx-1-5",
+  "type": "parallel",
+  "evidence": "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-03",
+  "from": "rashi-1-5",
+  "to": "br-3-8",
+  "type": "cites",
+  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-04",
+  "from": "br-3-9",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-05",
+  "from": "b-chull-83a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-06",
+  "from": "b-chag-12a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-07",
+  "from": "ambrose-hex-1-10",
+  "to": "lxx-1-5",
+  "type": "echoes",
+  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-08",
+  "from": "ambrose-hex-1-10",
+  "to": "rashi-1-5",
+  "type": "parallel",
+  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-09",
+  "from": "bruno-gen-1-5",
+  "to": "br-3-9",
+  "type": "parallel",
+  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-10",
+  "from": "aug-gnm-1-10",
+  "to": "b-chull-83a",
+  "type": "contests",
+  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-11",
+  "from": "ambrose-hex-1-10",
+  "to": "aug-gnm-1-10",
+  "type": "parallel",
+  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-12",
+  "from": "hugh-sacr-1-5",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-13",
+  "from": "bruno-gen-1-5",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-14",
+  "from": "bruno-gen-1-5",
+  "to": "targ-psj-1-5",
+  "type": "parallel",
+  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-15",
+  "from": "aug-gnl-4-22",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-16",
+  "from": "aug-gnl-5-18",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-17",
+  "from": "aug-civ-11-7",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-18",
+  "from": "rabanus-gen-1-5",
+  "to": "bede-gen-1-5",
+  "type": "cites",
+  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-19",
+  "from": "alcuin-int-34",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-20",
+  "from": "wigbod-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-21",
+  "from": "wigbod-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "parallel",
+  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-22",
+  "from": "angelom-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "echoes",
+  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-23",
+  "from": "angelom-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-24",
+  "from": "remigius-gen-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-25",
+  "from": "glossa-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-26",
+  "from": "glossa-1-5",
+  "to": "aug-civ-11-7",
+  "type": "parallel",
+  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-27",
+  "from": "honorius-hex-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-28",
+  "from": "honorius-hex-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-29",
+  "from": "comestor-hs-1-5",
+  "to": "bede-gen-1-5",
+  "type": "echoes",
+  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-30",
+  "from": "hugh-sacr-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-31",
+  "from": "abelard-hex-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-32",
+  "from": "rupert-gen-1-5",
+  "to": "bruno-gen-1-5",
+  "type": "parallel",
+  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-33",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "aug-gnl-5-18",
+  "type": "contests",
+  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-34",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "comestor-hs-1-5",
+  "type": "parallel",
+  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k9-01",
+  "from": "aug-civ-11-20",
+  "to": "br-3-6b",
+  "type": "parallel",
+  "evidence": "The star thread of this crux, and both benches reach it by reading a silence in the syntax. Augustine: on day one 'and God saw that it was good' is placed before the division and not after it, 'lest he should seem to have borne the testimony of his approval to such darkness along with the light' — and on day four, where the darkness is blameless, it is placed after. R. Elazar: 'the Holy One never joins his name to the bad but only to the good, for it is not written and to the darkness GOD called night, but and to the darkness he called night.' One argues from where a clause of approval stands, the other from where the divine name is dropped, at consecutive verses, with no contact of any kind.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-02",
+  "from": "aug-civ-11-20",
+  "to": "br-2-5",
+  "type": "parallel",
+  "evidence": "The same inference from the same omission at the same clause. R. Abahu: 'but I do not know which of them he desires — since it is written and God saw the light that it was good, he desires the deeds of the righteous and does not desire the deeds of the wicked.' Augustine: 'lest both should be called good, when one of them was evil.' Both take the absence of an approval of the darkness to be a deliberate withholding, and both make it decisive.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-03",
+  "from": "br-3-8-yanai",
+  "to": "br-2-5",
+  "type": "echoes",
+  "evidence": "The same reading twice in the same midrash, once as an argument and once as a mapping. R. Abahu at 2:5 states the difficulty ('I do not know which of them he desires') and resolves it from Gen 1:4; R. Yanai at 3:8 runs the same identifications through every clause of 1:2–1:5 without raising a difficulty at all. The mapping is identical: tohu the deeds of the wicked, 'let there be light' the deeds of the righteous.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-04",
+  "from": "isidore-quaest-1-4",
+  "to": "br-3-8-yanai",
+  "type": "parallel",
+  "evidence": "The moral reading on both benches at the same clause, and the difference between them is exact. R. Yanai: 'and God divided between the light and the darkness — between the deeds of the righteous and the deeds of the wicked.' Isidore: 'then God, according to the favour of his foreknowledge, divided the just, that is, the sons of God and of light, from sinners, as from darkness; calling the just day and those others night.' The rabbinic bench divides deeds, the Latin bench divides people. Neither ever discusses the difference, and it holds across every allegory on this verse.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-05",
+  "from": "aug-gnl-imp-5-25",
+  "to": "br-3-8-yanai",
+  "type": "parallel",
+  "evidence": "Augustine reaches the righteous and the wicked at this clause too, and gets there by a route the rabbinic bench does not need: God is not the author of our vices but is their orderer, when he sets sinners in the place they deserve — sheep on the right, goats on the left. Because he has made the darkness a privation he cannot let the wicked be the darkness outright, only be ordered under it; R. Yanai, under no such constraint, simply says the darkness is their deeds.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-06",
+  "from": "aug-gnm-1-9",
+  "to": "aug-gnl-imp-5-23",
+  "type": "echoes",
+  "evidence": "Four years apart, the same doctrine argued from two different angles: at De Genesi contra Manichaeos from the analogy of silence, which explains how Scripture can say God makes darkness; at De Genesi ad litteram imperfectus from the analogy of the garment and nakedness, which explains why no separate act of dividing was needed.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-07",
+  "from": "aug-gnl-imp-5-25",
+  "to": "aug-gnm-1-9",
+  "type": "echoes",
+  "evidence": "The privation doctrine completed. The earlier work says God does not make the darkness but is rightly said to make it by withholding light; the later adds the term that the whole tradition will use — he does not make it, but he orders it, 'lest even those privations should not have their own order' — and supplies the rests in music and the shadows in painting to show what ordering a nothing can mean.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-08",
+  "from": "aug-civ-11-19",
+  "to": "aug-gnl-imp-5-25",
+  "type": "contests",
+  "evidence": "Augustine against Augustine, and he knows it: the earlier work takes the light of day one as possibly ethereal, sensitive or rational and the darkness as the privation of whichever it is; the City of God offers the reading in which the light is the angels and the darkness the apostate spirits, and hedges it — 'it does not seem to me an opinion at odds with the works of God'. Every later Latin witness on this crux has to hold both, and Hugh's solution is to say that both divisions happened at the same instant.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-09",
+  "from": "wigbod-gen-1-4",
+  "to": "aug-civ-11-20",
+  "type": "cites",
+  "evidence": "'Et cur non dicit Scriptura, vidit Deus tenebras quod essent bonae, sicut de luce dictum est? … in his dicens quia boni sunt, in illis nullatenus dicens, ne peccata quae erant tenebrae adprobare videretur' reproduces City of God XI.20's argument and its reason almost word for word, under the rubric AUGUSTINUS — on the same page as the proposition that there is an essence of darkness, which Augustine denies everywhere.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-10",
+  "from": "wigbod-gen-1-4",
+  "to": "aug-gnm-1-9",
+  "type": "contests",
+  "evidence": "The sharpest disagreement on the Latin bench, and it is invisible because it is filed under Augustine's name. Augustine: Scripture does not say God made the darkness, because darkness is the absence of light. Wigbod's pupil: everything that is divided can also be, so as there is an essence of light, so there is an essence of darkness. The inference is valid on its own terms and it destroys the doctrine the same compilation is transmitting.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-11",
+  "from": "angelom-gen-1-4",
+  "to": "aug-gnm-1-9",
+  "type": "cites",
+  "evidence": "The silence analogy copied close enough to be certain — clamando vocem, silentium autem non clamando, cessatio vocis silentium est — with one word altered: Augustine writes that God makes darkness because he 'either does not give light or withdraws it', Angelomus that he 'either gives or withdraws light'. The change turns a withholding into a conferring, and Angelomus names Augustine two sentences later as the authority he is following.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-12",
+  "from": "angelom-gen-1-4",
+  "to": "bede-gen-1-4",
+  "type": "cites",
+  "evidence": "'Lucem videlicet in superiore orbis parte diffundendo, in qua humana erat conversatio futura, inferiora vero ejus priscis in tenebris remanendo' is Bede's sentence with one verb changed, introduced by 'as Clement says: lighting up one part of the world, he left the other dark.' Angelomus has the words from Bede and the attribution from somewhere else.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-13",
+  "from": "rabanus-gen-1-4",
+  "to": "bede-gen-1-4",
+  "type": "transmits",
+  "evidence": "Verbatim and unnamed, from 'Divisit namque eas non solum qualitatis, sed et locorum distantia' to the end of the sentence. The transmission is what makes 'by quality and by place' the standing literal answer of the Latin bench.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-14",
+  "from": "comestor-hs-1-4",
+  "to": "bede-gen-1-4",
+  "type": "echoes",
+  "evidence": "'Et creatas divisit locorum distantia, et qualitate' is Bede's pair of terms four centuries on, with the mechanism supplied — 'so that they should never be together, but always claim opposite hemispheres in turn' — and with the darkness made a created shadow rather than an ancient dark left in place.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-15",
+  "from": "honorius-hex-1-4",
+  "to": "bede-gen-1-4",
+  "type": "echoes",
+  "evidence": "The same answer turned into a timetable: twelve hours above the earth and twelve below, the darkness put to flight and lying hidden. Bede's 'difference of places' has become a circuit with a count of hours, and the darkness has become the kind of thing that can be driven off and can hide.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-16",
+  "from": "basil-hex-2-8",
+  "to": "bede-gen-1-4",
+  "type": "parallel",
+  "evidence": "Both answer 'why divide them?' with distance, and neither could have got it from the other in this form: Basil, that God fashioned their natures unmingled and set them apart from one another by long spaces; Bede, that he divided them not only by quality but by place, the light over the upper part of the world. Basil's Latin was available in Northumbria, but the shared term is the commonplace, not a phrase.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-17",
+  "from": "remigius-gen-1-4",
+  "to": "aug-gnm-1-9",
+  "type": "contests",
+  "evidence": "The flattest contradiction of Augustine on this crux, without naming him and without argument from authority: 'God made both, the light and the darkness … therefore the darkness too is a work of God', proved from the Benedicite, where light and darkness are called together to bless the Lord (Dan 3:72). If darkness is the absence of light it cannot be summoned to praise; the canticle summons it.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-18",
+  "from": "glossa-1-4",
+  "to": "remigius-gen-1-4",
+  "type": "cites",
+  "evidence": "The Glossa's whole literal gloss on this verse is Remigius' sentence with its proof text — 'Lucem et tenebras fecit Deus, unde Dan. III: Benedicite, lux et tenebrae, Domino, cum omnis creatura ad benedicendum invitatur' — printed under the name of Strabo. What the twelfth-century schoolroom reads on Gen 1:4 is therefore the anti-Augustinian answer.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-19",
+  "from": "glossa-1-4",
+  "to": "isidore-quaest-1-4",
+  "type": "cites",
+  "evidence": "'Habet quisque in operibus et recta vita, distinctos sex dies, post quos requiem speret: primo die, lucem fidei' is Isidore's six ages of the Christian life, named as such, reduced to its first day. The Glossa keeps the moral reading and drops the division of the just from sinners that was its content.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-20",
+  "from": "remigius-gen-1-4b",
+  "to": "isidore-quaest-1-4",
+  "type": "echoes",
+  "evidence": "The same six-day allegory carried from the individual life to the history of the world: Isidore's first day is the light of faith and the dividing of the just from sinners, Remigius' is the separation of the sons of Seth from the generation of Cain, with the flood as its evening. The scheme is Isidore's, the datable content is not.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-21",
+  "from": "remigius-gen-1-4b",
+  "to": "remigius-gen-1-4",
+  "type": "contests",
+  "evidence": "One commentator, one verse, two incompatible readings a few columns apart, and no attempt to reconcile them: on the literal pass the darkness is a work of God made so that men might rest, and on the allegorical pass the darkness is the impious line of Cain that God drowned. The Latin bench's habit of running the six days twice is what allows the same writer to hold both.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-22",
+  "from": "hugh-sacr-1-4",
+  "to": "aug-civ-11-19",
+  "type": "echoes",
+  "evidence": "Hugh takes over the angelic division and removes Augustine's hedge, then adds what Augustine does not say: that the visible division and the invisible one happened at precisely the same moment of time, because the visible works of wisdom and the invisible outcomes had to correspond.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-23",
+  "from": "hugh-sacr-1-4",
+  "to": "aug-gnl-imp-5-23",
+  "type": "echoes",
+  "evidence": "The instantaneity argument transferred. Augustine: no separate act of separation was needed, because the division followed by the very fact that the light was made. Hugh: the division of the darknesses and of the light was made at once — and applies it to the angels, so that the fall and the confirmation are one instant with the making of light.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-24",
+  "from": "hugh-sacr-1-4",
+  "to": "br-3-6b",
+  "type": "parallel",
+  "evidence": "'He divided by judgement, and by merit he named' and R. Elazar's 'the Holy One never joins his name to the bad but only to the good' are the same doctrine of naming: what a thing is called follows what it deserves, and the naming is therefore a second act after the judging, not a label. Hugh gets it from the order divisit … vocavit, R. Elazar from a missing subject in the second half of the verse.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-25",
+  "from": "rupert-gen-1-4",
+  "to": "aug-civ-11-19",
+  "type": "echoes",
+  "evidence": "The angelic reading with a new argument under it. Augustine offers it as one true reading among several; Rupert derives it from the word 'good' — none is good but God, only a rational creature can partake of him, therefore the light of which it is said 'that it was good' must be intellectual — and then makes the division a sentence pronounced on the devil, unchangeable in both directions.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-26",
+  "from": "rupert-gen-1-4",
+  "to": "aug-civ-11-20",
+  "type": "contests",
+  "evidence": "Both build on the placing of 'God saw that it was good', and they build opposite things. Augustine: the approval is put before the division so that God should not seem to approve the darkness. Rupert: the approval is put where it is because it is a judgement passed on a rational light — and the division that follows is the judgement passed on the rest. Where Augustine finds a refusal to approve, Rupert finds a verdict delivered.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-27",
+  "from": "hugh-sacr-1-4b",
+  "to": "ambrose-hex-1-9b",
+  "type": "parallel",
+  "evidence": "The same difficulty and two refusals to let it become a problem about God's knowledge. Ambrose: 'he did not see what he did not know; nor did he approve what he had not known before' — the seeing is the self-attestation of a good work. Hugh takes the question seriously and answers it with a second light: in the unchangeable light he saw that this changeable light was good in its own mode and order.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-28",
+  "from": "hugh-sacr-1-4b",
+  "to": "alcuin-int-35",
+  "type": "echoes",
+  "evidence": "Alcuin dissolves the difficulty — what pleased him to be made pleased him to remain — and Hugh reopens it as a question about the medium of the seeing. Both are answering the objection that if God saw the light was good he learned something; the Carolingian schoolbook answers in one sentence what the Paris schoolroom takes a chapter over.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-29",
+  "from": "comestor-hs-1-4",
+  "to": "alcuin-int-35",
+  "type": "echoes",
+  "evidence": "'Quae placuerat in praesentia, vel praescientia, ut fieret; placuit in essentia, ut maneret' is Alcuin's answer with the moment divided in two, foreknowledge and being; the doubling is Comestor's and the pattern — what pleased to be made pleased to remain — is Alcuin's.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-30",
+  "from": "ibn-ezra-1-4",
+  "to": "aug-gnm-1-9",
+  "type": "parallel",
+  "evidence": "Both come to the possibility that the dividing and the naming are one act, and only one of them takes it. Augustine: 'perhaps, then, the dividing between light and darkness just is the calling of the light day and the darkness night, so that to have ordered these is to have named them' — and he leaves it as a perhaps and goes on. Ibn Ezra states it flatly as the meaning of the word: 'and the sense of and he divided is by the calling of names.' Nothing else on the Latin bench even entertains it.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-31",
+  "from": "ibn-ezra-1-4",
+  "to": "ambrose-hex-1-9b",
+  "type": "parallel",
+  "evidence": "The seeing removed from the world in two ways. Ibn Ezra: 'and he saw' is like Qohelet's 'I myself saw' — it is in the thought, so no act is reported. Ambrose: God did not see what he did not know, and the seeing is the good work attesting itself. Both refuse to let the verse describe an inspection, and neither has to posit anything to do it, which is what separates them from Hugh's second light.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-32",
+  "from": "ramban-1-2-choshech",
+  "to": "comestor-hs-1-4",
+  "type": "parallel",
+  "evidence": "The two most physical accounts of what the darkness is, from benches that cannot borrow. Ramban: the darkness is elemental fire, which is dark, 'and were it red, it would redden the night for us'. Comestor: God created the darkness with the light, that is, the shadow made by bodies set against the light. Both make the darkness a real thing with a cause, and Comestor has to introduce his with quasi because Augustine stands behind him; Ramban states his as the plain sense.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-33",
+  "from": "pdre-3-5",
+  "to": "remigius-gen-1-4",
+  "type": "parallel",
+  "evidence": "Darkness as a creature, stated without argument on both benches. Pirkei de-Rabbi Eliezer puts it fourth in a list of eight things created on the first day, between light and tohu, with no proof text and no defence. Remigius says God made both and proves it from the Benedicite. Neither is arguing with anybody; each is the settled answer of a tradition, and they are the same answer.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-34",
+  "from": "pdre-3-5",
+  "to": "alcuin-int-35",
+  "type": "parallel",
+  "evidence": "Two enumerations of what was made at the beginning, answering the same question with incompatible inventories. Alcuin, at the question next but one to this: heaven, earth, angels, light, air, water and the soul of man. Pirkei de-Rabbi Eliezer: heaven, earth, light, darkness, tohu, bohu, wind and water. The Latin list has the angels and the soul and no darkness; the rabbinic list has the darkness and the tohu and no angels. Neither list argues, and between them they contain the whole disagreement of this crux.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-35",
+  "from": "abelard-hex-1-4",
+  "to": "wigbod-gen-1-4",
+  "type": "parallel",
+  "evidence": "'Distinctio rei formatae ab informi', given as a third answer in a Carolingian dialogue, and 'operatione sua perfectum discrevit ab imperfecto et distinctum a confuso', argued at the Paraclete three hundred years later to prove that the creator of the matter and the former of the works are one and the same. The same reading of the darkness — not a privation, not a creature, but the unordered state of the world — put to two entirely different uses.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-36",
+  "from": "abelard-hex-1-4",
+  "to": "aug-gnl-imp-5-25",
+  "type": "contests",
+  "evidence": "Both make the division an ordering rather than a making, and they mean opposite things by it. Augustine orders privations, so that even a nothing has its place. Abelard orders works, so that the distinction of the works just is the light and the confusion before them is the darkness — which leaves nothing for the privation doctrine to be about.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-37",
+  "from": "vulgate-1-4",
+  "to": "lxx-1-4",
+  "type": "transmits",
+  "evidence": "The Greek keeps the Hebrew's doubled preposition, ana meson tou photos kai ana meson tou skotous, and the Old Latin behind Augustine keeps it too: divisit inter lucem et tenebras. Jerome writes divisit lucem a tenebris. Which form a Latin witness quotes tracks his text closely enough to be visible on this daf: Augustine, Angelomus and Alcuin have the older form, Bede, Remigius, the Glossa and Comestor Jerome's, and Rupert has neither.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-38",
+  "from": "targ-psj-1-4",
+  "to": "targ-onk-1-4",
+  "type": "echoes",
+  "evidence": "Pseudo-Jonathan reproduces Onkelos word for word at Gen 1:4 and expands freely at Gen 1:5 — the light made so that the inhabitants of the world might labour by it, the darkness so that the creatures might rest in it. The expansive targum finds nothing to expand in the dividing, which is the whole of the Latin bench's difficulty.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-39",
+  "from": "remigius-gen-1-4",
+  "to": "targ-psj-1-4",
+  "type": "parallel",
+  "evidence": "The same reason for the division, given in Aramaic and in Latin with no possible contact: Pseudo-Jonathan, that God made the day so that the inhabitants of the world might labour by it and the night so that the creatures might rest in it; Remigius, that God made both the light and the darkness 'that men might work in the light and rest in the night'. Remigius uses it to prove the darkness is a creature; the targum draws no conclusion from it at all.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-40",
+  "from": "br-3-6b",
+  "to": "bede-gen-1-4",
+  "type": "parallel",
+  "evidence": "R. Yoḥanan and Resh Lakish's king with two generals, each claiming the day, told 'day shall be your bound' and 'night shall be your bound', and Bede's division 'not only by quality but by place', with the light over the upper part of the world and the lower left dark. Both make va-yavdel an assignment of territory, and the midrash says outright what Bede assumes: havdala mamash, a real separating and not a figure.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-41",
+  "from": "br-3-6b",
+  "to": "aug-gnl-imp-5-25",
+  "type": "contests",
+  "evidence": "The two benches at their furthest apart on the same clause. Augustine: God did not make the darkness, he ordered it, as a singer orders his silences. R. Tanḥuma, on Isa 45:7, 'who forms light and creates darkness, who makes peace': after they were created he made peace between them — the darkness is created, the making of peace is the dividing, and both are works. The rabbinic text has no term for a privation and never needs one.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-42",
+  "from": "rupert-gen-1-4",
+  "to": "br-3-6b",
+  "type": "parallel",
+  "evidence": "The division as a judicial sentence, on both benches, with the same insistence that it is irreversible. Rupert: a terrible judgement of God upon the devil, 'by an unchangeable separation, so that neither can those who fell rise again, nor can those who refused to fall ever fall'. The midrash: the king calls each general and fixes his bound, and R. Berekhya introduces it as havdala mamash. The Latin makes it a verdict on persons and the rabbinic a decree about times, and both are about what may never be crossed again.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-43",
+  "from": "ibn-ezra-1-4",
+  "to": "br-3-6b",
+  "type": "contests",
+  "evidence": "Ibn Ezra's 'the sense of and he divided is by the calling of names' is the flat denial of R. Yoḥanan and Resh Lakish's havdala mamash, a real separating, and he does not name them. He is also refusing R. Ze'eira's derivation, since a naming cannot be the source of a rule about looking at a flame. The grammarian dismantles in one clause the two things the midrash builds on this word.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-44",
+  "from": "aug-civ-11-19",
+  "to": "br-3-6b",
+  "type": "contests",
+  "evidence": "Both benches read the darkness of this verse as something set aside, and the thing set aside is not the same. For Augustine it is the apostate angels, ordered but not approved; for R. Yehuda bar Simon and the Rabbis it is the light that is set aside — hivdilo lo, he separated it for himself, or for the righteous in the time to come. One tradition takes the division to be a removal of the darkness from fellowship, the other a reservation of the light from use, and each is unavailable to the other.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-45",
+  "from": "glossa-1-4",
+  "to": "aug-gnm-1-9",
+  "type": "contests",
+  "evidence": "The Glossa's own gloss on Gen 1:2, three columns earlier, is 'and there were darknesses, namely the privation of true light'; its gloss on Gen 1:4 is 'God made both the light and the darkness'. The standard schoolbook prints Augustine's doctrine on one verse and its contradiction on the next, and marks neither as disputed.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-x1",
+  "from": "rashi-1-4",
+  "to": "br-3-6b",
+  "type": "cites",
+  "evidence": "Phase 4. Rashi's plain sense names Bereshit Rabbah 3:6 for it: 'he saw that it was good, and that it was not seemly that light and darkness should function together in a confused manner. He therefore limited this one's sphere of activity to the daytime, and this one's to the nighttime' — which is R. Yoḥanan and Resh Lakish's king with two generals, each told his bound. Written at Phase 4 because `rashi-1-4` was built for K8 and carries both cruxes' answers in one dibbur.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-x2",
+  "from": "rashi-1-4",
+  "to": "b-chag-12a-light",
+  "type": "cites",
+  "evidence": "Phase 4. Rashi's aggadic half names Chagigah 12a: 'he saw that the wicked were unworthy of using it; he therefore set it apart, reserving it for the righteous in the world to come'. The dibbur gives its two sources in order, the aggadah first and the peshat second, and each belongs to a different crux on this site.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-x3",
+  "from": "rashi-1-4",
+  "to": "ambrose-hex-1-9b",
+  "type": "parallel",
+  "evidence": "Phase 4. The same purpose clause in Troyes and in Milan, seven hundred years apart. Rashi: it was not seemly that light and darkness should function together in a confused manner. Ambrose: the distinction is made between the light and the darkness so that, their natures being separated, nothing may be seen to have anything confused within it. Neither could have known the other, and it is the closest verbal agreement between the benches on this crux.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-x4",
+  "from": "b-chag-12a-light",
+  "to": "br-3-6b",
+  "type": "parallel",
+  "evidence": "Phase 4. Two redactions of one answer to va-yavdel: the Bavli that the light was stored away for the righteous, and Bereshit Rabbah's Rabbis that 'he separated it for the righteous in the time to come, like a king who had a fine portion and set it aside for his son' — beside R. Yehuda bar Simon's harder reading, that he separated it for himself.",
+  "crux": "good-and-separated"
  }
 ]

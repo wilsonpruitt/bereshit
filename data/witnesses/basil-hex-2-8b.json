@@ -1,0 +1,40 @@
+{
+ "id": "basil-hex-2-8b",
+ "work": "basil-hex-lat",
+ "author": "basil",
+ "tradition": "latin",
+ "date": 380,
+ "date_precision": "range-370-380",
+ "place": "caesarea-cappadociae",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "dixit primo vesperam",
+  "en": "he said evening first"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Nunc quidem post solis creationem dies appellatur, id est aer sole illustratus, cum in hemisphaerio quod supra terram est commoratur; nox autem dicitur terrae obumbratio, quae sole in occasu condito generatur, tunc autem non solum corporis motu, sed diffusione principalis luminis, modo se subducentis, modo denuo reducentis, secundum divinam praeceptionem dies fiebat, noxque sequebatur. Et facta est vespera, et factum est mane dies unus. Vesperae igitur nuncupatio, communiter intelligenda est. Nam et incipiente die, et ad occasum vergente, nox ei sua vicinitate contigua est: verumtamen ut nativitatis diurnae privilegia reservaret, dixit primo vesperam, dicens quia nox diem comitatur. Nam antequam lux crearetur, nox non habebatur in mundo, sed tenebrae. Obumbratio ergo terrae quam suipra diximus intercidens diem nox appellata est: et deo novo nomine post generationem vocitata est: Facta est itaque vespera, et factum est mane: non dixit dies atque nox, sed vespera et mane, ut vocabuli videlicet dignitatem parti meliori tribueret. Nam dies aeque vesperam maneque contingit, et hanc consuetudinem reperies ubique custodire Scripturam in temporibus numerandis. Dicimus enim tot dies elapsos esse, nullam facientes noctium mentionem",
+  "source": "PL 53, col. 888A",
+  "cc_idno": "7608",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Now indeed, after the creation of the sun, day is the name for air lit by the sun, when it stays in the hemisphere that is above the earth; and night is called the shadowing of the earth, which is produced when the sun is set at its going down. But then day was made, and night followed, not by the motion of the body but by the diffusion of the principal light, now withdrawing itself and now bringing itself back again, according to the divine command. And there was made evening, and there was made morning, one day. The naming of evening, therefore, is to be understood in the common way. For both when the day begins and when it inclines to its setting, night is next to it by its nearness; yet, so as to keep the privileges of the day's birth, he said evening first, saying that night accompanies the day. For before light was created there was no night in the world, but darkness. The shadowing of the earth, then, of which we spoke above, cutting off the day, was called night, and therefore was named with a new name after its coming to be: And so there was made evening, and there was made morning. He did not say day and night, but evening and morning, so as to give the dignity of the word to the better part. For a day touches evening and morning alike, and you will find that Scripture keeps this custom everywhere in numbering times. For we say that so many days have gone by, making no mention of the nights.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "day-precedes-night",
+  "unus-cardinal"
+ ],
+ "notes": "Added at Phase 6, and it should have been on the daf from the start: this is the passage every later Latin answer to 'why evening first' descends from, and K10's greps did not reach it. Basil, in the Latin of Eustathius, gives the crux its two halves at once. Evening is named first so as to keep the privileges of the day's birth — nativitatis diurnae privilegia — because night accompanies the day and does not precede it; and before light was made there was no night in the world at all, only darkness, so night is a new name for a new thing. Then the second argument, which is about the choice of words: he did not say day and night but evening and morning, to give the dignity of the word to the better part, and Scripture keeps that custom everywhere in counting times. ⚠ The TEI of this column carries at least two plain OCR faults in the space of six lines — suipra for supra, et deo for ideo — which is worth knowing before the variant in the next note is read as a textual fact."
+}

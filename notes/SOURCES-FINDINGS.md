@@ -862,3 +862,89 @@ swallowed should be rebuilt (K9's `br-3-6b`: yes), whether a facet should be add
 witness (consistently: no, Phase 4), and whether the anchor rule should bend (K2: only on PLAN.md's
 own authority, and flagged). **Those three questions are the whole of Phase 4's agenda** and they
 are now itemised, by witness id, in `notes/cross-crux.md`.
+
+## Phase 6 — second-tier sources (2026-09-05)
+
+**What the plan got wrong or did not know.**
+
+- **The plan's two "alternate fetch" jobs both fail on Sefaria, and for the same undocumented
+  reason.** "Daat BR Hebrew" and "Etheridge Onkelos" are both listed on Sefaria's index for their
+  works and both return **zero versions for the chapters this edition uses**. Daat Bereshit Rabbah
+  has no text at Bereshit Rabbah 1, 2 or 3; Etheridge's Onkelos has none at Genesis 1 or Genesis 49
+  but twenty segments at Genesis 12. **A version title appearing in `api/texts/versions/<work>` is
+  a claim about the work, not about the passage** — always probe the actual ref. Etheridge was
+  fetched instead from archive.org (`targumsonkelosa00ethegoog`, vol. 1, PD) into `raw/etheridge/`.
+- **⚠ The BR Hebrew licence problem is NOT solved and is Wilson's to rule on.** Twenty-three
+  witnesses carry `original.license: "check"` because the only Hebrew of Bereshit Rabbah 1–3 that
+  Sefaria will serve is **"Midrash Rabbah -- TE"** (Torat Emet), licence *unknown*. The one free
+  alternative is **"Wikisource Bereshit Rabbah", CC BY-SA** — same segment counts (15/5/9), same
+  sections in the same order. It is **not a drop-in**: it is largely unvocalized and prints the
+  abbreviations (א"ר, רשב"י) the Torat Emet text expands, so of the 23 built slices only **4**
+  survive a swap on a consonantal-skeleton match of their own first and last sixty letters. It also
+  differs materially at least twice — BR 3:5 reads כנגד ספרי תורתו where Torat Emet has כנגד חמשה
+  חומשי תורה, and BR 3:6 opens at תני אורה, without the וַיִּקְרָא lemma clause that is K9's
+  evidence. So the choice is: an unknown-licence vocalized Vilna text, or a CC BY-SA text that costs
+  nineteen re-cuts and changes the evidence in two places. Neither is a builder's call.
+- **A `str.find` returning -1 had been used as a slice index since K10, and shipped.**
+  `br-3-8`'s Hebrew was the single character `.` — the anchor failed on combining-mark order, the
+  documented niqqud trap, and `text[-1:]` is the last character. It passed `check.py`, a daf read,
+  and Phases 3, 4 and 5. Fixed; `bench.hcut` now takes `b=None` and `bench.ecut` is its non-Hebrew
+  twin, both raising; `check.py` gained rule 7 (no original or English under 40 chars, no original
+  under a quarter of its English). A sweep of all 235 witnesses at those thresholds returned br-3-8
+  alone. ⭐ **The general lesson: every silent-truncation path in this repo is a `find` whose failure
+  value is a legal index.** `_bon_slice` in the K10 spec has the same shape and degrades to the
+  whole text rather than one character, which is why it was never noticed.
+- **A CC BY compliance defect the colophon could not show.** Twenty-three Sefaria Midrash Rabbah
+  passages and six Sefaria Vocalized Ramban passages were keyed to the generic `cc-by` — which is
+  also the key on our own 177 fresh drafts and therefore carries no attribution line — while
+  `colophon.astro` renders only `licenses[key].attribution`. CC BY requires attribution. Now keyed
+  to `sefaria-midrash-rabbah` and a new `sefaria-vocalized`; `check.py` rule 8 enforces it.
+  ⛔ **Put licence edits in the crux spec's `LICENSES`, not in `data/licenses.json`** — build-crux.py
+  merges the spec over the file on every rebuild, and a first attempt at `chavel-ramban` was
+  silently reverted that way. **`chavel-ramban` keeps its `[CHECK]`**: Phase 6 verified only that
+  Sefaria's v3 API does assert CC-BY for that versionTitle, which was never the doubtful part.
+- **Onkelos on Gen 1:5 was cited twice on the K10 daf and was not on it** — once by the
+  Pseudo-Jonathan note and once by an answer gloss. Built as `targ-onk-1-5`. It reads *yoma chad*
+  and then *yom tinyan* at 1:8, so it keeps the Greek's unevenness and adds one the Greek has not:
+  the first is determined and the second is not. **And it corrects the K10 note on Etheridge**,
+  which read as though his ordinal were a response to the expansive targum: his Onkelos prints "Day
+  the First" for the same *yoma chad*, and "the Second Day" after it, so the ordinal is an even
+  habit of the translator.
+- ⛔ **The K10 bench greps missed the single most important patristic passage on the crux.**
+  `basil-hex-2-8b` (PL 53:888A–B) gives both halves of "why evening first" — evening is named first
+  *ut nativitatis diurnae privilegia reservaret*, because night accompanies the day and does not
+  precede it, and before light was made there was no night in the world but only darkness — and then
+  the argument from the choice of words, that Scripture said evening and morning and not day and
+  night to give the dignity of the word to the better part. **Ambrose's answer on this daf is that
+  sentence in other words**: "prerogative and birthright" is *privilegia* and *nativitas*, in that
+  order, on the same clause. Ambrose is reading Basil's Greek, not this Latin — Eustathius
+  translated a generation after the Hexaemeron of Milan — so the two are independent Latin
+  renderings of one Greek sentence, and every later Latin answer descends from Ambrose's.
+- **A variant that decides a doctrine, reported and not adjudicated.** Bonaventure (In II Sent.
+  d.13 a.1 q.2) quotes that Basil sentence as *non **solaris** corporis motu*; the Patrologia column
+  reads *non **solum** corporis motu*. The first has Basil deny that the first light moved as the
+  sun does, which is the ground of Bonaventure's whole division of the question into Greeks and
+  Latins; the second has him concede motion and merely add diffusion, and the division collapses.
+  Basil's own context favours Quaracchi — the sentence has just distinguished what happens *after*
+  the sun's creation from what happened *then*, when there was no solar body to move — and the same
+  TEI column carries two plain OCR faults within six lines (*suipra* for *supra*, *et deo* for
+  *ideo*). **Neither the Greek nor a second Latin witness was consulted, so this is left as a
+  divergence.** Thread `t-k10-38` states it that way.
+- **Bonaventure d.13 a.1 q.2 is the one witness that draws this site's own line from inside the
+  tradition**: *duplex est hic modus dicendi, unus secundum doctores Graecos … alter secundum
+  Latinos*, with both parties made to read the same two clauses — *Divisit Deus lucem a tenebris*
+  and *factum est vespere et mane*, which are the whole of K9 and the whole of K10 — allotted
+  between the schools sentence by sentence. Built as `bonaventure-sent-2-13-1-2`, on both dafs.
+- ⚠ **`overlap.py` prints `!! could not locate glossa-1-2-ruach inside 8950` on every run.** That
+  witness was filled from `raw/latin/glossa-8950-gen-1-2-*.md` rather than sliced from the TEI, so
+  it is absent from the coverage map and the Glossa's 1:2 column is invisible to overlap checking.
+  Not fixed here; it is a hole in a safety net, not a defect in the data.
+- **`grep-bench.py` and `latin()` compute the PL column identically** — a disagreement between them
+  on one passage turned out to be two different offsets in one passage, not two computations.
+  The cited column is always the one containing the *start anchor*, so two witnesses sharing a
+  column is expected, not a fault.
+
+**Still unbuilt from Phase 6's list**: Nicholas of Lyra and Paul of Burgos (1492 Venice *Biblia cum
+glossa*, vision OCR — its own session, ~150–200K), and Gen 1:26 *Faciamus hominem* into K3, which
+the widened anchor rule now permits and which is where most of the Latin material on divine
+plurality actually sits.
