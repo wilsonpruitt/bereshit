@@ -785,3 +785,74 @@ builder. The cheap options are (a) build it anyway with an explicit note, (b) le
 the `finding`, (c) widen the anchor rule for texts that are *about* the act of expounding Genesis.
 **Recommend (c), narrowly**: a witness may be anchored on a verse it does not quote if its subject
 is whether that verse may be expounded — which is exactly what K2 is about, on both benches.
+
+## K2 `why-begin-here` (built 2026-09-05 — Phase 2 complete)
+
+**What the plan got wrong or did not know.**
+
+- **The plan's PLAN.md §5 entry is the reason four witnesses on this daf are not comments on the
+  verse.** It names "Glossa prothemata; Comestor prologue; Hugh Sacr. prologue", so prologues were
+  contemplated for K2 before the anchor rule was frozen in PHASES.md, and the per-crux checklist's
+  step 1 is to read that entry. K2 has built them and marked each with an `⚠ Anchor note`. **This is
+  Wilson's ruling to confirm or reverse at Phase 3**, and the same licence would let Gen 1:26 into
+  K3, where most of the Latin material on divine plurality actually is. If he reverses it the crux
+  survives, because `br-1-10` carries m. Chagigah's four forbidden questions verbatim as an
+  exegesis of the first *letter* of Gen 1:1.
+- **PLAN.md's Tanchuma [CHECK] is unresolved**: `tanch-std-ber-1.json` and `tanch-buber-ber-1.json`
+  are on disk and were not read for this crux. **The Glossa [CHECK] resolves negatively**: TEI 8950
+  has no prefatory matter at all, opening straight at CAPUT PRIMUM, VERS. 1. If the Glossa's
+  prothemata are wanted they are not in this transcription and are a Phase 6 job.
+- **The plan did not name BR 1:2, which is Rashi's source.** R. Yehoshua of Sikhnin in the name of
+  R. Levi has the whole of Rashi's answer — Ps 111:6, the charge of robbery, Deut 2:23, the earth is
+  the Lord's — four hundred years earlier and without R. Isaac's objection. What Rashi contributes
+  is the premise that makes it a question about the shape of Scripture rather than about the land.
+- **Three slice defects, two of which fail silently.** `latin()` takes the FIRST match of its start
+  anchor, and works with a printed table of contents print their chapter titles twice: the first
+  build of `hugh-sacr-prologus` returned a 20,115-character witness spanning Hugh's whole table.
+  **Use `occurrence=1` on any work with a table of contents** — this is a real defect in the helper
+  and Phase 4 or 5 should make `latin()` warn when a slice exceeds, say, 5,000 characters. Second, a
+  slice preceding the first `<pb>` in its TEI gets `col. ?`; Augustine's *De Genesi contra
+  Manichaeos* CAPUT PRIMUM is one, and the column had to be supplied by hand. Third, Sefaria's
+  English for m. Chagigah 2:1 is the **William Davidson Edition**, which is NC — the frozen data rule
+  names Davidson/Steinsaltz for the Bavli and it applies to the Mishnah too, so the English there is
+  a fresh draft from the Hebrew.
+
+**Burn, measured on K2 (Opus, 2026-09-05): ~70K tokens.** Cheapest of the nine measured, and the
+crux is also the smallest.
+
+---
+
+## Phase 2 closed — the whole run, measured
+
+| crux | built | witnesses | threads | burn |
+|---|---|---|---|---|
+| K7 `ruach-hovering` | pilot | 30 | 33 | — (Fable pilot) |
+| K10 `one-day-evening-first` | 1st | 28 | 34 | ~170K |
+| K1 `beginning-of-what` | 2nd | 34 | 44 | ~200K |
+| K8 `first-light` | 3rd | 27 | 35 | ~170K |
+| K6 `tohu-vabohu` | 4th | 25 new / 32 on daf | 28 | ~135K |
+| K5 `heaven-earth-order` | 5th | 17 new / 19 on daf | 20 | ~125K |
+| K4 `ex-nihilo-or-matter` | 6th | 19 new / 22 on daf | 25 | — |
+| K9 `good-and-separated` | 7th | 32 | 45 | ~110K |
+| K3 `elohim-and-trinity` | 8th | 13 new / 20 on daf | 25 | ~85K |
+| K2 `why-begin-here` | 9th | 10 | 15 | ~70K |
+| **total** | | **235 witnesses** | **304 threads** | **~1.07M** |
+
+**The cost curve is monotonic downward after K1 and the reasons are known**, so a future run of this
+shape can be budgeted rather than guessed: (1) the rabbinic loci stop needing to be pulled and start
+having been read — after K8 every locus any crux needed was on disk; (2) `grep-bench.py` turns
+"which witnesses exist" from a reading problem into a search problem, provided the regex carries
+**every Latin form of the lemma** (the K6 lesson) and provided a `— 0 hit(s)` line is read as a fact
+about the regex and not about the work (the K3 lesson, which nearly cost the site its best witness);
+(3) **pre-tagging** — seven witnesses arrived on K3's roster for free because the K7 session had put
+`elohim-and-trinity` in their facets, and three were load-bearing. That last is the single most
+transferable habit and it should be written into any comparable project's conventions from the
+start: **when a crux reads a passage that plainly belongs to an unbuilt crux, add the facet then.**
+
+**What did not get cheaper is the judgement**, and it moved rather than shrank. On the early cruxes
+it went into pruning an over-large roster (K10's note: "what actually took the time was deciding the
+roster"); on the late ones it went into boundary decisions — whether a passage another crux had
+swallowed should be rebuilt (K9's `br-3-6b`: yes), whether a facet should be added to another crux's
+witness (consistently: no, Phase 4), and whether the anchor rule should bend (K2: only on PLAN.md's
+own authority, and flagged). **Those three questions are the whole of Phase 4's agenda** and they
+are now itemised, by witness id, in `notes/cross-crux.md`.

@@ -68,8 +68,21 @@
    "en": "in the beginning [God] created"
   },
   "summary": "The crux where each tradition's reason for having a commentary is exposed.",
-  "witnesses": [],
-  "status": "register-only"
+  "witnesses": [
+   "rashi-1-1",
+   "br-1-2",
+   "br-1-5a",
+   "br-1-10",
+   "m-chag-2-1",
+   "ambrose-hex-1-1b",
+   "ambrose-hex-1-5",
+   "aug-gnm-1-1",
+   "hugh-sacr-prologus",
+   "comestor-hs-prologus"
+  ],
+  "status": "built",
+  "finding": "This is the crux where each tradition's reason for having a commentary is exposed, and the two reasons turn out to be the same shape and opposite in content. Rashi opens the most-read Jewish commentary on the Torah with an objection to the book: R. Isaac said the Torah, which is Israel's law book, ought to have begun at 'this month shall be to you the first of the months', the first commandment given to Israel — and it begins with the creation only so that when the nations call Israel robbers, Israel may answer that the earth is the Lord's and he gave it to whom he pleased. Hugh of St Victor, in Paris within fifty years of Troyes, opens his own summa with the same verdict in scholastic terms: the matter of all divine Scripture is the works of restoration, and the works of foundation — the creation of the world with all its elements — are the matter of secular writings. Both have ruled that Genesis 1 is not what its book is for; both then supply a reason from outside the chapter, and the reasons have nothing to do with each other. Hugh needs a whole further chapter to explain how Scripture descends through the works of foundation on its way to the Incarnation, and Comestor a generation later repairs the difficulty with a builder's metaphor — history is the foundation, allegory the wall leaning on it, tropology the roof — so that starting here is the first course of masonry rather than a detour.\n\nWhat the Latin bench never does is ask whether the chapter should be expounded at all, and what the rabbinic bench never stops doing is asking exactly that. The Mishnah rules that the work of creation may not be expounded before two, and that whoever looks at four things — what is above, what is below, what is before, what is after — it were fitting for him that he had not come into the world. Bereshit Rabbah puts the same four questions into the shape of the first letter of the first word: the bet is closed on three sides and open at the front, so you have permission to ask only from the day the world was created and onward. And five sections earlier the same commentary curses the people doing what it is doing — may they be silenced, those lying lips — 'with arrogance', is it in order to boast, I am expounding the work of creation? A commentary that makes the case against itself twice in its first chapter has no counterpart on the Latin side at all.\n\nThe reason it has none is visible in Augustine, and it is not that the Latin bench is less reverent. In the first chapter of De Genesi contra Manichaeos he explains why the book exists and why it is written the way it is: the Manichees pursue the learned and the unlearned alike, so they must be refuted 'not with ornate and polished speech but with plain facts' — educated friends had read his earlier books and warned him kindly that ordinary readers could not follow them. And in the next chapter the Manichees put their question: in what beginning, and what was God doing before he made heaven and earth? That is the Mishnah's 'what is before', asked by an opponent instead of a student. On one bench the question is put by someone who must be stopped, and the tradition builds a fence; on the other it is put by someone who must be answered, and the answer becomes the commentary. Ambrose settles the matter from the other end — Moses spoke not in the persuasion of human wisdom but as a witness, testis, of the divine work, and the world is a specimen of the divine working, because while the work is seen the workman is put forward, as a building shows its craftsman when the craftsman is silent. Beginning here is, for the Latin bench, the most natural thing a book about God could do. For R. Isaac it is the one thing that has to be explained away.",
+  "short": "why begin here?"
  },
  {
   "id": "elohim-and-trinity",

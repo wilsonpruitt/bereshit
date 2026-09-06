@@ -1,0 +1,40 @@
+{
+ "id": "m-chag-2-1",
+ "work": "mishnah-chagigah",
+ "author": "mishnah",
+ "tradition": "rabbinic",
+ "date": 210,
+ "date_precision": "redaction-200-220",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "וְלֹא בְמַעֲשֵׂה בְרֵאשִׁית בִּשְׁנַיִם",
+  "en": "nor the work of creation before two"
+ },
+ "original": {
+  "lang": "he",
+  "text": "אֵין דּוֹרְשִׁין בַּעֲרָיוֹת בִּשְׁלֹשָׁה. וְלֹא בְמַעֲשֵׂה בְרֵאשִׁית בִּשְׁנַיִם. וְלֹא בַמֶּרְכָּבָה בְּיָחִיד, אֶלָּא אִם כֵּן הָיָה חָכָם וּמֵבִין מִדַּעְתּוֹ. כָּל הַמִּסְתַּכֵּל בְּאַרְבָּעָה דְּבָרִים, רָאוּי לוֹ כְּאִלּוּ לֹא בָּא לָעוֹלָם, מַה לְּמַעְלָה, מַה לְּמַטָּה, מַה לְּפָנִים, וּמַה לְּאָחוֹר. וְכָל שֶׁלֹּא חָס עַל כְּבוֹד קוֹנוֹ, רָאוּי לוֹ שֶׁלֹּא בָּא לָעוֹלָם:",
+  "source": "m. Chagigah 2:1",
+  "license": "pd",
+  "version": "Torat Emet 357"
+ },
+ "english": {
+  "text": "One does not expound the forbidden sexual relations before three, nor the work of creation before two, nor the Chariot before one — unless he was wise and understood of his own knowledge. Whoever looks at four things, it were fitting for him that he had not come into the world: what is above, what is below, what is before, and what is after. And whoever has no care for the honour of his Maker, it were fitting for him that he had not come into the world.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "do-not-expound-it",
+  "honour-of-the-maker"
+ ],
+ "notes": "The rule the whole rabbinic bench on this site is working under, and it is not a comment on Gen 1:1 but a restriction on commenting. The work of creation may not be expounded before two, and the Chariot not before one, unless he is wise and understands of his own knowledge — a rule about audience size, so that what is said cannot become public teaching. Then the four things: what is above, what is below, what is before, what is after; and whoever looks at them, it were fitting he had not come into the world. Those four are what Bereshit Rabbah 1:10 reads out of the closed sides of the letter bet, and they are, item for item, the questions the Manichees put to Augustine and that he answers at length in the first chapters of De Genesi contra Manichaeos. ⚠ **Anchor note**: this is a witness by PLAN.md §5's specification for K2, not by the general anchor rule; see the file docstring. The Sefaria English here is the William Davidson Edition, which is not licensed for this site, so the English is a fresh draft from the Hebrew."
+}

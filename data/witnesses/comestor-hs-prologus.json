@@ -1,0 +1,39 @@
+{
+ "id": "comestor-hs-prologus",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "historia fundamentum est",
+  "en": "history is the foundation"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Imperatoriae majestatis est, in palatio tres habere mansiones: auditorium vel consistorium in quo jura decernit: coenaculum, in quo cibaria distribuit; thalamum, in quo quiescit. Ad hunc modum Imperator noster, qui imperat ventis et mari, mundum hunc habet pro auditorio: ubi ad nutum ejus omnia disponuntur. Unde illud Isaiae: Coelum et terram ego impleo (Isa. XXV) . Secundum hanc dicitur Dominus. Unde: Domini est terra, et plenitudo ejus (Psal. XXII) . Animam justi habet pro thalamo, quia deliciae sunt ei ibi quiescere, et esse cum filiis hominum (Prov. VIII) : secundum hanc dicitur sponsus, et anima cujusque sponsa (Ose. II) : Sacram Scripturam habet pro coenaculo, in qua sic suos inebriat, ut sobrios reddat. Unde: Ambulavimus in domo Dei cum consensu (Psal. LIV) , in sacra Scriptura id ipsum sapientes. Secundum hanc dicitur paterfamilias: Coenaculi hujus tres sunt partes, fundamentum, paries, tectum. Historia fundamentum est, cujus tres sunt species: annalis, kalendaria, ephimera. Allegoria paries superinnitens, quae per factum aliud factum figurat. Tropologia, doma culmini superpositum, quae per id quod factum est quid a nobis sit faciendum insinuat. Prima planior, secunda acutior, tertia suavior",
+  "source": "PL 198, col. 1053",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It belongs to imperial majesty to have three chambers in the palace: the hall of audience or council, in which it decrees laws; the dining-hall, in which it distributes food; the bedchamber, in which it rests. After this manner our Emperor, who commands the winds and the sea, has this world for his hall of audience, where all things are disposed at his nod — whence that word of Isaiah: I fill heaven and earth. According to this he is called Lord: whence, The earth is the Lord's, and the fulness thereof. He has the soul of the just for his bedchamber, because his delights are to rest there and to be with the sons of men: according to this he is called the bridegroom, and each soul the bride. He has holy Scripture for his dining-hall, in which he so makes his own drunk that he renders them sober: whence, We walked in the house of God with consent — being of one mind in holy Scripture. According to this he is called the householder. Of this dining-hall there are three parts: foundation, wall, roof. History is the foundation, of which there are three kinds: annals, calendars, day-books. Allegory is the wall leaning upon it, which figures one deed by another. Tropology is the roof set on the summit, which by what has been done intimates what is to be done by us. The first is plainer, the second sharper, the third sweeter.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "history-is-the-foundation"
+ ],
+ "notes": "Why a book of Scripture begins with a narrative of events, answered by a builder's metaphor that is also a curriculum. Scripture is the Emperor's dining-hall, and the hall has a foundation, a wall and a roof: history, allegory, tropology — the first plainer, the second sharper, the third sweeter. History is the foundation, so it comes first because nothing can be built before it is laid, and the Historia scholastica is a whole book written on that principle. It is the most institutional answer on the daf: not why God began the book here, but why a master beginning to teach it must begin here. The three kinds of history — annals, calendars, day-books — are the technical vocabulary of a twelfth-century classroom. ⚠ **Anchor note**: a prologue, built by PLAN.md §5's specification for K2; see the file docstring."
+}

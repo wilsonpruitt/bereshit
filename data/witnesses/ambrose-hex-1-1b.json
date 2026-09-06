@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-1b",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "tamquam testis divini operis ausus est dicere",
+  "en": "as a witness of the divine work he dared to say"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Denique non in persuasione humanae sapientiae, nec in philosophiae simulatoriis disputationibus, sed in ostensione spiritus et virtutis, tamquam testis divini operis ausus est dicere: In principio fecit Deus coelum et terram. Non ille, ut atomorum concursione mundus coiret, serum atque otiosum exspectavit negotium; neque disciplinam quamdam materiae, quam contemplando, mundum posset effingere, sed auctorem Deum exprimendum putavit. Advertit enim vir plenus prudentiae, quod visibilium atque invisibilium substantias, origines, et causas rerum mens sola divina contineat, non ut philosophi disputant, validiorem atomorum complexionem perseverantiae jugis praestare causam: sed judicavit quod telam araneae texerent qui sic minuta et insubstantiva principia coelo ac terris darent, quae ut fortuito conjungerentur, ita fortuito ac temere dissolverentur, nisi in sui gubernatoris divina virtute constarent. Nec immerito gubernatorem nesciunt, qui non noverunt Deum, per quem omnia reguntur et gubernantur. Sequamur ergo eum, qui et auctorem novit, et gubernatorem, nec vanis abducamur opinionibus.",
+  "source": "PL 14, col. 125B",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Finally it was not in the persuasion of human wisdom, nor in the counterfeit disputations of philosophy, but in the showing of the Spirit and of power, as a witness of the divine work, that he dared to say: In the beginning God made heaven and earth. Not he, so that the world should come together by a concourse of atoms […]. For a man full of prudence perceived that the divine mind alone contains the substances of things visible and invisible, their origins and their causes — not, as the philosophers dispute, that a stronger interlacing of atoms furnishes the cause of unbroken endurance: but he judged that they were weaving a spider's web who gave such minute and unsubstantial first principles to heaven and earth — principles which, as they were joined by chance, would by chance and at random be dissolved, did they not stand fast in the divine power of their governor. Nor is it without cause that they do not know the governor, who have not known God, by whom all things are ruled and governed. Let us follow him, then, who knows both the author and the governor, and let us not be led away by empty opinions.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "moses-is-a-witness",
+  "against-the-philosophers"
+ ],
+ "notes": "The Latin bench's reason for the chapter, and it is a claim about the writer's standing rather than about the chapter's contents. Moses did not speak in the persuasion of human wisdom nor in philosophy's counterfeit disputations but in the showing of the Spirit and of power, and he dared to say 'In the beginning God made heaven and earth' as a witness — testis — of the divine work. Everything Ambrose has said in the preceding column about Plato's three principles and the atomists is cleared away by that one word: a witness does not argue, he reports, and what he reports is what the divine mind alone contains. The spider's web is aimed at Epicurus. Note what the Latin answer does not contain: any suggestion that the chapter should not have been written, or that it is doing something the book is not otherwise for. That question is asked only on the other bench, and there it is asked first."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "br-1-2",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "כֹּחַ מַעֲשָׂיו הִגִּיד לְעַמּוֹ",
+  "en": "the power of his deeds he told to his people"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי יְהוֹשֻׁעַ דְּסִכְנִין בְּשֵׁם רַבִּי לֵוִי פָּתַח (תהלים קיא, ו): כֹּחַ מַעֲשָׂיו הִגִּיד לְעַמּוֹ לָתֵת לָהֶם נַחֲלַת גּוֹיִם, מַה טַּעַם גִּלָּה הַקָּדוֹשׁ בָּרוּךְ הוּא לְיִשְׂרָאֵל מַה שֶּׁנִּבְרָא בַּיּוֹם הָרִאשׁוֹן, וּמַה שֶּׁנִּבְרָא בַּיּוֹם הַשֵּׁנִי, מִפְּנֵי עוֹבְדֵי כּוֹכָבִים וּמַזָּלוֹת, שֶׁלֹא יִהְיוּ מוֹנִין אֶת יִשְׂרָאֵל, וְאוֹמְרִין לָהֶם הֲלֹא אֻמָּה שֶׁל בָּזוֹזִים אַתֶּם, וְיִשְׂרָאֵל מְשִׁיבִין אוֹתָן וְאוֹמְרִין לָהֶם, וְאַתֶּם הֲלֹא בְּזוּזָה הִיא בְּיֶדְכֶם, הֲלֹא (דברים ב, כג): כַּפְתֹּרִים הַיֹּצְאִים מִכַּפְתֹּר הִשְׁמִידֻם וַיֵּשְׁבוּ תַחְתָּם, הָעוֹלָם וּמְלוֹאוֹ שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא, כְּשֶׁרָצָה נְתָנָהּ לָכֶם, וּכְשֶׁרָצָה נְטָלָהּ מִכֶּם וּנְתָנָהּ לָנוּ, הֲדָא הוּא דִּכְתִיב: לָתֵת לָהֶם נַחֲלַת גּוֹיִם וגו', הִגִּיד לָהֶם אֶת כָּל הַדּוֹרוֹת.",
+  "source": "Bereshit Rabbah 1:2 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Yehoshua of Sikhnin began in the name of Rabbi Levi: “The power of His deeds He told to His people, to give them the inheritance of nations” (Psalms 111:6). What is the reason that the Holy One blessed be He revealed what was created on the first day and what was created on the second day? It is due to the idolaters, so they could not rebuke Israel and say to them: ‘You are a nation of robbers.’ Israel responds to them and says to them: ‘And you, is it [your own land] not in your hands by robbery? Is it not so that: “Kaftorim, who emerged from Kaftor, destroyed them [the Avites], and settled in their place”? (Deuteronomy 2:23). The world and all its contents belong to the Holy One blessed be He. When He wished He gave it to you, and when He wished He took it from you and gave it to us.’ That is what is written: “[The power of His deeds He told to His people,] to give them the inheritance of nations…” – He told them [the history of] all the generations.",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yehoshua-of-sikhnin",
+  "r-levi"
+ ],
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "claim-on-the-land"
+ ],
+ "notes": "Rashi's answer four hundred years before Rashi, and with the objection left out. R. Yehoshua of Sikhnin in the name of R. Levi opens on Ps 111:6 and asks the question directly: what is the reason that the Holy One revealed what was created on the first day and what on the second? Because of the idolaters, so that they should not be able to rebuke Israel and say, you are a nation of robbers. And Israel answers — is your own land not in your hands by robbery? did not the Kaftorim destroy the Avvim and settle in their place (Deut 2:23)? The world and all in it belongs to the Holy One; when he wished he gave it to you, and when he wished he took it from you and gave it to us. Every element of Rashi's comment is here except R. Isaac's opening move, that the book should have started at Exod 12:2 — which is the part that makes it a question about the shape of Scripture rather than about a controversy over land."
+}

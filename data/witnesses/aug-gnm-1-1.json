@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnm-1-1",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-390",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non ornato politoque sermone, sed rebus manifestis",
+  "en": "not with ornate and polished speech, but with plain facts"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Si eligerent Manichaei quos deciperent, eligeremus et nos verba quibus eis responderemus: cum vero illi et doctos litteris, et indoctos errore suo persequantur, et cum promittunt veritatem, a veritate conentur avertere; non ornato politoque sermone, sed rebus manifestis convincenda est vanitas eorum. Placuit enim mihi quorumdam vere christianorum sententia, qui cum sint eruditi liberalibus litteris, tamen alios libros nostros, quos adversus Manichaeos edidimus, cum legissent, viderunt eos ab imperitioribus, aut non aut difficile intelligi, et me benevolentissime monuerunt ut communem loquendi consuetudinem non desererem, si errores illos tam perniciosos ab animis etiam imperitorum expellere cogitarem. Hunc enim sermonem usitatum et simplicem etiam docti intelligunt, illum autem indocti non intelligunt.",
+  "source": "PL 34, col. 173",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "If the Manichees chose whom they deceive, we too would choose the words with which to answer them: but since they pursue both those learned in letters and the unlearned with their error, and while they promise truth try to turn men away from truth, their emptiness must be refuted not with ornate and polished speech but with plain facts. For I was pleased by the judgement of certain truly Christian men who, being themselves educated in liberal letters, when they had read our other books which we published against the Manichees, saw that they were either not understood by the less skilled, or understood with difficulty, and most kindly warned me not to abandon the common manner of speaking, if I meant to drive errors so ruinous out of the minds even of the unlearned. For this usual and simple speech the learned also understand, but that other the unlearned do not understand.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "against-the-heretics",
+  "written-for-the-unlearned"
+ ],
+ "notes": "Augustine explaining, before he has expounded a syllable, why this commentary exists and why it is written the way it is — which is the one thing on the Latin bench that answers the crux in the same register as Rashi's opening. The reason is an opponent: the Manichees pursue the learned and the unlearned alike, so the reply cannot be a learned one. And the reason for the style is a piece of received advice, reported with its embarrassment intact — educated friends read his earlier anti-Manichaean books, saw that ordinary readers could not follow them, and told him kindly to stop writing like that. The chapter that follows is then a defence of Gen 1:1 against the question 'in what beginning? and what was God doing before?' — which is m. Chagigah's 'what was before', put by an opponent who has to be answered rather than by a student who has to be stopped."
+}

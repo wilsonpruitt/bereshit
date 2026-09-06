@@ -458,5 +458,61 @@
  "word-order-is-dangerous": {
   "label": "The word order had to be changed",
   "gloss": "The seventy-two elders wrote 'God created in the beginning' for Ptolemy, so that bereshit could not be read as the subject (b. Megillah 9a)."
+ },
+ "should-have-begun-at-exodus": {
+  "label": "It should have begun at Exodus 12:2",
+  "gloss": "The Torah is Israel's law book and ought to have opened with the first commandment given to Israel; the creation account has to be accounted for (R. Isaac, in Rashi)."
+ },
+ "claim-on-the-land": {
+  "label": "Title to the land",
+  "gloss": "'He declared to his people the power of his works, to give them the inheritance of the nations' (Ps 111:6) — so that Israel may answer the charge of robbery (Bereshit Rabbah 1:2; Rashi)."
+ },
+ "do-not-expound-it": {
+  "label": "It may not be expounded",
+  "gloss": "Not before two, and not the four questions — what is above, what is below, what is before, what is after (m. Chagigah 2:1; Bereshit Rabbah 1:5 and 1:10)."
+ },
+ "honour-of-the-maker": {
+  "label": "For the honour of the Maker",
+  "gloss": "Whoever has no care for the honour of his Maker, it were fitting he had not come into the world; and the concealed matters are not to be published for the expositor's own glory (m. Chagigah 2:1; Rav Huna in the name of Bar Kappara)."
+ },
+ "the-bet-is-closed": {
+  "label": "The bet is closed behind",
+  "gloss": "The world was made with a bet, closed on three sides and open in front: you may ask only from the day of creation onward (R. Yona in the name of R. Levi)."
+ },
+ "beginning-is-blessing": {
+  "label": "Bet for blessing, not alef for curse",
+  "gloss": "Made with the letter of berakhah rather than of arirah, so that the heretics could not say the world was created with a curse (Bereshit Rabbah 1:10)."
+ },
+ "moses-is-a-witness": {
+  "label": "Moses wrote as a witness",
+  "gloss": "Not in the persuasion of human wisdom nor in the counterfeit disputations of philosophy, but in the showing of the Spirit and of power, as a witness of the divine work (Ambrose)."
+ },
+ "against-the-philosophers": {
+  "label": "Against the philosophers",
+  "gloss": "Plato's three principles and the atomists' concourse are a spider's web; the divine mind alone contains the origins and causes of things (Ambrose)."
+ },
+ "against-the-heretics": {
+  "label": "Because the heretics attack it",
+  "gloss": "The Manichees mock the Old Testament before the unlearned, so the first book must be defended, and defended plainly (Augustine)."
+ },
+ "written-for-the-unlearned": {
+  "label": "In plain speech, for the unlearned",
+  "gloss": "Not with ornate and polished speech but with plain facts — the usual and simple speech the learned also understand (Augustine)."
+ },
+ "the-work-shows-the-maker": {
+  "label": "The work shows the workman",
+  "gloss": "The world is a specimen of the divine working: like building and weaving, it shows the craftsman's skill even when the craftsman is silent (Ambrose)."
+ },
+ "scripture-is-about-restoration": {
+  "label": "Scripture is about restoration",
+  "gloss": "The matter of all divine Scripture is the works of human restoration, completed not in six days but in six ages (Hugh of St Victor)."
+ },
+ "foundation-is-for-secular-writings": {
+  "label": "Foundation belongs to secular writings",
+  "gloss": "The works of foundation are the matter of worldly writings; divine Scripture only descends through them on its way to the Incarnation (Hugh of St Victor)."
+ },
+ "history-is-the-foundation": {
+  "label": "History is the foundation",
+  "gloss": "Scripture is a hall with foundation, wall and roof — history, allegory, tropology — and nothing can be built before the foundation is laid (Comestor)."
  }
 }

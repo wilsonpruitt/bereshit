@@ -461,5 +461,30 @@
   "dates": "fl. c. 110–135",
   "tradition": "rabbinic",
   "role": "tradent"
+ },
+ "mishnah": {
+  "name": "the Mishnah",
+  "he": "מִשְׁנָה",
+  "dates": "redacted c. 200–220",
+  "tradition": "rabbinic",
+  "role": "work"
+ },
+ "r-yehoshua-of-sikhnin": {
+  "name": "R. Yehoshua of Sikhnin",
+  "dates": "fl. c. 330",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-yona": {
+  "name": "R. Yona",
+  "dates": "fl. c. 350",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-shimon-b-pazi": {
+  "name": "R. Shimon ben Pazi",
+  "dates": "fl. c. 280",
+  "tradition": "rabbinic",
+  "role": "tradent"
  }
 }

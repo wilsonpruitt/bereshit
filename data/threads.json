@@ -2310,5 +2310,125 @@
   "type": "parallel",
   "evidence": "Both texts open their treatment of Genesis by fencing it against a dualism, and both do it before expounding a word. Augustine sets out the catholic faith first, because many heretics drag the Scriptures to their own opinion, and ends by ruling that nothing in the creature belongs to the Trinity except that the Trinity made it. R. Yitzḥak rules that no creature can say that two authorities created the world. The heresies are not the same and the manoeuvre is identical: the first verse is made to exclude a second maker before it is made to say anything else.",
   "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k2-01",
+  "from": "rashi-1-1",
+  "to": "br-1-2",
+  "type": "cites",
+  "evidence": "Rashi's answer is Bereshit Rabbah 1:2 almost entire — Ps 111:6, 'he declared to his people the power of his works, in order to give them the inheritance of the nations'; the nations calling Israel robbers; and Israel's reply that the whole earth belongs to the Holy One, who gave it and took it and gave it again. What Rashi adds, and what makes it the opening of a commentary rather than a piece of polemic, is R. Isaac's premise: the Torah should have begun at Exod 12:2.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-02",
+  "from": "hugh-sacr-prologus",
+  "to": "rashi-1-1",
+  "type": "parallel",
+  "evidence": "The star thread of this crux, and both benches say it about the book they are expounding. R. Isaac: the Torah is Israel's law book and ought to have begun with the first commandment given to Israel, at Exod 12:2. Hugh: the matter of all divine Scripture is the works of restoration, and the works of foundation are the matter of secular writings. Each has ruled that the first chapter of Genesis is not what its book is for, in Troyes and in Paris within fifty years, and each then supplies a reason external to the chapter — a claim on the land, a descent toward the Incarnation.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-03",
+  "from": "m-chag-2-1",
+  "to": "br-1-10",
+  "type": "cites",
+  "evidence": "Bereshit Rabbah reads the Mishnah's four forbidden matters out of the shape of the first letter of the verse: as the bet is closed on its three sides and open at the front, you have no permission to ask what is below, what is above, what was before and what is after. The list is the Mishnah's, item for item and in the same order; what is new is that it is now a property of the text rather than a rule of the school.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-04",
+  "from": "br-1-5a",
+  "to": "m-chag-2-1",
+  "type": "echoes",
+  "evidence": "The Mishnah restricts the audience and the midrash curses the motive. Rav Huna in the name of Bar Kappara reads Ps 31:19 against those who speak 'with arrogance' — is it in order to boast, I am expounding the work of creation? — and 'with contempt', for the honour of the Maker. The Mishnah's closing clause is the same: whoever has no care for the honour of his Maker, it were fitting he had not come into the world.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-05",
+  "from": "br-1-5a",
+  "to": "br-1-10",
+  "type": "echoes",
+  "evidence": "Two fences in one chapter of the same commentary, five sections apart, and both about the same book they are introducing: a curse on those who expound the work of creation for their own honour, and a letter shaped so that the questions before and behind may not be put. Bereshit Rabbah opens by making the case against itself twice.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-06",
+  "from": "aug-gnm-1-1",
+  "to": "m-chag-2-1",
+  "type": "contests",
+  "evidence": "The identical question and the opposite discipline. The Mishnah: whoever looks at what is above, what is below, what is before, what is after, it were fitting for him that he had not come into the world. Augustine, in the chapter following this one: the Manichees ask 'in what beginning? if God made heaven and earth in some beginning of time, what was he doing before he made heaven and earth?' — and he answers it, at length and in the plainest Latin he can manage. On one bench the question is put by a student who must be stopped; on the other by an opponent who must be answered, and being answered it becomes part of the commentary tradition for good.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-07",
+  "from": "aug-gnm-1-1",
+  "to": "br-1-5a",
+  "type": "contests",
+  "evidence": "Both texts stand at the head of an exposition of Genesis 1 and both are about who should be doing the expounding. Bereshit Rabbah: may they be silenced, may they be made mute — is it in order to boast, I am expounding the work of creation? Augustine: since the Manichees pursue the learned and the unlearned alike, the reply must be made not in ornate and polished speech but in plain facts, and educated friends warned him kindly that his earlier books could not be followed by ordinary readers. One tradition's answer to a wide audience is to restrict the teaching; the other's is to change the prose.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-08",
+  "from": "ambrose-hex-1-1b",
+  "to": "rashi-1-1",
+  "type": "contests",
+  "evidence": "The two benches' reasons for the chapter, and they do not meet at any point. Ambrose: Moses spoke not in the persuasion of human wisdom nor in philosophy's counterfeit disputations but as a witness of the divine work, and therefore dared to say 'in the beginning God made heaven and earth'. R. Isaac: the book should have begun at the first commandment, and begins here so that Israel may answer the charge of robbery. One answers from the writer's authority, the other from the reader's need; neither would recognise the other's question as the question.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-09",
+  "from": "ambrose-hex-1-5",
+  "to": "ambrose-hex-1-1b",
+  "type": "echoes",
+  "evidence": "Two answers a few columns apart and they are the two halves of one: Moses could write it because he was a witness of the divine work, and it is worth writing because a work goes on showing its workman after he has fallen silent, as building and weaving do. The first secures the text, the second secures the subject.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-10",
+  "from": "comestor-hs-prologus",
+  "to": "hugh-sacr-prologus",
+  "type": "echoes",
+  "evidence": "Two Paris prologues a generation apart, and the second answers the difficulty the first creates. Hugh has left the works of foundation to secular writings and must explain how Scripture descends through them; Comestor makes history the foundation of the building and allegory the wall that leans upon it, so that beginning with the creation is not a detour but the first course of masonry. Comestor is Hugh's pupil's pupil and the metaphor is doing structural work.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-11",
+  "from": "comestor-hs-prologus",
+  "to": "br-1-5a",
+  "type": "contests",
+  "evidence": "The most complete opposition on the daf, and neither text knows the other exists. Comestor's Scripture is a dining-hall in which the Emperor makes his own drunk so as to render them sober, with a threefold curriculum built on it and a book to follow. Bereshit Rabbah's fifth section curses those who expound the work of creation for their own honour and reserves the concealed matters to the Righteous One. One tradition institutionalises the exposition; the other keeps warning itself against it — and both then produce the exposition anyway.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-12",
+  "from": "hugh-sacr-prologus",
+  "to": "ambrose-hex-1-5",
+  "type": "contests",
+  "evidence": "Ambrose puts the world in the class of works that keep showing their maker when the maker is silent, which makes the creation the natural first subject of any book about God. Hugh assigns the works of foundation to secular writings and keeps the works of restoration for Scripture, which makes it the least natural. The Latin bench holds both, seven hundred years apart, and Hugh does not mention that anyone had thought otherwise.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-13",
+  "from": "br-1-10",
+  "to": "aug-gnm-1-1",
+  "type": "parallel",
+  "evidence": "Both fence the same question from opposite sides at the head of the same chapter. R. Yona in the name of R. Levi: the bet is closed behind, so you may not ask what was before, only from the day the world was created onward. Augustine's opponents ask precisely what was before, and his answer — that no time could pass before God made time, since none can be the maker of times except one who is before times — is the fence rebuilt as an argument. Bar Kappara reaches for Deut 4:32, 'ask now of the early days that were before you, from the day God created man'; Augustine reaches for Titus 1:2, 'before eternal times'. Each has a verse for the boundary and only one of them will say what lies past it.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-14",
+  "from": "rashi-1-1",
+  "to": "m-chag-2-1",
+  "type": "contests",
+  "evidence": "The first sentence of the most-read Jewish commentary on the Torah asks why the book begins with the work of creation, in a tradition whose Mishnah says the work of creation may not be expounded before two. Rashi does not cite the rule and does not need to break it: his answer removes the chapter from the domain the Mishnah is fencing by making it a matter of public law rather than of hidden things — the peoples of the world say, and Israel answers.",
+  "crux": "why-begin-here"
+ },
+ {
+  "id": "t-k2-15",
+  "from": "br-1-2",
+  "to": "ambrose-hex-1-5",
+  "type": "parallel",
+  "evidence": "Both make the creation account public evidence, and for opposite audiences. R. Yehoshua of Sikhnin in R. Levi's name: God revealed what was made on each day because of the idolaters, so that Israel could answer the charge of robbery. Ambrose: the world is a specimen of the divine working, so that while the work is seen the workman is put forward, as a building shows its craftsman when he is silent. The rabbinic bench's evidence is a text and its jury is the nations; the Latin bench's evidence is the world and its jury is anyone with eyes.",
+  "crux": "why-begin-here"
  }
 ]

@@ -1,0 +1,48 @@
+{
+ "id": "br-1-10",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "לָמָּה נִבְרָא הָעוֹלָם בְּבֵי\"ת",
+  "en": "why was the world created with a bet?"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי יוֹנָה בְּשֵׁם רַבִּי לֵוִי אָמַר, לָמָּה נִבְרָא הָעוֹלָם בְּב', אֶלָּא מַה ב' זֶה סָתוּם מִכָּל צְדָדָיו וּפָתוּחַ מִלְּפָנָיו, כָּךְ אֵין לְךָ רְשׁוּת לוֹמַר, מַה לְּמַטָּה, מַה לְּמַעְלָה, מַה לְּפָנִים, מַה לְּאָחוֹר, אֶלָּא מִיּוֹם שֶׁנִּבְרָא הָעוֹלָם וּלְהַבָּא. בַּר קַפָּרָא אָמַר (דברים ד, לב): כִּי שְׁאַל נָא לְיָמִים רִאשֹׁנִים אֲשֶׁר הָיוּ לְפָנֶיךָ, לְמִן הַיּוֹם שֶׁנִּבְרְאוּ אַתָּה דּוֹרֵשׁ, וְאִי אַתָּה דּוֹרֵשׁ לִפְנִים מִכָּאן. (דברים ד, לב): וּלְמִקְצֵה הַשָּׁמַיִם וְעַד קְצֵה הַשָּׁמָיִם, אַתָּה דּוֹרֵשׁ וְחוֹקֵר, וְאִי אַתָּה חוֹקֵר לִפְנִים מִכָּאן. דָּרַשׁ רַבִּי יְהוּדָה בֶּן פָּזִי בְּמַעֲשֵׂה בְרֵאשִׁית בַּהֲדֵיהּ דְּבַר קַפָּרָא, לָמָּה נִבְרָא הָעוֹלָם בְּב', לְהוֹדִיעֲךָ שֶׁהֵן שְׁנֵי עוֹלָמִים, הָעוֹלָם הַזֶּה וְהָעוֹלָם הַבָּא. דָּבָר אַחֵר, וְלָמָּה בְּב' שֶׁהוּא לְשׁוֹן בְּרָכָה, וְלָמָּה לֹא בְּאָלֶ\"ף שֶׁהוּא לְשׁוֹן אֲרִירָה. דָּבָר אַחֵר, לָמָּה לֹא בְּאָלֶ\"ף שֶׁלֹא לִתֵּן פִּתְחוֹן פֶּה לָאֶפִּיקוֹרְסִין לוֹמַר הֵיאַךְ הָעוֹלָם יָכוֹל לַעֲמֹד שֶׁהוּא נִבְרָא בִּלְשׁוֹן אֲרִירָה, אֶלָּא אָמַר הַקָּדוֹשׁ בָּרוּךְ הוּא הֲרֵי אֲנִי בּוֹרֵא אוֹתוֹ בִּלְשׁוֹן בְּרָכָה, וְהַלְּוַאי יַעֲמֹד. דָּבָר אַחֵר, לָמָּה בְּב' אֶלָּא מַה ב' זֶה יֵשׁ לוֹ שְׁנֵי עוֹקְצִין, אֶחָד מִלְּמַעְלָה וְאֶחָד מִלְּמַטָּה מֵאֲחוֹרָיו, אוֹמְרִים לַב' מִי בְּרָאֲךָ, וְהוּא מַרְאֶה בְּעוּקְצוֹ מִלְּמַעְלָה, וְאוֹמֵר זֶה שֶׁלְּמַעְלָה בְּרָאָנִי. וּמַה שְּׁמוֹ, וְהוּא מַרְאֶה לָהֶן בְּעוּקְצוֹ שֶׁל אַחֲרָיו, וְאוֹמֵר ה' שְׁמוֹ. אָמַר רַבִּי אֶלְעָזָר בַּר חֲנִינָא בְּשֵׁם רַבִּי אֲחָא, עֶשְׂרִים וְשִׁשָּׁה דוֹרוֹת הָיְתָה הָאָלֶ\"ף קוֹרֵא תִּגָּר לִפְנֵי כִסְאוֹ שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא, אָמְרָה לְפָנָיו רִבּוֹנוֹ שֶׁל עוֹלָם, אֲנִי רִאשׁוֹן שֶׁל אוֹתִיּוֹת וְלֹא בָּרָאתָ עוֹלָמְךָ בִּי, אָמַר לָהּ הַקָּדוֹשׁ בָּרוּךְ הוּא הָעוֹלָם וּמְלוֹאוֹ לֹא נִבְרָא אֶלָּא בִּזְכוּת הַתּוֹרָה, שֶׁנֶּאֱמַר (משלי ג, יט): ה' בְּחָכְמָה יָסַד אָרֶץ וגו', לְמָחָר אֲנִי בָּא לִתֵּן תּוֹרָה בְּסִינַי וְאֵינִי פּוֹתֵחַ תְּחִלָה אֶלָּא בָּךְ, שֶׁנֶּאֱמַר (שמות כ, ב): אָנֹכִי ה' אֱלֹהֶיךָ. רַבִּי הוֹשַׁעְיָא אוֹמֵר לָמָּה נִקְרָא שְׁמוֹ אָלֶ\"ף, שֶׁהוּא מַסְכִּים מֵאָלֶ\"ף, שֶׁנֶּאֱמַר (תהלים קה, ח): דָּבָר צִוָּה לְאֶלֶף דּוֹר.",
+  "source": "Bereshit Rabbah 1:10 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Yona said in the name of Rabbi Levi: Why was the world created with the letter beit? It is because just as the beit is closed on all [three of] its sides but open in its front, so, you do not have permission to ask: What is below, what is above, what was before, and what is after, but only from the day when the world created and onward. Bar Kapara said: “For ask now of the early days that were before you, from the day [that God created man upon the earth]” (Deuteronomy 4:32) – from the day they were created, you may inquire, but you may not inquire what was before that. “From one end of the heavens to the other end” (Deuteronomy 4:32), you may inquire and investigate, but what is beyond that you may not investigate. Rabbi Shimon ben Pazi expounded regarding the act of Creation together with bar Kapara: Why was the world created with the letter beit? It is to inform you that there are two worlds, this world and the World to Come. Another matter, why with a beit? Because it alludes to an expression of blessing [berakha]. And why not with an alef? Because it alludes to an expression of curse [arira]. Another matter, why not with an alef? It is to avoid giving recourse to the heretics to say: How can the world endure, as it was created with an expression of curse? Rather, the Holy One blessed be He said: ‘Behold, I will create it with an expression of blessing, and there is hope that perhaps it will endure.’ Another matter, why with a beit? It is because just as the beit has two protrusions, one above it and one below and behind it, if one says to the beit: ‘Who created you?’ It points with its upper protrusion, saying: ‘That One who is above created me.’ ‘And what is His name?’ It points with its rear protrusion and says: ‘The Lord [Adonai] is His name.’ Rabbi Elazar bar Ḥanina said in the name of Rabbi Aḥa: For twenty-six generations the alef complained before the throne of the Holy One blessed be He. It said before Him: ‘Master of the universe, I am the first of the letters, but You did not create Your world with me.’ The Holy One blessed be He said to it: ‘The world and all its contents were created only for the sake of the Torah, as it is stated: “The Lord founded the earth with wisdom…” (Proverbs 3:19). Tomorrow, I will be coming to give the Torah at Sinai, and I will open it at its beginning only with you, as it is stated: “I [anokhi] am the Lord your God”’ (Exodus 20:2). Rabbi Hoshaya says: Why is it called alef? It is because He consented concerning a thousand, as it is stated: “The word that He commanded for one thousand [elef] generations” (Psalms 105:8).",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yona",
+  "r-levi",
+  "bar-kappara",
+  "r-shimon-b-pazi"
+ ],
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "do-not-expound-it",
+  "the-bet-is-closed",
+  "beginning-is-blessing"
+ ],
+ "notes": "The ban on the four questions derived from the shape of the first letter of the verse, which is as close to the crux as a comment can get. R. Yona in the name of R. Levi: why was the world created with a bet? Because just as the bet is closed on its three sides and open at the front, so you have no permission to ask what is below, what is above, what was before and what is after — but only from the day the world was created and onward. Bar Kappara gets the same fence out of Deut 4:32: from the day they were created you may enquire, but not before that; from one end of the heavens to the other you may investigate, but not beyond. The rest of the section is a sequence of further answers — two worlds, this and the world to come; bet for berakhah rather than alef for arirah, so that the heretics should not be able to say the world was made with a curse — and each of them is a reason for the letter that is also a reason for where the book starts. This is m. Chagigah 2:1's four forbidden matters, made into an exegesis of a single consonant."
+}

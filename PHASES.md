@@ -62,32 +62,9 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: nine of ten built (2026-09-05) — K7, K10, K1, K8, K6, K5, K4, K9, K3. Next up is K2 `why-begin-here`, row 9, the last.**
+**STATE: PHASE 2 COMPLETE (2026-09-05). All ten cruxes built — K7, K10, K1, K8, K6, K5, K4, K9, K3, K2. 235 witnesses, 304 threads, `check.py` clean, all ten dafs rendered. Next is Phase 3 (English review, Wilson + Opus), and it has two rulings waiting for Wilson at the top: the anchor-rule question from K2/K3, and the four `claude-draft` witnesses in drift from the 'unformed matter' correction.**
 
-To start that session, paste: *"Build the crux `why-begin-here` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* Material already read and flagged in `notes/cross-crux.md`:
-**m. Chagigah 2:1** (`m-chag-2-1`, on disk, unbuilt — "whoever looks at four things: what is above,
-what is below, what is before, what is after"), BR 1:5 first half ("may they be silenced" and the
-ban on expounding the work of creation), BR 1:10 (why the world was created with a *bet*, closed on
-three sides so that none may ask what is before), BR 1:2 and 1:4 as needed, Rashi on 1:1 (R.
-Yitzchak: the Torah should have begun at Exod 12:2 — **already built as `rashi-1-1b` for K1 and
-carrying only that crux; check before duplicating**), Ambrose *Hex.* I.1 and PL 14:130C (the
-argument from the visible to the invisible), and Hugh *De sacr.* I.1 cap. I, whose opening question
-is the one m. Chagigah forbids.
-
-⚠ **Read the K3 entry in `notes/SOURCES-FINDINGS.md` before starting.** K2's best single text is not
-a comment on Gen 1:1 and the anchor rule as applied through K9 and K3 would exclude it. Three
-options are set out there with a recommendation; **this is Wilson's ruling to make, so put it to him
-in one line at the top of the session rather than deciding it in the build.**
-
-⚠ Gen 1:1 now carries 34 K1 witnesses plus 13 from K3. `scripts/overlap.py` by OFFSET before every
-Latin slice; `grep -l '<distinctive phrase>' data/witnesses/*.json` before every rabbinic one. Expect
-to lose candidates to K1 and leave them for Phase 4.
-
-⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
-uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
-a corrupt file. ⚠ **Check the witness id you are about to write does not already exist** for another
-verse: K7's `rabanus-gen-1-1` is on Gen 1:2, and `build-crux.py` overwrites without warning.
+Phase 2 is finished; nothing further starts from this section. The per-crux checklist below stands as the record of how the ten were built, and Phase 6 will use it again for the second-tier sources.
 
 Order chosen by how much rabbinic material each has and how much it teaches the next one:
 
@@ -101,7 +78,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~6~~ | ~~K4 `ex-nihilo-or-matter`~~ | **BUILT 2026-09-05** — 19 new witnesses (22 on the daf), 25 threads | 15–20 |
 | ~~7~~ | ~~K9 `good-and-separated`~~ | **BUILT 2026-09-05** — 32 witnesses, 45 threads | 12–15 |
 | ~~8~~ | ~~K3 `elohim-and-trinity`~~ | **BUILT 2026-09-05** — 13 new witnesses (20 on the daf), 25 threads | 12–15 |
-| 9 | K2 `why-begin-here` | Rashi's R. Yitzchak; Ambrose I.1; prologues; smallest | 8–12 |
+| ~~9~~ | ~~K2 `why-begin-here`~~ | **BUILT 2026-09-05** — 10 witnesses, 15 threads; smallest, as predicted | 8–12 |
 
 Per-crux checklist (paste into the Opus prompt):
 1. Read `PLAN.md` §5 entry, this file's conventions, and `notes/SOURCES-FINDINGS.md`.
@@ -331,3 +308,37 @@ out Gen 1:26, where most of the Latin material on divine plurality actually is, 
 short because the crux is small. **The pre-tagging is the transferable lesson: when a crux reads a
 passage that plainly belongs to an unbuilt crux, add the facet then rather than writing a
 cross-crux row.** K3 is also the first crux to land inside the table's estimate.
+
+**Added for K2** (extends the frozen renderings, does not re-decide them). *opus conditionis* = "the
+work of foundation" and *opus restaurationis* = "the work of restoration", **never** "creation" for
+*conditio*, because Hugh's whole division depends on the pair being two technical terms and not a
+description; *materia* here = "matter" in the scholastic sense of subject-matter, distinct from the
+*materia* = "matter" of K4 (context disambiguates and no gloss is added); *historia / allegoria /
+tropologia* = "history / allegory / tropology", untranslated as school terms, with Comestor's
+*annalis, kalendaria, ephimera* as "annals, calendars, day-books"; *testis* = "witness" (Ambrose on
+Moses) and must not become "eyewitness"; *specimen divinae operationis* = "a specimen of the divine
+working"; *simulatoriae disputationes* = "counterfeit disputations"; *ornato politoque sermone* =
+"with ornate and polished speech" against *rebus manifestis* = "with plain facts"; *imperiti /
+indocti* = "the less skilled / the unlearned", kept apart because Augustine uses both in one
+paragraph. Rabbinic: *ma'aseh bereshit* = "the work of creation" (as at K10) and *merkavah* = "the
+Chariot"; *listim* = "robbers"; *te'alamna* rendered as the Sefaria translation has it; *berakhah*
+and *arirah* transliterated in the *bet*/*alef* derashah; "it were fitting for him that he had not
+come into the world" for *ra'ui lo she-lo ba la-olam*, kept identical across m. Chagigah 2:1 and its
+echoes so the reader can see the formula repeat.
+
+**Burn, measured on K2 (Opus, 2026-09-05): ~70K tokens**, the cheapest of the nine, and the crux is
+also the smallest — 10 witnesses against a table estimate of 8–12, the second in a row to land
+inside the estimate. The survey was short because K2's Latin material is *prologues*, which are
+findable by name rather than by lemma, and because the rabbinic side is four passages of Bereshit
+Rabbah 1 that K1 and K4 had already read.
+
+**Three slice defects caught at build time and worth naming, because two of them fail silently:**
+(1) `latin()` takes the FIRST match of the start anchor, and Hugh's *De sacramentis* prints its
+chapter titles twice — once in the table of contents at PL 176:173 and once at the chapter itself —
+so the first build produced a 20,115-character witness spanning the whole table. **Use
+`occurrence=1` on any work with a printed table of contents.** (2) A slice that precedes the first
+`<pb>` in its TEI gets `col. ?` from `latin()`; Augustine's *De Genesi contra Manichaeos* CAPUT
+PRIMUM is such a slice, and the column has to be supplied by hand. (3) The Sefaria English for
+m. Chagigah 2:1 is the **William Davidson Edition**, which is NC and is never embedded on this site
+(the frozen data rule names Davidson/Steinsaltz for the Bavli; it applies to the Mishnah too) — the
+English there is a fresh draft from the Hebrew.

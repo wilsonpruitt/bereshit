@@ -1,0 +1,40 @@
+{
+ "id": "hugh-sacr-prologus",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "materia divinarum Scripturarum omnium sunt opera restaurationis",
+  "en": "the matter of all the divine Scriptures is the works of restoration"
+ },
+ "original": {
+  "lang": "la",
+  "text": "CAP. II. Quae sit materia divinarum Scripturarum. Materia divinarum Scripturarum omnium, sunt opera restaurationis humanae. Duo enim sunt opera in quibus universa continentur quae facta sunt. Primum est opus conditionis. Secundum est opus restaurationis. Opus conditionis est quo factum est, ut essent quae non erant. Opus restaurationis est quo factum est ut melius essent quae perierant. Ergo opus conditionis est creatio mundi cum omnibus elementis suis. Opus restaurationis est incarnatio Verbi cum omnibus sacramentis suis; sive iis quae praecesserunt ab initio saeculi, sive iis quae subsequuntur usque ad finem mundi. Verbum enim incarnatum rex noster est, qui in hunc mundum venit cum diabolo pugnaturus; et omnes sancti qui ante ejus adventum fuerunt, quasi milites sunt ante faciem regis praecedentes; et qui postea venerunt et venient usque ad finem mundi milites sunt regem suum subsequentes. Et ipse rex medius est in exercitu suo; hinc inde vallatus incedens et stipatus agminibus suis. Et licet in hac tanta multitudine diversae armorum species in sacramentis et observationibus praecedentium et subsequentium populorum appareant, omnes tamen uni regi militare et unum vexillum sequi probantur, et hostem unum persequi et una victoria coronari. In his omnibus opera restaurationis considerantur; in quibus divinarum Scripturarum tota vertatur intentio. Mundanae sive saeculares scripturae materiam habent opera conditionis. Divina Scriptura materiam habet opera restaurationis. Propterea tanto excellentior omnibus scripturis jure creditur, quanto dignior est et sublimior materia in qua ejus consideratio tractatio quae versatur. Nam opera restaurationis multo digniora sunt operibus conditionis; quia illa ad servitutem facta sunt, ut stanti homini subessent; haec ad salutem, ut lapsum erigerent. Propterea illa quasi modicum aliquid sex diebus perfecta sunt; haec vero non nisi aetatibus sex compleri possunt.",
+  "source": "PL 176, col. 183A",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "CHAPTER II. What is the matter of the divine Scriptures. The matter of all the divine Scriptures is the works of human restoration. For there are two works in which is contained everything that has been made. The first is the work of foundation. The second is the work of restoration. The work of foundation is that by which it was brought about that the things which were not should be. The work of restoration is that by which it was brought about that the things which had perished should be better. Therefore the work of foundation is the creation of the world with all its elements. The work of restoration is the incarnation of the Word with all its sacraments, whether those which went before from the beginning of the age or those which follow to the end of the world. For the incarnate Word is our King, who came into this world to fight with the devil; and all the saints who were before his coming are as soldiers going before the face of the King, and those who came after and will come to the end of the world are soldiers following their King. And the King himself is in the midst of his army, walking hedged about on this side and that and thronged by his companies. And although in so great a multitude various kinds of arms appear in the sacraments and observances of the peoples going before and following after, yet all are proved to serve one King and to follow one standard, and to pursue one enemy and to be crowned with one victory. In all these the works of restoration are considered; on which the whole intention of the divine Scriptures turns. Worldly or secular writings have for their matter the works of foundation. The divine Scripture has for its matter the works of restoration. Therefore it is rightly believed to be more excellent than all writings, by as much as the matter is worthier and more sublime in which its consideration and treatment is engaged. For the works of restoration are far worthier than the works of foundation; because those were made for service, that they might be under man while he stood; these for salvation, that they might raise him fallen. Therefore those, as some small thing, were completed in six days; but these cannot be completed save in six ages.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "scripture-is-about-restoration",
+  "foundation-is-for-secular-writings"
+ ],
+ "notes": "The sharpest Latin answer on this crux, and it is sharp because Hugh gives away more than he means to. The matter of all divine Scripture is the works of restoration; the works of foundation — the creation of the world with all its elements — are the matter of secular writings. That is a clean division and it leaves Genesis 1 on the wrong side of it, which is why the next chapter has to explain how divine Scripture descends through the works of foundation to narrate the works of restoration. Hugh is therefore saying, in the technical vocabulary of a Paris master, exactly what R. Isaac says in Troyes at the head of Rashi's commentary: this chapter is not what the book is for. The two go on to give incompatible reasons — Hugh that Scripture passes through the creation on its way to the Incarnation, Rashi that Israel needs a title to the land — and neither bench ever hears the other's. ⚠ **Anchor note**: a prologue, built by PLAN.md §5's specification for K2; see the file docstring."
+}

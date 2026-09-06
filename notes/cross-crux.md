@@ -329,3 +329,36 @@ Abelard, which is accurate to the anchor rule and not to the tradition.
 | Hugh, *De sacr.* I.2–3 (PL 176:208D, 226B–234A) | a Trinity crux, if one is ever made | the full Victorine treatise, including the appropriation *potentia Patri, sapientia Filio, bonitas Spiritui sancto* that Honorius applies to Gen 1:1. Not on the verse, so not buildable here |
 | Augustine, *Gnl* II (PL 34:267–268) | K3 second pass | *An ita Trinitas intelligitur: Et dixit Deus Fiat, Et fecit Deus, Et vidit Deus quia bonum est?* — the reading Rupert builds on, **considered and refused**, at Gen 1:6. Threaded from `rupert-gen-1-3-trinitas` to `aug-gnl-1-5-11` instead, which is not the same passage; Phase 4 should build the real one if the layer widens |
 | Wigbod PL 96:1109D, 1115C | K1 | *omnia in se Trinitas Deus disposuit* and a second *in principio, id est in Filio*; the dialogue treats the verse three times |
+
+## From K2 (built 2026-09-05 — Phase 2 complete)
+
+**The anchor rule was set aside for four witnesses, on PLAN.md's authority and not the builder's.**
+`m-chag-2-1`, `hugh-sacr-prologus` and `comestor-hs-prologus` are not comments on Gen 1:1, and
+PLAN.md §5's K2 entry names prologues explicitly ("Glossa prothemata; Comestor prologue; Hugh Sacr.
+prologue"), so the plan contemplated them for this crux before the rule was frozen in PHASES.md.
+Each carries an `⚠ Anchor note` in its own `notes` field and the file docstring says so. **Wilson
+should rule on this at Phase 3.** If he rules against, the three are removable and the crux survives:
+`br-1-10` carries m. Chagigah's four forbidden questions verbatim as a comment on the first letter
+of Gen 1:1, and `rashi-1-1` carries the crux's central objection. If he rules for, the same
+licence would let **Gen 1:26 (*Faciamus hominem*) into K3**, which is where most of the Latin
+material on divine plurality actually sits — see the K3 entry above.
+
+**Two K2 passages were already sliced whole and are threaded to rather than rebuilt:** Ambrose's
+Plato and the three principles (PL 14:123A) is inside K4's `ambrose-hex-1-1-hyle`, and Hugh's
+*philosophi gentilium tria quaedam rerum principia* (PL 176:187A) is inside K4's
+`hugh-sacr-1-1-nihilo`. Both belong to K2's *against the philosophers* answer as much as to K4's
+matter question. **Phase 4: add `why-begin-here` to both.**
+
+**`rashi-1-1b` (K1) and `rashi-1-1` (K2) are the two dibburim of one Sefaria segment**, correctly
+split: K1 took *bereshit bara*, K2 took *bereshit*. No trimming needed — this is what K8's `br-3-6`
+should have looked like.
+
+**Left for a second pass:**
+
+| locus | note |
+|---|---|
+| Hugh, *De sacr.* Prologue CAP. III (PL 176:183B) | *Quoniam divina Scriptura per opera conditionis descendat ad narranda opera restaurationis* — the chapter that repairs the difficulty CAP. II creates, and the literal answer to this crux's question. Not built; CAP. II is the one that states the position |
+| Hugh, *De sacr.* I.1 CAP. XXVIII | *Quare opera conditionis prius commemorantur; deinde opera restaurationis* — the crux's question as a chapter heading, in Book I. Located in the table of contents at PL 176:175D; the chapter body was not tracked down |
+| Glossa *prothemata* | PLAN.md §5 lists it; **TEI 8950 has no prefatory matter** — the file opens straight at CAPUT PRIMUM, VERS. 1. If the Glossa's prologues are wanted they are not in this transcription |
+| Tanchuma Bereshit 1 | PLAN.md's [CHECK] for K2. `tanch-std-ber-1.json` and `tanch-buber-ber-1.json` are on disk and were not read for this crux |
+| BR 1:1, 1:3, 1:4 | K1's material (Torah as *amon*, the architect's plans); adjacent to K2's question and not read again here |
