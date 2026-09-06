@@ -1,0 +1,244 @@
+---
+// The transmission map. Phase 8 ruling (PHASES.md): one Phase-2 view, not four — every witness
+// touched by a `cites`, `echoes` or `transmits` edge, laid out by date on a plane, banded by
+// bench (latin/greek Fathers, rabbinic, greek-jewish). The other three Phase-2 views (scrubber,
+// lemma view, invertible centre) are deferred; this one draws the edition's second finding:
+// what was handed on, and where each line stops.
+import Layout from "../layouts/Layout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { getThreads, getAllWitnesses, getPersons, getPlaces, getAnswers, getCruxes, dateLabel } from "../lib/data";
+import { buildSnippet, type Chip } from "../lib/render";
+
+const STRONG = new Set(["cites", "echoes", "transmits"]);
+const threads = getThreads().filter((t) => STRONG.has(t.type));
+
+const allW = getAllWitnesses();
+const persons = getPersons();
+const places = getPlaces();
+const answers = getAnswers();
+const cruxes = getCruxes();
+const cruxShort = new Map(cruxes.map((c) => [c.id, c.short || c.id]));
+
+const ids = new Set<string>();
+for (const t of threads) { ids.add(t.from); ids.add(t.to); }
+const witnesses = [...ids].map((id) => allW.get(id)!).sort((a, b) => a.date - b.date || a.id.localeCompare(b.id));
+
+// Bench, not raw tradition: Basil's two Greek-original witnesses (tradition "greek") sit with the
+// Fathers on the daf itself (isFather in crux/[id].astro), so they sit with them here too. That
+// keeps "bench" the single thing that decides both color and band.
+function bench(tradition: string): "latin" | "rabbinic" | "greek-jewish" {
+  return tradition === "rabbinic" ? "rabbinic" : tradition === "greek-jewish" ? "greek-jewish" : "latin";
+}
+const BAND_ORDER: ("greek-jewish" | "latin" | "rabbinic")[] = ["greek-jewish", "latin", "rabbinic"];
+const BAND_LABEL: Record<string, string> = { "greek-jewish": "Greek-Jewish", "latin": "Latin (incl. Basil's Greek)", "rabbinic": "Rabbinic" };
+
+// ---------------------------------------------------------------- layout
+const dateMin = witnesses[0].date, dateMax = witnesses[witnesses.length - 1].date;
+const MARGIN_L = 170, MARGIN_R = 50, PX_PER_YEAR = 1.4;
+const innerWidth = (dateMax - dateMin) * PX_PER_YEAR;
+const totalWidth = Math.round(MARGIN_L + innerWidth + MARGIN_R);
+const x = (date: number) => MARGIN_L + (date - dateMin) * PX_PER_YEAR;
+
+// MAX_ROWS is a safety net, not a real cap: the patristic burst (c. 350-420) and the twelfth-century
+// schoolmen need 20-30 lanes on their own for this MIN_GAP, and capping rows lower was found to
+// collapse many distinct witnesses onto one pixel -- fifteen Bereshit Rabbah sections at the same
+// date all landing on the same dot, invisibly. A tall band is the honest picture of a dense century;
+// a hidden overlap is not.
+const ROW_H = 12, NODE_R = 4, MIN_GAP = 11, MAX_ROWS = 200, PAD_V = 11, BAND_GAP = 28, AXIS_H = 40;
+
+interface Node { id: string; x: number; y: number; b: "latin" | "rabbinic" | "greek-jewish"; row: number }
+const nodesByBand: Record<string, Node[]> = { "greek-jewish": [], latin: [], rabbinic: [] };
+for (const w of witnesses) {
+  const b = bench(w.tradition);
+  nodesByBand[b].push({ id: w.id, x: x(w.date), y: 0, b, row: 0 });
+}
+
+function pack(nodes: Node[]): number {
+  const lastX: number[] = [];
+  for (const n of nodes) {
+    let placed = -1;
+    for (let r = 0; r < lastX.length; r++) if (n.x - lastX[r] >= MIN_GAP) { placed = r; break; }
+    if (placed < 0) {
+      if (lastX.length < MAX_ROWS) { placed = lastX.length; lastX.push(n.x); }
+      else { placed = 0; for (let r = 1; r < lastX.length; r++) if (lastX[r] < lastX[placed]) placed = r; }
+    }
+    n.row = placed; lastX[placed] = n.x;
+  }
+  return lastX.length;
+}
+const rowsUsed: Record<string, number> = {};
+for (const b of BAND_ORDER) rowsUsed[b] = Math.max(1, pack(nodesByBand[b]));
+
+const bandTop: Record<string, number> = {};
+let cursor = 18;
+for (const b of BAND_ORDER) {
+  bandTop[b] = cursor;
+  cursor += rowsUsed[b] * ROW_H + PAD_V * 2 + BAND_GAP;
+}
+const totalHeight = Math.round(cursor - BAND_GAP + AXIS_H + 20);
+
+const allNodes: Node[] = [];
+for (const b of BAND_ORDER) for (const n of nodesByBand[b]) {
+  n.y = bandTop[b] + PAD_V + n.row * ROW_H + ROW_H / 2;
+  allNodes.push(n);
+}
+
+const AXIS_Y = cursor - BAND_GAP + 14;
+const ALL_TICKS: [number, string][] = [[-250, "250 BCE"], [0, "0"], [200, "200"], [400, "400"], [600, "600"],
+  [800, "800"], [1000, "1000"], [1200, "1200"], [1400, "1400"]];
+const TICKS = ALL_TICKS.filter(([d]) => d >= dateMin - 1 && d <= dateMax + 1);
+
+// ---------------------------------------------------------------- popovers, one per node
+const cruxOf = (w: (typeof witnesses)[number]): Chip[] => w.cruxes.map((cid) => ({ id: cid, short: cruxShort.get(cid) || cid }));
+const snippets = new Map(witnesses.map((w) => [w.id, buildSnippet(w, persons, places, answers, cruxOf(w))]));
+
+const namesForJs: Record<string, string> = {};
+for (const w of witnesses) namesForJs[w.id] = persons[w.author]?.name || w.author;
+const threadsForJs = threads.map((t) => ({ id: t.id, from: t.from, to: t.to, type: t.type, evidence: t.evidence }));
+
+// The stat the map exists to show: strong (textual) contact never once crosses to the rabbinic
+// bench. Computed here so it can't drift from the data underneath it.
+function benchOf(id: string) { return bench(allW.get(id)!.tradition); }
+const crossBench = threads.filter((t) => benchOf(t.from) !== benchOf(t.to));
+const crossTouchingRabbinic = crossBench.filter((t) => benchOf(t.from) === "rabbinic" || benchOf(t.to) === "rabbinic");
+---
+<Layout title="Transmission map — Bereshit / In Principio" prose>
+  <div class="wrap">
+    <SiteHeader active="/map/" />
+    <h1 class="title">Transmission map</h1>
+    <p class="subtitle">
+      Every witness touched by a <i>cites</i>, <i>echoes</i>, or <i>transmits</i> edge — {ids.size} of
+      the edition's 292, laid out by date and banded by bench — with the {threads.length} edges
+      themselves drawn on hover. This is the introduction's second finding as a picture: what was
+      handed on, and where each line stops.
+    </p>
+    <p class="subtitle" style="margin-top:-6px">
+      {crossBench.length} of those {threads.length} edges cross a bench — all of them between the
+      Latin and the Greek-Jewish. Not one — {crossTouchingRabbinic.length} of {crossBench.length} —
+      runs to or from the rabbinic bench. Every time this edition can show one side actually reading
+      the other's words, the other side is Greek. Where the rabbinic bench meets the rest, on this
+      map, it doesn't: that contact is all <i>parallel</i>, off this page by design, and is what the
+      ten findings are made of instead.
+    </p>
+    <p class="hint" data-pagefind-ignore>hover or focus a dot to read it and see its threads · click to pin · scroll to move through time</p>
+  </div>
+
+  <div class="map-scroll">
+    <div class="map-canvas" id="map" style={`width:${totalWidth}px;height:${totalHeight}px`}>
+      <svg id="wires" width={totalWidth} height={totalHeight} viewBox={`0 0 ${totalWidth} ${totalHeight}`}></svg>
+
+      {BAND_ORDER.map((b) => (
+        <div class="band-label" style={`top:${bandTop[b] + rowsUsed[b] * ROW_H / 2}px`} data-band={b}>{BAND_LABEL[b]}</div>
+      ))}
+
+      <div class="axis" style={`top:${AXIS_Y}px;width:${totalWidth}px`}>
+        <div class="axis-line" style={`width:${totalWidth - MARGIN_L - MARGIN_R}px;left:${MARGIN_L}px`}></div>
+        {TICKS.map(([d, label]) => (
+          <div class="tick" style={`left:${x(d)}px`}><span class="tick-line"></span><span class="tick-label">{label}</span></div>
+        ))}
+      </div>
+
+      {allNodes.map((n) => {
+        const s = snippets.get(n.id)!;
+        return (
+          <div class:list={["mn", n.b]} id={n.id} tabindex="0" role="button" aria-expanded="false"
+               aria-label={`${s.authorName}, ${dateLabel(allW.get(n.id)!)}`}
+               style={`left:${n.x}px;top:${n.y}px`}>
+            <template>
+              <p class="eyebrow">{s.eyebrow}</p>
+              <h3>{s.authorName} <small>{s.sourceLabel}</small></h3>
+              {s.dhHtml && <p class="full lemma" set:html={s.dhHtml} />}
+              <p class="full">{s.exText}</p>
+              <p class="cred">{s.credit}</p>
+              <p class="chips-link">
+                <a href={`/witnesses/${n.id}/`}>read this witness →</a>
+                {s.chips.length > 0 && <>{" · "}{s.chips.map((c, i) => (<>{i > 0 ? " · " : ""}<a href={`/crux/${c.id}/`}>{c.short}</a></>))}</>}
+              </p>
+            </template>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</Layout>
+
+<script is:inline define:vars={{ T: threadsForJs, N: namesForJs }}>
+  (function () {
+    const map = document.getElementById('map'), wires = document.getElementById('wires'), pop = document.createElement('div');
+    pop.className = 'pop'; pop.id = 'pop'; pop.setAttribute('role', 'dialog'); pop.setAttribute('aria-live', 'polite');
+    document.body.appendChild(pop);
+    const sn = (id) => document.getElementById(id);
+    let pinned = null, active = null;
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    function anchor(el) { const r = el.getBoundingClientRect(), d = map.getBoundingClientRect(); return { x: r.left - d.left + r.width / 2, y: r.top - d.top + r.height / 2 }; }
+    function wire(a, b, type) {
+      const A = anchor(a), B = anchor(b);
+      const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2 - Math.min(60, Math.abs(A.x - B.x) / 4 + 16);
+      p.setAttribute('d', `M ${A.x} ${A.y} Q ${mx} ${my}, ${B.x} ${B.y}`);
+      p.setAttribute('class', type); wires.appendChild(p);
+    }
+    function show(el, pin) {
+      if (pinned && !pin) return;
+      clear(false); active = el;
+      el.classList.add('on'); el.setAttribute('aria-expanded', 'true');
+      const id = el.id, rel = T.filter((t) => t.from === id || t.to === id);
+      wires.innerHTML = '';
+      const relIds = new Set();
+      rel.forEach((t) => { const o = t.from === id ? t.to : t.from; const oe = sn(o); if (!oe) return; relIds.add(o); oe.classList.add('rel'); wire(el, oe, t.type); });
+      document.querySelectorAll('.mn').forEach((s) => { if (s !== el && !relIds.has(s.id)) s.classList.add('dim'); });
+      const tpl = el.querySelector('template').content.cloneNode(true);
+      pop.innerHTML = ''; pop.appendChild(tpl);
+      if (rel.length) {
+        const d = document.createElement('div'); d.className = 'th';
+        d.innerHTML = rel.map((t) => { const out = t.from === id; const o = out ? t.to : t.from; return `<p><b>${out ? '→' : '←'} ${t.type} · ${esc(N[o] || o)}</b><br>${esc(t.evidence)}</p>`; }).join('');
+        pop.appendChild(d);
+      }
+      if (pin) { const s = document.createElement('span'); s.className = 'pin'; s.textContent = 'pinned · click page to release'; pop.appendChild(s); }
+      const r = el.getBoundingClientRect(), vw = innerWidth, vh = innerHeight;
+      pop.classList.add('show');
+      const pw = pop.offsetWidth, ph = pop.offsetHeight;
+      let px = r.left + r.width / 2 < vw / 2 ? Math.min(r.right + 14, vw - pw - 12) : Math.max(r.left - pw - 14, 12);
+      let py = Math.min(Math.max(12, r.top - 20), vh - ph - 12);
+      if (vw < 720) { px = 12; py = Math.min(r.bottom + 8, vh - ph - 12); }
+      pop.style.left = px + 'px'; pop.style.top = Math.max(12, py) + 'px';
+    }
+    function clear(force) {
+      if (pinned && !force) return;
+      document.querySelectorAll('.mn').forEach((s) => { s.classList.remove('on', 'rel', 'dim'); s.setAttribute('aria-expanded', 'false'); });
+      wires.innerHTML = ''; pop.classList.remove('show'); active = null;
+    }
+    document.querySelectorAll('.mn').forEach((el) => {
+      el.addEventListener('mouseenter', () => show(el, false));
+      el.addEventListener('focus', () => show(el, false));
+      el.addEventListener('mouseleave', () => clear(false));
+      el.addEventListener('blur', () => clear(false));
+      el.addEventListener('click', (e) => { e.stopPropagation(); if (pinned === el) { pinned = null; clear(true); } else { pinned = el; show(el, true); } });
+      el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } if (e.key === 'Escape') { pinned = null; clear(true); } });
+    });
+    pop.addEventListener('click', (e) => e.stopPropagation());
+    document.addEventListener('click', () => { pinned = null; clear(true); });
+    window.addEventListener('resize', () => { if (active) show(active, !!pinned); });
+  })();
+</script>
+
+<style>
+  .hint{font:12px var(--sans);color:var(--mute);margin:0 0 10px}
+  .map-scroll{overflow-x:auto;overflow-y:hidden;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  .map-canvas{position:relative;margin:0 auto}
+  #map #wires{position:absolute;inset:0;pointer-events:none;overflow:visible}
+  #map #wires path{fill:none;stroke-width:1.3;opacity:.85}
+  #map #wires .cites{stroke:var(--e-cites)} #map #wires .echoes{stroke:var(--e-echo);stroke-dasharray:5 4} #map #wires .transmits{stroke:var(--e-trans)}
+  .band-label{position:sticky;left:8px;transform:translateY(-50%);width:150px;font:600 10.5px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);pointer-events:none;z-index:2}
+  .band-label[data-band="latin"]{color:var(--lat)} .band-label[data-band="rabbinic"]{color:var(--rab)} .band-label[data-band="greek-jewish"]{color:var(--grk)}
+  .mn{position:absolute;width:7px;height:7px;margin:-3.5px;border-radius:50%;cursor:pointer;border:1px solid var(--paper);outline:0}
+  .mn.latin{background:var(--lat)} .mn.rabbinic{background:var(--rab)} .mn.greek-jewish{background:var(--grk)}
+  .mn:hover,.mn:focus-visible,.mn.on{width:12px;height:12px;margin:-6px;z-index:3;box-shadow:0 0 0 3px var(--bg)}
+  .mn.rel{box-shadow:0 0 0 2px var(--ink)} .mn.dim{opacity:.28}
+  .axis{position:absolute;left:0;height:24px}
+  .axis-line{position:absolute;top:0;height:1px;background:var(--rule)}
+  .tick{position:absolute;top:0;transform:translateX(-50%);text-align:center}
+  .tick-line{display:block;width:1px;height:6px;background:var(--rule);margin:0 auto}
+  .tick-label{display:block;margin-top:3px;font:11px var(--sans);color:var(--mute);white-space:nowrap}
+  @media (max-width:720px){#map #wires{display:none}}
+</style>
