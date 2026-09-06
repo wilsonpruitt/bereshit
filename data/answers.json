@@ -598,5 +598,9 @@
  "bonum-is-owed-to-the-fathers": {
   "label": "The answer belongs to the Latin doctors",
   "gloss": "Not an answer to the crux but a claim about who owns one: the literal exposition Lyra credits to Rashi was found first by our own doctors, and Rabanus and the Master had already given it (Paul of Burgos against Lyra)."
+ },
+ "bonum-awaits-completion": {
+  "label": "The approval waits for the work to be complete",
+  "gloss": "Approval properly regards a completed work; the separating of the waters was not finished until the third day, so the formula is held back on the second and said twice on the third (Rashi, adopted by Lyra as the intention of the letter)."
  }
 }

@@ -1693,3 +1693,84 @@ Not built, all located, all worth a second session at ~60–80K now that navigat
 ⚠ **The substitution stands and is on the page.** PLAN.md named the 1492 Venice *Biblia cum glossa*;
 this is Koberger, Nuremberg 1486–87, and every `source` and the licence key `lyra-koberger-1487`
 say so. Someone should confirm the substitution before these ship.
+
+## Phase 6 part six, second sitting — the quarrel gets its third corner (2026-09-06)
+
+**289 witnesses, 446 threads, 435 pages, all gates clean.** Four more witnesses from the Koberger
+folio, on the six targets the rewritten brief listed. Navigation cost nothing this time: the
+search-inside locator and the recorded column edges did what they were meant to, and the whole
+sitting went on reading rather than on finding.
+
+⭐⭐ **K9 now carries all three corners of the only quarrel in this edition that is *about* the
+rabbinic bench rather than merely parallel to it**, printed a hundred leaves apart in one book and
+now on one daf:
+
+1. **`lyra-gen-1-4-bonum`** (leaf n44) — the page Burgos indicts, and every charge checks out.
+   Lyra calls the answer of Rabanus and Peter Lombard *truphatica* in that word; he refutes them
+   from Luke 10 and Gregory on the pair; and he prefers Rashi: *Ideo aliter respondet Ra. Sa., et
+   magis secundum intentionem littere ut videtur.* An early reader underlined *Ra. Sa.* in ink here
+   too. ⚠ What Burgos does not mention: Lyra rejects **two** Latin answers, and the second — that
+   the angels fell on the second day — he refutes on strictly Latin grounds, that it has no
+   scriptural authority and leaves too long between the angels' creation and their fall.
+2. **`burgos-add-3`** (n57, built in the first sitting) — the indictment.
+3. **`doering-repl-3`** (n61) — and this is the one that says the quiet part. Matthias Doering,
+   restating Burgos's third charge in order to answer it, does not write what Burgos wrote. Burgos
+   wrote *Ra. Sa. hebreo*. Doering writes:
+
+   > tercio quia **veram** responsionem attribuit **infideli**, que tamen in nostra glosa continetur,
+   > cui potius debuit honorem exhibere
+
+   *Verus* is Doering's own word: he does not dispute that the answer is true. He disputes whose it
+   is, and what honour is owed. And his defence of Lyra on the first charge names the real subject
+   — Lyra was not scoffing at the holy doctors *sed imperitis lectoribus, qui id pro sensu litterali
+   eligunt quod sancti mystice … adducunt*, at unskilled readers who take for the literal sense what
+   the saints adduced mystically. **The fight is about what the literal sense is for**, conducted by
+   three Latins over the head of a Jew three hundred years dead whom all three have read.
+
+All three are anchored on `gen.1.4` under the anchor rule's second clause with visible notes: the
+passage argued about is the day-two absence of the formula, Gen 1:8, out of scope, but the question
+is the one Gen 1:4 raises.
+
+**Also built.** `lyra-gen-1-2-spiritus` (K7) — the craftsman's will at the end of its life, reduced
+to a gloss, *spiritus Dei, id est voluntas*, with Augustine's *sicut voluntas artificis* reproduced
+almost word for word and unattributed seven centuries on. `lyra-gen-1-5` (K10) — Bede's twenty-four
+hours with the mechanism finally supplied: evening ends the artificial day, the next morning ends
+the night, and the verse names the two joints of the natural day rather than reporting two events.
+
+## ⚠ A fourth finding put to Wilson — K9, yes or no
+
+K9's finding is about two benches reading the same silence with no contact, and about the
+metaphysical question the Latin bench cannot get past and the rabbinic bench never asks. Nothing in
+it is falsified. What the new witnesses add is an ending it does not have.
+
+> There is one place where the silence stops being a coincidence, and it is four hundred years after
+> the last witness above. Nicholas of Lyra, asking why the second day has no approval, calls the
+> answer of Rabanus and of the Master a piece of trifling, refutes a second Latin answer from the
+> Scriptures, and then takes the reading he wants from Rashi — more according to the intention of
+> the letter, as it seems. Paul of Burgos, who had been a rabbi in that city until he was forty and
+> was afterwards its bishop, replies that the postillator departs from rectitude in three ways, and
+> the third is that he attributes to Ra. Sa. the Hebrew the authority of a literal exposition which
+> our own doctors found first. Matthias Doering, defending Lyra, restates the charge and changes one
+> word: he attributes the true answer to an unbeliever, though it is contained in our own gloss, to
+> which he ought rather to have shown the honour. Nobody in that exchange denies that the answer is
+> right. What they are arguing about is whose it is, what is owed for it, and whether the literal
+> sense is the place where a Christian may be taught by a Jew. Every other page of this edition
+> shows two traditions reading the same verses without knowing the other is in the room; this one
+> shows what it sounds like when they do.
+
+**Not affected, checked:** K7 and K10 are extended by their new witnesses and contradicted by none.
+
+## Method
+
+⭐ **The locator paid for itself in one sitting.** The first sitting spent most of its budget finding
+leaves and built three witnesses; the second, with the same budget shape, built four and did no
+searching at all. What made the difference was writing the leaf/box locator down
+(`scripts/archive-find.py`) and writing the **column edges** down in the brief — n43 right column
+x 0.655–1.00, n57 column 1 x 0.335–0.680, n44 columns 0.065–0.44 and 0.455–0.84, n61 column 2
+x 0.660–1.00. A brief that records geometry is worth more than one that records page numbers.
+
+⛔ **A continuous slice must actually be continuous.** `lyra-gen-1-4-bonum` was two legible crops
+with a 0.09-of-a-page gap between them, and the two ends joined up plausibly. They were not spliced:
+the gap was transcribed in two more crops before the witness was written. A join that reads well
+across an untranscribed gap is the same failure as a join across a column gutter, and it is harder
+to see because nothing is visibly cut.

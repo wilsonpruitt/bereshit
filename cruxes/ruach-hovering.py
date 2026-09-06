@@ -414,3 +414,30 @@ THREADS.extend([
  thread("ruach-hovering", "t-k7-p2", "philo-opif-30", "targ-onk-1-2", "contests", "Onkelos renders the ruach as a wind from before the Lord, which takes the divine name in the verse as a genitive of origin and removes any question of the spirit's status. Philo keeps the genitive and reads it as a genitive of cause: the breath is called God's because breath gives life and God gives life. Two Jewish readings, four centuries apart, of the same two words, and they go in opposite directions from the same grammatical instinct, that of God is doing work in the sentence."),
  thread("ruach-hovering", "t-k7-p3", "philo-opif-30", "br-2-4", "parallel", "The midrash makes the hovering spirit the spirit of the Messiah, hovering over the face of the waters by the merit of repentance. Philo makes it the most life-giving thing, named God's for that reason. Both bench readings decline the plain meteorological sense that Onkelos takes, and both do so by asking what pneuma or ruach is for rather than what it is."),
 ])
+
+# ================================================================ Lyra (Phase 6 part six, 2026-09-06)
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES.update(_ly.PLACES)
+LICENSES.update(_ly.LICENSES)
+
+add(**_ly.LYRA, id="lyra-gen-1-2-spiritus",
+    anchor={"verse": "gen.1.2"},
+    lemma={"la": "sicut voluntas artificis super materiam quam formare et ornare intendit",
+           "en": "as the will of the craftsman over the material he means to form and to furnish"},
+    original={"lang": "la",
+      "text": "Et spiritus etc. aquas, id est super illam congeriem et commixtionem elementorum predictam; et vocatur nomine aquarum, quia sicut dictum est ipsa aqua cooperiebat terram, et aliis duobus elementis commixta erat modo predicto. Et accipitur hic spiritus Dei, id est voluntas, que ferebatur super illam congeriem elementorum, sicut voluntas artificis super materiam quam formare et ornare intendit.",
+      "source": "Koberger 1486-87, leaf n43 recto, right column, lemma h (archive.org biblia-sacra-lyra_202308, page/n43.jpg)",
+      **_ly.SRC},
+    english={"text": "And the spirit etc. the waters, that is, over that heap and commixture of the elements spoken of above; and it is called by the name of waters because, as has been said, the water itself covered the earth and was mixed with the other two elements in the way described. And the spirit of God is taken here as the will, which was borne over that heap of the elements, as the will of the craftsman is borne over the material he means to form and to furnish.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["ruach-hovering"], senses=["literal"],
+    answers=["craftsman", "power-not-place"],
+    notes="The craftsman analogy at the end of its life, and shortened to a clause. Augustine put it as a question about how a will can be borne over anything; Rabanus made it a simile, like a craftsman whose will is borne above the things to be made; Remigius and Bruno each restated it. Lyra states it as a gloss, without argument and without naming anyone, because by 1330 it is simply what the words mean: spiritus Dei, id est voluntas. What he adds is the object. The other Latins have the craftsman's will over his work; Lyra has it over a specific physical thing he has just described, the heap and commixture of the elements with the water lying over the earth, and the two verbs are formare et ornare, which are the two halves of the chapter as the schools divided it, the work of distinction and the work of ornament. The Spirit is not hovering over water on this page. It is a will directed at a job of work whose stages the commentary has already named."
+    )
+
+THREADS.extend([
+ thread("ruach-hovering", "t-k7-l1", "lyra-gen-1-2-spiritus", "rabanus-gen-1-1", "parallel", "Five hundred years of the same simile, and the difference is what it is a simile for. Rabanus: like a craftsman, whose will is borne above the things to be made. Lyra: as the will of the craftsman over the material he means to form and to furnish. Rabanus is answering a difficulty about how God can be said to move; Lyra is not answering anything, because the reading has become the plain sense of the words, and he spends his sentence instead on identifying what the waters are."),
+ thread("ruach-hovering", "t-k7-l2", "lyra-gen-1-2-spiritus", "aug-gnl-imp-4-16", "echoes", "Augustine's as the will of a craftsman is borne above the wood, reproduced almost word for word seven hundred years later without attribution, in a commentary that names its authorities constantly. That is the ordinary end state of a successful reading on this bench: it stops being anyone's."),
+ thread("ruach-hovering", "t-k7-l3", "lyra-gen-1-2-spiritus", "rashi-1-2b", "contests", "Lyra read Rashi on this chapter and cites him by name on the very next question, but not here. Rashi has the Throne of Glory standing in the air and hovering over the face of the waters as a dove hovers over the nest; Lyra has a will over a heap of elements. Where the rabbinic reading is a picture, the Latin one at this date is a definition, and Lyra is the witness who shows that he had both in front of him and chose."),
+])

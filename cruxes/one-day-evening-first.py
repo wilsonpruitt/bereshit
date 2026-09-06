@@ -515,3 +515,30 @@ THREADS.extend([
  _EPX("t-k10-p6", "philo-opif-35", "lxx-1-5", "cites", "Philo is quoting the Seventy and the crux exists because they translated as they did. His whole argument stands on hemeran mian, day one, against hemeran proten, and he is reading the Greek word for word: the Maker called it day, and day not first but one. This is the edition's one place where a witness on the greek-jewish bench cites the other witness on the same bench, and it shows what the LXX is for on this daf, a text somebody argued from and not only a version to compare."),
  _EPX("t-k10-p7", "philo-opif-15", "br-3-9", "parallel", "Bereshit Rabbah 3:9 works the same list, one, second, third, and asks why the first alone is out of pattern; its answers are theological. Philo asks the same question of the same list in Greek and answers that Moses withheld the first day from the count on purpose. The rabbinic bench does not have Philo and reaches the observation independently, which is what makes the agreement worth an edge rather than a footnote."),
 ])
+
+# ================================================================ Lyra (Phase 6 part six, 2026-09-06)
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES.update(_ly.PLACES)
+LICENSES.update(_ly.LICENSES)
+
+add(**_ly.LYRA, id="lyra-gen-1-5",
+    anchor={"verse": "gen.1.5"},
+    lemma={"la": "loquitur de naturali, que est xxiiij horarum",
+           "en": "he is speaking of the natural day, which is of twenty-four hours"},
+    original={"lang": "la",
+      "text": "Factumque est vespere et mane dies unus. Loquitur de naturali, que est xxiiij horarum, et complectitur diem et noctem, et ideo dicit. Factumque est vespere et mane dies unus. In vespere enim completur dies artificialis, qui est prima pars diei naturalis; et in mane diei sequentis completur nox, que est secunda pars diei naturalis; et ideo opponit vespere ipsi mane, ut ostendat expletionem diei naturalis exprimendo terminos diei artificialis et noctis, qui sunt partes integrantes diem naturalem.",
+      "source": "Koberger 1486-87, leaf n44, left column, lemma p (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+      **_ly.SRC},
+    english={"text": "And there was evening and morning, one day. He is speaking of the natural day, which is of twenty-four hours and takes in both day and night; and therefore he says, And there was evening and morning, one day. For at evening the artificial day is completed, which is the first part of the natural day; and at the morning of the following day the night is completed, which is the second part of the natural day. And therefore he sets evening over against morning, so as to show the completing of the natural day by naming the boundaries of the artificial day and of the night, which are the parts that make up the natural day.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["one-day-evening-first"], senses=["literal"],
+    answers=["unus-24-hours", "evening-is-completion", "day-is-a-measure"],
+    notes="Bede's twenty-four hours, restated four hundred years later with the mechanism supplied and the theology gone. Bede says one day was completed, of twenty-four hours, and Rabanus copies him; neither explains why the verse should name evening and morning rather than a beginning and an end. Lyra does, and does it with a distinction the schools had made their own: the artificial day is the sunlit part, the natural day is the whole twenty-four hours, and evening and morning are named because each is the terminus of one of the two parts that make the natural day up. Evening ends the artificial day; the following morning ends the night. So the verse is not reporting two events but marking out a measure by its joints. That answer needs no angels, no morning and evening knowledge, and no first day different in kind from the rest, and it is the point at which the Latin bench's oldest question here stops being a theological one."
+    )
+
+THREADS.extend([
+ thread("one-day-evening-first", "t-k10-l1", "lyra-gen-1-5", "bede-gen-1-5", "parallel", "Bede: one day was completed, of twenty-four hours. Lyra: he is speaking of the natural day, which is of twenty-four hours. The conclusion is identical and the argument is not there in Bede at all. What Lyra adds is why the verse names evening and morning and not anything else: they are the boundaries of the two parts, the artificial day and the night, that make the natural day up. Six hundred years to supply the reason for a number the bench had been repeating."),
+ thread("one-day-evening-first", "t-k10-l2", "lyra-gen-1-5", "hugh-sacr-1-5", "contests", "Hugh rules that every dawn belongs to the preceding day, which puts the join at morning. Lyra puts it at evening: the artificial day is completed at evening, and the night that follows is completed at the next morning, so that evening and morning together mark one natural day. Both are answering the calendar question this crux parts on, and they answer it in opposite directions with the same vocabulary."),
+ thread("one-day-evening-first", "t-k10-l3", "lyra-gen-1-5", "b-chull-83a", "parallel", "The Bavli settles from yom echad that the day follows the night, and it matters because a rule of practice hangs on it. Lyra reaches the same structure -- the day begins in the evening, since evening closes the light part and the following morning closes the dark -- from a schoolroom distinction between the artificial and the natural day, and nothing hangs on it but the sense of the verse."),
+])

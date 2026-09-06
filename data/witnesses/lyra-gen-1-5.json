@@ -1,0 +1,42 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-5",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "la": "loquitur de naturali, que est xxiiij horarum",
+  "en": "he is speaking of the natural day, which is of twenty-four hours"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Factumque est vespere et mane dies unus. Loquitur de naturali, que est xxiiij horarum, et complectitur diem et noctem, et ideo dicit. Factumque est vespere et mane dies unus. In vespere enim completur dies artificialis, qui est prima pars diei naturalis; et in mane diei sequentis completur nox, que est secunda pars diei naturalis; et ideo opponit vespere ipsi mane, ut ostendat expletionem diei naturalis exprimendo terminos diei artificialis et noctis, qui sunt partes integrantes diem naturalem.",
+  "source": "Koberger 1486-87, leaf n44, left column, lemma p (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "And there was evening and morning, one day. He is speaking of the natural day, which is of twenty-four hours and takes in both day and night; and therefore he says, And there was evening and morning, one day. For at evening the artificial day is completed, which is the first part of the natural day; and at the morning of the following day the night is completed, which is the second part of the natural day. And therefore he sets evening over against morning, so as to show the completing of the natural day by naming the boundaries of the artificial day and of the night, which are the parts that make up the natural day.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-24-hours",
+  "evening-is-completion",
+  "day-is-a-measure"
+ ],
+ "notes": "Bede's twenty-four hours, restated four hundred years later with the mechanism supplied and the theology gone. Bede says one day was completed, of twenty-four hours, and Rabanus copies him; neither explains why the verse should name evening and morning rather than a beginning and an end. Lyra does, and does it with a distinction the schools had made their own: the artificial day is the sunlit part, the natural day is the whole twenty-four hours, and evening and morning are named because each is the terminus of one of the two parts that make the natural day up. Evening ends the artificial day; the following morning ends the night. So the verse is not reporting two events but marking out a measure by its joints. That answer needs no angels, no morning and evening knowledge, and no first day different in kind from the rest, and it is the point at which the Latin bench's oldest question here stops being a theological one."
+}

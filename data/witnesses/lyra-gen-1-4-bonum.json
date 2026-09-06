@@ -1,0 +1,43 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-4-bonum",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "Ideo aliter respondet Ra. Sa., et magis secundum intentionem littere ut videtur",
+  "en": "Therefore Rabbi Solomon answers otherwise, and more according to the intention of the letter, as it seems"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Hic queritur quare in secunda die non dicitur, Et vidit Deus quod esset bonum, sicut in aliis diebus. Ad quod respondent aliqui quod hoc est quia numerus binarius est infamis, eo quod primus recedit ab unitate. Sed ista responsio videtur truphatica, maxime quia in sacro evangelio numerus binarius laudabilis et mysticus designatur; unde super illud Luce x, Misit illos binos et binos ante faciem suam, dicit Gregorius quod per binarium designavit caritatem, que est excellentissima virtus et forma virtutum. Alii autem dicunt quod hoc ideo est quia angeli peccantes ceciderunt secunda die; sed hoc de scripturis auctoritatem non habet, ideo eadem facilitate contemnitur qua probatur, maxime quia doctores dicunt communiter quod inter creationem angelorum et eorum lapsum fuit modica morula temporis, secundum autem istam responsionem interfuisset ad minus spacium unius diei naturalis, quia secundum omnes angeli fuerunt creati a principio. Ideo aliter respondet Ra. Sa., et magis secundum intentionem littere ut videtur, dicens et verum est, quod hoc verbum, vidit Deus quod esset bonum etc., in aliis diebus dicitur ad approbationem operis illarum dierum; approbatio autem proprie respicit opus completum.",
+  "source": "Koberger 1486-87, leaf n44, right column (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "Here it is asked why on the second day it is not said, And God saw that it was good, as on the other days. To which some answer that it is because the number two is of ill repute, in that it is the first to depart from unity. But that answer seems to be trifling, especially because in the holy Gospel the number two is marked out as praiseworthy and mystical; whence on that passage of Luke 10, He sent them out two by two before his face, Gregory says that by the pair he signified charity, which is the most excellent of the virtues and the form of the virtues. Others say that the reason is that the angels who sinned fell on the second day; but this has no authority from the Scriptures, and so is dismissed as easily as it is proved, especially because the doctors commonly say that between the creation of the angels and their fall there was a brief moment of time, whereas on that answer there would have been at least the space of one natural day, since on everyone's account the angels were created at the beginning. Therefore Rabbi Solomon answers otherwise, and more according to the intention of the letter, as it seems, saying, and it is true, that this word, God saw that it was good, is said on the other days for the approval of the work of those days; and approval properly regards a work that is complete.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "rashi"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-withheld",
+  "bonum-awaits-completion"
+ ],
+ "notes": "⚠ Anchor note: Lyra is on the day-two absence of the approval formula, Gen 1:8, which is outside this edition's scope; anchored on gen.1.4 under the second clause of the anchor rule, because the question is the one that verse raises and this crux is built on. This is the page Paul of Burgos indicts, and every charge in burgos-add-3 can be checked against it. He does call the fathers' answer truphatica, in that word. He does refute them from Luke 10 and Gregory, which Burgos calls a motive of small value. And he does prefer Rashi, in the sentence an early reader of this copy underlined in ink: Ideo aliter respondet Ra. Sa., et magis secundum intentionem littere. Two things are worth noticing that neither of his critics mentions. The first is that Lyra rejects two Latin answers and not one, and the second, that the angels fell on the second day, he refutes on strictly Latin grounds. The second is that the answer he takes from Rashi is not a Jewish reading of a Jewish text but a rule about how the word approval works: approbation regards a completed work, the separating of the waters was not finished until the third day, so the formula waits. Anyone could have said it. The quarrel that follows is not about whether it is right."
+}

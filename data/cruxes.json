@@ -375,7 +375,8 @@
    "comestor-hs-gen-1",
    "aug-gnl-1-5-11",
    "glossa-1-2-ruach",
-   "philo-opif-30"
+   "philo-opif-30",
+   "lyra-gen-1-2-spiritus"
   ],
   "status": "built",
   "short": "Ruach merahefet"
@@ -481,6 +482,8 @@
    "comestor-hs-1-4",
    "philo-opif-33-34",
    "burgos-add-3",
+   "lyra-gen-1-4-bonum",
+   "doering-repl-3",
    "b-chag-12a-light",
    "bonaventure-sent-2-13-1-2",
    "rashi-1-4"
@@ -537,6 +540,7 @@
    "bonaventure-sent-2-12-1-2",
    "philo-opif-15",
    "philo-opif-35",
+   "lyra-gen-1-5",
    "philo-opif-33-34"
   ],
   "status": "built",

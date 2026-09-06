@@ -1,0 +1,41 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-2-spiritus",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "sicut voluntas artificis super materiam quam formare et ornare intendit",
+  "en": "as the will of the craftsman over the material he means to form and to furnish"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et spiritus etc. aquas, id est super illam congeriem et commixtionem elementorum predictam; et vocatur nomine aquarum, quia sicut dictum est ipsa aqua cooperiebat terram, et aliis duobus elementis commixta erat modo predicto. Et accipitur hic spiritus Dei, id est voluntas, que ferebatur super illam congeriem elementorum, sicut voluntas artificis super materiam quam formare et ornare intendit.",
+  "source": "Koberger 1486-87, leaf n43 recto, right column, lemma h (archive.org biblia-sacra-lyra_202308, page/n43.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "And the spirit etc. the waters, that is, over that heap and commixture of the elements spoken of above; and it is called by the name of waters because, as has been said, the water itself covered the earth and was mixed with the other two elements in the way described. And the spirit of God is taken here as the will, which was borne over that heap of the elements, as the will of the craftsman is borne over the material he means to form and to furnish.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "ruach-hovering"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "craftsman",
+  "power-not-place"
+ ],
+ "notes": "The craftsman analogy at the end of its life, and shortened to a clause. Augustine put it as a question about how a will can be borne over anything; Rabanus made it a simile, like a craftsman whose will is borne above the things to be made; Remigius and Bruno each restated it. Lyra states it as a gloss, without argument and without naming anyone, because by 1330 it is simply what the words mean: spiritus Dei, id est voluntas. What he adds is the object. The other Latins have the craftsman's will over his work; Lyra has it over a specific physical thing he has just described, the heap and commixture of the elements with the water lying over the earth, and the two verbs are formare et ornare, which are the two halves of the chapter as the schools divided it, the work of distinction and the work of ornament. The Spirit is not hovering over water on this page. It is a will directed at a job of work whose stages the commentary has already named."
+}

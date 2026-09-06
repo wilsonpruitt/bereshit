@@ -13,6 +13,8 @@ LYRA = dict(work="lyra-postilla", author="nicholas-of-lyra", tradition="latin",
             date=1330, date_precision="range-1322-1332", place="paris")
 BURGOS = dict(work="burgos-additiones", author="paul-of-burgos", tradition="latin",
               date=1429, date_precision="circa", place="burgos")
+DOERING = dict(work="doering-replicae", author="matthias-doering", tradition="latin",
+               date=1440, date_precision="range-1429-1450", place="paris")
 DRAFT = {"translator": "claude-draft", "license": "cc-by", "status": "draft-awaiting-approval"}
 EDITION = ("Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis "
            "Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i")

@@ -1,0 +1,42 @@
+{
+ "work": "doering-replicae",
+ "author": "matthias-doering",
+ "tradition": "latin",
+ "date": 1440,
+ "date_precision": "range-1429-1450",
+ "place": "paris",
+ "id": "doering-repl-3",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "veram responsionem attribuit infideli, que tamen in nostra glosa continetur",
+  "en": "he attributes the true answer to an unbeliever, though it is contained in our own gloss"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Primam dicit truphaticam, secundam abicit tanquam non fundatam, terciam approbat a Ra. Sa. acceptam. In quo passu Burgensis dicit eum in tribus deviare a rectitudine: quia rationem sanctorum irreverenter dicit truphaticam; secundo quia contra eos non adducit validam rationem; tercio quia veram responsionem attribuit infideli, que tamen in nostra glosa continetur, cui potius debuit honorem exhibere. Quo ad primum respondeo quod postillator non truphatur de sanctis doctoribus sed imperitis lectoribus, qui id pro sensu litterali eligunt quod sancti mystice per quasdam particulares congruentias adducunt, ut patet in multis lecturis super Genesim.",
+  "source": "Koberger 1486-87, leaf n61, column 2 (archive.org biblia-sacra-lyra_202308, page/n61.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "The first he calls trifling; the second he throws out as unfounded; the third he approves, taken from Rabbi Solomon. On which passage Burgos says that he departs from rectitude in three ways: because he irreverently calls the reasoning of the saints trifling; second, because he brings no valid argument against them; third, because he attributes the true answer to an unbeliever, though it is contained in our own gloss, to which he ought rather to have shown the honour. As to the first I answer that the postillator is not scoffing at the holy doctors but at unskilled readers, who choose for the literal sense what the saints adduce mystically by way of certain particular fitnesses, as is plain in many lectures on Genesis.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "rashi"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-is-owed-to-the-fathers"
+ ],
+ "notes": "⚠ Anchor note: as with burgos-add-3 and lyra-gen-1-4-bonum, the passage argued about is the day-two absence of the approval formula at Gen 1:8; anchored on gen.1.4 under the second clause of the anchor rule. The third corner of the only quarrel in this edition that is about the rabbinic bench rather than merely parallel to it, and the corner that says the quiet part. Matthias Doering, Franciscan provincial of Saxony, summarising Burgos's charge in order to answer it, renders the third head not as Burgos wrote it -- Ra. Sa. hebreo -- but as veram responsionem attribuit INFIDELI, he attributes the true answer to an unbeliever. He does not dispute that the answer is true; the word verus is his own. What he disputes is that it is Rashi's: it is contained in our own gloss, and Lyra owed the honour there. And his defence of Lyra on the first charge gives away what the fight is really about. Lyra was not scoffing at the holy doctors, says Doering, but at unskilled readers who take for the literal sense what the saints said mystically. That is a quarrel about what the literal sense is for, conducted in a printed Bible by three Latins over the head of a Jew who has been dead three hundred years and whom all three have read. An early reader of this copy underlined Ra. Sa. on both leaves."
+}
