@@ -1012,9 +1012,40 @@ the "no contact" half:
 **What this does and does not show.** It does not show the Latin bench receiving anything: Chalcidius
 is a report about Origen, not a channel into Wigbod or the Glossa, and the Catena is Greek. What it
 does show is that "no contact either way" is a claim about the *Latin* transmission and is false of
-its Greek head — which is a sharper finding than the one K1 now prints, not a weaker one. **Neither
-Chalcidius nor the Catena was consulted directly; both are read off Baehrens's apparatus on the page
-image.** Verifying them, and then deciding whether K1's `finding` is amended, is Wilson's.
+its head — a sharper finding than the one K1 printed, not a weaker one.
+
+✅ **RESOLVED 2026-09-05 (Wilson: verify both, then amend). Chalcidius verified; the Catena is not,
+and is not used.**
+
+Chalcidius was read independently of Baehrens, in the 1617 Meursius edition
+(`ita-bnc-mag-00000929-001`, printed p. 570), and the passage is **fuller than the apparatus's
+ellipses suggested**. In full it runs: *Sed Origenes asseverat ita sibi ab Hebraeis esse persuasum…
+Initium minime temporarium dici. Neque enim ullum tempus fuisse ante mundi exornationem… Est tamen
+unum rerum omnium initium, de quo Salomo in proverbiis: «Creavit me (inquit) Deus progressionis suae
+primitiam, cui nitens efficeret opera divina; constituitque ante mundi ortum…» Aperte indicans,
+praeeunte divina sapientia caelum terramque factam, eandemque sapientiam divinam esse universitatis
+primordium.* So Chalcidius does not merely allude to Solomon — **he quotes Prov 8:22 at length and
+concludes to Wisdom, not to the Son.**
+
+**The decisive check was run on the built bench, not asserted**: across all 240 witnesses,
+**Prov 8:22 is cited by four and every one is rabbinic** (`br-1-1`, `br-1-4`, `br-1-8`,
+`rashi-1-1b`); **Ps 104:24 by four and every one is Latin** (`ambrose-hex-1-3`, `aug-civ-11-32`,
+`bruno-gen-1-1c`, `rupert-gen-1-1`); Prov 3:19 by two, both rabbinic. The disjunction is total.
+K1's `finding` is amended accordingly: the contact existed at the head and the Latin transmission
+lost it.
+
+⛔ **Chalcidius is NOT built as a witness, and should be.** The only free text is uncorrected OCR of
+a 1617 print whose page images carry a ProQuest copyright notice, and the volume's leaf-to-page
+calibration does not hold, so the page could not be read the way Origen's was. This edition does not
+embed Latin it cannot check against a clean page. He is a **fourth-century Latin witness on Gen
+1:1–2 who is not in the PL and not on the bench** — he even preserves a Genesis 1:2 variant,
+*terra autem stupida quadam erat admiratione* — and he wants Waszink's *Plato Latinus* (Corpus
+Platonicum Medii Aevi). That is the single highest-value item left on the second-tier list.
+
+⚠ **The Catena notice remains unverified** and is deliberately absent from the amended finding. If
+it holds, it says something stronger still — that Origen himself glossed *ἐν ἀρχῇ* as *ἐν σοφίᾳ,
+τουτέστι τῷ υἱῷ*, joining the two benches' words in one phrase — but it is a notice in catena
+manuscripts under Akakios's name, reported at third hand here, and nothing is being built on it.
 
 ### The Bereshit Rabbah Hebrew swap — done 2026-09-05 (Wilson's ruling)
 

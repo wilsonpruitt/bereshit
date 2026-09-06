@@ -1944,6 +1944,326 @@
   "crux": "why-begin-here"
  },
  {
+  "id": "t-k10-01",
+  "from": "vulgate-1-5",
+  "to": "lxx-1-5",
+  "type": "transmits",
+  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-02",
+  "from": "targ-psj-1-5",
+  "to": "lxx-1-5",
+  "type": "parallel",
+  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-35",
+  "from": "targ-psj-1-5",
+  "to": "targ-onk-1-5",
+  "type": "echoes",
+  "evidence": "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-37",
+  "from": "ambrose-hex-1-10",
+  "to": "basil-hex-2-8b",
+  "type": "echoes",
+  "evidence": "Phase 6, and the strongest single edge on the daf. Basil: nox diem comitatur, and evening is named first ut nativitatis diurnae privilegia reservaret. Ambrose, five years later in Milan: evening is the end of the day and morning the end of the night, so 'to give the day the prerogative and the birthright, it named the end of the day first, since night was to follow'. Prerogative and birthright is privilegia and nativitas, in that order, on the same clause. Ambrose is reading Basil's Greek, not this Latin — Eustathius translated a generation after the Hexaemeron of Milan — so the two Latin texts here are independent renderings of one Greek sentence, and every later Latin answer to 'why evening first', Bede's and Bruno's included, comes down from Ambrose's.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-38",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "basil-hex-2-8b",
+  "type": "cites",
+  "evidence": "Bonaventure quotes this sentence by name — 'Et Basilius in Hexaëmero' — as the Greek doctors' position, and quotes it with a variant that decides its sense. Quaracchi prints non solaris corporis motu, 'not by the motion of the solar body'; the Patrologia column reads non solum corporis motu, 'not only by the motion of the body'. The first makes Basil deny that the first light moved as the sun does, which is the whole ground of Bonaventure's division into Greeks and Latins; the second makes him concede motion and add diffusion to it, and so dissolves the division. Basil's own context favours Quaracchi — the sentence has just distinguished what happens after the sun's creation from what happened then, when there was no solar body to move — and the same TEI column carries two plain OCR faults within six lines. Reported as a divergence, not adjudicated: neither the Greek nor a second Latin witness was consulted.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-39",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "bede-gen-1-5",
+  "type": "cites",
+  "evidence": "The Latin half of Bonaventure's division is Bede, named and quoted: 'Beda autem et alii expositores Latini dicunt, quod diem et noctem faciebat sua revolutione; et hoc habitum fuit in auctoritate prius posita, quae inducitur in littera: Occidente luce paulatim' — the opening words of the Bede witness on this daf. What Bede argued from the behaviour of light, the schools have by the thirteenth century filed as the position of the Latins.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-40",
+  "from": "bonaventure-sent-2-13-1-2",
+  "to": "bonaventure-sent-2-12-1-2",
+  "type": "parallel",
+  "evidence": "Phase 6. The same judgement twice, one distinction apart, and both times against the more spiritual reading on the same ground. At d.12 he grants Augustine's simultaneous days are 'multum rationabilis et valde subtilis' and declines them because Scripture would have to be twisted; at d.13 he grants the Greek doctors their emission and contraction of rays and declines it because the Latin account is 'rationabilior, quia virtuti naturali possibilior'. Reasonableness in the first case is fidelity to the letter, in the second what nature can do — and both times the literal, physical day wins.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-36",
+  "from": "targ-onk-1-5",
+  "to": "lxx-1-5",
+  "type": "parallel",
+  "evidence": "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-03",
+  "from": "rashi-1-5",
+  "to": "br-3-8",
+  "type": "cites",
+  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-04",
+  "from": "br-3-9",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-05",
+  "from": "b-chull-83a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-06",
+  "from": "b-chag-12a",
+  "to": "br-3-8",
+  "type": "parallel",
+  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-07",
+  "from": "ambrose-hex-1-10",
+  "to": "lxx-1-5",
+  "type": "echoes",
+  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-08",
+  "from": "ambrose-hex-1-10",
+  "to": "rashi-1-5",
+  "type": "parallel",
+  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-09",
+  "from": "bruno-gen-1-5",
+  "to": "br-3-9",
+  "type": "parallel",
+  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-10",
+  "from": "aug-gnm-1-10",
+  "to": "b-chull-83a",
+  "type": "contests",
+  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-11",
+  "from": "ambrose-hex-1-10",
+  "to": "aug-gnm-1-10",
+  "type": "parallel",
+  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-12",
+  "from": "hugh-sacr-1-5",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-13",
+  "from": "bruno-gen-1-5",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-14",
+  "from": "bruno-gen-1-5",
+  "to": "targ-psj-1-5",
+  "type": "parallel",
+  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-15",
+  "from": "aug-gnl-4-22",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-16",
+  "from": "aug-gnl-5-18",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-17",
+  "from": "aug-civ-11-7",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-18",
+  "from": "rabanus-gen-1-5",
+  "to": "bede-gen-1-5",
+  "type": "cites",
+  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-19",
+  "from": "alcuin-int-34",
+  "to": "aug-gnm-1-10",
+  "type": "echoes",
+  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-20",
+  "from": "wigbod-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-21",
+  "from": "wigbod-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "parallel",
+  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-22",
+  "from": "angelom-gen-1-5",
+  "to": "alcuin-int-34",
+  "type": "echoes",
+  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-23",
+  "from": "angelom-gen-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-24",
+  "from": "remigius-gen-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-25",
+  "from": "glossa-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "cites",
+  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-26",
+  "from": "glossa-1-5",
+  "to": "aug-civ-11-7",
+  "type": "parallel",
+  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-27",
+  "from": "honorius-hex-1-5",
+  "to": "aug-gnl-4-22",
+  "type": "echoes",
+  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-28",
+  "from": "honorius-hex-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-29",
+  "from": "comestor-hs-1-5",
+  "to": "bede-gen-1-5",
+  "type": "echoes",
+  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-30",
+  "from": "hugh-sacr-1-5",
+  "to": "ambrose-hex-1-10",
+  "type": "echoes",
+  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-31",
+  "from": "abelard-hex-1-5",
+  "to": "aug-gnl-1-17",
+  "type": "echoes",
+  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-32",
+  "from": "rupert-gen-1-5",
+  "to": "bruno-gen-1-5",
+  "type": "parallel",
+  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-33",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "aug-gnl-5-18",
+  "type": "contests",
+  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
+  "crux": "one-day-evening-first"
+ },
+ {
+  "id": "t-k10-34",
+  "from": "bonaventure-sent-2-12-1-2",
+  "to": "comestor-hs-1-5",
+  "type": "parallel",
+  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
+  "crux": "one-day-evening-first"
+ },
+ {
   "id": "t-k1-01",
   "from": "jerome-hq-1-1",
   "to": "lxx-1-1",
@@ -2310,325 +2630,5 @@
   "type": "echoes",
   "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
   "crux": "beginning-of-what"
- },
- {
-  "id": "t-k10-01",
-  "from": "vulgate-1-5",
-  "to": "lxx-1-5",
-  "type": "transmits",
-  "evidence": "Jerome's 'dies unus' renders the LXX's cardinal ἡμέρα μία, not an ordinal; the whole Latin quarrel over unus and primus rests on a word the Greek had already kept from the Hebrew.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-02",
-  "from": "targ-psj-1-5",
-  "to": "lxx-1-5",
-  "type": "parallel",
-  "evidence": "Aramaic 'yoma chad' and Greek ἡμέρα μία make the same decision independently: keep the cardinal, though every following day in the chapter is an ordinal. Onkelos does the same.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-35",
-  "from": "targ-psj-1-5",
-  "to": "targ-onk-1-5",
-  "type": "echoes",
-  "evidence": "Phase 6. Pseudo-Jonathan keeps Onkelos's yoma chad unaltered and then expands the clause it sits in, giving the day to labour and the night to rest — an expansion of the reason and not of the number. Where the targum that adds most adds nothing to a word, the word was not felt to need help.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-37",
-  "from": "ambrose-hex-1-10",
-  "to": "basil-hex-2-8b",
-  "type": "echoes",
-  "evidence": "Phase 6, and the strongest single edge on the daf. Basil: nox diem comitatur, and evening is named first ut nativitatis diurnae privilegia reservaret. Ambrose, five years later in Milan: evening is the end of the day and morning the end of the night, so 'to give the day the prerogative and the birthright, it named the end of the day first, since night was to follow'. Prerogative and birthright is privilegia and nativitas, in that order, on the same clause. Ambrose is reading Basil's Greek, not this Latin — Eustathius translated a generation after the Hexaemeron of Milan — so the two Latin texts here are independent renderings of one Greek sentence, and every later Latin answer to 'why evening first', Bede's and Bruno's included, comes down from Ambrose's.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-38",
-  "from": "bonaventure-sent-2-13-1-2",
-  "to": "basil-hex-2-8b",
-  "type": "cites",
-  "evidence": "Bonaventure quotes this sentence by name — 'Et Basilius in Hexaëmero' — as the Greek doctors' position, and quotes it with a variant that decides its sense. Quaracchi prints non solaris corporis motu, 'not by the motion of the solar body'; the Patrologia column reads non solum corporis motu, 'not only by the motion of the body'. The first makes Basil deny that the first light moved as the sun does, which is the whole ground of Bonaventure's division into Greeks and Latins; the second makes him concede motion and add diffusion to it, and so dissolves the division. Basil's own context favours Quaracchi — the sentence has just distinguished what happens after the sun's creation from what happened then, when there was no solar body to move — and the same TEI column carries two plain OCR faults within six lines. Reported as a divergence, not adjudicated: neither the Greek nor a second Latin witness was consulted.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-39",
-  "from": "bonaventure-sent-2-13-1-2",
-  "to": "bede-gen-1-5",
-  "type": "cites",
-  "evidence": "The Latin half of Bonaventure's division is Bede, named and quoted: 'Beda autem et alii expositores Latini dicunt, quod diem et noctem faciebat sua revolutione; et hoc habitum fuit in auctoritate prius posita, quae inducitur in littera: Occidente luce paulatim' — the opening words of the Bede witness on this daf. What Bede argued from the behaviour of light, the schools have by the thirteenth century filed as the position of the Latins.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-40",
-  "from": "bonaventure-sent-2-13-1-2",
-  "to": "bonaventure-sent-2-12-1-2",
-  "type": "parallel",
-  "evidence": "Phase 6. The same judgement twice, one distinction apart, and both times against the more spiritual reading on the same ground. At d.12 he grants Augustine's simultaneous days are 'multum rationabilis et valde subtilis' and declines them because Scripture would have to be twisted; at d.13 he grants the Greek doctors their emission and contraction of rays and declines it because the Latin account is 'rationabilior, quia virtuti naturali possibilior'. Reasonableness in the first case is fidelity to the letter, in the second what nature can do — and both times the literal, physical day wins.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-36",
-  "from": "targ-onk-1-5",
-  "to": "lxx-1-5",
-  "type": "parallel",
-  "evidence": "Phase 6. Onkelos's yoma chad and the Seventy's ἡμέρα μία, with yom tinyan and δευτέρα after each: two independent translators out of one Hebrew, and both let the unevenness stand rather than regularise the series. Every Latin argument in this crux descends from a Greek decision that an Aramaic translator had already made on his own.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-03",
-  "from": "rashi-1-5",
-  "to": "br-3-8",
-  "type": "cites",
-  "evidence": "Rashi names his source — 'thus it is explained in Bereshit Rabbah' — and reproduces R. Yudan's answer, that God was alone (yachid) in his world, adding the datum that fixes it: the angels were not created until the second day.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-04",
-  "from": "br-3-9",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Two consecutive sections of one compilation asking the same thing from opposite ends: 3:8 asks what 'one day' is a name for, 3:9 asks why the series is 'one, second, third' at all. The second states the grammar as an unresolved difficulty.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-05",
-  "from": "b-chull-83a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both fix a meaning on the words yom echad and neither cites the other: the midrash makes it the day God was alone, the Talmud makes it the rule that reckoning follows the night. The halakhic use is the one that governs practice.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-06",
-  "from": "b-chag-12a",
-  "to": "br-3-8",
-  "type": "parallel",
-  "evidence": "Both list what was made on day one and both must decide whether anything besides God was there. Chagigah counts ten things and includes the measures of day and night from our verse; Bereshit Rabbah rules that nothing at all was created on the first day, so that no partner in creation can be alleged.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-07",
-  "from": "ambrose-hex-1-10",
-  "to": "lxx-1-5",
-  "type": "echoes",
-  "evidence": "Ambrose reads a Latin text that keeps the Greek cardinal and builds his chapter on it: 'Praeclare etiam unum non primum diem dixit.' Without ἡμέρα μία behind the Latin there is no question to ask.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-08",
-  "from": "ambrose-hex-1-10",
-  "to": "rashi-1-5",
-  "type": "parallel",
-  "evidence": "The same question in two languages seven hundred years apart: he could have said 'first,' with a second and third to follow, and that seemed the order — so why 'one'? Ambrose answers from the twenty-four-hour circuit, Rashi from God's solitude. No contact is possible in either direction.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-09",
-  "from": "bruno-gen-1-5",
-  "to": "br-3-9",
-  "type": "parallel",
-  "evidence": "Bereshit Rabbah objects that 'one, second, third' is not a proper series; Bruno answers precisely that objection with the logic of relatives — first and second are correlative terms, and with no second yet in being nothing could be called first. The best-matched pair on the crux, and there is no channel between them.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-10",
-  "from": "aug-gnm-1-10",
-  "to": "b-chull-83a",
-  "type": "contests",
-  "evidence": "Augustine: the day does not begin at evening, and 'reliqui dies computantur a mane usque in mane'. Ben Zoma: 'yom echad' in the work of creation means the day follows the night. The same five words of Genesis 1:5 are made to yield two calendars. Neither knows of the other; the contest is real and is in the text.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-11",
-  "from": "ambrose-hex-1-10",
-  "to": "aug-gnm-1-10",
-  "type": "parallel",
-  "evidence": "Both refuse the evening start and both do it by making vespera the end of a completed day rather than the opening of a new one. Ambrose adds the birthright argument, Augustine the Manichean opponent; Augustine was hearing Ambrose preach at Milan in the years before he wrote.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-12",
-  "from": "hugh-sacr-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Omnis dies ab ortu solis initium sumit' with the natural day running sunrise to sunrise is Augustine's 'a mane usque in mane' given the computists' vocabulary; Hugh adds the reason Augustine does not give, that the first day had no dawn to name.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-13",
-  "from": "bruno-gen-1-5",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "Bruno keeps Augustine's conclusion — the day's own boundaries are what Scripture sets, and the night is not counted in — and hardens it into a thesis Augustine never states: nulla dies ex nocte constat ac die.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-14",
-  "from": "bruno-gen-1-5",
-  "to": "targ-psj-1-5",
-  "type": "parallel",
-  "evidence": "'Divina providentia non ad laborem, sed ad quietem noctem creavit' is the reason Pseudo-Jonathan gives in Aramaic for the same pair — the light made that the world's inhabitants might labour, the darkness that the creatures might rest. Neither could have read the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-15",
-  "from": "aug-gnl-4-22",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "The same author's two answers, a decade apart in the same work: in book I 'one and not first' because the word holds all time, offered and set aside as allegory; in book IV 'one' because there is only one day, the angelic light, presented six times over.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-16",
-  "from": "aug-gnl-5-18",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "Book V supplies the name for what book IV describes: the two knowledges become cognitio matutina and vespertina, and the doctrine is tied to 'creavit omnia simul' (Sir 18:1), which is what makes the six days non-successive.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-17",
-  "from": "aug-civ-11-7",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The City of God restates the Genesis commentary compactly and rests it on the textual observation that carries the argument — Scripture numbers six days and never once writes 'night was made.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-18",
-  "from": "rabanus-gen-1-5",
-  "to": "bede-gen-1-5",
-  "type": "cites",
-  "evidence": "Rabanus reproduces Bede's paragraph on the verse almost word for word, including the counterfactual about the light perishing at evening; the same silent copying the K7 threads trace at PL 107:447C.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-19",
-  "from": "alcuin-int-34",
-  "to": "aug-gnm-1-10",
-  "type": "echoes",
-  "evidence": "'Finis operis perfecti, et initium operis incoepti' compresses Augustine's account of evening as a finished work and morning as the next beginning into a single schoolroom answer.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-20",
-  "from": "wigbod-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "Wigbod puts the compressed formula first and then, under the label AUGUSTINUS, the doctrine it came from: the creature's knowledge of itself is evening, its knowledge in God is morning, 'plus videtur in arte qua facta est, quam in seipsa quae facta est.'",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-21",
-  "from": "wigbod-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "parallel",
-  "evidence": "The two Carolingian question-and-answer books give the same compressed gloss on the verse — evening a work perfected, morning a work begun — in almost the same words; the shared source is Augustine, and neither names him for that sentence.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-22",
-  "from": "angelom-gen-1-5",
-  "to": "alcuin-int-34",
-  "type": "echoes",
-  "evidence": "'In vespera intelligatur perfectio praecedentis operis, et mane inchoatio subsequentis' is the Carolingian formula verbatim, before Angelomus goes on to the angelic reading.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-23",
-  "from": "angelom-gen-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "The angelic mind turning from God to the creature is evening and turning back is morning; Angelomus keeps Augustine's guard rail — had it stayed with the creature it would have been night — and then adds 'one day' as a name for the unity of angelic dignity, which is his own.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-24",
-  "from": "remigius-gen-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Remigius takes the moral reading Augustine had offered and set aside — evening as sin, morning as renewal — and turns it to the ordinary Christian's progress; but he reverses the terms, making morning the beginning and evening the perfection.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-25",
-  "from": "glossa-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "cites",
-  "evidence": "The margin cites 'AUG., de Gen. ad litt., l. IV, c. 22, 23, tom. III, col. 311, 312' and abbreviates the passage with the Glossa's usual 'etc., usque ad' — a pointer to a book the reader is assumed to own, not a quotation.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-26",
-  "from": "glossa-1-5",
-  "to": "aug-civ-11-7",
-  "type": "parallel",
-  "evidence": "Gregory's gloss and Augustine's City of God fasten on the identical textual fact — that Scripture writes evening and never night — and draw different conclusions from it: for Augustine the creature's knowledge dims but does not fall away; for Gregory temptation hides the light of justice but does not destroy it.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-27",
-  "from": "honorius-hex-1-5",
-  "to": "aug-gnl-4-22",
-  "type": "echoes",
-  "evidence": "'Non primus, sed unus dies dicitur, quia idem semper repetitur' is Augustine's repeated day reduced to a clause and given a proof text from Ps 119:91.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-28",
-  "from": "honorius-hex-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "'Vespere est finis diei; mane autem finis noctis: quae duo juncta, viginti quatuor horae fiunt' is Ambrose's definition of evening and morning and his twenty-four hours, in the same order.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-29",
-  "from": "comestor-hs-1-5",
-  "to": "bede-gen-1-5",
-  "type": "echoes",
-  "evidence": "The light setting little by little, passing under the earth and coming to the rising, is Bede's travelling light; Comestor names the result dies unus naturalis and drops the argument Bede built it to support.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-30",
-  "from": "hugh-sacr-1-5",
-  "to": "ambrose-hex-1-10",
-  "type": "echoes",
-  "evidence": "Both make evening the end of the day and dawn the end of the night, and both conclude that day naturally precedes night; Hugh adds that the first day had no dawn of its own, which is why evening had to be named first.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-31",
-  "from": "abelard-hex-1-5",
-  "to": "aug-gnl-1-17",
-  "type": "echoes",
-  "evidence": "Abelard adopts as his own reading what Augustine raised and put aside: 'one day' names the whole span of the work, not the first of a series. His evening and morning are the work in God's mind and the work made visible.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-32",
-  "from": "rupert-gen-1-5",
-  "to": "bruno-gen-1-5",
-  "type": "parallel",
-  "evidence": "Two contemporaries reach the same conclusion by different routes: what God divided cannot be recombined into one thing (Rupert), and no day consists of night and day since God named them separately (Bruno). Neither cites the other.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-33",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "aug-gnl-5-18",
-  "type": "contests",
-  "evidence": "Bonaventure states Augustine's simul thesis with its Scriptural support and its account of the days as spiritual and simultaneous, grants that it is 'multum rationabilis et valde subtilis', and then declines it: to hold it, the sense of Scripture must be twisted, and it is safer to submit reason to Scripture than Scripture to reason.",
-  "crux": "one-day-evening-first"
- },
- {
-  "id": "t-k10-34",
-  "from": "bonaventure-sent-2-12-1-2",
-  "to": "comestor-hs-1-5",
-  "type": "parallel",
-  "evidence": "The schools' settled reading in its two registers within a century: Comestor simply narrates a natural day and never raises Augustine's question, and Bonaventure raises it in order to rule against it. The literal six days win by handbook and by disputation at once.",
-  "crux": "one-day-evening-first"
  }
 ]
