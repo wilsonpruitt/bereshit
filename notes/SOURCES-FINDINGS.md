@@ -636,10 +636,18 @@ here than there.
 ## Frozen-rendering conflict, resolved by usage
 
 PHASES.md's K7 list froze *informis materia* = "formless matter"; the K1 addendum then wrote
-*materia informis* = "unformed matter" **"as at K7"**, which K7 does not say. **Every built witness
-uses "formless matter"** (`aug-gnm-1-7-11`, `alcuin-int-28`, and the K6 Glossa slices), so K4
-follows usage and the K1 line is the error. Phase 3 should strike "unformed matter" from PHASES.md
-rather than change any English.
+*materia informis* = "unformed matter" **"as at K7"**, which K7 does not say, and the K6 addendum
+propagated it citing K1. K4 followed usage, and **Wilson struck "unformed matter" on 2026-09-05**;
+both PHASES lines are corrected.
+
+⚠ **The correction is not cost-free, and the first count of it in this session was wrong.** The
+built English is **23 occurrences of "formless matter" across 13 witnesses against 6 of "unformed
+matter" across 4** — not, as first reported, none. Striking the line therefore leaves four
+witnesses in drift, and Phase 3 owns them: `glossa-1-1` (K1), `angelom-gen-1-2-tohu` and
+`glossa-1-2-terra` (K6) are all `claude-draft` and are a draft revision; **`bonaventure-sent-2-13-1-1`
+is Wilson's own English** and is not to be changed mechanically. Note that Angelomus now reads
+"unformed matter" at 1:2 and "formless matter" at 1:1 in K4's slice — one author, two renderings,
+which is exactly the drift the frozen list exists to prevent.
 
 ## Method
 

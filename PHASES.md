@@ -118,7 +118,9 @@ initium* = "in the beginning", and *Principium* is capitalised only where it nam
 which Latin text he had; Aquila's *in capitulo* = "in the head", so that Jerome's pun on *caput
 librorum* and Ps 40:8's *in capite libri* survives; *vitium in superfluitate dictionis* = "a vice of
 superfluity of expression"; *aeternus* = "eternal" but *sempiternus* = "everlasting" (Comestor
-needs both in one sentence); *hyle* = "hyle"; *materia informis* = "unformed matter" as at K7.
+needs both in one sentence); *hyle* = "hyle"; *materia informis* = "formless matter" as at K7.
+**[Corrected 2026-09-05, Wilson's ruling: this line originally read "unformed matter", which K7 does
+not say. See the K4 note below and the Phase 3 list.]**
 Rabbinic: *reshit*, *bereshit*, *amon*, *uman*, *be-ḥokhmah*, *ḥalla* transliterated; "the Holy One,
 blessed be He"; Prov 8:22 rendered as the witness quotes it, "the Lord made me reshit of his way".
 
@@ -128,10 +130,16 @@ blessed be He"; Prov 8:22 rendered as the witness quotes it, "the Lord made me r
 against the frozen *artifex / faber* = "craftsman", so that Hugh's three principles (*opifex,
 materia, forma*) and Augustine's *fabros et quoslibet opifices* stay distinguishable; *coaeternus* =
 "coeternal" but *coaevus* = "coeval"; *species* = "form" where it is opposed to *materia* (Basil,
-Abelard); *prope nihil* = "near to nothing"; *schema / figura* = "figure". ⚠ **The K1 line rendering
-*materia informis* as "unformed matter" is an error** — K7 froze "formless matter", every built
-witness uses it, and K4 follows usage; Phase 3 should strike the K1 wording rather than change any
-English. Rabbinic: *yesh me-ayin* = "something from nothing", *afisah muchletet* = "absolute
+Abelard); *prope nihil* = "near to nothing"; *schema / figura* = "figure". ⚠ **"unformed matter" is struck** (Wilson's ruling,
+2026-09-05): K7 froze *informis materia* = "formless matter"; the K1 addendum wrote "unformed
+matter" and cited K7 for it, which K7 does not say, and K6 then propagated it citing K1. Both lines
+are corrected above. **This is not cost-free**: the built English is 23 occurrences of "formless
+matter" across 13 witnesses against 6 of "unformed matter" across 4, so striking the line leaves
+four witnesses in drift. **Phase 3 must fix `glossa-1-1` (K1), `angelom-gen-1-2-tohu` and
+`glossa-1-2-terra` (K6)** — all three are `claude-draft`, so this is a draft revision, not a
+retranslation. **`bonaventure-sent-2-13-1-1` is Wilson's own English and is not to be touched
+mechanically**; if it stays as it is, that is a deliberate exception and should be said so in the
+colophon. Rabbinic: *yesh me-ayin* = "something from nothing", *afisah muchletet* = "absolute
 non-existence", *hiyuli* transliterated "hyly" as Chavel has it where the English is Chavel's and
 "hyle" in the editorial prose.
 
@@ -202,7 +210,8 @@ witnesses are cheaper than rabbinic ones, because the slicer does the work.
 **Added for K6** (extends the frozen renderings, does not re-decide them). The crux turns on two
 Latin texts of one clause, so both lemmas are fixed: *inanis et vacua* = "empty and void" (as at
 K7) and *invisibilis et incomposita* = "invisible and unordered" — **never** "formless", which is
-reserved for *informis*; *materia informis / informis materia* = "unformed matter" (as at K1) but
+reserved for *informis*; *materia informis / informis materia* = "formless matter" (as at K7;
+this line read "unformed matter (as at K1)" until Wilson's ruling of 2026-09-05) but
 *informitas* = "formlessness"; Angelomus' *invisa* = "unseen", to keep his variant visible.
 *inutilis, infructuosa et incomposita* = "useless, unfruitful, and unordered", which is **Wilson's
 own wording** in the Glossa chunk and must not drift, since Remigius, the Glossa and Comestor all
