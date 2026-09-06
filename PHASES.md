@@ -288,12 +288,18 @@ actually sits.
 2026-09-05, ahead of the build — there is nothing to deploy until Phase 5 exists, and the repo has
 never been pushed anywhere.
 
-⚠ **The subdomain is `wrootpress.com`, not `wrootlabs.com`**, which puts the edition under the Press
-imprint rather than Labs. That is a licensing and colophon fact, not only a DNS one: Wroot Press
-publishes under CC BY-NC 4.0 on English and encoding with the source PD. **Confirm with Wilson
-before the colophon is written** whether the site takes the Press licence, and note that this entry
-previously said "Vercel project on the Labs team" — a Press subdomain served by a Labs Vercel
-project is fine technically but the two should be a deliberate choice, not a leftover.
+✅ **The licence question is CLOSED and this entry was stale.** Wilson ruled 2026-09-05, and the
+ruling is recorded on the `cc-by` key in `data/licenses.json`: **the edition carries CC BY 4.0 and
+NOT the Wroot Press default of CC BY-NC 4.0** — a deliberate departure from house policy, made so
+that the edition's own English sits without friction beside the third-party CC BY and CC BY-SA texts
+printed on the same page. The colophon must say the departure is deliberate. The Press *rule* is
+unchanged for everything else (see the `wroot-press-licensing` memory: CC BY-NC for translation
+corpora, PD for the source) — this edition is the documented exception, and the reason is the
+inbound share-alike, which BY-NC cannot legally sit on top of.
+
+⚠ **Still a choice, and a small one: which Vercel team.** A `wrootpress.com` subdomain served by a
+Labs Vercel project is fine technically. Labs is the default for everything that is not Circuit;
+say so deliberately rather than inheriting it.
 
 Remaining: `git` push to a new repo (Wilson's OK per push), Vercel project, Cloudflare record is
 DNS-only (already added), production deploy on Wilson's per-action OK.
