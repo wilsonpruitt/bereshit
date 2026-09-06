@@ -2,39 +2,29 @@
 
 **Model: Opus.** Estimated ~60–100K: the bench survey is already done (below), so this is roster
 judgement, slicing and drafting, not discovery. Run it **before** the Lyra session, per Wilson.
+**Nothing is blocked — the anchor question was settled before this brief was finished.**
 
 ---
 
-## ⛔ READ FIRST — a blocker Wilson must clear in one line
+## ✅ The anchor question is settled — Wilson ruled 2026-09-05
 
-**The anchor rule as frozen does not actually license this crux, and `check.py` will refuse it.**
+Two problems were found while setting this session up, and both are resolved. **PHASES.md now
+carries a second clause of the anchor rule**, under Frozen conventions:
 
-Two separate problems, discovered while setting this session up:
+> A witness may also be anchored on a verse it does not quote **when it argues the same philological
+> question that verse raises.**
 
-1. **The rule text is narrower than the consequence attributed to it.** PHASES.md now says a witness
-   "may be anchored on a verse it does not quote **when its subject is whether that verse may be
-   expounded**", and then asserts as a consequence that Gen 1:26 is admissible in K3. That does not
-   follow: *Faciamus hominem* is about divine plurality, not about whether Gen 1:1 may be expounded.
-   The consequence was stated in the question Wilson answered and in the ruling as written up, but
-   the rule as drafted does not carry it. **My drafting error, flagged rather than quietly widened.**
-2. **`data/scripture/gen-1.json` holds only gen.1.1–gen.1.5**, and `check.py` rule 5 requires every
-   `anchor.verse` to resolve there. A witness anchored `gen.1.26` fails the build today.
+That, and not the first clause, is what licenses Gen 1:26. (The first clause covers texts concerned
+with *whether a verse may be expounded*, which does not reach *Faciamus hominem*, although the
+ruling that introduced it named Gen 1:26 as a consequence — a drafting error, corrected rather than
+widened quietly.)
 
-**Three ways out. Recommend (b).**
-
-- **(a) Extend the scripture data to gen.1.26** and anchor the witnesses honestly on the verse they
-  comment on. Cleanest logically — no rule bends at all, because they *are* comments on 1:26. Cost:
-  the dialogue view is per-verse and would gain a `/dialogue/gen-1-26/` page holding only this
-  material, which misrepresents the edition's scope (Gen 1:1–5) to a reader browsing verses.
-- **(b) Anchor on `gen.1.2`** — where *Elohim*'s plural form already sits in K3 — with a visible
-  `⚠ Anchor note` on each, under a **second and explicitly stated** widening: *a witness may be
-  anchored on a verse it does not quote when it argues the same philological question that verse
-  raises.* Keeps the edition's five-verse scope, keeps the daf coherent, and keeps the bending
-  visible. Requires Wilson to approve the second clause, since a new rule is not a builder's call.
-- **(c) Don't build it.** K3 stays as it is and the finding keeps saying the Latin material is
-  mostly elsewhere. Costs the richest seam on the bench (below).
-
----
+**So: anchor every Gen 1:26 witness on `gen.1.2`**, beside the *Elohim* material whose question it
+argues, and give each a visible `⚠ Anchor note` in its `notes` saying it is a comment on Gen 1:26
+admitted under the second clause. **Do not extend `data/scripture/gen-1.json`** — the edition's
+scope stays Gen 1:1–5, `check.py` rule 5 keeps working, and the dialogue view gains no misleading
+`/dialogue/gen-1-26/` page. Nothing else bends: the clause licenses a witness arguing the same
+question, not one merely adjacent in topic.
 
 ## The Latin survey is done: `notes/k3-gen-1-26-survey.md`
 
@@ -93,7 +83,7 @@ That is direct, mutual, named contact on the very question K3 says the benches n
 
 ## Checklist
 
-1. Get Wilson's answer on the anchor/scripture blocker above. Nothing builds until then.
+1. Anchor on `gen.1.2` with `⚠ Anchor note`s, per the settled ruling above. Do not touch `data/scripture/`.
 2. `pull-sefaria.py`: add BR 8 (and 17 if used) pinned to **`Daat Bereshit Rabbah`**, Sanhedrin 38b
    to **Wikisource Talmud Bavli**, and the Gen 1:26 commentators. Probe the actual ref, never trust
    a version title listed for the work.

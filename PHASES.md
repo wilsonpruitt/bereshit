@@ -22,6 +22,16 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
   Gen 1:26 *Faciamus hominem* is **admissible in K3**, where most of the Latin material on divine
   plurality actually sits. Every witness admitted under this clause keeps a visible `⚠ Anchor note`
   in its `notes`, so a reader can see the edition bending its own rule and why.
+- **The anchor rule, second clause, added by Wilson 2026-09-05.** **A witness may also be anchored
+  on a verse it does not quote when it argues the same philological question that verse raises.**
+  This is what actually licenses Gen 1:26 *Faciamus hominem* into K3 — the first clause, about
+  texts concerned with whether a verse may be expounded, does not reach it, though the ruling that
+  introduced the first clause named Gen 1:26 as a consequence. That gap was a drafting error, found
+  when the K3 session was being set up and corrected here rather than widened quietly. Under this
+  second clause Gen 1:26 witnesses are anchored on **`gen.1.2`**, beside the *Elohim* material whose
+  question they argue, each carrying a visible `⚠ Anchor note`. The edition's scope stays Gen 1:1–5
+  and `data/scripture/gen-1.json` is not extended. As with the first clause, nothing else bends:
+  this licenses a witness arguing the *same question*, not one merely adjacent in topic.
 - Latin is **sliced from the local TEI by anchor phrase** (`~/patrologia/sources/pl/tei/<idno>.xml`; ids in `data/latin-bench.json`). Never retype Latin. PL column is computed from the last `<pb>` before the start anchor. If an anchor fails, fix the anchor; do not paste text.
 - Rabbinic text comes from `raw/sefaria/*.json` pulled by `scripts/pull-sefaria.py`, using only the versions pinned there (Wikisource Bavli CC BY-SA; Sefaria Midrash Rabbah 2022 CC BY; Silbermann Rashi PD; Etheridge PD; Guggenheimer Yerushalmi CC BY; Berman Tanchuma CC BY). Davidson/Steinsaltz is never embedded.
 - Edges need `evidence` quoting the words that prove the dependency. A shared image without a citation is `parallel`. Direction later → earlier except `transmits`. When a witness names its source (`HIERON.`, `AUG.`), that is `cites`; verbatim reuse without a name is `echoes`.
