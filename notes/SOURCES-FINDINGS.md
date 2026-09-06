@@ -876,15 +876,34 @@ are now itemised, by witness id, in `notes/cross-crux.md`.
   fetched instead from archive.org (`targumsonkelosa00ethegoog`, vol. 1, PD) into `raw/etheridge/`.
 - **⚠ The BR Hebrew licence problem is NOT solved and is Wilson's to rule on.** Twenty-three
   witnesses carry `original.license: "check"` because the only Hebrew of Bereshit Rabbah 1–3 that
-  Sefaria will serve is **"Midrash Rabbah -- TE"** (Torat Emet), licence *unknown*. The one free
-  alternative is **"Wikisource Bereshit Rabbah", CC BY-SA** — same segment counts (15/5/9), same
-  sections in the same order. It is **not a drop-in**: it is largely unvocalized and prints the
-  abbreviations (א"ר, רשב"י) the Torat Emet text expands, so of the 23 built slices only **4**
-  survive a swap on a consonantal-skeleton match of their own first and last sixty letters. It also
-  differs materially at least twice — BR 3:5 reads כנגד ספרי תורתו where Torat Emet has כנגד חמשה
-  חומשי תורה, and BR 3:6 opens at תני אורה, without the וַיִּקְרָא lemma clause that is K9's
-  evidence. So the choice is: an unknown-licence vocalized Vilna text, or a CC BY-SA text that costs
-  nineteen re-cuts and changes the evidence in two places. Neither is a builder's call.
+  Sefaria will serve is **"Midrash Rabbah -- TE"** (Torat Emet), licence *unknown*.
+
+  ⛔ **"Unknown" is now worse than unknown.** The Torat Emet site itself
+  (`toratemetfreeware.com`) prints **«כל הזכויות שמורות ©» — all rights reserved** — under a title
+  that calls the project a free Torah database (מאגר תורני חופשי). A boilerplate reservation cannot
+  create copyright in an 1878 Vilna text, but the *vocalization* is plausibly Torat Emet's own
+  editorial work, and it is that vocalization which distinguishes their text from every free
+  alternative. So the position is not "no licence stated" but "the source asserts rights".
+
+  The free alternative is **"Wikisource Bereshit Rabbah", CC BY-SA** — same segment counts
+  (15/5/9), same sections in the same order, and the same CC BY-SA family already pinned for the
+  Bavli. It is unvocalized apart from scriptural quotations and prints the abbreviations
+  (א"ר, רשב"י, הקב"ה) that Torat Emet expands.
+
+  ⚠ **A first pass reported "only 4 of 23 slices survive a swap". That figure was wrong, and it was
+  wrong in the way this project has been caught before — the matcher failed, not the text.** A
+  consonantal-skeleton match still fails on abbreviation and on plene/defective spelling
+  (מיחד/מייחד, ולחשך/ולחושך). Normalising the nine common abbreviations and dropping vav and yod as
+  matres lectionis gives the real figure: **14 of 23 clean at both ends, 7 with one anchor holding,
+  2 absent** (`br-1-2`, `br-3-4`). That is a few hours of re-cutting, not a rebuild.
+
+  ⚠ **A second claim in that first pass was also wrong**: "BR 3:6 opens at תני אורה, without the
+  וַיִּקְרָא lemma clause that is K9's evidence." What Wikisource lacks at the head of 3:6 is the
+  question *לא הוא אור ולא הוא יום, אתמהא*, which is **not** K9's evidence. **K9's evidence is
+  present**: R. Elazar's *לעולם אין הקדוש ברוך הוא מיחד שמו על הרעה אלא על הטובה*, with
+  *ולחושך קרא אלהים לילה אין כתיב כאן*, is in the Wikisource segment, in different orthography.
+  The genuine textual divergence found so far is **BR 3:5**, where Wikisource reads כנגד ספרי תורתו
+  against Torat Emet's כנגד חמשה חומשי תורה. Any swap must diff every slice, not assume.
 - **A `str.find` returning -1 had been used as a slice index since K10, and shipped.**
   `br-3-8`'s Hebrew was the single character `.` — the anchor failed on combining-mark order, the
   documented niqqud trap, and `text[-1:]` is the last character. It passed `check.py`, a daf read,
