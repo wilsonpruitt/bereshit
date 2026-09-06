@@ -68,19 +68,36 @@ def sef(slug, lang, idx=None, he_file=None):
     return flat(t), v["versionTitle"], v.get("license")
 
 _NIQQUD = re.compile(r"[\u0591-\u05C7]")
-def hcut(t, a, b, label="hcut"):
+def hcut(t, a, b=None, label="hcut"):
     """Slice vocalized Hebrew between two anchors, matching on the consonantal skeleton: Sefaria's
     pointed text and any anchor retyped through a terminal differ in combining-mark order, so a
     plain str.find fails on a phrase that is plainly there. Lifted out of cruxes/beginning-of-what.py
-    at K6, the third crux to need it (PHASES.md, Phase 2)."""
+    at K6, the third crux to need it (PHASES.md, Phase 2).
+
+    b=None slices from the start anchor to the end of t. Use this rather than
+    `t[t.find(anchor):]` — a failed find returns -1 and silently yields the LAST CHARACTER of the
+    text instead of raising. That is how br-3-8 shipped with an original of "." from K10 until
+    Phase 6 found it."""
     bare = _NIQQUD.sub("", t)
     back = [k for k, ch in enumerate(t) if not _NIQQUD.match(ch)]
-    a, b = _NIQQUD.sub("", a), _NIQQUD.sub("", b)
+    a = _NIQQUD.sub("", a)
     i = bare.find(a)
     if i < 0: raise SystemExit(f"{label}: start anchor not found: {a!r}")
+    if b is None: return t[back[i]:].strip()
+    b = _NIQQUD.sub("", b)
     j = bare.find(b, i)
     if j < 0: raise SystemExit(f"{label}: end anchor not found: {b!r}")
     return t[back[i]:back[j + len(b) - 1] + 1].strip()
+
+def ecut(t, a, b=None, label="ecut"):
+    """The same guarded slice for a non-Hebrew (English/Latin) string: raises instead of returning
+    the tail character when an anchor is absent."""
+    i = t.find(a)
+    if i < 0: raise SystemExit(f"{label}: start anchor not found: {a!r}")
+    if b is None: return t[i:].strip()
+    j = t.find(b, i)
+    if j < 0: raise SystemExit(f"{label}: end anchor not found: {b!r}")
+    return t[i:j + len(b)].strip()
 
 def thread(crux_id, tid, frm, to, ty, ev):
     return {"id": tid, "from": frm, "to": to, "type": ty, "evidence": ev, "crux": crux_id}

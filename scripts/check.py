@@ -11,6 +11,10 @@ Checks:
   5. Every witness's anchor.verse resolves to a verse in data/scripture/gen-1.json.
   6. Every answer id on a witness exists in data/answers.json, and every licence key used by a
      witness exists in data/licenses.json.
+  7. No witness has a truncated slice: an original or English shorter than 40 characters, or an
+     original under a quarter the length of its English. Added at Phase 6, after br-3-8 was found
+     shipping an original of "." — a str.find that returned -1 and was used as a slice index. It
+     passed checks 1-6, a daf read, and three phases. Use bench.hcut / bench.ecut, which raise.
 """
 import json, pathlib, sys
 
@@ -83,6 +87,17 @@ for wid, w in witnesses.items():
         lic = w.get(facet, {}).get("license")
         if lic and lic not in licenses:
             errors.append(f"witness {wid!r}: {facet}.license {lic!r} is not in data/licenses.json")
+
+# 7. truncated slices (see the module docstring)
+for wid, w in witnesses.items():
+    o = (w.get("original", {}) or {}).get("text", "") or ""
+    e = (w.get("english", {}) or {}).get("text", "") or ""
+    if len(o) < 40:
+        errors.append(f"witness {wid!r}: original.text is {len(o)} char(s) — {o[:30]!r}. Truncated slice?")
+    if len(e) < 40:
+        errors.append(f"witness {wid!r}: english.text is {len(e)} char(s) — {e[:30]!r}. Truncated slice?")
+    elif len(o) < 0.25 * len(e):
+        errors.append(f"witness {wid!r}: original.text ({len(o)}) is under a quarter of english.text ({len(e)}). Truncated slice?")
 
 if errors:
     print(f"check.py: {len(errors)} problem(s)")

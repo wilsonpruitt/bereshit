@@ -5,7 +5,7 @@ Latin sliced from the local PL TEI by anchor phrase; rabbinic from raw/sefaria/*
 Bonaventure from ~/bonaventure-sentences/vol2 (Wilson's edition, Latin + his English).
 """
 import json, pathlib, re
-from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread
+from bench import ROOT, RAW, latin, sef, DRAFT, APPROVED, thread, hcut, ecut
 
 CRUX_ID = "one-day-evening-first"
 E = lambda i, f, t, ty, ev: thread(CRUX_ID, i, f, t, ty, ev)
@@ -46,13 +46,17 @@ add(id="targ-psj-1-5", work="targ-psj", author="targum-pseudo-jonathan", traditi
 # ---------------------------------------------------------------- rabbinic bench
 br8_he, _, _ = sef("br-3", "he", 7, he_file="br-3-he.json")
 br8_en, _, _ = sef("br-3", "en", 7)
-cut8_he = br8_he.find("וַיְהִי עֶרֶב, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל רְשָׁעִים")
-cut8_en = br8_en.find("“It was evening” (Genesis 1:5)")
+# ⛔ These two were `br8_he.find(...)` and `br8_en.find(...)` used directly as slice indices. The
+# Hebrew anchor failed on combining-mark order (the documented niqqud trap), find returned -1, and
+# the witness shipped from K10 with an original of "." — one character — through Phases 3, 4 and 5
+# without check.py or a daf read catching it. Fixed at Phase 6 with the guarded slicers, which raise.
+cut8_he = hcut(br8_he, "וַיְהִי עֶרֶב, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל רְשָׁעִים", label="br-3-8 he")
+cut8_en = ecut(br8_en, "“It was evening” (Genesis 1:5)", label="br-3-8 en")
 add(id="br-3-8", work="br", author="bereshit-rabbah", tradition="rabbinic",
     date=450, date_precision="compilation-400-500", place="galilee",
     anchor={"verse": "gen.1.5"}, lemma={"he": "יוֹם אֶחָד", "en": "one day"},
-    original={"lang": "he", "text": br8_he[cut8_he:], "source": "Bereshit Rabbah 3:8 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
-    english={"text": br8_en[cut8_en:], "translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True},
+    original={"lang": "he", "text": cut8_he, "source": "Bereshit Rabbah 3:8 (Vilna numbering; Theodor–Albeck differs)", "license": "check", "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"},
+    english={"text": cut8_en, "translator": "The Sefaria Midrash Rabbah, 2022", "license": "cc-by", "attribution_required": True},
     tradents=["r-yannai", "r-tanchum-b-yirmeya", "r-yudan", "r-yochanan", "r-hanina", "r-lulyana"],
     cruxes=["one-day-evening-first"], senses=["allegorical", "literal"],
     answers=["evening-moral", "unus-yom-kippur", "unus-alone"],
