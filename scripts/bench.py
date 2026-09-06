@@ -151,3 +151,78 @@ def ecut(t, a, b=None, label="ecut"):
 
 def thread(crux_id, tid, frm, to, ty, ev):
     return {"id": tid, "from": frm, "to": to, "type": ty, "evidence": ev, "crux": crux_id}
+
+# ---------------------------------------------------------------- Greek bench (First1KGreek TEI)
+# Phase 6 part five (Philo). The Greek equivalent of latin(): OpenGreekAndLatin/First1KGreek ships
+# Cohn's 1896 critical text of De opificio mundi in TEI with 172 numbered sections and Cohn-Wendland
+# page breaks as <pb n="v.1.p.11"/>, plus Yonge's 1854 English in the same 172 sections. Slicing is
+# by printed section number, so there is no anchor phrase and no offset arithmetic.
+GRK = ROOT / "raw" / "first1k"
+
+# The apparatus criticus lives INSIDE the section divs as <note type="footnote">, and the Mangey
+# pagination as <note type="marginal">. Strip tags naively and 60 of the 172 sections come back
+# with manuscript sigla welded into the middle of Philo's Greek -- it is in Greek script, it looks
+# like text, and nothing downstream catches it (check.py rule 7 only fires on slices that are too
+# SHORT). Notes are dropped before any other flattening, here in the loader rather than in a crux
+# spec, so the class cannot recur. Verified: no <pb> ever falls inside a <note>, so dropping notes
+# first does not lose a page break.
+_grk_cache = {}
+def _first1k(fname):
+    """Return {section_number: (flattened_text, cohn_page_at_section_start)}."""
+    if fname in _grk_cache: return _grk_cache[fname]
+    raw = (GRK / fname).read_text()
+    raw = re.sub(r"(?s)<note.*?</note>", "", raw)
+    body = raw[raw.index("<body>"):]
+    out, page = {}, None
+    parts = re.split(r'(<pb n="[^"]+"/>|<div [^>]*subtype="section" n="\d+">)', body)
+    cur = None
+    for p in parts:
+        m = re.match(r'<pb n="v\.(\d+)\.p\.(\d+)"/>', p)
+        if m:
+            page = (int(m.group(1)), int(m.group(2)))
+            if cur is not None: out[cur][1].append(page)
+            continue
+        m = re.match(r'<div [^>]*subtype="section" n="(\d+)">', p)
+        if m:
+            cur = int(m.group(1)); out[cur] = ["", [page] if page else []]; continue
+        if cur is not None:
+            txt = re.sub(r"<[^>]+>", " ", p.split("</div>")[0])
+            out[cur][0] += txt
+            if "</div>" in p: cur = None
+    for k in out:
+        # One stray "|" survives in the whole file, an OCR artifact left where a marginal Mangey
+        # page reference fell (De opificio 26). It is a lone pipe, never punctuation.
+        out[k][0] = re.sub(r"\s+", " ", out[k][0].replace(" | ", " ")).strip()
+    _grk_cache[fname] = {k: tuple(v) for k, v in out.items()}
+    return _grk_cache[fname]
+
+_ROMAN = {1: "i", 2: "ii", 3: "iii", 4: "iv", 5: "v", 6: "vi", 7: "vii"}
+def greek(first, last=None, work="opif", license="first1k-greek"):
+    """Slice Cohn's Greek by section number, inclusive. Cites the Cohn-Wendland volume and page the
+    way the Latin bench cites a PL column."""
+    secs = _first1k("tlg0018.tlg001.1st1K-grc1.xml")
+    last = first if last is None else last
+    missing = [n for n in range(first, last + 1) if n not in secs]
+    if missing: raise SystemExit(f"greek: section(s) {missing} not in the TEI")
+    text = " ".join(secs[n][0] for n in range(first, last + 1))
+    if len(text) < 40: raise SystemExit(f"greek: sections {first}-{last} flattened to {len(text)} chars")
+    pages = sorted({pg for n in range(first, last + 1) for pg in secs[n][1]})
+    if pages:
+        vol = _ROMAN.get(pages[0][0], str(pages[0][0]))
+        pp = str(pages[0][1]) if len(pages) == 1 else f"{pages[0][1]}-{pages[-1][1]}"
+        cite = f"Cohn-Wendland {vol}. {pp}"
+    else:
+        cite = "Cohn-Wendland i"
+    ref = f"{first}" if first == last else f"{first}-{last}"
+    return {"lang": "el", "text": text, "source": f"Philo, De opificio mundi {ref} ({cite})",
+            "license": license,
+            "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), "
+                       "TEI text from OpenGreekAndLatin/First1KGreek"}
+
+def yonge(first, last=None):
+    """Yonge's 1854 English for the same sections. NOT embedded in the edition -- his register
+    fights the frozen renderings and he paraphrases -- but loaded so a draft can be checked
+    against a public-domain English, as at targ-onk-1-5 and Sanhedrin 38b."""
+    secs = _first1k("tlg0018.tlg001.1st1K-eng1.xml")
+    last = first if last is None else last
+    return " ".join(secs[n][0] for n in range(first, last + 1) if n in secs)

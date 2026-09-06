@@ -51,7 +51,9 @@
    "comestor-hs-1-1",
    "chalcidius-hebraei-versiones",
    "chalcidius-initium-non-temporarium",
-   "chalcidius-sapientia-primordium"
+   "chalcidius-sapientia-primordium",
+   "philo-opif-17-20",
+   "philo-opif-26-27"
   ],
   "status": "built",
   "finding": "Both benches gloss the first word of Scripture as 'in wisdom', prove it from a wisdom text, and mean opposite things by it. Targum Neofiti does not translate bereshit but interprets it — min qadmin be-ḥokhmah — and Bereshit Rabbah reaches the same gloss by proof text, R. Banai from Prov 3:19 ('the Lord founded the earth with wisdom') and R. Hoshaya from Prov 8:22 ('the Lord made me reshit of his way'), where the Wisdom that speaks is the Torah, the architect's plan the King builds from. Augustine, Ambrose, Bede, Bruno and Rupert reach it from Ps 104:24 ('you have made all things in wisdom'), where the Wisdom is the Son. Neither side knows the other is there, and the shared conclusion is the least noticed thing about the crux — which is what the Latin bench looks like from the inside, and is not the whole truth. The contact existed at the head of the tradition and the Latin transmission lost it. Chalcidius, writing Latin in the fourth century, reports of Origen — whose homily is the source of everything the Latins say here — that he was persuaded of the non-temporal beginning ab Hebraeis, by the Hebrews; that initium minime temporarium dici, no beginning in time, since there was no time before the world was furnished; and that there is nevertheless one beginning of all things, de quo Salomo in proverbiis: creavit me Deus progressionis suae semitam — Prov 8:22 quoted at length, and the conclusion drawn that praeeunte divina sapientia caelum terramque factam, that divine Wisdom is the primordium of the universe. That is the rabbinic bench's verse and the rabbinic bench's word, attributed to Hebrew informants, in a Latin commentary of the same century as Jerome. (Baehrens's apparatus to Origen, from which this passage was first verified, gives primitiam where the 1520 print on which the witness is built reads semitam; the witness is quoted here.) And it went nowhere: Prov 8:22 is cited by four witnesses on this daf and every one of them is rabbinic; Ps 104:24 is cited by four and every one of them is Latin. The Latin bench reached wisdom by a different verse, turned it into the Son, and never met the text that had already got there from the other side. The same loss happens a second time and by an unrelated route. Basil's Latin Hexaemeron — which is how the whole west read Basil — carries an accurate report of the rabbinic reading of Gen 1:26, ferunt enim, quod angelis dixerit: Faciamus hominem, which is what Targum Pseudo-Jonathan prints in the biblical line itself; and Bede copies the passage at Jarrow keeping every sentence of the argument and removing every Jew in it, Rabanus and Angelomus copy Bede, and by the twelfth century the reading survives in the Gloss only at Babel and with nobody's name on it. Twice, then, and by two channels that have nothing to do with each other, the Latin bench was handed the other bench's words and kept only the answer. What separates them is not the gloss but what happened to the philology. Jerome, the one Latin who read the Hebrew, refuted the Christological reading outright — the three Greek versions all say 'in the beginning', the Hebrew is bresith, and the Hebrew for 'in the son' would be ba-ben — and then conceded that Christ might be understood 'according to the sense rather than the translation of the word'. Wigbod copies the passage almost entire and drops precisely the refutation, keeping the concession; Alcuin's schoolbook reduces the whole question to four words, In Filio perfecit Deus; and the Glossa prints Alcuin's answer in the margin as a single word, Filio, so that the twelfth century met a reading its best philologist had disproved with nothing on the page to argue against. Rupert of Deutz is the one who repairs it, four hundred years later, by stating the Hebrew evidence himself — 'son is ben in that language, and beginning is bresith' — and then holding the reading anyway on the ground that the identity is of sense and not of speech. Meanwhile the modern translations settle the crux by removing it, as they did at K10: the JPS Tanakh prints 'When God began to create heaven and earth', which is Rashi's plain sense and Ibn Ezra's construct, adopted as the text — the one reading no Latin witness on this bench could have raised, and the one Ramban had already refuted from Isa 46:10 and Deut 33:21.",
@@ -82,6 +84,7 @@
    "aug-gnm-1-1",
    "hugh-sacr-prologus",
    "comestor-hs-prologus",
+   "philo-opif-1-3",
    "ambrose-hex-1-1-hyle",
    "hugh-sacr-1-1-nihilo"
   ],
@@ -195,6 +198,7 @@
    "abelard-hex-1-1c",
    "hugh-sacr-1-1-nihilo",
    "comestor-hs-1-1c",
+   "philo-opif-21-22",
    "abelard-hex-1-2",
    "aug-gnl-5-18",
    "bonaventure-sent-2-12-1-2",
@@ -245,6 +249,8 @@
    "hugh-sacr-1-1b",
    "comestor-hs-1-1b",
    "chalcidius-caelum-et-terra",
+   "philo-opif-29",
+   "philo-opif-36",
    "b-chag-12a",
    "b-chag-15a",
    "bruno-gen-1-1",
@@ -307,6 +313,8 @@
    "hugh-adnot-gen-1-2",
    "lxx-1-2",
    "origen-hom-gen-1-1",
+   "philo-opif-21-22",
+   "philo-opif-29",
    "targ-neof-1-2",
    "targ-onk-1-2",
    "targ-psj-1-2",
@@ -362,7 +370,8 @@
    "honorius-hex-1",
    "comestor-hs-gen-1",
    "aug-gnl-1-5-11",
-   "glossa-1-2-ruach"
+   "glossa-1-2-ruach",
+   "philo-opif-30"
   ],
   "status": "built",
   "short": "Ruach merahefet"
@@ -409,8 +418,10 @@
    "rupert-gen-1-3",
    "comestor-hs-1-3",
    "bonaventure-sent-2-13-1-1",
+   "philo-opif-31",
    "alcuin-int-34",
-   "aug-gnl-4-22"
+   "aug-gnl-4-22",
+   "philo-opif-30"
   ],
   "status": "built",
   "finding": "The two benches ask the same question and each is shut out of the other's answer by a ruling it made somewhere else. The Latin bench's dominant answer, Augustine's, is that the light is the angelic creation, made and formed on the first day; the rabbinic bench cannot reach for it, because Bereshit Rabbah has already ruled — twice, at 1:3 and again at 3:8, which is K10's witness — that nothing whatever was created on the first day besides God, precisely so that nobody could say Michael held the sky at the south and Gabriel at the north while God measured in the middle. And the rabbinic answer, that the light was too good for the wicked and was stored away for the righteous in the time to come, has no Latin counterpart at all: the Latin either turns the light into angels or turns it into a proto-sun, and the one thing it never does is take the light out of the world and keep it. Where the two do meet, they meet on the compromise nobody on either side prefers. Augustine reports, at De Genesi ad litteram I.11, that 'this too I know to have been said by someone' — that the nature of light was made on the first day and the luminaries were afterwards made out of it — and he cannot say whose opinion it is; b. Chagigah 12a gives it as the sages' answer against R. Yaakov, in the same words and to the same objection from Gen 1:17. On the Latin side alone, the crux is decided twice and each time by weight rather than by argument. Bede does not refute the angelic light, he steps round it in a single sentence by naming three lights instead of two and leaving the angels already made and elsewhere; and Bonaventure, closing the question in the schools eight hundred years after Augustine opened it, grants that Augustine's position is 'multum rationabilis' and declines it because the expositors more generally follow the other. In between, the twelfth century simply builds a physics for the light it has decided on — a body of fire in the sun's stead (Hugh), a brightness like the sky before sunrise on a twelve-hour circuit (Honorius), a luminous cloud thin as the dawn (Comestor) — while Rupert of Deutz, in the same decade, argues that a light of that kind would make the first day the poorest of the six, an unstable accident snuffed out after three days by a God who changed his mind.",
@@ -464,6 +475,7 @@
    "rupert-gen-1-4",
    "honorius-hex-1-4",
    "comestor-hs-1-4",
+   "philo-opif-33-34",
    "b-chag-12a-light",
    "bonaventure-sent-2-13-1-2",
    "rashi-1-4"
@@ -517,7 +529,10 @@
    "glossa-1-5",
    "basil-hex-2-8b",
    "bonaventure-sent-2-13-1-2",
-   "bonaventure-sent-2-12-1-2"
+   "bonaventure-sent-2-12-1-2",
+   "philo-opif-15",
+   "philo-opif-35",
+   "philo-opif-33-34"
   ],
   "status": "built",
   "finding": "The ancient versions all kept the cardinal — ἡμέρα μία, dies unus, yoma chad — and the modern English translations on both benches quietly convert it to the ordinal: the WEB prints 'the first day', Etheridge's targum prints 'the First Day', and Silbermann's Rashi glosses the lemma 'THE FIRST DAY (literally, one day)' in the very note that exists to ask why it is not 'first'. The question the whole crux is made of survives only in the languages nobody now reads it in. Where the two benches do meet, they meet on the grammar: Bereshit Rabbah 3:9 objects that 'one, second, third' is not a proper series, and Bruno of Segni answers exactly that objection with the logic of relatives — first and second are correlatives, and with no second yet in being nothing could be called first. And they part on the calendar: Ben Zoma derives from yom echad that the day follows the night, while Augustine states in so many words that the days are counted a mane usque in mane.",

@@ -42,8 +42,13 @@ const region = (pred: (w: Witness) => boolean) => regionSort([...W.values()].fil
 const centerTr = region((w) => w.work === "lxx" || w.work === "vulgate");
 const glossa = region((w) => w.work === "glossa");
 const rab = region((w) => w.tradition === "rabbinic");
-const latEarly = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date <= 750);
-const latLate = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date > 750);
+// See the note in src/pages/crux/[id].astro: the buckets used to cover `latin` and `rabbinic`
+// only, and anything on another bench was dropped from the daf without a word.
+const isFather = (w: Witness) => (w.tradition === "latin" || w.tradition === "greek")
+  && w.work !== "vulgate" && w.work !== "glossa";
+const grk = region((w) => w.tradition === "greek-jewish" && w.work !== "lxx");
+const latEarly = region((w) => isFather(w) && w.date <= 750);
+const latLate = region((w) => isFather(w) && w.date > 750);
 
 const vm = (ws: Witness[]) => ws.map((w) => buildSnippet(w, persons, places, answers, chipsFor(w)));
 
@@ -69,6 +74,7 @@ const headLabel = `<b>${escapeHtml(vlabel)}</b> · <a href="/">Bereshit / In Pri
     versiones={vm(centerTr)}
     glossa={vm(glossa)}
     rab={vm(rab)}
+    grk={vm(grk)}
     latEarly={vm(latEarly)}
     latLate={vm(latLate)}
     threadsForJs={threadsForJs}

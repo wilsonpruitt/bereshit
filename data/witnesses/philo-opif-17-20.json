@@ -1,0 +1,41 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-17-20",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "οὐδ’ ὁ ἐκ τῶν ἰδεῶν κόσμος ἄλλον ἂν ἔχοι τόπον ἢ τὸν θεῖον λόγον",
+  "en": "nor would the world composed of the ideas have any other place than the divine Reason"
+ },
+ "original": {
+  "lang": "el",
+  "text": "Τὸν δ’ ἐκ τῶν ἰδεῶν συνεστῶτα κόσμον ἐν τόπῳ τινὶ λέγειν ἢ ὑπονοεῖν οὐ θεμιτόν· ᾗ δὲ συνέστηκεν, εἰσόμεθα παρακολουθήσαντες εἰκόνι τινὶ τῶν παρ’ ἡμῖν. ἐπειδὰν πόλις κτίζηται κατὰ πολλὴν φιλοτιμίαν βασιλέως ἤ τινος ἡγεμόνος αὐτοκρατοῦς ἐξουσίας μεταποιουμένου καὶ ἅμα τὸ φρόνημα λαμπροῦ τὴν εὐτυχίαν συνεπικοσμοῦντος, παρελθὼν ἔστιν ὅτε τις τῶν ἀπὸ παιδείας ἀνὴρ ἀρχιτεκτονικὸς καὶ τὴν εὐκρασίαν καὶ εὐκαιρίαν τοῦ τόπου θεασάμενος διαγράφει πρῶτον ἐν ἑαυτῷ τὰ τῆς μελλούσης ἀποτελεῖσθαι πόλεως μέρη σχεδὸν ἅπαντα, ἱερὰ γυμνάσια πρυτανεῖα ἀγορὰς λιμένας νεωσοίκους στενωπούς, τειχῶν κατασκευάς, ἱδρύσεις οἰκιῶν καὶ δημοσίων ἄλλων οἰκοδομημάτων· εἶθ’ ὥσπερ ἐν κηρῷ τῇ ἑαυτοῦ ψυχῇ τοὺς ἑκάστων δεξάμενος τύπους ἀγαλματοφορεῖ νοητὴν πόλιν, ἧς ἀνακινήσας τὰ εἴδωλα μνήμῃ τῇ συμφύτῳ καὶ τοὺς χαρακτῆρας ἔτι μᾶλλον ἐνσφραγισάμενος, οἷα δημιουργὸς ἀγαθός, ἀποβλέπων εἰς τὸ παράδειγμα τὴν ἐκ λίθων καὶ ξύλων ἄρχεται κατασκευάζειν, ἑκάστῃ τῶν ἀσωμάτων ἰδεῶν τὰς σωματικὰς ἐξομοιῶν οὐσίας. τὰ παραπλήσια δὴ καὶ περὶ θεοῦ δοξαστέον, ὡς ἄρα τὴν μεγαλόπολιν κτίζειν διανοηθεὶς ἐνενόησε πρότερον τοὺς τύπους αὐτῆς, ἐξ ὧν κόσμον νοητὸν συστησάμενος ἀπετέλει καὶ τὸν αἰσθητὸν παραδείγματι χρώμενος ἐκείνῳ. καθάπερ οὖν ἡ ἐν τῷ ἀρχιτεκτονικῷ προδιατυπωθεῖσα πόλις χώραν ἐκτὸς οὐκ εἶχεν, ἀλλ’ ἐνεσφράγιστο τῇ τοῦ τεχνίτου ψυχῇ, τὸν αὐτὸν τρόπον οὐδ’ ὁ ἐκ τῶν ἰδεῶν κόσμος ἄλλον ἂν ἔχοι τόπον ἢ τὸν θεῖον λόγον τὸν ταῦτα διακοσμήσαντα· ἐπεὶ τίς ἂν εἴη τῶν δυνάμεων αὐτοῦ τόπος ἕτερος, ὃς γένοιτ’ ἂν ἱκανὸς οὐ λέγω πάσας ἀλλὰ μίαν ἄκρατον ἡντινοῦν δέξασθαί τε καὶ χωρῆσαι;",
+  "source": "Philo, De opificio mundi 17-20 (Cohn-Wendland i. 5-6)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "But that the world composed of the ideas should be said, or supposed, to be in some place is not lawful; how it is composed we shall know by following out an image drawn from things among us. When a city is founded out of the great ambition of a king, or of some ruler who lays claim to absolute power and, being splendid in mind, adorns his good fortune the more, there comes forward at times a man trained in architecture who, having observed the good temper and good situation of the place, first draws out within himself well-nigh all the parts of the city that is to be completed: temples, gymnasia, town halls, market places, harbours, docks, alleys, the building of walls, the setting of houses and of other public buildings. Then, having received the impressions of each of these in his own soul as in wax, he carries about an intelligible city, whose images he stirs up by the memory native to him; and stamping the characters yet more firmly, like a good craftsman, looking to the model, he begins to build the city of stone and timber, making the corporeal substances like each of the incorporeal ideas. The like must be held concerning God: that when he purposed to found the great city, he first conceived its types, out of which he composed an intelligible world, and then completed the perceptible one, using that as a model. Therefore, just as the city that was fashioned beforehand within the architect had no place outside, but was stamped upon the artificer's soul, in the same way neither would the world composed of the ideas have any other place than the divine Reason, which set these in order. For what other place could there be for his powers, one that would be sufficient to receive and contain, I do not say all of them, but a single unmixed one, whichever it might be?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "beginning-is-the-intelligible-world"
+ ],
+ "notes": "The parable this crux's finding turns on, in Greek, four hundred years before the midrash that states it. A king founds a city; a trained architect, seeing the site, draws the whole plan within himself and carries an intelligible city about in his soul; only then does he build in stone and timber, looking to the model. So with God: he conceived the types, composed an intelligible world out of them, and made the perceptible one to that pattern. And the conclusion is the one that matters here: as the planned city had no place outside the architect's soul, the world of the ideas has no place but the divine Reason. Bereshit Rabbah 1:1 tells the same story with the same three parts and a different plan: a king does not build of his own head but with an amon, a craftsman's plan, and the plan the Holy One looked into is the Torah. Nobody has to have borrowed anything for that to be the most interesting fact on this daf. What separates them is what each puts in the architect's hand: for Philo the Reason of God, which is not a person; for the midrash the Torah, which is a book; and for the Latin bench the Son, which is neither. Philo's own barest statement of the identification stands at section 24, where the intelligible world is said to be nothing other than the Reason of God already engaged in creating: it is not sliced here because that section is corrupt in the TEI, which breaks off into a bracketed doublet of the word noeten in place of the clause. Nothing is lost, because section 20 says it in words that are sound."
+}

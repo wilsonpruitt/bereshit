@@ -1,0 +1,41 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-15",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "el": "ἣν αὐτὸς οὐδὲ πρώτην, ἵνα μὴ ταῖς ἄλλαις συγκαταριθμῆται, καλεῖ",
+  "en": "which he himself does not even call first, lest it be counted in with the others"
+ },
+ "original": {
+  "lang": "el",
+  "text": "ἑκάστῃ δὲ τῶν ἡμερῶν ἀπένειμεν ἔνια τῶν τοῦ παντὸς τμημάτων τὴν πρώτην ὑπεξελόμενος, ἣν αὐτὸς οὐδὲ πρώτην, ἵνα μὴ ταῖς ἄλλαις συγκαταριθμῆται, καλεῖ, μίαν δ’ ὀνομάσας ὀνόματι εὐθυβόλῳ προσαγορεύει, τὴν μονάδος φύσιν καὶ πρόσρησιν ἐνιδών τε καὶ ἐπιφημίσας αὐτῇ. λεκτέον δὲ ὅσα οἷόν τέ ἐστι τῶν ἐμπεριεχομένων, ἐπειδὴ πάντα ἀμήχανον· περιέχει γὰρ τὸν νοητὸν κόσμον ἐξαίρετον, ὡς ὁ περὶ αὐτῆς λόγος μηνύει.",
+  "source": "Philo, De opificio mundi 15 (Cohn-Wendland i. 4)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "To each of the days he assigned some of the parts of the whole, excepting the first, which he himself does not even call first, lest it be counted in with the others; but naming it 'one' he addresses it by a name that hits the mark, having seen in it, and pronounced upon it, the nature and the appellation of the monad. We must say as much as can be said of what it contains, since to say all is impossible; for it contains the intelligible world as its own peculiar possession, as the account of it shows.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "unus-not-counted-with-the-rest",
+  "unus-cardinal"
+ ],
+ "notes": "The grammatical half of this crux, stated first and stated as a deliberate act of the author. Moses assigns parts of the whole to each of the days, and holds the first one back: he does not even call it first, so that it should not be counted in along with the others, and calls it one instead, a name that hits the mark, because he had seen the nature of the monad in it. Two things are worth marking. The first is that Philo makes the choice of word an authorial decision with a reason, which is what Bruno reaches independently a thousand years later when he says that first and second are relatives and a first requires a second. The second is that the reason is arithmetical and not theological: to be one is to be uncountable with the rest, outside the series rather than at the head of it. Everything the Latin bench does with dies unus, from Ambrose's excellently he said one day and not first day to Augustine's not first but one, is downstream of a Greek reading Philo already has, and the Latin channel for it is Ambrose."
+}

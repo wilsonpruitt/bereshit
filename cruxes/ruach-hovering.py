@@ -375,3 +375,42 @@ PLACES = {
  "regensburg": {"name": "Regensburg", "lat": 49.02, "lon": 12.10},
 }
 SHORT = "Ruach merahefet"
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# philo-opif-30 is defined here, on its primary crux, and also carries `first-light`.
+# See scripts/philo.py; the loader is bench.greek.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES = dict(philo.LICENSES)
+ANSWERS = {
+ "spirit-is-life-giving": {
+   "label": "Named God's because it gives life",
+   "gloss": "The breath of Gen 1:2 is called God's because breath is the most life-giving thing "
+            "and God is the cause of life: an argument from what pneuma does, not from who it is "
+            "(Philo)."},
+ "lux-intelligibilis": {
+   "label": "An intelligible light, model of the sun",
+   "gloss": "The light of the first day is incorporeal and intelligible, the model of the sun and "
+            "of the stars, and an image of the divine Reason; the visible lights draw their beams "
+            "from it (Philo)."},
+}
+
+add(**_PH, id="philo-opif-30",
+    anchor={"verse": "gen.1.2"},
+    lemma={"el": "τὸ μὲν γὰρ ὠνόμασε θεοῦ, διότι ζωτικώτατον τὸ πνεῦμα",
+           "en": "the one he named God's, because breath is the most life-giving thing"},
+    original=_gk(30),
+    english={"text": "Both the breath and the light were counted worthy of a privilege: the one he named God's, because breath is the most life-giving thing, and God is the cause of life; and of the light he says that it is surpassingly beautiful (Gen 1:4). For the intelligible is more radiant and more full of brightness than the visible by as much as the sun, I think, is than darkness, and day than night, and the mind, the leader of the whole soul, than the eyes of the body.",
+             **PDRAFT},
+    tradents=[], cruxes=["ruach-hovering", "first-light"], senses=["literal", "spiritual"],
+    answers=["spirit-is-life-giving", "lux-intelligibilis"],
+    notes="The question this crux is built on, asked as a question about privilege rather than about identity. Philo notices that of everything in the inventory only two things are given something extra: the breath is called God's and the light is called beautiful. Then he asks why, and the answer for the breath is functional, not personal: pneuma is named God's because breath is the most life-giving of things and God is the cause of life. That is neither the targums' wind from before the Lord nor the Latin bench's third person of the Trinity; it is a reason drawn from what breath does. Augustine at Confessions 13 asks Philo's exact question, why only the Holy Spirit was borne above the waters, and answers from the doctrine of the Trinity. The other half of the sentence belongs to K8: the light of the first day is praised because the intelligible outshines the visible as the mind outshines the eyes, which is the comparison the whole Latin argument about a spiritual light is trying to make and never states this cleanly.")
+
+THREADS.extend([
+ thread("ruach-hovering", "t-k7-p1", "philo-opif-30", "aug-conf-13-9-10", "parallel", "The same question, seven centuries and one theology apart. Augustine asks why only the Holy Spirit was borne above the waters, and answers from the Trinity and from the weight of love that carries a thing to its place. Philo asks why only the breath and the light were given something extra in the verse, and answers that breath is the most life-giving of things and God is the cause of life. Both are reading the verse's asymmetry as deliberate; neither has read the other; and Philo's answer is available to a reader with no doctrine of persons at all."),
+ thread("ruach-hovering", "t-k7-p2", "philo-opif-30", "targ-onk-1-2", "contests", "Onkelos renders the ruach as a wind from before the Lord, which takes the divine name in the verse as a genitive of origin and removes any question of the spirit's status. Philo keeps the genitive and reads it as a genitive of cause: the breath is called God's because breath gives life and God gives life. Two Jewish readings, four centuries apart, of the same two words, and they go in opposite directions from the same grammatical instinct, that of God is doing work in the sentence."),
+ thread("ruach-hovering", "t-k7-p3", "philo-opif-30", "br-2-4", "parallel", "The midrash makes the hovering spirit the spirit of the Messiah, hovering over the face of the waters by the merit of repentance. Philo makes it the most life-giving thing, named God's for that reason. Both bench readings decline the plain meteorological sense that Onkelos takes, and both do so by asking what pneuma or ruach is for rather than what it is."),
+])

@@ -1,0 +1,41 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-26-27",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "τὴν ἀρχὴν παραλαμβάνων οὐχ ὡς οἴονταί τινες τὴν κατὰ χρόνον",
+  "en": "taking the beginning not, as some think, the one according to time"
+ },
+ "original": {
+  "lang": "el",
+  "text": "Φησὶ δ’ ὡς „ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν\", τὴν ἀρχὴν παραλαμβάνων οὐχ ὡς οἴονταί τινες τὴν κατὰ χρόνον· χρόνος γὰρ οὐκ ἦν πρὸ κόσμου, ἀλλ’ ἢ σὺν αὐτῷ γέγονεν ἢ μετ’ αὐτόν· ἐπεὶ γὰρ διάστημα τῆς τοῦ κόσμου κινήσεώς ἐστιν ὁ χρόνος, προτέρα δὲ τοῦ κινουμένου κίνησις οὐκ ἂν γένοιτο, ἀλλ’ ἀναγκαῖον αὐτὴν ἢ ὕστερον ἢ ἅμα συνίστασθαι, ἀναγκαῖον ἄρα καὶ τὸν χρόνον ἢ ἰσήλικα κόσμου γεγονέναι ἢ νεώτερον ἐκείνου· πρεσβύτερον δ’ ἀποφαίνεσθαι τολμᾶν ἀφιλόσοφον. εἰ δ’ ἀρχὴ μὴ παραλαμβάνεται τανῦν ἡ κατὰ χρόνον, εἰκὸς ἂν εἴη μηνύεσθαι τὴν κατ’ ἀριθμόν, ὡς τὸ „ἐν ἀρχῇ ἐποίησεν\" ἴσον εἶναι τῷ πρῶτον ἐποίησε τὸν οὐρανόν· καὶ γὰρ εὔλογον τῷ ὄντι πρῶτον αὐτὸν εἰς γένεσιν ἐλθεῖν, ἄριστόν τε ὄντα τῶν γεγονότων κἀκ τοῦ καθαρωτάτου τῆς οὐσίας παγέντα, διότι θεῶν ἐμφανῶν τε καὶ αἰσθητῶν ἔμελλεν οἶκος ἔσεσθαι ἱερώτατος.",
+  "source": "Philo, De opificio mundi 26-27 (Cohn-Wendland i. 8)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "He says that 'in the beginning God made the heaven and the earth', taking the beginning not, as some think, the one according to time; for there was no time before the world, but it either came into being together with it or after it. For since time is the interval of the world's motion, and there could be no motion earlier than the thing moved, but it must necessarily be constituted either later or at the same time, it is necessary that time too came to be either of the same age as the world or younger than it; and to dare to declare it older is unphilosophical. But if the beginning taken here is not the one according to time, it would be reasonable that the one according to number is signified, so that 'in the beginning he made' is equivalent to 'he made the heaven first'. For it is indeed reasonable that it should come first into being, being the best of the things that have come to be and set fast out of the purest of the substance, because it was to be the most holy house of the manifest and perceptible gods.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-first-of-all",
+  "world-has-a-beginning"
+ ],
+ "notes": "The whole Latin argument of this crux, stated once in Alexandria before any of them and by a man none of them read. The beginning of Gen 1:1 is not temporal, and the reason is exactly the one Augustine, Bede, Rabanus and Rupert each reach for: time is the interval of the world's motion, there can be no motion before the thing moved, so time is the world's coeval or its junior, and to make it older is unphilosophical. Then Philo does what the Latin bench does not do: having ruled out the temporal beginning, he asks what other kind of beginning there is, and answers a beginning according to number. In the beginning he made is equivalent to he made the heaven first. That is the reading Ambrose and Bruno will call primum omnium, arrived at by elimination rather than by piety. The tail of the passage is the reason it could never have travelled as it stands: the heaven is the best of things made because it was to be the most holy house of the manifest and perceptible gods, the stars. Chalcidius, who read Philo and is the one Latin here who knew him, is also the only Latin on this daf who reproduces the argument in this shape, and he too drops the gods."
+}

@@ -1,0 +1,42 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-35",
+ "anchor": {
+  "verse": "gen.1.5"
+ },
+ "lemma": {
+  "el": "καὶ ἡμέραν οὐχὶ πρώτην, ἀλλὰ μίαν, ἣ λέλεκται διὰ τὴν τοῦ νοητοῦ κόσμου μόνωσιν",
+  "en": "and day not first, but one, which is so said because of the solitariness of the intelligible world"
+ },
+ "original": {
+  "lang": "el",
+  "text": "ἐπεὶ δὲ φῶς μὲν ἐγένετο, σκότος δ’ ὑπεξέστη καὶ ἀνεχώρησεν, ὅροι δ’ ἐν τοῖς μεταξὺ διαστήμασιν ἐπάγησαν ἑσπέρα καὶ πρωΐα, κατὰ τἀναγκαῖον τοῦ χρόνου μέτρον ἀπετελεῖτο εὐθύς, ὃ καὶ ἡμέραν ὁ ποιῶν ἐκάλεσε, καὶ ἡμέραν οὐχὶ πρώτην, ἀλλὰ μίαν, ἣ λέλεκται διὰ τὴν τοῦ νοητοῦ κόσμου μόνωσιν μοναδικὴν ἔχοντος φύσιν.",
+  "source": "Philo, De opificio mundi 35 (Cohn-Wendland i. 10-11)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "But when light had come to be, and darkness had given way and withdrawn, and borders had been set fast in the intervals between them, evening and morning, then straightway, by the necessary measure of time, there was brought to completion that which the Maker also called day: and day not first, but one, which is so said because of the solitariness of the intelligible world, which has a monadic nature.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "unus-monad",
+  "unus-alone"
+ ],
+ "notes": "The sentence this crux is named for, in the oldest witness that has it, and it gives the word the whole finding turns on. Day not first but one, and the reason is the monosis of the intelligible world, its solitariness, which has a monadic nature. Monosis is not unity and not primacy: it is the condition of having nothing beside you. That is precisely what Rashi means by yachid be-olamo, that God was alone in his world that day because the angels were not yet created and so there was no second anything to count with; and it is what Augustine means when he says the day is called one rather than first. Three witnesses on three benches read unus as a claim about solitude rather than about position in a series, and Philo is the head of all of them: he is a Jew writing in Greek four centuries before the midrash, and the Latin bench received the reading through Ambrose, who reproduces it and does not name him. The clause before it belongs to K9 and to Philo's account of evening and morning as borders in the intervals; the day is completed by the necessary measure of time only once those borders are in place."
+}

@@ -314,3 +314,58 @@ THREADS.extend([
  _E5("t-k5-c3", "chalcidius-caelum-et-terra", "aug-gnm-1-7-11", "contests", "The same question, opposite answers, and Augustine's is the one that wins. Augustine takes heaven and earth in v. 1 as a name for the whole creation, universally stated and then unfolded in its parts. Chalcidius takes them as two things older than what we see and knowable only by the understanding — the intelligible against the perceptible. Augustine's reading makes the verse a summary; Chalcidius's makes it a report of a prior order. Every Latin after Augustine on this daf takes the summary."),
  _E5("t-k5-c4", "chalcidius-caelum-et-terra", "comestor-hs-1-1b", "parallel", "Comestor's container and thing contained is Chalcidius's two species with the Platonism removed. Both split the pair of v. 1 into two orders rather than two places, and both need the split because the chapter names a heaven on day two and an earth on day three. Comestor has the distinction as a schoolroom formula; Chalcidius has it as the position of a named school, alii non ita, set against Philo's."),
 ])
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# See scripts/philo.py. This is where the edition stops naming Philo as an authority it does not
+# print: chalcidius-caelum-et-terra reports his doctrine of the intelligible heaven and earth, and
+# t-k5-p1 below is the only citation edge in the project that crosses from the Latin bench to a
+# Jewish author by name.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES.update(philo.LICENSES)
+ANSWERS.update({
+ "heaven-earth-are-incorporeal": {
+   "label": "An incorporeal heaven and an invisible earth",
+   "gloss": "What was made first was not this heaven and this earth but their incorporeal models, "
+            "along with the idea of air and of void, which the verse calls darkness and abyss "
+            "(Philo, reported in Latin by Chalcidius)."},
+ "firmamentum-is-the-corporeal-heaven": {
+   "label": "'Firmament' names the heaven as body",
+   "gloss": "The perceptible heaven is called stereoma precisely because it is corporeal, body "
+            "being by nature solid and extended in three directions: the name marks it off from "
+            "the intelligible heaven (Philo)."},
+})
+
+add(**_PH, id="philo-opif-29",
+    anchor={"verse": "gen.1.1"},
+    lemma={"el": "πρῶτον οὖν ὁ ποιῶν ἐποίησεν οὐρανὸν ἀσώματον καὶ γῆν ἀόρατον",
+           "en": "first, then, the Maker made an incorporeal heaven and an invisible earth"},
+    original=_gk(29),
+    english={"text": "First, then, the Maker made an incorporeal heaven, and an invisible earth, and the idea of air and of void; of which the one he named darkness, since air is black by nature, and the other the abyss, for the void is very deep and yawning. Then the incorporeal substance of water and of breath, and over all, seventh, of light, which again was incorporeal, an intelligible model of the sun and of all the light-bearing stars that were to be constituted throughout the heaven.",
+             **PDRAFT},
+    tradents=[], cruxes=["heaven-earth-order", "tohu-vabohu"], senses=["literal", "spiritual"],
+    answers=["heaven-earth-are-incorporeal", "heaven-first", "pair-is-formless-matter"],
+    notes="The passage Chalcidius is reporting when he tells the Latin west what Philo held, and the one place in this edition where a Latin witness and its named Greek source can be set side by side. Philo lists what was made first, and every item on the list is incorporeal: a heaven without body, an invisible earth, the idea of air and of void. Then he does something no other witness on this daf does, and identifies the terms of Gen 1:2 with items on that list: the darkness is the air, because air is black by nature, and the abyss is the void, because the void is deep and yawning. Water, breath and light follow, light seventh and last, itself incorporeal and the model of the sun and the stars. This is a reading of the first two verses as an inventory of models rather than a narrative of events, and it is why Chalcidius can say that those who search more deeply deny that this heaven was made in the beginning. On the other bench the same instinct is b. Chagigah 12a's ten things created on the first day, which is also an inventory and is also longer than the verse.")
+
+add(**_PH, id="philo-opif-36",
+    anchor={"verse": "gen.1.1"},
+    lemma={"el": "ὃν ἐτύμως στερέωμα προσηγόρευσεν ἅτε σωματικὸν ὄντα",
+           "en": "which he rightly named 'firmament', inasmuch as it is corporeal"},
+    original=_gk(36),
+    english={"text": "The incorporeal world, then, had already reached its end, established in the divine Reason; and the perceptible was being brought to completion after the model of that one. And first of its parts, the best of them all, the craftsman made the heaven, which he rightly named 'firmament', inasmuch as it is corporeal; for body is by nature solid, since it is also extended in three directions, and what other notion is there of the solid and of body than what is extended in every direction? Fittingly, then, setting the perceptible and body-formed against the intelligible and incorporeal, he called this one 'firmament'.",
+             **PDRAFT},
+    tradents=[], cruxes=["heaven-earth-order"], senses=["literal"],
+    answers=["firmamentum-is-the-corporeal-heaven", "heaven-first"],
+    notes="Anchor note: Philo is here on the word stereoma, which the Greek Genesis has at 1:6 and not at 1:1, and the witness is anchored on 1:1 under the second clause of the anchor rule. What he is doing is answering this crux's question, what is the heaven of the first verse, and he answers it by pairing the two words: the heaven of the beginning is the incorporeal one, established in the divine Reason, and the heaven the chapter goes on to call firmament is the corporeal one, named firmament for that very reason, because body is what is extended in three directions. That is the same argument from the chapter's own vocabulary that Chalcidius makes in Latin, and Chalcidius makes it having read this book: the firmament is not called heaven until the second day, so the heaven of the beginning must be something else. Remigius reaches the conclusion, the empyrean heaven, without any argument at all, and Comestor turns it into the schoolroom formula of the container and the thing contained. Philo's version is the only one on the daf that gets there from a definition of body.")
+
+_EP5 = lambda i, f, t, ty, ev: thread("heaven-earth-order", i, f, t, ty, ev)
+THREADS.extend([
+ _EP5("t-k5-p1", "chalcidius-caelum-et-terra", "philo-opif-29", "cites", "The only edge in this edition where a Latin witness names a Jewish author and the passage he is naming is printed beside him. Chalcidius: what heaven, then, did God found before the rest, or what earth? Philo judges them to be incorporeal and intelligible essences, the ideas and exemplars both of this dry land and of the solidity. Philo, De opificio 29: first the Maker made an incorporeal heaven and an invisible earth and the idea of air and of void. The report is accurate, including the detail Chalcidius adds next, that Philo said the human too was first intelligible and only then corporeal, which is De opificio 134. Everywhere else on this daf a Latin knows a Jewish reading and does not say so; here one says so, and he is the one Latin nobody after him read."),
+ _EP5("t-k5-p2", "philo-opif-29", "b-chag-12a-order", "parallel", "Two inventories where the verse gives a narrative. The Bavli asks which was created first and stages Beit Shammai against Beit Hillel, and the sugya's answer is a list of ten things created on the first day. Philo also answers with a list, and his has seven items: incorporeal heaven, invisible earth, the idea of air, the idea of void, the substance of water, of breath, and seventh light. Both readings decide that the first verse under-reports, and both fill it out by enumeration rather than by exegesis of a word. Neither list can be got from the other and the two do not share a single item's rationale."),
+ _EP5("t-k5-p3", "philo-opif-36", "comestor-hs-1-1b", "parallel", "Comestor's container and the thing contained, argued from a definition of body instead of asserted as a formula. Both split the heaven of the first verse from the firmament of the second day; Comestor because the schools require the distinction, Philo because stereoma means solid and solid means extended in three directions, so the name itself marks the corporeal off from the intelligible. Comestor is a thousand years later and has the distinction without the reason for it."),
+ _EP5("t-k5-p4", "philo-opif-36", "b-chag-12a-shamayim", "parallel", "Both benches answer what is heaven by taking the word apart, and each takes apart a different word in a different language. The Bavli decomposes shamayim, there is water, sham mayim. Philo etymologises the Greek stereoma, which is the Seventy's word and not Moses's, and gets the corporeal heaven out of it. The method is the same and neither could have used the other's word."),
+ _EP5("t-k5-p5", "philo-opif-36", "remigius-gen-1-1b", "parallel", "Remigius says the heaven of the first verse is that empyrean, that is fiery, or intellectual heaven, and stops. Philo says it is the incorporeal heaven established in the divine Reason and gives the argument, from the second name the chapter uses. This is the same relation Chalcidius stands in to Remigius, and for the same reason: Chalcidius got the argument from Philo, and Remigius got the conclusion from a tradition that had lost it."),
+])

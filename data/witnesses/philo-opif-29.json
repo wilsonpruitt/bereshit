@@ -1,0 +1,44 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-29",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "πρῶτον οὖν ὁ ποιῶν ἐποίησεν οὐρανὸν ἀσώματον καὶ γῆν ἀόρατον",
+  "en": "first, then, the Maker made an incorporeal heaven and an invisible earth"
+ },
+ "original": {
+  "lang": "el",
+  "text": "πρῶτον οὖν ὁ ποιῶν ἐποίησεν οὐρανὸν ἀσώματον καὶ γῆν ἀόρατον καὶ ἀέρος ἰδέαν καὶ κενοῦ· ὧν τὸ μὲν ἐπεφήμισε σκότος, ἐπειδὴ μέλας ὁ ἀὴρ τῇ φύσει, τὴν δ’ ἄβυσσον, πολύβυθον γὰρ τό γε κενὸν καὶ ἀχανές· εἶθ’ ὕδατος ἀσώματον οὐσίαν καὶ πνεύματος καὶ ἐπὶ πᾶσιν ἑβδόμου φωτός, ὃ πάλιν ἀσώματον ἦν καὶ νοητὸν ἡλίου παράδειγμα καὶ πάντων ὅσα φωσφόρα ἄστρα κατὰ τὸν οὐρανὸν ἔμελλε συνίστασθαι.",
+  "source": "Philo, De opificio mundi 29 (Cohn-Wendland i. 9)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "First, then, the Maker made an incorporeal heaven, and an invisible earth, and the idea of air and of void; of which the one he named darkness, since air is black by nature, and the other the abyss, for the void is very deep and yawning. Then the incorporeal substance of water and of breath, and over all, seventh, of light, which again was incorporeal, an intelligible model of the sun and of all the light-bearing stars that were to be constituted throughout the heaven.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "heaven-earth-order",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "heaven-earth-are-incorporeal",
+  "heaven-first",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The passage Chalcidius is reporting when he tells the Latin west what Philo held, and the one place in this edition where a Latin witness and its named Greek source can be set side by side. Philo lists what was made first, and every item on the list is incorporeal: a heaven without body, an invisible earth, the idea of air and of void. Then he does something no other witness on this daf does, and identifies the terms of Gen 1:2 with items on that list: the darkness is the air, because air is black by nature, and the abyss is the void, because the void is deep and yawning. Water, breath and light follow, light seventh and last, itself incorporeal and the model of the sun and the stars. This is a reading of the first two verses as an inventory of models rather than a narrative of events, and it is why Chalcidius can say that those who search more deeply deny that this heaven was made in the beginning. On the other bench the same instinct is b. Chagigah 12a's ten things created on the first day, which is also an inventory and is also longer than the verse."
+}

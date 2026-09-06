@@ -456,3 +456,62 @@ LICENSES = {
  },
 }
 SHORT = "Yom echad / dies unus"
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# The head of both streams this crux's finding contrasts. philo-opif-15 and philo-opif-35 are
+# defined here; philo-opif-33-34, defined on K9, also carries this crux and is folded into the
+# roster by build-crux.py. See scripts/philo.py.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES.update(philo.LICENSES)
+ANSWERS.update({
+ "unus-not-counted-with-the-rest": {
+   "label": "Not counted in with the other days",
+   "gloss": "Moses does not even call it first, so that it should not be numbered along with the "
+            "others; he calls it one, having seen in it the nature of the monad (Philo)."},
+ "unus-monad": {
+   "label": "The monad's solitariness",
+   "gloss": "It is called one because of the solitariness of the intelligible world, which has a "
+            "monadic nature: a claim about being alone, not about position in a series (Philo)."},
+ "evening-morning-are-incorporeal": {
+   "label": "Evening and morning are among the intelligibles",
+   "gloss": "Morning and evening are to be placed in the order of the incorporeal and intelligible "
+            "things, ideas and measures and types and seals, so the evening of the fifth verse is "
+            "not a time of day (Philo)."},
+})
+
+add(**_PH, id="philo-opif-15",
+    anchor={"verse": "gen.1.5"},
+    lemma={"el": "ἣν αὐτὸς οὐδὲ πρώτην, ἵνα μὴ ταῖς ἄλλαις συγκαταριθμῆται, καλεῖ",
+           "en": "which he himself does not even call first, lest it be counted in with the others"},
+    original=_gk(15),
+    english={"text": "To each of the days he assigned some of the parts of the whole, excepting the first, which he himself does not even call first, lest it be counted in with the others; but naming it 'one' he addresses it by a name that hits the mark, having seen in it, and pronounced upon it, the nature and the appellation of the monad. We must say as much as can be said of what it contains, since to say all is impossible; for it contains the intelligible world as its own peculiar possession, as the account of it shows.",
+             **PDRAFT},
+    tradents=[], cruxes=["one-day-evening-first"], senses=["literal"],
+    answers=["unus-not-counted-with-the-rest", "unus-cardinal"],
+    notes="The grammatical half of this crux, stated first and stated as a deliberate act of the author. Moses assigns parts of the whole to each of the days, and holds the first one back: he does not even call it first, so that it should not be counted in along with the others, and calls it one instead, a name that hits the mark, because he had seen the nature of the monad in it. Two things are worth marking. The first is that Philo makes the choice of word an authorial decision with a reason, which is what Bruno reaches independently a thousand years later when he says that first and second are relatives and a first requires a second. The second is that the reason is arithmetical and not theological: to be one is to be uncountable with the rest, outside the series rather than at the head of it. Everything the Latin bench does with dies unus, from Ambrose's excellently he said one day and not first day to Augustine's not first but one, is downstream of a Greek reading Philo already has, and the Latin channel for it is Ambrose.")
+
+add(**_PH, id="philo-opif-35",
+    anchor={"verse": "gen.1.5"},
+    lemma={"el": "καὶ ἡμέραν οὐχὶ πρώτην, ἀλλὰ μίαν, ἣ λέλεκται διὰ τὴν τοῦ νοητοῦ κόσμου μόνωσιν",
+           "en": "and day not first, but one, which is so said because of the solitariness of the intelligible world"},
+    original=_gk(35),
+    english={"text": "But when light had come to be, and darkness had given way and withdrawn, and borders had been set fast in the intervals between them, evening and morning, then straightway, by the necessary measure of time, there was brought to completion that which the Maker also called day: and day not first, but one, which is so said because of the solitariness of the intelligible world, which has a monadic nature.",
+             **PDRAFT},
+    tradents=[], cruxes=["one-day-evening-first"], senses=["literal", "spiritual"],
+    answers=["unus-monad", "unus-alone"],
+    notes="The sentence this crux is named for, in the oldest witness that has it, and it gives the word the whole finding turns on. Day not first but one, and the reason is the monosis of the intelligible world, its solitariness, which has a monadic nature. Monosis is not unity and not primacy: it is the condition of having nothing beside you. That is precisely what Rashi means by yachid be-olamo, that God was alone in his world that day because the angels were not yet created and so there was no second anything to count with; and it is what Augustine means when he says the day is called one rather than first. Three witnesses on three benches read unus as a claim about solitude rather than about position in a series, and Philo is the head of all of them: he is a Jew writing in Greek four centuries before the midrash, and the Latin bench received the reading through Ambrose, who reproduces it and does not name him. The clause before it belongs to K9 and to Philo's account of evening and morning as borders in the intervals; the day is completed by the necessary measure of time only once those borders are in place.")
+
+_EPX = lambda i, f, t, ty, ev: thread("one-day-evening-first", i, f, t, ty, ev)
+THREADS.extend([
+ _EPX("t-k10-p1", "philo-opif-35", "rashi-1-5", "parallel", "The two poles of this crux's finding, and they turn out to be one reading held four hundred years apart in two languages by two Jews, neither of whom could have read the other. Rashi, out of Bereshit Rabbah: it says one and not first because the Holy One was yachid be-olamo, alone in his world, the angels not having been created until the second day. Philo: day not first but one, because of the monosis of the intelligible world, which has a monadic nature. Both take the cardinal as a report about solitude rather than about position in a series; both need it to mean that on that day there was nothing to count with. What is alone differs entirely, God in the one and the intelligible world in the other, and the grammatical argument underneath is the same argument."),
+ _EPX("t-k10-p2", "philo-opif-35", "ambrose-hex-1-10", "echoes", "The Latin channel for this whole reading, and it does not name its source. Ambrose: excellently, too, he said one day and not first day. Philo: day not first but one. Ambrose's Hexaemeron follows Philo's De opificio closely enough that agreements of this kind are the rule rather than the exception, and here the agreement is at the level of the sentence. What Ambrose does not take over is the reason, the monosis of the intelligible world, which is unavailable to him; he supplies the eternity of the day instead. Every Latin after him has the observation without the argument that produced it."),
+ _EPX("t-k10-p3", "philo-opif-35", "aug-gnl-1-17", "parallel", "Augustine reaches the same formula and gives it a Christian ground: it was called not first but one, and the day is the knowledge of the creature in the Word. Philo has the formula and grounds it in the solitariness of the intelligible world. Both refuse to let the cardinal be a scribal looseness for an ordinal, and both are looking for something that day has and the other days do not."),
+ _EPX("t-k10-p4", "philo-opif-15", "bruno-gen-1-5", "parallel", "Bruno's grammar, a thousand years early and used for the same purpose. Bruno: first and second are relatives, so to call it first would require a second. Philo: he does not even call it first, so that it should not be counted in with the others. The argument is the same argument about what an ordinal commits you to, and the two men reach it from opposite ends, Bruno from the schoolroom logic of relatives and Philo from the arithmetic of the monad."),
+ _EPX("t-k10-p5", "philo-opif-33-34", "glossa-1-5", "parallel", "The Glossa notes that night is not recorded as made, only evening. Philo has already turned that observation into a doctrine: evening and morning are the borders God set in the intervals between light and darkness, and they belong among the incorporeal and intelligible things, not among the perceptible ones. On that reading there is nothing for night to be, which is exactly the gap the Glossa is pointing at without being able to fill it."),
+ _EPX("t-k10-p6", "philo-opif-35", "lxx-1-5", "cites", "Philo is quoting the Seventy and the crux exists because they translated as they did. His whole argument stands on hemeran mian, day one, against hemeran proten, and he is reading the Greek word for word: the Maker called it day, and day not first but one. This is the edition's one place where a witness on the greek-jewish bench cites the other witness on the same bench, and it shows what the LXX is for on this daf, a text somebody argued from and not only a version to compare."),
+ _EPX("t-k10-p7", "philo-opif-15", "br-3-9", "parallel", "Bereshit Rabbah 3:9 works the same list, one, second, third, and asks why the first alone is out of pattern; its answers are theological. Philo asks the same question of the same list in Greek and answers that Moses withheld the first day from the count on purpose. The rabbinic bench does not have Philo and reaches the observation independently, which is what makes the agreement worth an edge rather than a footnote."),
+])

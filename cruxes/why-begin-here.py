@@ -241,3 +241,39 @@ ANSWERS = {
 }
 
 LICENSES = {}
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# See scripts/philo.py; the loader is bench.greek, which drops the critical apparatus before
+# flattening. The person, place and licence key are defined in cruxes/beginning-of-what.py.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES.update(philo.LICENSES)
+ANSWERS.update({
+ "law-agrees-with-the-cosmos": {
+   "label": "The law and the world agree",
+   "gloss": "Moses opened with a cosmogony so that the world should be in harmony with the law "
+            "and the law with the world, and the man who keeps it be a citizen of the world "
+            "(Philo). The oldest answer on this crux, and the only one that makes the opening a "
+            "claim about the law rather than about creation."},
+})
+
+add(**_PH, id="philo-opif-1-3",
+    anchor={"verse": "gen.1.1"},
+    lemma={"el": "τοῦ κόσμου τῷ νόμῳ καὶ τοῦ νόμου τῷ κόσμῳ συνᾴδοντος",
+           "en": "the world being in harmony with the law and the law with the world"},
+    original=_gk(1, 3),
+    english={"text": "Of the other lawgivers, some set down what were held among them to be just things bare and unadorned, while others, wrapping their conceptions about with a great bulk, blinded the multitude by hiding the truth under mythical fictions. But Moses, going beyond both, the one as unconsidered and unlaboured and unphilosophical, the other as false and full of trickery, made the beginning of his laws altogether beautiful and most solemn: he neither said outright at the start what must be done or not done, nor, since it was necessary to shape beforehand the minds of those who were to use the laws, did he invent myths or assent to those composed by others. And his beginning, as I said, is most marvellous, containing a cosmogony: for the world is in harmony with the law and the law with the world, and the man who keeps the law is at once a citizen of the world, directing his actions towards the will of nature, by which the whole world too is governed.",
+             **PDRAFT},
+    tradents=[], cruxes=["why-begin-here"], senses=["literal", "moral"],
+    answers=["law-agrees-with-the-cosmos", "written-for-the-unlearned"],
+    notes="This crux's question asked and answered before any other witness on the daf was born, and answered in a way nobody else here even considers. Rashi asks why the Torah does not begin at Exodus 12:2, since it is a book of commandments, and answers with a claim to the land. Philo asks the same question from the same premise, that this is a book of laws and does not open like one, and answers that the opening is the law's credential: the cosmogony is there so that world and law shall be shown to agree, and the man who keeps the law shall be a citizen of the world, aligning his conduct with the nature by which the world itself is run. Where Rashi's answer is political and Ambrose's and Augustine's are apologetic, Philo's is jurisprudential. The framing is also the one every Latin here repeats without knowing whose it is: other lawgivers either wrote bare statutes or dressed them in myth, and Moses did neither. Augustine's not with ornate and polished speech but with plain facts is that same contrast with the philosophy taken out of it.")
+
+_EP2 = lambda i, f, t, ty, ev: thread("why-begin-here", i, f, t, ty, ev)
+THREADS.extend([
+ _EP2("t-k2-p1", "philo-opif-1-3", "rashi-1-1", "parallel", "The same question, put from the same premise, answered in two directions that have nothing to do with each other. Both begin from the fact that the Torah is a book of law and does not open like one. Rashi, quoting R. Yitzhak, says it should have begun at Exodus 12:2 and answers with Ps 111:6: God told his people the power of his works, so that when the nations call Israel robbers Israel can answer that the whole earth is his and he gave it to whom he pleased. Philo says the opening is what makes the law binding: it shows that world and law agree, and that the law-keeper is a citizen of the cosmos. One answer secures a title to a particular land; the other secures the authority of the code over anyone anywhere. Eleven hundred years apart, and there is no channel between them."),
+ _EP2("t-k2-p2", "philo-opif-1-3", "aug-gnm-1-1", "parallel", "Philo's contrast, without Philo. Philo divides earlier lawgivers into those who wrote bare statutes and those who wrapped them in mythical fictions, and praises Moses for doing neither. Augustine, defending Genesis against the Manichees, says Scripture speaks not with ornate and polished speech but with plain facts, and that this is deliberate. The move is identical, the frame is identical, and Augustine's version has lost the third term: Philo's Moses avoids bareness as well as ornament, because he has a philosophical programme to state, and Augustine's Moses is bare on purpose because his readers are simple."),
+ _EP2("t-k2-p3", "philo-opif-1-3", "comestor-hs-prologus", "parallel", "Comestor says history is the foundation and that the narrative comes first because everything built on it needs it. Philo says the cosmogony comes first because the minds of those who will use the laws have to be shaped beforehand. Both make the opening a pedagogical necessity rather than a chronological one, and Comestor states as a rule of the schools what Philo states as a reading of Moses's intention."),
+])

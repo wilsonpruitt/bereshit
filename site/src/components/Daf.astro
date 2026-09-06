@@ -9,6 +9,8 @@ interface Props {
   verseLaHtml: string;
   verseEn: string;
   question?: { he: string; la: string; en: string } | null;
+  grk: SnippetVM[];
+  grkLabel?: string;
   versiones: SnippetVM[];
   versionesLabel?: string;
   glossa: SnippetVM[];
@@ -26,6 +28,7 @@ const {
   hint = "hover a note to read it whole and see its threads · click to pin",
   verseHeHtml, verseLaHtml, verseEn,
   question = null,
+  grk, grkLabel = "Alexandria, c. 40",
   versiones, versionesLabel = "LXX · Vulgate",
   glossa,
   rab, rabLabel = "Targums · Midrash · Bavli · Rashi",
@@ -43,6 +46,12 @@ const {
   <div class="daf" id="daf">
     <svg id="wires" aria-hidden="true"></svg>
     <section class="lat">
+      {grk.length > 0 && (
+        <div class="grk-bench">
+          <p class="col-h grk"><span>Philo</span><span>{grkLabel}</span></p>
+          {grk.map((w) => <Snippet w={w} />)}
+        </div>
+      )}
       <p class="col-h lat"><span>Patres</span><span>{latEarlyLabel}</span></p>
       {latEarly.map((w) => <Snippet w={w} />)}
     </section>

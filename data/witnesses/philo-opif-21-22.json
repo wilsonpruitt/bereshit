@@ -1,0 +1,44 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-21-22",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "ἦν μὲν γὰρ ἐξ αὑτῆς ἄτακτος ἄποιος ἄψυχος",
+  "en": "for of itself it was without order, without quality, without life"
+ },
+ "original": {
+  "lang": "el",
+  "text": "δύναμις δὲ καὶ ἡ κοσμοποιητικὴ πηγὴν ἔχουσα τὸ πρὸς ἀλήθειαν ἀγαθόν. εἰ γάρ τις ἐθελήσειε τὴν αἰτίαν ἧς ἕνεκα τόδε τὸ πᾶν ἐδημιουργεῖτο διερευνᾶσθαι, δοκεῖ μοι μὴ διαμαρτεῖν σκοποῦ φάμενος, ὅπερ καὶ τῶν ἀρχαίων εἶπέ τις, ἀγαθὸν εἶναι τὸν πατέρα καὶ ποιητήν· οὗ χάριν τῆς ἀρίστης αὑτοῦ φύσεως οὐκ ἐφθόνησεν οὐσίᾳ μηδὲν ἐξ αὑτῆς ἐχούσῃ καλόν, δυναμένῃ δὲ πάντα γίνεσθαι. ἦν μὲν γὰρ ἐξ αὑτῆς ἄτακτος ἄποιος ἄψυχος ἀνόμοιος , ἑτεροιότητος ἀναρμοστίας ἀσυμφωνίας μεστή· τροπὴν δὲ καὶ μεταβολὴν ἐδέχετο τὴν εἰς τἀναντία καὶ τὰ βέλτιστα, τάξιν ποιότητα ἐμψυχίαν ὁμοιότητα ταυτότητα, τὸ εὐάρμοστον, τὸ σύμφωνον, πᾶν ὅσον τῆς κρείττονος ἰδέας.",
+  "source": "Philo, De opificio mundi 21-22 (Cohn-Wendland i. 6-7)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "And the world-making power too has for its spring the truly good. For if anyone should wish to search out the cause for the sake of which this all was fashioned, it seems to me he would not miss the mark in saying, as one of the ancients also said, that the Father and Maker is good; and for that reason he did not grudge his own most excellent nature to a substance which had nothing beautiful of itself, but was able to become all things. For of itself it was without order, without quality, without life, unlike itself, full of unevenness and of discord and of dissonance; but it admitted a turn and a change to the opposites and to the best things, to order, quality, ensoulment, likeness, sameness, the well-fitted, the concordant, all that belongs to the better idea.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "ex-nihilo-or-matter",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "matter-then-formed",
+  "craftsman-needs-matter",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The position the whole Latin bench spends eight centuries refusing, stated by a Jew in Greek before any of them, and stated without embarrassment. There is a substance; of itself it is without order, without quality, without life, unlike itself, full of unevenness and discord; and God, being good, did not grudge it his own best nature, so it took the turn to order, quality, ensoulment and likeness. Philo does not say where the substance came from, and he does not deny that God made it; what he does is decline to raise the question, which is what makes the passage so useful to read against Ambrose and Augustine, who cannot decline it. Ambrose knows the position by name as the hyle of the philosophers and refutes it; Augustine at Confessions 12 accepts a formless matter and insists in the same breath that God made it too; Chalcidius reports the Hebrews as confessing that hyle was generated, which is the concession Philo does not make. The vocabulary is one of the reasons the argument travelled: ataktos and apoios are the Greek behind the invisibilis et incomposita of the old Latin Gen 1:2, so what the Latin bench debates as a fact about the earth of the second verse, Philo has already stated as a doctrine about substance in general."
+}

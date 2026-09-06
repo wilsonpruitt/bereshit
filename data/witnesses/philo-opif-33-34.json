@@ -1,0 +1,43 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-33-34",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "el": "οὐ μόνον ἐχώρισε φῶς καὶ σκότος, ἀλλὰ καὶ ὅρους ἐν μέσοις ἔθετο διαστήμασιν",
+  "en": "he not only separated light and darkness, but also set borders in the intervals between"
+ },
+ "original": {
+  "lang": "el",
+  "text": "μετὰ δὲ τὴν τοῦ νοητοῦ φωτὸς ἀνάλαμψιν, ὃ πρὸ ἡλίου γέγονεν, ὑπεχώρει τὸ ἀντίπαλον σκότος, διατειχίζοντος ἀπ’ ἀλλήλων αὐτὰ καὶ διιστάντος θεοῦ τοῦ τὰς ἐναντιότητας εὖ εἰδότος καὶ τὴν ἐκ φύσεως αὐτῶν διαμάχην. ἵν’ οὖν μὴ αἰεὶ συμφερόμεναι στασιάζωσι καὶ πόλεμος ἀντ’ εἰρήνης ἐπικρατῇ τὴν ἀκοσμίαν ἐν κόσμῳ τιθείς, οὐ μόνον ἐχώρισε φῶς καὶ σκότος, ἀλλὰ καὶ ὅρους ἐν μέσοις ἔθετο διαστήμασιν, οἷς ἀνεῖρξε τῶν ἄκρων ἑκάτερον· ἔμελλε γὰρ γειτνιῶντα σύγχυσιν ἀπεργάζεσθαι τῷ περὶ δυναστείας ἀγῶνι κατὰ πολλὴν καὶ ἄπαυστον φιλονεικίαν ἐπαποδυόμενα, εἰ μὴ μέσοι παγέντες ὅροι διέζευξαν καὶ διέλυσαν τὴν ἀντεπίθεσιν. οὗτοι δ’ εἰσὶν ἑσπέρα τε καὶ πρωΐα, ὧν ἡ μὲν προευαγγελίζεται μέλλοντα ἥλιον ἀνίσχειν ἠρέμα τὸ σκότος ἀνείργουσα, ἡ δ’ ἑσπέρα καταδύντι ἐπιγίνεται ἡλίῳ τὴν ἀθρόαν τοῦ σκότους φορὰν πρᾴως ἐκδεχομένη. καὶ ταῦτα μέντοι, πρωΐαν λέγω καὶ ἑσπέραν, ἐν τῇ τάξει τῶν ἀσωμάτων καὶ νοητῶν θετέον· ὅλως γὰρ οὐδὲν αἰσθητὸν ἐν τούτοις, ἀλλὰ πάντα ἰδέαι καὶ μέτρα καὶ τύποι καὶ σφραγῖδες, εἰς γένεσιν ἄλλων ἀσώματα σωμάτων.",
+  "source": "Philo, De opificio mundi 33-34 (Cohn-Wendland i. 10)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "After the kindling of the intelligible light, which came to be before the sun, the adversary darkness withdrew, God walling them off from one another and setting them apart, he who knew well their contrarieties and the battle that is in their nature. So that they should not always be borne together in strife, and war prevail instead of peace, setting disorder within the ordered world, he not only separated light and darkness, but also set borders in the intervals between, by which he fenced off each of the extremes. For being neighbours they would have wrought confusion, stripping for the contest over dominion in much and unceasing rivalry, had not borders been set fast between them to sunder and dissolve the assault. And these are evening and morning: of which the one heralds beforehand the sun that is to rise, gently fencing off the darkness; and evening comes on when the sun has set, mildly receiving the massed onset of the darkness. And these too, morning I mean and evening, must be placed in the order of the incorporeal and intelligible things; for there is nothing perceptible at all among them, but all are ideas and measures and types and seals, incorporeal things for the genesis of other bodies.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "good-and-separated",
+  "one-day-evening-first"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "divisio-prevents-war",
+  "divisio-loci"
+ ],
+ "notes": "Why separate light from darkness, answered with a war. Light and darkness are natural enemies, and God, who knew the battle in their nature, did not merely part them but walled them off and put borders in the intervals between, because neighbours fight for mastery and the fighting would have put disorder inside the ordered world. Then the borders are named, and the naming is what makes the passage matter twice over: they are evening and morning. On the Latin bench the same reading of vayavdel as a real spatial separating is Bede's, not only by a difference of quality but of places, which Rabanus copies word for word; on the rabbinic bench the same instinct is R. Yannai's, that the division is between the deeds of the righteous and the deeds of the wicked, and it is moral rather than physical. Philo's is physical and political at once: a treaty with a demilitarised zone. The last sentence anticipates K10 and settles what evening and morning are for him: they belong among the incorporeal and intelligible things, all ideas and measures and types and seals, so the evening of the fifth verse is not a time of day."
+}

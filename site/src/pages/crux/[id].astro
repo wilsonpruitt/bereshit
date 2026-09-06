@@ -28,8 +28,18 @@ const region = (pred: (w: Witness) => boolean) => regionSort([...W.values()].fil
 const centerTr = region((w) => w.work === "lxx" || w.work === "vulgate");
 const glossa = region((w) => w.work === "glossa");
 const rab = region((w) => w.tradition === "rabbinic");
-const latEarly = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date <= 750);
-const latLate = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date > 750);
+// The Greek-Jewish bench: Philo, beside the LXX, which is already in Versiones. Until Phase 6 part
+// five this column did not exist and the buckets below covered only `latin` and `rabbinic`, so
+// every witness on any other bench was built, listed in the crux roster, given its own page, and
+// then silently dropped from the daf -- it survived only as a thread endpoint in the JS. That hid
+// Philo's eleven witnesses the day they were built and had been hiding Basil's three Greek ones
+// since Phase 5. Basil is a Father and goes with the Fathers; his witnesses are tagged `greek`
+// only because the slice is of his Greek rather than of Eustathius's Latin.
+const isFather = (w: Witness) => (w.tradition === "latin" || w.tradition === "greek")
+  && w.work !== "vulgate" && w.work !== "glossa";
+const grk = region((w) => w.tradition === "greek-jewish" && w.work !== "lxx");
+const latEarly = region((w) => isFather(w) && w.date <= 750);
+const latLate = region((w) => isFather(w) && w.date > 750);
 
 const lem = crux.lemma || {};
 const hePat = hePattern(lem.he || "");
@@ -54,6 +64,7 @@ const headLabel = `<b>${escapeHtml(verseLabel(crux.verse))}</b> · <a href="/">B
     versiones={vm(centerTr)}
     glossa={vm(glossa)}
     rab={vm(rab)}
+    grk={vm(grk)}
     latEarly={vm(latEarly)}
     latLate={vm(latLate)}
     threadsForJs={threadsForJs}

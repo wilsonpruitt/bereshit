@@ -491,3 +491,38 @@ ANSWERS = {
 }
 
 LICENSES = {}
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# philo-opif-33-34 is defined here, on its primary crux, and also carries `one-day-evening-first`,
+# whose roster picks it up when K10 is rebuilt. See scripts/philo.py.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES.update(philo.LICENSES)
+ANSWERS.update({
+ "divisio-prevents-war": {
+   "label": "Separated so they should not be at war",
+   "gloss": "Light and darkness are natural enemies; God not only separated them but set borders "
+            "in the intervals between, so that neighbouring they should not fight for mastery and "
+            "put disorder inside the ordered world. The borders are evening and morning (Philo)."},
+})
+
+add(**_PH, id="philo-opif-33-34",
+    anchor={"verse": "gen.1.4"},
+    lemma={"el": "οὐ μόνον ἐχώρισε φῶς καὶ σκότος, ἀλλὰ καὶ ὅρους ἐν μέσοις ἔθετο διαστήμασιν",
+           "en": "he not only separated light and darkness, but also set borders in the intervals between"},
+    original=_gk(33, 34),
+    english={"text": "After the kindling of the intelligible light, which came to be before the sun, the adversary darkness withdrew, God walling them off from one another and setting them apart, he who knew well their contrarieties and the battle that is in their nature. So that they should not always be borne together in strife, and war prevail instead of peace, setting disorder within the ordered world, he not only separated light and darkness, but also set borders in the intervals between, by which he fenced off each of the extremes. For being neighbours they would have wrought confusion, stripping for the contest over dominion in much and unceasing rivalry, had not borders been set fast between them to sunder and dissolve the assault. And these are evening and morning: of which the one heralds beforehand the sun that is to rise, gently fencing off the darkness; and evening comes on when the sun has set, mildly receiving the massed onset of the darkness. And these too, morning I mean and evening, must be placed in the order of the incorporeal and intelligible things; for there is nothing perceptible at all among them, but all are ideas and measures and types and seals, incorporeal things for the genesis of other bodies.",
+             **PDRAFT},
+    tradents=[], cruxes=["good-and-separated", "one-day-evening-first"], senses=["literal", "spiritual"],
+    answers=["divisio-prevents-war", "divisio-loci"],
+    notes="Why separate light from darkness, answered with a war. Light and darkness are natural enemies, and God, who knew the battle in their nature, did not merely part them but walled them off and put borders in the intervals between, because neighbours fight for mastery and the fighting would have put disorder inside the ordered world. Then the borders are named, and the naming is what makes the passage matter twice over: they are evening and morning. On the Latin bench the same reading of vayavdel as a real spatial separating is Bede's, not only by a difference of quality but of places, which Rabanus copies word for word; on the rabbinic bench the same instinct is R. Yannai's, that the division is between the deeds of the righteous and the deeds of the wicked, and it is moral rather than physical. Philo's is physical and political at once: a treaty with a demilitarised zone. The last sentence anticipates K10 and settles what evening and morning are for him: they belong among the incorporeal and intelligible things, all ideas and measures and types and seals, so the evening of the fifth verse is not a time of day.")
+
+THREADS.extend([
+ thread("good-and-separated", "t-k9-p1", "philo-opif-33-34", "basil-hex-2-8", "parallel", "Basil says God kept their nature unmingled, and the Greek word for the mingling he denies is Philo's word for the confusion the borders prevent. Basil had read Philo and the Hexaemeron is one of the standard places to see it; nothing here names him. What Basil does not take over is the machinery: for Philo the separating is not enough on its own, because contiguity alone would restart the war, and it is the borders in the intervals that do the work."),
+ thread("good-and-separated", "t-k9-p2", "ambrose-hex-1-9b", "philo-opif-33-34", "echoes", "Ambrose's Hexaemeron follows Basil's, and Basil's follows Philo's, and neither of the two Christians says so. Ambrose: nothing may be seen to have anything confused within it. Philo: had not borders been set fast between them, being neighbours they would have wrought confusion. Ambrose has the conclusion and the word; Philo has the reason, which is that light and darkness are natural enemies contending for mastery. The direction of this edge is the direction of the transmission, from the later text back to the source it does not name, and it is the same shape as Bede copying Basil's Latin at Jarrow and removing the Jews from it."),
+ thread("good-and-separated", "t-k9-p3", "philo-opif-33-34", "bede-gen-1-4", "parallel", "Bede reads the dividing as real and local, not only by a difference of quality but of places, and Rabanus copies the sentence. Philo reads it as local for a reason Bede does not have: separated things that touch will fight, so God set borders in the intervals. Both refuse the reading that the division is only the naming, which is Ibn Ezra's, and both refuse the reading that it is only a judgement, which is Hugh's."),
+ thread("good-and-separated", "t-k9-p4", "philo-opif-33-34", "aug-gnl-imp-5-23", "parallel", "Augustine reaches for 2 Cor 6:14, what fellowship has light with darkness, and makes the incompatibility a moral one. Philo makes it a physical enmity between two natures, which is why his God has to build a border rather than pronounce a separation. Same premise, that these two cannot share a space, and two different kinds of reason for it."),
+])

@@ -1441,3 +1441,170 @@ The **Catena notice** — that Origen glossed ἐν ἀρχῇ as ἐν σοφί
 third-hand report in Baehrens under Akakios's name. Nothing is built on it. If it holds, it would
 close the gap this section has just widened: it would put the Son and Wisdom together in Origen's
 own words, and make Chalcidius's restraint the departure rather than the norm.
+
+---
+
+# Phase 6 part five — Philo of Alexandria, *De opificio mundi* (2026-09-06)
+
+**282 witnesses, 427 threads, 424 pages, all checks clean.** Eleven witnesses across **nine of the
+ten cruxes**, forty threads. The `greek-jewish` bench, which had held only the five LXX verses since
+Phase 2, now has a voice: the LXX is a translation, and until today nothing in the edition defended
+the equation of "the Jewish reading" with "the rabbinic reading". `chalcidius-caelum-et-terra`'s
+note no longer has to say that Philo "does not appear anywhere else in this edition"; **t-k5-p1 is
+the citation edge from Chalcidius to `philo-opif-29`, the one place in the project where a Latin
+witness names a Jewish author and the passage he names is printed beside him.**
+
+⚠ **Deviation from the brief, and it is upward.** The brief forecast five cruxes with K8 as a
+possible sixth. The build landed on nine: K1, K2, K4, K5, K6, K7, K8, K9, K10 — everything but K3
+(`elohim-and-trinity`), where Philo has nothing on the divine plurality of Gen 1:1. Three of the
+four unforecast placements are as strong as the forecast ones and none is a stretch: §1–3 answers
+K2's question outright and in its own terms; §30 asks K7's question as a question about privilege
+(why is the breath alone called God's?) and answers it from what breath does; §33–34 answers K9's
+question with a war and a demilitarised zone, and names the borders evening and morning, which is
+also what it contributes to K10. §29 went to K5 rather than being folded into another witness
+because it is the passage Chalcidius is reporting.
+
+## ⛔ The finding of the session, and it is not about Philo
+
+**The daf renderer had been dropping every witness that was not `latin` or `rabbinic`, silently.**
+The columns in `site/src/pages/crux/[id].astro` are built by predicate, and the predicates covered
+those two traditions, the Vulgate/LXX pair and the Glossa. Anything else was built, passed every
+`check.py` rule, was listed on the crux roster, got its own `/witnesses/` page — and never appeared
+on the daf. It survived there only inside the JavaScript thread data, so the wires pointed at notes
+that were not on the page.
+
+That hid **Philo's eleven witnesses the moment they were built**, and it had been hiding **Basil's
+three Greek witnesses since Phase 5** — `basil-hex-2-6b`, `basil-hex-2-8`, `basil-hex-1-26-judaei`,
+one of which is K9's Greek head. `check.py` cannot see this class: it checks the data, and the data
+was correct. Fixed, and the fix is small because the design had anticipated the bench and only the
+bucketing never landed — `--grk` and `.sn.greek-jewish` were already in `daf.css`. Basil goes with
+the Fathers (his witnesses are tagged `greek` only because the slice is of his Greek rather than of
+Eustathius's Latin); Philo gets his own block at the head of the left column.
+
+⭐ **New standing check: `scripts/daf-coverage.py`**, run after `npm run build`. Every witness on a
+built crux's roster must be a rendered note on that crux's daf and on its verse's dialogue page.
+It was negative-tested by stripping the new block out of a copy of `dist` — it fails, naming the
+three witnesses and their tradition, so its green light means something.
+
+## The loader, and two things the survey did not know
+
+`bench.greek()` slices Cohn's text by printed section number; `bench.yonge()` loads the aligned 1854
+English for checking a draft and is never embedded. The trap the brief named is real and is fixed in
+the loader rather than in a crux spec: **60 of the 172 sections carry the apparatus criticus inside
+the section div as `<note type="footnote">`**, so a naive tag-strip welds manuscript sigla into the
+middle of Philo's Greek in Greek script. Notes are dropped before any other flattening; verified
+that no `<pb>` ever falls inside a `<note>`, so no page break is lost with them. Two further things:
+
+- ⛔ **A single stray `|` survives in the whole file**, an OCR artifact left where a marginal Mangey
+  page reference fell — and it falls inside §26, one of this session's slices. One occurrence in
+  310 KB. Stripped in the loader.
+- ⛔ **§24 is corrupt in the TEI**: `ἤδη [νοητὴν]ν [[νοητὴν]ητὴν]. πόλιν κτίζειν διανοουμένου`. It is
+  the section that says outright that the intelligible world is nothing other than the Reason of God
+  already creating, so it is the one a careless build would most want. It is **not sliced**; §20 says
+  the same thing in words that are sound, and the corruption is recorded in
+  `philo-opif-17-20`'s note.
+
+## English
+
+Drafted fresh from the Greek, **`DRAFT`**, not approved. Yonge is public domain and aligned and is
+deliberately not embedded: he gives *νοητός* as "perceptible only by the intellect" and paraphrases.
+Register additions, extending the frozen list rather than reopening it: *νοητὸς κόσμος* = "the
+intelligible world", *αἰσθητὸς κόσμος* = "the perceptible world" (never "world of ideas");
+*λόγος* = "Reason" where it is God's and "word" where it is speech; *ἀρχή* = "beginning", with
+*κατὰ χρόνον* / *κατ’ ἀριθμόν* = "according to time" / "according to number"; *μόνωσις* =
+"solitariness" and *μοναδικός* = "monadic", never "unity"; *δημιουργός* = "craftsman";
+*στερέωμα* = "firmament"; *ἄποιος* = "without quality", *ἄτακτος* = "without order";
+*ἰδέα* = "idea"; *παράδειγμα* = "model".
+
+⚠ **One rendering is new and is flagged rather than assumed**: *τεχνίτης* = **"artificer"**. The
+frozen list already spends "craftsman" on *artifex/faber* and *δημιουργός*, "workman" on *opifex*
+and "worker" on *operator*, and §20 puts *τεχνίτης* and *δημιουργός* in the same paragraph about the
+same man, so collapsing them would lose the distinction Philo is drawing. Overturnable on a word.
+
+## ⚠ Three findings, written not executed — yes or no to each
+
+Findings are Wilson's. Each of these is an addition, not a replacement, and each is reversible.
+
+### 1. K1 (`beginning-of-what`) — a third loss, running the other way
+
+K1's finding says the contact existed at the head of the tradition and the Latin transmission lost
+it, and documents that twice: Chalcidius on Origen *ab Hebraeis*, and Basil's Latin *Hexaemeron*
+copied by Bede with every Jew removed. Philo is a third case and it inverts the direction.
+
+> A third loss, and it runs the other way. Philo of Alexandria read these verses in Greek four
+> centuries before Bereshit Rabbah and told the same parable: a king founds a city, a trained
+> architect draws the whole of it within himself first and carries an intelligible city in his
+> soul, and only then builds in stone; so God conceived the types, made an intelligible world out
+> of them, and used it as the model for this one. The midrash's amon, the craftsman's plan the King
+> builds from, is that parable with the Torah put in the architect's hand. Nobody need have
+> borrowed anything for that to matter; what matters is who kept him. The rabbinic bench does not
+> cite Philo once and did not preserve him. He survives because the church copied him, and he was
+> recovered for Judaism only in the sixteenth century, by Azariah dei Rossi. So the mechanism this
+> finding has twice described in one direction runs in the other as well: the Latin bench lost the
+> philology it had been handed, and the rabbinic bench lost the one Jewish reader of Genesis 1
+> whose reading of this verse its own commentary most resembles. Nor did the Latins who preserved
+> him know what they had. Chalcidius names him and was read by nobody; Ambrose's Hexaemeron follows
+> his De opificio closely and rarely says so.
+
+### 2. K10 (`one-day-evening-first`) — the head of both halves of the meeting
+
+K10's finding says the two benches meet on the grammar (Bereshit Rabbah 3:9's objection to the
+series, answered by Bruno's logic of relatives) and part on the calendar. Both halves have a head,
+and the head supplies a third reading the finding does not currently name.
+
+> Both halves of that meeting have a head, and it is the same man. Philo of Alexandria, writing in
+> Greek before either bench existed, gives the grammatical argument first: Moses does not even call
+> it first, so that it should not be counted in along with the others. That is Bruno's logic of
+> relatives a thousand years early and Bereshit Rabbah 3:9's objection to the series eleven hundred
+> years early. And he gives a reason neither bench states — day not first but one, because of the
+> monosis of the intelligible world, its solitariness, which has a monadic nature. Monosis is not
+> unity and it is not primacy; it is the condition of having nothing beside you, which is exactly
+> what Rashi means by yachid be-olamo, that God was alone in his world that day because there was
+> not yet a second anything to count with. Three benches read the cardinal as a claim about being
+> alone rather than about position in a series, and the oldest of the three is the one neither of
+> the others knew it had.
+
+### 3. K2 (`why-begin-here`) — an older answer, Jewish, and on neither bench
+
+K2's finding stages Rashi against Hugh: two traditions' reasons for having a commentary, the same
+shape and opposite in content. Philo asks the same question from the same premise a thousand years
+before Rashi and answers it in a third way.
+
+> There is an older answer than either, and it belongs to neither bench. Philo opens De opificio
+> with this crux's exact objection, that this is a book of laws and does not open like one, and
+> answers that the opening is the law's credential: the cosmogony is there so that the world shall
+> be shown to agree with the law and the law with the world, and so that the man who keeps the law
+> shall be a citizen of the cosmos, directing his conduct by the nature that governs the world
+> itself. Rashi's answer secures a title to a particular land and Hugh's concedes that the chapter
+> is not what his own book is for. Philo's is jurisprudential, and it is the only answer on this
+> daf that makes Genesis 1 do work for the legislation that follows it. His framing does survive on
+> the Latin bench, with the philosophy taken out: other lawgivers wrote either bare statutes or
+> myths, and Moses did neither, is Augustine's "not with ornate and polished speech but with plain
+> facts".
+
+**Not affected, checked:** K4's "three benches, one analogy, no contact" stands — Philo does not use
+the craftsman-and-material analogy in §21–22, and his architect is at K1. K5, K6, K7, K8 and K9 are
+strengthened by their new witnesses and contradicted by none of them.
+
+## ⚠ Also for Wilson, and it is a framing question, not a finding
+
+The index and the colophon describe this edition as **two benches**. It now prints sixteen
+`greek-jewish` witnesses — the five LXX verses and Philo's eleven — and Philo argues, which the
+Seventy do not. The daf shows him in his own block at the head of the left column, under his own
+name, in the `--grk` colour the stylesheet already had. **Nothing has been changed in the index or
+the colophon.** The question is whether the edition should stop calling itself two benches, and it
+is worth answering now that there is a page to look at rather than in the abstract.
+
+## Method, worth carrying
+
+1. ⭐ **A green check is only worth what its negative test is worth.** `daf-coverage.py` was written
+   against a bug that had already shipped once, so it was run against a doctored copy of `dist`
+   before being trusted. A checker that has never been seen to fail is a claim, not a control.
+2. ⛔ **A defect in the last stage of a pipeline is invisible to every check on the earlier ones.**
+   Eleven witnesses were correct in the data, correct in the roster, correct on their own pages, and
+   absent from the only page anyone reads. The class is not "the renderer is buggy"; it is "nothing
+   was checking that the data reaches the ink".
+3. **A brief's roster is a floor.** The survey found five cruxes because it filtered on the cruxes
+   it expected; reading the sections in sequence found four more, and three of those four are
+   witnesses the daf would be poorer without. The estimate held anyway (~95K against 90–130K),
+   because the discovery was inside a text already identified.

@@ -370,3 +370,32 @@ ANSWERS = {
  "fiat-is-instantaneous": {"label": "Speaking is making", "gloss": "No interval between the command and the thing: the Hebrew says only 'let it be, and it was' (Ambrose, Basil, Angelomus, Abelard)."},
 }
 SHORT = "Yehi or / fiat lux"
+
+# ================================================================ Philo (Phase 6 part five, 2026-09-06)
+# philo-opif-31 is defined here; philo-opif-30, defined on K7, also carries this crux and is folded
+# into the roster by build-crux.py. The `lux-intelligibilis` answer is defined in K7's spec with
+# that witness. See scripts/philo.py.
+import philo
+from philo import BASE as _PH, PDRAFT
+from bench import greek as _gk
+
+PERSONS.update(philo.PERSONS)
+LICENSES = dict(philo.LICENSES)
+
+add(**_PH, id="philo-opif-31",
+    anchor={"verse": "gen.1.3"},
+    lemma={"el": "τὸ δὲ ἀόρατον καὶ νοητὸν φῶς ἐκεῖνο θείου λόγου γέγονεν εἰκών",
+           "en": "and that invisible and intelligible light has come to be an image of the divine Reason"},
+    original=_gk(31),
+    english={"text": "And that invisible and intelligible light has come to be an image of the divine Reason, which interpreted its genesis; and it is a supercelestial star, spring of the perceptible stars, which one would not be wide of the mark in calling all-brightness, from which the sun and the moon and the other wandering and fixed stars draw, so far as each has the power, the beams that befit them, that unmixed and pure radiance being dimmed when it begins to turn by the change from the intelligible to the perceptible.",
+             **PDRAFT},
+    tradents=[], cruxes=["first-light"], senses=["literal", "spiritual"],
+    answers=["lux-intelligibilis", "lux-becomes-luminaries"],
+    notes="The oldest answer on this daf to the question the whole crux is, and the one that gives the mechanism the others only gesture at. The light of the first day is invisible and intelligible, an image of the divine Reason; it is a supercelestial star and the spring of the perceptible stars, and the sun and moon and the rest draw their beams from it, each so far as it can, the pure radiance dimming as it turns from the intelligible to the perceptible. That is an answer to the objection that governs the Latin discussion, which is what the light was doing for three days before the sun: on this account the sun does not replace it but is filled from it. Bereshit Rabbah 3:4 asks from what the light was created and answers from the light of God's garment; the Pirkei de-Rabbi Eliezer says the same; the Latin bench splits between a bodily light and the angelic creation. Philo alone makes the relation between the first light and the luminaries a matter of derivation and degree, which is what lux-becomes-luminaries means in the Latin sources without any account of how.")
+
+THREADS.extend([
+ thread("first-light", "t-k8-p1", "philo-opif-31", "br-3-4", "parallel", "The same question, asked in the same terms, with two answers that are structurally identical and materially unrelated. Bereshit Rabbah 3:4: from what was the light created? R. Shimon says the Holy One wrapped himself in it like a garment and the splendour of his majesty shone from one end of the world to the other. Philo: the intelligible light is an image of the divine Reason, a supercelestial star and the spring of the perceptible stars. Both make the first light an overflow from God rather than a creature standing on its own, and both make the visible lights derivative from it. Neither can have read the other."),
+ thread("first-light", "t-k8-p2", "philo-opif-31", "aug-gnl-1-3", "parallel", "Augustine's whether something spiritual or something bodily is the question Philo has already answered, and answered in a way that dissolves the alternative. For Philo the light of the first day is intelligible and the visible lights draw from it, so it is neither a body nor a substitute for one; it is the model. Augustine has no such category available at this point in the Genesis literature and works the question as a disjunction, which is how the Latin bench holds it for the next seven hundred years."),
+ thread("first-light", "t-k8-p3", "philo-opif-31", "pdre-3-6", "parallel", "Pirkei de-Rabbi Eliezer: the light was created from the light of his garment. Philo: it is an image of the divine Reason. The two answers are the same shape, an emanation from something of God's own rather than a thing made from nothing, and they are the only two on this daf that make the first light continuous with its source. The Latin witnesses that come nearest, the angelic light of Angelomus and the Glossa's spiritual light, all make it a creature."),
+ thread("first-light", "t-k8-p4", "philo-opif-30", "b-chag-12a-light", "parallel", "The Bavli says the light the Holy One created on the first day was such that a man could see from one end of the world to the other, and that seeing what the generations would do he stored it away for the righteous. Philo says the intelligible outshines the visible as the mind outshines the eyes of the body. Both are saying that the first light is out of proportion to any use the world has for it; the Bavli answers by removing it from the world, Philo by putting it in a different order of being."),
+])

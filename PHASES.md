@@ -41,6 +41,19 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
   u/v normalised to classical usage, nothing else altered, and the print's own **marginal keywords
   are the early-modern editor's finding aids and are never part of the text**. This exception is for
   works off the bench; it does not license retyping anything that is in the TEI.
+- **The Greek bench, added 2026-09-06 (Phase 6 part five, Philo).** Greek is **sliced by printed
+  section number** out of a TEI in `raw/first1k/`, with `bench.greek()`; there is no anchor phrase
+  and no offset arithmetic, so the whole class of anchor failures does not arise. Cite the section
+  and the Cohn–Wendland volume and page from `<pb n="v.1.p.11"/>`, the way the Latin bench cites a
+  PL column. ⛔ **The critical apparatus lives inside the section divs as `<note>` and must be
+  dropped before any other flattening** — it is Greek script in the middle of Greek text and
+  nothing downstream catches it. That is done in the loader, never in a crux spec. `overlap.py`
+  does not cover this bench; `grep -l` against `data/witnesses/*.json` before reusing an id.
+- **Every witness must reach the ink, and `check.py` cannot see whether it does.** The daf's
+  columns are built by predicate in the Astro pages, so a witness on a bench no predicate names is
+  built, rostered, given its own page and silently dropped from the daf. Run
+  **`scripts/daf-coverage.py` after every `npm run build`**, alongside `check.py` after every
+  `build-crux.py`. It is negative-tested; keep it that way if you change it.
 - Latin is **sliced from the local TEI by anchor phrase** (`~/patrologia/sources/pl/tei/<idno>.xml`; ids in `data/latin-bench.json`). Never retype Latin. PL column is computed from the last `<pb>` before the start anchor. If an anchor fails, fix the anchor; do not paste text.
 - Rabbinic text comes from `raw/sefaria/*.json` pulled by `scripts/pull-sefaria.py`, using only the versions pinned there (Wikisource Bavli CC BY-SA; Sefaria Midrash Rabbah 2022 CC BY; Silbermann Rashi PD; Etheridge PD; Guggenheimer Yerushalmi CC BY; Berman Tanchuma CC BY). Davidson/Steinsaltz is never embedded.
 - Edges need `evidence` quoting the words that prove the dependency. A shared image without a citation is `parallel`. Direction later → earlier except `transmits`. When a witness names its source (`HIERON.`, `AUG.`), that is `cites`; verbatim reuse without a name is `echoes`.

@@ -1,0 +1,42 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-31",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "el": "τὸ δὲ ἀόρατον καὶ νοητὸν φῶς ἐκεῖνο θείου λόγου γέγονεν εἰκών",
+  "en": "and that invisible and intelligible light has come to be an image of the divine Reason"
+ },
+ "original": {
+  "lang": "el",
+  "text": "τὸ δὲ ἀόρατον καὶ νοητὸν φῶς ἐκεῖνο θείου λόγου γέγονεν εἰκὼν τοῦ διερμηνεύσαντος τὴν γένεσιν αὐτοῦ· καὶ ἔστιν ὑπερουράνιος ἀστήρ, πηγὴ τῶν αἰσθητῶν ἀστέρων, ἣν οὐκ ἂν ἀπὸ σκοποῦ καλέσειεν ἄν τις παναύγειαν, ἀφ’ ἧς ἥλιος καὶ σελήνη καὶ οἱ ἄλλοι πλάνητές τε καὶ ἀπλανεῖς ἀρύτονται, καθ’ ὅσον ἑκάστῳ δύναμις, τὰ πρέποντα φέγγη, τῆς ἀμιγοῦς καὶ καθαρᾶς αὐγῆς ἐκείνης ἀμαυρουμένης, ὅταν ἄρξηται τρέπεσθαι κατὰ τὴν ἐκ νοητοῦ πρὸς αἰσθητὸν μεταβολήν·",
+  "source": "Philo, De opificio mundi 31 (Cohn-Wendland i. 9-10)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "And that invisible and intelligible light has come to be an image of the divine Reason, which interpreted its genesis; and it is a supercelestial star, spring of the perceptible stars, which one would not be wide of the mark in calling all-brightness, from which the sun and the moon and the other wandering and fixed stars draw, so far as each has the power, the beams that befit them, that unmixed and pure radiance being dimmed when it begins to turn by the change from the intelligible to the perceptible.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "lux-intelligibilis",
+  "lux-becomes-luminaries"
+ ],
+ "notes": "The oldest answer on this daf to the question the whole crux is, and the one that gives the mechanism the others only gesture at. The light of the first day is invisible and intelligible, an image of the divine Reason; it is a supercelestial star and the spring of the perceptible stars, and the sun and moon and the rest draw their beams from it, each so far as it can, the pure radiance dimming as it turns from the intelligible to the perceptible. That is an answer to the objection that governs the Latin discussion, which is what the light was doing for three days before the sun: on this account the sun does not replace it but is filled from it. Bereshit Rabbah 3:4 asks from what the light was created and answers from the light of God's garment; the Pirkei de-Rabbi Eliezer says the same; the Latin bench splits between a bodily light and the angelic creation. Philo alone makes the relation between the first light and the luminaries a matter of derivation and degree, which is what lux-becomes-luminaries means in the Latin sources without any account of how."
+}

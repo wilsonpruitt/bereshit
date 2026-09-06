@@ -19,7 +19,8 @@ a{color:inherit}
 .rab{border-left:1px solid var(--rule);padding-left:26px}
 .lat{border-right:1px solid var(--rule);padding-right:26px}
 .col-h{font:600 10.5px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:0 0 10px;display:flex;justify-content:space-between}
-.col-h.rab{color:var(--rab)} .col-h.lat{color:var(--lat)}
+.col-h.rab{color:var(--rab)} .col-h.lat{color:var(--lat)} .col-h.grk{color:var(--grk)}
+.grk-bench{margin:0 0 18px;padding:0 0 14px;border-bottom:1px solid var(--rule)}
 .mid .verse{text-align:center;padding:6px 8px 14px}
 .mid .heb{font-family:var(--heb);font-size:27px;line-height:1.7;direction:rtl}
 .mid .la{font-style:italic;font-size:20px;margin-top:6px}
@@ -37,7 +38,7 @@ a{color:inherit}
 .sn.slot{opacity:.55} .sn.slot .ex{font-style:italic}
 .sn .chips{display:inline-flex;flex-wrap:wrap;gap:4px;margin-left:6px}
 .sn .chips span{font:500 9px var(--sans);letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--rule);padding:1px 5px;color:var(--mute);border-radius:2px}
-.sn.on{background:var(--hi)} .sn.rel{box-shadow:inset 3px 0 0 var(--mute);padding-left:8px} .sn.rel.rabbinic{box-shadow:inset 3px 0 0 var(--rab)} .sn.rel.latin{box-shadow:inset 3px 0 0 var(--lat)}
+.sn.on{background:var(--hi)} .sn.rel{box-shadow:inset 3px 0 0 var(--mute);padding-left:8px} .sn.rel.rabbinic{box-shadow:inset 3px 0 0 var(--rab)} .sn.rel.latin{box-shadow:inset 3px 0 0 var(--lat)} .sn.rel.greek-jewish{box-shadow:inset 3px 0 0 var(--grk)}
 .sn:focus-visible{outline:2px solid var(--rab);outline-offset:2px}
 .sn.dim{opacity:.38}
 #wires{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}

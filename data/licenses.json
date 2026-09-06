@@ -74,5 +74,10 @@
  "chalcidius-1520": {
   "label": "Chalcidius on the Timaeus, Paris: Josse Bade, 1520 — public domain",
   "note": "Transcribed from the page images of archive.org item bub_gb_LxGcsxR3tWgC (Bayerische Staatsbibliothek, digitised by Google), which carries no rights notice of any kind. The 1520 print is not a critical edition and this edition cites the edition actually used rather than a modern one; where a reading matters, the variant is recorded in the witness notes. One is worth naming here: this print gives Prov 8:22 as creauit me Deus progressionis suae SEMITAM, where the text quoted in K1's finding, from Baehrens's apparatus to Origen's first homily, has PRIMITIAM. Chalcidius was escalated at Phase 6 part one as wanting Waszink's Plato Latinus, on the ground that the only free text was uncorrected OCR of a 1617 print whose images carry a ProQuest notice. That was true of the 1617 item and not of this one."
+ },
+ "first1k-greek": {
+  "label": "Cohn's Greek text of Philo, TEI edition by OpenGreekAndLatin/First1KGreek - CC BY-SA 4.0",
+  "attribution": "Philo, De opificio mundi, ed. Leopold Cohn, Philonis Alexandrini opera quae supersunt i (Berlin: Reimer, 1896). TEI text tlg0018.tlg001.1st1K-grc1 from OpenGreekAndLatin/First1KGreek (University of Leipzig / Perseus, Digital Divide Data), licensed CC BY-SA 4.0.",
+  "note": "Cohn's 1896 text is itself in the public domain and this edition holds that a faithful transcription of a public-domain text creates no new right. What is licensed here is the file actually used, including its correction and encoding, and the site already carries CC BY-SA components under per-component licensing (Wikisource Talmud Bavli, Wikisource Bereshit Rabbah, Miqra according to the Masorah). This key does the same. The critical apparatus that the file carries inside its section divisions is not reproduced; it is stripped in the loader, and where a reading matters the variant is recorded in the witness notes."
  }
 }

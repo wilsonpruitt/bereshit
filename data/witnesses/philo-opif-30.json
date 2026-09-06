@@ -1,0 +1,43 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-30",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "el": "τὸ μὲν γὰρ ὠνόμασε θεοῦ, διότι ζωτικώτατον τὸ πνεῦμα",
+  "en": "the one he named God's, because breath is the most life-giving thing"
+ },
+ "original": {
+  "lang": "el",
+  "text": "Προνομίας δὲ τό τε πνεῦμα καὶ τὸ φῶς ἠξιοῦτο· τὸ μὲν γὰρ ὠνόμασε θεοῦ, διότι ζωτικώτατον τὸ πνεῦμα, ζωῆς δὲ θεὸς αἴτιος, τὸ δὲ φῶς φησιν ὅτι ὑπερβαλλόντως καλόν (Gen. 1,4)· τοσούτῳ γὰρ τὸ νοητὸν τοῦ ὁρατοῦ λαμπρότερόν τε καὶ αὐγοειδέστερον ὅσῳπερ ἥλιος, οἶμαι, σκότους καὶ ἡμέρα νυκτὸς καὶ [τὰ κριτήρια] νοῦς, ὁ τῆς ὅλης ψυχῆς ἡγεμών, ὀφθαλμῶν σώματος.",
+  "source": "Philo, De opificio mundi 30 (Cohn-Wendland i. 9)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "Both the breath and the light were counted worthy of a privilege: the one he named God's, because breath is the most life-giving thing, and God is the cause of life; and of the light he says that it is surpassingly beautiful (Gen 1:4). For the intelligible is more radiant and more full of brightness than the visible by as much as the sun, I think, is than darkness, and day than night, and the mind, the leader of the whole soul, than the eyes of the body.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "ruach-hovering",
+  "first-light"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "spirit-is-life-giving",
+  "lux-intelligibilis"
+ ],
+ "notes": "The question this crux is built on, asked as a question about privilege rather than about identity. Philo notices that of everything in the inventory only two things are given something extra: the breath is called God's and the light is called beautiful. Then he asks why, and the answer for the breath is functional, not personal: pneuma is named God's because breath is the most life-giving of things and God is the cause of life. That is neither the targums' wind from before the Lord nor the Latin bench's third person of the Trinity; it is a reason drawn from what breath does. Augustine at Confessions 13 asks Philo's exact question, why only the Holy Spirit was borne above the waters, and answers from the doctrine of the Trinity. The other half of the sentence belongs to K8: the light of the first day is praised because the intelligible outshines the visible as the mind outshines the eyes, which is the comparison the whole Latin argument about a spiritual light is trying to make and never states this cleanly."
+}

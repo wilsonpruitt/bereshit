@@ -554,5 +554,45 @@
  "i-and-the-earth": {
   "label": "I and the earth",
   "gloss": "The plural has a second subject and it is the ground: the earth to bring forth the body from its elements, God to give the spirit (Ramban, crediting R. Yosef Kimḥi)."
+ },
+ "beginning-is-the-intelligible-world": {
+  "label": "The plan in the maker's mind",
+  "gloss": "The beginning is the intelligible world, which has no place but the Reason of the God who set it in order, as the city planned by an architect has no place but his soul (Philo). The rabbinic bench says the same thing of the Torah as amon."
+ },
+ "law-agrees-with-the-cosmos": {
+  "label": "The law and the world agree",
+  "gloss": "Moses opened with a cosmogony so that the world should be in harmony with the law and the law with the world, and the man who keeps it be a citizen of the world (Philo). The oldest answer on this crux, and the only one that makes the opening a claim about the law rather than about creation."
+ },
+ "heaven-earth-are-incorporeal": {
+  "label": "An incorporeal heaven and an invisible earth",
+  "gloss": "What was made first was not this heaven and this earth but their incorporeal models, along with the idea of air and of void, which the verse calls darkness and abyss (Philo, reported in Latin by Chalcidius)."
+ },
+ "firmamentum-is-the-corporeal-heaven": {
+  "label": "'Firmament' names the heaven as body",
+  "gloss": "The perceptible heaven is called stereoma precisely because it is corporeal, body being by nature solid and extended in three directions: the name marks it off from the intelligible heaven (Philo)."
+ },
+ "spirit-is-life-giving": {
+  "label": "Named God's because it gives life",
+  "gloss": "The breath of Gen 1:2 is called God's because breath is the most life-giving thing and God is the cause of life: an argument from what pneuma does, not from who it is (Philo)."
+ },
+ "lux-intelligibilis": {
+  "label": "An intelligible light, model of the sun",
+  "gloss": "The light of the first day is incorporeal and intelligible, the model of the sun and of the stars, and an image of the divine Reason; the visible lights draw their beams from it (Philo)."
+ },
+ "divisio-prevents-war": {
+  "label": "Separated so they should not be at war",
+  "gloss": "Light and darkness are natural enemies; God not only separated them but set borders in the intervals between, so that neighbouring they should not fight for mastery and put disorder inside the ordered world. The borders are evening and morning (Philo)."
+ },
+ "unus-not-counted-with-the-rest": {
+  "label": "Not counted in with the other days",
+  "gloss": "Moses does not even call it first, so that it should not be numbered along with the others; he calls it one, having seen in it the nature of the monad (Philo)."
+ },
+ "unus-monad": {
+  "label": "The monad's solitariness",
+  "gloss": "It is called one because of the solitariness of the intelligible world, which has a monadic nature: a claim about being alone, not about position in a series (Philo)."
+ },
+ "evening-morning-are-incorporeal": {
+  "label": "Evening and morning are among the intelligibles",
+  "gloss": "Morning and evening are to be placed in the order of the incorporeal and intelligible things, ideas and measures and types and seals, so the evening of the fifth verse is not a time of day (Philo)."
  }
 }

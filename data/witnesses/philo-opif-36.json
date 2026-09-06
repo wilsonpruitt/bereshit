@@ -1,0 +1,41 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-36",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "ὃν ἐτύμως στερέωμα προσηγόρευσεν ἅτε σωματικὸν ὄντα",
+  "en": "which he rightly named 'firmament', inasmuch as it is corporeal"
+ },
+ "original": {
+  "lang": "el",
+  "text": "Ὁ μὲν οὖν ἀσώματος κόσμος ἤδη πέρας εἶχεν ἱδρυθεὶς ἐν τῷ θείῳ λόγῳ, ὁ δ’ αἰσθητὸς πρὸς παράδειγμα τούτου ἐτελειογονεῖτο. καὶ πρῶτον αὐτοῦ τῶν μερῶν, ὃ δὴ καὶ πάντων ἄριστον, ἐποίει τὸν οὐρανὸν ὁ δημιουργός, ὃν ἐτύμως στερέωμα προσηγόρευσεν ἅτε σωματικὸν ὄντα· τὸ γὰρ σῶμα φύσει στερεόν, ὅτιπερ καὶ τριχῆ διαστατόν· στερεοῦ δὲ καὶ σώματος ἔννοια τίς ἑτέρα πλὴν τὸ πάντῃ διεστηκός; εἰκότως οὖν ἀντιθεὶς τῷ νοητῷ καὶ ἀσωμάτῳ τὸν αἰσθητὸν καὶ σωματοειδῆ τοῦτον στερέωμα ἐκάλεσεν.",
+  "source": "Philo, De opificio mundi 36 (Cohn-Wendland i. 11)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "The incorporeal world, then, had already reached its end, established in the divine Reason; and the perceptible was being brought to completion after the model of that one. And first of its parts, the best of them all, the craftsman made the heaven, which he rightly named 'firmament', inasmuch as it is corporeal; for body is by nature solid, since it is also extended in three directions, and what other notion is there of the solid and of body than what is extended in every direction? Fittingly, then, setting the perceptible and body-formed against the intelligible and incorporeal, he called this one 'firmament'.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "heaven-earth-order"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "firmamentum-is-the-corporeal-heaven",
+  "heaven-first"
+ ],
+ "notes": "Anchor note: Philo is here on the word stereoma, which the Greek Genesis has at 1:6 and not at 1:1, and the witness is anchored on 1:1 under the second clause of the anchor rule. What he is doing is answering this crux's question, what is the heaven of the first verse, and he answers it by pairing the two words: the heaven of the beginning is the incorporeal one, established in the divine Reason, and the heaven the chapter goes on to call firmament is the corporeal one, named firmament for that very reason, because body is what is extended in three directions. That is the same argument from the chapter's own vocabulary that Chalcidius makes in Latin, and Chalcidius makes it having read this book: the firmament is not called heaven until the second day, so the heaven of the beginning must be something else. Remigius reaches the conclusion, the empyrean heaven, without any argument at all, and Comestor turns it into the schoolroom formula of the container and the thing contained. Philo's version is the only one on the daf that gets there from a definition of body."
+}

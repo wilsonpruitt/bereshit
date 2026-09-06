@@ -1,0 +1,42 @@
+{
+ "work": "philo-opif",
+ "author": "philo",
+ "tradition": "greek-jewish",
+ "date": 40,
+ "date_precision": "floruit-30-45",
+ "place": "alexandria",
+ "id": "philo-opif-1-3",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "el": "τοῦ κόσμου τῷ νόμῳ καὶ τοῦ νόμου τῷ κόσμῳ συνᾴδοντος",
+  "en": "the world being in harmony with the law and the law with the world"
+ },
+ "original": {
+  "lang": "el",
+  "text": "Τῶν ἄλλων νομοθετῶν οἱ μὲν ἀκαλλώπιστα καὶ γυμνὰ τὰ νομισθέντα παρ’ αὐτοῖς εἶναι δίκαια διετάξαντο, οἱ δὲ πολὺν ὄγκον τοῖς νοήμασι προσπεριβαλόντες ἐξετύφωσαν τὰ πλήθη μυθικοῖς πλάσμασι τὴν ἀλήθειαν ἐπικρύψαντες. Μωυσῆς δ’ ἑκάτερον ὑπερβάς, τὸ μὲν ὡς ἄσκεπτον καὶ ἀταλαίπωρον καὶ ἀφιλόσοφον, τὸ δ’ ὡς κατεψευσμένον καὶ μεστὸν γοητείας, παγκάλην καὶ σεμνοτάτην ἀρχὴν ἐποιήσατο τῶν νόμων, μήτ’ εὐθὺς ἃ χρὴ πράττειν ἢ τοὐναντίον ὑπειπὼν μήτ’, ἐπειδὴ προτυπῶσαι τὰς διανοίας τῶν χρησομένων τοῖς νόμοις ἀναγκαῖον ἦν, μύθους πλασάμενος ἢ συναινέσας τοῖς ὑφ’ ἑτέρων συντεθεῖσιν. ἡ δ’ ἀρχή, καθάπερ ἔφην, ἐστὶ θαυμασιωτάτη κοσμοποιίαν περιέχουσα, ὡς καὶ τοῦ κόσμου τῷ νόμῳ καὶ τοῦ νόμου τῷ κόσμῳ συνᾴδοντος καὶ τοῦ νομίμου ἀνδρὸς εὐθὺς ὄντος κοσμοπολίτου πρὸς τὸ βούλημα τῆς φύσεως τὰς πράξεις ἀπευθύνοντος, καθ’ ἣν καὶ ὁ σύμπας κόσμος διοικεῖται.",
+  "source": "Philo, De opificio mundi 1-3 (Cohn-Wendland i. 1)",
+  "license": "first1k-greek",
+  "version": "Cohn-Wendland, Philonis Alexandrini opera quae supersunt i (Berlin 1896), TEI text from OpenGreekAndLatin/First1KGreek"
+ },
+ "english": {
+  "text": "Of the other lawgivers, some set down what were held among them to be just things bare and unadorned, while others, wrapping their conceptions about with a great bulk, blinded the multitude by hiding the truth under mythical fictions. But Moses, going beyond both, the one as unconsidered and unlaboured and unphilosophical, the other as false and full of trickery, made the beginning of his laws altogether beautiful and most solemn: he neither said outright at the start what must be done or not done, nor, since it was necessary to shape beforehand the minds of those who were to use the laws, did he invent myths or assent to those composed by others. And his beginning, as I said, is most marvellous, containing a cosmogony: for the world is in harmony with the law and the law with the world, and the man who keeps the law is at once a citizen of the world, directing his actions towards the will of nature, by which the whole world too is governed.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "why-begin-here"
+ ],
+ "senses": [
+  "literal",
+  "moral"
+ ],
+ "answers": [
+  "law-agrees-with-the-cosmos",
+  "written-for-the-unlearned"
+ ],
+ "notes": "This crux's question asked and answered before any other witness on the daf was born, and answered in a way nobody else here even considers. Rashi asks why the Torah does not begin at Exodus 12:2, since it is a book of commandments, and answers with a claim to the land. Philo asks the same question from the same premise, that this is a book of laws and does not open like one, and answers that the opening is the law's credential: the cosmogony is there so that world and law shall be shown to agree, and the man who keeps the law shall be a citizen of the world, aligning his conduct with the nature by which the world itself is run. Where Rashi's answer is political and Ambrose's and Augustine's are apologetic, Philo's is jurisprudential. The framing is also the one every Latin here repeats without knowing whose it is: other lawgivers either wrote bare statutes or dressed them in myth, and Moses did neither. Augustine's not with ornate and polished speech but with plain facts is that same contrast with the philosophy taken out of it."
+}
