@@ -213,7 +213,37 @@ view → dialogue view → witnesses/persons/places → colophon → Pagefind.
 
 ## Phase 6 — Second-tier sources · **Opus** (vision work needs care)
 
-Only after Phases 2–4: Origen/Rufinus Hom. in Gen. I (GCS Baehrens, archive.org, PD) for K1/K3; Lyra Gen 1 from the 1492 Venice *Biblia cum glossa* (transcription = vision OCR, follow `feedback_vision-ocr-discipline`); Paul of Burgos; Bonaventure II Sent. d.12–13 slices from `~/bonaventure-sentences/vol2/`; Etheridge Onkelos and Daat BR Hebrew by alternate fetch; Sefaria attribution string.
+**PART ONE DONE 2026-09-05.** Wilson scoped the session to the cheap jobs plus Origen and gave two
+standing rulings first (the widened anchor rule, above under Frozen conventions; *operator* =
+"worker", under Phase 3). Four witnesses added, roster **239 witnesses / 329 threads**, `check.py`
+clean, `npm run build` clean, `astro check` 0 errors, **370 pages**. Full write-up in the Phase 6
+section of `notes/SOURCES-FINDINGS.md`.
+
+- **Built**: `targ-onk-1-5` (Onkelos on Gen 1:5 — cited twice on the K10 daf and not on it);
+  `basil-hex-2-8b` (PL 53:888A, the passage every later Latin answer to "why evening first"
+  descends from, which the K10 greps missed); `bonaventure-sent-2-13-1-2` (II Sent. d.13 a.1 q.2,
+  *duplex est hic modus dicendi … Graecos … Latinos*, on K10 and K9);
+  `origen-hom-gen-1-1` (GCS 29 p.1, the head of the *in principio = in Filio* stream).
+- **Two defects found and fixed, each with a `check.py` rule so the class cannot recur.**
+  `br-3-8` had shipped since K10 with an original of `"."` — a `str.find` returning -1 used as a
+  slice index (rule 7, plus `bench.hcut(b=None)` / `bench.ecut`, which raise). And 29 CC BY passages
+  were keyed to the generic `cc-by`, so the colophon rendered no attribution for licences that
+  require it (rule 8).
+- **Two plan items resolve negatively**: Daat BR Hebrew and Etheridge Onkelos are both on Sefaria's
+  index for their works and both return **zero versions for the chapters this edition uses**.
+  Etheridge came from archive.org instead. The BR Hebrew licence is **still open and Wilson's** —
+  the only free alternative, Wikisource CC BY-SA, costs nineteen re-cuts and changes the evidence
+  in two places.
+- ⚠ **Escalated, not decided**: Baehrens's apparatus to Origen's first page carries a Catena notice
+  and a passage of Chalcidius that bear on K1's "no contact either way". Amending a `finding` is
+  not a builder's call.
+
+**Still unbuilt** — Lyra Gen 1 from the 1492 Venice *Biblia cum glossa* and Paul of Burgos
+(transcription = vision OCR, follow `feedback_vision-ocr-discipline`; its own session, ~150–200K);
+Bonaventure II Sent. d.12 a.2 q.3 (*quam relationem materia illa informis habuerit ad locum*, quotes
+Hugh, → K6) and the d.13 light questions a.2–a.3 (→ K8); and Gen 1:26 *Faciamus hominem* into K3,
+which the widened anchor rule now permits and where most of the Latin material on divine plurality
+actually sits.
 
 ## Phase 7 — Deploy · **Haiku**
 
