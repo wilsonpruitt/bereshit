@@ -14,6 +14,14 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
 ### Data
 - Schema is `PLAN.md` §4 exactly, plus two facets added in the pilot: `answers` (ids from `data/answers.json`, one file per crux family set) and `senses` (`literal | allegorical | spiritual | translation`). Every witness carries both.
 - One witness = one continuous argument on the verse from one work. A work may yield several witnesses (Augustine has five on 1:2). Never merge distinct arguments to save a card.
+- **The anchor rule, as widened by Wilson 2026-09-05 (Phase 6 session).** A witness is normally
+  anchored on a verse it comments on. **A witness may also be anchored on a verse it does not quote
+  when its subject is whether that verse may be expounded.** Nothing else bends: this licenses texts
+  *about the act of expounding*, not texts merely adjacent in topic. Consequences, both intended:
+  K2's four non-comment witnesses (m. Chagigah 2:1, Hugh's and Comestor's prologues) **stand**, and
+  Gen 1:26 *Faciamus hominem* is **admissible in K3**, where most of the Latin material on divine
+  plurality actually sits. Every witness admitted under this clause keeps a visible `⚠ Anchor note`
+  in its `notes`, so a reader can see the edition bending its own rule and why.
 - Latin is **sliced from the local TEI by anchor phrase** (`~/patrologia/sources/pl/tei/<idno>.xml`; ids in `data/latin-bench.json`). Never retype Latin. PL column is computed from the last `<pb>` before the start anchor. If an anchor fails, fix the anchor; do not paste text.
 - Rabbinic text comes from `raw/sefaria/*.json` pulled by `scripts/pull-sefaria.py`, using only the versions pinned there (Wikisource Bavli CC BY-SA; Sefaria Midrash Rabbah 2022 CC BY; Silbermann Rashi PD; Etheridge PD; Guggenheimer Yerushalmi CC BY; Berman Tanchuma CC BY). Davidson/Steinsaltz is never embedded.
 - Edges need `evidence` quoting the words that prove the dependency. A shared image without a citation is `parallel`. Direction later → earlier except `transmits`. When a witness names its source (`HIERON.`, `AUG.`), that is `cites`; verbatim reuse without a name is `echoes`.
@@ -154,9 +162,15 @@ creature's *conversio* to its Creator rendered "conversion" instead of "turning"
 licence key `wroot-glossa` is unset in `data/licenses.json`, as are `wroot-bonaventure` and
 `chavel-ramban`. No witness is marked `ships: true`, so `check.py` does not yet enforce them.
 
-⚠ **One convention question the drift check raised and did not decide**: *operator* is rendered
-"workman" at `ambrose-hex-1-3` and `ambrose-hex-1-5`, which collides with the frozen *opifex* =
-"workman" (K4). The frozen list has no entry for *operator*. Flagged, not changed.
+✅ **RESOLVED 2026-09-05 (Wilson's ruling, Phase 6 session): *operator* = "worker".** It had been
+rendered "workman" at `ambrose-hex-1-3` (*quam incomparabilis operator esset*) and `ambrose-hex-1-5`
+(*dum opus videtur, praefertur operator*), colliding with the frozen *opifex* = "workman" (K4).
+"workman" is now reserved for *opifex* alone. Changed in the spec files and rebuilt: two witness
+passages, one `lemma.en`, two thread evidences, one crux-prose paragraph, and the answer label
+`the-work-shows-the-maker` ("The work shows the worker"). The three surviving "workman"s in the
+built English are all *opifex/opifici* — `comestor-hs-1-1c`, `hugh-sacr-1-1-nihilo`,
+`remigius-gen-1-1` — and were verified against their Latin before the change, not assumed.
+*artifex/faber* = "craftsman" is untouched.
 
 ## Phase 4 — Cross-crux pass · **DONE 2026-09-05**
 

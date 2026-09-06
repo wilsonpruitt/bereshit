@@ -786,6 +786,12 @@ the `finding`, (c) widen the anchor rule for texts that are *about* the act of e
 **Recommend (c), narrowly**: a witness may be anchored on a verse it does not quote if its subject
 is whether that verse may be expounded — which is exactly what K2 is about, on both benches.
 
+✅ **RULED 2026-09-05 (Wilson, Phase 6 session): (c), narrowly — adopted as written.** The rule is
+now in `PHASES.md` under Frozen conventions. K2's four non-comment witnesses stand with their
+`⚠ Anchor note`s; Gen 1:26 *Faciamus hominem* becomes admissible in K3. **The Gen 1:26 material has
+not been built** — it was outside the scope Wilson set for this Phase 6 session and is the obvious
+next addition to K3.
+
 ## K2 `why-begin-here` (built 2026-09-05 — Phase 2 complete)
 
 **What the plan got wrong or did not know.**
