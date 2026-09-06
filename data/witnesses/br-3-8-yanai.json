@@ -1,0 +1,42 @@
+{
+ "id": "br-3-8-yanai",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "he": "בֵּין מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים לְמַעֲשֵׂיהֶן שֶׁל רְשָׁעִים",
+  "en": "between the deeds of the righteous and the deeds of the wicked"
+ },
+ "original": {
+  "lang": "he",
+  "text": "אָמַר רַבִּי יַנַּאי מִתְּחִלַּת בְּרִיָּתוֹ שֶׁל עוֹלָם צָפָה הַקָּדוֹשׁ בָּרוּךְ הוּא מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים וּמַעֲשֵׂיהֶם שֶׁל רְשָׁעִים, וְהָאָרֶץ הָיְתָה תֹהוּ, אֵלּוּ מַעֲשֵׂיהֶם שֶׁל רְשָׁעִים. וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים. וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחשֶׁךְ, בֵּין מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים לְמַעֲשֵׂיהֶן שֶׁל רְשָׁעִים. וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים. וְלַחשֶׁךְ קָרָא לָיְלָה, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל רְשָׁעִים.",
+  "source": "Bereshit Rabbah 3:8, opening (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Yanai said: Right from the beginning of the creation of the world, the Holy One blessed be He foresaw the actions of the righteous and the actions of the wicked. “The earth was emptiness” (Genesis 1:2) – these are the actions of the wicked. “God said: Let there be light” (Genesis 1:3) – these are the actions of the righteous. “God distinguished between the light and the darkness” (Genesis 1:4) – between the actions of the righteous and the actions of the wicked. “God called the light, Day” (Genesis 1:5) – these are the actions of the righteous. “And to the darkness He called Night” (Genesis 1:5) – these are the actions of the wicked.",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yannai"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-peccatores"
+ ],
+ "notes": "R. Yanai runs the moral reading through the verses one clause at a time, so that nothing in Gen 1:2–5 is about light and darkness at all. The earth was tohu — the deeds of the wicked. Let there be light — the deeds of the righteous. And God divided between the light and the darkness — between the deeds of the righteous and the deeds of the wicked. He called the light day — the deeds of the righteous; and to the darkness he called night — the deeds of the wicked. It is the same reading as R. Abahu's at 2:5 with the argument taken out and the verse-by-verse mapping put in its place, and it is what Isidore, Rabanus, Remigius and the Glossa do in Latin with the same clauses, four hundred years later and to the same effect. **Slice note**: K10 built the continuation of this section as `br-3-8`, beginning at 'it was evening'; this is the part before it."
+}

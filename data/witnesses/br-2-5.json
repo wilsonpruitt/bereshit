@@ -1,0 +1,43 @@
+{
+ "id": "br-2-5",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "he": "אֲבָל אֵינִי יוֹדֵעַ בְּאֵיזֶה מֵהֶם חָפֵץ",
+  "en": "but I do not know which of them he desires"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי אַבָּהוּ וְרַבִּי חִיָּא רַבָּה, רַבִּי אַבָּהוּ אָמַר מִתְּחִלַּת בְּרִיָּתוֹ שֶׁל עוֹלָם צָפָה הַקָּדוֹשׁ בָּרוּךְ הוּא בְּמַעֲשֵׂיהֶן שֶׁל צַדִּיקִים וּמַעֲשֵׂיהֶן שֶׁל רְשָׁעִים, הֲדָא הוּא דִּכְתִיב (תהלים א, ו): כִּי יוֹדֵעַ ה' דֶּרֶךְ צַדִּיקִים וְדֶרֶךְ רְשָׁעִים תֹּאבֵד. וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל רְשָׁעִים, וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר, אֵלּוּ מַעֲשֵׂיהֶן שֶׁל צַדִּיקִים, אֲבָל אֵינִי יוֹדֵעַ בְּאֵיזֶה מֵהֶם חָפֵץ, אִם בְּמַעֲשֵׂה אֵלּוּ אִם בְּמַעֲשֵׂה אֵלּוּ, כֵּיוָן דִּכְתִיב וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב, הֱוֵי בְּמַעֲשֵׂיהֶן שֶׁל צַדִּיקִים חָפֵץ, וְאֵינוֹ חָפֵץ בְּמַעֲשֵׂיהֶן שֶׁל רְשָׁעִים.",
+  "source": "Bereshit Rabbah 2:5 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Abahu and Rabbi Ḥiyya the Great, Rabbi Abahu said: Right from the beginning of the creation of the world, the Holy One blessed be He foresaw the actions of the righteous and the actions of the wicked. That is what is written: “For the Lord knows the way of the righteous, but the way of the wicked will perish” (Psalms 1:6). “The earth was emptiness and disorder” – these are the actions of the wicked. “God said: Let there be light” – these are the actions of the righteous. But I do not know which He desires, whether it is the actions of these, or the actions of those. When it is written: “God saw the light, that it was good” (Genesis 1:4) – this shows that He desires the actions of the righteous, and does not desire the actions of the wicked.",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-abahu"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-peccatores",
+  "bonum-approbatio"
+ ],
+ "notes": "The moral reading built as an argument rather than asserted. R. Abahu takes the opening verses as a foresight of the deeds of the righteous and of the wicked — tohu va-vohu the deeds of the wicked, 'let there be light' the deeds of the righteous — and then stops on the difficulty: 'but I do not know which of them he desires.' The verse that settles it is Gen 1:4. Because it is written 'and God saw the light, that it was good', and not written of the darkness, he desires the deeds of the righteous and does not desire the deeds of the wicked. The whole weight falls on what the verse omits to say, which is precisely Augustine's argument in City of God XI.20 and the question Wigbod's pupil asks in his master's face."
+}

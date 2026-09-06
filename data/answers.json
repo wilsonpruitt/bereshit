@@ -350,5 +350,65 @@
  "world-from-tohu": {
   "label": "The world was made out of tohu va-vohu",
   "gloss": "Said with embarrassment, and only because the verse says it."
+ },
+ "tenebrae-privatio": {
+  "label": "Darkness is not a thing",
+  "gloss": "Darkness is the absence of light, as silence is the ceasing of voice and nakedness the absence of a garment; Scripture never says God made it (Augustine, Angelomus, Hugh)."
+ },
+ "tenebrae-creatura": {
+  "label": "God made the darkness too",
+  "gloss": "The darkness is a work of God like the light — it is called with the light to bless the Lord in Dan 3, and it is on the rabbinic lists of what was made on the first day (Remigius, the Glossa, Wigbod's pupil; Pirkei de-Rabbi Eliezer, R. Tanḥuma)."
+ },
+ "tenebrae-angeli": {
+  "label": "The darkness is the apostate angels",
+  "gloss": "The light of day one is the angelic creation and the division is between the holy angels and the unclean (Augustine, City of God XI.19; Angelomus, Hugh, Rupert, Comestor)."
+ },
+ "tenebrae-peccatores": {
+  "label": "The wicked, or their deeds",
+  "gloss": "The division is moral: the just from sinners (Isidore, Remigius, the Glossa), or the deeds of the righteous from the deeds of the wicked (R. Yanai, R. Abahu)."
+ },
+ "tenebrae-ignis": {
+  "label": "Darkness names the element of fire",
+  "gloss": "'Darkness' in v. 2 is elemental fire, which is dark; the deep is water and the spirit is air (Ramban)."
+ },
+ "divisio-loci": {
+  "label": "Divided by place and quality",
+  "gloss": "The two were set apart in space and time — light over the upper part of the world, twelve hours above and twelve below, opposite hemispheres in turn (Basil, Bede, Rabanus, Honorius, Comestor; and R. Yoḥanan's two generals, each given his bound)."
+ },
+ "divisio-nominis": {
+  "label": "The dividing is the naming",
+  "gloss": "There is no separate act of separation: 'and he divided' means by the calling of names (Ibn Ezra; entertained once by Augustine and dropped)."
+ },
+ "divisio-est-ordinatio": {
+  "label": "He did not make it but ordered it",
+  "gloss": "God makes the forms and orders the privations, as a singer orders his rests and a painter his shadows, so that even a nothing has its place (Augustine)."
+ },
+ "divisio-est-judicium": {
+  "label": "The division is a judgement",
+  "gloss": "A sentence passed, and irreversible: on the devil and his angels (Rupert, Hugh), or on the just and sinners by foreknowledge (Isidore)."
+ },
+ "divisio-est-instantanea": {
+  "label": "The division needed no second act",
+  "gloss": "The two were never mixed: by the very fact that light was made, the division followed, as putting on a garment ends nakedness (Augustine, Hugh)."
+ },
+ "formatum-ab-informi": {
+  "label": "The formed from the unformed",
+  "gloss": "The dividing is the distinction of the formed thing from the unformed, of the perfect from the imperfect and the distinct from the confused (Wigbod, Abelard, Honorius)."
+ },
+ "bonum-approbatio": {
+  "label": "'He saw' is approval, not discovery",
+  "gloss": "God did not learn that the light was good: what pleased him to be made pleased him to remain (Alcuin, Comestor), or the seeing is in the thought (Ibn Ezra), or a good work attests itself when seen (Ambrose)."
+ },
+ "bonum-withheld": {
+  "label": "The approval is deliberately withheld",
+  "gloss": "'It was good' is not repeated after the division, and the divine name is dropped from the naming of the night, so that the darkness should not be approved along with the light (Augustine, Wigbod; R. Elazar, R. Abahu)."
+ },
+ "havdala-derived": {
+  "label": "The verse is the source of the havdala rule",
+  "gloss": "'He saw … and he divided' — one does not bless over the lamp until he has used its light (R. Ze'eira of Caesarea)."
+ },
+ "lux-hivdil-set-aside": {
+  "label": "He set the light aside",
+  "gloss": "Va-yavdel means he separated it off — for himself (R. Yehuda bar Simon), or for the righteous in the time to come, like a king setting aside a fine portion for his son (the Rabbis)."
  }
 }

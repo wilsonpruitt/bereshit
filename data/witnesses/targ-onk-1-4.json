@@ -1,0 +1,39 @@
+{
+ "id": "targ-onk-1-4",
+ "work": "targ-onk",
+ "author": "onkelos",
+ "tradition": "rabbinic",
+ "date": 150,
+ "date_precision": "circa",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "arc": "וְאַפְרֵשׁ",
+  "en": "and he set apart"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵשׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
+  "source": "Targum Onkelos Gen 1:4",
+  "license": "pd",
+  "version": "Onkelos Genesis"
+ },
+ "english": {
+  "text": "And the LORD saw the light, that it was good; and the LORD set apart between the light and between the darkness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "divisio-loci"
+ ],
+ "notes": "Onkelos renders the verse word for word and adds nothing — afresh for hivdil, the same doubled 'between' as the Hebrew. This is worth recording rather than passing over, because Onkelos is not usually so quiet: he will paraphrase to protect the divine name and to remove anthropomorphism, and here, where God is said to see and to judge, he leaves both standing."
+}

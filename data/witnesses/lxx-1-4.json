@@ -1,0 +1,39 @@
+{
+ "id": "lxx-1-4",
+ "work": "lxx",
+ "author": "lxx-translators",
+ "tradition": "greek-jewish",
+ "date": -250,
+ "date_precision": "circa",
+ "place": "alexandria",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "el": "διεχώρισεν ἀνὰ μέσον",
+  "en": "he separated between"
+ },
+ "original": {
+  "lang": "el",
+  "text": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν. καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους.",
+  "source": "LXX Gen 1:4 (Rahlfs)",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God saw the light, that it was beautiful. And God separated between the light and between the darkness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "divisio-loci",
+  "bonum-approbatio"
+ ],
+ "notes": "Two features of the Greek decide most of what the Latin bench can say. First, the Hebrew ki tov is rendered kalon, 'beautiful' rather than 'good' — so that the approval reads as an aesthetic verdict, which is what Ambrose then expounds at length and what Augustine has to argue is not a verdict reached after the event. Second, the Hebrew's bein … u-vein is carried over word for word as ana meson … kai ana meson, 'between … and between', and the Old Latin that Augustine and his Carolingian copyists read reproduces it as divisit inter lucem et tenebras. Jerome does not: he writes divisit lucem a tenebris. Which of the two a Latin witness quotes is the cleanest single indication of which Latin text lay in front of him, and on this verse the two texts sort the bench almost perfectly."
+}

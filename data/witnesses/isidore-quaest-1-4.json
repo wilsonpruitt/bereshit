@@ -1,0 +1,40 @@
+{
+ "id": "isidore-quaest-1-4",
+ "work": "isidore-quaest",
+ "author": "isidore",
+ "tradition": "latin",
+ "date": 630,
+ "date_precision": "circa",
+ "place": "seville",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "divisit justos a peccatoribus, tanquam a tenebris",
+  "en": "he divided the just from sinners, as from darkness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit lucem a tenebris; nam tunc Deus juxta praescientiae suae gratiam divisit justos, id est, filios Dei et lucis, a peccatoribus, tanquam a tenebris; justos vocans diem, et illos noctem; nam quod in Ecclesia lucis nomine justi appellentur, audi Apostolum: Fuistis, inquit, aliquando tenebrae, nunc autem lux in Domino (Ephes. V, 8) .",
+  "source": "PL 83, col. 210A",
+  "cc_idno": "21433",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he divided the light from the darkness; for then God, according to the favour of his foreknowledge, divided the just — that is, the sons of God and of light — from sinners, as from darkness; calling the just day, and those others night. For that in the Church the just are called by the name of light, hear the Apostle: You were once, he says, darkness, but now light in the Lord (Eph 5:8).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-peccatores",
+  "divisio-est-judicium"
+ ],
+ "notes": "Isidore takes the verse straight into the Church, and the sequence he is running is a reading of the six days as the six ages of the Christian life, so that the division of light from darkness is the first thing that happens to a believer and the firmament on the second day is the solidity of Scripture. What matters for this crux is that the division is God's foreknowledge sorting the just from sinners: the same act Augustine locates among the angels, moved down to human beings, with Eph 5:8 doing for Isidore what Ps 75 does for Rupert. The rabbinic bench reaches the identical pairing at the identical clause, and reaches it by reading the darkness as the deeds of the wicked rather than the wicked themselves — a difference that runs through every allegory on both benches and is never once discussed."
+}

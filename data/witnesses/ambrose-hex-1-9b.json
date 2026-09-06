@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-9b",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "nihil videatur intra se habere confusum",
+  "en": "nothing may be seen to have anything confused within it"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et discrevit inter lucem et tenebras; et vidit Deus lucem quia bona est (Gen. I, 4) . Dixit et sonum vocis nullus audivit: discrevit, et operationis molimina nemo deprehendit: vidit et oculorum ejus intentionem nullus aspexit. Et vidit, inquit, Deus lucem quia bona est. Nec quod ignorabat, vidit; nec id quod nesciebat ante, aut non viderat, comprobavit: sed bonorum operum proprium est, ut externo commendatore non egeant, sed gratiam suam, cum videntur, ipsa testentur. Plus est quod probatur aspectu, quam quod sermone laudatur. Suo enim utitur testimonio, non alieno suffragio. Quod si apud nos oculis judicium emittitur, quibus simul et gratia venustatis, et rerum mensura comprehenditur: quanto magis Deus omnia quae probat, videt, et quae videt, probat, secundum quod scriptum est, quia Oculi Domini super justos (Ps. XXXIII, 16) ? Lucis natura hujusmodi est, ut non in numero, non in mensura, non in pondere, ut alia, sed omnis ejus in aspectu gratia sit. Propriis itaque sermonibus naturam lucis expressit, quae videndo complacet, quoniam ipsa videndi officium subministrat. Nec immerito tantum sibi praedicatorem potuit invenire, a quo jure prima laudatur; quoniam ipsa fecit, ut etiam caetera mundi membra digna sint laudibus. Vidit ergo Deus lucem, et vultu suo illuminavit, et vidit quia bona est. Non ex parte Dei, sed generale judicium est. Itaque non in splendore tantummodo, sed in omni utilitate gratia lucis probatur. Unde et discretio fit inter lucem et tenebras; ut separata lucis natura atque tenebrarum, nihil videatur intra se habere confusum.",
+  "source": "PL 14, col. 142C",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he distinguished between the light and the darkness; and God saw the light, that it was good (Gen 1:4). He spoke, and no one heard the sound of a voice; he distinguished, and no one caught the labour of the working; he saw, and no one beheld the straining of his eyes. And God saw, it says, the light, that it was good. He did not see what he did not know; nor did he approve what he had not known before, or had not seen: but it is the property of good works that they need no one else to commend them, but attest their own grace when they are seen. What is proved by the sight is more than what is praised by speech. For it uses its own testimony, not another's suffrage. And if among us judgement is issued through the eyes, by which both the grace of beauty and the measure of things is grasped at once, how much more does God see all that he approves, and approve what he sees, according to what is written: The eyes of the Lord are upon the just (Ps 34:16 [Vg 33:16])? Such is the nature of light, that its grace lies not in number, not in measure, not in weight, as other things do, but wholly in the beholding. In its own words, then, he expressed the nature of light, which pleases by being seen, since it is light itself that supplies the office of seeing. Nor was it without cause that it could find so great a herald, by whom it is rightly praised first, since it is light that made the other members of the world worthy of praise too. God therefore saw the light, and lit it with his own face, and saw that it was good. This is not a judgement on God's part, but a general one. And so the grace of light is proved not only in its splendour but in its whole usefulness. And hence the distinction is made between the light and the darkness, so that, the nature of light and of darkness being separated, nothing may be seen to have anything confused within it.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-approbatio",
+  "divisio-loci"
+ ],
+ "notes": "The one witness on either bench who takes 'and God saw that it was good' as a statement about the nature of light rather than about the nature of God's knowledge. Ambrose's problem is not how God can be said to see; he disposes of that in a clause — he did not see what he did not know. His interest is that light is the one thing whose whole grace is in the beholding, so that it is the only creature that could have been praised first, and that a good work needs no external commender but attests itself when it is seen. Only then does he reach the division, and it comes out in a single purpose clause: so that nothing may be seen to have anything confused within it. That is Rashi's plain sense at Gen 1:4 — that it was not seemly that light and darkness should function in confusion — in Milan, and neither could have known the other."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "rupert-gen-1-4",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1117,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "terribile Dei judicium super diabolum",
+  "en": "the terrible judgement of God upon the devil"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Notandum in primis quod dictum est: Vidit Deus lucem quod esset bona. (Nemo enim bonus, nisi unus Deus [Matth. X] ). Porro quicunque bonus praedicatur, sive homo, sive angelus, nonnisi respectu boni Dei recte bonus praedicatur, quia cum nemo sit bonus nisi unus Deus, quicunque bonus est, vel esse dicitur, nonnisi in tantum bonus est in quantum bono Deo participatur. Proinde non dictum est: Vidit Deus terram quod esset bona, vel luminaria quod essent bona, quia videlicet bonitatis capacia non sunt. Dictum est autem de singulis, vidit Deus quod esset bonum, id est, bona res, bona, inquam, id est, utilis res. Sola namque rationalis creatura divinae bonitatis, id est spiritus Dei, capax est; et ideo homo vel angelus tantummodo bonus absolute dicendus est, videlicet in quantum homo vel angelus boni Dei particeps factus est. Igitur et hoc ipsum judicium quo vidit Deus lucem quod esset bona, lucem illam cogit intelligi quae capax divinae est bonitatis, lucem rationalem, lucem intellectualem, angelicae creaturae splendidam dignitatem. Quomodo autem dictum est, et vidit Deus lucem quod esset bona? Nonne antequam faceret, hoc ipsum viderat quia facere bonum erat? Nonne et evangelista sic dicit de Verbo isto in quo dixit, fiat, quia quod factum est, in ipso vita erat? (Joan. I.) Ergo quod vidit, id est, justo judicio ponderavit et conspectu suo dignum duxit. Sequitur enim: Et divisit lucem et tenebras. Divisio ista lucis et tenebrarum terribile Dei judicium super diabolum esse factum insinuat. De quo Psalmista: Tu terribilis es, inquit, et quis resistet tibi? Extunc ira tua (Psal. LXXV) . Tanquam diceret: Quis tibi resistere 6 potest, cum ex quo tibi quis resistit, extunc terribilis exardescat ira tua? Nam ex quo diabolus resistit, id est, resistere voluit tibi, tu iratus es, et resistere non potuit; cecidit enim angelus et factus est diabolus. Hoc terribile judicium per divisionem insinuatur lucis et tenebrarum. Quae enim sunt istae tenebrae, nisi omnes angeli Satanae cum eodem suo principe? Has utique tenebras Deus lucemque divisit, quia malos angelos a bonis separavit. Divisit, inquam, separatione immutabili, ita ut nec isti qui ceciderunt, resurgere, nec illi qui, cum peccare possent, peccando cadere noluerunt, ulterius unquam habeant vel possint peccando cadere. Verbo namque Dei coeli firmati sunt, et spiritu oris ejus omnis virtus eorum (Psal. XXXII) . Ista lux, isti sunt coeli. Lux, inquam, quam Deus a tenebris divisit, et coeli quos Verbo suo, quos Spiritu, id est amore suo: Deus firmavit, ut jam obscurari vel dissolvi non possint: congregans sicut in utre aquas maris, ponens in thesauris abyssos (ibid.) : quae omnia secundum litteram jam in illo exordio facta esse dubium non est. Timeat ergo Dominum omnis terra, ab eo autem commoveantur omnes inhabitantes orbem (ibid.) , quia profecto qualis tunc destruxit consilia superborum spirituum, talis et usque in finem Dominus dissipat consilia gentium; reprobat autem cogitationes populorum, et reprobat consilia principium (ibid.) . Unde autem venerint istae tenebrae, jam dictum est, videlicet unde venit praedicta lux, inde venerunt et istae tenebrae; fuerunt enim lucentes angeli, et proprio vitio facti sunt daemones tenebrosi.",
+  "source": "PL 167, col. 210A",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is to be noted first of all that it is said: God saw the light, that it was good. (For none is good but one, God — Matt 19:17.) Further, whoever is called good, whether man or angel, is rightly called good only in respect of the good God, since, as none is good but one, God, whoever is good, or is said to be good, is good only in so far as he partakes of the good God. Accordingly it is not said: God saw the earth, that it was good, or the luminaries, that they were good, because they are not capable of goodness. But it is said of each: God saw that it was good — that is, a good thing, good, I say, that is, a useful thing. For the rational creature alone is capable of the divine goodness, that is, of the Spirit of God; and therefore man or angel alone is to be called good absolutely, namely in so far as man or angel has been made a partaker of the good God. Therefore this very judgement by which God saw the light, that it was good, compels that light to be understood which is capable of the divine goodness: a rational light, an intellectual light, the shining dignity of the angelic creature. But how is it said, And God saw the light, that it was good? Had he not seen, before he made it, that to make it was good? Does not the evangelist say of that Word in which he said 'let it be', that what was made, in him was life (John 1:3–4)? Therefore what he saw, he weighed with a just judgement and reckoned worthy of his regard. For there follows: And he divided the light and the darkness. This division of light and darkness intimates that a terrible judgement of God was made upon the devil. Of which the psalmist says: You are terrible, and who shall resist you? From then your anger (Ps 76:8 [Vg 75:8]). […] For since the devil resisted — that is, willed to resist you — you were angry, and he could not resist; for the angel fell and was made a devil. This terrible judgement is intimated by the division of light and darkness. For what are those darknesses, unless all the angels of Satan with their prince? These darknesses, surely, God divided from the light, because he separated the evil angels from the good. He divided them, I say, by an unchangeable separation, so that neither can those who fell rise again, nor can those who, though they could have sinned, refused to fall by sinning, ever fall by sinning any more. […] But whence those darknesses came has already been said: namely, from where the aforesaid light came, thence came those darknesses also; for they were shining angels, and by their own vice were made darksome demons.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-angeli",
+  "divisio-est-judicium",
+  "bonum-approbatio"
+ ],
+ "notes": "Rupert argues to the angelic reading from the word 'good' rather than assuming it, and the argument is his own. None is good but God; whatever else is called good is good by partaking of him; only a rational creature can partake of him — therefore only a rational creature can be called good absolutely, and the fact that the text says of this light that it was good, and not merely that it was a good thing, forces the light to be intellectual. That is why, he notes, it is not said of the earth or of the luminaries that they were good. Then the division becomes a sentence passed: 'a terrible judgement of God upon the devil', unchangeable in both directions, so that the fallen cannot rise and the standing can no longer fall. And the answer to where the darkness came from is the one answer that makes it neither a privation nor a creature: it came from where the light came from — they were shining angels and made themselves dark. Elided: two psalm citations expounded at length. Rupert reads divisit lucem et tenebras without a preposition, which is neither Jerome's text nor the Old Latin's."
+}

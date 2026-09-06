@@ -1,0 +1,42 @@
+{
+ "id": "aug-gnl-imp-5-25",
+ "work": "aug-gnl-imp",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 393,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "quaedam et facit Deus, et ordinat; quaedam vero tantum ordinat",
+  "en": "some things God both makes and orders; some he only orders"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Sive ergo lucem aetheream, sive sensualem cujus animalia participant, sive rationalem quam Angeli et homines habent, a Deo factam primitus in rerum natura haec sententia vult intelligi; divisisse Deum inter lucem et tenebras, eo ipso quo lux facta est, oportet accipi, quod aliud est lux, aliud illae privationes lucis, quas in contrariis tenebris ordinavit Deus. Non enim Deum fecisse tenebras dictum est: quoniam species ipsas Deus fecit, non privationes quae ad nihilum pertinent, unde ab artifice Deo facta sunt omnia; quas tamen ab eo ordinatas intelligimus, cum dicitur, Et divisit Deus inter lucem et tenebras, ne vel ipsae privationes non haberent ordinem suum, Deo cuncta regente atque administrante. Sicut in cantando interpositiones silentiorum certis moderatisque intervallis, quamvis vocum privationes sint, bene tamen ordinantur ab iis qui cantare sciunt, et suavitati universae cantilenae aliquid conferunt. Et umbrae in picturis eminentiora quaeque distinguunt, ac non specie, sed ordine placent. Nam et vitiorum nostrorum non est auctor Deus; sed tamen ordinator est, cum eo loco peccatores constituit, et ea perpeti cogit quae merentur. Ad hoc valet quod oves ponuntur ad dexteram, haedi autem ad sinistram (Matth. XXV, 33) . Quaedam ergo et facit Deus, et ordinat; quaedam vero tantum ordinat. Justos et facit, et ordinat; peccatores autem in quantum peccatores sunt, non facit, sed ordinat tantum. Quippe cum illos ad dexteram, illos ad sinistram constituit, et quod in ignem aeternum jubet ire, ad meritorum ordinem valet. Ita species naturasque ipsas et facit, et ordinat; privationes autem specierum defectusque naturarum non facit, sed ordinat tantum. Dixit itaque, Fiat lux; et facta est lux. Non dixit, Fiant tenebrae; et factae sunt tenebrae. Horum ergo unum fecit, alterum non fecit, utrumque tamen ordinavit, cum divisit Deus inter lucem et tenebras. Ita et ipso faciente pulchra sunt singula, et ipso ordinante pulchra sunt omnia.",
+  "source": "PL 34, col. 229",
+  "cc_idno": "7310",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Whether, then, this sentence would have us understand the ethereal light, or the sensitive light in which animals share, or the rational light which angels and men have, to have been made by God first in the nature of things — that God divided between light and darkness, by the very fact that light was made, must be taken to mean that light is one thing and those privations of light another, which God set in order under the name of their contrary, darkness. For it is not said that God made the darkness: since God made the forms themselves, not the privations, which belong to nothing, whence all things were made by God the craftsman; yet we understand that they were set in order by him, when it is said, And God divided between light and darkness — lest even those privations should not have their own order, God ruling and administering all things. As in singing, the interpositions of silences at fixed and measured intervals, although they are privations of sound, are nevertheless well ordered by those who know how to sing, and contribute something to the sweetness of the whole song. And the shadows in paintings set off whatever is more prominent, and please not by their form but by their order. For God is not the author of our vices either; yet he is their orderer, when he sets sinners in that place and compels them to suffer what they deserve. To this belongs it that the sheep are set on the right hand and the goats on the left (Matt 25:33). Some things, then, God both makes and orders; some he only orders. The just he both makes and orders; sinners, in so far as they are sinners, he does not make but only orders. Since when he sets these on the right and those on the left, and bids them go into eternal fire, it belongs to the order of their deserts. So he both makes and orders the forms and natures themselves; but the privations of forms and the defects of natures he does not make, but only orders. And so he said, Let there be light; and light was made. He did not say, Let there be darkness; and darkness was made. Of these, then, he made one and did not make the other, yet ordered both, when God divided between light and darkness. And so, by his making, the several things are beautiful; and by his ordering, all things are beautiful.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-privatio",
+  "divisio-est-ordinatio",
+  "tenebrae-peccatores"
+ ],
+ "notes": "The best thing said on this crux in Latin, and the one place where Augustine's privation doctrine stops being a piece of metaphysics and becomes an aesthetic. God did not make the darkness; but he ordered it, and the dividing is the ordering — 'lest even those privations should not have their own order'. Then the two analogies, which are not decoration but the argument: the rests in a song, which are privations of sound and are nevertheless placed at measured intervals by anyone who knows how to sing and add to the sweetness of the whole; and the shadows in a painting, which set off what is prominent and 'please not by their form but by their order'. And then the step that makes the reading moral without making the darkness a substance: God is not the author of our vices, but he is their orderer, when he puts sinners in the place they deserve — sheep on the right and goats on the left. The rabbinic bench's moral reading of this verse (R. Yanai, R. Abahu) reaches the same pairing of righteous and wicked at the same clause and never has to make the darkness nothing to do it, because it never took up the question of whether darkness is a thing."
+}

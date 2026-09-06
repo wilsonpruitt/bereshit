@@ -1,0 +1,39 @@
+{
+ "id": "alcuin-int-35",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 800,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "in ea bonitate placuit ut maneret, in qua placuit ut fieret",
+  "en": "it pleased him to remain in that goodness in which it pleased him to be made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 35. Quid est: Vidit Deus, quod esset bonum?--Resp. Id est, in ea bonitate placuit ut maneret, in qua placuit ut fieret, quod fecit.",
+  "source": "PL 100, col. 520B",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 35. What is: God saw that it was good? — Answer. That is: what he made pleased him to remain in that goodness in which it pleased him to be made.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-approbatio"
+ ],
+ "notes": "One sentence, and it removes the difficulty the whole Latin bench is worrying at. If 'God saw that it was good' were an inspection, God would be learning something; Alcuin makes it a persistence of the same pleasure — what pleased him to be made pleased him to remain. Augustine puts the same thing at City of God XI.21 with more machinery ('he teaches that it is good, he does not learn it') and Comestor will divide the moment in two, pleasing in foreknowledge that it should be made and pleasing in being that it should stay. The Carolingian schoolbook has it in twenty words and does not notice that it is an answer to anything."
+}

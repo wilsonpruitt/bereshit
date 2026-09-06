@@ -1,0 +1,40 @@
+{
+ "id": "remigius-gen-1-4b",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 890,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "filii Seth separati sunt ab impia generatione Cain",
+  "en": "the sons of Seth were separated from the impious generation of Cain"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Divisit lucem a tenebris in hac die: quia hac aetate filii Dei, id est, filii Seth separati sunt ab impia generatione Cain, cujus vespera fuit multiplicata iniquitas hominum ideo ut induceret Deus diluvium.",
+  "source": "PL 131, col. 58C",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "He divided the light from the darkness on this day: because in this age the sons of God, that is, the sons of Seth, were separated from the impious generation of Cain, whose evening was the multiplied iniquity of men, that God might bring on the flood.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-peccatores",
+  "divisio-est-judicium"
+ ],
+ "notes": "The same commentator, the same verse, and a wholly different reading a few columns later, because Remigius runs the six days a second time as the six ages of the world. On the second pass the division of light from darkness is a datable event in Genesis: the separation of the sons of Seth from the line of Cain, with the multiplied iniquity of men as its evening and the flood following. It is the most concrete form the moral reading takes anywhere on the Latin bench — not the just in general, but two named genealogies — and it is exactly the move Bereshit Rabbah does not make, since for R. Yanai and R. Abahu the light and the darkness are deeds and not families."
+}

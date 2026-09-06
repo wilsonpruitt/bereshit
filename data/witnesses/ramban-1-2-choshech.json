@@ -1,0 +1,39 @@
+{
+ "id": "ramban-1-2-choshech",
+ "work": "ramban-gen",
+ "author": "ramban",
+ "tradition": "rabbinic",
+ "date": 1267,
+ "date_precision": "range-1263-1270",
+ "place": "girona",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וְהָאֵשׁ נִקְרֵאת חֹשֶׁךְ",
+  "en": "and the fire is called 'darkness'"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וְהָאֵשׁ נִקְרֵאת \"חֹשֶׁךְ\", מִפְּנֵי שֶׁהָאֵשׁ הַיְּסוֹדִית חֲשׁוּכָה; וְאִלּוּ הָיְתָה אֲדֻמָּה, הָיְתָה מַאֲדִימָה לָנוּ הַלַּיְלָה. וְהַמַּיִם שֶׁנִּגְבַּל בָּהֶם הֶעָפָר יִקָּרֵא \"תְּהוֹם\", וְלָכֵן יִקָּרְאוּ מֵי הַיָּם \"תְּהֹמוֹת\", כְּדִכְתִיב (שמות טו ה): \"תְּהֹמֹת יְכַסְיֻמוּ\"; \"קָפְאוּ תְּהֹמֹת\" (שם ח); \"תְּהוֹם יְסֹבְבֵנִי\" (יונה ב ו). וְיִקָּרֵא קַרְקַע הַיָּם \"תְּהוֹם\": \"וַיִּגְעַר בְּיַם סוּף וַיֶּחֱרָב וַיּוֹלִיכֵם בַּתְּהֹמוֹת כַּמִּדְבָּר\" (תהלים קו ט); \"מוֹלִיכָם בַּתְּהֹמוֹת כַּסּוּס בַּמִּדְבָּר\" (ישעיהו סג יג). וְהָאֲוִיר יִקָּרֵא \"רוּחַ\". וּכְבָר נוֹדַע כִּי הַיְּסוֹדוֹת הָאַרְבָּעָה – מִקְשָׁה אַחַת, וְהָעַמּוּד שֶׁלָּהּ הוּא עִגּוּל הָאָרֶץ. וְהַמַּיִם מַקִּיפִין עַל הָאָרֶץ, וְהָאֲוִיר מַקִּיף עַל הַמַּיִם, וְהָאֵשׁ מַקִּיף עַל הָאֲוִיר. וְאָמַר הַכָּתוּב כִּי הָאָרֶץ לָבְשָׁה צוּרָה, וְהָיָה הָאֵשׁ מַקִּיף לְמַעְלָה עַל הַמַּיִם וְהֶעָפָר הַמְעֹרָבִים, וְהָרוּחַ מְנַשֶּׁבֶת וְתִכָּנֵס בַּחֹשֶׁךְ וּתְרַחֵף עַל הַמַּיִם.",
+  "source": "Ramban on Gen 1:1–2, s.v. בראשית (the four elements under the words of v. 2)",
+  "license": "cc-by",
+  "version": "Sefaria 'Vocalized Edition'"
+ },
+ "english": {
+  "text": "In this verse, the element of fire is called “darkness” because the elemental fire is dark. Were it red, it would redden the night for us. The element of water with which the dust was kneaded is here called “deep.” This is why the waters of the oceans are called “the deeps,” as it is written, The deeps cover them; The deeps were congealed; The deep was round about me. The bottom of the ocean is also referred to as “deep:” And He rebuked the Red Sea, and it was dried up, and He led them through the depths, as a wilderness; He led them through the deep as a horse in the wilderness. And the element air is here called “spirit.” Now it is already known that the four elements fill up the whole space with matter. That which stands still is the sphere of earth. The waters surround the earth, the air encompasses the waters, and the fire envelopes the air. Scripture thus states that the earth took on form, and the fire above enveloped the intermingled waters and dust, and the wind blew and rose in the darkness and hovered over the waters.",
+  "translator": "Charles B. Chavel, 1971–76",
+  "license": "chavel-ramban"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "tenebrae-ignis",
+  "tenebrae-creatura"
+ ],
+ "notes": "The flattest possible answer to 'is darkness a creature': it is one of the four elements, and it is fire. Ramban reads the whole of v. 2 as an inventory of the elements under other names — darkness is elemental fire, which is dark, 'and were it red, it would redden the night for us'; the deep is water; the spirit is air; the earth is dust — and then arranges them in their spheres, fire enveloping air, air the water, water the earth. The Latin bench has the same physics and never uses it here: Comestor knows perfectly well that shadow is cast by bodies, and even he will not say that the darkness of v. 2 is an element, because Augustine has made the privation of light the orthodox answer and an element is not a privation. Ramban is under no such constraint, and the sentence costs him nothing."
+}

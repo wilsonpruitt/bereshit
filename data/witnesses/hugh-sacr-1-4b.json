@@ -1,0 +1,39 @@
+{
+ "id": "hugh-sacr-1-4b",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "per lucem ergo probavit lucem",
+  "en": "by light, therefore, he proved light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "CAP. XIII. Quare dicit Scriptura: « Vidit Deus lucem. » Sed occurrit fortassis quomodo vidit Deus lucem quod esset bona et divisit lucem a tenebris et vocavit lucem diem, et tenebras noctem (Gen. I) . Nam si caetera opera sua in luce vidit quod essent bona, in qua luce vidit lucem quod esset bona et divisit lucem a tenebris vocavitque lucem diem et tenebras noctem? Nihil enim videri potest sine luce; sed nec tenebrae sine luce videntur, quanto magis lux non videtur sine luce? Quae fuit ergo illa lux per quam Deus vidit lucem quod esset bona, et divisit lucem a tenebris? An per ipsam eam vidit quod esset bona, an per aliam lucem vidit quod esset bona? Sed quomodo per ipsam videre potuisset quod esset bona, si aliam lucem non habuisset per quam et in qua ipsam lucem vidisset quod esset bona? Nam, si vidit quod esset bona lux ista et vere vidit, in aliquo vidit de cujus bonitate dubitari non potuit. Ergo, alia lux increata, in qua ista lux creata videbatur quod esset bona; quia illam imitabatur quae semper est bona. In illa enim luce cum ipsa solum sit bona, videntur et mala et bona; et non solum mala et bona in ea videntur, sed mala etiam esse mala, bona esse bona in ea videntur: propterea quod ipsa vere et summe est bona. Quod enim ab ipsa discordare videtur, malum esse videtur; et quod ei simile esse videtur, bonum esse videtur; et utrumque non nisi in ipsa et per ipsam videtur. Per lucem ergo probavit lucem: quia in luce incommutabili vidit quod lux ista commutabilis suo modo et ordine bona esset.",
+  "source": "PL 176, col. 197B",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "CHAPTER XIII. Why Scripture says: 'God saw the light.' But perhaps it occurs to someone: how did God see the light, that it was good, and divide the light from the darkness, and call the light day and the darkness night (Gen 1)? For if he saw his other works in the light, that they were good, in what light did he see the light, that it was good, and divide the light from the darkness, and call the light day and the darkness night? For nothing can be seen without light; but neither are darknesses seen without light — how much more is light not seen without light? What, then, was that light through which God saw the light, that it was good, and divided the light from the darkness? Did he see by that same light that it was good, or by another light? But how could he have seen through it that it was good, if he had not had another light through which and in which he saw that light, that it was good? For if he saw that this light was good, and truly saw it, he saw it in something of whose goodness there could be no doubt. Therefore there was another light, uncreated, in which this created light was seen to be good; because it imitated that light which is always good. For in that light, since it alone is good, both evils and goods are seen; and not only are evils and goods seen in it, but evils are seen to be evil and goods to be good in it, for the reason that it is truly and supremely good. For what is seen to disagree with it is seen to be evil; and what is seen to be like it is seen to be good; and both are seen only in it and through it. By light, therefore, he proved light: because in the unchangeable light he saw that this changeable light was good in its own mode and order.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-approbatio"
+ ],
+ "notes": "A schoolman's difficulty made out of the order of the clauses, and worth the card because it is the only place on this crux where the *seeing* is treated as a problem in its own right rather than as a manner of speaking. If God saw the other works in the light of day one, in what light did he see that light? He cannot have seen it by itself, since nothing sees itself; so there was another and unchangeable light, and in that light he saw that this changeable one was good 'in its own mode and order'. Ambrose had refused the question by saying the seeing is not an inspection, Alcuin by making it a persistence of pleasure, Ibn Ezra by saying it is in the thought. Hugh alone answers it by positing a second light — uncreated, in which this changeable light was seen to be good because it imitated one that is always good — and then draws out what that light is for: in it not only are goods and evils seen, but goods are seen to be good and evils to be evil. The answer costs him a second light and buys him a criterion."
+}

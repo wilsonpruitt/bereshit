@@ -666,3 +666,64 @@ witnesses from two different cruxes. K2 and K3 should use the same script.
   ones on a crowded verse and did it with an ad-hoc `python3 -c` dump of columns and first/last
   characters. K4 needed it on two verses with 75 Latin witnesses already on them, so it is a script,
   and it works on offsets rather than columns. Run it as step 3.5 of the per-crux checklist.
+
+## K9 `good-and-separated` (built 2026-09-05)
+
+**What the plan got wrong or did not know.**
+
+- The plan's Latin list for K9 was Augustine *Gnl* I.17, *Civ* XI.19–20, *Gnm* I.7, Bede, the
+  Glossa, Rupert, Hugh, Lyra. Three of those are wrong loci. **Augustine's privation argument on
+  this verse is at *Gnm* I.9 (PL 34:180), not I.7**, and PHASES.md's pointer to "*Gnm* I.4, PL
+  34:176" is the earlier discussion of the darkness of v. 2, not the division of v. 4. **The richest
+  Augustine text on the crux is not in the plan at all**: *De Genesi ad litteram imperfectus liber*
+  §§23–25 (PL 34:228–230), where the privation doctrine acquires the term the whole tradition then
+  uses — God does not *make* the darkness, he *orders* it — and the two analogies that carry it, the
+  rests in a song and the shadows in a painting. `aug-gnl-imp` was on the bench and unqueried.
+- **`grep-bench.py` on a five-alternative regex laid out the whole Latin bench in one call** (29
+  hits across 7 twelfth-century works, 44 across the earlier ones), and the alternatives had to
+  include *both* Latin texts of the verse — `inter lucem et tenebras` and `lucem a tenebris` — plus
+  `lucem ac tenebras` and `separavit`. This is the K6 lesson holding: **a lemma with more than one
+  Latin form is grepped for every form in one regex from the start.** Here it did more than save
+  time; the split between the two forms turned out to be evidence (see below), and a single-form
+  grep would have returned half the bench and hidden the fact.
+- **Alcuin's *Interrogationes* have no question on *divisit*.** The divisit regex returned 0 hits
+  for TEI 21416 and the crux nearly went without him; his contribution is Inter. 35, on *vidit Deus
+  quod esset bonum*, found by reading the run of questions 31–35 directly. A work organised as
+  questions will not answer a lemma grep if it did not ask about that lemma.
+- **The two Latin texts of Gen 1:4 sort the bench almost perfectly, and this is a genuine finding
+  rather than a curiosity.** The Greek keeps the Hebrew's doubled preposition (*ana meson … kai ana
+  meson*) and the Old Latin follows it: *divisit inter lucem et tenebras*. Jerome writes *divisit
+  lucem a tenebris*, an ablative of separation, which presupposes something to be separated from.
+  Augustine, Angelomus and Alcuin quote the older form and hold that no darkness was made; Bede,
+  Remigius, the Glossa and Comestor quote Jerome's and hold that both were made. Hugh and Rupert are
+  the exceptions (Jerome's text, Augustine's doctrine), and Rupert quotes a third form with no
+  preposition at all, *divisit lucem et tenebras*. Same shape as K1's *creavit* / *fecit*.
+- **Sefaria's BR 3:6 is one segment carrying two arguments**, and K8 built it whole. See the K9
+  entry in `notes/cross-crux.md`: `br-3-6b` was built rather than lose the crux's core text, and
+  Phase 4 must trim K8's slice rather than delete the new one. **The general lesson for K3 and K2:
+  before slicing a rabbinic passage, check whether an earlier crux took the whole segment for one
+  clause of it** — `overlap.py` does this for Latin and nothing does it for the rabbinic bench.
+  A `grep -l` of a distinctive phrase across `data/witnesses/*.json` is the cheap substitute and is
+  what caught both of these.
+- **The Glossa on this verse contradicts the Glossa on the previous verse**, and does not say so:
+  113:69C prints the darkness of v. 2 as *veri luminis privatio*, and 113:71C prints *Lucem et
+  tenebras fecit Deus* over Strabo's name for v. 4. The gloss's literal answer on K9 is Remigius'
+  and is anti-Augustinian. Worth remembering when a later crux wants to know "what the schools
+  taught": the standard book is not internally consistent verse to verse.
+- **PdRE 3's Hebrew and English are differently indexed from what the section numbers suggest.**
+  "Eight things were created on the first day" is index 5 in both versions (= PdRE 3:5); index 4 is
+  the Torah's counsel. Check the segment content, not the section number.
+
+**Burn, measured on K9 (Opus, 2026-09-05): ~110K tokens**, the cheapest of the seven, against K10
+~170K, K1 ~200K, K8 ~170K, K6 ~135K, K5 ~125K, K4 ~unrecorded. Three reasons and only one of them
+repeats. Every rabbinic locus was on disk and most had been read for K8 or K6 (BR 2, BR 3, Rashi,
+PdRE, Ramban, Ibn Ezra), so the rabbinic side cost reading and no pulling. The Latin survey was two
+`grep-bench.py` calls and one direct read of Alcuin. And the roster pruned itself: of 30 Latin
+candidates, the ones that had to go were obvious (a second Rupert, a second Honorius, Hugh's cap.
+XII, Bruno's one sentence), because K9's answers are few and sharply distinguished and a witness
+either adds one or repeats one. **Contrast K10's note that deciding the roster was what took the
+time**: on a crux with a small answer set it is not, and the answer set is knowable from the first
+grep.
+
+The roster ran to 32, well over the table's 12–15 — the fifth overrun in a row, and the table should
+be read as a floor. 20 Latin witnesses is the real number for any verse the whole bench comments on.

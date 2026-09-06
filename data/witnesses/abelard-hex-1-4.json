@@ -1,0 +1,40 @@
+{
+ "id": "abelard-hex-1-4",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "perfectum discrevit ab imperfecto et distinctum a confuso",
+  "en": "he distinguished the perfect from the imperfect and the distinct from the confused"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit lucem a tenebris. Hoc est operatione sua perfectum discrevit ab imperfecto et distinctum a confuso. Superius autem ubi ait: Dixitque Deus: Fiat lux, et facta est lux, ad imperium quidem Dei lucem esse factam monstravit. Hic vero cum ait: Et divisit lucem a tenebris, per ipsum quoque hanc distinctionem operum, quam lucem appellat, factam esse demonstrat, ut idem ipse materiae Creator pariter et formator intelligatur, eique tota laus tam de creatione materiae quam de operum formatione tribuatur.",
+  "source": "PL 178, col. 740B",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he divided the light from the darkness. That is, by his working he distinguished the perfect from the imperfect and the distinct from the confused. Above, where he says, And God said: Let there be light, and light was made, he showed that the light was made at God's command. But here, when he says, And he divided the light from the darkness, he shows that this distinction of works also, which he calls light, was made by him; so that one and the same is understood to be both the Creator of the matter and the former of it, and the whole praise, both for the creation of the matter and for the forming of the works, is attributed to him.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "formatum-ab-informi",
+  "divisio-est-ordinatio"
+ ],
+ "notes": "Abelard makes the verse do a piece of work nobody else asks of it. The light is the distinction of the works and the darkness is the confusion out of which they were distinguished — so that Gen 1:3 attributes the creating of matter to God and Gen 1:4 attributes the forming of it to the same God, and the whole praise falls in one place. The point is directed against a reading in which matter is one thing and its forming another, and it is the argument he needed at Gen 1:1 (see K4); here he gets it out of the dividing. It also means that on this crux the darkness is neither a privation nor an element nor an angel, but a state of the world before it was ordered — which is Honorius' and Wigbod's third answer as well, arrived at from the other end."
+}

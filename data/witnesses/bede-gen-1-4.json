@@ -1,0 +1,39 @@
+{
+ "id": "bede-gen-1-4",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "range-703-725",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "non solum qualitatis, sed et locorum distantia",
+  "en": "not only by a difference of quality, but of places"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit lucem ac teneoras. Divisit namque eas non solum qualitatis, sed et locorum distantia, lucem videlicet in superiore orbis parte diffundendo, in qua humana erat conversatio futura, inferiora vero ejus priscis in tenebris remanere sinendo.",
+  "source": "PL 91, col. 17C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he divided the light and the darkness. For he divided them not only by a difference of quality, but of places: namely by spreading the light over the upper part of the world, in which the human way of life was to be, and by allowing the lower parts of it to remain in their ancient darkness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "divisio-loci"
+ ],
+ "notes": "Two clauses, and they set the Latin bench's literal answer for the next five hundred years: the division is by quality and by place, the light spread over the upper part of the world where men were going to live and the lower part left in the darkness it already had. Bede does not argue with Augustine; he simply does not raise the question whether darkness is a thing, and answers a question about where. The sentence is copied verbatim by Rabanus, taken over by Angelomus with an attribution to Clement, and reappears in Comestor as 'he divided the created things by distance of places and by quality'. It is also, without any contact, the same answer as Basil's long distances and the same answer as R. Yoḥanan and Resh Lakish's two generals, each given his bound."
+}

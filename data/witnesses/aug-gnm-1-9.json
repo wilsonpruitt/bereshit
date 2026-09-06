@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnm-1-9",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-390",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "tenebrae lucis absentia est",
+  "en": "darkness is the absence of light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit Deus inter lucem et tenebras, et vocavit Deus diem lucem, et tenebras vocavit noctem. Hic non dictum est, Fecit Deus tenebras; quia tenebrae, sicut superius dictum est, lucis absentia est: distinctio tamen facta est inter lucem et tenebras. Quemadmodum nos clamando vocem facimus; silentium autem non sonando facimus, quia cessatio vocis silentium est: distinguimus tamen sensu quodam inter vocem et silentium, et illud vocamus vocem, illud silentium; quemadmodum ergo recte dicimur facere silentium, sic recte multis divinarum Scripturarum locis Deus dicitur facere tenebras, quia lucem quibus vult temporibus et locis vel non dat, vel detrahit.",
+  "source": "PL 34, col. 180",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God divided between the light and the darkness, and God called the light day, and the darkness he called night. It is not said here, God made the darkness; because the darkness, as was said above, is the absence of light: yet a distinction was made between light and darkness. Just as we make a voice by crying out, but make silence by not sounding, because the ceasing of the voice is silence — yet we distinguish by a kind of sense between voice and silence, and call the one voice and the other silence: as therefore we are rightly said to make silence, so in many places of the divine Scriptures God is rightly said to make darkness, because he either does not give light, or withdraws it, at what times and in what places he wills.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "tenebrae-privatio",
+  "divisio-est-ordinatio"
+ ],
+ "notes": "The sentence that decided the question for eight hundred years, and the analogy that carried it. Scripture does not say God made the darkness, because darkness is the absence of light; but a distinction was nevertheless made — as we make a voice by crying out and make silence by not sounding, and yet distinguish the two and name them. The care of the argument is in the last clause, which concedes the whole difficulty: Scripture does in many places say that God makes darkness, and Augustine will not deny it, so he redefines the making — God makes darkness by not giving light, or by taking it away, where and when he chooses. Angelomus copies the analogy verbatim without the concession and with 'gives or withdraws' in place of 'does not give or withdraws'; Wigbod's compiler puts the opposite doctrine into Augustine's mouth on the same page."
+}

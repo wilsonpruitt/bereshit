@@ -223,3 +223,61 @@ written; `b-chag-12a` and `pdre-3-5` are on other cruxes' rosters.
 | Honorius, PL 172:257A | K10 or a six-days crux | *In principio namque coelum et terra, ad materiam ex nihilo creantur* inside a summary of the six days; one clause, read and not built. |
 | Hugh, *De sacr.* I.5 CAP. VII, PL 176:249C–D | an angels crux, if one is ever made | *Quod non sunt facti de materia praejacente sicut corporea* — the angels' creation, which is what PHASES.md's "247B" pointer was near. Not on the verse. |
 | Ambrose, PL 14:130C | K2 | *Auctorem enim…* — the argument from the visible to the invisible; adjacent to K4's material, on K2's question. |
+
+## From K9 (built 2026-09-05)
+
+**Two rabbinic slices this crux had to work around, and one of them is a slice defect rather than a
+crux boundary.** K8's `br-3-6` took the whole of Sefaria's BR 3:6 segment for its first half (the
+light stored away for the righteous); the segment's *second* half is entirely on *va-yavdel* and is
+K9's single richest rabbinic text — R. Ze'eira's havdala derivation, *hivdilo lo* / *hivdilo
+la-tzaddikim*, R. Yoḥanan and Resh Lakish's *havdala mamash* with the two generals, R. Tanḥuma on
+Isa 45:7, and R. Elazar on the missing divine name. Two distinct arguments on two clauses were
+merged into one card, which the frozen rule forbids. K9 has built the second half as `br-3-6b` on
+its own lemma rather than lose it. **Phase 4 must trim `br-3-6` to end at R. Neḥemya's seven days of
+mourning**, not delete `br-3-6b`.
+
+**`rashi-1-4` (K8) carries both cruxes' answers in one dibbur and was left alone.** Rashi gives the
+aggadic answer (the wicked were unworthy of the light, so he set it apart for the righteous — K8,
+citing Chagigah 12a) and then the *peshat* (it was not seemly that light and darkness should
+function in confusion, citing BR 3:6 — K9's answer, and the closest thing on the rabbinic bench to
+Ambrose's *nihil videatur intra se habere confusum*). It is genuinely one continuous argument, so
+no duplicate was built. **Phase 4: add `good-and-separated` to its `cruxes` facet** and write the
+edges to `ambrose-hex-1-9b` (parallel: the same purpose clause, Milan and Troyes) and to `br-3-6b`.
+
+**Witness-facet additions noticed while building, not acted on:**
+
+| witness (built for) | add crux | why |
+|---|---|---|
+| `br-3-6` (K8) | — | do not add K9; trim it instead, per the note above |
+| `rashi-1-4` (K8) | `good-and-separated` | the *peshat* half is this crux's answer |
+| `b-chag-12a-light` (K8) | `good-and-separated` | it is what Rashi cites for *va-yavdel* = he set it apart for the righteous, and `br-3-6b`'s Rabbis say the same thing |
+| `aug-gnl-1-3` / `aug-gnl-1-11` (K8) | possibly | Augustine's *Gnl* I treats the division at I.9–10 (PL 34:254), which is neither built here nor there |
+
+**Material read for K9 that belongs elsewhere, all on disk or in the local TEI:**
+
+| locus | belongs to | note |
+|---|---|---|
+| Alcuin, *Int.* 94 (PL 100:530-ish) | an evil/privation crux, if one is ever made | *Quid est malum? — Malum vero nihil est per se, nisi privatio boni: sicut tenebrae nihil sunt, nisi absentia lucis.* The cleanest Carolingian statement of the privation doctrine, and it is **not on the verse** — it sits among the questions on the fall — so the anchor rule keeps it off this daf. It is what makes Wigbod's essence-of-darkness the more striking. |
+| Hugh, *De sacr.* I.1 cap. XII (PL 176:195C–196C) | K9, second pass, or a moral layer | *Primum in corde peccatoris creatur lux* — the sinner dividing light from darkness in himself, virtues from vices, and only then daring to name them. Read and dropped: the moral reading is already carried by Isidore, Remigius, the Glossa, BR 2:5 and BR 3:8. It is the best Latin text for a moral layer if one is built. |
+| Rabanus PL 107:467A, Remigius PL 131:55D | K7 or a moral layer | the *fiat lux* = light of faith allegory that PHASES.md flagged for K9. Both are anchored on **1:2** (*terra inanis*, *tenebrae super faciem abyssi*), not on 1:4, and both run the soul-before-doctrine reading K6 and K7 already have. Not built here. |
+| Rupert, PL 167:214B and 215B | K9, second pass | two further treatments of the same clause in the same work — the potter of Rom 9 and the order *prius vidit … deinde dividens*. The first (210A–C) is fuller and is what K9 built. |
+| Basil/Eustathius, PL 53:924B | a day-and-night crux | *sic obumbrato aere qui terrae proximus est, nox efficitur* — night as the shadowing of the air near the earth, on the fourth day's works. The physics behind Comestor's shadow. |
+| Bonaventure II Sent. d.13 a.1 q.2, a.2 q.1–2 | Phase 6 | still unbuilt, still the right place for the substance/accident question Rupert raises at K8. |
+| Honorius, PL 172:261C | K9, second pass | *formatam et intelligibilem creaturam ab informata discrevit* — a second treatment in TEI 10991, the *formatum ab informi* answer again; the 255D passage is fuller and is what K9 built. Note this is inside the same work-division problem K10 flagged at PL 172:261. |
+| Bruno, PL 164:149A | — | checked and dropped: his only sentence on 1:4 is *bona ergo lux, quae a tenebris divisa rerum formas coloresque illuminat*, and the block is where `bruno-gen-1-3` begins. |
+
+**A third instance of the shape K8 and K4 both hit — a doctrine settled elsewhere foreclosing an
+answer here — and this time it runs the other way.** The Latin bench cannot say that God made the
+darkness, because Augustine settled at Gen 1:2 that darkness is the privation of light; so when
+Remigius, Wigbod's pupil and the Glossa say it anyway, they say it without argument from authority
+and without noticing that they are contradicting the gloss printed three columns earlier on the
+previous verse. The rabbinic bench, which never took up the question, says it four times over
+without embarrassment. Phase 4 should decide whether this belongs in the graph; K9's `finding`
+carries it for now.
+
+**The two Latin texts of this verse sort the bench, and no witness on the site preserves the Old
+Latin.** `vulgate-1-4` is Jerome's *divisit lucem a tenebris*; the Old Latin that Augustine, Alcuin
+and Angelomus quote — *divisit inter lucem et tenebras*, from the Greek's doubled *ana meson* — is
+attested on this daf only inside the witnesses that quote it. Phase 6 should decide whether a Vetus
+Latina witness is worth adding, at this verse and at Gen 1:1 (*creavit* / *fecit*, K1) where the
+same problem arose.

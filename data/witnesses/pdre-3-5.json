@@ -1,0 +1,38 @@
+{
+ "id": "pdre-3-5",
+ "work": "pdre",
+ "author": "pirkei-derabbi-eliezer",
+ "tradition": "rabbinic",
+ "date": 800,
+ "date_precision": "range-750-850",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "he": "אוֹר וְחשֶׁךְ",
+  "en": "light and darkness"
+ },
+ "original": {
+  "lang": "he",
+  "text": "שְׁמוֹנָה דְבָרִים נִבְרְאוּ בַּיּוֹם רִאשׁוֹן, וְאֵלּוּ הֵן: שָׁמַיִם וָאָרֶץ, וְאוֹר, וְחֹשֶׁךְ, וְתֹהוּ וָבֹהוּ, וְרוּחַ וּמַיִם, שֶׁנֶּאֱמַר ״וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם״. וְיֵשׁ אוֹמְרִים אַף יוֹם וָלַיְלָה, שֶׁנֶּאֱמַר ״וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד״. וּשְׁמוֹנָה בַּיּוֹם הַשֵּׁנִי, וְאֵלּוּ הֵן: הַבְּאֵר וְהַמָּן וְהַמַּטֶּה וְהַקֶּשֶׁת וְהַכְּתָב וְהַמִּכְתָּב וְהַכְּתֹנֶת וְהַמַּזִּיקִין. וַעֲשָׂרָה דְבָרִים עָלוּ בַמַּחֲשָׁבָה: יְרוּשָׁלַיִם וְרוּחוֹת אָבוֹת וְאָרְחוֹת הַצַּדִּיקִים וְגֵיהִנֹּם וּמֵי הַמַּבּוּל וְלוּחוֹת הַשְּׁנִיִּים, וְהַשַּׁבָּת וְהַמִּקְדָּשׁ וְהָאָרוֹן וְאוֹר לָעוֹלָם הַבָּא.",
+  "source": "Pirkei de-Rabbi Eliezer 3",
+  "license": "pd",
+  "version": "Pirke DeRabbi Eliezer, Sefaria Vocalized Edition"
+ },
+ "english": {
+  "text": "Eight things were created on the first day, namely, Heaven, Earth, Light, Darkness, Tohu (Chaos), Bohu (Void), Wind (or Spirit), and Water, as it is said, \"And the wind of God was moving upon the face of the waters\" (Gen. 1:2). Some (wise men) say that day and night also, as it is said, And there was evening and morning, one day (Gen. 1:5). Eight things were created on the second day, namely, the Well, the Manna, the Rod, the Rainbow, the art of writing, the written characters, the Garments, and the destroying spirits. Ten things arose in the thought (of the Creator), namely, Jerusalem,\" the spirits of the patriarchs, the paths of the righteous, Hell (Gehenom), the waters of the flood, the second tables, the shabbat, the temple and the light of the world to come.",
+  "translator": "Gerald Friedlander, 1916",
+  "license": "pd"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "tenebrae-creatura"
+ ],
+ "notes": "An inventory, and the darkness is on it. Eight things were created on the first day: heaven, earth, light, darkness, tohu, bohu, wind and water. There is no argument, no proof text for the darkness in particular, and no sense that anything needs defending — the list simply has light and darkness next to each other as two of the eight. Set beside Alcuin's answer to the same question, 'which creatures were made out of nothing? — heaven, earth, angels, light, air, water and the soul of man', the two lists are the same kind of thing with the contested items swapped: Alcuin has the angels and the soul and no darkness, Pirkei de-Rabbi Eliezer has the darkness and the tohu and no angels. Neither list argues; each is the settled answer of a bench."
+}

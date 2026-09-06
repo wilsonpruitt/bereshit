@@ -1,0 +1,43 @@
+{
+ "id": "hugh-sacr-1-4",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "divisit per judicium; et per meritum nominavit",
+  "en": "he divided by judgement, and named by merit"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et ut mihi videtur eodem prorsus temporis momento quo visibiliter et corporaliter divisa est lux a tenebris; invisibiliter quoque boni angeli discreti sunt a malis illis in tenebras peccati cadentibus: et istis ad lucem justitiae conversis illuminatisque a luce, ut lux essent et non tenebrae. Sic enim consonare debuerunt exemplaria operum Dei, ut quae visibilia erant opera sapientiae, invisibilium proventus sequerentur, secundum quod ipsa quae utrobique operabatur sapientia, ibi judicium exercuit, hic formavit exemplum. Divisa est lux ergo a tenebris; et erat lux visibilis et visibiles tenebrae erant; similiter et lux invisibilis erat, et tenebrae invisibiles erant; et utrorumque divisio facta est; et simul facta est divisio tenebrarum et lucis. Et vocata est lux dies et tenebrae nox. Utrumque quidem Deus divisit, et utrumque nominavit; sed et utrumque non fecit. Deus enim auctor tenebrarum non est sed lucis; quia peccatum est tenebrae et peccatum nihil est: Et sine ipso nihil factum est (Joan. III) . Lux ab ipso facta est; quia justitia et veritas lux est, et de luce audivimus quod dixit Deus: Fiat lux, et statim lux facta est (Gen. I) . Nusquam dixit Deus: Fiant tenebrae. Sed de luce dixit: Fiat lux, et divisit lucem a tenebris; et vocavit lucem diem, et tenebras noctem (ibid.) . Ergo non fecit utrumque; tamen utrumque divisit, et utrumque nominavit. Divisit per judicium; et per meritum nominavit, judicavit et disposuit. Quia nec hoc apud eum judicantem inordinatum esse potuit, quod apud delinquentes inordinatum fuit, vocavit lucem diem, et tenebras noctem.",
+  "source": "PL 176, col. 194D",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And as it seems to me, at precisely the same moment of time at which the light was visibly and bodily divided from the darkness, invisibly also the good angels were distinguished from those evil ones falling into the darkness of sin, these being turned to the light of justice and illuminated by the light, so that they should be light and not darkness. For thus the patterns of God's works had to agree, that the outcome of invisible things should follow the works of wisdom which were visible, according as that same wisdom which was working in both places here exercised judgement and there formed the pattern. The light, then, was divided from the darkness; and there was visible light and there were visible darknesses; likewise there was invisible light, and there were invisible darknesses; and a division of both was made, and the division of the darknesses and of the light was made at once. And the light was called day and the darkness night. God indeed divided both, and named both; but he did not make both. For God is not the author of darkness but of light; because sin is darkness and sin is nothing: And without him was made nothing (John 1:3). Light was made by him; because justice and truth are light, and of light we have heard what God said: Let there be light, and at once light was made (Gen 1). Nowhere did God say: Let there be darkness. But of light he said: Let there be light, and he divided the light from the darkness; and he called the light day, and the darkness night. Therefore he did not make both; yet he divided both, and named both. He divided by judgement; and by merit he named, judged and disposed. For since not even that could be disordered in his judging which was disordered among the offenders, he called the light day, and the darkness night.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-angeli",
+  "tenebrae-privatio",
+  "divisio-est-judicium",
+  "divisio-est-instantanea"
+ ],
+ "notes": "The most carefully joined statement of the Latin answer, and the join is the point. Hugh will not choose between the physical and the angelic reading: both happened, and they happened at the same moment of time, because the visible works of wisdom and the invisible outcomes had to match — 'here it exercised judgement, there it formed the pattern'. So there was visible light and visible darkness, invisible light and invisible darkness, and one division of both at once. Then he states Augustine's doctrine in its sharpest Latin — God divided both and named both, but did not make both, for sin is darkness and sin is nothing — and closes with the distinction the crux has been waiting for: he divided by judgement and named by merit. That the naming is by merit is Hugh's own, and it answers the question the rabbinic bench answers with R. Elazar's 'he never joins his name to the bad': what a thing is called follows what it deserves."
+}

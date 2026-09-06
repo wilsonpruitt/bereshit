@@ -1,0 +1,42 @@
+{
+ "id": "angelom-gen-1-4",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "distinctio facta est inter lucem et tenebras, non tenebrae factae",
+  "en": "a distinction was made between light and darkness, not darkness made"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Caeterum dum dicit, divisitque lucem a tenebris, ostendit quia distinctio facta est inter lucem et tenebras, non tenebrae factae; quemadmodum clamando vocem, silentium autem non clamando dicimus, quia cessatio vocis silentium est. Distinguimus tamen sensu quodam inter ea, et illud vocamus vocem, istud silentium. Quemadmodum ergo recte dicimus facere silentium, sic recte Deus dicitur facere tenebras; quia lucem, quibus vult, temporibus et locis vel dat, vel detrahit. Quia, ut Clemens ait: Unam [ Z., imam], inquit, mundi partem illustrans aliam reliquit obscuram. Lucem videlicet in superiore orbis parte diffundendo, in qua humana erat conversatio futura, inferiora vero ejus priscis in tenebris remanendo. Si cui hoc accipere placuerit, nos, ut coepimus, B. Augustini [Suppl. ex Z., dicta] sequi, et expositionem magistri nisi sumus. Et divisit Deus lucem ac tenebras [ Z., a tenebris ], et reliqua. Id est, coelestes angelorum cives ab inmundis spiritibus, quando Lucifer avertendo a Creatore, et convertendo ad se, aestimans sibi sufficere, superbia tumidus, sine auxilio sui conditoris, ejectus est cum suis sequacibus a coelestibus, et caeteri in sua stabilitate permanserunt, hos nuncupans diem, illos noctem, juxta quod sequitur, appellavitque lucem diem, et tenebras noctem. Quia ruina ruentium aeterna facta est stabilitas permanentium",
+  "source": "PL 115, col. 117C",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But when he says, and he divided the light from the darkness, he shows that a distinction was made between light and darkness, not that darkness was made; as we say we make a voice by crying out, and silence by not crying out, because the ceasing of the voice is silence. Yet we distinguish between them by a kind of sense, and call the one voice and the other silence. As therefore we rightly say that we make silence, so God is rightly said to make darkness; because he either gives or withdraws light, at what times and places he wills. Because, as Clement says: Lighting up one part of the world, he left the other dark — namely by spreading the light over the upper part of the world, in which the human way of life was to be, and the lower parts of it remaining in their ancient darkness. If anyone chooses to take it so, we, as we began, have striven to follow blessed Augustine and the exposition of the master. And God divided the light and the darkness, and the rest. That is, the heavenly citizens of the angels from the unclean spirits, when Lucifer, turning away from the Creator and turning to himself, reckoning that he sufficed to himself, swollen with pride, was cast out from the heavenly places with his followers, without the help of his maker, and the rest remained in their stability — calling these day and those night, according to what follows: and he called the light day, and the darkness night. For the ruin of those who fell became the eternal stability of those who remained.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-privatio",
+  "divisio-loci",
+  "tenebrae-angeli"
+ ],
+ "notes": "Three answers laid end to end with a hinge sentence between them, and the hinge is the most honest thing in the Carolingian bench: 'if anyone chooses to take it so, we, as we began, have striven to follow blessed Augustine.' First Augustine's privation with the silence analogy, copied close enough to be recognised and altered in one word — Augustine wrote that God either does not give light or withdraws it, Angelomus writes that he gives or withdraws it, which quietly makes the darkness something conferred. Then Bede's upper and lower parts of the world, attributed to Clement. Then the angelic reading, with Lucifer named and the fall narrated, and a sentence that is not in Augustine at all: the ruin of those who fell became the eternal stability of those who remained. A compiler who cannot choose is not thereby a bad witness; the three answers are the three the twelfth century will still be sorting."
+}

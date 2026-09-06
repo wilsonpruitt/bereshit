@@ -1,0 +1,40 @@
+{
+ "id": "remigius-gen-1-4",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 890,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "utrumque autem fecit Deus et lucem et tenebras",
+  "en": "but God made both, the light and the darkness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit lucem a tenebris. Tenebrae a tenendo dictae sunt, quia tenent oculos ne videant. Utrumque autem fecit Deus et lucem et tenebras, scilicet ut in luce operarentur homines, et in nocte requiescerent. Ergo et tenebrae opus Dei sunt. Unde in hymno trium puerorum in quo omnis creatura ad benedicendum Deum invitatur, etiam tenebrae cum luce ponuntur.",
+  "source": "PL 131, col. 55C",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And he divided the light from the darkness. Darkness (tenebrae) is so called from holding (tenendo), because it holds the eyes so that they may not see. But God made both, the light and the darkness — namely, that men might work in the light and rest in the night. Therefore the darkness too is a work of God. Whence in the hymn of the three young men, in which every creature is invited to bless God, the darkness also is set down along with the light.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "tenebrae-creatura",
+  "night-for-rest"
+ ],
+ "notes": "The flat contradiction of Augustine, stated in four sentences and with a proof text, in a school commentary written for teaching. God made both, and the reason is a reason from use: that men should work in the light and rest at night. Then the sentence Augustine's whole argument exists to prevent — therefore the darkness too is a work of God — and then the evidence, which is liturgical rather than philosophical: in the Benedicite, where every creature is called to bless the Lord, light and darkness are called together (Dan 3:72). It is a good argument. If the darkness is a privation it cannot be summoned to praise, and the canticle summons it. Remigius does not mention Augustine, and the Glossa will print this gloss over the name of Strabo on the same page as glosses that assume the opposite."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "ibn-ezra-1-4",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "he": "וְטַעַם וַיַּבְדֵּל בִּקְרִיאַת הַשֵּׁמוֹת",
+  "en": "the meaning of 'and he divided' is by the calling of names"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וירא כמו וראיתי אני (קהלת ב יג, דניאל יו\"ד ז) והוא במחשבה, וטעם ויבדל בקריאת השמות,",
+  "source": "Ibn Ezra on Gen 1:4",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "And He saw: Like “I myself saw…” Ecclesiastes 2:13; Daniel 10:7, it is [seeing] in [one’s] thought. And the meaning of “and He separated” – through calling of names.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "divisio-nominis",
+  "bonum-approbatio"
+ ],
+ "notes": "Two clauses, and each disposes of half the crux. 'And he saw' is like Qohelet's 'I myself saw' — it is in the thought, so nothing happened at that moment and there is no inspection to explain. 'And the meaning of and he divided is by the calling of names' — the dividing of v. 4 simply is the naming of v. 5, so there is no separate act of separation to be located in space, in time, or among the angels. Every Latin answer on this crux presupposes that va-yavdel reports a distinct work; Ibn Ezra denies the premise in nine Hebrew words. Nobody on the Latin bench considers it, and the grammarian's solution has no counterpart there — although Augustine at De Genesi contra Manichaeos comes within a sentence of it when he wonders whether to have divided just is to have named."
+}

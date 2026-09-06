@@ -1,0 +1,43 @@
+{
+ "id": "comestor-hs-1-4",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "umbram ex objectione corporum luci",
+  "en": "the shadow made by bodies set against the light"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et vidit Deus lucem, quod esset bona, id est quae placuerat in praesentia, vel praescientia, ut fieret; placuit in essentia, ut maneret. Vel tropice, vidit. id est videre fecit. Et divisit lucem, ac tenebras; hic incipit dispositio. Et tamen aliquid dicit de creatione, quasi cum luce tenebras creavit, id est umbram ex objectione corporum luci; et creatas divisit locorum distantia, et qualitate, ut scilicet nunquam simul, sed semper e regione diversa hemisphaeria vicissim sibi vindicarent. Intelligitur etiam hic angelorum facta divisio: stantes lux, cadentes tenebrae dicti sunt.",
+  "source": "PL 198, col. 1057B",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God saw the light, that it was good — that is, which had pleased him in his presence, or in his foreknowledge, that it should be made; it pleased him in its being, that it should remain. Or figuratively, he saw, that is, he made to be seen. And he divided the light and the darkness; here the disposing begins. And yet he says something of creation too, as though he created the darkness together with the light — that is, the shadow made by bodies set against the light; and he divided the created things by distance of place, and by quality, so that they should never be together, but always claim opposite hemispheres in turn. Here too the division of the angels is understood: those who stood were called light, those who fell darkness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-creatura",
+  "divisio-loci",
+  "tenebrae-angeli",
+  "bonum-approbatio"
+ ],
+ "notes": "The twelfth-century summary, and the sentence in it that nobody else on the Latin bench writes: 'as though he created the darkness together with the light — that is, the shadow made by bodies set against the light.' It is a physical account of what darkness is that makes it a real effect of a real cause and not a privation, and Comestor slips it in with quasi and moves on to Bede's distance of place and the angels, keeping all three answers as Angelomus did three hundred years earlier. On the approval he splits the moment cleanly in two — it pleased God in his foreknowledge that it should be made, and pleased him in its being that it should remain — which is Alcuin's answer with a distinction added, and then offers 'he saw, that is, he made to be seen' as a figurative alternative, which is Remigius'. The Historia scholastica is at its most useful here: not a position, a map."
+}

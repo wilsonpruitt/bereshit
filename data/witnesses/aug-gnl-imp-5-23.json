@@ -1,0 +1,40 @@
+{
+ "id": "aug-gnl-imp-5-23",
+ "work": "aug-gnl-imp",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 393,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "quae enim societas lucis cum tenebris",
+  "en": "for what fellowship has light with darkness?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit Deus inter lucem et tenebras. Hinc intelligi licet quanta divini operis facilitate ista dicantur effecta. Non enim quisquam est qui sic existimet lucem factam, ut esset confusa cum tenebris, et ob hoc postea separationis indigeret; sed eo ipso quo lux facta est, consecuta est etiam divisio inter lucem et tenebras. Quae enim societas lucis cum tenebris (II Cor. VI, 14) ? Deus ergo divisit inter lucem et tenebras, quia lucem fecit, cujus absentia tenebrae vocantur. Interest autem inter lucem et tenebras, sicut interest inter vestimentum et nuditatem, aut plenum et inane, et similia.",
+  "source": "PL 34, col. 228",
+  "cc_idno": "7310",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God divided between the light and the darkness. From this it may be understood with how great an ease of divine working these things are said to have been effected. For there is no one who so supposes the light to have been made that it was confused with the darkness, and for that reason needed a separation afterwards; but by the very fact that the light was made, the division between light and darkness also followed. For what fellowship has light with darkness (2 Cor 6:14)? God therefore divided between light and darkness, because he made the light, whose absence is called darkness. And there is a difference between light and darkness such as there is between a garment and nakedness, or the full and the empty, and the like.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "tenebrae-privatio",
+  "divisio-est-instantanea"
+ ],
+ "notes": "The objection Augustine is answering is never stated on the rabbinic bench and is the obvious one: if God had to divide them, they must first have been mixed. His answer is that no separate act is needed — the division followed on the making, because the making of light is the not-being of darkness, as putting on a garment is the ending of nakedness and filling a vessel the ending of its emptiness. Hugh of St Victor takes over the instantaneity and applies it to the angels; and the same instinct, that the two were never confused and needed no unmixing, is what Ambrose gets from the other end when he says the division exists so that nothing should have anything confused within it."
+}

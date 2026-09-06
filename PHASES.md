@@ -62,26 +62,24 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10, K1, K8, K6, K5 and K4 built (2026-09-05). Next up is K9 `good-and-separated`, row 7.**
+**State: K10, K1, K8, K6, K5, K4 and K9 built (2026-09-05). Next up is K3 `elohim-and-trinity`, row 8.**
 
-To start that session, paste: *"Build the crux `good-and-separated` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* Much of K9's material has already been read and flagged in
-`notes/cross-crux.md` with its locus: BR 3:6 second half (R. Ze'eira on the havdala blessing, and
-"he set it aside for himself"), Rashi on 1:4 *peshat* half ("not seemly that light and darkness
-should function in confusion" — in the same dibbur K8 slices), Augustine *Gnm* I.4 (PL 34:176,
-darkness is not a thing but the absence of light), Rabanus 107:467A and Remigius 131:56A (the same
-moral allegory on both: *fiat lux* = the light of faith, the division of the sons of light from
-sinners), Hugh *De sacr.* I.1 capp. X–XII, Bonaventure II Sent. d.13 a.1 q.2 and a.2 q.1–2, BR 2:5
-(R. Abahu: tohu va-vohu the deeds of the wicked, the light the deeds of the righteous), and Ramban
-on 1:1 continuation (fire is what "darkness" means, water is "the deep").
+To start that session, paste: *"Build the crux `elohim-and-trinity` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* Much of K3's material has already been read and flagged in
+`notes/cross-crux.md` with its locus: b. Megillah 9a (on disk, unpulled into any crux — the changes
+the elders made for Ptolemy, beginning with the reversal of *bereshit bara Elohim*), BR 1:12 (R.
+Yudan in the name of Akilas: the King acts first and names himself after), Bruno PL 164:157B
+(*habes ergo Deum, id est Patrem; habes et principium, id est Filium*, on *Faciamus hominem*),
+Augustine *Conf.* XIII.5 (PL 32:847), `aug-gnl-1-5-11` (K7) and `glossa-1-2-ruach` (K7), both of
+which already carry `elohim-and-trinity` in their facets and will be folded into the roster by
+build-crux.py, and Rupert's whole design (the Trinity works at every *dixit … fecit … vidit*, PL
+167:230A, which K9 read and did not build).
 
-⚠ **Run the overlap check before writing any slice, and run it by OFFSET, not by column.** `scripts/overlap.py`
-(written for K4) builds a coverage map of every existing Latin witness inside its
-TEI and reports each candidate anchor as COVERED or FREE with its neighbouring slice boundaries;
-three of K4's twenty candidates came back covered, and **checking by printed column would have
-missed all three**, because one Migne column routinely holds two witnesses from two cruxes. K9 is
-anchored on Gen 1:4, which K8 has built heavily. See the method note at the end of the K4 entry in
-`notes/SOURCES-FINDINGS.md`.
+⚠ **K3 is on Gen 1:1–1:2, the two most crowded verses on the site** — K1 built 34 witnesses on 1:1
+and K7, K6 and K4 have taken most of 1:2. `scripts/overlap.py` by OFFSET before every slice, and for
+the rabbinic bench `grep -l '<distinctive phrase>' data/witnesses/*.json`, which is what caught K8's
+over-long BR 3:6 slice while K9 was being built (see notes/cross-crux.md). Expect to lose several
+candidates to K1 and to leave them for Phase 4.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -98,7 +96,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~4~~ | ~~K6 `tohu-vabohu`~~ | **BUILT 2026-09-05** — 25 new witnesses (32 on the daf with K7's), 28 threads | 15–20 |
 | ~~5~~ | ~~K5 `heaven-earth-order`~~ | **BUILT 2026-09-05** — 17 new witnesses (19 on the daf), 20 threads | 15–20 |
 | ~~6~~ | ~~K4 `ex-nihilo-or-matter`~~ | **BUILT 2026-09-05** — 19 new witnesses (22 on the daf), 25 threads | 15–20 |
-| 7 | K9 `good-and-separated` | moral allegory both sides; test Bede for Hebrew mediation | 12–15 |
+| ~~7~~ | ~~K9 `good-and-separated`~~ | **BUILT 2026-09-05** — 32 witnesses, 45 threads | 12–15 |
 | 8 | K3 `elohim-and-trinity` | Megillah 9a; Rupert's whole design; much already tagged from K7 | 12–15 |
 | 9 | K2 `why-begin-here` | Rashi's R. Yitzchak; Ambrose I.1; prologues; smallest | 8–12 |
 
@@ -266,3 +264,40 @@ three of eleven Latin candidates — Bruno 147B, the Glossa's VERS. 1, Rabanus 4
 K1 slice and had to be dropped to `notes/cross-crux.md`. **K2 and K3 are both on 1:1–1:2 and will
 lose more.** Neither is a reason to widen a slice or to rebuild another crux's witness: the Phase 4
 pass exists for exactly this, and the cross-crux table now carries the edges it will need.
+
+**Added for K9** (extends the frozen renderings, does not re-decide them). The crux turns on which
+Latin text a witness had, so the two forms are kept rigidly apart in the English as in the Latin:
+*divisit inter lucem et tenebras* = "divided between the light and the darkness" (the Old Latin,
+following the Greek's doubled *ana meson*) and *divisit lucem a tenebris* = "divided the light from
+the darkness" (Jerome); *discrevit* = "distinguished" and *separavit* = "separated", never levelled
+to "divided"; *distinctio* = "distinction" and *divisio* = "division". Further: *privatio* =
+"privation" and *absentia lucis* = "the absence of light"; **_ordinare_ = "to order" / "to set in
+order", held rigidly apart from *facere* = "to make"**, because Augustine's whole answer is that God
+did not make the darkness but ordered it, and any English that blurs the pair destroys the argument;
+*ordinator* = "orderer"; *tenebrae* = "darkness", but "darknesses" wherever a witness counts kinds
+or has *tenebrae* as a plural subject beside a plural *lux* (Hugh); *vidit … quod esset bona/bonum*
+= "saw … that it was good", and *vidit* is always "saw", never "judged" or "approved" — *approbare*
+= "approve" and *comprobare* = "confirm" are separate words and Ambrose uses both; *judicium* =
+"judgement" and *meritum* = "merit" (Hugh's *divisit per judicium; et per meritum nominavit* = "he
+divided by judgement, and by merit he named"); *lux incommutabilis / commutabilis* = "the
+unchangeable / changeable light"; *informis* = "unformed" **only** in the pair *res formata ab
+informi* = "the formed thing from the unformed", where "formless" would collide with the frozen
+*informis materia* = "formless matter"; *umbra ex objectione corporum* = "the shadow made by bodies
+set against the light"; *essentia* = "an essence". The LXX's *καλόν* is rendered "beautiful", not
+"good", so that the difference from the Hebrew *ki tov* is visible on the page.
+Rabbinic: *va-yavdel*, *havdala*, *havdala mamash* (= "a real separating"), *hivdilo lo* (= "he
+separated it for himself"), *ki tov*, *tzaddikim*, *reshaim* transliterated where the English keeps
+them; *istratigin* = "generals"; "the Holy One, blessed be He"; *le-atid lavo* = "in the time to
+come" (as at K8); *ma'aseihen shel tzaddikim* = "the deeds of the righteous". Note that K9's
+rabbinic English is **all embedded and licensed** — Sefaria Midrash Rabbah for BR, Chavel for
+Ramban, Friedlander for Pirkei de-Rabbi Eliezer, Etheridge for Pseudo-Jonathan, a community
+translation for Ibn Ezra — so the fresh drafts on this crux are Latin, Greek and Onkelos only.
+
+**Burn, measured on K9 (Opus, 2026-09-05): ~110K tokens**, the cheapest of the seven. The reasons,
+and the one that generalises, are in the K9 entry of `notes/SOURCES-FINDINGS.md`: every rabbinic
+locus was on disk and most had been read at K8 or K6; the Latin survey was two `grep-bench.py` calls
+plus one direct read of Alcuin, whose *Interrogationes* do not answer a lemma grep because they are
+organised as questions; and **on a crux with a small, sharply distinguished set of answers the
+roster prunes itself**, which is the opposite of K10's experience and worth knowing before K3 and K2
+are budgeted. The roster still ran to 32 against the table's 12–15 — the fifth overrun in a row.
+**The table's numbers should be read as floors, not estimates.**

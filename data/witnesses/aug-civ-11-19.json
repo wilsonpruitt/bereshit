@@ -1,0 +1,40 @@
+{
+ "id": "aug-civ-11-19",
+ "work": "aug-civ",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 417,
+ "date_precision": "range-413-427",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "inter sanctos Angelos et immundos fuisse discretum",
+  "en": "that a distinction was made between the holy angels and the unclean"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quamvis itaque divini sermonis obscuritas etiam ad hoc sit utilis, quod plures sententias veritatis parit et in lucem notitiae producit, dum alius eum sic, alius sic intelligit; ita tamen ut quod in obscuro loco intelligitur, vel attestatione rerum manifestarum, vel aliis locis minime dubiis asseratur; sive cum multa tractantur, ad id quoque perveniatur, quod sensit ille qui scripsit; sive id quidem lateat, sed ex occasione tractandae profundae obscuritatis alia quaedam vera dicantur: non mihi videtur ab operibus Dei absurda sententia, si cum lux illa prima facta est, Angeli creati intelliguntur, et inter sanctos Angelos et immundos fuisse discretum, ubi dictum est, Et divisit Deus inter lucem et tenebras; et vocavit Deus lucem diem, et tenebras vocavit noctem. Solus quippe ille ista discernere potuit, qui potuit etiam priusquam caderent praescire casuros, et lumine privatos veritatis in tenebrosa superbia remansuros. Nam inter istum nobis notissimum diem et noctem, id est inter hanc lucem et has tenebras, vulgatissima sensibus nostris luminaria coeli ut dividerent, imperavit: Fiant, inquit, luminaria in firmamento coeli, ut luceant super terram, et dividant inter diem et noctem. Et Paulo post: Et fecit, inquit, Deus duo luminaria magna; luminare majus in principia diei, et luminare minus in principia noctis; et stellas: et posuit illa Deus in firmamento coeli, lucere super terram, et praeesse diei et nocti, et dividere inter lucem et tenebras (Gen. I, 4, 5, 14, 16-18) . Inter illam vero lucem, quae sancta societas Angelorum est illustratione veritatis intelligibiliter fulgens, et ei contrarias tenebras, id est malorum angelorum aversorum a luce justitiae teterrimas mentes, ipse dividere potuit, cui etiam futurum, non naturae, sed voluntatis malum, occultum aut incertum esse non potuit.",
+  "source": "PL 41, col. 332",
+  "cc_idno": "21364",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Although, then, the obscurity of the divine speech is useful even for this, that it brings forth many opinions of the truth and produces them into the light of knowledge, while one man understands it this way and another that — provided always that what is understood in an obscure place is confirmed either by the attestation of manifest things, or by other passages not at all doubtful; and provided that, when many things are handled, one arrives also at what the writer meant, or, if that lies hidden, that on occasion of handling a deep obscurity some other true things are said: it does not seem to me an opinion at odds with the works of God, if, when that first light was made, the angels are understood to have been created, and a distinction to have been made between the holy angels and the unclean, where it is said, And God divided between the light and the darkness; and God called the light day, and the darkness he called night. For he alone could distinguish these, who could also foreknow, before they fell, that they would fall, and that, deprived of the light of truth, they would remain in darksome pride. For between this day and night best known to us — that is, between this light and these darknesses — he commanded the luminaries of heaven most familiar to our senses to divide: Let there be, he said, luminaries in the firmament of heaven, that they may shine upon the earth, and divide between the day and the night. And a little after: And God made, he says, two great luminaries; the greater luminary for the beginning of the day, and the lesser luminary for the beginning of the night; and the stars: and God set them in the firmament of heaven, to shine upon the earth, and to preside over the day and the night, and to divide between the light and the darkness (Gen 1:4, 5, 14, 16–18). But between that light, which is the holy fellowship of the angels shining intelligibly with the illumination of truth, and the darkness contrary to it — that is, the most foul minds of the evil angels turned away from the light of justice — he alone could divide, to whom even a future evil, not of nature but of will, could not be hidden or uncertain.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-angeli",
+  "divisio-est-judicium"
+ ],
+ "notes": "Augustine's angelic reading, and it is offered with more hedging than anything else he says about this verse: the obscurity of Scripture is useful because it breeds many true readings, and 'it does not seem to me an opinion at odds with the works of God' if the light is the angels and the division is between the holy and the unclean. The argument for it is a philological one — the luminaries of the fourth day are commanded to divide light from darkness in the ordinary sense, so the division of the first day must be another division — and it depends on nobody but God being able to make it, since it separates by foreknowledge of a fall that has not happened. This is the reading Wigbod, Angelomus, Hugh, Rupert and Comestor all take up, and none of them keeps the hedge."
+}

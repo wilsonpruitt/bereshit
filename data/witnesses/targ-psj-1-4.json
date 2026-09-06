@@ -1,0 +1,38 @@
+{
+ "id": "targ-psj-1-4",
+ "work": "targ-psj",
+ "author": "targum-pseudo-jonathan",
+ "tradition": "rabbinic",
+ "date": 650,
+ "date_precision": "range-400-800",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "arc": "וְאַפְרֵישׁ",
+  "en": "and he set apart"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וַחֲזָא יְיָ יַת נְהוֹרָא אֲרוּם טַב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
+  "source": "Targum Pseudo-Jonathan Gen 1:4",
+  "license": "pd",
+  "version": "Targum Jonathan on Genesis"
+ },
+ "english": {
+  "text": "And the Lord beheld the light, that it was good; and the Lord divided between the light and the darkness.",
+  "translator": "J. W. Etheridge, 1862",
+  "license": "etheridge"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "divisio-loci"
+ ],
+ "notes": "The expansive targum, and on this verse it expands nothing: its Gen 1:4 is Onkelos letter for letter. One verse later it is at work again — the light was made so that the inhabitants of the world might labour by it, the darkness so that the creatures might rest in it — which is Remigius' reason for the division, arrived at in Aramaic. That the expansion attaches to the naming in v. 5 and not to the dividing in v. 4 is itself evidence about where the rabbinic bench thought the difficulty lay."
+}

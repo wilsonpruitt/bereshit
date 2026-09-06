@@ -1,0 +1,39 @@
+{
+ "id": "basil-hex-2-8",
+ "work": "basil-hex-lat",
+ "author": "basil",
+ "tradition": "greek",
+ "date": 380,
+ "date_precision": "range-370-380",
+ "place": "caesarea-cappadociae",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "incommixtam naturam",
+  "en": "their nature unmingled"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et separavit Deus inter lucem et tenebras, id est incommixtam naturam illarum, sibique ex contrarietate disparem fabricavit; quippe quas prolixis a se spatiis et destituit et discrevit, sicut dictum est: Et vocavit Deus lucem diem, et tenebras vocavit noctem.",
+  "source": "PL 53, col. 888A",
+  "cc_idno": "7608",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God separated between the light and the darkness — that is, he fashioned their nature unmingled, and unlike itself by contrariety; for he both set them apart from one another by long spaces and distinguished them, as it is said: And God called the light day, and the darkness he called night.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "divisio-loci"
+ ],
+ "notes": "The Greek bench's answer, in the Latin Eustathius made of it, and it is entirely physical: the division is a fashioning of the two natures so that they cannot mix, and a placing of them at long distances from each other. What Basil will not do is make the darkness nothing. He has just said, a few columns earlier, that night is the shadowing of the air which the sun's setting produces; here the darkness is a nature with a contrary, and the separating is a work on both. Bede's 'not only by a difference of quality but of place' is this sentence in another language, and Bede did not need to be reading it to arrive there — but Angelomus, who did read something like it, attributes it to Clement."
+}

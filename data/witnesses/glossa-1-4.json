@@ -1,0 +1,41 @@
+{
+ "id": "glossa-1-4",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "Lucem et tenebras fecit Deus",
+  "en": "God made both the light and the darkness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 4.-- « Et vidit Deus lucem, » etc. (STRAB.) Lucem et tenebras fecit Deus, unde Dan. III. « Benedicite, lux et tenebrae, Domino, » cum omnis creatura ad benedicendum invitatur. (ISID., in Gen., c. 2.) Habet quisque in operibus et recta vita, distinctos sex dies, post quos requiem speret: primo die, lucem fidei, quoniam primo invisibilibus credit propter quam fidem Dominus apparere dignatus est.",
+  "source": "PL 113, col. 71C",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "VERSE 4. 'And God saw the light,' etc. (STRABO.) God made both the light and the darkness, whence Daniel 3: 'Bless the Lord, light and darkness,' since every creature is invited to bless. (ISIDORE, on Genesis, ch. 2.) Everyone has in his works and upright life six distinct days, after which he may hope for rest: on the first day, the light of faith, since he first believes in things invisible, for which faith the Lord deigned to appear.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-creatura",
+  "tenebrae-peccatores"
+ ],
+ "notes": "The whole of the standard gloss on this verse is two sentences, and what they select is the answer to the crux. Of everything the Latin bench had said about Gen 1:4 — Augustine's privation, his angels, his order without making, Bede's places, Ambrose on the nature of light — the Glossa prints Remigius' 'God made both the light and the darkness' with the Benedicite behind it, and Isidore's light of faith. So the twelfth-century schoolroom's default reading of this verse is the anti-Augustinian one on the literal side and the moral one on the allegorical, and Augustine's answer, which every twelfth-century witness on this crux still argues from, has to be fetched from elsewhere. Note also that the gloss on 1:2 in the same chapter carries the opposite doctrine — 'darkness was there, namely the privation of true light' — three columns earlier."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "vulgate-1-4",
+ "work": "vulgate",
+ "author": "jerome",
+ "tradition": "latin",
+ "date": 392,
+ "date_precision": "circa",
+ "place": "bethlehem",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "divisit lucem a tenebris",
+  "en": "he divided the light from the darkness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris.",
+  "source": "PL 28, col. 163C",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And God saw the light, that it was good: and he divided the light from the darkness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "divisio-loci",
+  "bonum-approbatio"
+ ],
+ "notes": "Jerome drops the Greek's doubled preposition and writes an ordinary Latin sentence: he divided the light from the darkness. The change is small and its consequences are not. Where the Old Latin's inter lucem et tenebras leaves the two terms standing side by side as a pair between which a distinction is drawn, a tenebris makes the darkness the thing the light is taken away from — an ablative of separation, with something there to be separated from. Augustine, Angelomus and Alcuin quote the older form and argue that no darkness was made; Bede, Remigius, the Glossa and Comestor quote Jerome's and hold that both were made. The correlation is not perfect — Hugh and Rupert quote Jerome and follow Augustine — but it is close enough to be visible on the page."
+}

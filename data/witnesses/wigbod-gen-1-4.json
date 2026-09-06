@@ -1,0 +1,42 @@
+{
+ "id": "wigbod-gen-1-4",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "sicut est essentia lucis, ita essentia tenebrarum",
+  "en": "as there is an essence of light, so an essence of darkness"
+ },
+ "original": {
+  "lang": "la",
+  "text": "AUGUSTINUS. D. Et divisit lucem a tenebris (Ibid.) . Divisit, inquit scriptura, lucem a tenebris: omne enim quod dividitur, et esse potest. Sicut ergo est essentia lucis, ita essentia tenebrarum. Et cur non dicit Scriptura, vidit Deus tenebras quod essent bonae, sicut de luce dictum est? M. Deus bona et incommutabili voluntate creavit omnes angelos bonos, sed quia ex his quosdam per superbiam praesciebat casuros, per incommutabilitatem praescientiae suae divisit inter bonos et malos. Malos igitur appellans tenebras, bonos appellans lucem, in his dicens quia boni sunt, in illis nullatenus dicens, ne peccata quae erant tenebrae adprobare videretur. ITEM ALIBI. D. Divisit lucem a tenebris. Quid est lucem a tenebris dividere? M. Id est, distinctio rei formatae ab informi.",
+  "source": "PL 96, col. 1120A",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "AUGUSTINE. D[isciple]. And he divided the light from the darkness. Scripture says he divided the light from the darkness: for everything that is divided can also be. As therefore there is an essence of light, so there is an essence of darkness. And why does Scripture not say, God saw the darkness, that it was good, as was said of the light? M[aster]. God with a good and unchangeable will created all the angels good, but because he foreknew that some of them would fall through pride, by the unchangeableness of his foreknowledge he divided between the good and the evil. Calling the evil darkness, then, and the good light, he says of these that they are good, and of those he says it not at all, lest he should seem to approve the sins which were the darkness. ELSEWHERE AGAIN. D. He divided the light from the darkness. What is it to divide the light from the darkness? M. It is the distinction of the formed thing from the unformed.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "tenebrae-creatura",
+  "bonum-withheld",
+  "formatum-ab-informi"
+ ],
+ "notes": "A Carolingian compilation putting under the rubric AUGUSTINUS the one proposition Augustine spent three works denying. The pupil's inference is a good one and it is not Augustine's: everything that is divided can also be, therefore as there is an essence of light so there is an essence of darkness. The pupil then asks the right question — why does Scripture not say God saw the darkness that it was good? — and the master's answer is Augustine's own from City of God XI.20, almost word for word, down to 'lest he should seem to approve'. So the transmission carries the answer and loses the doctrine it was an answer to: within two sentences the darkness has an essence and is being withheld from approval because it is sin. The third exchange then gives a third answer, the distinction of the formed from the unformed, which is Honorius' and Abelard's and belongs to a different question again."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "aug-civ-11-20",
+ "work": "aug-civ",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 417,
+ "date_precision": "range-413-427",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "ne utrumque appellaretur bonum",
+  "en": "lest both should be called good"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Denique nec illud est praetereundum silentio, quod ubi dixit Deus, Fiat lux, et facta est lux; continuo subjunctum est, Et vidit Deus lucem quia bona est: non posteaquam separavit inter lucem et tenebras; et vocavit lucem diem, et tenebras noctem, ne simul cum luce etiam talibus tenebris testimonium placiti sui perhibuisse videretur. Nam ubi tenebrae inculpabiles sunt, inter quas et lucem istam his oculis conspicuam luminaria coeli dividunt, non ante, sed post infertur, Et vidit Deus quia bonum est. Et posuit illa, inquit, in firmamento coeli, lucere super terram, et praeesse diei et nocti, et separare inter lucem et tenebras. Et vidit Deus quia bonum est. Utrumque enim placuit, quia utrumque sine peccato est. Ubi autem dixit Deus, Fiat lux, et facta est lux. Et vidit Deus lucem, quia bona est; et postmodum infertur, Et separavit Deus inter lucem et tenebras; vocavitque Deus lucem diem, et tenebras vocavit noctem (Gen. I, 3-5, 17, 18) : non hoc loco additum est, Et vidit Deus quia bonum est; ne utrumque appellaretur bonum, cum esset horum alterum malum, vitio proprio, non natura. Et ideo sola ibi lux placuit Conditori: tenebrae autem angelicae, etsi fuerant ordinandae, non tamen fuerant approbandae.",
+  "source": "PL 41, col. 333",
+  "cc_idno": "21364",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And this too is not to be passed over in silence, that where God said, Let there be light, and light was made, there was at once added, And God saw the light, that it was good — not after he had separated between the light and the darkness, and called the light day and the darkness night, lest he should seem to have borne the testimony of his approval to such darkness along with the light. For where the darkness is blameless, between which and this light visible to our eyes the luminaries of heaven divide, it is put not before but after: And God saw that it was good. And he set them, it says, in the firmament of heaven, to shine upon the earth, and to preside over the day and the night, and to separate between the light and the darkness. And God saw that it was good. For both pleased him, because both are without sin. But where God said, Let there be light, and light was made, and God saw the light, that it was good; and afterwards it is added, And God separated between the light and the darkness; and God called the light day, and the darkness he called night (Gen 1:3–5, 17, 18) — in this place it is not added, And God saw that it was good; lest both should be called good, when one of them was evil, by its own vice and not by nature. And therefore the light alone pleased the Creator there: but the angelic darkness, though it had to be ordered, did not have to be approved.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "bonum-withheld",
+  "tenebrae-angeli"
+ ],
+ "notes": "The star witness of this crux, and the argument is made entirely out of where a clause stands. On the first day the approval comes immediately after the making and before the division; on the fourth day, where the darkness is blameless, it comes after the division. So the placing is deliberate: on day one God does not say 'it was good' after separating light from darkness, lest he seem to approve such darkness along with the light. The reason is given in five words — 'lest both should be called good, when one of them was evil' — and the last sentence keeps the distinction the whole Augustinian doctrine rests on: the angelic darkness had to be ordered, but did not have to be approved. Bereshit Rabbah 3:6 reads the same silence out of the next verse by exactly the same method — 'and to the darkness God called night' is not written here, but 'and to the darkness he called night' — and R. Abahu at 2:5 argues the identical point from the identical omission at the identical clause."
+}
