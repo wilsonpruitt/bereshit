@@ -32,6 +32,15 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
   question they argue, each carrying a visible `⚠ Anchor note`. The edition's scope stays Gen 1:1–5
   and `data/scripture/gen-1.json` is not extended. As with the first clause, nothing else bends:
   this licenses a witness arguing the *same question*, not one merely adjacent in topic.
+- **Exception to the rule below, added 2026-09-06 and scoped narrowly.** A Latin witness that is
+  **not in the Patrologia** cannot be sliced from the TEI. Chalcidius is the first and so far only
+  one: his Latin is **transcribed from the page images of a public-domain print**, every witness
+  names the leaf it came from in `source`, `cc_idno` is absent, and `overlap.py` cannot see him.
+  The expansion convention, frozen here the first time as the Lyra brief requires: abbreviations
+  expanded silently and consistently (`q;` = que, `ꝑ` = per, tildes for nasals, `&` = et, `ę` = ae),
+  u/v normalised to classical usage, nothing else altered, and the print's own **marginal keywords
+  are the early-modern editor's finding aids and are never part of the text**. This exception is for
+  works off the bench; it does not license retyping anything that is in the TEI.
 - Latin is **sliced from the local TEI by anchor phrase** (`~/patrologia/sources/pl/tei/<idno>.xml`; ids in `data/latin-bench.json`). Never retype Latin. PL column is computed from the last `<pb>` before the start anchor. If an anchor fails, fix the anchor; do not paste text.
 - Rabbinic text comes from `raw/sefaria/*.json` pulled by `scripts/pull-sefaria.py`, using only the versions pinned there (Wikisource Bavli CC BY-SA; Sefaria Midrash Rabbah 2022 CC BY; Silbermann Rashi PD; Etheridge PD; Guggenheimer Yerushalmi CC BY; Berman Tanchuma CC BY). Davidson/Steinsaltz is never embedded.
 - Edges need `evidence` quoting the words that prove the dependency. A shared image without a citation is `parallel`. Direction later → earlier except `transmits`. When a witness names its source (`HIERON.`, `AUG.`), that is `cites`; verbatim reuse without a name is `echoes`.
@@ -558,3 +567,36 @@ nothing in the Gen 1:26 block touches its Prov 8:22 / Ps 104:24 split. ⚠ **One
 escalated for K1**: Basil's Latin *Hexaemeron* is a second channel that fails exactly as Chalcidius
 did — it carries an accurate report of the rabbinic reading of Gen 1:26, and Bede copies it keeping
 the whole argument and removing every Jew in it. Drafted at the end of `notes/SOURCES-FINDINGS.md`.
+
+### Part four, 2026-09-06 — Chalcidius on Genesis 1:1–2
+
+**271 witnesses, 387 threads, 413 pages, all checks clean.** Five witnesses and twenty-one threads,
+across **four cruxes** — K1 `beginning-of-what`, K4 `ex-nihilo-or-matter`, K5 `heaven-earth-order`,
+K6 `tohu-vabohu` — from two leaves. Full write-up in `notes/SOURCES-FINDINGS.md`.
+
+- **The Waszink blocker was about the wrong book.** Phase 6 part one recorded Chalcidius as
+  unbuildable without Waszink's *Plato Latinus*, because the only free text was uncorrected OCR of a
+  1617 print behind a ProQuest notice. A clean public-domain print exists — **Josse Bade, Paris
+  1520, archive.org `bub_gb_LxGcsxR3tWgC`**, no rights notice, roman type, printed folio numbers —
+  and the passages were read on its page images. `page/n115.jpg` = fo. LVII verso,
+  `page/n116.jpg` = fo. LVIII recto, both confirmed by reading, not estimated.
+- **He is the first Latin in the edition not sliced from the PL TEI**, and the frozen conventions
+  now carry a scoped exception for works off the bench, with the abbreviation-expansion convention.
+- ⭐ **What the leaves actually carry, none of which the plan expected.** *Hebraei syluam generatam
+  esse confitentur* — a fourth-century Latin reporting the rabbinic answer to K4 accurately and
+  attributing it. **Gen 1:1–2 printed four times**: the Septuagint, **Aquila** (*caput rerum
+  condidit Deus* — reshit as "head", which is Ibn Ezra's construct eight hundred years early),
+  **Symmachus** (*otiosum quid confusumque et inordinatum* — the unattributed *alia translatio* the
+  Carolingians cite), and the exemplar Origen credits to the Hebrews, *terra autem stupida quadam
+  erat admiratione*, which is Bereshit Rabbah 2:2's *tohe u-bohe* and Rashi's astonishment, **glossed
+  psychologically on the Latin page**. Prov 8:22 at length with *sapientia* as the *primordium* —
+  and he stops there, without naming the Son. **Philo by name**, who appears nowhere else in this
+  edition.
+- **Two stale things corrected.** `origen-hom-gen-1-1`'s note still said Chalcidius was not built
+  and needed Waszink. And K1's finding quoted Prov 8:22 as *progressionis suae primitiam*, from
+  Baehrens's apparatus; the print the witness is built on reads **semitam**, so the finding now
+  quotes its own witness and records the variant.
+- **Place is `cordoba` with the name rendered "Cordoba (?)"** — the question mark is deliberate and
+  the place entry says why: the identification rests on a dedicatee traditionally but not certainly
+  identified with Hosius of Cordoba, and Milan has also been argued. The coordinates exist so the
+  map has a point to draw and are not evidence.

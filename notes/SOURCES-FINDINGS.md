@@ -1359,3 +1359,85 @@ keeps the argument and drops the knowledge that there was anyone to argue with.
   prose, so K1 was the outlier and the renderer is not at fault. **Worth knowing as a class:** the
   `finding` and `notes` fields are plain text end to end, and nothing on the pipeline strips or
   interprets emphasis, so a marker written into either one ships to the reader as an asterisk.
+
+---
+
+# Phase 6 part four — Chalcidius on Genesis 1:1–2 (2026-09-06)
+
+**Five witnesses, twenty-one threads, across four cruxes, from two leaves.** Roster 266 → 271
+witnesses, 366 → 387 threads, site 403 → 413 pages. `check.py` clean, `npm run build` clean,
+`astro check` 0 errors.
+
+## The blocker was about the wrong book
+
+Phase 6 part one recorded Chalcidius as "the single highest-value item left" and unbuildable
+without **Waszink's *Plato Latinus***, on the ground that the only free text was uncorrected OCR of
+a 1617 Meursius print whose page images carry a ProQuest notice, and that this edition does not
+embed Latin it cannot check against a clean page. **Both halves of that were true and the
+conclusion was wrong**, because only one free edition had been looked for.
+
+**archive.org `bub_gb_LxGcsxR3tWgC`** — Josse Bade (Badius Ascensius), **Paris 1520**, 148 leaves,
+Bayerische Staatsbibliothek via Google, **no rights notice of any kind**, roman type, printed folio
+numbers on every recto. It was found with three `archive.org/advancedsearch` queries; the one that
+worked was `creator:Chalcidius`, after title and editor searches returned nothing. The generalisable
+part: **a "needs the critical edition" verdict should be re-tested against a creator search before
+it is written down**, because an early print of a text with no manuscript problem is often good
+enough for an edition that quotes rather than collates.
+
+Calibration was confirmed by reading images, not estimated: `page/n115.jpg` = **fo. LVII verso**
+(running head *Chalcidij Interpretatio*), `page/n116.jpg` = **fo. LVIII recto** (*In Timeū
+Platonis. Fo. LVIII*, signature *h ii*). Leaf ≈ 2 × folio holds.
+
+## ⭐ Two leaves, four cruxes, and most of it was not in the plan
+
+The item was escalated for one sentence — Origen persuaded *ab Hebraeis* — which K1's finding
+already used. What the leaves actually carry is much more:
+
+| | crux |
+|---|---|
+| *Hebraei syluam generatam esse confitentur* — a fourth-century Latin reporting the rabbinic answer to this crux **and attributing it to the Hebrews** | **K4** |
+| **Gen 1:1–2 printed four times**: LXX, Aquila, Symmachus, and the exemplar Origen credits to the Hebrews | **K1, K6** |
+| Aquila's *caput rerum condidit Deus coelum et terram* — reshit as **head**, i.e. Ibn Ezra's construct reading, in Latin, in the fourth century | **K1** |
+| Symmachus's *otiosum quid confusumque et inordinatum* — **the *alia translatio* the Carolingians cite without knowing whose it is**, here named and glossed word by word | **K6** |
+| *terra autem stupida quadam erat admiratione* — tohu as astonishment, which is Bereshit Rabbah 2:2's *tohe u-bohe* and Rashi's word, **given a psychological gloss on the Latin page** | **K6** |
+| Prov 8:22 at length; *sapientiam diuinam esse uniuersitatis primordium*; Wisdom made by God but not in time — **and he stops, without naming the Son** | **K1** |
+| *initium minime temporarium dici*, plus a lexical survey of what *initium* can mean in ordinary scriptural Latin | **K1** |
+| the heaven of v. 1 cannot be the firmament of day two nor the earth the dry of day three, so both are older and intelligible; **Philo by name**, who is nowhere else in this edition | **K5** |
+| *sylua* as the plain sense of *inuisibilis et informis*; the receptacle argument stated flat — the receiver of all qualities has none of its own | **K6, K4** |
+
+## What this does to the picture, and what it does not
+
+**It does not overturn K1's finding; it is the finding's own evidence, now on the page.** K1 already
+said the contact existed at the head of the tradition and the Latin transmission lost it. Three
+things sharpen it.
+
+1. **Chalcidius stops where every later Latin goes on.** He has the rabbinic bench's verse
+   (Prov 8:22), reaches the rabbinic bench's word (*primordium*, which is *reshit*), and does not
+   say the Son. Jerome, Ambrose, Augustine, Bede, Alcuin, the Gloss all take the step he declines.
+   So the divergence is not a matter of which verse each bench happened to have — Chalcidius had
+   the right verse and the right conclusion, in Latin, before any of them.
+2. **The Latin bench's lost philology is quantifiable now.** Angelomus in the ninth century knows
+   only that *another translation says: unseen and unordered*. Chalcidius in the fourth names
+   Symmachus, quotes him, and explains both of his words. The apparatus does not develop across
+   those five centuries; it is lost, and the same is true of Aquila.
+3. **`chalcidius-hebraei-versiones` is the earliest accurate Latin report of a rabbinic position in
+   the whole edition** — earlier than Jerome's *Hebrew Questions*, earlier than Basil's report of
+   the angel reading, and unlike both of them it is not polemical. He states what the Hebrews hold
+   about hyle in order to agree with it.
+
+## Two stale claims corrected, both mine to have caught earlier
+
+- **`origen-hom-gen-1-1`'s note said Chalcidius "is not built as a witness … He needs Waszink's
+  Plato Latinus."** He is built and he does not. Rewritten to say what the blocker actually was.
+- **K1's finding quoted Prov 8:22 as *creavit me Deus progressionis suae primitiam***, taken from
+  Baehrens's apparatus to Origen. **The 1520 print the witness is built on reads *semitam*.** The
+  finding now quotes its own witness and records the variant in parentheses. ⚠ **Worth generalising:
+  a finding that quotes a text the edition does not yet hold as a witness is quoting a secondary
+  apparatus, and will disagree with the witness the day it is built.**
+
+## Still not verified, and still deliberately unused
+
+The **Catena notice** — that Origen glossed ἐν ἀρχῇ as ἐν σοφίᾳ, τουτέστι τῷ υἱῷ — remains a
+third-hand report in Baehrens under Akakios's name. Nothing is built on it. If it holds, it would
+close the gap this section has just widened: it would put the Son and Wisdom together in Origen's
+own words, and make Chalcidius's restraint the departure rather than the norm.

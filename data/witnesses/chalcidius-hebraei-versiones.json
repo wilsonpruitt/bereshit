@@ -1,0 +1,48 @@
+{
+ "id": "chalcidius-hebraei-versiones",
+ "work": "chalcidius-tim",
+ "author": "chalcidius",
+ "tradition": "latin",
+ "date": 350,
+ "date_precision": "range-300-400",
+ "place": "cordoba",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Hebraei syluam generatam esse confitentur",
+  "en": "The Hebrews confess that hyle was generated"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Hebraei syluam generatam esse confitentur, quorum sapientissimus Moyses non humana facundia, sed diuina, ut ferunt, inspiratione uegetatus in eo libro qui de genitura mundi censetur, ab exordio sic est profatus iuxta interpretationem septuaginta prudentium: Initio Deus fecit coelum et terram. Terra autem erat inuisibilis et incompta. Ut uero ait Aquila: Caput rerum condidit Deus coelum et terram. Terra porro inanis erat, et nihil. Uel ut Symmachus: Ab exordio condidit Deus coelum et terram. Terra porro fuit otiosum quid confusumque et inordinatum. Sed Origenes asseuerat ita sibi ab Hebraeis esse persuasum, quod in aliquantum sit a uera proprietate deriuata interpretatio. Fuisse enim in exemplari: Terra autem stupida quadam erat admiratione. Omnia tamen haec in unum aiunt concurrere, ut et generata sit ea quae subiecta est uniuerso corpori sylua, sermonesque ipsos sic interpretantur.",
+  "source": "Paris 1520, fo. LVII verso (archive.org bub_gb_LxGcsxR3tWgC, page/n115.jpg)",
+  "license": "chalcidius-1520",
+  "version": "Chalcidii viri clarissimi luculenta Timaei Platonis traductio, et eiusdem argutissima explanatio (Paris: Josse Bade, 1520)"
+ },
+ "english": {
+  "text": "The Hebrews confess that hyle was generated; and the wisest of them, Moses, quickened not by human eloquence but, as they say, by divine inspiration, spoke thus from the outset in that book which is reckoned to be about the begetting of the world, according to the translation of the seventy wise men: 'In the beginning God made heaven and earth. But the earth was invisible and unadorned.' But as Aquila says: 'The head of things God founded, heaven and earth. The earth, moreover, was empty, and nothing.' Or as Symmachus: 'From the outset God founded heaven and earth. The earth, moreover, was an idle something, confused and unordered.' But Origen asserts that he was persuaded by the Hebrews that the translation is in some degree drawn away from the true property of the words; for that there was in the exemplar: 'But the earth was in a certain stupefied wonder.' Yet all these, they say, run together into one, namely that the hyle which underlies the whole body of the universe was generated; and they interpret the words themselves thus.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "origen",
+  "aquila-translator",
+  "symmachus-translator"
+ ],
+ "cruxes": [
+  "beginning-of-what",
+  "ex-nihilo-or-matter",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "translation",
+  "literal"
+ ],
+ "answers": [
+  "matter-is-coeval",
+  "de-nihilo"
+ ],
+ "notes": "A page that should not exist. Chalcidius is a fourth-century Latin commentator on the Timaeus, outside the Patrologia and off this edition's Latin bench, and in the middle of a Platonist argument about whether hyle was made he turns to Genesis and prints Gen 1:1–2 four times over: the Septuagint, Aquila, Symmachus, and a reading Origen says the Hebrews gave him. Three things on this daf follow from it, and each is a first. The opening clause reports what the other bench holds and names it as theirs — Hebraei syluam generatam esse confitentur, the Hebrews confess that hyle was generated — which is the position Bereshit Rabbah 1:9 defends against the philosopher and Ramban states outright, attributed to Hebrew informants in Latin two centuries before Jerome's Hebrew Questions. Aquila's caput rerum is reshit rendered as 'head', which is the etymological reading no Latin witness on this daf reaches and which the rabbinic bench builds on; Symmachus's otiosum quid confusumque et inordinatum is a Greek rendering of tohu va-vohu that the Latin tradition later meets only as an anonymous alia translatio. And the exemplar reading Origen credits to the Hebrews, terra autem stupida quadam erat admiratione, is tohu read as astonishment — which is exactly Bereshit Rabbah 2:2's tohe u-bohe, bewildered and astonished, and Rashi's word for it. None of it reached the bench that needed it."
+}

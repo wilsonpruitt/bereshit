@@ -1,0 +1,45 @@
+{
+ "id": "chalcidius-caelum-et-terra",
+ "work": "chalcidius-tim",
+ "author": "chalcidius",
+ "tradition": "latin",
+ "date": 350,
+ "date_precision": "range-300-400",
+ "place": "cordoba",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "negant hoc coelum ab initio factum, sed secundo die",
+  "en": "they deny that this heaven was made in the beginning, but on the second day"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quod autem coelum quamue terram scriptura loquatur intelligendum. Qui tumultuario contenti sunt intellectu, coelum hoc quod uidemus, et terram qua subuehimur dici putant; porro qui altius indagantur negant hoc coelum ab initio factum, sed secundo die. Namque ab initio factum lumen, idque diem esse cognominatum. Hoc uero coelum postea, quod Deus appellauerit soliditatem. Tertio deinceps die remotis aquis apparuit sicca, eique terrae nomen impositum. Ut sit euidens neque hoc coelum cognitum nobis, neque hanc in qua sumus terram ab exordio facta, sed alia esse antiquiora intellectu potius quam sensibus haurienda. Aliud igitur uerum coelum, et aliud quiddam esse soliditatem scriptura testatur; eodemque modo aliud terram, et item aliud siccam. Quod igitur illud coelum prius quam caetera Deus condidit, quamue terram? Philo carentes corpore atque intelligibiles essentias esse censet, ideas et exemplaria tam siccae istius terrae quam soliditatis. Denique etiam hominem prius intelligibilem, et exemplum archetypum generis humani, tunc demum corporeum factum a Deo esse dicit. Alii non ita, sed sciente prophetam duas esse species rerum omnium, alteram intelligibilem, alteram sensilem, eas uirtutes quae utranque naturam circumplexae contineant, coelum et terram cognominasse. Coelum quidem incorpoream naturam, terram uero quae substantia est corporum, quam graeci ὕλην uocant.",
+  "source": "Paris 1520, fo. LVIII recto (archive.org bub_gb_LxGcsxR3tWgC, page/n116.jpg)",
+  "license": "chalcidius-1520",
+  "version": "Chalcidii viri clarissimi luculenta Timaei Platonis traductio, et eiusdem argutissima explanatio (Paris: Josse Bade, 1520)"
+ },
+ "english": {
+  "text": "But it is to be understood what heaven, or what earth, Scripture is speaking of. Those who are content with a hasty understanding think that this heaven which we see, and the earth on which we are carried, are meant; whereas those who search more deeply deny that this heaven was made in the beginning, but on the second day. For in the beginning light was made, and that was called day. But this heaven afterwards, which God called the solidity. Then on the third day, the waters being removed, the dry appeared, and the name of earth was imposed on it. So that it is evident that neither this heaven known to us, nor this earth on which we are, was made from the outset, but that there are others more ancient, to be drawn in by the understanding rather than by the senses. Scripture therefore testifies that the true heaven is one thing and the solidity another; and in the same way that the earth is one thing and the dry another. What heaven, then, did God found before the rest, or what earth? Philo judges them to be incorporeal and intelligible essences, the ideas and exemplars both of this dry land and of the solidity. And finally he says that the human too was first intelligible, the archetypal exemplar of the human race, and only then made corporeal by God. Others not so: but that the prophet, knowing that there are two species of all things, one intelligible and one perceptible, called those powers which embrace and contain both natures 'heaven and earth' — heaven being the incorporeal nature, and earth that which is the substance of bodies, which the Greeks call hyle.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "philo"
+ ],
+ "cruxes": [
+  "heaven-earth-order",
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "heaven-earth-is-everything",
+  "heaven-is-empyrean"
+ ],
+ "notes": "The oldest Latin statement of this crux on the daf, and it arrives with an apparatus nobody after him has. The question is put exactly as the twelfth century will put it — what heaven and what earth does Scripture mean? — and answered by a chronology within the chapter itself: the firmament is called heaven on the second day and the dry is called earth on the third, so the heaven and earth of the first verse cannot be the ones we see, and must be older and intelligible rather than sensible. That is Remigius's empyrean and Comestor's container-and-contained argument, six hundred years early. What is unique to Chalcidius is the sourcing. He names Philo, who does not appear anywhere else in this edition and whom the Latin bench of Gen 1 never cites: heaven and earth are the incorporeal ideas and exemplars, and the human too was intelligible before he was corporeal. Then he reports a second school — alii non ita — for whom the two names are the two species of all things, the intelligible and the perceptible, earth being the substance of bodies, quam graeci hylen uocant. The Greek word is printed in Greek type in the 1520 edition. On the other bench the same question is Beit Shammai against Beit Hillel at b. Chagigah 12a, and the same instinct is R. Akiva's, that the et of the verse must include something more than what is named."
+}

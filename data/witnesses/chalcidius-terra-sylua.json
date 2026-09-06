@@ -1,0 +1,46 @@
+{
+ "id": "chalcidius-terra-sylua",
+ "work": "chalcidius-tim",
+ "author": "chalcidius",
+ "tradition": "latin",
+ "date": 350,
+ "date_precision": "range-300-400",
+ "place": "cordoba",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "cum sit omnium qualitatum receptrix, propriam nullam habet ex natura",
+  "en": "since it is the receiver of all qualities, it has none of its own by nature"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Terra autem erat inuisibilis et informis, hoc est sylua corporea uetus mundi substantia, prius quam efficta Dei opificis sollertia sumeret formas, etiam tunc decolor et omni carens qualitate. Quod uero tale est, inuisibile certe habetur et informe. Inanis porro et nihil propterea dicta, quia cum sit omnium qualitatum receptrix, propriam nullam habet ex natura. Sylua ergo, ut quae cuncta quae accidunt recipiat in se, inanis appellata, ut quae compleri nunquam posse uideatur. Porro quia sit expers omnium, nihil dicta. Otiosa uero et indigesta nuncupatur a Symmacho: quodque quidem per se nihil ualeat, otiosa; quod uero habeat opportunitatem suscipiendi ordinis ab exornante semet Deo mundum moliente, indigesta censetur. Stupide uero ex admiratione significatio animae uim quandam similitudinemque declarat, siquidem opificis et auctoris sui maiestate capta stuperet.",
+  "source": "Paris 1520, fo. LVIII recto (archive.org bub_gb_LxGcsxR3tWgC, page/n116.jpg)",
+  "license": "chalcidius-1520",
+  "version": "Chalcidii viri clarissimi luculenta Timaei Platonis traductio, et eiusdem argutissima explanatio (Paris: Josse Bade, 1520)"
+ },
+ "english": {
+  "text": "'But the earth was invisible and formless' — that is, corporeal hyle, the old substance of the world, before it took on forms fashioned by the skill of God the craftsman, still then colourless and lacking every quality. And what is such is certainly held to be invisible and formless. It is called 'empty' and 'nothing' for this reason: that since it is the receiver of all qualities, it has none of its own by nature. Hyle, then, as that which receives into itself all the things that happen, is called empty, as that which can never seem able to be filled. And because it is devoid of all things, it is called nothing. But it is named 'idle' and 'undigested' by Symmachus: idle, in that of itself it avails nothing; and it is reckoned undigested in that it has the fitness to receive order from God adorning it as he sets about the world. But the signification 'stupefied, out of wonder' declares a certain force and likeness of soul, since it would be stupefied, seized by the majesty of its craftsman and author.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "symmachus-translator"
+ ],
+ "cruxes": [
+  "tohu-vabohu",
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "hyle-is-tohu",
+  "pair-is-formless-matter",
+  "matter-is-coeval"
+ ],
+ "notes": "Tohu va-vohu given four Latin renderings in one paragraph, each explained, by the earliest Latin on this daf. Invisible and formless is hyle: the old corporeal substance of the world, colourless and without quality before the craftsman's skill gave it forms. Empty and nothing are explained by the receptacle argument in its clean Platonic form — it is called empty because it receives all qualities and has none of its own, and nothing because it is devoid of all things — which is what Augustine will grope toward in Confessions XII, calling it a nothing-something, and what the Gloss will flatten into materia informis. Symmachus's otiosa and indigesta are then glossed separately: idle because of itself it avails nothing, undigested because it has the fitness to receive order. And the reading Origen credits to the Hebrews, stupide ex admiratione, is given a psychological explanation — the earth would be stupefied, seized by the majesty of its maker. That last one is the crux's rabbinic answer arriving on the Latin bench and being taken seriously: Bereshit Rabbah 2:2 reads tohu va-vohu as tohe u-bohe, bewildered and astonished, and Rashi's word for tohu is astonishment. Alcuin, Angelomus and Hugh all know that alia translatio says inordinata, without knowing whose translation it is or that a fourth-century Latin had named him and explained the word."
+}

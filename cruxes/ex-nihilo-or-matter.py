@@ -372,3 +372,15 @@ FINDING = (
     "on the Latin bench has that shape, and nothing could have: once matter is the thing at issue, a "
     "material that belongs to God is still a material."
 )
+
+# ---------------------------------------------------------------- threads (K4, Chalcidius block)
+# The two Chalcidius witnesses on this crux are built in cruxes/beginning-of-what.py and
+# cruxes/tohu-vabohu.py and carry `ex-nihilo-or-matter` in their own cruxes facet; only the
+# threads belong here.
+_E4 = lambda i, f, t, ty, ev: thread("ex-nihilo-or-matter", i, f, t, ty, ev)
+THREADS.extend([
+ _E4("t-k4-c1", "chalcidius-hebraei-versiones", "br-1-9", "parallel", "A Latin reporting the rabbinic position on this crux, correctly, and by name. Hebraei syluam generatam esse confitentur — the Hebrews confess that hyle was generated. At Bereshit Rabbah 1:9 a philosopher tells R. Gamliel that his God was a great artist but had good materials to hand — tohu and bohu, darkness, wind, water, the deeps — and is answered that Scripture says of every one of them that it was created. That is the rabbinic bench refusing coeval matter, which is exactly what Chalcidius says the Hebrews hold. He is a fourth-century Latin who knows the other bench's answer to this crux, states it accurately, and is read by nobody who argues the crux afterwards."),
+ _E4("t-k4-c2", "chalcidius-hebraei-versiones", "ambrose-hex-1-1-hyle", "contests", "Ambrose sets up the hyle of the philosophers as the position a Christian must refuse, and Chalcidius had already reported the concession that dissolves it. For Ambrose, matter that the craftsman merely finds is a rival to God; for Chalcidius, the Hebrews grant that hyle itself was generated, so the Platonist account of the world's substance and the scriptural account of its origin are not in competition. Ambrose is refuting a Platonism that this Latin Platonist does not hold, forty years earlier and in the same language."),
+ _E4("t-k4-c3", "chalcidius-terra-sylua", "aug-conf-12-7", "parallel", "The same doctrine reached from opposite directions. Augustine works down from God to a formless something 'near to nothing', and needs a page to say what it is not. Chalcidius works up from the Timaeus and has the definition ready: the receiver of all qualities has none of its own by nature, and is therefore called empty; being devoid of all things, it is called nothing. Augustine has the Bible and is short of the vocabulary; Chalcidius has the vocabulary and is using the Bible to confirm it."),
+ _E4("t-k4-c4", "chalcidius-terra-sylua", "ramban-1-1c", "parallel", "The two witnesses on this daf who take the plain sense of the verse to be about matter and still hold that the matter was made. Ramban: bara means from absolute non-existence, and what was drawn out on the first day was a formless substance from which everything after was formed. Chalcidius: the earth of v. 2 is corporeal hyle, the old substance of the world before it took form — and the Hebrews, he has just said, confess it was generated. Girona 1267 and a Latin commentary on the Timaeus of about 350, agreeing on both halves of the crux."),
+])

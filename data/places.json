@@ -138,5 +138,11 @@
   "name": "Caesarea Maritima",
   "lat": 32.5,
   "lon": 34.89
+ },
+ "cordoba": {
+  "name": "Cordoba (?)",
+  "lat": 37.88,
+  "lon": -4.78,
+  "note": "The question mark is load-bearing. Chalcidius is placed at Cordoba only because his commentary is dedicated to an Osius traditionally identified with Hosius, bishop of Cordoba — an identification that is contested, as is his date. Milan has also been argued. The coordinates exist so that the map view has a point to draw; they are not evidence."
  }
 }

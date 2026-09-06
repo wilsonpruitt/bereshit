@@ -1,0 +1,42 @@
+{
+ "id": "chalcidius-sapientia-primordium",
+ "work": "chalcidius-tim",
+ "author": "chalcidius",
+ "tradition": "latin",
+ "date": 350,
+ "date_precision": "range-300-400",
+ "place": "cordoba",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "eandemque sapientiam diuinam esse uniuersitatis primordium",
+  "en": "and that this same divine Wisdom is the first beginning of the universe"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Est tamen unum rerum omnium initium, de quo Salomo in prouerbiis: Creauit me, inquit, Deus progressionis suae semitam, cui nitens efficeret opera diuina; constituitque ante mundi ortum, terraeque et profundi fundatione, ante tractus fontium aggestionesque montanas. Aperte indicans praeeunte diuina sapientia coelum terramque factam, eandemque sapientiam diuinam esse uniuersitatis primordium. Ex quo apparet sapientiam factam quidem a Deo, sed non aliquo in tempore. Neque enim fuerit tempus ullum quo Deus fuerit sine sapientia.",
+  "source": "Paris 1520, fo. LVIII recto (archive.org bub_gb_LxGcsxR3tWgC, page/n116.jpg)",
+  "license": "chalcidius-1520",
+  "version": "Chalcidii viri clarissimi luculenta Timaei Platonis traductio, et eiusdem argutissima explanatio (Paris: Josse Bade, 1520)"
+ },
+ "english": {
+  "text": "There is nevertheless one beginning of all things, concerning which Solomon says in the Proverbs: 'God created me the path of his progression, leaning upon which he might accomplish his divine works; and he established me before the rising of the world, and before the founding of the earth and of the deep, before the drawing of the springs and the heaping up of the mountains' (Prov 8:22–25). Plainly indicating that heaven and earth were made with divine Wisdom going before, and that this same divine Wisdom is the first beginning of the universe. From which it appears that Wisdom was indeed made by God, but not at any point in time. For there would have been no time at all in which God was without Wisdom.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "beginning-is-wisdom",
+  "principio-temporis"
+ ],
+ "notes": "The single most important page in this edition for what K1 turns out to be about, and the finding already rests on it. Chalcidius reaches the gloss both benches reach — the beginning of Gen 1:1 is Wisdom — and he reaches it from Prov 8:22, which on this daf is the rabbinic bench's verse and nobody else's: R. Hoshaya at Bereshit Rabbah 1:1 and Targum Neofiti's min qadmin be-ḥokhmah are the other witnesses to it, and the four Latins who reach wisdom all reach it from Ps 104:24 instead. He quotes Prov 8:22 at length, in a Latin unlike the Vulgate's (progressionis suae semitam for uiarum suarum), draws the conclusion in the rabbinic bench's own terms — divine Wisdom is the primordium of the universe — and then does the one thing that separates him from every Latin after him: he stops. Wisdom is made by God but not in time; it is not said to be the Son, and the name of Christ does not appear. Jerome, Ambrose, Augustine, Bede, Alcuin and the Gloss all take the last step. Chalcidius, who is the earliest of them and has the better verse, does not, and none of them read him."
+}

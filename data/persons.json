@@ -537,5 +537,33 @@
   "tradition": "rabbinic",
   "role": "author",
   "note": "Credited by Ramban with the reading 'I and the earth, let us make a human'."
+ },
+ "chalcidius": {
+  "name": "Chalcidius",
+  "dates": "fl. c. 300–400",
+  "tradition": "latin",
+  "role": "author",
+  "note": "Latin translator of and commentator on Plato's Timaeus, and the earliest Latin on this daf. Almost nothing about him is settled: the commentary is dedicated to an Osius who is traditionally, but not certainly, identified with Hosius of Cordoba, which is the only ground for placing him there; the date has been argued anywhere from the early fourth century to the fifth; and whether he was a Christian at all is disputed, though he quotes Genesis, Origen and 'the Hebrews' as authorities. He is outside the Patrologia and off this edition's Latin bench, and his Latin is transcribed from a printed page rather than sliced from the TEI."
+ },
+ "aquila-translator": {
+  "name": "Aquila of Sinope",
+  "dates": "fl. c. 130",
+  "tradition": "greek",
+  "role": "translator",
+  "note": "The proselyte translator of the Hebrew Bible into an extremely literal Greek, cited here by Chalcidius for Gen 1:1–2. The same man appears on the rabbinic bench as the tradent Akilas at Bereshit Rabbah 1:12."
+ },
+ "symmachus-translator": {
+  "name": "Symmachus",
+  "dates": "fl. c. 190",
+  "tradition": "greek",
+  "role": "translator",
+  "note": "Greek translator of the Hebrew Bible, quoted by Chalcidius for Gen 1:1–2. His otiosum quid confusumque et inordinatum for tohu va-vohu is the source of the alia translatio the Carolingian and twelfth-century Latins cite without attribution."
+ },
+ "philo": {
+  "name": "Philo of Alexandria",
+  "dates": "c. 20 BCE – c. 50 CE",
+  "tradition": "greek",
+  "role": "author",
+  "note": "Cited by name by Chalcidius on what the heaven and earth of Gen 1:1 are. He appears nowhere else in this edition: no Latin witness on Gen 1 names him, and the rabbinic bench does not know him."
  }
 }

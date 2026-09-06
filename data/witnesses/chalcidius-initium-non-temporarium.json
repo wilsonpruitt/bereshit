@@ -1,0 +1,41 @@
+{
+ "id": "chalcidius-initium-non-temporarium",
+ "work": "chalcidius-tim",
+ "author": "chalcidius",
+ "tradition": "latin",
+ "date": 350,
+ "date_precision": "range-300-400",
+ "place": "cordoba",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Initium minime temporarium dici",
+  "en": "that the beginning spoken of is not in any way temporal"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Initium minime temporarium dici. Neque enim ullum tempus fuisse ante mundi exornationem, dieique et nocturnas uices, quibus temporis spatia dimensa sunt. Tum initii multas esse significationes: ut Initium sapientiae timorem Domini esse Salomon dixit. Item Initium sapientiae cultus Dei. Nihiloque minus Initium uitae bonae, actus iustus. Atque etiam in praeconio sapientiae coelestis auctor: Initium uitae panis, et aqua, et tunica, inquit, domus idonea uelandis pudendis. Quippe in his non una initii, sed diuersa et multiplex habetur significatio.",
+  "source": "Paris 1520, fo. LVII verso–LVIII recto (archive.org bub_gb_LxGcsxR3tWgC, page/n115.jpg–n116.jpg)",
+  "license": "chalcidius-1520",
+  "version": "Chalcidii viri clarissimi luculenta Timaei Platonis traductio, et eiusdem argutissima explanatio (Paris: Josse Bade, 1520)"
+ },
+ "english": {
+  "text": "That the beginning spoken of is not in any way temporal. For there was no time at all before the furnishing of the world, and the alternations of day and night, by which the spaces of time are measured. Then, that 'beginning' has many significations: as Solomon said that the beginning of wisdom is the fear of the Lord (Prov 1:7). Likewise, the beginning of wisdom is the worship of God. And no less is a just act the beginning of a good life. And also, in the proclamation of wisdom, the heavenly author says: 'The beginning of life is bread, and water, and a garment, and a house fit for covering what is shameful' (Sir 29:21). For in these there is not one signification of 'beginning' but a various and manifold one.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "beginning-of-what"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principio-temporis",
+  "world-has-a-beginning"
+ ],
+ "notes": "The argument that the Latin bench will make for eight hundred years, made once in the fourth century by a man none of them read. The beginning of Gen 1:1 is not temporal, and the reason is the one Augustine, Bede and Rabanus each reach independently: there was no time before the world was furnished, because time is measured by the alternation of day and night, which the chapter has not yet reported. Then Chalcidius does what nobody else on this daf does — he asks what the WORD can mean, and answers with a list of ordinary Latin uses drawn from Scripture: the fear of the Lord is the beginning of wisdom, a just act is the beginning of a good life, bread and water are the beginning of life. That is a lexical argument, not a doctrinal one, and it clears the ground for a beginning that is neither a date nor a person. The 1520 print carries a variant here, marked with a dagger in the margin as uiae optimae for uitae bonae — the beginning of the best way rather than of a good life; the sense is not affected and the reading printed in the line is kept."
+}
