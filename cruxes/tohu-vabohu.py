@@ -386,3 +386,30 @@ THREADS.extend([
  _EP6("t-k6-p3", "philo-opif-29", "b-chag-12a-tohu", "parallel", "Both give tohu and the abyss a physical identification rather than a moral one, and the two identifications have nothing in common. The Bavli: tohu is a green line that encircles the whole world and from which darkness goes out. Philo: the darkness is the air, which is black by nature, and the abyss is the void. Each bench reaches for the physics it has, and each ends with the same conviction, that the second verse names things and not merely states."),
  _EP6("t-k6-p4", "philo-opif-21-22", "chalcidius-hebraei-versiones", "contests", "Chalcidius reports that the Hebrews confess hyle was generated. Philo is a Hebrew who confesses nothing of the kind: he says the substance was of itself without order, quality or life, and he never says who made it. Chalcidius had read Philo and names him twice elsewhere in the commentary, so his generalisation about the Hebrews is made in full knowledge of the one Hebrew author he could actually read, and does not fit him. This is the sharpest place in the edition to watch a Latin report of a Jewish position round off its edges."),
 ])
+
+# ================================================================ Lyra (Phase 6 part six, 2026-09-06)
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES = dict(globals().get("PLACES", {})); PLACES.update(_ly.PLACES)
+LICENSES.update(_ly.LICENSES)
+
+add(**_ly.LYRA, id="lyra-gen-1-2-tohu",
+    anchor={"verse": "gen.1.2"},
+    lemma={"la": "Inanis, id est invisibilis, quia erat undique aquis cooperta",
+           "en": "Empty, that is, invisible, because it was covered on every side with waters"},
+    original={"lang": "la",
+      "text": "Inanis, id est invisibilis, quia erat undique aquis cooperta. Et vacua, quia non erat adhuc plantis et herbis ornata. Sequitur. Et tenebre etc. abyssi, id est super faciem elementorum. Abyssus enim dicitur ab a, quod est sine, et byssus, quod est genus lini candidissimi; unde abyssus dicitur quasi sine candore vel splendore, quia color candidus habet plurimum de luce.",
+      "source": "Koberger 1486-87, leaf n43 recto, right column, lemmas e-g (archive.org biblia-sacra-lyra_202308, page/n43.jpg)",
+      **_ly.SRC},
+    english={"text": "Empty, that is, invisible, because it was covered on every side with waters. And void, because it was not yet furnished with plants and herbs. There follows. And darkness etc. of the abyss, that is, over the face of the elements. For abyssus is so called from a, which means 'without', and byssus, which is a kind of the whitest linen; whence abyssus is as it were 'without whiteness or brightness', because a white colour has the most of light in it.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["tohu-vabohu"], senses=["literal"],
+    answers=["pair-is-under-water", "pair-is-unfurnished"],
+    notes="The two halves of the pair given two different physical causes, in the tersest form this crux ever reaches. Inanis is invisibilis and the reason is optical -- the earth was covered on every side with water, so there was nothing to see; vacua is unfurnished, and the reason is botanical -- no plants or herbs yet. That is Bede's and Remigius's distinction with the theology taken out and a mechanism put in. Then the etymology, which is the reason to print this passage: abyssus from a, without, and byssus, the whitest of linens, so that the abyss is what is without whiteness, because white is the colour that holds the most light. Isidore is the source of the etymological habit and not of this etymology; what Lyra does with it is make the darkness of Gen 1:2 a statement about a colour rather than about a privation, which is the Latin bench's usual answer, or about the wicked, which is the rabbinic bench's. He goes on to give abyssus a second sense, the confusion and commixture of everything below the sphere of the moon, and to date the elements' accidental properties to the third day."
+    )
+
+THREADS.extend([
+ thread("tohu-vabohu", "t-k6-l1", "lyra-gen-1-2-tohu", "rashi-1-2a", "parallel", "Rashi glosses tohu as a word for astonishment and desolation, a state of the beholder. Lyra, who read Rashi and cites him by name all over this chapter, does not take it here: he gives inanis a physical cause, the water covering the earth, and vacua another, the absence of plants. Where he follows Rashi he says so; this is a place where the Latin tradition's own answer, Bede's invisible-because-dark and unordered-because-shapeless, is the one he refines."),
+ thread("tohu-vabohu", "t-k6-l2", "lyra-gen-1-2-tohu", "bede-gen-1-2-tohu", "parallel", "Bede asks why these things are said of the earth and heaven passed by, and answers from what the earth lacked. Lyra six hundred years later keeps the two-part answer and supplies a cause for each half, water for the invisibility and the absence of plants for the emptiness. The Latin bench's account of tohu va-vohu changes very little between Jarrow and Paris; what changes is that Lyra thinks the question is answerable by physics."),
+ thread("tohu-vabohu", "t-k6-l3", "lyra-gen-1-2-tohu", "b-chag-12a-tohu", "parallel", "Two benches derive the meaning of the verse's hardest words from the words themselves, and neither could have used the other's language. The Bavli makes tohu a green line that encircles the world and from which darkness goes out. Lyra takes the Greek-derived Latin abyssus apart into a-byssus, without whiteness, and gets the darkness of v. 2 out of the etymology of the name for the deep. Both are answering the same question -- what does the verse mean by darkness -- with the resources of the language each happens to be reading it in."),
+])

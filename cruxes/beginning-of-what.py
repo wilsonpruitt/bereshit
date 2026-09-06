@@ -639,3 +639,35 @@ THREADS.extend([
  _EP1("t-k1-p5", "philo-opif-17-20", "jerome-hq-1-1", "parallel", "The near miss that makes this crux what it is. Jerome: in the Son God made heaven and earth, and the Hebrew has bresith. Philo: the world of the ideas has no place but the divine Reason. Both read the beginning of Gen 1:1 as something rather than some time, and the something is in both cases the Logos. But Philo's Logos is not a person, is not begotten, and is not distinguished from God as a Son from a Father: it is the place where the ideas are, which is to say the mind of the maker planning. The Latin bench inherits the reading and not the metaphysics, and inherits it from a channel it cannot name."),
  _EP1("t-k1-p6", "philo-opif-17-20", "targ-neof-1-1", "parallel", "Neofiti alone among the targums renders bereshit as be-chokhmah, in wisdom, making the beginning an instrument rather than a date. Philo makes it the intelligible world in the divine Reason, which is the same move in a philosophical vocabulary: not when God made, but with what. The two are the only Jewish witnesses on this crux to answer the question that way, they are four centuries and one language apart, and neither can be shown to have known the other."),
 ])
+
+# ================================================================ Lyra (Phase 6 part six, 2026-09-06)
+# Nicholas of Lyra's Postilla litteralis on Gen 1:1, transcribed from the Koberger folio (leaf n43,
+# right column, lemmas a-d). See scripts/lyra.py. Not in the PL, so not sliceable from the TEI:
+# built under the same scoped exception PHASES.md froze for Chalcidius.
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES = dict(globals().get("PLACES", {})); PLACES.update(_ly.PLACES)
+LICENSES.update(_ly.LICENSES)
+
+add(**_ly.LYRA, id="lyra-gen-1-1",
+    anchor={"verse": "gen.1.1"},
+    lemma={"la": "In principio, scilicet temporis vel productionis rerum",
+           "en": "In the beginning, that is, of time or of the production of things"},
+    original={"lang": "la",
+      "text": "Dicit igitur: In principio, scilicet temporis vel productionis rerum. Creavit Deus, id est de nihilo produxit, quod est proprium ipsius Dei. Celum, id est corpora celestia omnia in suis formis substantialibus distincta, licet adhuc in aliquibus proprietatibus accidentalibus essent informia, ut patebit infra. Et terram in sua forma substantiali distinctam, et aliquibus proprietatibus formam substantialem necessario concomitantibus; quia tamen adhuc quantum ad aliqua erat informis, ideo sequitur.",
+      "source": "Koberger 1486-87, leaf n43 recto, right column, lemmas a-d (archive.org biblia-sacra-lyra_202308, page/n43.jpg)",
+      **_ly.SRC},
+    english={"text": "He says therefore: In the beginning, that is, of time or of the production of things. God created, that is, produced out of nothing, which belongs to God alone. Heaven, that is, all the heavenly bodies distinct in their substantial forms, although as yet they were unformed in certain accidental properties, as will appear below. And the earth, distinct in its substantial form and in certain properties necessarily accompanying a substantial form; but because as regards certain things it was still unformed, therefore there follows.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["beginning-of-what", "ex-nihilo-or-matter", "heaven-earth-order"],
+    senses=["literal"],
+    answers=["principio-temporis", "principio-first-of-all", "de-nihilo"],
+    notes="The most widely read Latin commentary on Genesis of the later middle ages, and on this verse it prints the answer the Glossa does not have. Where the Glossa's first word on Gen 1:1 is Filio -- in the beginning, that is, in the Son -- Lyra's literal exposition gives in principio, scilicet temporis vel productionis rerum, of time or of the production of things, and the Son does not appear. That is not a denial: Lyra keeps the moral and mystical senses in a separate apparatus and this is the Postilla litteralis. But it is the point at which the reading Jerome had refuted, Alcuin had reduced to four words and the Glossa had printed as one, stops being the literal sense of the verse for the schools. The line just before this one gives his reason, that in the beginning marks a priority not of duration but of nature, as sound precedes the voice. On creavit he states the whole of K4 in a clause -- de nihilo produxit, quod est proprium ipsius Dei -- and on celum and terram he takes the pair as the heavenly bodies and the earth already distinct in their substantial forms, which is Abelard's four elements read through a fourteenth-century physics. This witness and the two that follow it are transcribed from the Koberger folio, not sliced from the Patrologia, which does not contain Lyra."
+    )
+
+_ELY = lambda i, f, t, ty, ev: thread("beginning-of-what", i, f, t, ty, ev)
+THREADS.extend([
+ _ELY("t-k1-l1", "lyra-gen-1-1", "glossa-1-1", "contests", "The Glossa's first word on this verse is Filio: in the beginning, that is, in the Son. Lyra's Postilla litteralis, printed in the same Bibles two centuries later and often on the same opening, gives in principio, scilicet temporis vel productionis rerum, and does not mention the Son at all. Nothing is denied; the Christological reading is simply not the literal sense any more. This is the end of the line this crux has been tracing since Jerome refuted the reading and Wigbod dropped the refutation."),
+ _ELY("t-k1-l2", "lyra-gen-1-1", "rashi-1-1b", "parallel", "Lyra read Rashi constantly and by name, and here the two are close without a citation: Rashi's plain sense makes bereshit a construct governing the act of creating, and Lyra makes the beginning that of time or of the production of things -- in both, a beginning of the making rather than a beginning who is somebody. Paul of Burgos's whole complaint against Lyra, printed a hundred pages later in the same volume, is that on the literal sense he does this too often and credits Ra. Sa. for what the Latin doctors found first."),
+ _ELY("t-k1-l3", "lyra-gen-1-1", "abelard-hex-1-1", "parallel", "Abelard: as if it were said, on the first day. Lyra: of time or of the production of things. Two Paris masters, two hundred years apart, both refusing to let in principio carry a person, and both doing it by supplying a plain temporal or causal sense instead of arguing against the Christological one."),
+])

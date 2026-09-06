@@ -53,7 +53,8 @@
    "chalcidius-initium-non-temporarium",
    "chalcidius-sapientia-primordium",
    "philo-opif-17-20",
-   "philo-opif-26-27"
+   "philo-opif-26-27",
+   "lyra-gen-1-1"
   ],
   "status": "built",
   "finding": "Both benches gloss the first word of Scripture as 'in wisdom', prove it from a wisdom text, and mean opposite things by it. Targum Neofiti does not translate bereshit but interprets it — min qadmin be-ḥokhmah — and Bereshit Rabbah reaches the same gloss by proof text, R. Banai from Prov 3:19 ('the Lord founded the earth with wisdom') and R. Hoshaya from Prov 8:22 ('the Lord made me reshit of his way'), where the Wisdom that speaks is the Torah, the architect's plan the King builds from. Augustine, Ambrose, Bede, Bruno and Rupert reach it from Ps 104:24 ('you have made all things in wisdom'), where the Wisdom is the Son. Neither side knows the other is there, and the shared conclusion is the least noticed thing about the crux — which is what the Latin bench looks like from the inside, and is not the whole truth. The contact existed at the head of the tradition and the Latin transmission lost it. Chalcidius, writing Latin in the fourth century, reports of Origen — whose homily is the source of everything the Latins say here — that he was persuaded of the non-temporal beginning ab Hebraeis, by the Hebrews; that initium minime temporarium dici, no beginning in time, since there was no time before the world was furnished; and that there is nevertheless one beginning of all things, de quo Salomo in proverbiis: creavit me Deus progressionis suae semitam — Prov 8:22 quoted at length, and the conclusion drawn that praeeunte divina sapientia caelum terramque factam, that divine Wisdom is the primordium of the universe. That is the rabbinic bench's verse and the rabbinic bench's word, attributed to Hebrew informants, in a Latin commentary of the same century as Jerome. (Baehrens's apparatus to Origen, from which this passage was first verified, gives primitiam where the 1520 print on which the witness is built reads semitam; the witness is quoted here.) And it went nowhere: Prov 8:22 is cited by four witnesses on this daf and every one of them is rabbinic; Ps 104:24 is cited by four and every one of them is Latin. The Latin bench reached wisdom by a different verse, turned it into the Son, and never met the text that had already got there from the other side. The same loss happens a second time and by an unrelated route. Basil's Latin Hexaemeron — which is how the whole west read Basil — carries an accurate report of the rabbinic reading of Gen 1:26, ferunt enim, quod angelis dixerit: Faciamus hominem, which is what Targum Pseudo-Jonathan prints in the biblical line itself; and Bede copies the passage at Jarrow keeping every sentence of the argument and removing every Jew in it, Rabanus and Angelomus copy Bede, and by the twelfth century the reading survives in the Gloss only at Babel and with nobody's name on it. Twice, then, and by two channels that have nothing to do with each other, the Latin bench was handed the other bench's words and kept only the answer. What separates them is not the gloss but what happened to the philology. Jerome, the one Latin who read the Hebrew, refuted the Christological reading outright — the three Greek versions all say 'in the beginning', the Hebrew is bresith, and the Hebrew for 'in the son' would be ba-ben — and then conceded that Christ might be understood 'according to the sense rather than the translation of the word'. Wigbod copies the passage almost entire and drops precisely the refutation, keeping the concession; Alcuin's schoolbook reduces the whole question to four words, In Filio perfecit Deus; and the Glossa prints Alcuin's answer in the margin as a single word, Filio, so that the twelfth century met a reading its best philologist had disproved with nothing on the page to argue against. Rupert of Deutz is the one who repairs it, four hundred years later, by stating the Hebrew evidence himself — 'son is ben in that language, and beginning is bresith' — and then holding the reading anyway on the ground that the identity is of sense and not of speech. Meanwhile the modern translations settle the crux by removing it, as they did at K10: the JPS Tanakh prints 'When God began to create heaven and earth', which is Rashi's plain sense and Ibn Ezra's construct, adopted as the text — the one reading no Latin witness on this bench could have raised, and the one Ramban had already refuted from Isa 46:10 and Deut 33:21.",
@@ -206,6 +207,7 @@
    "chalcidius-hebraei-versiones",
    "chalcidius-terra-sylua",
    "lxx-1-1",
+   "lyra-gen-1-1",
    "ramban-1-2-tohu",
    "targ-neof-1-1",
    "targ-onk-1-1",
@@ -256,6 +258,7 @@
    "bruno-gen-1-1",
    "glossa-1-1",
    "lxx-1-1",
+   "lyra-gen-1-1",
    "rabanus-gen-1-1b",
    "targ-neof-1-1",
    "targ-onk-1-1",
@@ -307,6 +310,7 @@
    "hugh-sacr-1-1-tohu",
    "comestor-hs-1-2-tohu",
    "chalcidius-terra-sylua",
+   "lyra-gen-1-2-tohu",
    "br-2-4",
    "chalcidius-hebraei-versiones",
    "glossa-1-2-ruach",
@@ -476,6 +480,7 @@
    "honorius-hex-1-4",
    "comestor-hs-1-4",
    "philo-opif-33-34",
+   "burgos-add-3",
    "b-chag-12a-light",
    "bonaventure-sent-2-13-1-2",
    "rashi-1-4"

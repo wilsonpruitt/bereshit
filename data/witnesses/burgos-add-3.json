@@ -1,0 +1,44 @@
+{
+ "work": "burgos-additiones",
+ "author": "paul-of-burgos",
+ "tradition": "latin",
+ "date": 1429,
+ "date_precision": "circa",
+ "place": "burgos",
+ "id": "burgos-add-3",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "expositionis litteralis auctoritatem, quam nostri doctores primo invenerunt, Ra. Sa. hebreo attribuit",
+  "en": "he attributes to Rabbi Solomon the Hebrew the authority of a literal exposition which our own doctors found first"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In eodem capitulo primo, ubi dicitur in postilla: Hic queritur quare in secunda die non dicitur, Et vidit Deus quod esset bonum etc. Additio iij. In hoc loco videtur postillator a rectitudine in tribus deviare: quia primo auctoritates doctorum non mediocrem auctoritatem inter catholicos habentium irreverenter tractat; secundo quia irrationabiliter dicta eorum improbat; tercio quia expositionis litteralis auctoritatem, quam nostri doctores primo invenerunt, Ra. Sa. hebreo attribuit. Primum patet: nam responsio quam ipse vocat truphaticam est illius magni doctoris Rabani, qui in hoc loco ad hanc questionem sic respondet: Nisi forte, sicut quidam patrum exposuit, non esse bonum duplicem numerum, qui ab unitate dividit et prefigurat federa nuptiarum; unde et in arca Noe omnia animalia que bina ingrediuntur immunda sunt, et impar numerus mundus esse ostenditur. Hec ille. Magister etiam in ij dis. xiiij respondens ad hanc questionem sic dicit: Sacramentum aliquod hic commendatur; ideo enim fortasse non est hic dictum quod tamen sicut in aliis factum est, quia binarius principium est alteritatis et signum divisionis ab unitate. Hec ille. Non igitur modica irreverentia est tantorum doctorum seu patrum expositionem truphaticam vocare.",
+  "source": "Koberger 1486-87, leaf n57, column 1 (archive.org biblia-sacra-lyra_202308, page/n57.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "On the same first chapter, where it says in the Postilla: 'Here it is asked why on the second day it is not said, And God saw that it was good, etc.' Addition 3. In this place the postillator seems to depart from rectitude in three ways: first, because he treats irreverently the authorities of doctors who hold no small authority among catholics; second, because he refutes what they say unreasonably; third, because he attributes to Rabbi Solomon the Hebrew the authority of a literal exposition which our own doctors found first. The first is plain: for the answer he calls a piece of trifling is that of the great doctor Rabanus, who in this place answers the question thus: 'Unless perhaps, as one of the fathers expounded, the double number is not good, which divides from unity and prefigures the covenants of marriage; whence in Noah's ark all the animals that enter two by two are unclean, and the odd number is shown to be clean.' So he. The Master too, in the second book, distinction 14, answering this question, says: 'Some mystery is here commended; for perhaps it is for this reason that it is not said here what nevertheless was done in the other cases, because two is the beginning of otherness and the sign of division from unity.' So he. It is therefore no small irreverence to call the exposition of doctors and fathers of such standing a piece of trifling.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "rabanus",
+  "rashi"
+ ],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "bonum-is-owed-to-the-fathers",
+  "bonum-withheld"
+ ],
+ "notes": "⚠ Anchor note: Burgos is arguing about the day-two absence of the approval formula, which is Gen 1:8 and outside this edition's scope; the witness is anchored on gen.1.4 under the second clause of the anchor rule, because the question he is arguing -- what the presence or absence of Et vidit Deus quod esset bonum means -- is the question that verse raises and that this crux is built on. The single most important text in this edition for the question the whole project asks. Everywhere else on this daf two traditions read the same verses without knowing the other is there. Here a Latin bishop, born Solomon ha-Levi of Burgos and a rabbi until he was forty, is arguing in a printed Latin Bible about how much of the literal sense the Latin bench owes to Rashi -- and arguing that it owes less than Lyra says. The complaint has three heads and the third is the one that matters: the authority of a literal exposition which our doctors found first, he attributes to Ra. Sa. the Hebrew. An early reader of this copy underlined Ra. Sa. hebreo in ink. What Burgos then does is produce the Latin doctors who said it first, Rabanus and Peter Lombard, and quote them at length, so the page carries the evidence for its own claim. Notice what is not in dispute: neither man doubts that Rashi is worth reading or that the literal sense is where the argument is. The quarrel is over priority and credit, which is a quarrel two traditions can only have once they are in the same room."
+}

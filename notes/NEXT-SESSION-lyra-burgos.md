@@ -1,79 +1,72 @@
-# Next session — Nicholas of Lyra and Paul of Burgos on Genesis 1
+# Next session — the rest of Lyra, Burgos and Doering on Genesis 1
 
-**Model: Opus. Vision work; do not rush it.** Estimated ~150–200K, a crux-sized session of its own.
-Run **after** the Gen 1:26 session. Follow `feedback_vision-ocr-discipline`.
+**Model: Opus. Estimated ~60–80K**, down from the original 150–200K: the source is now transcribed
+from, the leaves are calibrated, and the locator is written. **Read Phase 6 part six in
+`notes/SOURCES-FINDINGS.md` first** — it records what was built, and the four navigation traps that
+ate most of the first session. Do not re-survey.
 
----
+## Already built (2026-09-06)
 
-## The source is identified, calibrated and quality-checked
+`lyra-gen-1-1` (K1, K4, K5) · `lyra-gen-1-2-tohu` (K6) · `burgos-add-3` (K9, the Ra. Sa. passage).
+Persons `nicholas-of-lyra`, `paul-of-burgos`, `matthias-doering`; place `burgos`; licence key
+`lyra-koberger-1487`; shared metadata in `scripts/lyra.py`.
 
-**archive.org item `biblia-sacra-lyra_202308`** — *Biblia Sacra cum postillis Nicolai de Lyra*,
-**Anton Koberger, Nuremberg 1486–87**, part 1 of four: **Genesis through 2 Chronicles**. 912 leaves.
-Files: `Lyra.pdf` (3.5 GB — do not fetch), `Lyra_text.pdf` (367 MB), `Lyra_djvu.txt` (5.6 MB),
-`Lyra_scandata.xml` (293 KB).
+## The locator — use this, not the OCR files
 
-⚠ **This is a substitution.** PLAN.md names the **1492 Venice** *Biblia cum glossa*; that edition did
-not surface on archive.org and this one did. Same textual tradition — Postilla + Burgos's
-*Additiones* + Doering's *Replicae* — but **the colophon must cite the edition actually used**, and
-someone should confirm the substitution is acceptable before the witnesses ship.
+⭐ **archive.org's search-inside endpoint returns the leaf index in the same numbering that
+`page/nN.jpg` uses, plus a pixel box.** Wrapped as `find.py` in the session scratchpad; rebuild it
+from this recipe:
 
-**Licence: public domain** (1486–87 print; the scans are the Internet Archive's, no ProQuest notice
-on this item, unlike the Chalcidius item).
+    https://ia600507.us.archive.org/fulltext/inside.php
+      ?item_id=biblia-sacra-lyra_202308&doc=Lyra&path=/3/items/biblia-sacra-lyra_202308&q=<phrase>
 
-**Calibration, verified by reading the images, not estimated:**
+`server`, `dir` and the file stem come from `https://archive.org/metadata/<id>`. Each hit carries
+`page` (= leaf n), `l/t/r/b` and `page_width/page_height`; divide to get fractions, because the
+image is a different size again.
 
-- `page/n57.jpg` — **Paul of Burgos's *Additiones* on Genesis 1**, running *Additio ij* through
-  *Additio vij* down the page. Running head "Genesis".
-- `page/n61.jpg` — still Genesis, in the region of Gen 1:11–19 (herbs, the fourth day, the sun).
-- The Postilla proper on Gen 1:1 is therefore **earlier than n57**; walk back from there.
-- ⛔ **`Lyra_scandata.xml` carries no printed page numbers at all** (0 of 912 leaves), so leaf↔folio
-  calibration must be done by reading images. Do not try to scale from `_djvu.txt` offsets: that
-  method put Gen 1:1 at leaf 61, which is ~Gen 1:11–19.
+- ⛔ **Do NOT use `Lyra_hocr_pageindex.json.gz`.** Its leaves are offset from the image leaves and
+  **the offset drifts** — 3 near Genesis 1, 6 by folio 30. One calibration validates and then lies.
+- ⛔ **Do NOT use `Lyra_djvu.txt`.** No page separators at all.
+- ⛔ The same Additio is printed **twice** (Burgos's block, then again inside Doering's reply), so a
+  duplicate hit is not a calibration error.
 
-**Scan quality: good.** 5980×7901, clean impression, rubricated, legible gothic with the usual
-incunable abbreviations. Vision transcription is feasible. The item's own OCR is *partly*
-abbreviation-aware (it renders ꝓ, qð, ᷣ) but is not trustworthy for text — use it only to locate.
+## Calibrated leaves
 
----
+| leaf | content |
+|---|---|
+| n42 | Lyra's introduction to Genesis: *Circa primum tria facit scriptura…* |
+| **n43** | **Gen 1:1–3**, rubric *Incipit liber Genesis qui dicitur hebraice Bresith*, Postilla lemmas a–i in the right column |
+| **n44** | **Gen 1:4–10**, Postilla |
+| n45–n46 | Gen 1:11–21, and Lyra's second run through the chapter on Strabus's exposition |
+| n48–n51 | Burgos's *Additiones* on ch. 1 begin (*Additio i: circa expositionem litteralem huius primi capituli, que valde difficilis est*) |
+| n57 | **Additio iij**, the Ra. Sa. passage — built |
+| n60 | **Additio ix**, Arriani/Nestoriani and the Jews |
+| n61 | Doering's *Correctorium corruptorii Burgensis* begins |
 
-## ⭐ Why this session is worth 200K — read this before pruning
+⛔ **Column geometry before anything else.** Take a whole-page overview and fix the column edges
+before cropping: a crop that straddles the gutter reads as continuous Latin and is spliced from two
+columns. On n43 the right column is x 0.655–1.00; on n57 column 1 is x 0.335–0.680. An edge that
+cuts words makes the crop unreadable — shorten the slice, never reconstruct the missing half.
 
-Leaf n57 shows Burgos's third complaint against Lyra, and it is the best text in the whole project
-for the question this edition exists to ask:
+## The roster, in priority order
 
-> *tercio quia expositiones lralis auctoritatem quam nostri doctores primo invenerunt **Ra. sa.
-> hebreo** attribuit* — "third, because he attributes to **Rabbi Solomon the Hebrew** the authority
-> of literal expositions which our own doctors found first"
+1. **Lyra lemma h** (n43), *Et spiritus … aquas*, the will of the artificer over the matter → **K7**.
+   It lands beside Rabanus's and Remigius's craftsman and Abelard's *volitabat*.
+2. **Lyra on Gen 1:4–5** (n44) → **K9, K10**. *Vidit lucem quod esset bona*, *divisit*, *dies unus*.
+3. **Doering's reply to Additio iij** (n61) → **K9**. This completes the quarrel: Lyra calls the
+   fathers' answer trifling, Burgos calls that irreverence and says the credit is misattributed to
+   Rashi, Doering answers Burgos. Three Latins, one rabbinic authority, on one page.
+4. **Burgos's Additio i / ij** (n48–n51) → **K1, K4**.
+5. **Lyra lemma i** (n43) → **K8**.
+6. ⚠ **Additio ix** (n60) — the best text on the leaf and the anchor is not yet established. Burgos
+   answers a passage of the Postilla on chapter 1 in which Lyra says the Jews fell into the error of
+   the Saracens. **Find and read that Postilla passage first**: if it is on 1:1–5 it is a witness, and
+   if it is not, it is out of scope and should be recorded here rather than forced. Do not anchor it
+   on a guess.
 
-and again, *Ra. Sa. invenit prius in glo. nostra*. **Paul of Burgos — a convert from Judaism, writing
-in a printed Latin Bible — is arguing about how much the Latin bench owes Rashi, by name.** Every
-other witness in this edition is two traditions that do not know they are in contact. This is the one
-place where a Latin reads the rabbinic bench, credits it, and is attacked by another Latin for
-crediting it too much. Whatever else gets pruned, **the Additiones that name Ra. Sa. are the roster.**
+## Standing rules
 
-The apparatus is also structurally ideal: the *Additiones* are **printed as numbered discrete units**
-(*Additio ij*, *iij*, *iiij*…), so one Additio maps cleanly onto one witness under the frozen
-"one continuous argument" rule. No slicing judgement required.
-
----
-
-## What to build
-
-1. **Lyra's Postilla on Gen 1:1–5** — the literal exposition, especially wherever he cites Rashi.
-2. **Burgos's *Additiones* on Gen 1** that touch the five verses, prioritising those that name
-   *Ra. Sa.* or dispute Lyra's use of Hebrew authority.
-3. **Doering's *Replicae*** only if they answer an Additio actually built — otherwise leave them.
-
-Persons/places to add: `nicholas-of-lyra` (c. 1270–1349, Paris), `paul-of-burgos`
-(c. 1351–1435, Burgos), possibly `matthias-doering`. New licence key for the Koberger edition.
-
-## Traps
-
-- ⛔ **Never read the gothic by eye from the OCR.** Transcribe from the page image, and expand
-  abbreviations silently but consistently; record the expansion convention in PHASES.md the first
-  time, as the frozen renderings were recorded.
-- ⛔ **`overlap.py` does not cover this text** — it maps the PL TEI bench only. Lyra and Burgos are
-  outside it, so nothing will warn you about a collision. There is no collision risk with the PL
-  bench, but check `grep -l` against `data/witnesses/*.json` before reusing an id.
-- ⛔ Fresh English is **`DRAFT`**, not `APPROVED`.
-- ⛔ Don't fetch `Lyra.pdf`. 3.5 GB on an 8 GB machine.
+- ⛔ Fresh English is **`DRAFT`**. ⛔ Don't fetch `Lyra.pdf` (3.5 GB on an 8 GB machine).
+- ⛔ `overlap.py` does not cover this text; `grep -l` against `data/witnesses/*.json` before reusing an id.
+- ⛔ Run `check.py` after `build-crux.py`, and `daf-coverage.py` after `npm run build`.
+- ⚠ The **substitution** (Koberger 1486–87 for PLAN.md's 1492 Venice) is unconfirmed by Wilson.

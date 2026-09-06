@@ -1608,3 +1608,88 @@ is worth answering now that there is a page to look at rather than in the abstra
    it expected; reading the sections in sequence found four more, and three of those four are
    witnesses the daf would be poorer without. The estimate held anyway (~95K against 90–130K),
    because the discovery was inside a text already identified.
+
+---
+
+# Phase 6 part six — Nicholas of Lyra and Paul of Burgos (2026-09-06)
+
+**285 witnesses, 436 threads, 431 pages, all gates clean.** Three witnesses, nine threads, from two
+leaves of the Koberger folio. Deliberately fewer than the brief's roster, and the reason is below.
+
+⭐ **`burgos-add-3` is the text this edition exists to print.** Paul of Burgos — Solomon ha-Levi of
+Burgos, a rabbi until he was forty, baptised in 1390, afterwards bishop of Burgos — arguing in a
+printed Latin Bible about how much of the literal sense the Latin bench owes to Rashi, and arguing
+that it owes less than Lyra says:
+
+> tercio quia expositionis litteralis auctoritatem, quam nostri doctores primo invenerunt,
+> **Ra. Sa. hebreo attribuit**
+
+An early reader of this copy underlined *Ra. Sa. hebreo* in ink. Burgos then produces the Latin
+doctors he says found it first — Rabanus, quoted at length on the unclean binary, and Peter Lombard
+on the *sacramentum* of the number two — so the page carries the evidence for its own claim.
+⚠ Anchored on `gen.1.4` under the **second clause** of the anchor rule, with a visible anchor note:
+Burgos is arguing about the day-two absence of *Et vidit Deus quod esset bonum*, which is Gen 1:8
+and outside scope, but the question he is arguing is the one Gen 1:4 raises and K9 is built on.
+
+**The other two.** `lyra-gen-1-1` is the end of a line this crux has been tracing since Jerome: the
+Glossa's first word on Gen 1:1 is *Filio*, and Lyra's *Postilla litteralis*, printed in the same
+Bibles and often on the same opening, gives *in principio, scilicet temporis vel productionis
+rerum* and never mentions the Son. `lyra-gen-1-2-tohu` gives *inanis* and *vacua* two different
+physical causes and derives the darkness of v. 2 from an etymology, *a-byssus*, without whiteness.
+
+## ⛔ The navigation traps, and they cost most of the session
+
+**The brief's leaf calibration was wrong, and so was every method available for fixing it.**
+
+1. **The brief's own leaves are off.** It has `n57` = Burgos's *Additiones* on Genesis 1 and `n61` ≈
+   Gen 1:11–19. In fact **Gen 1:1–3 with the Postilla is on `n43`** (the rubric *Incipit liber
+   Genesis qui dicitur hebraice Bresith* and the illuminated I are there), Gen 1:4–10 on `n44`,
+   Burgos's Additio iij on `n57`, and `n61` is **Matthias Doering's *Correctorium corruptorii
+   Burgensis***, which the brief does not mention is printed here at all.
+2. ⛔ **`Lyra_djvu.txt` has no page separators**, so it cannot locate anything.
+3. ⛔⛔ **`Lyra_hocr_pageindex.json.gz` locates text by leaf, and its leaves are offset from the
+   image leaves by an amount that DRIFTS.** Calibrated at 3 near Genesis 1 and at 6 by folio 30. A
+   single calibration therefore *validates* and then silently hands you the wrong leaf twenty pages
+   later — which it did, twice, before the drift was caught. Note also that the same Additio is
+   printed twice in this book, once in Burgos's block and again inside Doering's reply, so a
+   duplicate hit is not evidence of a bad offset.
+4. ⭐ **The fix, and it generalises past this book: archive.org's search-inside endpoint returns the
+   leaf index in the same numbering `page/nN.jpg` uses, plus a pixel box and the page dimensions
+   the OCR ran against.** One request gives both the leaf and where on it to crop.
+   `https://ia600507.us.archive.org/fulltext/inside.php?item_id=<id>&doc=<doc>&path=<dir>&q=<query>`;
+   `server`, `dir` and the file stem come from `https://archive.org/metadata/<id>`. Wrapped as
+   `scratchpad/lyra/find.py`. This should be the first thing tried on any archive.org item in this
+   shop, ahead of djvu text and ahead of hOCR offsets.
+
+## ⛔ The trap that could have put fabricated Latin on the page
+
+**A crop that straddles two columns reads as continuous prose.** This folio sets two columns with a
+narrow gutter; a crop taken on a guessed x-range picked up the right half of column 1 and the left
+half of column 2, and the result *scans* — Latin clauses running on plausibly across the splice.
+Nothing about the image says the line is spliced. It was caught only because the sense went wrong
+two lines later.
+
+**How to not do it:** establish the column edges from a whole-page overview *before* cropping, keep
+every crop inside one column, and treat any crop whose left or right edge cuts words as unreadable
+rather than reconstructing the missing halves. Three slices in this session were shortened rather
+than completed for exactly this reason — `lyra-gen-1-2-tohu` stops at *quia color candidus habet
+plurimum de luce* because the next clause is cut, and what follows it is described in the notes
+instead of quoted. That is the [[feedback_vision-ocr-discipline]] rule applied to geometry rather
+than to letters: an unreadable half-word is not an invitation to supply the obvious word.
+
+## What is still on the leaves, and it is a lot
+
+Not built, all located, all worth a second session at ~60–80K now that navigation is solved:
+
+| what | leaf | crux |
+|---|---|---|
+| Lyra's lemma **h**, *Et spiritus … aquas*, the will of the artificer over the matter | n43 | **K7** |
+| Lyra's lemma **i** onward, *Dixitque Deus*, the beginning of the work of distinction | n43 | **K8** |
+| Lyra on *vidit lucem quod esset bona*, *divisit*, *dies unus* | n44 | **K9, K10** |
+| Burgos's **Additio i and ij** on the literal exposition of the chapter, *valde difficilis* | n48–n51 | **K1, K4** |
+| ⭐ Burgos's **Additio ix** — *sicut inter christianos fuerunt aliqui heretici, ut Arriani, Nestoriani … sic inter iudeos fuerunt aliqui habentes erroneas opiniones que non approbantur a iudeis communiter*, written against Lyra's claim that the Jews fell into the error of the Saracens | n60 | ⚠ anchor unclear — it answers a passage of the Postilla on ch. 1 but not evidently on 1:1–5. **Check the Postilla passage it quotes before building.** |
+| Doering's reply to Additio iij: *primam dicit truphaticam, secundam abicit tanquam non fundatam, terciam approbat a Ra. Sa. acceptam; in quo passu dicit eum in tribus deviare a rectitudine* | n61 | **K9** — completes the three-cornered quarrel |
+
+⚠ **The substitution stands and is on the page.** PLAN.md named the 1492 Venice *Biblia cum glossa*;
+this is Koberger, Nuremberg 1486–87, and every `source` and the licence key `lyra-koberger-1487`
+say so. Someone should confirm the substitution before these ship.

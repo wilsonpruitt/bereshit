@@ -54,6 +54,17 @@ State when written: `~/bereshit` scaffolded (no git yet). K7 `ruach-hovering` bu
   built, rostered, given its own page and silently dropped from the daf. Run
   **`scripts/daf-coverage.py` after every `npm run build`**, alongside `check.py` after every
   `build-crux.py`. It is negative-tested; keep it that way if you change it.
+- **Locating a passage in an archive.org scan, frozen 2026-09-06 (Phase 6 part six, Lyra).** Use
+  the item's **search-inside endpoint**, which returns the leaf index in the same numbering that
+  `page/nN.jpg` uses plus a pixel box: one request gives both the leaf and where on it to crop.
+  ⛔ Do **not** locate by an item's `_djvu.txt` (often has no page separators) or by
+  `_hocr_pageindex.json.gz` (its leaves are offset from the image leaves and **the offset drifts**
+  along the volume, so a single calibration validates and then lies twenty leaves later).
+- **Vision transcription is bounded by column geometry, not only by legibility, added 2026-09-06.**
+  Fix the column edges from a whole-page overview before cropping: a crop that straddles a gutter
+  reads as continuous prose and is spliced from two columns, and nothing in the image says so. A
+  crop whose edge cuts words is unreadable — **shorten the slice and describe the rest in the
+  notes; never reconstruct the missing half of a word.**
 - Latin is **sliced from the local TEI by anchor phrase** (`~/patrologia/sources/pl/tei/<idno>.xml`; ids in `data/latin-bench.json`). Never retype Latin. PL column is computed from the last `<pb>` before the start anchor. If an anchor fails, fix the anchor; do not paste text.
 - Rabbinic text comes from `raw/sefaria/*.json` pulled by `scripts/pull-sefaria.py`, using only the versions pinned there (Wikisource Bavli CC BY-SA; Sefaria Midrash Rabbah 2022 CC BY; Silbermann Rashi PD; Etheridge PD; Guggenheimer Yerushalmi CC BY; Berman Tanchuma CC BY). Davidson/Steinsaltz is never embedded.
 - Edges need `evidence` quoting the words that prove the dependency. A shared image without a citation is `parallel`. Direction later → earlier except `transmits`. When a witness names its source (`HIERON.`, `AUG.`), that is `cites`; verbatim reuse without a name is `echoes`.

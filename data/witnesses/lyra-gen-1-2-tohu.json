@@ -1,0 +1,41 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-2-tohu",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Inanis, id est invisibilis, quia erat undique aquis cooperta",
+  "en": "Empty, that is, invisible, because it was covered on every side with waters"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inanis, id est invisibilis, quia erat undique aquis cooperta. Et vacua, quia non erat adhuc plantis et herbis ornata. Sequitur. Et tenebre etc. abyssi, id est super faciem elementorum. Abyssus enim dicitur ab a, quod est sine, et byssus, quod est genus lini candidissimi; unde abyssus dicitur quasi sine candore vel splendore, quia color candidus habet plurimum de luce.",
+  "source": "Koberger 1486-87, leaf n43 recto, right column, lemmas e-g (archive.org biblia-sacra-lyra_202308, page/n43.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "Empty, that is, invisible, because it was covered on every side with waters. And void, because it was not yet furnished with plants and herbs. There follows. And darkness etc. of the abyss, that is, over the face of the elements. For abyssus is so called from a, which means 'without', and byssus, which is a kind of the whitest linen; whence abyssus is as it were 'without whiteness or brightness', because a white colour has the most of light in it.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "pair-is-under-water",
+  "pair-is-unfurnished"
+ ],
+ "notes": "The two halves of the pair given two different physical causes, in the tersest form this crux ever reaches. Inanis is invisibilis and the reason is optical -- the earth was covered on every side with water, so there was nothing to see; vacua is unfurnished, and the reason is botanical -- no plants or herbs yet. That is Bede's and Remigius's distinction with the theology taken out and a mechanism put in. Then the etymology, which is the reason to print this passage: abyssus from a, without, and byssus, the whitest of linens, so that the abyss is what is without whiteness, because white is the colour that holds the most light. Isidore is the source of the etymological habit and not of this etymology; what Lyra does with it is make the darkness of Gen 1:2 a statement about a colour rather than about a privation, which is the Latin bench's usual answer, or about the wicked, which is the rabbinic bench's. He goes on to give abyssus a second sense, the confusion and commixture of everything below the sphere of the moon, and to date the elements' accidental properties to the third day."
+}
