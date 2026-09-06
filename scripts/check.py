@@ -11,6 +11,10 @@ Checks:
   5. Every witness's anchor.verse resolves to a verse in data/scripture/gen-1.json.
   6. Every answer id on a witness exists in data/answers.json, and every licence key used by a
      witness exists in data/licenses.json.
+  9. No licence key a witness uses still carries an unresolved "[CHECK" marker anywhere in its
+     entry. All of them were cleared by Wilson's rulings on 2026-09-05; this keeps a new one from
+     being reintroduced and then forgotten, which is what rule 4 could not catch because it only
+     fires on witnesses marked "ships": true and none are yet.
   8. Every licence key a witness uses whose label names CC BY or CC BY-SA (but not CC BY-NC, which
      is a different licence and is barred from embedding anyway) carries a non-empty
      "attribution" in data/licenses.json — attribution is a condition of those licences and the
@@ -111,6 +115,11 @@ for k in sorted(x for x in used_keys if x):
     lab = (licenses.get(k, {}).get("label") or "")
     if ("CC BY" in lab or "CC-BY" in lab) and "NC" not in lab and not (licenses.get(k, {}).get("attribution") or "").strip():
         errors.append(f"licence {k!r} ({lab}) is used by a witness and requires attribution, but data/licenses.json gives it no non-empty 'attribution'")
+
+# 9. no unresolved [CHECK] marker on a licence key in use (see the module docstring)
+for k in sorted(x for x in used_keys if x):
+    if "[CHECK" in json.dumps(licenses.get(k, {}), ensure_ascii=False):
+        errors.append(f"licence {k!r} is used by a witness and still carries an unresolved [CHECK] marker")
 
 if errors:
     print(f"check.py: {len(errors)} problem(s)")

@@ -471,7 +471,7 @@ LICENSES = {
  "chavel-ramban": {
   "label": "Charles B. Chavel's English of Ramban, Commentary on the Torah (New York: Shilo, 1971–76) — shown as CC BY on Sefaria",
   "attribution": "Ramban (Nachmanides), Commentary on the Torah, translated and annotated by Charles B. Chavel (New York: Shilo, 1971–76). Shown as CC BY on Sefaria. Via www.sefaria.org.",
-  "note": "Phase 6 verified what Sefaria asserts, which was the open question, not whether the assertion is right: the v3 API returns license 'CC-BY' for this versionTitle, versionSource nli.org.il. That a 1971–76 Shilo translation is CC BY remains surprising, and that is a rights judgement rather than a metadata question. [CHECK — Wilson's call before publication.] Six witnesses use this key.",
+  "note": "✅ Wilson ruled 2026-09-05: trust Sefaria and ship it. The evidence weighed: the v3 API returns license 'CC-BY' for this versionTitle with versionSource nli.org.il AND digitizedBySefaria true — Sefaria digitized the text themselves, which implies they secured terms, and the two other Chavel versions on Sefaria are marked 'unknown', so CC-BY here is a deliberate assertion and not a default. The licence claim is Sefaria's and is named as theirs above. Six witnesses.",
  },
  "sefaria-midrash-rabbah": {
   "label": "The Sefaria Midrash Rabbah, 2022 — CC BY 4.0",
