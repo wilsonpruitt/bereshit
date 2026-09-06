@@ -486,5 +486,11 @@
   "dates": "fl. c. 280",
   "tradition": "rabbinic",
   "role": "tradent"
+ },
+ "origen": {
+  "name": "Origen",
+  "la": "Origenes Adamantius",
+  "dates": "c. 185–253",
+  "tradition": "latin"
  }
 }

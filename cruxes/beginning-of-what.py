@@ -141,6 +141,19 @@ add(id="ramban-1-1", work="ramban-gen", author="ramban", tradition="rabbinic",
     answers=["reshit-construct", "world-has-a-beginning"],
     notes="Two centuries after Rashi, the plain-sense reading is refuted from inside the tradition that produced it. Ramban reports Rashi's construct-state argument and Ibn Ezra's version of it — with Ibn Ezra's refinement that the vav of ve-ha'aretz means 'when', so that only light was made on the first day — and then breaks the grammatical premise with two counter-examples: Isa 46:10, 'declaring the end mereshit', and Deut 33:21, 'and he chose reshit for himself', where reshit stands absolute. The Hebrew slice here begins at Ibn Ezra's name and is shorter than the English, which opens at Rashi; the two are aligned on the same argument, not sentence for sentence. Chavel's English shows on Sefaria as CC BY, which is surprising for a 1971 Shilo text: licence key chavel-ramban is marked for checking before publication. Ramban's own answer, that bara names creation from absolute nothing and that the primary matter is what the Greeks call hyle, belongs to K4 and is not sliced here.")
 
+# ---------------------------------------------------------------- Phase 6, second-tier source
+add(id="origen-hom-gen-1-1", work="origen-hom-gen", author="origen", tradition="latin",
+    date=240, date_precision="range-238-244", place="caesarea-palaestinae",
+    anchor={"verse": "gen.1.1"}, lemma={"la": "Non ergo hic temporale aliquod principium dicit, sed in principio, id est in Salvatore", "en": "He does not, then, say here any temporal beginning, but that it was made in the beginning, that is, in the Saviour"},
+    original={"lang": "la", "text": '»In principio fecit Deus coelum et terram«. Quod est omnium principium nisi Dominus noster et »Salvator omnium« Iesus Christus »primogenitus omnis creaturae«? In hoc ergo principio, hoc est in verbo suo, »Deus coelum et terram fecit«, sicut et Evangelista Iohannes in initio Evangelii sui ait dicens: »in principio erat verbum, et verbum erat apud Deum, et Deus erat verbum. Hoc erat in principio apud Deum. Omnia per ipsum facta sunt, et sine ipso factum est nihil«. Non ergo hic temporale aliquod principium dicit, sed »in principio«, id est in Salvatore, factum esse dicit coelum et terram et omnia, quae facta sunt. »Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, et spiritus Dei ferebatur super aquas«. »Invisibilis et incomposita terra erat«, antequam Deus diceret: »fiat lux« et antequam »divideret inter lucem et tenebras«, secundum quod sermonis ordo declarat.',
+              "source": "Hom. in Gen. I.1 (GCS 29, ed. W. A. Baehrens, Leipzig 1920, p. 1, lines 1–14)",
+              "license": "gcs-baehrens",
+              "version": "Rufinus's Latin. ⚠ The ONLY Latin on this site not sliced from the local TEI bench: Origen in Rufinus is PG 12 and the harvest is PL only. Transcribed from the archive.org page image of GCS 29 p. 1 (item origenes-werke.-bd-6-1920, leaf n37 — the item's own djvu OCR is badly degraded here, printing prineipium, feeit, dieit, ineomposita, and was not used). Baehrens's editorial quotation marks are kept as he prints them."},
+    english={"text": "'In the beginning God made heaven and earth.' What is the beginning of all things but our Lord and 'Saviour of all' Jesus Christ, 'the firstborn of every creature'? In this Beginning, then, that is, in his Word, 'God made heaven and earth', as the Evangelist John also says at the opening of his Gospel: 'in the beginning was the Word, and the Word was with God, and the Word was God. This was in the beginning with God. All things were made through him, and without him was made nothing.' He does not, then, say here any temporal beginning, but says that heaven and earth and all things that were made were made 'in the beginning', that is, in the Saviour. 'And the earth was invisible and unordered, and darkness was over the abyss, and the Spirit of God was borne over the waters.' 'The earth was invisible and unordered' before God said, 'let there be light', and before he 'divided between the light and the darkness', according to what the order of the discourse declares.", **DRAFT},
+    cruxes=["beginning-of-what", "tohu-vabohu"], senses=["literal", "allegorical"],
+    answers=["principio-in-filio"],
+    notes="The head of the stream. Every Latin who reads in principio as the Son is downstream of this paragraph, and it states the reading in its strongest form: the beginning of all things is Christ, in principio means in the Word, and — the sentence the tradition kept — non ergo hic temporale aliquod principium dicit. John 1:1–3 is the proof, exactly as it will be in Ambrose and Augustine and the Glossa. Two things are worth noticing against what the later bench does with it. First, Origen reaches the Son without Ps 104:24 and without the word wisdom: the argument is from Col 1:15 and John, not from Solomon. Second, he runs straight on into Gen 1:2 and reads invisibilis et incomposita as a statement about what was so BEFORE the light and the division — a chronology, not a metaphysics — which is not what the Latin bench will make of the phrase. ⚠ See notes/SOURCES-FINDINGS.md: Baehrens's apparatus to this page carries a Catena notice and a passage of Chalcidius that bear on K1's finding and were not available when it was written.")
+
 # ---------------------------------------------------------------- latin bench, patristic
 add(id="jerome-hq-1-1", work="jerome-hq", author="jerome", tradition="latin",
     date=392, date_precision="circa", place="bethlehem",
@@ -403,6 +416,8 @@ THREADS = [
  E("t-k1-41", "hugh-sacr-1-1", "aug-gnm-1-2", "echoes", "Augustine's 'time began together with heaven and earth' becomes Hugh's 'in the beginning of time, or rather with time itself', and Hugh draws the school's conclusion from it: between creation and the disposing of things there was an order of time but no delay interposed."),
  E("t-k1-42", "abelard-hex-1-1", "bruno-gen-1-1", "parallel", "Both read the phrase as a place in a series — Bruno 'in the beginning of all creatures', Abelard 'as if it were said, on the first day' — and both do it to keep the six days without losing the simultaneity of the first making."),
  E("t-k1-43", "comestor-hs-1-1", "aug-gnl-1-1", "echoes", "Augustine's three questions, printed as three answers with an instruction: 'in the beginning' is to be repeated, once for the Son and once for time, with 'in the beginning of all creatures' offered as a third. The handbook that taught Europe the Bible resolves the crux by refusing to resolve it."),
+ E("t-k1-45", "jerome-hq-1-1", "origen-hom-gen-1-1", "contests", "Phase 6. Jerome refutes the reading this homily states, and names his opponents: the Altercation of Jason and Papiscus, Tertullian against Praxeas, Hilary on a Psalm. Origen is not among them — and could not have been, since Rufinus's Latin is a decade later than the Quaestiones. But notice what Jerome actually refutes and what he concedes. He refutes the claim that the HEBREW has 'in the Son', with the philology: the Seventy, Symmachus and Theodotion all render 'in the beginning', the Hebrew is BRESITH and not BABEN. Origen never made that claim; his is an exegetical claim about what in principio means. And Jerome's own last sentence grants it — 'it can therefore be taken of Christ rather according to the sense than according to the translation of the word'. The distinction the Latin bench will need for nine hundred years is Jerome's, made in the act of refusing the reading he then allows."),
+ E("t-k1-46", "ambrose-hex-1-2", "origen-hom-gen-1-1", "parallel", "Phase 6. The same conclusion from different verses, and the difference is the whole later history. Origen gets the Son out of in principio by John 1:1–3 and Col 1:15 — the Word through whom all things were made, the firstborn of every creature — and never says wisdom. Ambrose gets him out of John 8:25, 'The Beginning, who also speak to you', which makes Principium a name rather than an instrument. Ambrose's route is the one the Latin bench takes; and it is Ambrose, three columns later, who adds Ps 104:24 and so brings in the wisdom the rabbinic bench is arguing about at the same moment, meaning something else by it."),
  E("t-k1-44", "comestor-hs-1-1", "bruno-gen-1-1", "echoes", "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook."),
 ]
 
@@ -410,6 +425,8 @@ FINDING = "Both benches gloss the first word of Scripture as 'in wisdom', prove 
 
 # ---------------------------------------------------------------- persons / places new to this crux
 PERSONS = {
+ "origen": {"name": "Origen", "la": "Origenes Adamantius", "dates": "c. 185–253", "tradition": "latin"},
+
  "r-hoshaya": {"name": "R. Hoshaya Rabbah", "dates": "fl. c. 230", "tradition": "rabbinic", "role": "tradent"},
  "r-abba-b-kahana": {"name": "R. Abba bar Kahana", "dates": "fl. c. 300", "tradition": "rabbinic", "role": "tradent"},
  "r-huna": {"name": "R. Huna", "dates": "d. 297", "tradition": "rabbinic", "role": "tradent"},
@@ -422,6 +439,7 @@ PERSONS = {
  "ramban": {"name": "Moses ben Naḥman (Naḥmanides)", "he": "מֹשֶׁה בֶּן נַחְמָן", "dates": "1194–1270", "tradition": "rabbinic"},
 }
 PLACES = {
+ "caesarea-palaestinae": {"name": "Caesarea Maritima", "lat": 32.50, "lon": 34.89},
  "lucca": {"name": "Lucca", "lat": 43.84, "lon": 10.50},
  "girona": {"name": "Girona", "lat": 41.98, "lon": 2.82},
 }
@@ -446,6 +464,10 @@ ANSWERS = {
 # rather than in data/licenses.json, because build-crux.py merges LICENSES over that file on every
 # rebuild — an edit made only in data/ is silently reverted the next time this crux is built.
 LICENSES = {
+ "gcs-baehrens": {
+  "label": "Die griechischen christlichen Schriftsteller, vol. 29: Origenes Werke VI, ed. W. A. Baehrens (Leipzig: Hinrichs, 1920) — public domain",
+  "note": "Phase 6. Origen in Rufinus's Latin is PG 12, and this edition's Latin bench is a PL harvest, so this is the one witness whose Latin came from outside it. Published 1920, so public domain in the United States; Baehrens died 1929, so public domain in the EU since 2000. Transcribed from the archive.org page image, not from the item's OCR.",
+ },
  "chavel-ramban": {
   "label": "Charles B. Chavel's English of Ramban, Commentary on the Torah (New York: Shilo, 1971–76) — shown as CC BY on Sefaria",
   "attribution": "Ramban (Nachmanides), Commentary on the Torah, translated and annotated by Charles B. Chavel (New York: Shilo, 1971–76). Shown as CC BY on Sefaria. Via www.sefaria.org.",

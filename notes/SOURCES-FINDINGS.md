@@ -948,3 +948,51 @@ are now itemised, by witness id, in `notes/cross-crux.md`.
 glossa*, vision OCR — its own session, ~150–200K), and Gen 1:26 *Faciamus hominem* into K3, which
 the widened anchor rule now permits and which is where most of the Latin material on divine
 plurality actually sits.
+
+### Origen/Rufinus, Hom. in Gen. I.1 — built, and it raises a question about K1's finding
+
+Built as `origen-hom-gen-1-1` (K1, pre-tagged for K6). Source **GCS 29, ed. Baehrens, Leipzig 1920,
+p. 1** — PD in the US (1920) and in the EU (Baehrens d. 1929). ⛔ **This is the only Latin on the
+site not sliced from the local TEI bench**, because Origen in Rufinus is PG 12 and the harvest is PL
+only; `~/patrologia/sources/pg` holds 34 volumes and PG 12 is not among them. The archive.org item's
+own djvu OCR of this page is badly degraded (*prineipium, feeit, dieit, ineomposita, aquase*) and was
+**not** used; the Latin was transcribed from the page image (item `origenes-werke.-bd-6-1920`,
+**leaf n37 = printed p. 1**, calibrated from `_scandata.xml`).
+
+The paragraph is the head of the stream — *Non ergo hic temporale aliquod principium dicit, sed in
+principio, id est in Salvatore* — and two things in it cut against how the later bench reads it.
+Origen reaches the Son by **John 1:1–3 and Col 1:15**, with no Ps 104:24 and no *sapientia* anywhere
+in the sentence; Ambrose reaches him by **John 8:25**, which makes *Principium* a name, and it is
+Ambrose's route the Latin bench takes. And Origen runs straight on into 1:2, reading *invisibilis et
+incomposita* as a statement of what was so *before* the light — a chronology, not a metaphysics.
+
+**And Jerome, refuting the reading, names his opponents and Origen is not among them**: the
+*Altercation of Jason and Papiscus*, Tertullian *Adv. Praxean*, Hilary on a Psalm. He could not have
+been refuting *this text* — Rufinus's Latin is a decade later than the *Quaestiones*. More to the
+point, **he refutes a claim Origen never made** (that the *Hebrew* has "in the Son") and then concedes
+the claim Origen did make: *potest tamen de Christo intelligi secundum sensum magis quam secundum
+verbi translationem*. That sentence is Rupert's "in sense, not in speech" of c. 1115, verbatim in
+substance, six hundred years earlier — and K1's finding currently presents Rupert's formula as his
+own recovery. Threads `t-k1-45` and `t-k1-46`.
+
+⚠ **ESCALATED, NOT DECIDED — this may qualify K1's headline finding, and revising a finding is not a
+builder's call.** K1 says the two benches gloss *bereshit* as "in wisdom" and mean opposite things,
+"with no contact either way". Baehrens's apparatus to this very page carries two notices that bear on
+the "no contact" half:
+
+1. A **Catena notice under Akakios's name**: *ὁ δὲ Ὠριγένης τὸ »ἐν ἀρχῇ« βούλεται ἀντὶ τοῦ ἐν σοφίᾳ,
+   τουτέστι τῷ υἱῷ* — Origen takes *en archē* as *en sophia*, that is, in the Son. So the Greek
+   behind the Latin bench **did** put wisdom and the Son together at Gen 1:1, and the Latin homily
+   as Rufinus gives it does not.
+2. **Chalcidius, *Comm. in Tim.* 276**: *Origenes adseverat ita sibi **ab Hebraeis** esse persuasum
+   … initium minime temporarium dici … est tamen unum … initium de quo **Salomon** … inquit …
+   aperte indicans praeeunte divina sapientia caelum terramque facta.* A fourth-century Latin report
+   that Origen got the non-temporal *initium* **from the Hebrews**, and grounded it on **Solomon** —
+   Prov 8:22, which is the rabbinic bench's own verse for reaching wisdom.
+
+**What this does and does not show.** It does not show the Latin bench receiving anything: Chalcidius
+is a report about Origen, not a channel into Wigbod or the Glossa, and the Catena is Greek. What it
+does show is that "no contact either way" is a claim about the *Latin* transmission and is false of
+its Greek head — which is a sharper finding than the one K1 now prints, not a weaker one. **Neither
+Chalcidius nor the Catena was consulted directly; both are read off Baehrens's apparatus on the page
+image.** Verifying them, and then deciding whether K1's `finding` is amended, is Wilson's.

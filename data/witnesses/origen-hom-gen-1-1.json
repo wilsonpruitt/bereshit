@@ -1,0 +1,41 @@
+{
+ "id": "origen-hom-gen-1-1",
+ "work": "origen-hom-gen",
+ "author": "origen",
+ "tradition": "latin",
+ "date": 240,
+ "date_precision": "range-238-244",
+ "place": "caesarea-palaestinae",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Non ergo hic temporale aliquod principium dicit, sed in principio, id est in Salvatore",
+  "en": "He does not, then, say here any temporal beginning, but that it was made in the beginning, that is, in the Saviour"
+ },
+ "original": {
+  "lang": "la",
+  "text": "»In principio fecit Deus coelum et terram«. Quod est omnium principium nisi Dominus noster et »Salvator omnium« Iesus Christus »primogenitus omnis creaturae«? In hoc ergo principio, hoc est in verbo suo, »Deus coelum et terram fecit«, sicut et Evangelista Iohannes in initio Evangelii sui ait dicens: »in principio erat verbum, et verbum erat apud Deum, et Deus erat verbum. Hoc erat in principio apud Deum. Omnia per ipsum facta sunt, et sine ipso factum est nihil«. Non ergo hic temporale aliquod principium dicit, sed »in principio«, id est in Salvatore, factum esse dicit coelum et terram et omnia, quae facta sunt. »Terra autem erat invisibilis et incomposita, et tenebrae erant super abyssum, et spiritus Dei ferebatur super aquas«. »Invisibilis et incomposita terra erat«, antequam Deus diceret: »fiat lux« et antequam »divideret inter lucem et tenebras«, secundum quod sermonis ordo declarat.",
+  "source": "Hom. in Gen. I.1 (GCS 29, ed. W. A. Baehrens, Leipzig 1920, p. 1, lines 1–14)",
+  "license": "gcs-baehrens",
+  "version": "Rufinus's Latin. ⚠ The ONLY Latin on this site not sliced from the local TEI bench: Origen in Rufinus is PG 12 and the harvest is PL only. Transcribed from the archive.org page image of GCS 29 p. 1 (item origenes-werke.-bd-6-1920, leaf n37 — the item's own djvu OCR is badly degraded here, printing prineipium, feeit, dieit, ineomposita, and was not used). Baehrens's editorial quotation marks are kept as he prints them."
+ },
+ "english": {
+  "text": "'In the beginning God made heaven and earth.' What is the beginning of all things but our Lord and 'Saviour of all' Jesus Christ, 'the firstborn of every creature'? In this Beginning, then, that is, in his Word, 'God made heaven and earth', as the Evangelist John also says at the opening of his Gospel: 'in the beginning was the Word, and the Word was with God, and the Word was God. This was in the beginning with God. All things were made through him, and without him was made nothing.' He does not, then, say here any temporal beginning, but says that heaven and earth and all things that were made were made 'in the beginning', that is, in the Saviour. 'And the earth was invisible and unordered, and darkness was over the abyss, and the Spirit of God was borne over the waters.' 'The earth was invisible and unordered' before God said, 'let there be light', and before he 'divided between the light and the darkness', according to what the order of the discourse declares.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "beginning-of-what",
+  "tohu-vabohu"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "principio-in-filio"
+ ],
+ "notes": "The head of the stream. Every Latin who reads in principio as the Son is downstream of this paragraph, and it states the reading in its strongest form: the beginning of all things is Christ, in principio means in the Word, and — the sentence the tradition kept — non ergo hic temporale aliquod principium dicit. John 1:1–3 is the proof, exactly as it will be in Ambrose and Augustine and the Glossa. Two things are worth noticing against what the later bench does with it. First, Origen reaches the Son without Ps 104:24 and without the word wisdom: the argument is from Col 1:15 and John, not from Solomon. Second, he runs straight on into Gen 1:2 and reads invisibilis et incomposita as a statement about what was so BEFORE the light and the division — a chronology, not a metaphysics — which is not what the Latin bench will make of the phrase. ⚠ See notes/SOURCES-FINDINGS.md: Baehrens's apparatus to this page carries a Catena notice and a passage of Chalcidius that bear on K1's finding and were not available when it was written."
+}

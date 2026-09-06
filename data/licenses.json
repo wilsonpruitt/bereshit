@@ -53,5 +53,9 @@
   "label": "Ramban's Hebrew, Sefaria 'Vocalized Edition' — CC BY 4.0",
   "attribution": "Ramban, Commentary on the Torah, Hebrew: Sefaria 'Vocalized Edition', licensed CC BY 4.0. Via www.sefaria.org.",
   "note": "Split out of the generic cc-by key at Phase 6 for the same reason as the Midrash Rabbah English: cc-by is also the key on our own fresh drafts and carries no attribution, and CC BY requires one. Six witnesses."
+ },
+ "gcs-baehrens": {
+  "label": "Die griechischen christlichen Schriftsteller, vol. 29: Origenes Werke VI, ed. W. A. Baehrens (Leipzig: Hinrichs, 1920) — public domain",
+  "note": "Phase 6. Origen in Rufinus's Latin is PG 12, and this edition's Latin bench is a PL harvest, so this is the one witness whose Latin came from outside it. Published 1920, so public domain in the United States; Baehrens died 1929, so public domain in the EU since 2000. Transcribed from the archive.org page image, not from the item's OCR."
  }
 }

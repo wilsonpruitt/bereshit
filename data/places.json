@@ -128,5 +128,15 @@
   "name": "Girona",
   "lat": 41.98,
   "lon": 2.82
+ },
+ "aquileia": {
+  "name": "Aquileia",
+  "lat": 45.77,
+  "lon": 13.37
+ },
+ "caesarea-palaestinae": {
+  "name": "Caesarea Maritima",
+  "lat": 32.5,
+  "lon": 34.89
  }
 }
