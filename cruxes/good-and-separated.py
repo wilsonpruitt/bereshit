@@ -465,7 +465,21 @@ FINDING = (
  "has instead of the metaphysical question is a liturgical one: R. Ze'eira derives from 'he saw … and he "
  "divided' the rule that one does not bless the lamp at havdala until he has used its light, so that the verse "
  "ends as the source of a benediction still said every week — and nothing on the Latin bench has that shape, "
- "because nothing on the Latin bench is looking for a practice."
+ "because nothing on the Latin bench is looking for a practice.\n\n"
+ "There is one place where the silence stops being a coincidence, and it is four hundred years "
+ "after the last witness above. Nicholas of Lyra, asking why the second day has no approval, calls "
+ "the answer of Rabanus and of the Master a piece of trifling, refutes a second Latin answer from "
+ "the Scriptures, and then takes the reading he wants from Rashi — more according to the intention "
+ "of the letter, as it seems. Paul of Burgos, who had been a rabbi in that city until he was forty "
+ "and was afterwards its bishop, replies that the postillator departs from rectitude in three ways, "
+ "and the third is that he attributes to Ra. Sa. the Hebrew the authority of a literal exposition "
+ "which our own doctors found first. Matthias Doering, defending Lyra, restates the charge and "
+ "changes one word: he attributes the true answer to an unbeliever, though it is contained in our "
+ "own gloss, to which he ought rather to have shown the honour. Nobody in that exchange denies that "
+ "the answer is right. What they are arguing about is whose it is, what is owed for it, and whether "
+ "the literal sense is the place where a Christian may be taught by a Jew. Every other page of this "
+ "edition shows two traditions reading the same verses without knowing the other is in the room; "
+ "this one shows what it sounds like when they do."
 )
 
 # ---------------------------------------------------------------- new persons / places / answers

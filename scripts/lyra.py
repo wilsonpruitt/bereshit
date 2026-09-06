@@ -45,10 +45,11 @@ LICENSES = {
  "lyra-koberger-1487": {
    "label": EDITION + " -- public domain",
    "note": "Transcribed from the page images of archive.org item biblia-sacra-lyra_202308, which "
-           "carries no rights notice. ⚠ A SUBSTITUTION: PLAN.md named the 1492 Venice Biblia cum "
-           "glossa, which did not surface on archive.org; this Koberger folio carries the same "
-           "three-layer apparatus (Postilla, Burgos's Additiones, Doering's Replicae) and is cited "
-           "here as the edition actually used. Leaf numbers in `source` are the archive.org leaf "
+           "carries no rights notice. A SUBSTITUTION, accepted by Wilson Pruitt on 2026-09-06: "
+           "PLAN.md named the 1492 Venice Biblia cum glossa, which did not surface on archive.org; "
+           "this Koberger folio carries the same three-layer apparatus (Postilla, Burgos's "
+           "Additiones, Doering's Replicae) and is cited throughout as the edition actually used, "
+           "as Chalcidius is cited from the Bade print of 1520 rather than from Waszink. Leaf numbers in `source` are the archive.org leaf "
            "index (page/nN.jpg), which is the only stable reference the item has: the scandata "
            "carries no printed folio numbers, and the hOCR page index is offset from the leaves by "
            "an amount that drifts along the volume. Expansion convention as frozen for Chalcidius: "

@@ -1834,3 +1834,56 @@ distinctionis* — structural rather than argumentative, K8, low value. **Burgos
 not read. **Doering's replies** to the other Additiones, not read. The Lyra thread can be closed here
 without loss; if it is reopened, the locator, the calibrated leaves and the column edges are in
 `notes/NEXT-SESSION-lyra-burgos.md`.
+
+---
+
+# Six rulings, 2026-09-06 — all executed
+
+Wilson ruled on everything outstanding in one pass. Nothing is left open on this edition's content.
+
+## 1–4. All four finding amendments go in
+
+Each was added as a new paragraph, none replaced anything, and **placement was chosen so that each
+finding keeps its own last beat** — the lesson from the Basil ruling, where the proposal said "at
+the end" and the finding closed better on the JPS Tanakh.
+
+| crux | what went in | placed |
+|---|---|---|
+| **K1** `beginning-of-what` | Philo as a third loss-case, running the other way: the rabbinic bench is the one that lost him | inside the loss-case block, straight after "Twice, then, and by two channels…", before the philology beat |
+| **K10** `one-day-evening-first` | *μόνωσις* as the head of both halves of the meeting; solitariness, not unity, and Rashi's *yachid be-olamo* in Greek | after the grammar meeting, before "And they part on the calendar" |
+| **K2** `why-begin-here` | Philo's jurisprudential answer, older than either and on neither bench | after Comestor's masonry, before "What the Latin bench never does…"; the Ambrose close is untouched |
+| **K9** `good-and-separated` | the three-cornered quarrel: Lyra, Burgos, Doering, and *infideli* | at the end — it is chronologically last and is the larger ending; the havdala sentence now leads into it |
+
+⚠ **K1's finding now contains three loss-cases and still says "Twice, then".** That sentence is
+about the **Latin** bench being handed the other bench's words twice, which remains true; the Philo
+paragraph that follows is about the **rabbinic** bench losing its own reader, which is the point of
+saying it runs the other way. Left as written deliberately. If a reader trips on it, the fix is to
+make "Twice, then" explicitly say "twice on the Latin side", not to renumber.
+
+## 5. Three benches, named
+
+**Ruled: the edition prints three benches and should say so.** The argument that decided it is the
+edition's own — K1's new paragraph says the rabbinic bench *lost* Philo, which means nothing unless
+he is not on that bench.
+
+- `site/src/pages/index.astro`: the subtitle now names the Latin, rabbinic and Greek-Jewish
+  traditions, and a standing note under it describes the three, ending on the one page where the
+  two larger benches are audibly in the same room.
+- `site/src/pages/colophon.astro`: names the three benches, adds the Greek-Jewish sources
+  (Septuagint and Philo, Cohn's 1896 text in the First1KGreek TEI), and records that Latin outside
+  the Patrologia is transcribed from page images with its own entry naming the print.
+
+## 6. The Koberger substitution is accepted
+
+**Ruled: the Lyra/Burgos/Doering witnesses stand as built.** The licence note `lyra-koberger-1487`
+now records the acceptance and its date rather than flagging an open question, and points at the
+precedent: Chalcidius is likewise cited from the Bade print of 1520 and not from Waszink. ⛔ The
+edit went in `scripts/lyra.py`, not `data/licenses.json`, which `build-crux.py` overwrites silently.
+
+## What this leaves
+
+**Nothing open on content.** Every finding is Wilson's as it now stands, every licence key is
+resolved, the anchor rule has been applied and once declined (Additio ix), and the framing question
+is settled. The remaining work is Phase 7 (deploy) and Phase 8 (the Fable editorial-voice pass),
+plus optional small additions — Bonaventure II Sent. d.12 a.2 q.3 → K6 and d.13 a.2–a.3 → K8, and
+the thin tail of the Lyra leaves.
