@@ -1,0 +1,55 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { getLicenses, getAllWitnesses, getPersons } from "../lib/data";
+
+const licenses = getLicenses();
+const witnesses = [...getAllWitnesses().values()];
+const persons = getPersons();
+
+function group(facet: "original" | "english") {
+  const byLic = new Map<string, { id: string; label: string }[]>();
+  for (const w of witnesses) {
+    const lic = w[facet]?.license;
+    if (!lic) continue;
+    if (!byLic.has(lic)) byLic.set(lic, []);
+    byLic.get(lic)!.push({ id: w.id, label: `${persons[w.author]?.name || w.author} — ${w.id}` });
+  }
+  return byLic;
+}
+const origByLic = group("original");
+const engByLic = group("english");
+---
+<Layout title="Colophon" prose>
+  <div class="wrap">
+    <SiteHeader />
+    <h1 class="title">Colophon</h1>
+    <p class="subtitle">
+      Every source text and every English rendering on this site, by licence. Latin is drawn from
+      the Patrologia Latina (Migne, 1844–65) via the Corpus Corporum TEI transcription; Hebrew and
+      Aramaic texts and their published English translations are drawn from Sefaria and from the
+      public-domain translators named below. Fresh English not otherwise credited is a Claude draft
+      approved by Wilson Pruitt.
+    </p>
+
+    <h2 style="font:500 20px var(--serif);margin-top:36px">Original-language texts</h2>
+    {[...origByLic.entries()].map(([lic, items]) => (
+      <div class="lic-group">
+        <h2>{licenses[lic]?.label || lic}</h2>
+        {licenses[lic]?.note && <p style="font-size:13.5px;color:var(--mute)">{licenses[lic].note}</p>}
+        {licenses[lic]?.attribution && <p style="font-size:13.5px;color:var(--mute)">{licenses[lic].attribution}</p>}
+        <ul>{items.map((i) => <li><a href={`/witnesses/${i.id}/`}>{i.label}</a></li>)}</ul>
+      </div>
+    ))}
+
+    <h2 style="font:500 20px var(--serif);margin-top:36px">English texts</h2>
+    {[...engByLic.entries()].map(([lic, items]) => (
+      <div class="lic-group">
+        <h2>{licenses[lic]?.label || lic}</h2>
+        {licenses[lic]?.note && <p style="font-size:13.5px;color:var(--mute)">{licenses[lic].note}</p>}
+        {licenses[lic]?.attribution && <p style="font-size:13.5px;color:var(--mute)">{licenses[lic].attribution}</p>}
+        <ul>{items.map((i) => <li><a href={`/witnesses/${i.id}/`}>{i.label}</a></li>)}</ul>
+      </div>
+    ))}
+  </div>
+</Layout>

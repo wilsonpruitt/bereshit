@@ -1,0 +1,15 @@
+---
+interface Props { active?: string }
+const { active = "" } = Astro.props;
+const links = [
+  { href: "/", label: "cruxes" },
+  { href: "/colophon/", label: "colophon" },
+  { href: "/search/", label: "search" },
+];
+---
+<header class="site-head" data-pagefind-ignore>
+  <a class="brand" href="/">Bereshit / In Principio</a>
+  <nav>
+    {links.map((l) => <a href={l.href} aria-current={active === l.href ? "page" : undefined}>{l.label}</a>)}
+  </nav>
+</header>

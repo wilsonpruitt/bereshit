@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { getBuiltCruxes, verseLabel } from "../lib/data";
+
+const cruxes = getBuiltCruxes().sort((a, b) => a.verse.localeCompare(b.verse) || a.id.localeCompare(b.id));
+---
+<Layout title="Bereshit / In Principio" prose>
+  <div class="wrap">
+    <SiteHeader active="/" />
+    <h1 class="title">Bereshit / In Principio</h1>
+    <p class="subtitle">
+      Genesis 1:1–5, read as ten cruxes — a difficulty both the Latin and the rabbinic traditions
+      addressed — with every witness on each dated, sourced, and threaded to the ones it cites,
+      echoes, contests, transmits, or merely runs parallel to.
+    </p>
+    <ul class="crux-list">
+      {cruxes.map((c) => (
+        <li>
+          <span class="verse-tag">{verseLabel(c.verse)}</span>
+          <div>
+            <a class="ck" href={`/crux/${c.id}/`}>{c.question.en}</a>
+            {c.short && <span class="short"> — {c.short}</span>}
+          </div>
+          <p class="q">{c.summary}</p>
+          {c.finding && <p class="finding">{c.finding.split("\n\n")[0]}</p>}
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>

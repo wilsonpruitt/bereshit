@@ -62,7 +62,7 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**STATE: PHASES 1–4 COMPLETE (2026-09-05). All ten cruxes built, the cross-crux pass merged, and the English approved. **235 witnesses, 321 threads, `check.py` clean, ten dafs rendered, 176 passages at `claude-draft-approved`, 0 drafts outstanding.** **Next is Phase 5 (Astro site, Sonnet).** Two things carried forward: the anchor-rule ruling from K2/K3 is still open and is Wilson's; and Wilson has pointed **bereshit.wrootpress.com** at the project (2026-09-05) although there is nothing to deploy until Phase 5 exists.**
+**STATE: PHASES 1–5 COMPLETE (2026-09-05). All ten cruxes built, the cross-crux pass merged, and the English approved. **235 witnesses, 321 threads, `check.py` clean, ten dafs rendered, 176 passages at `claude-draft-approved`, 0 drafts outstanding.** **Phase 5 is done too.** `~/bereshit/site` is a working Astro static site: 363 pages (10 crux dafs, 5 dialogue pages, 235 witnesses, 84 persons, 26 places, colophon, search, index), `npm run build` succeeds clean (`astro check`: 0 errors), Pagefind indexed. The crux daf is byte-identical in rendered text to the Python prototype (`out/C-daf-*.html`); the dialogue view, witness/person/place pages, and colophon are new. **Next is Phase 6 (second-tier sources, Opus).**
 
 Phase 2 is finished; nothing further starts from this section. The per-crux checklist below stands as the record of how the ten were built, and Phase 6 will use it again for the second-tier sources.
 
@@ -169,7 +169,33 @@ decision**, per the standing rule that a new edge type is not a builder's call.
 
 ## Phase 5 — Astro site · **Sonnet** (Opus on second failure)
 
-Spec is the prototype: `out/C-daf-ruach-hovering.html` is the crux view, pixel for pixel; `out/B-map-*.html` is the secondary map view; the stream (A) is retired. Build order per `PLAN.md` §7.8: crux (daf) view → dialogue view (`/dialogue/gen-1-<verse>`; use the daf grid with all cruxes' notes, crux chip on each note) → `/witnesses/<id>`, `/persons/<id>`, `/places/<id>` → colophon from `licenses.json` → Pagefind. Static JSON in, no client fetches beyond Pagefind. EB Garamond / Inter / Frank Ruhl Libre. Both themes.
+**DONE 2026-09-05.** `~/bereshit/site`, Astro 7, static output. Built in spec order: crux (daf)
+view → dialogue view → witnesses/persons/places → colophon → Pagefind.
+
+- **Crux view is pixel-for-pixel with the prototype**, verified by stripping tags from both
+  `out/C-daf-ruach-hovering.html` and the Astro build's rendered output and diffing the text — the
+  only differences are the two new elements added below the daf (a link to the dialogue view, the
+  crux's `finding`). The CSS (`src/styles/daf.css`) and the hover/pin/wire-drawing script
+  (`src/components/Daf.astro`) are direct ports of `render-daf.py`'s `<style>` and `<script>` blocks.
+- **Data access is `src/lib/data.ts`**, reading `../data/*.json` relative to `process.cwd()` (not
+  `import.meta.url` — Vite bundles that module to an unpredictable depth, which broke a
+  path-relative-to-this-file approach on the first build attempt). No client-side fetching anywhere;
+  Pagefind is the only thing that reads anything after the HTML ships.
+- **The dialogue view** (`/dialogue/gen-1-<n>/`) collects every witness whose `anchor.verse` matches,
+  across all ten cruxes, lays them out in the same daf grid, and gives each note a row of crux chips
+  (linking to `/crux/<id>/`). Threads shown are the subset of `data/threads.json` whose *both*
+  endpoints are on that verse's roster — a cross-verse thread would point off the page.
+- **Colophon** groups every witness by its `original.license` and `english.license` keys against
+  `data/licenses.json`, two sections (source texts, English texts), each witness linked.
+- **Credit line for approved English**: Phase 3's flip to `claude-draft-approved` needed a reader-facing
+  label the Python prototype never had to render (it predates the approval). `src/lib/render.ts`
+  renders it as "fresh draft (Claude), approved by Wilson Pruitt" — a site-building decision, not a
+  correction; flag if a different phrasing is wanted before this goes live.
+- **Not built**: the secondary map view (B) — PHASES.md calls it secondary and Phase 5's order didn't
+  reach it; a theme-toggle control (the CSS already supports both themes via
+  `prefers-color-scheme` and a `data-theme` override, just no UI to flip it).
+- `npm run build` = `astro build && pagefind --site dist`. `npm run dev` for local editing.
+  EB Garamond / Inter / Frank Ruhl Libre via Google Fonts, both themes.
 
 ## Phase 6 — Second-tier sources · **Opus** (vision work needs care)
 

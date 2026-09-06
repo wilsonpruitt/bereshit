@@ -1,0 +1,73 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Daf from "../../components/Daf.astro";
+import {
+  getBuiltCruxes, getThreads, getPersons, getPlaces, getAnswers,
+  getScripture, getWitness, verseLabel,
+} from "../../lib/data";
+import type { Witness } from "../../lib/data";
+import { buildSnippet, hePattern, marked, regionSort, escapeHtml } from "../../lib/render";
+
+export function getStaticPaths() {
+  return getBuiltCruxes().map((c) => ({ params: { id: c.id }, props: { crux: c } }));
+}
+
+const { crux } = Astro.props as { crux: ReturnType<typeof getBuiltCruxes>[number] };
+const threads = getThreads().filter((t) => t.crux === crux.id);
+const persons = getPersons();
+const places = getPlaces();
+const answers = getAnswers();
+const scripture = getScripture();
+const verse = scripture.verses.find((v) => v.ref === crux.verse)!;
+const cruxShort = crux.short || crux.id;
+
+const W = new Map<string, Witness>();
+for (const wid of crux.witnesses) W.set(wid, getWitness(wid));
+
+const region = (pred: (w: Witness) => boolean) => regionSort([...W.values()].filter(pred));
+const centerTr = region((w) => w.work === "lxx" || w.work === "vulgate");
+const glossa = region((w) => w.work === "glossa");
+const rab = region((w) => w.tradition === "rabbinic");
+const latEarly = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date <= 750);
+const latLate = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date > 750);
+
+const lem = crux.lemma || {};
+const hePat = hePattern(lem.he || "");
+const laPat = lem.la ? new RegExp(lem.la.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")) : null;
+const heVerseText = verse.he.text.replace(/\s*\{[^}]*\}\s*$/, "");
+
+const vm = (ws: Witness[]) => ws.map((w) => buildSnippet(w, persons, places, answers));
+
+const threadsForJs = threads.map((t) => ({ id: t.id, from: t.from, to: t.to, type: t.type, evidence: t.evidence }));
+const namesForJs: Record<string, string> = {};
+for (const w of W.values()) namesForJs[w.id] = persons[w.author]?.name || w.author;
+
+const headLabel = `<b>${escapeHtml(verseLabel(crux.verse))}</b> · <a href="/">Bereshit / In Principio</a> · ${escapeHtml(cruxShort)} · daf`;
+---
+<Layout title={`${cruxShort} · daf`}>
+  <Daf
+    headLabel={headLabel}
+    verseHeHtml={marked(heVerseText, hePat)}
+    verseLaHtml={marked(verse.la.text, laPat)}
+    verseEn={verse.en.text}
+    question={crux.question}
+    versiones={vm(centerTr)}
+    glossa={vm(glossa)}
+    rab={vm(rab)}
+    latEarly={vm(latEarly)}
+    latLate={vm(latLate)}
+    threadsForJs={threadsForJs}
+    namesForJs={namesForJs}
+  />
+  <div class="wrap" style="max-width:1280px;padding-top:0">
+    <p style="font:13px var(--sans);color:var(--mute)">
+      <a href={`/dialogue/${crux.verse.replace(/\./g, "-")}/`}>see every crux on this verse →</a>
+    </p>
+    {crux.finding && (
+      <div class="card" style="max-width:80ch">
+        <h2>Finding</h2>
+        {crux.finding.split("\n\n").map((p) => <p>{p}</p>)}
+      </div>
+    )}
+  </div>
+</Layout>

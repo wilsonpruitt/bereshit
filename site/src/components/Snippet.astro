@@ -1,0 +1,34 @@
+---
+import type { SnippetVM } from "../lib/render";
+interface Props { w: SnippetVM }
+const { w } = Astro.props;
+---
+<div class:list={["sn", w.traditionClass, { slot: w.isSlot }]} id={w.id} tabindex="0" role="button" aria-expanded="false">
+  <span class="sig">{w.sig}</span>
+  <b class:list={["dh", w.dhLang]} dir={w.dhLang === "he" ? "rtl" : "ltr"} set:html={w.dhHtml} />
+  <span class="ex">{w.exText}</span>
+  {w.chips.length > 0 && (
+    <span class="chips">
+      {w.chips.map((c) => <span>{c.short}</span>)}
+    </span>
+  )}
+  <template>
+    <p class="eyebrow">{w.eyebrow}</p>
+    <h3>{w.authorName} <small>{w.sourceLabel}</small></h3>
+    {w.fullParas.map((p) => <p class="full" set:html={p} />)}
+    <details>
+      <summary>{w.origLabel}</summary>
+      <div class:list={["orig", w.origClass]} dir={w.origDir} set:html={w.origHtml} />
+    </details>
+    {w.notes && <p class="note" set:html={w.notes} />}
+    {w.answerLabels.length > 0 && (
+      <p class="ans">{w.answerLabels.map((a) => <span>{a}</span>)}</p>
+    )}
+    <p class="cred">{w.credit}</p>
+    {w.chips.length > 0 && (
+      <p class="chips-link">
+        {w.chips.map((c, i) => (<>{i > 0 ? " · " : ""}<a href={`/crux/${c.id}/`}>{c.short}</a></>))}
+      </p>
+    )}
+  </template>
+</div>

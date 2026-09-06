@@ -1,0 +1,39 @@
+/* Prose pages: index, witness, person, place, colophon, dialogue chrome. Shares tokens with daf.css. */
+body.prose{font-family:var(--serif);background:var(--bg);color:var(--ink)}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 100px}
+.wrap.wide{max-width:1100px}
+.site-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font:12px var(--sans);color:var(--mute);border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:32px;flex-wrap:wrap}
+.site-head a{text-decoration:none}
+.site-head .brand{font:500 15px var(--serif);color:var(--ink)}
+.site-head nav{display:flex;gap:16px}
+h1.title{font:500 32px/1.25 var(--serif);margin:0 0 6px}
+h1.title .he{font-family:var(--heb);font-size:.7em;color:var(--mute);margin-left:10px}
+.subtitle{color:var(--mute);font:14px var(--sans);margin:0 0 28px}
+.crux-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.crux-list li{border-bottom:1px solid var(--rule);padding:16px 0}
+.crux-list a.ck{font:500 19px var(--serif);text-decoration:none;color:var(--ink)}
+.crux-list .short{color:var(--mute);font:italic 15px var(--serif)}
+.crux-list .q{margin:6px 0 0;color:var(--mute);font-size:14.5px}
+.crux-list .verse-tag{font:500 10.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.finding{margin-top:10px;font-size:14.5px;line-height:1.55;color:var(--ink);max-width:70ch}
+.meta-grid{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;font:14px var(--sans);color:var(--mute);margin-bottom:24px}
+.meta-grid b{color:var(--ink);font-weight:500}
+.card{border:1px solid var(--rule);background:var(--paper);padding:20px 22px;margin-bottom:20px}
+.card h2{margin:0 0 10px;font:500 20px var(--serif)}
+.orig-block{margin-top:10px;padding:10px 14px;background:var(--bg);border-left:2px solid var(--rule);font-size:15px}
+.orig-block.heb{font-family:var(--heb);font-size:18px;line-height:1.8;text-align:right;direction:rtl}
+.orig-block.lat{font-style:italic}
+.answers{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.answers span{font:500 11px var(--sans);border:1px solid var(--rule);padding:3px 8px}
+.thread-list{list-style:none;margin:0;padding:0}
+.thread-list li{border-top:1px solid var(--rule);padding:10px 0;font-size:14px}
+.thread-list b{font:600 10.5px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.chip-row{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chip-row a{font:500 11px var(--sans);border:1px solid var(--rule);padding:3px 9px;text-decoration:none;color:var(--ink)}
+table.wtable{border-collapse:collapse;width:100%;font-size:14px}
+table.wtable th,table.wtable td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule)}
+table.wtable th{font:600 10.5px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.lic-group{margin-bottom:28px}
+.lic-group h2{font:500 18px var(--serif);border-bottom:1px solid var(--rule);padding-bottom:6px}
+.lic-group ul{margin:8px 0 0;padding-left:20px;font-size:13.5px;color:var(--mute);columns:2;column-gap:24px}
+.search-box{margin-bottom:20px}

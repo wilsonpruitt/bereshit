@@ -1,0 +1,37 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SiteHeader from "../../components/SiteHeader.astro";
+import { getPersons, getAllWitnesses, getCruxes, verseLabel } from "../../lib/data";
+
+export function getStaticPaths() {
+  const persons = getPersons();
+  return Object.keys(persons).map((id) => ({ params: { id }, props: { id, p: persons[id] } }));
+}
+
+const { id, p } = Astro.props as { id: string; p: ReturnType<typeof getPersons>[string] };
+const witnesses = [...getAllWitnesses().values()].filter((w) => w.author === id || (w.tradents || []).includes(id));
+const cruxById = new Map(getCruxes().map((c) => [c.id, c]));
+---
+<Layout title={p.name} prose>
+  <div class="wrap">
+    <SiteHeader />
+    <h1 class="title">{p.name}{p.he && <span class="he">{p.he}</span>}</h1>
+    <p class="subtitle">{[p.dates, p.tradition, p.role].filter(Boolean).join(" · ")}</p>
+    {p.note && <p>{p.note}</p>}
+    <div class="card">
+      <h2>Witnesses</h2>
+      <table class="wtable">
+        <thead><tr><th>Verse</th><th>Lemma</th><th>Cruxes</th></tr></thead>
+        <tbody>
+          {witnesses.map((w) => (
+            <tr>
+              <td><a href={`/witnesses/${w.id}/`}>{verseLabel(w.anchor.verse)}</a></td>
+              <td>{Object.values(w.lemma || {})[0] || ""}</td>
+              <td>{w.cruxes.map((c) => cruxById.get(c)?.short || c).join(", ")}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</Layout>

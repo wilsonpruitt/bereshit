@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+---
+<Layout title="Search · Bereshit / In Principio" prose>
+  <div class="wrap">
+    <SiteHeader active="/search/" />
+    <h1 class="title">Search</h1>
+    <div id="search" class="search-box"></div>
+  </div>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (window.PagefindUI) new PagefindUI({ element: "#search", showSubResults: true });
+    });
+  </script>
+</Layout>

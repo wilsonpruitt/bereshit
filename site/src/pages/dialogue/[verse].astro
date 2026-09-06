@@ -1,0 +1,87 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Daf from "../../components/Daf.astro";
+import {
+  getBuiltCruxes, getThreads, getPersons, getPlaces, getAnswers,
+  getScripture, getWitness, verseLabel,
+} from "../../lib/data";
+import type { Witness } from "../../lib/data";
+import { buildSnippet, marked, regionSort, escapeHtml } from "../../lib/render";
+import type { Chip } from "../../lib/render";
+
+export function getStaticPaths() {
+  const scripture = getScripture();
+  return scripture.verses.map((v) => ({ params: { verse: v.ref.replace(/\./g, "-") }, props: { ref: v.ref } }));
+}
+
+const { ref } = Astro.props as { ref: string };
+const scripture = getScripture();
+const verse = scripture.verses.find((v) => v.ref === ref)!;
+const allCruxes = getBuiltCruxes();
+const persons = getPersons();
+const places = getPlaces();
+const answers = getAnswers();
+const allThreads = getThreads();
+
+// Every witness anchored on this verse, across every built crux.
+const wids = new Set<string>();
+for (const c of allCruxes) for (const wid of c.witnesses) {
+  const w = getWitness(wid);
+  if (w.anchor.verse === ref) wids.add(wid);
+}
+const W = new Map<string, Witness>([...wids].map((id) => [id, getWitness(id)]));
+
+// crux chips: which of this verse's cruxes each witness carries
+const cruxById = new Map(allCruxes.map((c) => [c.id, c]));
+const chipsFor = (w: Witness): Chip[] =>
+  w.cruxes
+    .filter((cid) => cruxById.has(cid))
+    .map((cid) => ({ id: cid, short: cruxById.get(cid)!.short || cid }));
+
+const region = (pred: (w: Witness) => boolean) => regionSort([...W.values()].filter(pred));
+const centerTr = region((w) => w.work === "lxx" || w.work === "vulgate");
+const glossa = region((w) => w.work === "glossa");
+const rab = region((w) => w.tradition === "rabbinic");
+const latEarly = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date <= 750);
+const latLate = region((w) => w.tradition === "latin" && w.work !== "vulgate" && w.work !== "glossa" && w.date > 750);
+
+const vm = (ws: Witness[]) => ws.map((w) => buildSnippet(w, persons, places, answers, chipsFor(w)));
+
+// Threads whose endpoints are BOTH on this verse's dialogue roster — cross-crux edges would
+// otherwise point off the page.
+const threads = allThreads.filter((t) => wids.has(t.from) && wids.has(t.to));
+const threadsForJs = threads.map((t) => ({ id: t.id, from: t.from, to: t.to, type: t.type, evidence: t.evidence }));
+const namesForJs: Record<string, string> = {};
+for (const w of W.values()) namesForJs[w.id] = persons[w.author]?.name || w.author;
+
+const heVerseText = verse.he.text.replace(/\s*\{[^}]*\}\s*$/, "");
+const cruxesHere = allCruxes.filter((c) => c.verse === ref);
+const vlabel = verseLabel(ref);
+const headLabel = `<b>${escapeHtml(vlabel)}</b> · <a href="/">Bereshit / In Principio</a> · dialogue — every crux`;
+---
+<Layout title={`${vlabel} · dialogue`}>
+  <Daf
+    headLabel={headLabel}
+    verseHeHtml={marked(heVerseText, null)}
+    verseLaHtml={marked(verse.la.text, null)}
+    verseEn={verse.en.text}
+    question={null}
+    versiones={vm(centerTr)}
+    glossa={vm(glossa)}
+    rab={vm(rab)}
+    latEarly={vm(latEarly)}
+    latLate={vm(latLate)}
+    threadsForJs={threadsForJs}
+    namesForJs={namesForJs}
+  />
+  <div class="wrap" style="max-width:1280px;padding-top:0">
+    {cruxesHere.length > 0 && (
+      <div class="card">
+        <h2>Cruxes on this verse</h2>
+        <div class="chip-row">
+          {cruxesHere.map((c) => <a href={`/crux/${c.id}/`}>{c.short || c.id}</a>)}
+        </div>
+      </div>
+    )}
+  </div>
+</Layout>

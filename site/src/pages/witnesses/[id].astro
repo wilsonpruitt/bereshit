@@ -1,0 +1,97 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SiteHeader from "../../components/SiteHeader.astro";
+import { getAllWitnesses, getPersons, getPlaces, getAnswers, getThreads, getCruxes, dateLabel, verseLabel } from "../../lib/data";
+import { escapeHtml } from "../../lib/render";
+
+export function getStaticPaths() {
+  return [...getAllWitnesses().values()].map((w) => ({ params: { id: w.id }, props: { w } }));
+}
+
+const { w } = Astro.props as { w: ReturnType<typeof getAllWitnesses> extends Map<string, infer V> ? V : never };
+const persons = getPersons();
+const places = getPlaces();
+const answers = getAnswers();
+const cruxes = getCruxes();
+const cruxById = new Map(cruxes.map((c) => [c.id, c]));
+const allThreads = getThreads();
+const allWitnesses = getAllWitnesses();
+
+const author = persons[w.author];
+const place = places[w.place || ""];
+const related = allThreads.filter((t) => t.from === w.id || t.to === w.id);
+const nameOf = (id: string) => {
+  const ww = allWitnesses.get(id);
+  return ww ? (persons[ww.author]?.name || ww.author) : id;
+};
+
+const draft = w.english.translator === "claude-draft";
+const translator = w.english.translator || "";
+const credit = draft
+  ? "Draft English (Claude), awaiting Wilson"
+  : translator === "claude-draft-approved"
+  ? "Fresh draft (Claude), approved by Wilson Pruitt"
+  : translator === "wilson-pruitt"
+  ? "Wilson Pruitt"
+  : translator;
+---
+<Layout title={`${author?.name || w.author} · ${w.id}`} prose>
+  <div class="wrap">
+    <SiteHeader />
+    <h1 class="title">{author?.name || w.author}{author?.he && <span class="he">{author.he}</span>}</h1>
+    <p class="subtitle">{w.original.source}</p>
+    <div class="meta-grid">
+      <b>Date</b><span>{dateLabel(w)}</span>
+      <b>Place</b><span>{place?.name || w.place || "—"}</span>
+      <b>Tradition</b><span>{w.tradition}</span>
+      <b>Verse</b><span><a href={`/dialogue/${w.anchor.verse.replace(/\./g, "-")}/`}>{verseLabel(w.anchor.verse)}</a></span>
+    </div>
+    <div class="chip-row">
+      {w.cruxes.map((cid) => cruxById.has(cid) && <a href={`/crux/${cid}/`}>{cruxById.get(cid)!.short || cid}</a>)}
+    </div>
+
+    <div class="card">
+      <h2>English</h2>
+      {escapeHtml(w.english.text).split(/\n\n+/).map((p) => <p set:html={p} />)}
+      <p style="font:12px var(--sans);color:var(--mute)">{credit}{w.english.license && <> · {w.english.license}</>}</p>
+    </div>
+
+    <div class="card">
+      <h2>{w.original.lang === "he" || w.original.lang === "arc" ? "Hebrew / Aramaic" : w.original.lang === "el" ? "Greek" : "Latin"}</h2>
+      <div class:list={["orig-block", { heb: w.original.lang === "he" || w.original.lang === "arc", lat: w.original.lang === "la" }]}
+           set:html={escapeHtml(w.original.text).replace(/\n\n+/g, "<br><br>")} />
+      <p style="font:12px var(--sans);color:var(--mute);margin-top:8px">{w.original.source}{w.original.license && <> · {w.original.license}</>}</p>
+    </div>
+
+    {w.notes && (
+      <div class="card">
+        <h2>Notes</h2>
+        <p set:html={escapeHtml(w.notes)} />
+      </div>
+    )}
+
+    {(w.answers?.length ?? 0) > 0 && (
+      <div class="answers">
+        {w.answers!.map((a) => <span>{answers[a]?.label || a}</span>)}
+      </div>
+    )}
+
+    {related.length > 0 && (
+      <div class="card">
+        <h2>Threads</h2>
+        <ul class="thread-list">
+          {related.map((t) => {
+            const out = t.from === w.id;
+            const other = out ? t.to : t.from;
+            return (
+              <li>
+                <b>{out ? "→" : "←"} {t.type} · <a href={`/witnesses/${other}/`}>{nameOf(other)}</a></b>
+                <br />{t.evidence}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    )}
+  </div>
+</Layout>
