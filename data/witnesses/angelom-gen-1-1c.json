@@ -1,0 +1,41 @@
+{
+ "id": "angelom-gen-1-1c",
+ "work": "angelom-gen",
+ "author": "angelomus",
+ "tradition": "latin",
+ "date": 850,
+ "date_precision": "circa",
+ "place": "luxeuil",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Ista propterea dicunt, quia attendunt fabrum, et non Deum",
+  "en": "They say these things because they attend to the craftsman and not to God"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Deus enim ex nihilo condidit informem materiam, et ex ipsa cuncta creavit, juxta quod scriptum est in libro Sapientiae: Non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia (Sap. XI, 18) . Unde philosophi, prout jam dictum est, non valentes penetrare quemadmodum divina Sapientia mundum creavit ex nihilo, aestimabant coaeternum esse mundum. Ista propterea dicunt, quia attendunt fabrum, et non Deum. Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem. His enim quamvis indigeant, tamen creare nequeunt. Dominus autem nihil horum indiguit, sed ex informi materia condidit omnia, non extra se tanquam faber (non enim faber facit lignum, sed de ligno aliquid facit). Omnipotens autem nulla re adjuvandus erat, quam ipse non fecerat, ut quod volebat efficeret, alioquin Deus non esset.",
+  "source": "PL 115, col. 114B",
+  "cc_idno": "9032",
+  "license": "pd"
+ },
+ "english": {
+  "text": "For God founded formless matter out of nothing, and out of it created all things, according to what is written in the book of Wisdom: 'For your hand, Lord, was not powerless, which created the world out of formless matter' (Wis 11:17). Whence the philosophers, as has already been said, not being able to penetrate how the divine Wisdom created the world out of nothing, reckoned the world to be coeternal. They say these things because they attend to the craftsman and not to God. For they say: wood helps the craftsman, and silver the silversmith, and gold the goldsmith. Yet although they need these, they cannot create. But the Lord needed none of these, and founded all things out of formless matter, not outside himself as a craftsman does — for the craftsman does not make the wood, but makes something out of wood. And the almighty had no need to be helped by any thing that he had not himself made in order to bring about what he willed; otherwise he would not be God.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "craftsman-needs-matter",
+  "matter-then-formed"
+ ],
+ "notes": "Augustine's argument rewritten, and the rewriting turns it into a report of a debate. Where Augustine says 'we ought not to be like those who…', Angelomus says 'they say these things because they attend to the craftsman and not to God' and then quotes them: aiunt enim, lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem. The objection has become a speech with a speaker, which is the form it has at Bereshit Rabbah 1:9 and nowhere else on the Latin bench — and, as there, the speaker is a philosopher and is not named. Angelomus adds the diagnosis Augustine does not give: it is because they could not penetrate how Wisdom created the world out of nothing that they concluded the world is coeternal. The paragraph immediately before this one is his analogy of sound and song for how formless matter precedes the formed creature in origin only, not in time; the one immediately after is Augustine's question about why the verse does not say 'let there be', which K5 built as angelom-gen-1-1b."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "ibn-ezra-1-1c",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "בָּרָא",
+  "en": "created"
+ },
+ "original": {
+  "lang": "he",
+  "text": "ברא רובי המפרשים אמרו שהבריאה להוציא יש מאין, וכן \"אם בריאה יברא ד'\" (במדבר ט\"ז ל'), והנה שכחו \"ויברא אלהים את התנינים\" (בראשית א כא), ושלש בפסוק אחד, \"ויברא אלהים את האדם\" (בראשית א כז), \"ובורא חושך\" (ישעי' מ\"ה ו') שהוא הפוך האור שהוא יש, וזה דקדוק המלה ברא לשני טעמים זה האחד, והשני \"לא ברא אתם לחם\" (ש\"ב י\"ב י\"ז), וזה השני אל\"ף תחת ה\"א, כי כמוהו \"ויבוא כל העם להברות את דוד\" (ש\"ב ג' ל\"ה), כי הוא מהבנין הכבד הנוסף, ואם היה באל\"ף, היה, כמו \"להבריאכם מראשית כל מנחת ישראל (ש\"א ב' כ\"ט), ומצאנו מהבנין הכבד, \"ובראת לך שם\" (יהושע י\"ז ט\"ו), ואיננו כמו ברו לכם איש (ש\"א י\"ו ח'), רק כמו \"וברא אותהן\" (יחז' כ\"ג מ\"ז), וטעמו, לגזור ולשום גבול נגזר, והמשכיל יבין",
+  "source": "Ibn Ezra on Gen 1:1, s.v. ברא",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "Most commentators have said that creation means bringing forth something from nothing, and thus: “But if Hashem will created a creation” [referring to something never seen before] Bamidbar 16:30. But they have forgotten “And G-d created the crocodiles” Bereshit 1:21, as well as three times in the same verse: “G-d created man in His image…” Bereshit 1:27; “and Who creates darkness” Isaiah 45:7 – which is the opposite of light, which is something. Now here is the precise grammar of the word barat - it has two meanings. One is as stated. The other: “He did not revive them with bread” Samuel II 12:17. In this second one, aleph is in place of hey, for similar to it is “And the whole people came to revive David” – this is in the hif’il verb construction. If it were with an aleph, it would be like “To revive you from the beginning of every grain-gift of Yisrael” Samuel I 2:29. We also find [the same root] in the pi’el verb construction: “You will clear for yourselves there” Joshua 17:15. It’s not like “choose for yourselves a man” Samuel I 17:8, rather like “And He BARAed them” Ezekiel 23:47. And its meaning is to cut, to place a divided border – and the enlightened will understand.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "bara-is-not-ex-nihilo"
+ ],
+ "notes": "The crux settled by lexicography, against the whole weight of the doctrine. Most commentators, Ibn Ezra says, have held that bara means bringing forth something from nothing, and they cite Numbers 16:30, 'if the Lord create a creation'. But they have forgotten 'and God created the great sea-creatures' (Gen 1:21), and the three occurrences in one verse at Gen 1:27, 'God created man in his image' — and 'who creates darkness' (Isa 45:7), which is the privation of light, and light is something. The verb has two senses, and the second, from 2 Samuel 12:17, is to cut, to set a bounded edge; and the enlightened will understand. Three verses, and two of them are the two Rupert of Deutz answers in Liège forty years earlier — Gen 1:21 and Gen 1:27, in that order — to save the doctrine that Ibn Ezra is dismantling. Note also which verse Ibn Ezra does not need to reach for: Isaiah 45:7 is Rabban Gamliel's first proof text at BR 1:9, brought there to show that tohu and darkness were created; here 'who creates darkness' is brought to show that the verb does not mean what the doctrine requires."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "ramban-1-1c",
+ "work": "ramban-gen",
+ "author": "ramban",
+ "tradition": "rabbinic",
+ "date": 1267,
+ "date_precision": "range-1263-1270",
+ "place": "girona",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "מֵאֲפִיסָה מֻחְלֶטֶת",
+  "en": "from absolute non-existence"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וְעַתָּה שְׁמַע פֵּרוּשׁ הַמִּקְרָא עַל פְּשׁוּטוֹ נָכוֹן וּבָרוּר. הקב\"ה בָּרָא כָּל הַנִּבְרָאִים מֵאֲפִיסָה מֻחְלֶטֶת. וְאֵין אֶצְלֵנוּ בִּלְשׁוֹן הַקֹּדֶשׁ בְּהוֹצָאַת הַיֵּשׁ מֵאַיִן אֶלָּא לְשׁוֹן \"בָּרָא\"; וְאֵין כָּל הַנַּעֲשֶׂה – תַּחַת הַשֶּׁמֶשׁ אוֹ לְמַעְלָה – הוֹוֶה מִן הָאַיִן הַתְחָלָה רִאשׁוֹנָה. אֲבָל הוֹצִיא מִן הָאֶפֶס הַגָּמוּר הַמֻּחְלָט יְסוֹד דַּק מְאֹד, אֵין בּוֹ מַמָּשׁ, אֲבָל הוּא כֹּחַ מַמְצִיא, מוּכָן לְקַבֵּל הַצּוּרָה וְלָצֵאת מִן הַכֹּחַ אֶל הַפֹּעַל. וְהוּא הַחֹמֶר הָרִאשׁוֹן, נִקְרָא לַיְּוָנִים \"הִיּוּלִי\". וְאַחַר הַהִיּוּלִי לֹא בָּרָא דָּבָר, אֲבָל יָצַר וְעָשָׂה, כִּי מִמֶּנּוּ הִמְצִיא הַכֹּל וְהִלְבִּישׁ הַצּוּרוֹת וְתִקֵּן אוֹתָן. וְדַע, כִּי הַשָּׁמַיִם וְכָל אֲשֶׁר בָּהֶם – חֹמֶר אֶחָד, וְהָאָרֶץ וְכָל אֲשֶׁר בָּהּ – חֹמֶר אֶחָד. והקב\"ה בָּרָא אֵלּוּ שְׁנֵיהֶם מֵאַיִן, וּשְׁנֵיהֶם לְבַדָּם נִבְרָאִים, וְהַכֹּל נַעֲשִׂים מֵהֶם.",
+  "source": "Ramban on Gen 1:1, s.v. בראשית (the hyle)",
+  "license": "cc-by",
+  "version": "Sefaria 'Vocalized Edition'"
+ },
+ "english": {
+  "text": "Now listen to the correct and clear explanation of the verse in its simplicity. The Holy One, blessed be He, created all things from absolute non-existence. Now we have no expression in the sacred language for bringing forth something from nothing other than the word bara (created). Everything that exists under the sun or above was not made from non-existence at the outset. Instead He brought forth from total and absolute nothing a very thin substance devoid of corporeality but having a power of potency, fit to assume form and to proceed from potentiality into reality. This was the primary matter created by G-d; it is called by the Greeks hyly (matter). After the hyly, He did not create anything, but He formed and made things with it, and from this hyly He brought everything into existence and clothed the forms and put them into a finished condition. Know that the heavens and all that is in them consist of one substance, and the earth and everything that is in it consist of one substance. The Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.",
+  "translator": "Charles B. Chavel, 1971–76",
+  "license": "chavel-ramban"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "hyle-is-tohu",
+  "matter-then-formed"
+ ],
+ "notes": "The rabbinic bench's fullest statement of creation out of nothing, and it is built on the Latin schools' distinction without naming them. The Holy One created all things from absolute non-existence; and there is no expression in the sacred tongue for bringing forth something from nothing except the word bara. Then the qualification that makes the doctrine survive the objection: nothing under the sun or above it was made from non-existence at the outset — what was brought forth from the utter nothing was a very thin substance, without corporeality, having a power of potency, fit to receive form and to pass from potentiality into act; the primary matter, which the Greeks call hyly. After the hyly he created nothing, but formed and made. Two substances only were created, one for the heavens and one for the earth, and everything else was constructed from them. That is Hugh of St Victor's chapter one — God not only made all things out of matter but created the matter of all things out of nothing — reached in Girona a century and a half later with the Greek word intact and no Latin in sight. And the first sentence is aimed at a named man: R. Abraham is Ibn Ezra, quoted and answered a few lines above, who had denied precisely that bara carries the sense Ramban here says it alone carries. Chavel's English shows on Sefaria as CC BY; licence key chavel-ramban is marked for checking before publication."
+}

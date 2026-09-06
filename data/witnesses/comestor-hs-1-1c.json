@@ -1,0 +1,40 @@
+{
+ "id": "comestor-hs-1-1c",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "range-1169-1175",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Cum vero dixit Moyses, creavit trium errores elidit",
+  "en": "But when Moses said 'created', he struck down the errors of three men"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cum vero dixit Moyses, creavit trium errores elidit, Platonis, Aristotelis et Epicuri. Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile, et in principio temporis, de ile mundum factum fuisse. Aristoteles duo, mundum et opificem, qui de duobus principiis, scilicet materia et forma, operatus est sine principio, et operatur sine fine. Epicurus duo, inane et atomos: et in principio natura quosdam atomos solidavit in terram, alios in aquam, alios in aera, alios in ignem.",
+  "source": "PL 198, col. 1055B",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But when Moses said 'created', he struck down the errors of three men: Plato, Aristotle, and Epicurus. Plato said that three things were from eternity, namely God, the ideas, and hyle, and that in the beginning of time the world was made out of hyle. Aristotle said two, the world and the workman, who worked out of two principles, namely matter and form, without a beginning, and works without an end. Epicurus said two, the void and the atoms: and in the beginning nature solidified certain atoms into earth, others into water, others into air, others into fire.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "three-principles",
+  "matter-is-coeval"
+ ],
+ "notes": "Ambrose's doxography at the end of its Latin life, in the textbook every thirteenth-century student read. Three named opponents now instead of two, with Epicurus added and given the void and the atoms; and the whole apparatus hangs on a single word of the verse — cum vero dixit Moyses, creavit. Plato's three are God, the ideas and hyle, which Migne prints ile. What follows immediately is the sentence K1 built as comestor-hs-1-1, in which Moses prophesied God alone eternal and the world created without pre-existing matter, so this crux and that one hold the two halves of one paragraph: the errors here, the answer there."
+}

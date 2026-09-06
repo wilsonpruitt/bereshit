@@ -1,0 +1,40 @@
+{
+ "id": "ambrose-hex-1-1-hyle",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "de materia, quam vocant hylen",
+  "en": "out of the matter which they call hyle"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Tantumne opinionis assumpsisse homines, ut aliqui eorum tria principia constituerent omnium, Deum, et exemplar, et materiam, sicut Plato discipulique ejus; et ea incorrupta, et increata, ac sine initio esse asseverarent: Deumque non tamquam creatorem materiae, sed tamquam artificem ad exemplar, hoc est, ideam intendentem, fecisse mundum de materia, quam vocant hylen, quae gignendi causas rebus omnibus dedisse asseratur: ipsum quoque 2 mundum incorruptum, nec creatum, aut factum existimarent: alii quoque, ut Aristoteles cum suis disputandum putavit, duo principia ponerent, materiam et speciem, et tertium cum iis, quod operatorium dicitur, cui suppeteret competenter efficere, quod adoriundum putasset.",
+  "source": "PL 14, col. 123A",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Have men taken up so much opinion that some of them set up three principles of all things — God, and the exemplar, and matter — and asserted that these are incorruptible and uncreated and without beginning, as Plato and his disciples do; and that God made the world not as the creator of matter but as a craftsman looking to an exemplar, that is, to an idea, out of the matter which they call hyle, which is said to have given the causes of generation to all things; and thought the world itself too incorruptible, neither created nor made? Others also, as Aristotle with his followers thought fit to argue, laid down two principles, matter and form, and a third along with them, which is called operative, to which it should belong to bring about fitly what it had judged should be undertaken.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "three-principles",
+  "matter-is-coeval"
+ ],
+ "notes": "The opening sentence of the Hexaemeron, and the whole Latin bench's account of the opposition is settled in it. Plato: three principles, God and the exemplar and matter, all three incorruptible, uncreated and without beginning, with God a craftsman looking to an idea rather than the maker of the stuff — and the stuff is named, hyle. Aristotle: two principles, matter and form, with a third operative one. Every later Latin witness on this crux repeats one or both lists, usually without naming Ambrose: Remigius has the three at PL 131:53D (K1 sliced it), Hugh of St Victor has them as opifex, materia and forma, Comestor has all three philosophers with Epicurus added and hyle spelt ile. What none of them repeats is the reason Ambrose gives immediately afterwards for Moses' having written as he did — that passage is at PL 14:124B and was built for K1 as ambrose-hex-1-2, so this crux takes the doxography and leaves the answer where it stands."
+}

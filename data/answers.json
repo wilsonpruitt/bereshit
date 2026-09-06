@@ -302,5 +302,53 @@
  "whole-then-parts": {
   "label": "The whole first, then the parts",
   "gloss": "V. 1 is a heading: Scripture commends everything God made in two words before going through it with 'God said' (Augustine, Angelomus, the Glossa)."
+ },
+ "de-nihilo": {
+  "label": "Out of nothing",
+  "gloss": "God made the world, and the matter of the world, from nothing whatever."
+ },
+ "matter-then-formed": {
+  "label": "Matter first, then formed",
+  "gloss": "Formless matter was created first — first in origin, not in time — and everything else made out of it."
+ },
+ "matter-is-coeval": {
+  "label": "Matter was already there",
+  "gloss": "God is a craftsman working on a material he did not make. Reported on both benches, held by neither."
+ },
+ "three-principles": {
+  "label": "God, exemplar, matter",
+  "gloss": "The philosophers' three principles without a principle, named as the position to be refuted."
+ },
+ "all-of-them-created": {
+  "label": "Of every one of them, creation is written",
+  "gloss": "Each thing the objector calls a pre-existing material has its own verse saying God created it."
+ },
+ "bara-is-not-ex-nihilo": {
+  "label": "'Created' does not mean from nothing",
+  "gloss": "The verb bara is used of the sea-creatures and of man, who were made from something."
+ },
+ "creare-vs-formare": {
+  "label": "Created, not formed",
+  "gloss": "Scripture keeps two verbs apart: what has no pre-existing matter is created, what is shaped out of matter is formed."
+ },
+ "hyle-is-tohu": {
+  "label": "The hyle is tohu",
+  "gloss": "The one created thing is a substance without form, which the Greeks call hyle and Scripture calls tohu."
+ },
+ "made-from-something-of-god": {
+  "label": "From the light and the snow",
+  "gloss": "Heaven from the light of his garment, earth from the snow beneath the Throne of Glory."
+ },
+ "craftsman-needs-matter": {
+  "label": "A craftsman needs a material",
+  "gloss": "Wood helps the carpenter, silver the silversmith — the analogy that makes creation from nothing unthinkable."
+ },
+ "silence-proves-nothing": {
+  "label": "Scripture's silence proves nothing",
+  "gloss": "That Genesis does not say when a thing was made does not make it coeternal with God."
+ },
+ "world-from-tohu": {
+  "label": "The world was made out of tohu va-vohu",
+  "gloss": "Said with embarrassment, and only because the verse says it."
  }
 }

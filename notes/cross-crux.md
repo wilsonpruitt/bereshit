@@ -183,3 +183,43 @@ line in the Phase 8 introduction.
 | Comestor, PL 198:1055A (continuation) | K4 | Plato, Aristotle and Epicurus set against Moses' *creavit* — noted at K1 too, still unbuilt |
 | Ramban on 1:1 (continuation) | K9 | the four elements named again under the terms of v. 2: *fire* is what "darkness" means, *water* is "the deep" — a physical reading of the words K9 is built on |
 | Abelard, PL 178:737B | K5 (second pass) | a second treatment of *nomine coeli et terrae* on the fourth day's works, restricting the pair to the earthy and fiery elements; not built, the first is fuller |
+
+## From K4 (built 2026-09-05)
+
+**The version witnesses on Gen 1:1 should carry K4, and the case is stronger than K5's.** The whole
+Latin argument on this crux turns on *creavit* against *formavit* — Abelard builds his definition of
+creation on the pair, Rupert has to explain *creavit* away at Gen 1:21 and 1:27, and Ibn Ezra takes
+the same two verses to prove the Hebrew verb does not carry the sense. **That is a fact about the
+translations**, and none of the witnesses that preserve them is on the daf: `vulgate-1-1`, `lxx-1-1`,
+`targ-onk-1-1`, `targ-neof-1-1`, `targ-psj-1-1` all belong to K1 and carry only that crux. The daf
+rendered with `versiones 0`. Second crux in a row to hit this — see the K5 entry above.
+
+**A doctrine settled at one crux foreclosing an answer at another, for the second time.** K8's
+finding was that BR 1:3 and BR 3:8 debar the rabbinic bench from Augustine's angelic first light.
+The same shape appears here: **Alcuin's list of what was made out of nothing has the angels and the
+human soul on it, and the rabbinic lists (b. Chag 12a's ten, PdRE 3:5's eight) have tohu and bohu on
+theirs** — each list is the other's answer with the contested items swapped in and out. Phase 4
+should decide whether the graph can carry an edge between two enumerations that are answering the
+same question with incompatible inventories, or whether this too is Phase 8 prose. No thread was
+written; `b-chag-12a` and `pdre-3-5` are on other cruxes' rosters.
+
+**Witness-facet additions noticed while building, not acted on:**
+
+| witness (built for) | add crux | why |
+|---|---|---|
+| `ramban-1-2-tohu` (K6) | `ex-nihilo-or-matter` | it is the sentence immediately after K4's slice and completes the argument: the hyle *is* what Scripture calls tohu. K4 threads to `br-1-5b` for the same point instead. |
+| `br-2-2` / `br-2-3` (K6) | — | checked, not K4: they read *tohu va-vohu* as periodization, not as material. |
+| `basil-hex-2-4` (K6) | — | its own note already says the following paragraph is K4's; K4 has now built it as `basil-hex-2-2-materia`. No facet change needed. |
+
+**Material read for K4 that belongs elsewhere, all on disk:**
+
+| locus | belongs to | note |
+|---|---|---|
+| Bereshit Rabbah 1:5, **first half** | K2 `why-begin-here` | "may they be silenced" and the ban on expounding the work of creation — already flagged from K1, still unbuilt. K4 took only the second half, from the palace parable. |
+| m. Chagigah 2:1 (`m-chag-2-1`, on disk, unbuilt) | K2 | "whoever looks at four things: what is above, what is below, what is before, what is after" — **the rabbinic bench forbidding the question that is chapter one of Hugh's *De sacramentis***. It is not a comment on the verse, so the anchor rule keeps it out of K4; it is the best single text K2 has. |
+| b. Chagigah 12a, segments 12–13 | K1 | R. Zutra bar Tuvya: with ten things the world was created, wisdom and understanding from Prov 3:19 — the verse the Latin bench uses for *in principio = in Wisdom*. |
+| b. Chagigah 12a, segment 14 | K1 or a cosmology crux | the world expanding like warp and woof until God rebuked it and said *dai*; the El Shaddai etymology, which PdRE 3:6 (K8) also carries. Read, and not K4: it is about the world's extension, not its material. |
+| b. Chagigah 12a, segment 6 | K6 | the baraita: *tohu* is a green line encompassing the world, *bohu* smooth stones sunk in the deep, from Isa 34:11 — **the same verse Ramban builds his hyle on**, four lines after K4's slice ends. |
+| Honorius, PL 172:257A | K10 or a six-days crux | *In principio namque coelum et terra, ad materiam ex nihilo creantur* inside a summary of the six days; one clause, read and not built. |
+| Hugh, *De sacr.* I.5 CAP. VII, PL 176:249C–D | an angels crux, if one is ever made | *Quod non sunt facti de materia praejacente sicut corporea* — the angels' creation, which is what PHASES.md's "247B" pointer was near. Not on the verse. |
+| Ambrose, PL 14:130C | K2 | *Auctorem enim…* — the argument from the visible to the invisible; adjacent to K4's material, on K2's question. |

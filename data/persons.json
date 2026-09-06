@@ -431,5 +431,20 @@
   "dates": "fl. c. 270",
   "tradition": "rabbinic",
   "role": "tradent"
+ },
+ "bar-kappara": {
+  "label": "Bar Kappara",
+  "dates": "fl. c. 200–220",
+  "note": "Tanna/amora of the transitional generation; quoted here by Rav Huna."
+ },
+ "rabban-gamliel": {
+  "label": "Rabban Gamliel",
+  "dates": "fl. c. 90–110",
+  "note": "Rabban Gamliel II of Yavneh, to whom the philosopher puts the question at Bereshit Rabbah 1:9."
+ },
+ "the-philosopher": {
+  "label": "A philosopher",
+  "dates": "unnamed",
+  "note": "The unnamed philosopher of Bereshit Rabbah 1:9, who tells Rabban Gamliel that God found good materials. The rabbinic bench's only speaker for the position the whole Latin bench argues against."
  }
 }

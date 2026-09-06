@@ -62,21 +62,26 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10, K1, K8, K6 and K5 built (2026-09-05). Next up is K4 `ex-nihilo-or-matter`, row 6.**
-To start that session, paste: *"Build the crux `ex-nihilo-or-matter` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* K4 has the largest pile of already-read, already-anchored
-material of any crux left, and almost all of it is listed in `notes/cross-crux.md` with its column
-or its Hebrew anchor: Basil/Eustathius PL 53:880C (against an unbegotten matter, the paragraph
-after K6's slice), Ramban's *hyle* paragraph (the half before K6's, ending
-`וְאַחַר הַהִיּוּלִי לֹא בָּרָא דָּבָר`), Augustine *Conf.* XII.22 (the paragraph after
-`aug-conf-12-21`), Rupert 167:202B, Comestor 198:1055D–1056A (Plato, Aristotle, Epicurus), Hugh
-*Sacr.* 176:247B, the Glossa's third gloss on 1:2, Honorius 172:260C, Bonaventure II Sent. d.12
-q.2, and BR 1:9 (the philosopher to Rabban Gamliel), which still needs reading.
+**State: K10, K1, K8, K6, K5 and K4 built (2026-09-05). Next up is K9 `good-and-separated`, row 7.**
 
-⚠ **Run the K1-overlap check before writing any slice** (see the method note at the end of the K5
-entry in `notes/SOURCES-FINDINGS.md`): K4 is anchored across 1:1–1:2, where K1, K6 and K7 have all
-built already, and three of K5's eleven Latin candidates turned out to be inside an existing
-slice.
+To start that session, paste: *"Build the crux `good-and-separated` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* Much of K9's material has already been read and flagged in
+`notes/cross-crux.md` with its locus: BR 3:6 second half (R. Ze'eira on the havdala blessing, and
+"he set it aside for himself"), Rashi on 1:4 *peshat* half ("not seemly that light and darkness
+should function in confusion" — in the same dibbur K8 slices), Augustine *Gnm* I.4 (PL 34:176,
+darkness is not a thing but the absence of light), Rabanus 107:467A and Remigius 131:56A (the same
+moral allegory on both: *fiat lux* = the light of faith, the division of the sons of light from
+sinners), Hugh *De sacr.* I.1 capp. X–XII, Bonaventure II Sent. d.13 a.1 q.2 and a.2 q.1–2, BR 2:5
+(R. Abahu: tohu va-vohu the deeds of the wicked, the light the deeds of the righteous), and Ramban
+on 1:1 continuation (fire is what "darkness" means, water is "the deep").
+
+⚠ **Run the overlap check before writing any slice, and run it by OFFSET, not by column.** `scripts/overlap.py`
+(written for K4) builds a coverage map of every existing Latin witness inside its
+TEI and reports each candidate anchor as COVERED or FREE with its neighbouring slice boundaries;
+three of K4's twenty candidates came back covered, and **checking by printed column would have
+missed all three**, because one Migne column routinely holds two witnesses from two cruxes. K9 is
+anchored on Gen 1:4, which K8 has built heavily. See the method note at the end of the K4 entry in
+`notes/SOURCES-FINDINGS.md`.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -92,7 +97,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~3~~ | ~~K8 `first-light`~~ | **BUILT 2026-09-05** — 27 witnesses, 35 threads | 20–25 |
 | ~~4~~ | ~~K6 `tohu-vabohu`~~ | **BUILT 2026-09-05** — 25 new witnesses (32 on the daf with K7's), 28 threads | 15–20 |
 | ~~5~~ | ~~K5 `heaven-earth-order`~~ | **BUILT 2026-09-05** — 17 new witnesses (19 on the daf), 20 threads | 15–20 |
-| 6 | K4 `ex-nihilo-or-matter` | BR 1:9 philosopher; Conf XII; Abelard already sliced; Ramban Phase 2 | 15–20 |
+| ~~6~~ | ~~K4 `ex-nihilo-or-matter`~~ | **BUILT 2026-09-05** — 19 new witnesses (22 on the daf), 25 threads | 15–20 |
 | 7 | K9 `good-and-separated` | moral allegory both sides; test Bede for Hebrew mediation | 12–15 |
 | 8 | K3 `elohim-and-trinity` | Megillah 9a; Rupert's whole design; much already tagged from K7 | 12–15 |
 | 9 | K2 `why-begin-here` | Rashi's R. Yitzchak; Ambrose I.1; prologues; smallest | 8–12 |
@@ -116,6 +121,19 @@ superfluity of expression"; *aeternus* = "eternal" but *sempiternus* = "everlast
 needs both in one sentence); *hyle* = "hyle"; *materia informis* = "unformed matter" as at K7.
 Rabbinic: *reshit*, *bereshit*, *amon*, *uman*, *be-ḥokhmah*, *ḥalla* transliterated; "the Holy One,
 blessed be He"; Prov 8:22 rendered as the witness quotes it, "the Lord made me reshit of his way".
+
+**Added for K4** (extends the frozen renderings, does not re-decide them): *de nihilo / ex nihilo* =
+"out of nothing"; *praejacens materia* = "pre-existing matter"; *creare* = "create" and *formare* =
+"form", kept rigidly apart, because the whole crux is about the difference; *opifex* = "workman",
+against the frozen *artifex / faber* = "craftsman", so that Hugh's three principles (*opifex,
+materia, forma*) and Augustine's *fabros et quoslibet opifices* stay distinguishable; *coaeternus* =
+"coeternal" but *coaevus* = "coeval"; *species* = "form" where it is opposed to *materia* (Basil,
+Abelard); *prope nihil* = "near to nothing"; *schema / figura* = "figure". ⚠ **The K1 line rendering
+*materia informis* as "unformed matter" is an error** — K7 froze "formless matter", every built
+witness uses it, and K4 follows usage; Phase 3 should strike the K1 wording rather than change any
+English. Rabbinic: *yesh me-ayin* = "something from nothing", *afisah muchletet* = "absolute
+non-existence", *hiyuli* transliterated "hyly" as Chavel has it where the English is Chavel's and
+"hyle" in the editorial prose.
 
 **Slicing vocalized Hebrew by anchor needs a skeleton match.** Sefaria's pointed text and any
 anchor phrase retyped through a terminal differ in combining-mark order, so `str.find` fails on a

@@ -1,0 +1,44 @@
+{
+ "id": "br-1-5b",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "מִנַּיִן הֵן",
+  "en": "From what were they?"
+ },
+ "original": {
+  "lang": "he",
+  "text": "בְּנֹהַג שֶׁבָּעוֹלָם מֶלֶךְ בָּשָׂר וָדָם בּוֹנֶה פָּלָטִין בִּמְקוֹם הַבִּיבִים, וּבִמְקוֹם הָאַשְׁפָּה, וּבִמְקוֹם הַסָּרִיּוֹת, כָּל מִי שֶׁהוּא בָּא לוֹמַר פָּלָטִין זוֹ בְּנוּיָה בִּמְקוֹם הַבִּיבִים וּבִמְקוֹם הָאַשְׁפָּה וּבִמְקוֹם הַסָּרִיּוֹת, אֵינוֹ פּוֹגֵם. כָּךְ כָּל מִי שֶׁהוּא בָּא לוֹמַר הָעוֹלָם הַזֶּה נִבְרָא מִתּוֹךְ תֹּהוּ וָבֹהוּ, אֵינוֹ פּוֹגֵם, אֶתְמְהָה. רַב הוּנָא בְּשֵׁם בַּר קַפָּרָא אָמַר, אִילוּלֵי שֶׁהַדָּבָר כָּתוּב אִי אֶפְשָׁר לְאָמְרוֹ, בְּרֵאשִׁית בָּרָא אֱלֹהִים, מִנַּיִן הֵן, וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ.",
+  "source": "Bereshit Rabbah 1:5 (Vilna numbering), second half",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "The way of the world is that when a flesh-and-blood king builds his palace in [a location that had been] a place of sewers, a place of refuse, and a malodorous place, anyone who comes and says: ‘This palace was built in a place of sewers, a place of refuse, and a malodorous place,’ is this not an insult? So, too, anyone who comes and says: ‘This world was created from emptiness and disorder,’ is this not an insult? This is a rhetorical question. Rav Huna said in the name of bar Kapara: Were the matter not written explicitly it would not have been possible to say it: “In the beginning, God created” (Genesis 1:1) – from what? “The earth was emptiness and disorder” (Genesis 1:2).",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-huna",
+  "bar-kappara"
+ ],
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "world-from-tohu",
+  "matter-then-formed"
+ ],
+ "notes": "The rabbinic bench saying the thing the Latin bench spends four centuries denying, and saying it with its eyes shut. The parable first: a king builds his palace over sewers, a refuse heap and a stinking place, and whoever comes and says 'this palace is built over sewers' has insulted him — so too whoever says 'this world was created out of emptiness and disorder' has insulted the King. Then Rav Huna in the name of bar Kappara, and the formula is the formula for saying what may not be said: were the matter not written explicitly it would not be possible to say it — 'In the beginning God created' — from what? 'The earth was emptiness and disorder.' The verse is read as an answer to the question the verse raises, and the answer is that the material was there. Four sections later the same work will make Rabban Gamliel refuse exactly that inference to a philosopher's face. Neither section knows the other is there; the first half of BR 1:5, which forbids expounding what is before the world at all, belongs to K2."
+}

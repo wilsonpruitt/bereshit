@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnm-1-6-10",
+ "work": "aug-gnm",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 389,
+ "date_precision": "range-388-389",
+ "place": "thagaste",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "cum considerant fabros et quoslibet opifices non posse aliquid fabricare, nisi habuerint unde fabricent",
+  "en": "when they consider that craftsmen and workmen of any kind cannot make anything unless they have something to make it from"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et ideo Deus rectissime creditur omnia de nihilo fecisse, quia etiamsi omnia formata de ista materia facta sunt, haec ipsa materia tamen de omnino nihilo facta est. Non enim debemus esse similes istis qui omnipotentem Deum non credunt aliquid de nihilo facere potuisse, cum considerant fabros et quoslibet opifices non posse aliquid fabricare, nisi habuerint unde fabricent. Et ligna enim adjuvant fabrum, et argentum adjuvat argentarium, et aurum aurificem, et terra figulum adjuvat ut possit perficere opera sua. Si enim non adjuventur ea materia unde aliquid faciunt, nihil possunt facere, cum materiam ipsam ipsi non faciant. Non enim faber lignum facit, sed de ligno facit aliquid: sic et caeteri omnes hujusmodi opifices. Omnipotens autem Deus nulla re adjuvandus erat, quam ipse non fecerat, ut quod volebat efficeret. Si enim ad eas res quas facere volebat, adjuvabat eum aliqua res quam ipse non fecerat, non erat omnipotens: quod sacrilegum est credere.",
+  "source": "PL 34, col. 178",
+  "cc_idno": "7303",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And therefore God is most rightly believed to have made all things out of nothing: because even if all formed things were made out of that matter, that matter itself was made out of nothing at all. For we ought not to be like those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen of any kind cannot make anything unless they have something to make it from. For wood helps the craftsman, and silver helps the silversmith, and gold the goldsmith, and earth helps the potter to be able to finish his works. If they are not helped by that matter out of which they make something, they can make nothing, since they do not themselves make the matter. For the craftsman does not make the wood, but makes something out of wood: and so all other workmen of this kind. But almighty God had no need to be helped by any thing that he had not himself made, in order to bring about what he willed. For if some thing that he had not himself made helped him towards the things he willed to make, he was not almighty: which it is sacrilege to believe.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "craftsman-needs-matter",
+  "matter-then-formed"
+ ],
+ "notes": "The chapter Migne heads 'Formless matter out of nothing, and out of it all things', and the argument in it is the one this whole crux turns on. Augustine grants that everything formed was made out of the formless matter and then puts the doctrine one step further back: the matter itself was made out of nothing at all. The objection he answers is not a text but a habit of mind — people cannot believe God made anything out of nothing because they are watching craftsmen, and wood helps the carpenter, silver the silversmith, gold the goldsmith, earth the potter. It is the philosopher's sentence at Bereshit Rabbah 1:9 with the trades filled in, made in Thagaste sixty years before the Galilean compilation and independently of it; and the refutation turns on omnipotence rather than on Scripture — if anything God had not made helped him, he was not almighty. Wigbod copies this chapter to the last clause, and Angelomus rewrites it with the trades kept and the source dropped."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "aug-conf-12-22",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 398,
+ "date_precision": "range-397-401",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "cur non informem quoque illam materiem … a Deo factam esse de nihilo",
+  "en": "why should we not understand that the formless matter too was made by God out of nothing"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Unde si aliquid Genesis tacuit Deum fecisse, quod tamen Deum fecisse nec sana fides, nec certus ambigit intellectus; nec ideo ulla sobria doctrina dicere audebit istas aquas coaeternas Deo, quia in libro Geneseos commemoratas quidem audivimus, ubi autem factae sint non invenimus: cur non informem quoque illam materiem, quam Scriptura haec terram invisibilem et incompositam, tenebrosamque abyssum appellat, docente veritate intelligamus a Deo factam esse de nihilo, ideoque illi non esse coaeternam, quamvis ubi facta sit, omiserit enuntiare ista narratio?",
+  "source": "PL 32, col. 838",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Hence if Genesis has passed over in silence something that God made — which nevertheless neither sound faith nor sure understanding doubts that God made — no sober teaching will on that account dare to say that those waters are coeternal with God, merely because we have heard them mentioned in the book of Genesis but do not find where they were made. Why then should we not understand, with truth teaching us, that the formless matter also, which this Scripture calls the invisible and unordered earth and the dark deep, was made by God out of nothing, and is therefore not coeternal with him — although this narrative has omitted to state where it was made?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "silence-proves-nothing"
+ ],
+ "notes": "The argument that had to be made because the doctrine has no verse. Genesis never says that God made the formless matter, and the objection from that silence is real; Augustine answers it with a second silence in the same chapter. The waters above the firmament are mentioned and their making is never narrated either, and nobody is willing to call them coeternal with God — so the silence cannot be what decides. It is exactly the ground the philosopher takes at Bereshit Rabbah 1:9, and Rabban Gamliel's answer is the opposite method: not an argument about what silence can prove, but a verse produced for each item on the list, tohu from Isaiah, darkness from Isaiah, the waters from the Psalm, the wind from Amos, the deeps from Proverbs. Augustine has the more general answer and Rabban Gamliel the more convincing one, and neither could have used the other's."
+}

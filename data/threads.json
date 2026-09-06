@@ -1550,5 +1550,205 @@
   "type": "parallel",
   "evidence": "Ramban gives the Palestinian form of the et-derivation (sun, moon, stars, constellations; trees, herbs, Eden) and not the Babylonian one (that without the particles shamayim would be a divine name), although both were before him — the inventory is usable for his physics and the anxiety about the divine name is not.",
   "crux": "heaven-earth-order"
+ },
+ {
+  "id": "t-k4-01",
+  "from": "br-1-9",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "The philosopher: 'Your God was a great artist, but he found good materials that helped him.' Augustine: 'those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen cannot make anything unless they have something to make it from … wood helps the craftsman, silver the silversmith.' The same inference from the same analogy, and the verb is the same in both — the materials help. Thagaste 389, Galilee c. 450, no contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-02",
+  "from": "br-1-9",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Basil diagnoses the position the philosopher states: 'with us each art is exercised upon some matter brought to it — smithcraft upon iron, carpentry upon wood … so they suppose it is with the divine working too.' Two trades where the midrash has none and Augustine has four, and the same conclusion drawn about God's poverty.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-03",
+  "from": "aug-gnm-1-6-10",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Both answer the craftsman analogy by denying that God receives anything from outside: Basil, 'God is not the deviser of figures but the creator of the whole nature'; Augustine, 'if some thing that he had not himself made helped him, he was not almighty'. Augustine did not read Eustathius' Latin Basil in 389, and the arguments differ in kind — Basil's from the dignity of the unbegotten, Augustine's from omnipotence.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-04",
+  "from": "wigbod-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "transmits",
+  "evidence": "Verbatim to the last clause, including the four trades and 'quod sacrilegum est credere'; Wigbod reads 'de nihilo facta est' where Augustine has 'de omnino nihilo'. Wigbod does not name Augustine here, though he names Jerome elsewhere in the same work.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-05",
+  "from": "angelom-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem … non enim faber facit lignum, sed de ligno aliquid facit' — Augustine's clauses reused without his name and recast as reported speech, with the potter dropped and a diagnosis added ('quia attendunt fabrum, et non Deum').",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-06",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "Ambrose: 'tria principia constituerent omnium, Deum, et exemplar, et materiam … de materia, quam vocant hylen'. Hugh: 'Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam.' The same three-item list with the same qualification (without a principle / uncreated and without beginning), abbreviated to single words and unattributed.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-07",
+  "from": "comestor-hs-1-1c",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "'Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile' is Ambrose's 'Deum, et exemplar, et materiam … quam vocant hylen' with exemplar resolved into ideae, and Aristotle's two principles, materia et forma, follow in the same order. Epicurus is Comestor's addition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-08",
+  "from": "basil-hex-2-2-materia",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "parallel",
+  "evidence": "The same position described from the two sides of the Latin/Greek divide within about fifteen years: Ambrose names it (Plato's three principles, hyle uncreated) and Basil argues against it without naming anyone ('if we call this matter unbegotten it is made equal to God'). Ambrose knew Basil's Greek Hexaemeron; this Latin Basil is Eustathius' later version, so the Latin words are not a source for Ambrose's.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-09",
+  "from": "ibn-ezra-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "The same objection from the same two verses, in the same order, answered in opposite directions. Rupert: 'if anyone should object that man too … is said to be created — as it is written, God created man to his own image … or again, God created the great sea-creatures'. Ibn Ezra: 'they have forgotten And God created the crocodiles (Gen 1:21), as well as three times in the same verse, God created man in his image (Gen 1:27)'. Rupert saves the doctrine with a distinction about the matter; Ibn Ezra concludes the verb has a second sense. Liège c. 1115, Lucca c. 1155, no possible contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-10",
+  "from": "ibn-ezra-1-1c",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "Abelard secures ex nihilo on the difference between two Latin verbs — creavit of the elements, formavit of man at Gen 2:7 and the animals at 2:19 — where Ibn Ezra dissolves it by showing that the one Hebrew verb bara stands at 1:21 and 1:27 of things made out of something. The Latin distinction is available only because the translation supplies two words where the Hebrew has one at the decisive places.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-11",
+  "from": "abelard-hex-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "Two Latin answers to one difficulty within about fifteen years: Rupert grants that creavit is used of things shaped from matter and refers the word back to the creation of the matter; Abelard denies that it is properly so used at all and assigns those cases to formare. Neither cites the other, and the two answers are incompatible.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-12",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "The same definition by contrast, in Paris within four years: Abelard, 'creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam'; Hugh, 'quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est'. Neither names the other, and the school relations between them make silence the interesting fact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-13",
+  "from": "glossa-1-2-materia",
+  "to": "bede-gen-1-2-materia",
+  "type": "transmits",
+  "evidence": "Migne prints the gloss under (BEDA ubi supra.). Bede: 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.' Glossa: 'Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.' The restriction that opened Bede's paragraph — 'Ad haec tantum informis est illa materies' — is not carried over.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-14",
+  "from": "bede-gen-1-2-materia",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Both hang the difficulty on Wisdom 11:17, 'qui fecisti mundum de materia informi', and take opposite routes out of it: Augustine grants the formless matter and pushes creation one step behind it; Bede restricts the phrase to the earth and the waters before the light came, so that no substrate is conceded at all.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-15",
+  "from": "angelom-gen-1-1c",
+  "to": "bede-gen-1-2-materia",
+  "type": "parallel",
+  "evidence": "Wisdom 11:17 again, quoted in full by Angelomus in the form 'non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia', and used to the opposite end: for Angelomus the verse proves that God made the matter and then made everything out of it, for Bede that 'formless matter' is only a name for the earth and waters in the dark.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-16",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnl-5-18",
+  "type": "echoes",
+  "evidence": "Alcuin's second mode of divine working — 'in materia informi qui vivit in aeternum, creavit omnia simul (Eccli. XVIII, 1)' — is Augustine's simul doctrine with Augustine's proof text, reduced to one clause and set in a list of four.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-17",
+  "from": "br-1-5b",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Four sections apart in one compilation, and the second answers the first. BR 1:5: 'were the matter not written explicitly it would not be possible to say it — In the beginning God created — from what? The earth was emptiness and disorder.' BR 1:9: the philosopher names emptiness, disorder, darkness, wind, water and the deeps as the materials God found, and Rabban Gamliel answers that of every one of them creation is written. The same list of six, read once as the stuff the world was made of and once as a list of created things.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-18",
+  "from": "pdre-3-7",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Pirkei de-Rabbi Eliezer answers 'from what?' with substances — the earth from the snow beneath the Throne of Glory, congealed on the waters, with Job 37:6 for proof; the heavens, in the preceding section, from the light of his garment. Rabban Gamliel's answer to the same question is that nothing was found and everything was created. Neither text acknowledges the other, and both stand in the rabbinic bench's own tradition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-19",
+  "from": "ramban-1-1c",
+  "to": "ibn-ezra-1-1c",
+  "type": "contests",
+  "evidence": "Ramban names R. Abraham a few lines above this passage and then writes 'there is no expression in the sacred tongue for bringing forth something from nothing other than the word bara' — which is the exact claim Ibn Ezra had refuted from Gen 1:21, Gen 1:27 and Isaiah 45:7. The contest is direct and is the reason the sentence is phrased as an exclusive.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-20",
+  "from": "ramban-1-1c",
+  "to": "hugh-sacr-1-1-nihilo",
+  "type": "parallel",
+  "evidence": "Hugh: 'omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.' Ramban: 'the Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.' The same two-stage doctrine — one creation out of nothing, everything afterwards made out of what was created — with the Greek word for the matter on the Hebrew side and not on the Latin.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-21",
+  "from": "ramban-1-1c",
+  "to": "br-1-5b",
+  "type": "cites",
+  "evidence": "Ramban's tohu is bar Kappara's difficulty resolved: BR 1:5 asks 'from what?' and answers 'the earth was tohu va-vohu', with an apology; Ramban makes tohu the name in the sacred tongue for the hyle, so that the verse now says the world was made out of the one thing that was created out of nothing. He quotes the rabbinic material of this section (and Sefer Yetzirah, 'he created substance from tohu') by name in the lines that follow.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-22",
+  "from": "aug-conf-12-22",
+  "to": "br-1-9",
+  "type": "parallel",
+  "evidence": "One difficulty, two opposite methods. Augustine argues that Genesis' silence about when a thing was made cannot prove it coeternal, and makes the case with a second silence (the waters above the firmament). Rabban Gamliel meets the same objection by breaking the silence item by item: Isaiah 45:7 for tohu and darkness, Psalm 148:4–5 for the waters, Amos 4:13 for the wind, Proverbs 8:24 for the deeps.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-23",
+  "from": "aug-conf-12-22",
+  "to": "aug-conf-12-7",
+  "type": "echoes",
+  "evidence": "The same conclusion reached twice in one book by different routes — at XII.7 from the exhaustive dilemma (not out of God, and nothing else was there, therefore out of nothing), at XII.22 from the failure of the argument from Scripture's silence. The second is the defensive form of the first.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-24",
+  "from": "aug-conf-12-7",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'De nihilo fecisti coelum et terram' restates in prayer what De Genesi contra Manichaeos argued nine years earlier, with the same two-stage structure — formed things out of the matter, the matter out of nothing — now expressed as 'unum prope te, alterum prope nihil'.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-25",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Augustine's doctrine turned into an inventory: 'Quae creaturae de nihilo factae sunt? — Coelum, terra, angeli, lux, aer, aqua et anima hominis.' The list form has no Latin precedent on this crux and exact rabbinic counterparts (b. Chagigah 12a's ten things, PdRE 3's eight), and Alcuin's items are chosen so that no unformed substrate appears on it.",
+  "crux": "ex-nihilo-or-matter"
  }
 ]

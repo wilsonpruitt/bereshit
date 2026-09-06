@@ -1,0 +1,40 @@
+{
+ "id": "glossa-1-2-materia",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Ipsa autem terra et aqua informis dicuntur materia",
+  "en": "But the earth itself and the water are called formless matter"
+ },
+ "original": {
+  "lang": "la",
+  "text": "(BEDA ubi supra.) « Tenebrae erant, » etc. Non sunt audiendi qui reprehendendo dicunt Deum prius creasse tenebras quam lucem: quia nullas in aqua, vel aere fecit tenebras; sed distincto ordine providentiae prius aquas cum coelo creavit, et terra, et has cum voluit lucis gratia venustavit. Et notandum quod cum coelo duo elementa mundi creata sunt, quibus alia duo inserta sunt, aqua, scilicet, et terra, quibus insunt ignis et aer. Aquae autem totam superficiem terrae tanta altitudine tegebant, ut ad illos usque locos pertingerent, ubi nunc usque super firmamentum partim resident. Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.",
+  "source": "PL 113, col. 69D",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "(Bede, in the place cited.) 'There was darkness,' etc. Those are not to be listened to who say by way of reproach that God created darkness before light: for he made no darkness in the water or the air; but by a distinct order of providence he first created the waters together with heaven, and the earth, and adorned them with the grace of light when he willed. And note that with heaven two elements of the world were created, into which two others were inserted, namely water and earth, in which are fire and air. The waters covered the whole surface of the earth to such a height that they reached to those places where they still in part remain above the firmament. But the earth itself and the water are called formless matter, because all the things we see either took their beginning out of these, or out of nothing: and before they came into the light there was nothing from which they might have form.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "matter-then-formed",
+  "pair-is-formless-matter"
+ ],
+ "notes": "The third of the Glossa's marginal glosses on Gen 1:2, Bede again, and it is the only place in the Glossa on this verse where formless matter is defined. Bede's paragraph at PL 91:15C is here cut to its last two sentences and lightly rewritten — 'omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo' for Bede's 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo' — and the qualification that made Bede's sentence careful, that the matter is formless only to this extent, is gone with the sentence that carried it. What a twelfth-century reader met in the margin, then, is the flat statement that earth and water are called formless matter, with the alternative 'or out of nothing' still attached and no longer doing any work. The first half of this gloss, on the darkness, belongs to K9; the two glosses printed before it on the same lemma are K6's glossa-1-2-terra and the Strabo gloss carried inside K7's glossa-1-2-ruach."
+}

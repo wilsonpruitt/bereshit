@@ -1,0 +1,41 @@
+{
+ "id": "hugh-sacr-1-1-nihilo",
+ "work": "hugh-sacr",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1134,
+ "date_precision": "range-1130-1137",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit",
+  "en": "he not only made them out of matter, but himself created the matter of all things out of nothing"
+ },
+ "original": {
+  "lang": "la",
+  "text": "In principio creavit Deus coelum et terram (Gen. I) . Quod creatum est de nihilo factum est. Nam quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est. Fecit ergo Deus coelum et terram; nec solum fecit sed creavit, hoc est de nihilo fecit. Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam; profitentes ea quae facta sunt omnia ex materia quidem in formam per opificem esse producta. Sed isti factorem solum non creatorem Deum professi sunt. Fides autem vera unum solummodum primum principium confitetur quod semper erat; et per ipsum solum factum est ut esset quod aliquando non erat. Cujus ineffabilis omnipotentiae virtus, sicut non potuit aliud praeter se habere coaeternum, quo in faciendo juvaretur; ita ipsi cum voluit suberat, ut quod voluit et quando et quantum voluit de nihilo crearetur. Omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.",
+  "source": "PL 176, col. 187A",
+  "cc_idno": "11082",
+  "license": "pd"
+ },
+ "english": {
+  "text": "'In the beginning God created heaven and earth' (Gen 1:1). What was created was made out of nothing. For what was made out of something was indeed made, but was not created, because it was not made out of nothing. God therefore made heaven and earth; and not only made but created, that is, made out of nothing. The philosophers of the gentiles laid down three principles of things without a principle: the workman, matter, and form — professing that all the things that were made were brought forth out of matter into form through the workman. But they professed God to be only a maker and not a creator. The true faith, however, confesses one only first principle, which always was; and through it alone it came about that what once was not should be. And the power of his unspeakable omnipotence, just as it could not have anything coeternal besides itself by which it might be helped in making, so it had at hand, when it willed, that what it willed and when and how much it willed should be created out of nothing. All things therefore that were made, God not only made out of matter, but himself created the matter of all things out of nothing.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "creare-vs-formare",
+  "three-principles"
+ ],
+ "notes": "The first chapter of the first book of De sacramentis, which is to say that when the Latin bench organises itself into a systematic theology this crux is where it starts. The chapter title is the thesis: that there is one principle from which all things were made out of nothing. Then the distinction as a definition — what was made out of something was made but not created — followed by the doxography Ambrose opened the Hexaemeron with, now compressed to three words, opifex, materia, forma, and given its precise consequence: those philosophers professed God to be a maker and not a creator. The move that closes it is Augustine's, that nothing coeternal could help him in the making. Ramban reaches the same last sentence in Girona a century and a quarter later — two substances only were created, and everything else was constructed from them — from the Hebrew of the verb and a Greek word for the matter, and with nothing of this in front of him."
+}

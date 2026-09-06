@@ -1,0 +1,40 @@
+{
+ "id": "aug-conf-12-7",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 398,
+ "date_precision": "range-397-401",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "unum prope te, alterum prope nihil",
+  "en": "one near to you, the other near to nothing"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et unde utcumque erat, nisi esset abs te, a quo sunt omnia in quantumcumque sunt? Sed tanto a te longius, quanto dissimilius; neque enim locis. Itaque tu, Domine, qui non es alias aliud et alias aliter, sed idipsum et idipsum et idipsum, Sanctus, Sanctus, Sanctus Dominus Deus omnipotens (Isai. VI, 3) ; in Principio quod est de te, in Sapientia tua quae nata est de substantia tua, fecisti aliquid et de nihilo. Fecisti enim coelum et terram; non de te: nam esset aequale Unigenito tuo, ac per hoc et tibi; et nullo modo justum esset, ut aequale tibi esset, quod de te non esset. Et aliud praeter te non erat unde faceres ea, Deus una Trinitas, et trina Unitas: et ideo de nihilo fecisti coelum et terram, magnum quiddam et parvum quiddam; quoniam omnipotens et bonus es ad facienda omnia bona, magnum coelum et parvam terram. Tu eras, et aliud nihil unde fecisti coelum et terram, duo quaedam; unum prope te, alterum prope nihil: unum, quo superior tu esses; alterum, quo inferius nihil esset.",
+  "source": "PL 32, col. 828",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And whence had it any being at all, unless it were from you, from whom are all things in whatever measure they are? Yet the further from you the more unlike — and not by places. And so you, Lord, who are not one thing at one time and another otherwise, but the selfsame and the selfsame and the selfsame, Holy, Holy, Holy, Lord God almighty (Isa 6:3): in the Beginning which is from you, in your Wisdom which was born of your substance, you made something, and made it out of nothing. For you made heaven and earth; not out of yourself, for then it would be equal to your Only-begotten and thereby to you, and it would in no way be just that what was not out of you should be equal to you. And there was nothing else besides you out of which you might make them, God, one Trinity and threefold Unity: and therefore you made heaven and earth out of nothing, a great something and a small something; since you are almighty and good, to make all things good, a great heaven and a small earth. You were, and there was nothing else out of which you made heaven and earth, two somethings: one near to you, the other near to nothing; one than which you alone were higher, the other than which nothing was lower.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "matter-then-formed"
+ ],
+ "notes": "The doctrine argued as a dilemma with two horns and no third. Whatever is, is from God; but heaven and earth are not made out of God, for what is out of God is the Only-begotten and equal to him; and there was nothing else besides God out of which to make them; therefore they were made out of nothing. Then the phrase that the rest of Book XII turns on: two somethings, one near to God and one near to nothing — the heaven of heaven and the formless matter — one than which God alone is higher, one than which nothing is lower. Augustine will not say that the matter is nothing, and he will not say that it is something in its own right; prope nihil is a position built to be unavailable to both objections at once. Bereshit Rabbah 1:5 stands at the same place and does not have the phrase, and so has to say the thing plainly and apologise for it."
+}

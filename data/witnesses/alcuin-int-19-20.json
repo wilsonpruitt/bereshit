@@ -1,0 +1,41 @@
+{
+ "id": "alcuin-int-19-20",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Quae creaturae de nihilo factae sunt?",
+  "en": "Which creatures were made out of nothing?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 19. Quot modis est operatio divina?-- Resp. Quatuor. Primo, quod in verbi [Dei] dispensatione omnia aeterna sunt. Secundo, quod in materia informi qui vivit in aeternum, creavit omnia simul (Eccl. XVIII, 1) . Tertio, quod per opera dierum sex varias distinxit creaturas. Quarto, quod ex primordialibus seminibus non incognitae oriuntur naturae, sed notae saepius, ne pereant, reformantur. Inter. 20. Quae creaturae de nihilo factae sunt?-- Resp. Coelum, terra, angeli, lux, aer, aqua [et] anima hominis.",
+  "source": "PL 100, col. 519A",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 19. In how many ways is the divine working? — Answer. Four. First, that in the dispensation of the Word of God all things are eternal. Second, that in formless matter he who lives for ever created all things at once (Sir 18:1). Third, that through the works of the six days he distinguished the various creatures. Fourth, that out of the primordial seeds natures do not arise unknown, but known ones are more often re-formed, lest they perish. Question 20. Which creatures were made out of nothing? — Answer. Heaven, earth, angels, light, air, water, and the soul of man.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "matter-then-formed",
+  "simul"
+ ],
+ "notes": "The crux turned into a list a pupil can memorise, and the list is the Latin bench's only counterpart to the rabbinic enumerations. Seven items made out of nothing: heaven, earth, angels, light, air, water, the soul of man. Set it beside Rav Yehudah in Rav's name at b. Chagigah 12a — ten things created on the first day: heaven and earth, chaos and desolation, light and darkness, wind and waters, the measure of the day and the measure of the night — and beside Pirkei de-Rabbi Eliezer 3's eight, and the shape of the answer is identical while the contents diverge exactly where the doctrines diverge. Alcuin's list has angels and the human soul on it, which no rabbinic list has; the rabbinic lists have tohu and bohu on them, which is the one thing Alcuin's question is designed to exclude. The four modes in question 19 are Augustine's, with Sirach 18:1 for the second, and they are what makes the list possible: 'created all things at once' in formless matter is the mode under which the seven are all made out of nothing together."
+}

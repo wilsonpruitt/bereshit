@@ -1,0 +1,41 @@
+{
+ "id": "abelard-hex-1-1c",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam",
+  "en": "that is properly said to be created which is so brought forth from non-being to being that it has no pre-existing matter"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Bene autem de elementis dictum est, creavit, potius quam formavit, quia creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam, nec in aliquo primitus subsisteret naturae statu. Cum autem de ipsa jam materia praeparata adjunctione formae aliquid fit, recte illud formari dicitur, sicut est illud quod in sequentibus ponitur: Formavit igitur hominem de limo terrae (Gen. II, 7) . Et iterum: Formatis igitur de humo cunctis animantibus terrae (ibid., 19) . Cum enim praejacens materia denotatur, veluti cum praemittitur de humo quoniam in speciem aliquam formaretur, tunc rectissime formari dicitur.",
+  "source": "PL 178, col. 734B",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And it is well said of the elements 'created' rather than 'formed', because that is properly said to be created which is so brought forth from non-being to being that it has no pre-existing matter, and did not first subsist in any state of nature. But when something is made out of matter already prepared, by the joining on of a form, that is rightly said to be formed — as is what is set down in what follows: 'The Lord God therefore formed man of the slime of the earth' (Gen 2:7). And again: 'All the animals of the earth therefore having been formed out of the ground' (Gen 2:19). For when a pre-existing matter is denoted — as when 'out of the ground' is put first, since it was to be formed into some appearance — then a thing is most rightly said to be formed.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "creare-vs-formare",
+  "de-nihilo"
+ ],
+ "notes": "The distinction stated as a rule about two Latin verbs, and the rule is exactly what Ibn Ezra denies about the one Hebrew verb underlying both. Creare is properly said of what is brought from non-being to being with no pre-existing matter and no prior state of nature; formare of what is made out of matter already prepared by the joining on of a form. The proof is the usage of Genesis itself: formavit hominem de limo terrae at 2:7, formatis de humo cunctis animantibus at 2:19 — where the material is named first, the verb is formavit. Abelard is reading a Latin translation, and the two verbs he separates render two different Hebrew verbs at 2:7 and 2:19 but not at 1:21 and 1:27, where the Hebrew has bara and the Latin has creavit of things made out of something. That is the gap Rupert closes with a distinction and Ibn Ezra widens into a lexical entry, and none of the three has read either of the others."
+}

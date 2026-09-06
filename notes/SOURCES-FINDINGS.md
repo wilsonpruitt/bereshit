@@ -510,3 +510,151 @@ Bruno 147B, the Glossa's VERS. 1 block, and Rabanus 444B (which copies Ambrose H
 the passage this crux builds from Ambrose himself). **Do this check first on any remaining crux
 anchored to a verse another crux has already built** — K2 (`why-begin-here`) and K3
 (`elohim-and-trinity`) are both on 1:1–1:2 and will hit it harder than K5 did.
+
+---
+
+# K4 (ex-nihilo-or-matter) — 2026-09-05, seventh session
+
+## One analogy, three benches, three kinds of answer
+
+`PLAN.md` §5 predicted that both benches would reach for 2 Macc 7:28 and Wis 11:17 and find them
+pulling opposite ways. **Half of that is wrong and the other half is bigger than the plan thought.**
+2 Macc 7:28 is not quoted by a single witness on either bench in this crux. Wis 11:17 is quoted by
+five Latin witnesses (Augustine, Bede, Rabanus, Angelomus, and the Glossa through Bede) and by no
+rabbinic one, and it does not pull two ways — it pulls one way, *against* the doctrine, which is
+why every Latin witness who quotes it immediately restricts it.
+
+What is actually shared is **the craftsman**:
+
+- **BR 1:9**: "Your God was a great artist, however he found many excellent raw materials that
+  helped him: emptiness, disorder, darkness, wind, water, and depths."
+- **Augustine, *Gnm* I.6.10 (PL 34:178)**: "we ought not to be like those who do not believe that
+  almighty God could make anything out of nothing, *cum considerant fabros et quoslibet opifices
+  non posse aliquid fabricare, nisi habuerint unde fabricent*" — wood helps the carpenter, silver
+  the silversmith, gold the goldsmith, earth the potter.
+- **Basil/Eustathius, PL 53:880C–881B**: "with us each art is exercised upon some matter brought to
+  it, *sicut fabrilitas circa ferrum, carpentaria circa lignum* … so they suppose it is with the
+  divine working too."
+
+Thagaste 389, Caesarea via Eustathius c. 400, Galilee c. 450. The same inference from the same
+analogy, and even the same verb — the materials *help*. **The answers are three different kinds of
+thing.** Basil argues from the dignity of the unbegotten (call matter unbegotten and you have made
+it God's equal). Augustine argues from omnipotence (if anything he had not made helped him, he was
+not almighty). Rabban Gamliel answers with a concordance: of every one of the six, creation is
+written — Isa 45:7 for tohu, bohu and darkness, Ps 148:4–5 for the water, Amos 4:13 for the wind,
+Prov 8:24 for the deeps. Neither method would have satisfied the other, and that is the finding.
+
+## The philological objection, three times in forty years
+
+Not in the plan at all. Scripture uses the creation verb of things made out of something —
+**Gen 1:21** (the sea-creatures) and **Gen 1:27** (man, three times in one verse):
+
+| | date | move |
+|---|---|---|
+| **Rupert**, PL 167:202C | c. 1115, Liège | puts the objection to himself from both verses, in that order, and answers that *creavit* is right there **because the matter had already been created** |
+| **Abelard**, PL 178:734B | c. 1130, Paraclete | separates two Latin verbs — *creare* of what has no *praejacens materia*, *formare* of what is shaped from matter, proved from *formavit* at Gen 2:7 and 2:19 |
+| **Ibn Ezra** on 1:1, s.v. ברא | c. 1155, Lucca | brings the identical two verses in the identical order and concludes the commentators are wrong: **bara does not mean bringing forth something from nothing** |
+
+⭐ **The Latin distinction exists only because the translation supplies two verbs where the Hebrew
+has one at the decisive places.** *Creavit / formavit* is a fact about the Vulgate, not about
+Genesis; Abelard builds a definition on it and never sees the seam. And **Ramban closes the
+question by asserting the exclusive Ibn Ezra had denied** — "there is no expression in the sacred
+language for bringing forth something from nothing other than the word *bara*" — a few lines after
+naming R. Abraham. That is the one direct `contests` edge on the crux where both parties are on the
+same bench and one has read the other.
+
+## The position everyone refutes is held by the rabbinic bench, twice
+
+- **BR 1:5, second half.** The parable of the palace built over the sewers, and then Rav Huna in the
+  name of bar Kappara with the formula for saying the unsayable: *ilulei she-ha-davar katuv i
+  efshar le-omro* — "In the beginning God created" — **from what?** — "the earth was tohu va-vohu."
+  Four sections before BR 1:9, which refuses that inference to a philosopher's face. **Neither
+  section acknowledges the other.**
+- **PdRE 3:7.** "Whence was the earth created? He took of the snow beneath his Throne of Glory and
+  threw it on the waters" (Job 37:6), with the heavens from the light of his garment in the
+  preceding section (K8's `pdre-3-6`). No embarrassment at all. **The Latin bench has no answer of
+  this shape and could not have**: once matter is what is at issue, a material that belongs to God
+  is still a material, and Basil's objection falls on it as heavily as on Plato's hyle.
+
+## What the plan listed vs. what the sources are
+
+- **Hugh, *De sacramentis* I.1 CAP. I (PL 176:187A–B), not 247B.** PHASES pointed at 247B (the angels
+  not made *de materia praejacente*, which is about angels, not the verse). 187A is the chapter
+  headed *Unum esse principium a quo facta sunt omnia de nihilo*, opens with Gen 1:1, and is where
+  the Latin bench begins its systematic theology. **When the Latin tradition organises itself into a
+  summa, this crux is chapter one.**
+- **Ambrose's doxography is at 14:123A, the first sentence of the Hexaemeron**, and is free: K1 had
+  taken 124B (Moses against the philosophers) and K5/K6 the later columns. Every later Latin witness
+  repeats one or both of its lists — Remigius 131:53D (inside K1's slice), Hugh (*opifex, materia,
+  forma*), Comestor (Plato, Aristotle **and Epicurus**).
+- **Alcuin *Inter*. 19–20 (PL 100:519A–B) is the Latin bench's only list.** "*Quae creaturae de
+  nihilo factae sunt?* — Coelum, terra, angeli, lux, aer, aqua et anima hominis." Seven items,
+  against b. Chagigah 12a's ten and PdRE 3:5's eight. **Identical form, and the contents diverge
+  exactly where the doctrines do**: Alcuin's list has the angels and the human soul, which no
+  rabbinic list has; the rabbinic lists have *tohu* and *bohu*, which Alcuin's question exists to
+  exclude.
+- **Wigbod copies Augustine entire here.** At K1 his signature was the omission — he takes over
+  Jerome's discussion of *in principio* and drops precisely the refutation from the Hebrew. At
+  PL 96:1113B he copies *Gnm* I.6.10 without losing a clause, to the closing *sacrilegum est
+  credere*. **A fair index of what a Carolingian compiler thought load-bearing: philology about a
+  Hebrew word is expendable, an argument securing omnipotence is not.**
+- **Angelomus turns the objection back into a speech.** PL 115:114B: *Ista propterea dicunt, quia
+  attendunt fabrum, et non Deum. Aiunt enim: Lignum adjuvat fabrum…* Augustine's "we ought not to be
+  like those who…" has become reported speech with an (unnamed) speaker — the form the objection has
+  at BR 1:9 and nowhere else on the Latin bench.
+- **The Bede → Rabanus → Glossa chain loses the qualification.** Bede PL 91:15C opens *Ad haec
+  tantum informis est illa materies* — formless only to this extent. Rabanus 107:446C copies the
+  paragraph verbatim (not built; K6's precedent). The Glossa at 113:69D–70A keeps the last two
+  sentences and drops the opening restriction with the sentence that carried it, so what a
+  twelfth-century reader met in the margin is the flat statement that earth and water are called
+  formless matter, with "or out of nothing" still attached and no longer doing any work.
+- **Honorius PL 172:257A and Hugh *Adnot*. PL 175:33A were read and not built** — one clause each
+  (*ad materiam ex nihilo creantur*; *In eo quod creavit, id est de nihilo*), adding nothing.
+- **Rabanus PL 107:446C not built** (verbatim Bede, transmission already carried by the Glossa),
+  and **Remigius 131:53D not available** (inside K1's `remigius-gen-1-1`).
+
+## A structural gap, the same one K5 hit
+
+The daf rendered **`versiones 0`** (rab 5, patres 7, scholae 9, glossa 1). On a crux where the whole
+Latin argument turns on which verb the translation supplies — *creavit* against *formavit* — the
+witnesses that actually supply it are absent, because `vulgate-1-1`, `lxx-1-1` and the three targums
+belong to K1 and carry only that crux. **Phase 4 should add `ex-nihilo-or-matter` to their facets**;
+this is now the second crux to hit it (see the K5 entry above) and the argument for it is stronger
+here than there.
+
+## Text problems found
+
+- **Comestor, PL 198:1055B** prints *ile* for *hyle* ("Deum ideas, ile"). Left in the Latin, silently
+  right in the English.
+- **Wigbod, PL 96:1113B** reads *de nihilo facta est* where Augustine (PL 34:178) has *de omnino
+  nihilo*; and *sic et caeteri omnes opifices* for Augustine's *sic et caeteri omnes hujusmodi
+  opifices*. Both differences are in the English.
+- **Angelomus, PL 115:114C** quotes Wis 11:17 as *Non enim erat manus tua, Domine, invalida, qua
+  creasti mundum ex informi materia* — neither the Vulgate's wording nor Augustine's; rendered as he
+  has it.
+
+## Frozen-rendering conflict, resolved by usage
+
+PHASES.md's K7 list froze *informis materia* = "formless matter"; the K1 addendum then wrote
+*materia informis* = "unformed matter" **"as at K7"**, which K7 does not say. **Every built witness
+uses "formless matter"** (`aug-gnm-1-7-11`, `alcuin-int-28`, and the K6 Glossa slices), so K4
+follows usage and the K1 line is the error. Phase 3 should strike "unformed matter" from PHASES.md
+rather than change any English.
+
+## Method
+
+The K1-overlap check was run first, as PHASES.md required, and mechanically rather than by column:
+`scripts/overlap.py` (new, promoted out of the scratchpad this session) locates every existing
+Latin witness's text inside its TEI by offset, builds a coverage map per idno, and reports each
+candidate anchor as COVERED or FREE with the neighbouring slice boundaries. **Twenty candidates checked, three came back covered** — the Glossa's first gloss
+on 1:2 (inside K1's `glossa-1-1`, which reaches from 67B to 69B), Comestor 1055B's *Empyreum autem*
+(inside K5's `comestor-hs-1-1b`), and Ambrose 136A (inside K6's `ambrose-hex-1-7-25`). **Checking by
+printed column would have missed all three**, because a single Migne column routinely holds two
+witnesses from two different cruxes. K2 and K3 should use the same script.
+
+## Pipeline
+
+- **`scripts/overlap.py` added.** The K5 entry said to check every slice against the already-built
+  ones on a crowded verse and did it with an ad-hoc `python3 -c` dump of columns and first/last
+  characters. K4 needed it on two verses with 75 Latin witnesses already on them, so it is a script,
+  and it works on offsets rather than columns. Run it as step 3.5 of the per-crux checklist.

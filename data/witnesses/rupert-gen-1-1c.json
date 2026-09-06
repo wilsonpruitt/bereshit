@@ -1,0 +1,41 @@
+{
+ "id": "rupert-gen-1-1c",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1115,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Quod si quis objiciat hominem quoque, cum non de nihilo, sed de terra factus sit, creatum dici",
+  "en": "But if anyone should object that man too, though made not out of nothing but out of the earth, is said to be created"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quod si quis objiciat hominem quoque, cum non de nihilo, sed de terra factus sit, creatum dici, sicut scriptum est: Et creavit Deus hominem ad imaginem suam, ad imaginem Dei creavit illum; vel quod item dictum est: Creavitque Deus cete grandia; dicimus ad haec, recte dictum, eo duntaxat respectu quia jam ipsa, de qua productae vel sumptae sunt species, creata fuerat materia, quibus nominibus, scilicet coelo et terra, ut supra dictum est, significari universam creaturam visibilem et invisibilem simul. Et nihil excipi, ex symbolo quoque comprobatur apostolico, quocum dicimus: Credo in Deum, Patrem omnipotentem, creatorem coeli et terrae, nihil creaturarum adjicientes, cuncta his nominibus visibilia simul et invisibilia, nos comprehendisse non dubitamus. Nam in alio nihilominus catholico fidei symbolo cum dicimus: Credo in unum Deum, Patrem omnipotentem, factorem coeli et terrae, statim exponentes quid dixerimus coeli et terrae, subjungimus visibilium omnium et invisibilium. Igitur, quod dictum est, in principio creavit Deus coelum et terram, idem est ac si diceretur: Per Filium suum Deus Pater creavit omnium visibilium et invisibilium substantiam universam, talem adhuc qualem subsecutus terram exprimit: Terra autem erat inanis et vacua.",
+  "source": "PL 167, col. 202C",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But if anyone should object that man too, though made not out of nothing but out of the earth, is said to be created — as it is written, 'And God created man to his own image; to the image of God he created him' (Gen 1:27); or again what is likewise said, 'And God created the great sea-creatures' (Gen 1:21) — we say to this that it is rightly said, but in this respect only, that the matter out of which those forms were produced or taken had already been created. And by these names, that is heaven and earth, as was said above, the whole creation visible and invisible together is signified. That nothing is excepted is proved from the apostolic creed also, in which we say: I believe in God the Father almighty, creator of heaven and earth — adding nothing of the creatures; we do not doubt that under these names we have taken in all things visible and invisible together. For in the other creed of the catholic faith no less, when we say: I believe in one God the Father almighty, maker of heaven and earth, at once, explaining what we have said by heaven and earth, we add: of all things visible and invisible. Therefore what is said, 'in the beginning God created heaven and earth', is the same as if it were said: through his Son, God the Father created the whole substance of all things visible and invisible, such as yet as the earth that follows expresses: 'But the earth was empty and void.'",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "de-nihilo",
+  "creare-vs-formare",
+  "bara-is-not-ex-nihilo"
+ ],
+ "notes": "A Latin abbot meeting the objection from usage and answering it with a distinction, forty years before Ibn Ezra meets the same objection from the same verses and lets it stand. The objection: Scripture uses creavit of man, who was made out of the earth (Gen 1:27), and of the sea-creatures (Gen 1:21) — so the verb cannot carry the sense the doctrine needs. Rupert's answer is that the word is rightly used there, but only in the respect that the matter from which those things were shaped had itself already been created; the verb reaches back through the shaping to the creation of the stuff. He then secures the scope of Gen 1:1 from the creeds rather than from Genesis: creatorem coeli et terrae in the apostolic creed adds nothing after it, and the other creed glosses the pair as visibilium omnium et invisibilium. Ibn Ezra brings Gen 1:21 and Gen 1:27 in that same order and concludes instead that bara simply has a second sense. The sentence immediately before this one, in which Rupert refuses the philosophers' coeval hyle by name, is inside the slice K1 built as rupert-gen-1-1."
+}

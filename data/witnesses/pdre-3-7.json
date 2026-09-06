@@ -1,0 +1,38 @@
+{
+ "id": "pdre-3-7",
+ "work": "pdre",
+ "author": "pirkei-derabbi-eliezer",
+ "tradition": "rabbinic",
+ "date": 800,
+ "date_precision": "range-750-850",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "מִשֶּׁלֶג שֶׁתַּחַת כִּסֵּא הַכָּבוֹד",
+  "en": "from the snow beneath the Throne of Glory"
+ },
+ "original": {
+  "lang": "he",
+  "text": "הָאָרֶץ מֵאֵיזֶה מָקוֹם נִבְרֵאת? מִשֶּׁלֶג שֶׁתַּחַת כִּסֵּא הַכָּבוֹד, לָקַח וְזָרַק עַל הַמַּיִם וְנִקְפְּאוּ הַמַּיִם וְנַעֲשָׂה עֲפַר הָאָרֶץ, שֶׁנֶּאֱמַר (איוב לז, ו): ״כִּי לַשֶּׁלֶג יֹאמַר הֱוֵא אָרֶץ״.",
+  "source": "Pirkei de-Rabbi Eliezer 3",
+  "license": "pd",
+  "version": "Sefaria Vocalized Edition"
+ },
+ "english": {
+  "text": "Whence was the earth created? He took of the snow (or ice) which was beneath His Throne of Glory and threw it upon the waters, and the waters became congealed so that the dust of the earth was formed, as it is said, “He saith to the snow, Be thou earth” (Job 37:6).",
+  "translator": "Gerald Friedlander, 1916",
+  "license": "pd"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "made-from-something-of-god"
+ ],
+ "notes": "A cosmogony on the rabbinic bench in which the question 'from what?' has an answer, and the answer is a substance. Heaven from the light of his garment (the preceding section, built at K8 as pdre-3-6); earth from the snow under the Throne of Glory, thrown on the waters and congealed, with Job 37:6 for proof — 'he says to the snow, be earth'. Nothing here is made out of nothing, and nothing here is embarrassed about it: the materials are simply divine ones, taken from what is already God's. The Latin bench has no answer of this shape at all, and could not have: once matter is the thing at issue, a material that belongs to God is still a material, and Basil's objection would fall on it as heavily as on Plato's hyle. The two benches are not disagreeing here; only one of them has heard the question."
+}

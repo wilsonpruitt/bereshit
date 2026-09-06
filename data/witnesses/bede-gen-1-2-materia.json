@@ -1,0 +1,40 @@
+{
+ "id": "bede-gen-1-2-materia",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "range-717-725",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "vel de ipsis exordium naturae, vel sumpsere de nihilo",
+  "en": "either took the beginning of their nature from these, or took it out of nothing"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ad haec tantum informis est illa materies, de qua mundum esse factum testatur Scriptura, quae in Dei laudibus dicit: Qui fecisti mundum de materia informi. Nam cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.",
+  "source": "PL 91, col. 15C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Only to this extent is that matter formless out of which Scripture testifies that the world was made, when it says in the praises of God: 'You who made the world out of formless matter' (Wis 11:17). For all the things which we are accustomed to see in the world along with the waters and the earth either took the beginning of their nature from these, or took it out of nothing; but the earth itself and the waters themselves have received the name of formless matter for this reason, that before they came into the light there was nothing from which they might have comeliness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "matter-then-formed",
+  "pair-is-formless-matter"
+ ],
+ "notes": "Bede taking the sting out of the word. Wisdom 11:17 says the world was made out of formless matter, and the whole Latin difficulty is in that verse: it appears to concede the philosopher's point in Scripture's own voice. Bede's answer is a restriction — the matter is formless only to this extent, that the earth and the waters had nothing to give them comeliness until the light came — so that 'formless matter' names two visible things at a stage of their history, not a substrate. And the sentence that follows keeps both possibilities open without choosing: what we see either began from the earth and the waters, or was taken out of nothing. Rabanus copies this paragraph verbatim at PL 107:446C and the Glossa prints it condensed at 113:69D–70A, which is where most readers after 1150 met it."
+}

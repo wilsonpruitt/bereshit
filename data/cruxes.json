@@ -109,9 +109,32 @@
   },
   "summary": "Both benches reach for 2 Macc 7:28 and Wis 11:17 and find them pulling in opposite directions.",
   "witnesses": [
-   "abelard-hex-1-2"
+   "br-1-5b",
+   "br-1-9",
+   "pdre-3-7",
+   "ibn-ezra-1-1c",
+   "ramban-1-1c",
+   "basil-hex-2-2-materia",
+   "ambrose-hex-1-1-hyle",
+   "aug-conf-12-7",
+   "aug-conf-12-22",
+   "aug-gnm-1-6-10",
+   "bede-gen-1-2-materia",
+   "alcuin-int-19-20",
+   "wigbod-gen-1-1c",
+   "angelom-gen-1-1c",
+   "glossa-1-2-materia",
+   "rupert-gen-1-1c",
+   "abelard-hex-1-1c",
+   "hugh-sacr-1-1-nihilo",
+   "comestor-hs-1-1c",
+   "abelard-hex-1-2",
+   "aug-gnl-5-18",
+   "bonaventure-sent-2-12-1-2"
   ],
-  "status": "register-only"
+  "status": "built",
+  "finding": "Both benches meet the same objection, in the same words, from a craftsman. The philosopher tells Rabban Gamliel that his God was a great artist who found good materials — emptiness, disorder, darkness, wind, water, the deeps (BR 1:9); Augustine says we must not be like those who cannot believe God made anything out of nothing, because they are watching craftsmen, and wood helps the carpenter, silver the silversmith, gold the goldsmith, earth the potter (Gnm I.6.10); Basil says with us every art works on a material brought to it, smithcraft on iron and carpentry on wood, and that this is what they have projected on God. Three benches, one analogy, no contact — and three different kinds of answer. Basil answers from the dignity of the unbegotten, Augustine from omnipotence, and Rabban Gamliel with a concordance, producing a verse of creation for each of the six materials. The Latin answer is a doctrine and the rabbinic answer is a list of proof texts, and neither would have satisfied the other.\n\nThe second finding is a philological objection raised three times in forty years by men who could not have read one another, from the same two verses. Scripture uses the creation verb of things made out of something: God created the great sea-creatures (Gen 1:21), God created man in his own image (Gen 1:27). Rupert of Deutz puts the objection to himself at Liège about 1115 and answers that the word is used rightly there because the matter had already been created. Abelard at the Paraclete about 1130 answers it by separating two Latin verbs — created of what has no pre-existing matter, formed of what is shaped out of matter, as at Gen 2:7 and 2:19. Ibn Ezra in Lucca about 1155 brings the identical verses in the identical order and concludes that the commentators are simply wrong: bara does not mean bringing forth something from nothing. The Latin distinction is available only because the translation supplies two verbs where the Hebrew has one at the places that matter — and Ramban, who had Ibn Ezra in front of him and named him, closed the question a century later by asserting the exclusive Ibn Ezra had denied, in the same two-stage form Hugh of St Victor had given it in Paris: one thing was created out of nothing, and everything else was made out of that.\n\nAnd the position everyone refutes is held, on this site, by nobody — except in the two places where the rabbinic bench states it in its own voice and is uncomfortable about it. Bereshit Rabbah 1:5 asks 'from what?' and answers 'the earth was emptiness and disorder', with the formula reserved for saying what may not be said, and a parable about insulting a king by mentioning the sewers his palace stands on. Pirkei de-Rabbi Eliezer 3 answers 'from what?' with no embarrassment at all: the heavens from the light of his garment, the earth from the snow beneath the Throne of Glory. Nothing on the Latin bench has that shape, and nothing could have: once matter is the thing at issue, a material that belongs to God is still a material.",
+  "short": "out of nothing?"
  },
  {
   "id": "heaven-earth-order",
