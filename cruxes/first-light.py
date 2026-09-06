@@ -399,3 +399,36 @@ THREADS.extend([
  thread("first-light", "t-k8-p3", "philo-opif-31", "pdre-3-6", "parallel", "Pirkei de-Rabbi Eliezer: the light was created from the light of his garment. Philo: it is an image of the divine Reason. The two answers are the same shape, an emanation from something of God's own rather than a thing made from nothing, and they are the only two on this daf that make the first light continuous with its source. The Latin witnesses that come nearest, the angelic light of Angelomus and the Glossa's spiritual light, all make it a creature."),
  thread("first-light", "t-k8-p4", "philo-opif-30", "b-chag-12a-light", "parallel", "The Bavli says the light the Holy One created on the first day was such that a man could see from one end of the world to the other, and that seeing what the generations would do he stored it away for the righteous. Philo says the intelligible outshines the visible as the mind outshines the eyes of the body. Both are saying that the first light is out of proportion to any use the world has for it; the Bavli answers by removing it from the world, Philo by putting it in a different order of being."),
 ])
+
+# ================================================================ Lyra (Phase 6 part six, 2026-09-06)
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES = dict(globals().get("PLACES", {})); PLACES.update(_ly.PLACES)
+LICENSES = dict(globals().get("LICENSES", {})); LICENSES.update(_ly.LICENSES)
+ANSWERS.update({
+ "lux-est-lux-solis": {
+   "label": "It is the sun's own light",
+   "gloss": "Not a light in the sun's stead but the light of the sun itself, an accidental quality "
+            "from which the other heavenly lights are lit; it was unformed in some respect until "
+            "the fourth day, and the fourth day formed it (Lyra)."},
+})
+
+add(**_ly.LYRA, id="lyra-gen-1-3",
+    anchor={"verse": "gen.1.3"},
+    lemma={"la": "Ista lux est lux solis, que est qualitas accidentalis",
+           "en": "This light is the light of the sun, which is an accidental quality"},
+    original={"lang": "la",
+      "text": "Fiat lux. Ista lux est lux solis, que est qualitas accidentalis, a qua luce alia celi luminaria illustrantur, propter quod ii de anima dicitur quod sol est pater virorum deorumque, quia celi luminaria que ab antiquis vocabantur dii recipiunt lumen a sole. Et vidit Deus lucem quod esset bona, quia utilis est ad multa, ut patebit infra in opere quarte diei. Advertendum tamen quod ista lux solaris, que facta dicitur prima die, adhuc fuit informis quantum ad aliquid usque ad quartum diem, secundum quod dicit Dyonisius iiij capitulo de divinis nominibus. Qualiter autem fuerit formata quarta die patebit infra.",
+      "source": "Koberger 1486-87, leaf n44, left column, lemmas k-l (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+      **_ly.SRC},
+    english={"text": "Let there be light. This light is the light of the sun, which is an accidental quality, and it is from this light that the other lights of heaven are illuminated; on which account it is said in the second book On the Soul that the sun is the father of men and of gods, because the lights of heaven, which the ancients used to call gods, receive their light from the sun. And God saw the light, that it was good, because it is useful for many things, as will appear below in the work of the fourth day. It is to be noted, however, that this solar light, which is said to have been made on the first day, was still unformed in some respect until the fourth day, according to what Dionysius says in the fourth chapter of On the Divine Names. In what way it was formed on the fourth day will appear below.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["first-light"], senses=["literal"],
+    answers=["lux-est-lux-solis", "lux-corporalis", "lux-becomes-luminaries"],
+    notes="The end of this crux on the Latin bench, and it is reached by giving up the question. For a thousand years the difficulty had been that there is light on the first day and no sun until the fourth, and every answer on this daf is a way of holding those apart: an angelic creation, a light stored for the righteous, a luminous cloud, a body of fire in the sun's stead, a brightness like the dawn on a twelve-hour circuit. Lyra does not hold them apart. The light of the first day is the light of the sun, ista lux est lux solis, and the sun's light is an accidental quality from which the other luminaries are lit. The difficulty is then met not by making the light something else but by making the sun's light itself unfinished: it was informis quantum ad aliquid until the fourth day, which is when it was formed. Notice what has changed. Hugh's luminous cloud and Comestor's dawn are inventions required by the chapter; Lyra's answer requires nothing that is not already in the sky. He supports it, oddly, with a tag from the second book On the Soul that the sun is the father of men and of gods, and reads the ancients' gods as the planets, which take their light from the sun.")
+
+THREADS.extend([
+ thread("first-light", "t-k8-l1", "lyra-gen-1-3", "hugh-sacr-1-3", "contests", "Hugh says the light of the first day was made in the sun's stead and place, which concedes that it is not the sun. Lyra says it is: ista lux est lux solis. The two are answering the same objection, that the sun comes on the fourth day, and Lyra's answer costs less -- he does not have to invent a light, only to say that the sun's was not yet finished. Two hundred years apart, and the second is the one that ends the argument."),
+ thread("first-light", "t-k8-l2", "lyra-gen-1-3", "aug-gnl-1-11", "parallel", "Augustine's question -- why then was the sun made -- is the one this crux is made of, and Lyra answers it in a clause: the light of the first day was solar light still unformed in some respect, and the fourth day is what formed it. Where Augustine cannot decide between a spiritual and a bodily light, Lyra has stopped treating the alternative as live."),
+ thread("first-light", "t-k8-l3", "lyra-gen-1-3", "b-chag-12a-light", "contests", "The two most confident answers on this daf, and they are opposites. The Bavli: the light of the first day was such that a man could see by it from one end of the world to the other, and God stored it away for the righteous, so it is not in the world at all. Lyra: it is the light of the sun, which is in the sky now. Both refuse the compromise the middle of this crux is made of; one removes the light from creation, the other identifies it with the most ordinary thing in it."),
+])

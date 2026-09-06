@@ -609,3 +609,32 @@ THREADS.extend([
  thread("good-and-separated", "t-k9-b6", "doering-repl-3", "rashi-1-4", "contests", "Rashi is the third party to this quarrel and the only one who cannot answer. Doering calls him infidelis and says the answer credited to him is in the Latins' own gloss; Burgos, born a rabbi, says the Latin doctors found it first; Lyra says it is more according to the intention of the letter. The daf carries Rashi on this verse, four hundred years earlier, doing the thing that is being fought over."),
  thread("good-and-separated", "t-k9-b7", "lyra-gen-1-4-bonum", "aug-civ-11-20", "parallel", "Augustine's reason for the withheld approval is that the two should not both be called good; Lyra's is that approval regards a completed work and the work of the second day was not finished until the third. Both make the silence deliberate and neither needs the arithmetic of the binary that Rabanus and the Master reached for and that Lyra dismisses. Augustine is on the daf and is not cited by any of the three men arguing about it."),
 ])
+
+ANSWERS.update({
+ "divisio-per-motum-solis": {
+   "label": "The earth's shadow",
+   "gloss": "The dividing is the sun's motion: when it moves over one hemisphere darkness falls on "
+            "the opposite one, because of the opacity of the earth in the middle. Day is the sun's "
+            "passage over the earth and night its hiding (Lyra)."},
+})
+
+add(**_ly.LYRA, id="lyra-gen-1-4-divisio",
+    anchor={"verse": "gen.1.4"},
+    lemma={"la": "Ista divisio est per motum solis",
+           "en": "This dividing is by the motion of the sun"},
+    original={"lang": "la",
+      "text": "Et divisit lucem a tenebris. Ista divisio est per motum solis, quia quando movetur super unum hemisperium fiunt tenebre in opposito hemisperio, propter opacitatem terre que est in medio. Appellavitque lucem diem, quia dies est latio solis super terram. Et tenebras noctem, quia sicut per presentiam solis efficitur dies, ita per suam occultationem efficitur nox.",
+      "source": "Koberger 1486-87, leaf n44, left column, lemmas m-o (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+      **_ly.SRC},
+    english={"text": "And he divided the light from the darkness. This dividing is by the motion of the sun, because when it moves over one hemisphere darkness comes to be in the opposite hemisphere, on account of the opacity of the earth which is in the middle. And he called the light Day, because day is the passage of the sun over the earth. And the darkness Night, because just as day is brought about by the presence of the sun, so night is brought about by its being hidden.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["good-and-separated"], senses=["literal"],
+    answers=["divisio-per-motum-solis", "tenebrae-privatio"],
+    notes="The one answer on this daf that is simply astronomy. Every other witness makes the dividing of light from darkness a question about what darkness is -- a privation ordered like the rests in a song, a creature God also made, the apostate angels, the wicked, the element of fire -- or about what the dividing does, whether it is a naming, an ordering or a judgement. Lyra makes it the earth's shadow. The sun moves over one hemisphere and darkness falls on the other because the earth is opaque and in the middle; day is the sun's passage over the earth and night is the sun being hidden. Augustine's metaphysical difficulty, how a nothing can be divided, does not arise, because on this account nothing is divided from anything: a body is interposed. It is worth setting beside Comestor, who two hundred years earlier knew perfectly well that a shadow is what bodies cast and had to introduce the thought with a quasi. Lyra needs no quasi and does not mention that anyone had ever thought otherwise.")
+
+THREADS.extend([
+ thread("good-and-separated", "t-k9-l1", "lyra-gen-1-4-divisio", "comestor-hs-1-4", "parallel", "Comestor has the physics and cannot commit to it: the darkness is as it were the shadow made by bodies set against the light, and the quasi is doing the work of keeping Augustine's doctrine intact. Two hundred years later Lyra states the same physics flat -- the sun moves over one hemisphere and the earth's opacity puts the other in shadow -- and does not signal that anything is being conceded. The distance between those two sentences is the distance the Latin bench travelled on this crux."),
+ thread("good-and-separated", "t-k9-l2", "lyra-gen-1-4-divisio", "aug-gnm-1-9", "contests", "Augustine's darkness is the absence of light, as silence is the ceasing of voice, and the difficulty he then has to solve is how God can divide a nothing; his answer, that God ordered rather than made it, as a singer orders the rests, is the finest thing on this crux in either language. Lyra keeps the privation and dissolves the difficulty by putting a body in the middle. Nothing is divided from anything: the earth is opaque and stands between. The doctrine survives and the question it was invented to answer has gone."),
+ thread("good-and-separated", "t-k9-l3", "lyra-gen-1-4-divisio", "honorius-hex-1-4", "parallel", "Honorius already had the mechanism in the twelfth century -- twelve hours above the earth and twelve below -- and used it to explain the length of the day rather than the dividing of v. 4. Lyra applies the same fact to the verse itself, so that vayavdel reports what the sun does rather than what God decided about darkness."),
+ thread("good-and-separated", "t-k9-l4", "lyra-gen-1-4-divisio", "ibn-ezra-1-4", "parallel", "Ibn Ezra says the meaning of and he divided is by the calling of names, which empties the verb of any physical content; Lyra fills it with nothing but physical content. Both refuse to let the dividing be an act performed on darkness, and they refuse it from opposite ends -- one because the verse is doing grammar, the other because it is doing astronomy."),
+])

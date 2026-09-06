@@ -1,57 +1,59 @@
-# Next session — what is left on the Lyra leaves
+# The Lyra leaves — closed 2026-09-06, reopenable
 
-**Model: Opus. Estimated ~35–45K.** Small. Two sittings on 2026-09-06 built seven witnesses; this
-is the tail. **Read Phase 6 part six in `notes/SOURCES-FINDINGS.md` first** (both sittings) and do
-not re-survey.
+Three sittings on 2026-09-06 built **ten witnesses** from the Koberger folio (Nuremberg 1486-87,
+archive.org `biblia-sacra-lyra_202308`). **This thread can be left closed without loss.** Read
+Phase 6 part six in `notes/SOURCES-FINDINGS.md` (all three sittings) before reopening it.
 
 ## Built
 
-`lyra-gen-1-1` (K1, K4, K5) · `lyra-gen-1-2-tohu` (K6) · `lyra-gen-1-2-spiritus` (K7) ·
-`lyra-gen-1-4-bonum` (K9) · `lyra-gen-1-5` (K10) · `burgos-add-3` (K9) · `doering-repl-3` (K9).
-Metadata in `scripts/lyra.py` (`LYRA`, `BURGOS`, `DOERING`); licence key `lyra-koberger-1487`.
-⚠ **A K9 finding amendment is written and NOT executed** — see SOURCES-FINDINGS.
-
-## The locator and the geometry — use both, don't rediscover them
-
-`scripts/archive-find.py` gives leaf + pixel box from archive.org's search-inside endpoint. ⛔ Never
-`Lyra_djvu.txt` (no page separators) or `Lyra_hocr_pageindex.json.gz` (leaf offset **drifts**: 3
-near Genesis 1, 6 by folio 30).
-
-**Column edges, measured** — crop inside one column, full column width:
-
-| leaf | columns |
+| witness | crux |
 |---|---|
-| n43 | right column x **0.655–1.00** |
-| n44 | x **0.065–0.44** and **0.455–0.84** |
-| n57 | column 1 x **0.335–0.680** |
-| n61 | column 2 x **0.660–1.00** |
+| `lyra-gen-1-1` | K1, K4, K5 |
+| `lyra-gen-1-2-tohu` | K6 |
+| `lyra-gen-1-2-spiritus` | K7 |
+| `lyra-gen-1-3` | K8 |
+| `lyra-gen-1-4-divisio` | K9 |
+| `lyra-gen-1-4-bonum` | K9 |
+| `lyra-gen-1-5` | K10 |
+| `burgos-add-1` | K4 |
+| `burgos-add-3` | K9 |
+| `doering-repl-3` | K9 |
+
+Metadata `scripts/lyra.py` (`LYRA`, `BURGOS`, `DOERING`); licence key `lyra-koberger-1487`.
+⚠ **A K9 finding amendment is written and NOT executed.** ⚠ The **substitution** (Koberger 1486-87
+for PLAN.md's 1492 Venice) is still unconfirmed by Wilson.
+
+## Rulings taken
+
+⛔ **Additio ix is OUT OF SCOPE and is not to be built.** It answers a Postilla passage on **Gen
+1:21** (the *cete grandia*, and Lyra's *ex quo patet iudeos cecidisse in errorem saracenorum*),
+verified on leaf n47. Neither clause of the anchor rule reaches it: the question it argues is
+whether the beatitude of the future life is bodily, which is not a question any of the ten cruxes
+raises. Do not revisit this without a new argument.
+
+## If reopened — what is left, and it is thin
+
+**Lyra's lemma i** (n43), *Dixitque Deus. Hic incipit opus distinctionis* — structural, K8, low
+value. **Burgos's Additio ij** (n48-51), unread. **Doering's replies** to the other Additiones,
+unread. Estimate ~20K for all three.
+
+## The locator and the geometry — do not rediscover these
+
+`scripts/archive-find.py` returns leaf + pixel box from archive.org's search-inside endpoint.
+⛔ Never `Lyra_djvu.txt` (no page separators) or `Lyra_hocr_pageindex.json.gz` (leaf offset
+**drifts**: 3 near Genesis 1, 6 by folio 30).
+
+| leaf | content | columns |
+|---|---|---|
+| n42 | Lyra's introduction to Genesis | — |
+| n43 | **Gen 1:1-3**, Postilla lemmas a-i | right col x **0.655-1.00** |
+| n44 | **Gen 1:4-10**, Postilla lemmas k-v | x **0.065-0.44**, **0.455-0.84** |
+| n45-46 | Gen 1:11-21, and the second run on Strabus | — |
+| n47 | Gen 1:21-27 (the Saracens passage) | x **0.45-0.84** (col 2) |
+| n48-51 | Burgos's *Additiones* on ch. 1 begin | col 2 x **0.45-0.845** |
+| n57 | Additio iij | col 1 x **0.335-0.680** |
+| n60 | Additio ix (out of scope) | — |
+| n61 | Doering's *Correctorium* begins | col 2 x **0.660-1.00** |
 
 ⛔ A crop across a gutter reads as continuous Latin and is spliced. ⛔ So does a join across an
-untranscribed gap between two crops — transcribe the gap, don't assume the ends meet.
-
-## What is left, in priority order
-
-1. **Burgos's Additio i and ij** (n48–n51) → **K1, K4**. Additio i opens *circa expositionem
-   litteralem huius primi capituli, que valde difficilis est*. These are his substantive additions
-   on Gen 1:1 itself, as against Additio iij which is a quarrel about credit.
-2. ⚠ **Additio ix** (n60) — the best untouched text on the leaves and **the anchor is still not
-   established**. *Sicut inter christianos fuerunt aliqui heretici, ut Arriani, Nestoriani, et
-   huiusmodi, quorum errores non sunt imponendi veris christianis, sic inter iudeos fuerunt aliqui
-   habentes erroneas opiniones que non approbantur a iudeis communiter* — Burgos refusing to let a
-   Jewish error be charged to Jews generally, against Lyra's claim that the Jews fell into the error
-   of the Saracens. **Find and read the Postilla passage it answers before building.** If that
-   passage is on Gen 1:1–5 it is a witness for K2 or K3; if it is not, it is out of scope and should
-   be recorded here rather than forced onto an anchor. Do not guess.
-3. **Lyra's lemma i** (n43), *Dixitque Deus. Hic incipit opus distinctionis* → **K8**. Structural
-   rather than argumentative; low value, build only if the other two come in cheap.
-4. **Lyra's lemmas k–o** (n44 left column), *Fiat lux · Et vidit Deus lucem quod esset bona · Et
-   divisit lucem a tenebris · Appellavitque lucem diem* → **K8, K9**. The division is *per motum
-   solis*, by the sun's motion over one hemisphere and the earth's opacity — a flatly astronomical
-   answer to K9's question that no other witness on the daf gives.
-
-## Standing rules
-
-⛔ Fresh English is `DRAFT`. ⛔ Don't fetch `Lyra.pdf` (3.5 GB). ⛔ `overlap.py` does not cover this
-text; `grep -l` before reusing an id. ⛔ `check.py` after `build-crux.py`; `daf-coverage.py` after
-`npm run build`. ⚠ The **substitution** (Koberger 1486–87 for PLAN.md's 1492 Venice) is still
-unconfirmed by Wilson.
+untranscribed gap between two crops. ⛔ Fresh English is `DRAFT`. ⛔ Don't fetch `Lyra.pdf` (3.5 GB).

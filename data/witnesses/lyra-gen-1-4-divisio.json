@@ -1,0 +1,41 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-4-divisio",
+ "anchor": {
+  "verse": "gen.1.4"
+ },
+ "lemma": {
+  "la": "Ista divisio est per motum solis",
+  "en": "This dividing is by the motion of the sun"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et divisit lucem a tenebris. Ista divisio est per motum solis, quia quando movetur super unum hemisperium fiunt tenebre in opposito hemisperio, propter opacitatem terre que est in medio. Appellavitque lucem diem, quia dies est latio solis super terram. Et tenebras noctem, quia sicut per presentiam solis efficitur dies, ita per suam occultationem efficitur nox.",
+  "source": "Koberger 1486-87, leaf n44, left column, lemmas m-o (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "And he divided the light from the darkness. This dividing is by the motion of the sun, because when it moves over one hemisphere darkness comes to be in the opposite hemisphere, on account of the opacity of the earth which is in the middle. And he called the light Day, because day is the passage of the sun over the earth. And the darkness Night, because just as day is brought about by the presence of the sun, so night is brought about by its being hidden.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "good-and-separated"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "divisio-per-motum-solis",
+  "tenebrae-privatio"
+ ],
+ "notes": "The one answer on this daf that is simply astronomy. Every other witness makes the dividing of light from darkness a question about what darkness is -- a privation ordered like the rests in a song, a creature God also made, the apostate angels, the wicked, the element of fire -- or about what the dividing does, whether it is a naming, an ordering or a judgement. Lyra makes it the earth's shadow. The sun moves over one hemisphere and darkness falls on the other because the earth is opaque and in the middle; day is the sun's passage over the earth and night is the sun being hidden. Augustine's metaphysical difficulty, how a nothing can be divided, does not arise, because on this account nothing is divided from anything: a body is interposed. It is worth setting beside Comestor, who two hundred years earlier knew perfectly well that a shadow is what bodies cast and had to introduce the thought with a quasi. Lyra needs no quasi and does not mention that anyone had ever thought otherwise."
+}

@@ -680,318 +680,6 @@
   "crux": "why-begin-here"
  },
  {
-  "id": "t-k8-01",
-  "from": "pdre-3-6",
-  "to": "br-3-4",
-  "type": "echoes",
-  "evidence": "The garment of Ps 104:2, no longer whispered: Bereshit Rabbah has the Holy One wrap himself in the light like a garment; Pirkei de-Rabbi Eliezer takes the next clause of the same verse — 'who stretches out the heavens like a curtain' — and makes the heavens out of that light.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-02",
-  "from": "br-3-4",
-  "to": "br-3-6",
-  "type": "parallel",
-  "evidence": "Two sections of one compilation asking the crux from opposite ends: 3:4 asks what the light was made from and answers with God's garment and the site of the Temple; 3:6 asks where it is now and answers that it was stored away for the righteous.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-03",
-  "from": "b-chag-12a-light",
-  "to": "br-3-6",
-  "type": "parallel",
-  "evidence": "The same doctrine on two proof texts and neither cites the other: the midrash hides the light because it would dim the sun's disc, and proves the storing from Isa 30:26; the Talmud hides it from the generations of the Flood and the Dispersion, and proves it from Job 38:15 and from 'God saw the light, that it was good' read through Isa 3:10, since 'good' means the righteous.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-04",
-  "from": "rashi-1-4",
-  "to": "b-chag-12a-light",
-  "type": "cites",
-  "evidence": "Rashi names his source — 'here too we must depend upon the statement of the Agada' — and gives R. Elazar's answer: God saw the wicked were unworthy of the light and set it apart for the righteous in the world to come. Silbermann's note supplies the reference to Chagigah 12a.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-05",
-  "from": "rashi-1-4",
-  "to": "br-3-6",
-  "type": "cites",
-  "evidence": "The plain sense, taken from Bereshit Rabbah: it was not seemly that light and darkness should work in confusion, so he assigned each its own hours. Rashi keeps the aggadic hiding and the peshat division side by side and does not merge them.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-06",
-  "from": "aug-gnl-1-11",
-  "to": "b-chag-12a-light",
-  "type": "parallel",
-  "evidence": "The one place on this crux where the benches hold the same opinion in the same words. Augustine: 'this too I know to have been said by someone, that the nature of light was first brought in when it was said Let there be light, but afterwards, when the luminaries are spoken of, it was recorded what was made out of that same light.' The Bavli: 'the sages say, these are the lights that were created on the first day but were not hung up until the fourth.' Augustine cannot name whose opinion it is; the Talmud names the party that holds it, against R. Yaakov.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-07",
-  "from": "alcuin-int-33",
-  "to": "pdre-3-6",
-  "type": "parallel",
-  "evidence": "Both make the first light derive from God himself rather than merely follow him: Alcuin adds to Bede's sentence the words a luce aeterna, so that the temporal light is made out of the eternal one, and Pirkei de-Rabbi Eliezer makes the heavens out of the light of the garment God wears. Neither argues for it; both state it as though it needed none.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-08",
-  "from": "bede-gen-1-3b",
-  "to": "br-3-4",
-  "type": "parallel",
-  "evidence": "The same question — where — and two answers that could not be further apart. Bede: in the upper parts of the earth, the parts the sun's daylight now falls on, and he defends it with the divers who let oil from their mouths. R. Berekhya in the name of R. Yitzḥak: the light was created from the site of the Temple, proved from Ezek 43:2 and Jer 17:12.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-09",
-  "from": "hugh-sacr-1-3",
-  "to": "b-chag-12a-light",
-  "type": "parallel",
-  "evidence": "Both make the first light continuous with the sun rather than replaced by it: the sages hold that the lights were created on the first day and hung on the fourth; Hugh holds that a luminous body was made in the sun's stead and place, turning as the sun turns, until the sun came. The Latin argument is from the fitness of means, the rabbinic from the wording of Gen 1:17.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-10",
-  "from": "pdre-3-6",
-  "to": "aug-gnl-1-11",
-  "type": "parallel",
-  "evidence": "Both make the first light the material of something later: Augustine's unnamed authority has the luminaries made out of it, and Pirkei de-Rabbi Eliezer has the heavens made out of it. On the Latin side this is one option among three and is not adopted; on the rabbinic side it is stated as cosmogony.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-11",
-  "from": "ambrose-hex-1-9",
-  "to": "basil-hex-2-7",
-  "type": "parallel",
-  "evidence": "Ambrose's Hexaemeron follows Basil's Greek homilies closely and this passage is no exception — the light as the world's first ornament, the air taking it up, the suddenness. The witness date here is that of Eustathius' Latin version, which is later than Ambrose; Basil's Greek (378) precedes him and is his source, so the dependence runs the other way from what the dates on this page suggest.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-12",
-  "from": "aug-gnl-1-3",
-  "to": "ambrose-hex-1-9",
-  "type": "contests",
-  "evidence": "Ambrose says God dwells in inaccessible light and is the true light of John 1:9, 'but he made that light' — hanc, the one in the verse, a thing among things. Augustine asks whether the light is spiritual or bodily and answers that it can be the first creature, the spiritual nature called heaven in verse 1, and that 'let there be light' is its conversion. The two positions the rest of the bench divides between are already both in place by 410.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-13",
-  "from": "aug-gnl-1-11",
-  "to": "aug-gnl-1-3",
-  "type": "echoes",
-  "evidence": "Book I asks what the light is; eight chapters later the same book asks what the sun can be for if that light already made a day. The second question is the pressure that produces every physical answer on this crux, and Augustine raises it against himself.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-14",
-  "from": "bede-gen-1-3",
-  "to": "aug-gnl-1-3",
-  "type": "contests",
-  "evidence": "Bede does not refute the angelic light; he steps round it, and the step is in one sentence. He names three lights — God who is the true light, the inaccessible light the angels already enjoyed in the heaven of heavens, and 'the first grace of material light' given to this world — so that the angels are on the page, already made, and are not the light. Alcuin, Rabanus and the Glossa's Bede gloss all inherit the step.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-15",
-  "from": "bede-gen-1-3b",
-  "to": "bede-gen-1-3",
-  "type": "parallel",
-  "evidence": "The same exposition a page later, asking the question a material light forces: where was it, since the abyss covered everything? Bede's answer, the upper parts of the earth, only makes sense because he has already declined to make the light angelic.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-16",
-  "from": "alcuin-int-33",
-  "to": "bede-gen-1-3",
-  "type": "cites",
-  "evidence": "'Congruit operibus Dei … ut esset unde caetera quae crearet apparerent' is Bede word for word, compressed into a schoolroom answer, with a luce aeterna added and the angels of the heaven of heavens dropped.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-17",
-  "from": "rabanus-gen-1-3",
-  "to": "bede-gen-1-3",
-  "type": "cites",
-  "evidence": "Bede reproduced verbatim and unattributed, as at K1, K7 and K10; the only visible editorial act is the chapter heading Rabanus sets over it, 'Ubi lux primum fieri jubetur', which turns a continuous exposition into a lemma.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-18",
-  "from": "angelom-gen-1-3",
-  "to": "aug-gnl-1-3",
-  "type": "echoes",
-  "evidence": "Angelomus takes the side of the bench Bede stepped away from, and states it more sharply than Augustine: the angelic dignity was founded first and was made light afterwards by turning to behold its creator, so that 'let there be light' means 'let it turn to contemplate me unceasingly'.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-19",
-  "from": "angelom-gen-1-3",
-  "to": "b-chag-12a-light",
-  "type": "parallel",
-  "evidence": "The same objection in the same form on both benches: if the luminaries are made on the fourth day, what is this light? The Talmud raises it from Gen 1:17 and answers with R. Elazar's hidden light; Angelomus raises it, floats a light above the firmament from which the sun was lit, and answers with the angels.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-20",
-  "from": "glossa-1-3",
-  "to": "aug-gnl-1-3",
-  "type": "cites",
-  "evidence": "Three of the four glosses on this verse are Augustine, cited by book and chapter, and between them they give the angelic reading entire: 'et facta est lux, id est angelica et coelestis substantia, in se temporaliter', with the doctrine that the creature is formed when it turns to the unchangeable light of the Word.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-21",
-  "from": "glossa-1-3",
-  "to": "bede-gen-1-3b",
-  "type": "cites",
-  "evidence": "The Bede gloss keeps the bodily light with its location and its divers letting oil from their mouths, and cuts the pun that carried Bede's argument — if a man can do it by the oil of his mouth, what can God do by the Spirit of his mouth. What is left is the observation without the reason for making it.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-22",
-  "from": "bruno-gen-1-3",
-  "to": "aug-gnl-1-3",
-  "type": "contests",
-  "evidence": "Bruno asks Augustine's question in Augustine's terms — what is that light, said to be prior to sun and moon and stars? — and then refuses to answer it: God called the light Day, so light here is put for day, and there is nothing further to look for.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-23",
-  "from": "abelard-hex-1-3",
-  "to": "aug-gnl-1-3",
-  "type": "contests",
-  "evidence": "Neither limb of Augustine's disjunction. Abelard makes the light the distinction of the works themselves, the coming-into-distinctness of the confused heap so that it could be seen and known for what it was made for — which is Augustine's own doctrine that darkness is privation, moved from optics to knowledge, and used against him.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-24",
-  "from": "abelard-hex-1-3b",
-  "to": "vulgate-1-3",
-  "type": "contests",
-  "evidence": "'Notandum vero pro eo quod dicimus: Fiat lux, et facta est lux, in Hebraeo haberi: Sit lux, et fuit lux.' Abelard reports the Hebrew against the Latin he is expounding, as K7 found him doing with volitabat at PL 178:735B; the observation is right, and where he got it is unknown.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-25",
-  "from": "abelard-hex-1-3b",
-  "to": "lxx-1-3",
-  "type": "parallel",
-  "evidence": "The feature Abelard finds in the Hebrew — one verb twice, 'let it be' and 'it was' — is exactly what the Greek does with γενηθήτω and ἐγένετο, and exactly what the Latin's fiat / facta est does not. He draws from it the conclusion the whole bench had been reaching for by other means: no delay is interposed.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-26",
-  "from": "honorius-hex-1-3",
-  "to": "remigius-gen-1-3",
-  "type": "echoes",
-  "evidence": "Remigius' twilight — 'not of the kind that now is, with the sun set above, but such as is wont to be before sunrise or after sunset' — becomes Honorius' 'such a brightness as there now is before the rising of the sun', with twelve hours above the earth and twelve below added.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-27",
-  "from": "hugh-adnot-1-3",
-  "to": "honorius-hex-1-3",
-  "type": "parallel",
-  "evidence": "Two Paris and Regensburg sentences of the same decade with the same physics: the light is the element of fire, separated out, carried round the world in a circuit like a luminous cloud, as the sun is now.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-28",
-  "from": "hugh-sacr-1-3",
-  "to": "hugh-adnot-1-3",
-  "type": "echoes",
-  "evidence": "The same author giving the picture in the Adnotationes and the argument in De sacramentis: bodily things can only be lit by a bodily light, every body is in a place, and a light that made evening and morning must have moved, since without motion no span of time is traversed.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-29",
-  "from": "hugh-sacr-1-3",
-  "to": "aug-gnl-1-11",
-  "type": "echoes",
-  "evidence": "Augustine's question — what is the sun for, if that light already made a day — answered by making the first light the sun's placeholder: made vice et loco solis, turning by its own motion until the sun came.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-30",
-  "from": "rupert-gen-1-3",
-  "to": "honorius-hex-1-3",
-  "type": "contests",
-  "evidence": "Rupert states the physical reading with its details — an illumination of the air, twelve hours, three days, no luminaries — and demolishes it on a ground nobody else uses: every other day makes a substance that abides, and this one would make an unstable accident thrown over the air and snuffed out after three days, which is unworthy of the majesty that laid on sun and moon a decree that shall not pass away.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-31",
-  "from": "rupert-gen-1-3",
-  "to": "angelom-gen-1-3",
-  "type": "echoes",
-  "evidence": "'Melius magni et nominatissimi Patres intellexerunt naturam angelicam, lucis nomine significatam' — Rupert appeals to the Fathers for the angelic light and then goes further than they do, insisting in the next chapter that it is said not by likeness but of the thing itself: the visible light and the stars were made in the likeness of that light, not the other way about.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-32",
-  "from": "comestor-hs-1-3",
-  "to": "hugh-adnot-1-3",
-  "type": "echoes",
-  "evidence": "The luminous cloud verbatim — nubes lucida, driven round much as the sun is — with Hugh's element of fire dropped and the dawn brightness of Remigius and Honorius kept.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-33",
-  "from": "comestor-hs-1-3",
-  "to": "remigius-gen-1-3",
-  "type": "echoes",
-  "evidence": "'Claritate tamen tenui, ut fieri solet diluculo' is Remigius' before-sunrise light, two hundred and seventy years on, stated in a handbook as fact rather than as opinion.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-34",
-  "from": "bonaventure-sent-2-13-1-1",
-  "to": "aug-gnl-1-3",
-  "type": "contests",
-  "evidence": "Augustine's position set out at length and fairly — heaven the unformed spiritual nature, light the angelic nature formed, day the angelic consideration — granted to be probable and reasonable, and then declined: the Catholic treatise-writers approved another way, the text more readily intimates it, and the expositors more generally follow it, so it is the safer and more useful to hold.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-35",
-  "from": "bonaventure-sent-2-13-1-1",
-  "to": "comestor-hs-1-3",
-  "type": "parallel",
-  "evidence": "The schools' settled answer in its two registers, as at K10: Comestor prints the luminous cloud in a handbook without noticing that anyone ever thought otherwise, and Bonaventure raises the question in a disputation in order to rule the same way. The corporeal light wins by handbook and by quaestio at once.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-p1",
-  "from": "philo-opif-31",
-  "to": "br-3-4",
-  "type": "parallel",
-  "evidence": "The same question, asked in the same terms, with two answers that are structurally identical and materially unrelated. Bereshit Rabbah 3:4: from what was the light created? R. Shimon says the Holy One wrapped himself in it like a garment and the splendour of his majesty shone from one end of the world to the other. Philo: the intelligible light is an image of the divine Reason, a supercelestial star and the spring of the perceptible stars. Both make the first light an overflow from God rather than a creature standing on its own, and both make the visible lights derivative from it. Neither can have read the other.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-p2",
-  "from": "philo-opif-31",
-  "to": "aug-gnl-1-3",
-  "type": "parallel",
-  "evidence": "Augustine's whether something spiritual or something bodily is the question Philo has already answered, and answered in a way that dissolves the alternative. For Philo the light of the first day is intelligible and the visible lights draw from it, so it is neither a body nor a substitute for one; it is the model. Augustine has no such category available at this point in the Genesis literature and works the question as a disjunction, which is how the Latin bench holds it for the next seven hundred years.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-p3",
-  "from": "philo-opif-31",
-  "to": "pdre-3-6",
-  "type": "parallel",
-  "evidence": "Pirkei de-Rabbi Eliezer: the light was created from the light of his garment. Philo: it is an image of the divine Reason. The two answers are the same shape, an emanation from something of God's own rather than a thing made from nothing, and they are the only two on this daf that make the first light continuous with its source. The Latin witnesses that come nearest, the angelic light of Angelomus and the Glossa's spiritual light, all make it a creature.",
-  "crux": "first-light"
- },
- {
-  "id": "t-k8-p4",
-  "from": "philo-opif-30",
-  "to": "b-chag-12a-light",
-  "type": "parallel",
-  "evidence": "The Bavli says the light the Holy One created on the first day was such that a man could see from one end of the world to the other, and that seeing what the generations would do he stored it away for the righteous. Philo says the intelligible outshines the visible as the mind outshines the eyes of the body. Both are saying that the first light is out of proportion to any use the world has for it; the Bavli answers by removing it from the world, Philo by putting it in a different order of being.",
-  "crux": "first-light"
- },
- {
   "id": "t-k1-01",
   "from": "jerome-hq-1-1",
   "to": "lxx-1-1",
@@ -1822,286 +1510,6 @@
   "type": "parallel",
   "evidence": "Two benches derive the meaning of the verse's hardest words from the words themselves, and neither could have used the other's language. The Bavli makes tohu a green line that encircles the world and from which darkness goes out. Lyra takes the Greek-derived Latin abyssus apart into a-byssus, without whiteness, and gets the darkness of v. 2 out of the etymology of the name for the deep. Both are answering the same question -- what does the verse mean by darkness -- with the resources of the language each happens to be reading it in.",
   "crux": "tohu-vabohu"
- },
- {
-  "id": "t-k4-01",
-  "from": "br-1-9",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "The philosopher: 'Your God was a great artist, but he found good materials that helped him.' Augustine: 'those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen cannot make anything unless they have something to make it from … wood helps the craftsman, silver the silversmith.' The same inference from the same analogy, and the verb is the same in both — the materials help. Thagaste 389, Galilee c. 450, no contact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-02",
-  "from": "br-1-9",
-  "to": "basil-hex-2-2-materia",
-  "type": "parallel",
-  "evidence": "Basil diagnoses the position the philosopher states: 'with us each art is exercised upon some matter brought to it — smithcraft upon iron, carpentry upon wood … so they suppose it is with the divine working too.' Two trades where the midrash has none and Augustine has four, and the same conclusion drawn about God's poverty.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-03",
-  "from": "aug-gnm-1-6-10",
-  "to": "basil-hex-2-2-materia",
-  "type": "parallel",
-  "evidence": "Both answer the craftsman analogy by denying that God receives anything from outside: Basil, 'God is not the deviser of figures but the creator of the whole nature'; Augustine, 'if some thing that he had not himself made helped him, he was not almighty'. Augustine did not read Eustathius' Latin Basil in 389, and the arguments differ in kind — Basil's from the dignity of the unbegotten, Augustine's from omnipotence.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-04",
-  "from": "wigbod-gen-1-1c",
-  "to": "aug-gnm-1-6-10",
-  "type": "transmits",
-  "evidence": "Verbatim to the last clause, including the four trades and 'quod sacrilegum est credere'; Wigbod reads 'de nihilo facta est' where Augustine has 'de omnino nihilo'. Wigbod does not name Augustine here, though he names Jerome elsewhere in the same work.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-05",
-  "from": "angelom-gen-1-1c",
-  "to": "aug-gnm-1-6-10",
-  "type": "echoes",
-  "evidence": "'Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem … non enim faber facit lignum, sed de ligno aliquid facit' — Augustine's clauses reused without his name and recast as reported speech, with the potter dropped and a diagnosis added ('quia attendunt fabrum, et non Deum').",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-06",
-  "from": "hugh-sacr-1-1-nihilo",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "echoes",
-  "evidence": "Ambrose: 'tria principia constituerent omnium, Deum, et exemplar, et materiam … de materia, quam vocant hylen'. Hugh: 'Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam.' The same three-item list with the same qualification (without a principle / uncreated and without beginning), abbreviated to single words and unattributed.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-07",
-  "from": "comestor-hs-1-1c",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "echoes",
-  "evidence": "'Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile' is Ambrose's 'Deum, et exemplar, et materiam … quam vocant hylen' with exemplar resolved into ideae, and Aristotle's two principles, materia et forma, follow in the same order. Epicurus is Comestor's addition.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-08",
-  "from": "basil-hex-2-2-materia",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "parallel",
-  "evidence": "The same position described from the two sides of the Latin/Greek divide within about fifteen years: Ambrose names it (Plato's three principles, hyle uncreated) and Basil argues against it without naming anyone ('if we call this matter unbegotten it is made equal to God'). Ambrose knew Basil's Greek Hexaemeron; this Latin Basil is Eustathius' later version, so the Latin words are not a source for Ambrose's.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-09",
-  "from": "ibn-ezra-1-1c",
-  "to": "rupert-gen-1-1c",
-  "type": "parallel",
-  "evidence": "The same objection from the same two verses, in the same order, answered in opposite directions. Rupert: 'if anyone should object that man too … is said to be created — as it is written, God created man to his own image … or again, God created the great sea-creatures'. Ibn Ezra: 'they have forgotten And God created the crocodiles (Gen 1:21), as well as three times in the same verse, God created man in his image (Gen 1:27)'. Rupert saves the doctrine with a distinction about the matter; Ibn Ezra concludes the verb has a second sense. Liège c. 1115, Lucca c. 1155, no possible contact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-10",
-  "from": "ibn-ezra-1-1c",
-  "to": "abelard-hex-1-1c",
-  "type": "parallel",
-  "evidence": "Abelard secures ex nihilo on the difference between two Latin verbs — creavit of the elements, formavit of man at Gen 2:7 and the animals at 2:19 — where Ibn Ezra dissolves it by showing that the one Hebrew verb bara stands at 1:21 and 1:27 of things made out of something. The Latin distinction is available only because the translation supplies two words where the Hebrew has one at the decisive places.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-11",
-  "from": "abelard-hex-1-1c",
-  "to": "rupert-gen-1-1c",
-  "type": "parallel",
-  "evidence": "Two Latin answers to one difficulty within about fifteen years: Rupert grants that creavit is used of things shaped from matter and refers the word back to the creation of the matter; Abelard denies that it is properly so used at all and assigns those cases to formare. Neither cites the other, and the two answers are incompatible.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-12",
-  "from": "hugh-sacr-1-1-nihilo",
-  "to": "abelard-hex-1-1c",
-  "type": "parallel",
-  "evidence": "The same definition by contrast, in Paris within four years: Abelard, 'creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam'; Hugh, 'quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est'. Neither names the other, and the school relations between them make silence the interesting fact.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-13",
-  "from": "glossa-1-2-materia",
-  "to": "bede-gen-1-2-materia",
-  "type": "transmits",
-  "evidence": "Migne prints the gloss under (BEDA ubi supra.). Bede: 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.' Glossa: 'Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.' The restriction that opened Bede's paragraph — 'Ad haec tantum informis est illa materies' — is not carried over.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-14",
-  "from": "bede-gen-1-2-materia",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "Both hang the difficulty on Wisdom 11:17, 'qui fecisti mundum de materia informi', and take opposite routes out of it: Augustine grants the formless matter and pushes creation one step behind it; Bede restricts the phrase to the earth and the waters before the light came, so that no substrate is conceded at all.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-15",
-  "from": "angelom-gen-1-1c",
-  "to": "bede-gen-1-2-materia",
-  "type": "parallel",
-  "evidence": "Wisdom 11:17 again, quoted in full by Angelomus in the form 'non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia', and used to the opposite end: for Angelomus the verse proves that God made the matter and then made everything out of it, for Bede that 'formless matter' is only a name for the earth and waters in the dark.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-16",
-  "from": "alcuin-int-19-20",
-  "to": "aug-gnl-5-18",
-  "type": "echoes",
-  "evidence": "Alcuin's second mode of divine working — 'in materia informi qui vivit in aeternum, creavit omnia simul (Eccli. XVIII, 1)' — is Augustine's simul doctrine with Augustine's proof text, reduced to one clause and set in a list of four.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-17",
-  "from": "br-1-5b",
-  "to": "br-1-9",
-  "type": "contests",
-  "evidence": "Four sections apart in one compilation, and the second answers the first. BR 1:5: 'were the matter not written explicitly it would not be possible to say it — In the beginning God created — from what? The earth was emptiness and disorder.' BR 1:9: the philosopher names emptiness, disorder, darkness, wind, water and the deeps as the materials God found, and Rabban Gamliel answers that of every one of them creation is written. The same list of six, read once as the stuff the world was made of and once as a list of created things.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-18",
-  "from": "pdre-3-7",
-  "to": "br-1-9",
-  "type": "contests",
-  "evidence": "Pirkei de-Rabbi Eliezer answers 'from what?' with substances — the earth from the snow beneath the Throne of Glory, congealed on the waters, with Job 37:6 for proof; the heavens, in the preceding section, from the light of his garment. Rabban Gamliel's answer to the same question is that nothing was found and everything was created. Neither text acknowledges the other, and both stand in the rabbinic bench's own tradition.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-19",
-  "from": "ramban-1-1c",
-  "to": "ibn-ezra-1-1c",
-  "type": "contests",
-  "evidence": "Ramban names R. Abraham a few lines above this passage and then writes 'there is no expression in the sacred tongue for bringing forth something from nothing other than the word bara' — which is the exact claim Ibn Ezra had refuted from Gen 1:21, Gen 1:27 and Isaiah 45:7. The contest is direct and is the reason the sentence is phrased as an exclusive.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-20",
-  "from": "ramban-1-1c",
-  "to": "hugh-sacr-1-1-nihilo",
-  "type": "parallel",
-  "evidence": "Hugh: 'omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.' Ramban: 'the Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.' The same two-stage doctrine — one creation out of nothing, everything afterwards made out of what was created — with the Greek word for the matter on the Hebrew side and not on the Latin.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-21",
-  "from": "ramban-1-1c",
-  "to": "br-1-5b",
-  "type": "cites",
-  "evidence": "Ramban's tohu is bar Kappara's difficulty resolved: BR 1:5 asks 'from what?' and answers 'the earth was tohu va-vohu', with an apology; Ramban makes tohu the name in the sacred tongue for the hyle, so that the verse now says the world was made out of the one thing that was created out of nothing. He quotes the rabbinic material of this section (and Sefer Yetzirah, 'he created substance from tohu') by name in the lines that follow.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-22",
-  "from": "aug-conf-12-22",
-  "to": "br-1-9",
-  "type": "parallel",
-  "evidence": "One difficulty, two opposite methods. Augustine argues that Genesis' silence about when a thing was made cannot prove it coeternal, and makes the case with a second silence (the waters above the firmament). Rabban Gamliel meets the same objection by breaking the silence item by item: Isaiah 45:7 for tohu and darkness, Psalm 148:4–5 for the waters, Amos 4:13 for the wind, Proverbs 8:24 for the deeps.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-23",
-  "from": "aug-conf-12-22",
-  "to": "aug-conf-12-7",
-  "type": "echoes",
-  "evidence": "The same conclusion reached twice in one book by different routes — at XII.7 from the exhaustive dilemma (not out of God, and nothing else was there, therefore out of nothing), at XII.22 from the failure of the argument from Scripture's silence. The second is the defensive form of the first.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-24",
-  "from": "aug-conf-12-7",
-  "to": "aug-gnm-1-6-10",
-  "type": "echoes",
-  "evidence": "'De nihilo fecisti coelum et terram' restates in prayer what De Genesi contra Manichaeos argued nine years earlier, with the same two-stage structure — formed things out of the matter, the matter out of nothing — now expressed as 'unum prope te, alterum prope nihil'.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-25",
-  "from": "alcuin-int-19-20",
-  "to": "aug-gnm-1-6-10",
-  "type": "parallel",
-  "evidence": "Augustine's doctrine turned into an inventory: 'Quae creaturae de nihilo factae sunt? — Coelum, terra, angeli, lux, aer, aqua et anima hominis.' The list form has no Latin precedent on this crux and exact rabbinic counterparts (b. Chagigah 12a's ten things, PdRE 3's eight), and Alcuin's items are chosen so that no unformed substrate appears on it.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-x1",
-  "from": "ramban-1-2-tohu",
-  "to": "ramban-1-1c",
-  "type": "echoes",
-  "evidence": "Phase 4. One continuous argument that the crux boundaries split in two: having said that the Holy One created all things from absolute non-existence and that after the hyle he created nothing, Ramban goes straight on to name it — the substance the Greeks called hyly is what the sacred tongue calls tohu. The hyle and the tohu are the same thing, and the two witnesses are consecutive sentences.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-x2",
-  "from": "abelard-hex-1-1c",
-  "to": "vulgate-1-1",
-  "type": "cites",
-  "evidence": "Phase 4. Abelard's whole definition of creation rests on a distinction between two Latin verbs — created of what has no pre-existing matter, formed of what is shaped out of matter — and the distinction is available only because the translation supplies two verbs where the Hebrew has one at the places that matter. Ibn Ezra brings the same two verses (Gen 1:21, 1:27) to the opposite conclusion, that bara does not mean bringing forth from nothing, because in Hebrew there is no second verb to escape into.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-c1",
-  "from": "chalcidius-hebraei-versiones",
-  "to": "br-1-9",
-  "type": "parallel",
-  "evidence": "A Latin reporting the rabbinic position on this crux, correctly, and by name. Hebraei syluam generatam esse confitentur — the Hebrews confess that hyle was generated. At Bereshit Rabbah 1:9 a philosopher tells R. Gamliel that his God was a great artist but had good materials to hand — tohu and bohu, darkness, wind, water, the deeps — and is answered that Scripture says of every one of them that it was created. That is the rabbinic bench refusing coeval matter, which is exactly what Chalcidius says the Hebrews hold. He is a fourth-century Latin who knows the other bench's answer to this crux, states it accurately, and is read by nobody who argues the crux afterwards.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-c2",
-  "from": "chalcidius-hebraei-versiones",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "contests",
-  "evidence": "Ambrose sets up the hyle of the philosophers as the position a Christian must refuse, and Chalcidius had already reported the concession that dissolves it. For Ambrose, matter that the craftsman merely finds is a rival to God; for Chalcidius, the Hebrews grant that hyle itself was generated, so the Platonist account of the world's substance and the scriptural account of its origin are not in competition. Ambrose is refuting a Platonism that this Latin Platonist does not hold, forty years earlier and in the same language.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-c3",
-  "from": "chalcidius-terra-sylua",
-  "to": "aug-conf-12-7",
-  "type": "parallel",
-  "evidence": "The same doctrine reached from opposite directions. Augustine works down from God to a formless something 'near to nothing', and needs a page to say what it is not. Chalcidius works up from the Timaeus and has the definition ready: the receiver of all qualities has none of its own by nature, and is therefore called empty; being devoid of all things, it is called nothing. Augustine has the Bible and is short of the vocabulary; Chalcidius has the vocabulary and is using the Bible to confirm it.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-c4",
-  "from": "chalcidius-terra-sylua",
-  "to": "ramban-1-1c",
-  "type": "parallel",
-  "evidence": "The two witnesses on this daf who take the plain sense of the verse to be about matter and still hold that the matter was made. Ramban: bara means from absolute non-existence, and what was drawn out on the first day was a formless substance from which everything after was formed. Chalcidius: the earth of v. 2 is corporeal hyle, the old substance of the world before it took form — and the Hebrews, he has just said, confess it was generated. Girona 1267 and a Latin commentary on the Timaeus of about 350, agreeing on both halves of the crux.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-p1",
-  "from": "philo-opif-21-22",
-  "to": "ambrose-hex-1-1-hyle",
-  "type": "contests",
-  "evidence": "Ambrose refutes this position by name and does not know he is refuting Philo, whom he is elsewhere copying. Ambrose: they say the world was made out of the matter they call hyle, and this is to make God a craftsman rather than a creator. Philo: the substance was of itself without order, without quality, without life, and God being good did not grudge it his own best nature. Every term Ambrose objects to is in the Greek, in that order, in the book his own Hexaemeron follows most closely.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-p2",
-  "from": "philo-opif-21-22",
-  "to": "aug-conf-12-7",
-  "type": "parallel",
-  "evidence": "Augustine's near-nothing is Philo's substance with the one addition that makes it orthodox. Augustine: you made two things, one near to you and one near to nothing, and the formless matter is yours too, made by you out of nothing. Philo: the substance had nothing beautiful of itself but was able to become all things. The description matches almost word for word; what Augustine adds is the clause about where it came from, and that clause is exactly what Philo does not supply.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-p3",
-  "from": "philo-opif-21-22",
-  "to": "chalcidius-terra-sylua",
-  "type": "parallel",
-  "evidence": "The one Latin here who had read Philo, describing hyle in Philo's terms: because it is the receiver of all qualities it has none of its own. That is Philo's apoios, without quality, and Philo's able to become all things. Chalcidius names Philo twice elsewhere in the commentary and does not name him here, which is the ordinary shape of this transmission: the doctrine crosses and the attribution does not.",
-  "crux": "ex-nihilo-or-matter"
- },
- {
-  "id": "t-k4-p4",
-  "from": "philo-opif-21-22",
-  "to": "aug-gnm-1-6-10",
-  "type": "contests",
-  "evidence": "The craftsman argument, from both sides. Augustine reports the objection that craftsmen and workmen of any kind cannot make anything unless they have something to make it from, and answers that God is not a craftsman. Philo is the position Augustine is answering, and he holds it as a description of God's goodness rather than of God's limits: the maker is good, and goodness is what makes him give form to what has none. The Latin bench inherits the objection without the argument that made it worth holding.",
-  "crux": "ex-nihilo-or-matter"
  },
  {
   "id": "t-k5-01",
@@ -3088,6 +2496,342 @@
   "crux": "one-day-evening-first"
  },
  {
+  "id": "t-k8-01",
+  "from": "pdre-3-6",
+  "to": "br-3-4",
+  "type": "echoes",
+  "evidence": "The garment of Ps 104:2, no longer whispered: Bereshit Rabbah has the Holy One wrap himself in the light like a garment; Pirkei de-Rabbi Eliezer takes the next clause of the same verse — 'who stretches out the heavens like a curtain' — and makes the heavens out of that light.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-02",
+  "from": "br-3-4",
+  "to": "br-3-6",
+  "type": "parallel",
+  "evidence": "Two sections of one compilation asking the crux from opposite ends: 3:4 asks what the light was made from and answers with God's garment and the site of the Temple; 3:6 asks where it is now and answers that it was stored away for the righteous.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-03",
+  "from": "b-chag-12a-light",
+  "to": "br-3-6",
+  "type": "parallel",
+  "evidence": "The same doctrine on two proof texts and neither cites the other: the midrash hides the light because it would dim the sun's disc, and proves the storing from Isa 30:26; the Talmud hides it from the generations of the Flood and the Dispersion, and proves it from Job 38:15 and from 'God saw the light, that it was good' read through Isa 3:10, since 'good' means the righteous.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-04",
+  "from": "rashi-1-4",
+  "to": "b-chag-12a-light",
+  "type": "cites",
+  "evidence": "Rashi names his source — 'here too we must depend upon the statement of the Agada' — and gives R. Elazar's answer: God saw the wicked were unworthy of the light and set it apart for the righteous in the world to come. Silbermann's note supplies the reference to Chagigah 12a.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-05",
+  "from": "rashi-1-4",
+  "to": "br-3-6",
+  "type": "cites",
+  "evidence": "The plain sense, taken from Bereshit Rabbah: it was not seemly that light and darkness should work in confusion, so he assigned each its own hours. Rashi keeps the aggadic hiding and the peshat division side by side and does not merge them.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-06",
+  "from": "aug-gnl-1-11",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "The one place on this crux where the benches hold the same opinion in the same words. Augustine: 'this too I know to have been said by someone, that the nature of light was first brought in when it was said Let there be light, but afterwards, when the luminaries are spoken of, it was recorded what was made out of that same light.' The Bavli: 'the sages say, these are the lights that were created on the first day but were not hung up until the fourth.' Augustine cannot name whose opinion it is; the Talmud names the party that holds it, against R. Yaakov.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-07",
+  "from": "alcuin-int-33",
+  "to": "pdre-3-6",
+  "type": "parallel",
+  "evidence": "Both make the first light derive from God himself rather than merely follow him: Alcuin adds to Bede's sentence the words a luce aeterna, so that the temporal light is made out of the eternal one, and Pirkei de-Rabbi Eliezer makes the heavens out of the light of the garment God wears. Neither argues for it; both state it as though it needed none.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-08",
+  "from": "bede-gen-1-3b",
+  "to": "br-3-4",
+  "type": "parallel",
+  "evidence": "The same question — where — and two answers that could not be further apart. Bede: in the upper parts of the earth, the parts the sun's daylight now falls on, and he defends it with the divers who let oil from their mouths. R. Berekhya in the name of R. Yitzḥak: the light was created from the site of the Temple, proved from Ezek 43:2 and Jer 17:12.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-09",
+  "from": "hugh-sacr-1-3",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "Both make the first light continuous with the sun rather than replaced by it: the sages hold that the lights were created on the first day and hung on the fourth; Hugh holds that a luminous body was made in the sun's stead and place, turning as the sun turns, until the sun came. The Latin argument is from the fitness of means, the rabbinic from the wording of Gen 1:17.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-10",
+  "from": "pdre-3-6",
+  "to": "aug-gnl-1-11",
+  "type": "parallel",
+  "evidence": "Both make the first light the material of something later: Augustine's unnamed authority has the luminaries made out of it, and Pirkei de-Rabbi Eliezer has the heavens made out of it. On the Latin side this is one option among three and is not adopted; on the rabbinic side it is stated as cosmogony.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-11",
+  "from": "ambrose-hex-1-9",
+  "to": "basil-hex-2-7",
+  "type": "parallel",
+  "evidence": "Ambrose's Hexaemeron follows Basil's Greek homilies closely and this passage is no exception — the light as the world's first ornament, the air taking it up, the suddenness. The witness date here is that of Eustathius' Latin version, which is later than Ambrose; Basil's Greek (378) precedes him and is his source, so the dependence runs the other way from what the dates on this page suggest.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-12",
+  "from": "aug-gnl-1-3",
+  "to": "ambrose-hex-1-9",
+  "type": "contests",
+  "evidence": "Ambrose says God dwells in inaccessible light and is the true light of John 1:9, 'but he made that light' — hanc, the one in the verse, a thing among things. Augustine asks whether the light is spiritual or bodily and answers that it can be the first creature, the spiritual nature called heaven in verse 1, and that 'let there be light' is its conversion. The two positions the rest of the bench divides between are already both in place by 410.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-13",
+  "from": "aug-gnl-1-11",
+  "to": "aug-gnl-1-3",
+  "type": "echoes",
+  "evidence": "Book I asks what the light is; eight chapters later the same book asks what the sun can be for if that light already made a day. The second question is the pressure that produces every physical answer on this crux, and Augustine raises it against himself.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-14",
+  "from": "bede-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Bede does not refute the angelic light; he steps round it, and the step is in one sentence. He names three lights — God who is the true light, the inaccessible light the angels already enjoyed in the heaven of heavens, and 'the first grace of material light' given to this world — so that the angels are on the page, already made, and are not the light. Alcuin, Rabanus and the Glossa's Bede gloss all inherit the step.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-15",
+  "from": "bede-gen-1-3b",
+  "to": "bede-gen-1-3",
+  "type": "parallel",
+  "evidence": "The same exposition a page later, asking the question a material light forces: where was it, since the abyss covered everything? Bede's answer, the upper parts of the earth, only makes sense because he has already declined to make the light angelic.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-16",
+  "from": "alcuin-int-33",
+  "to": "bede-gen-1-3",
+  "type": "cites",
+  "evidence": "'Congruit operibus Dei … ut esset unde caetera quae crearet apparerent' is Bede word for word, compressed into a schoolroom answer, with a luce aeterna added and the angels of the heaven of heavens dropped.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-17",
+  "from": "rabanus-gen-1-3",
+  "to": "bede-gen-1-3",
+  "type": "cites",
+  "evidence": "Bede reproduced verbatim and unattributed, as at K1, K7 and K10; the only visible editorial act is the chapter heading Rabanus sets over it, 'Ubi lux primum fieri jubetur', which turns a continuous exposition into a lemma.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-18",
+  "from": "angelom-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "echoes",
+  "evidence": "Angelomus takes the side of the bench Bede stepped away from, and states it more sharply than Augustine: the angelic dignity was founded first and was made light afterwards by turning to behold its creator, so that 'let there be light' means 'let it turn to contemplate me unceasingly'.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-19",
+  "from": "angelom-gen-1-3",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "The same objection in the same form on both benches: if the luminaries are made on the fourth day, what is this light? The Talmud raises it from Gen 1:17 and answers with R. Elazar's hidden light; Angelomus raises it, floats a light above the firmament from which the sun was lit, and answers with the angels.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-20",
+  "from": "glossa-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "cites",
+  "evidence": "Three of the four glosses on this verse are Augustine, cited by book and chapter, and between them they give the angelic reading entire: 'et facta est lux, id est angelica et coelestis substantia, in se temporaliter', with the doctrine that the creature is formed when it turns to the unchangeable light of the Word.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-21",
+  "from": "glossa-1-3",
+  "to": "bede-gen-1-3b",
+  "type": "cites",
+  "evidence": "The Bede gloss keeps the bodily light with its location and its divers letting oil from their mouths, and cuts the pun that carried Bede's argument — if a man can do it by the oil of his mouth, what can God do by the Spirit of his mouth. What is left is the observation without the reason for making it.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-22",
+  "from": "bruno-gen-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Bruno asks Augustine's question in Augustine's terms — what is that light, said to be prior to sun and moon and stars? — and then refuses to answer it: God called the light Day, so light here is put for day, and there is nothing further to look for.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-23",
+  "from": "abelard-hex-1-3",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Neither limb of Augustine's disjunction. Abelard makes the light the distinction of the works themselves, the coming-into-distinctness of the confused heap so that it could be seen and known for what it was made for — which is Augustine's own doctrine that darkness is privation, moved from optics to knowledge, and used against him.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-24",
+  "from": "abelard-hex-1-3b",
+  "to": "vulgate-1-3",
+  "type": "contests",
+  "evidence": "'Notandum vero pro eo quod dicimus: Fiat lux, et facta est lux, in Hebraeo haberi: Sit lux, et fuit lux.' Abelard reports the Hebrew against the Latin he is expounding, as K7 found him doing with volitabat at PL 178:735B; the observation is right, and where he got it is unknown.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-25",
+  "from": "abelard-hex-1-3b",
+  "to": "lxx-1-3",
+  "type": "parallel",
+  "evidence": "The feature Abelard finds in the Hebrew — one verb twice, 'let it be' and 'it was' — is exactly what the Greek does with γενηθήτω and ἐγένετο, and exactly what the Latin's fiat / facta est does not. He draws from it the conclusion the whole bench had been reaching for by other means: no delay is interposed.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-26",
+  "from": "honorius-hex-1-3",
+  "to": "remigius-gen-1-3",
+  "type": "echoes",
+  "evidence": "Remigius' twilight — 'not of the kind that now is, with the sun set above, but such as is wont to be before sunrise or after sunset' — becomes Honorius' 'such a brightness as there now is before the rising of the sun', with twelve hours above the earth and twelve below added.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-27",
+  "from": "hugh-adnot-1-3",
+  "to": "honorius-hex-1-3",
+  "type": "parallel",
+  "evidence": "Two Paris and Regensburg sentences of the same decade with the same physics: the light is the element of fire, separated out, carried round the world in a circuit like a luminous cloud, as the sun is now.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-28",
+  "from": "hugh-sacr-1-3",
+  "to": "hugh-adnot-1-3",
+  "type": "echoes",
+  "evidence": "The same author giving the picture in the Adnotationes and the argument in De sacramentis: bodily things can only be lit by a bodily light, every body is in a place, and a light that made evening and morning must have moved, since without motion no span of time is traversed.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-29",
+  "from": "hugh-sacr-1-3",
+  "to": "aug-gnl-1-11",
+  "type": "echoes",
+  "evidence": "Augustine's question — what is the sun for, if that light already made a day — answered by making the first light the sun's placeholder: made vice et loco solis, turning by its own motion until the sun came.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-30",
+  "from": "rupert-gen-1-3",
+  "to": "honorius-hex-1-3",
+  "type": "contests",
+  "evidence": "Rupert states the physical reading with its details — an illumination of the air, twelve hours, three days, no luminaries — and demolishes it on a ground nobody else uses: every other day makes a substance that abides, and this one would make an unstable accident thrown over the air and snuffed out after three days, which is unworthy of the majesty that laid on sun and moon a decree that shall not pass away.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-31",
+  "from": "rupert-gen-1-3",
+  "to": "angelom-gen-1-3",
+  "type": "echoes",
+  "evidence": "'Melius magni et nominatissimi Patres intellexerunt naturam angelicam, lucis nomine significatam' — Rupert appeals to the Fathers for the angelic light and then goes further than they do, insisting in the next chapter that it is said not by likeness but of the thing itself: the visible light and the stars were made in the likeness of that light, not the other way about.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-32",
+  "from": "comestor-hs-1-3",
+  "to": "hugh-adnot-1-3",
+  "type": "echoes",
+  "evidence": "The luminous cloud verbatim — nubes lucida, driven round much as the sun is — with Hugh's element of fire dropped and the dawn brightness of Remigius and Honorius kept.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-33",
+  "from": "comestor-hs-1-3",
+  "to": "remigius-gen-1-3",
+  "type": "echoes",
+  "evidence": "'Claritate tamen tenui, ut fieri solet diluculo' is Remigius' before-sunrise light, two hundred and seventy years on, stated in a handbook as fact rather than as opinion.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-34",
+  "from": "bonaventure-sent-2-13-1-1",
+  "to": "aug-gnl-1-3",
+  "type": "contests",
+  "evidence": "Augustine's position set out at length and fairly — heaven the unformed spiritual nature, light the angelic nature formed, day the angelic consideration — granted to be probable and reasonable, and then declined: the Catholic treatise-writers approved another way, the text more readily intimates it, and the expositors more generally follow it, so it is the safer and more useful to hold.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-35",
+  "from": "bonaventure-sent-2-13-1-1",
+  "to": "comestor-hs-1-3",
+  "type": "parallel",
+  "evidence": "The schools' settled answer in its two registers, as at K10: Comestor prints the luminous cloud in a handbook without noticing that anyone ever thought otherwise, and Bonaventure raises the question in a disputation in order to rule the same way. The corporeal light wins by handbook and by quaestio at once.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-p1",
+  "from": "philo-opif-31",
+  "to": "br-3-4",
+  "type": "parallel",
+  "evidence": "The same question, asked in the same terms, with two answers that are structurally identical and materially unrelated. Bereshit Rabbah 3:4: from what was the light created? R. Shimon says the Holy One wrapped himself in it like a garment and the splendour of his majesty shone from one end of the world to the other. Philo: the intelligible light is an image of the divine Reason, a supercelestial star and the spring of the perceptible stars. Both make the first light an overflow from God rather than a creature standing on its own, and both make the visible lights derivative from it. Neither can have read the other.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-p2",
+  "from": "philo-opif-31",
+  "to": "aug-gnl-1-3",
+  "type": "parallel",
+  "evidence": "Augustine's whether something spiritual or something bodily is the question Philo has already answered, and answered in a way that dissolves the alternative. For Philo the light of the first day is intelligible and the visible lights draw from it, so it is neither a body nor a substitute for one; it is the model. Augustine has no such category available at this point in the Genesis literature and works the question as a disjunction, which is how the Latin bench holds it for the next seven hundred years.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-p3",
+  "from": "philo-opif-31",
+  "to": "pdre-3-6",
+  "type": "parallel",
+  "evidence": "Pirkei de-Rabbi Eliezer: the light was created from the light of his garment. Philo: it is an image of the divine Reason. The two answers are the same shape, an emanation from something of God's own rather than a thing made from nothing, and they are the only two on this daf that make the first light continuous with its source. The Latin witnesses that come nearest, the angelic light of Angelomus and the Glossa's spiritual light, all make it a creature.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-p4",
+  "from": "philo-opif-30",
+  "to": "b-chag-12a-light",
+  "type": "parallel",
+  "evidence": "The Bavli says the light the Holy One created on the first day was such that a man could see from one end of the world to the other, and that seeing what the generations would do he stored it away for the righteous. Philo says the intelligible outshines the visible as the mind outshines the eyes of the body. Both are saying that the first light is out of proportion to any use the world has for it; the Bavli answers by removing it from the world, Philo by putting it in a different order of being.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-l1",
+  "from": "lyra-gen-1-3",
+  "to": "hugh-sacr-1-3",
+  "type": "contests",
+  "evidence": "Hugh says the light of the first day was made in the sun's stead and place, which concedes that it is not the sun. Lyra says it is: ista lux est lux solis. The two are answering the same objection, that the sun comes on the fourth day, and Lyra's answer costs less -- he does not have to invent a light, only to say that the sun's was not yet finished. Two hundred years apart, and the second is the one that ends the argument.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-l2",
+  "from": "lyra-gen-1-3",
+  "to": "aug-gnl-1-11",
+  "type": "parallel",
+  "evidence": "Augustine's question -- why then was the sun made -- is the one this crux is made of, and Lyra answers it in a clause: the light of the first day was solar light still unformed in some respect, and the fourth day is what formed it. Where Augustine cannot decide between a spiritual and a bodily light, Lyra has stopped treating the alternative as live.",
+  "crux": "first-light"
+ },
+ {
+  "id": "t-k8-l3",
+  "from": "lyra-gen-1-3",
+  "to": "b-chag-12a-light",
+  "type": "contests",
+  "evidence": "The two most confident answers on this daf, and they are opposites. The Bavli: the light of the first day was such that a man could see by it from one end of the world to the other, and God stored it away for the righteous, so it is not in the world at all. Lyra: it is the light of the sun, which is in the sky now. Both refuse the compromise the middle of this crux is made of; one removes the light from creation, the other identifies it with the most ordinary thing in it.",
+  "crux": "first-light"
+ },
+ {
   "id": "t-k9-01",
   "from": "aug-civ-11-20",
   "to": "br-3-6c",
@@ -3566,5 +3310,341 @@
   "type": "parallel",
   "evidence": "Augustine's reason for the withheld approval is that the two should not both be called good; Lyra's is that approval regards a completed work and the work of the second day was not finished until the third. Both make the silence deliberate and neither needs the arithmetic of the binary that Rabanus and the Master reached for and that Lyra dismisses. Augustine is on the daf and is not cited by any of the three men arguing about it.",
   "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-l1",
+  "from": "lyra-gen-1-4-divisio",
+  "to": "comestor-hs-1-4",
+  "type": "parallel",
+  "evidence": "Comestor has the physics and cannot commit to it: the darkness is as it were the shadow made by bodies set against the light, and the quasi is doing the work of keeping Augustine's doctrine intact. Two hundred years later Lyra states the same physics flat -- the sun moves over one hemisphere and the earth's opacity puts the other in shadow -- and does not signal that anything is being conceded. The distance between those two sentences is the distance the Latin bench travelled on this crux.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-l2",
+  "from": "lyra-gen-1-4-divisio",
+  "to": "aug-gnm-1-9",
+  "type": "contests",
+  "evidence": "Augustine's darkness is the absence of light, as silence is the ceasing of voice, and the difficulty he then has to solve is how God can divide a nothing; his answer, that God ordered rather than made it, as a singer orders the rests, is the finest thing on this crux in either language. Lyra keeps the privation and dissolves the difficulty by putting a body in the middle. Nothing is divided from anything: the earth is opaque and stands between. The doctrine survives and the question it was invented to answer has gone.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-l3",
+  "from": "lyra-gen-1-4-divisio",
+  "to": "honorius-hex-1-4",
+  "type": "parallel",
+  "evidence": "Honorius already had the mechanism in the twelfth century -- twelve hours above the earth and twelve below -- and used it to explain the length of the day rather than the dividing of v. 4. Lyra applies the same fact to the verse itself, so that vayavdel reports what the sun does rather than what God decided about darkness.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k9-l4",
+  "from": "lyra-gen-1-4-divisio",
+  "to": "ibn-ezra-1-4",
+  "type": "parallel",
+  "evidence": "Ibn Ezra says the meaning of and he divided is by the calling of names, which empties the verb of any physical content; Lyra fills it with nothing but physical content. Both refuse to let the dividing be an act performed on darkness, and they refuse it from opposite ends -- one because the verse is doing grammar, the other because it is doing astronomy.",
+  "crux": "good-and-separated"
+ },
+ {
+  "id": "t-k4-01",
+  "from": "br-1-9",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "The philosopher: 'Your God was a great artist, but he found good materials that helped him.' Augustine: 'those who do not believe that almighty God could make anything out of nothing, when they consider that craftsmen and workmen cannot make anything unless they have something to make it from … wood helps the craftsman, silver the silversmith.' The same inference from the same analogy, and the verb is the same in both — the materials help. Thagaste 389, Galilee c. 450, no contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-02",
+  "from": "br-1-9",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Basil diagnoses the position the philosopher states: 'with us each art is exercised upon some matter brought to it — smithcraft upon iron, carpentry upon wood … so they suppose it is with the divine working too.' Two trades where the midrash has none and Augustine has four, and the same conclusion drawn about God's poverty.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-03",
+  "from": "aug-gnm-1-6-10",
+  "to": "basil-hex-2-2-materia",
+  "type": "parallel",
+  "evidence": "Both answer the craftsman analogy by denying that God receives anything from outside: Basil, 'God is not the deviser of figures but the creator of the whole nature'; Augustine, 'if some thing that he had not himself made helped him, he was not almighty'. Augustine did not read Eustathius' Latin Basil in 389, and the arguments differ in kind — Basil's from the dignity of the unbegotten, Augustine's from omnipotence.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-04",
+  "from": "wigbod-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "transmits",
+  "evidence": "Verbatim to the last clause, including the four trades and 'quod sacrilegum est credere'; Wigbod reads 'de nihilo facta est' where Augustine has 'de omnino nihilo'. Wigbod does not name Augustine here, though he names Jerome elsewhere in the same work.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-05",
+  "from": "angelom-gen-1-1c",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'Aiunt enim: Lignum adjuvat fabrum, et argentum argentarium, et aurum aurificem … non enim faber facit lignum, sed de ligno aliquid facit' — Augustine's clauses reused without his name and recast as reported speech, with the potter dropped and a diagnosis added ('quia attendunt fabrum, et non Deum').",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-06",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "Ambrose: 'tria principia constituerent omnium, Deum, et exemplar, et materiam … de materia, quam vocant hylen'. Hugh: 'Philosophi gentilium tria quaedam rerum principia sine principio posuerunt: opificem, materiam et formam.' The same three-item list with the same qualification (without a principle / uncreated and without beginning), abbreviated to single words and unattributed.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-07",
+  "from": "comestor-hs-1-1c",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "echoes",
+  "evidence": "'Plato dixit tria fuisse ab aeterno, scilicet Deum ideas, ile' is Ambrose's 'Deum, et exemplar, et materiam … quam vocant hylen' with exemplar resolved into ideae, and Aristotle's two principles, materia et forma, follow in the same order. Epicurus is Comestor's addition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-08",
+  "from": "basil-hex-2-2-materia",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "parallel",
+  "evidence": "The same position described from the two sides of the Latin/Greek divide within about fifteen years: Ambrose names it (Plato's three principles, hyle uncreated) and Basil argues against it without naming anyone ('if we call this matter unbegotten it is made equal to God'). Ambrose knew Basil's Greek Hexaemeron; this Latin Basil is Eustathius' later version, so the Latin words are not a source for Ambrose's.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-09",
+  "from": "ibn-ezra-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "The same objection from the same two verses, in the same order, answered in opposite directions. Rupert: 'if anyone should object that man too … is said to be created — as it is written, God created man to his own image … or again, God created the great sea-creatures'. Ibn Ezra: 'they have forgotten And God created the crocodiles (Gen 1:21), as well as three times in the same verse, God created man in his image (Gen 1:27)'. Rupert saves the doctrine with a distinction about the matter; Ibn Ezra concludes the verb has a second sense. Liège c. 1115, Lucca c. 1155, no possible contact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-10",
+  "from": "ibn-ezra-1-1c",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "Abelard secures ex nihilo on the difference between two Latin verbs — creavit of the elements, formavit of man at Gen 2:7 and the animals at 2:19 — where Ibn Ezra dissolves it by showing that the one Hebrew verb bara stands at 1:21 and 1:27 of things made out of something. The Latin distinction is available only because the translation supplies two words where the Hebrew has one at the decisive places.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-11",
+  "from": "abelard-hex-1-1c",
+  "to": "rupert-gen-1-1c",
+  "type": "parallel",
+  "evidence": "Two Latin answers to one difficulty within about fifteen years: Rupert grants that creavit is used of things shaped from matter and refers the word back to the creation of the matter; Abelard denies that it is properly so used at all and assigns those cases to formare. Neither cites the other, and the two answers are incompatible.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-12",
+  "from": "hugh-sacr-1-1-nihilo",
+  "to": "abelard-hex-1-1c",
+  "type": "parallel",
+  "evidence": "The same definition by contrast, in Paris within four years: Abelard, 'creari proprie id dicitur, quod de non esse ita ad esse producitur, ut praejacentem non habeat materiam'; Hugh, 'quod de aliquo factum est, factum quidem est sed creatum non est; quia de nihilo factum non est'. Neither names the other, and the school relations between them make silence the interesting fact.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-13",
+  "from": "glossa-1-2-materia",
+  "to": "bede-gen-1-2-materia",
+  "type": "transmits",
+  "evidence": "Migne prints the gloss under (BEDA ubi supra.). Bede: 'cuncta quae cum aquis et terra videre solemus in mundo, vel de ipsis exordium naturae, vel sumpsere de nihilo; ipsa autem terra et ipsae aquae propterea nomen sortitae sunt materiae informis, quia priusquam in lucem venirent, unde formositatem haberent non erat.' Glossa: 'Ipsa autem terra et aqua informis dicuntur materia, quia omnia quae videmus, vel ex istis sumpserunt exordium, vel ex nihilo: et priusquam in lucem venirent, non erat unde formam haberent.' The restriction that opened Bede's paragraph — 'Ad haec tantum informis est illa materies' — is not carried over.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-14",
+  "from": "bede-gen-1-2-materia",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Both hang the difficulty on Wisdom 11:17, 'qui fecisti mundum de materia informi', and take opposite routes out of it: Augustine grants the formless matter and pushes creation one step behind it; Bede restricts the phrase to the earth and the waters before the light came, so that no substrate is conceded at all.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-15",
+  "from": "angelom-gen-1-1c",
+  "to": "bede-gen-1-2-materia",
+  "type": "parallel",
+  "evidence": "Wisdom 11:17 again, quoted in full by Angelomus in the form 'non enim erat manus tua, Domine, invalida, qua creasti mundum ex informi materia', and used to the opposite end: for Angelomus the verse proves that God made the matter and then made everything out of it, for Bede that 'formless matter' is only a name for the earth and waters in the dark.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-16",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnl-5-18",
+  "type": "echoes",
+  "evidence": "Alcuin's second mode of divine working — 'in materia informi qui vivit in aeternum, creavit omnia simul (Eccli. XVIII, 1)' — is Augustine's simul doctrine with Augustine's proof text, reduced to one clause and set in a list of four.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-17",
+  "from": "br-1-5b",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Four sections apart in one compilation, and the second answers the first. BR 1:5: 'were the matter not written explicitly it would not be possible to say it — In the beginning God created — from what? The earth was emptiness and disorder.' BR 1:9: the philosopher names emptiness, disorder, darkness, wind, water and the deeps as the materials God found, and Rabban Gamliel answers that of every one of them creation is written. The same list of six, read once as the stuff the world was made of and once as a list of created things.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-18",
+  "from": "pdre-3-7",
+  "to": "br-1-9",
+  "type": "contests",
+  "evidence": "Pirkei de-Rabbi Eliezer answers 'from what?' with substances — the earth from the snow beneath the Throne of Glory, congealed on the waters, with Job 37:6 for proof; the heavens, in the preceding section, from the light of his garment. Rabban Gamliel's answer to the same question is that nothing was found and everything was created. Neither text acknowledges the other, and both stand in the rabbinic bench's own tradition.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-19",
+  "from": "ramban-1-1c",
+  "to": "ibn-ezra-1-1c",
+  "type": "contests",
+  "evidence": "Ramban names R. Abraham a few lines above this passage and then writes 'there is no expression in the sacred tongue for bringing forth something from nothing other than the word bara' — which is the exact claim Ibn Ezra had refuted from Gen 1:21, Gen 1:27 and Isaiah 45:7. The contest is direct and is the reason the sentence is phrased as an exclusive.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-20",
+  "from": "ramban-1-1c",
+  "to": "hugh-sacr-1-1-nihilo",
+  "type": "parallel",
+  "evidence": "Hugh: 'omnia ergo quae facta sunt, Deus non solum ex materia fecit, sed materiam omnium ipse de nihilo creavit.' Ramban: 'the Holy One, blessed be He, created these two substances from nothing; they alone were created, and everything else was constructed from them.' The same two-stage doctrine — one creation out of nothing, everything afterwards made out of what was created — with the Greek word for the matter on the Hebrew side and not on the Latin.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-21",
+  "from": "ramban-1-1c",
+  "to": "br-1-5b",
+  "type": "cites",
+  "evidence": "Ramban's tohu is bar Kappara's difficulty resolved: BR 1:5 asks 'from what?' and answers 'the earth was tohu va-vohu', with an apology; Ramban makes tohu the name in the sacred tongue for the hyle, so that the verse now says the world was made out of the one thing that was created out of nothing. He quotes the rabbinic material of this section (and Sefer Yetzirah, 'he created substance from tohu') by name in the lines that follow.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-22",
+  "from": "aug-conf-12-22",
+  "to": "br-1-9",
+  "type": "parallel",
+  "evidence": "One difficulty, two opposite methods. Augustine argues that Genesis' silence about when a thing was made cannot prove it coeternal, and makes the case with a second silence (the waters above the firmament). Rabban Gamliel meets the same objection by breaking the silence item by item: Isaiah 45:7 for tohu and darkness, Psalm 148:4–5 for the waters, Amos 4:13 for the wind, Proverbs 8:24 for the deeps.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-23",
+  "from": "aug-conf-12-22",
+  "to": "aug-conf-12-7",
+  "type": "echoes",
+  "evidence": "The same conclusion reached twice in one book by different routes — at XII.7 from the exhaustive dilemma (not out of God, and nothing else was there, therefore out of nothing), at XII.22 from the failure of the argument from Scripture's silence. The second is the defensive form of the first.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-24",
+  "from": "aug-conf-12-7",
+  "to": "aug-gnm-1-6-10",
+  "type": "echoes",
+  "evidence": "'De nihilo fecisti coelum et terram' restates in prayer what De Genesi contra Manichaeos argued nine years earlier, with the same two-stage structure — formed things out of the matter, the matter out of nothing — now expressed as 'unum prope te, alterum prope nihil'.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-25",
+  "from": "alcuin-int-19-20",
+  "to": "aug-gnm-1-6-10",
+  "type": "parallel",
+  "evidence": "Augustine's doctrine turned into an inventory: 'Quae creaturae de nihilo factae sunt? — Coelum, terra, angeli, lux, aer, aqua et anima hominis.' The list form has no Latin precedent on this crux and exact rabbinic counterparts (b. Chagigah 12a's ten things, PdRE 3's eight), and Alcuin's items are chosen so that no unformed substrate appears on it.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-x1",
+  "from": "ramban-1-2-tohu",
+  "to": "ramban-1-1c",
+  "type": "echoes",
+  "evidence": "Phase 4. One continuous argument that the crux boundaries split in two: having said that the Holy One created all things from absolute non-existence and that after the hyle he created nothing, Ramban goes straight on to name it — the substance the Greeks called hyly is what the sacred tongue calls tohu. The hyle and the tohu are the same thing, and the two witnesses are consecutive sentences.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-x2",
+  "from": "abelard-hex-1-1c",
+  "to": "vulgate-1-1",
+  "type": "cites",
+  "evidence": "Phase 4. Abelard's whole definition of creation rests on a distinction between two Latin verbs — created of what has no pre-existing matter, formed of what is shaped out of matter — and the distinction is available only because the translation supplies two verbs where the Hebrew has one at the places that matter. Ibn Ezra brings the same two verses (Gen 1:21, 1:27) to the opposite conclusion, that bara does not mean bringing forth from nothing, because in Hebrew there is no second verb to escape into.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-c1",
+  "from": "chalcidius-hebraei-versiones",
+  "to": "br-1-9",
+  "type": "parallel",
+  "evidence": "A Latin reporting the rabbinic position on this crux, correctly, and by name. Hebraei syluam generatam esse confitentur — the Hebrews confess that hyle was generated. At Bereshit Rabbah 1:9 a philosopher tells R. Gamliel that his God was a great artist but had good materials to hand — tohu and bohu, darkness, wind, water, the deeps — and is answered that Scripture says of every one of them that it was created. That is the rabbinic bench refusing coeval matter, which is exactly what Chalcidius says the Hebrews hold. He is a fourth-century Latin who knows the other bench's answer to this crux, states it accurately, and is read by nobody who argues the crux afterwards.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-c2",
+  "from": "chalcidius-hebraei-versiones",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "contests",
+  "evidence": "Ambrose sets up the hyle of the philosophers as the position a Christian must refuse, and Chalcidius had already reported the concession that dissolves it. For Ambrose, matter that the craftsman merely finds is a rival to God; for Chalcidius, the Hebrews grant that hyle itself was generated, so the Platonist account of the world's substance and the scriptural account of its origin are not in competition. Ambrose is refuting a Platonism that this Latin Platonist does not hold, forty years earlier and in the same language.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-c3",
+  "from": "chalcidius-terra-sylua",
+  "to": "aug-conf-12-7",
+  "type": "parallel",
+  "evidence": "The same doctrine reached from opposite directions. Augustine works down from God to a formless something 'near to nothing', and needs a page to say what it is not. Chalcidius works up from the Timaeus and has the definition ready: the receiver of all qualities has none of its own by nature, and is therefore called empty; being devoid of all things, it is called nothing. Augustine has the Bible and is short of the vocabulary; Chalcidius has the vocabulary and is using the Bible to confirm it.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-c4",
+  "from": "chalcidius-terra-sylua",
+  "to": "ramban-1-1c",
+  "type": "parallel",
+  "evidence": "The two witnesses on this daf who take the plain sense of the verse to be about matter and still hold that the matter was made. Ramban: bara means from absolute non-existence, and what was drawn out on the first day was a formless substance from which everything after was formed. Chalcidius: the earth of v. 2 is corporeal hyle, the old substance of the world before it took form — and the Hebrews, he has just said, confess it was generated. Girona 1267 and a Latin commentary on the Timaeus of about 350, agreeing on both halves of the crux.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-p1",
+  "from": "philo-opif-21-22",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "contests",
+  "evidence": "Ambrose refutes this position by name and does not know he is refuting Philo, whom he is elsewhere copying. Ambrose: they say the world was made out of the matter they call hyle, and this is to make God a craftsman rather than a creator. Philo: the substance was of itself without order, without quality, without life, and God being good did not grudge it his own best nature. Every term Ambrose objects to is in the Greek, in that order, in the book his own Hexaemeron follows most closely.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-p2",
+  "from": "philo-opif-21-22",
+  "to": "aug-conf-12-7",
+  "type": "parallel",
+  "evidence": "Augustine's near-nothing is Philo's substance with the one addition that makes it orthodox. Augustine: you made two things, one near to you and one near to nothing, and the formless matter is yours too, made by you out of nothing. Philo: the substance had nothing beautiful of itself but was able to become all things. The description matches almost word for word; what Augustine adds is the clause about where it came from, and that clause is exactly what Philo does not supply.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-p3",
+  "from": "philo-opif-21-22",
+  "to": "chalcidius-terra-sylua",
+  "type": "parallel",
+  "evidence": "The one Latin here who had read Philo, describing hyle in Philo's terms: because it is the receiver of all qualities it has none of its own. That is Philo's apoios, without quality, and Philo's able to become all things. Chalcidius names Philo twice elsewhere in the commentary and does not name him here, which is the ordinary shape of this transmission: the doctrine crosses and the attribution does not.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-p4",
+  "from": "philo-opif-21-22",
+  "to": "aug-gnm-1-6-10",
+  "type": "contests",
+  "evidence": "The craftsman argument, from both sides. Augustine reports the objection that craftsmen and workmen of any kind cannot make anything unless they have something to make it from, and answers that God is not a craftsman. Philo is the position Augustine is answering, and he holds it as a description of God's goodness rather than of God's limits: the maker is good, and goodness is what makes him give form to what has none. The Latin bench inherits the objection without the argument that made it worth holding.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-b1",
+  "from": "burgos-add-1",
+  "to": "ambrose-hex-1-1-hyle",
+  "type": "parallel",
+  "evidence": "Ambrose and Burgos both want the philosophers' matter kept out of Genesis, and they want it for opposite reasons. Ambrose argues against the doctrine: they say the world was made out of the matter they call hyle, and that makes God a craftsman rather than a creator. Burgos argues against the genre: the philosophers proceed only by opinion, as their disagreeing shows, so nothing in Scripture may be made to depend on which of them is right. The first is a refutation and the second is a ruling about jurisdiction, and only the second could have been written after the schools had spent three centuries on Aristotle.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-b2",
+  "from": "burgos-add-1",
+  "to": "chalcidius-hebraei-versiones",
+  "type": "contests",
+  "evidence": "The two ends of this edition's Latin bench on the same question. Chalcidius in the fourth century reports what the Hebrews hold about hyle in order to agree with it, and takes the philosophers' vocabulary into the exposition without apology. Burgos in the fifteenth, himself born a Jew, rules that the philosophers' opinions about matter have no business determining the sense of the chapter at all. A thousand years apart, and it is the convert who fences the text off from philosophy.",
+  "crux": "ex-nihilo-or-matter"
+ },
+ {
+  "id": "t-k4-b3",
+  "from": "burgos-add-1",
+  "to": "aug-conf-12-22",
+  "type": "contests",
+  "evidence": "Augustine says that formless matter too was made by God and is not to be feared, and he reaches that by taking the philosophical question seriously enough to answer it. Burgos cites the holy doctors as having taken little care about such opinions, which is not what Confessions 12 looks like. The disagreement is about the Latin bench's own history: Burgos needs the fathers to have been uninterested in a question they in fact worked hard at, because his argument is that a Christian exposition should not have to wait on the philosophers.",
+  "crux": "ex-nihilo-or-matter"
  }
 ]

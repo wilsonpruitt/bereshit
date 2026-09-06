@@ -602,5 +602,17 @@
  "bonum-awaits-completion": {
   "label": "The approval waits for the work to be complete",
   "gloss": "Approval properly regards a completed work; the separating of the waters was not finished until the third day, so the formula is held back on the second and said twice on the third (Rashi, adopted by Lyra as the intention of the letter)."
+ },
+ "lux-est-lux-solis": {
+  "label": "It is the sun's own light",
+  "gloss": "Not a light in the sun's stead but the light of the sun itself, an accidental quality from which the other heavenly lights are lit; it was unformed in some respect until the fourth day, and the fourth day formed it (Lyra)."
+ },
+ "divisio-per-motum-solis": {
+  "label": "The earth's shadow",
+  "gloss": "The dividing is the sun's motion: when it moves over one hemisphere darkness falls on the opposite one, because of the opacity of the earth in the middle. Day is the sun's passage over the earth and night its hiding (Lyra)."
+ },
+ "philosophy-cannot-move-the-sense": {
+  "label": "The philosophers only have opinions",
+  "gloss": "The philosophers do not proceed demonstratively about matter, as is shown by their disagreeing with each other, so the sense of Scripture must not be made to vary with them; and this is why the holy doctors took little notice of such opinions (Paul of Burgos, against Lyra's introduction to Genesis 1)."
  }
 }

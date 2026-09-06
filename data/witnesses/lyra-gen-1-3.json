@@ -1,0 +1,42 @@
+{
+ "work": "lyra-postilla",
+ "author": "nicholas-of-lyra",
+ "tradition": "latin",
+ "date": 1330,
+ "date_precision": "range-1322-1332",
+ "place": "paris",
+ "id": "lyra-gen-1-3",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "Ista lux est lux solis, que est qualitas accidentalis",
+  "en": "This light is the light of the sun, which is an accidental quality"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Fiat lux. Ista lux est lux solis, que est qualitas accidentalis, a qua luce alia celi luminaria illustrantur, propter quod ii de anima dicitur quod sol est pater virorum deorumque, quia celi luminaria que ab antiquis vocabantur dii recipiunt lumen a sole. Et vidit Deus lucem quod esset bona, quia utilis est ad multa, ut patebit infra in opere quarte diei. Advertendum tamen quod ista lux solaris, que facta dicitur prima die, adhuc fuit informis quantum ad aliquid usque ad quartum diem, secundum quod dicit Dyonisius iiij capitulo de divinis nominibus. Qualiter autem fuerit formata quarta die patebit infra.",
+  "source": "Koberger 1486-87, leaf n44, left column, lemmas k-l (archive.org biblia-sacra-lyra_202308, page/n44.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "Let there be light. This light is the light of the sun, which is an accidental quality, and it is from this light that the other lights of heaven are illuminated; on which account it is said in the second book On the Soul that the sun is the father of men and of gods, because the lights of heaven, which the ancients used to call gods, receive their light from the sun. And God saw the light, that it was good, because it is useful for many things, as will appear below in the work of the fourth day. It is to be noted, however, that this solar light, which is said to have been made on the first day, was still unformed in some respect until the fourth day, according to what Dionysius says in the fourth chapter of On the Divine Names. In what way it was formed on the fourth day will appear below.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "first-light"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "lux-est-lux-solis",
+  "lux-corporalis",
+  "lux-becomes-luminaries"
+ ],
+ "notes": "The end of this crux on the Latin bench, and it is reached by giving up the question. For a thousand years the difficulty had been that there is light on the first day and no sun until the fourth, and every answer on this daf is a way of holding those apart: an angelic creation, a light stored for the righteous, a luminous cloud, a body of fire in the sun's stead, a brightness like the dawn on a twelve-hour circuit. Lyra does not hold them apart. The light of the first day is the light of the sun, ista lux est lux solis, and the sun's light is an accidental quality from which the other luminaries are lit. The difficulty is then met not by making the light something else but by making the sun's light itself unfinished: it was informis quantum ad aliquid until the fourth day, which is when it was formed. Notice what has changed. Hugh's luminous cloud and Comestor's dawn are inventions required by the chapter; Lyra's answer requires nothing that is not already in the sky. He supports it, oddly, with a tag from the second book On the Soul that the sun is the father of men and of gods, and reads the ancients' gods as the planets, which take their light from the sun."
+}

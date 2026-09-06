@@ -1,0 +1,41 @@
+{
+ "work": "burgos-additiones",
+ "author": "paul-of-burgos",
+ "tradition": "latin",
+ "date": 1429,
+ "date_precision": "circa",
+ "place": "burgos",
+ "id": "burgos-add-1",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "non debet sensus scripture propter hoc variari",
+  "en": "the sense of Scripture ought not to vary on this account"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ex quo presupposito infertur quod postillator minus convenienter se habet circa processum introductorium expositionis litteralis huius capituli. Dicit enim quod ex varietate opinionum de natura materie a philosophis positarum dependet intellectus operationis sex dierum, quod videtur inconvenienter dictum. Constat enim quod philosophi in hoc non demonstrative procedunt, alias non contingeret eos diversimode vel contraria opinari, sicut nec in geometricis et huiusmodi, sed solum procedunt opinative. Unde non debet sensus scripture propter hoc variari, et ideo sancti doctores modicum curaverunt de huiusmodi opinionibus variis in hac materia.",
+  "source": "Koberger 1486-87, leaf n48, column 2, Additio i (archive.org biblia-sacra-lyra_202308, page/n48.jpg)",
+  "license": "lyra-koberger-1487",
+  "version": "Biblia Sacra cum postillis Nicolai de Lyra, additionibus Pauli Burgensis et replicis Matthiae Doering (Nuremberg: Anton Koberger, 1486-87), pars i"
+ },
+ "english": {
+  "text": "From which presupposition it follows that the postillator conducts himself less fittingly in the introductory procedure of the literal exposition of this chapter. For he says that the understanding of the work of the six days depends on the variety of opinions about the nature of matter put forward by the philosophers, which seems unfittingly said. For it is agreed that the philosophers do not proceed demonstratively in this matter — otherwise it would not happen that they hold different or contrary opinions, as it does not in geometry and the like — but proceed only by opinion. Hence the sense of Scripture ought not to vary on this account; and this is why the holy doctors took little care about such various opinions in this matter.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "ex-nihilo-or-matter"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "philosophy-cannot-move-the-sense",
+  "silence-proves-nothing"
+ ],
+ "notes": "Eight centuries of this crux answered by ruling it out of order. Every Latin witness before this one takes some position on the nature of the matter and argues it: Ambrose refutes the hyle of the philosophers, Augustine accepts a formless matter and insists God made it, Abelard defines what created properly means, Hugh distinguishes making from matter and creating the matter. Lyra opens his exposition of Genesis 1 by laying out the philosophers' opinions on matter and saying that the understanding of the six days' work depends on which is taken. Burgos says that is unfitting, and the reason he gives is a claim about what kind of knowledge natural philosophy is: the philosophers do not proceed demonstratively here, and the proof is that they disagree, which does not happen in geometry. Where a discipline yields only opinion, the sense of Scripture must not be made to move with it. He then reads the Latin bench's whole history on this crux as agreeing with him — sancti doctores modicum curaverunt de huiusmodi opinionibus — which is a striking thing to say about a bench that spent eight hundred years on the question, and is what makes the witness worth printing beside the men who did. This is his substantive addition on Gen 1:1, as against Additio iij, which is a quarrel about credit."
+}

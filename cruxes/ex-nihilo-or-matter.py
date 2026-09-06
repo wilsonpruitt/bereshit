@@ -412,3 +412,39 @@ THREADS.extend([
  thread("ex-nihilo-or-matter", "t-k4-p3", "philo-opif-21-22", "chalcidius-terra-sylua", "parallel", "The one Latin here who had read Philo, describing hyle in Philo's terms: because it is the receiver of all qualities it has none of its own. That is Philo's apoios, without quality, and Philo's able to become all things. Chalcidius names Philo twice elsewhere in the commentary and does not name him here, which is the ordinary shape of this transmission: the doctrine crosses and the attribution does not."),
  thread("ex-nihilo-or-matter", "t-k4-p4", "philo-opif-21-22", "aug-gnm-1-6-10", "contests", "The craftsman argument, from both sides. Augustine reports the objection that craftsmen and workmen of any kind cannot make anything unless they have something to make it from, and answers that God is not a craftsman. Philo is the position Augustine is answering, and he holds it as a description of God's goodness rather than of God's limits: the maker is good, and goodness is what makes him give form to what has none. The Latin bench inherits the objection without the argument that made it worth holding."),
 ])
+
+# ================================================================ Burgos (Phase 6 part six, 2026-09-06)
+import lyra as _ly
+PERSONS.update(_ly.PERSONS)
+PLACES = dict(globals().get("PLACES", {})); PLACES.update(_ly.PLACES)
+LICENSES.update(_ly.LICENSES)
+ANSWERS = dict(globals().get("ANSWERS", {}))
+ANSWERS.update({
+ "philosophy-cannot-move-the-sense": {
+   "label": "The philosophers only have opinions",
+   "gloss": "The philosophers do not proceed demonstratively about matter, as is shown by their "
+            "disagreeing with each other, so the sense of Scripture must not be made to vary with "
+            "them; and this is why the holy doctors took little notice of such opinions "
+            "(Paul of Burgos, against Lyra's introduction to Genesis 1)."},
+})
+
+add(**_ly.BURGOS, id="burgos-add-1",
+    anchor={"verse": "gen.1.1"},
+    lemma={"la": "non debet sensus scripture propter hoc variari",
+           "en": "the sense of Scripture ought not to vary on this account"},
+    original={"lang": "la",
+      "text": "Ex quo presupposito infertur quod postillator minus convenienter se habet circa processum introductorium expositionis litteralis huius capituli. Dicit enim quod ex varietate opinionum de natura materie a philosophis positarum dependet intellectus operationis sex dierum, quod videtur inconvenienter dictum. Constat enim quod philosophi in hoc non demonstrative procedunt, alias non contingeret eos diversimode vel contraria opinari, sicut nec in geometricis et huiusmodi, sed solum procedunt opinative. Unde non debet sensus scripture propter hoc variari, et ideo sancti doctores modicum curaverunt de huiusmodi opinionibus variis in hac materia.",
+      "source": "Koberger 1486-87, leaf n48, column 2, Additio i (archive.org biblia-sacra-lyra_202308, page/n48.jpg)",
+      **_ly.SRC},
+    english={"text": "From which presupposition it follows that the postillator conducts himself less fittingly in the introductory procedure of the literal exposition of this chapter. For he says that the understanding of the work of the six days depends on the variety of opinions about the nature of matter put forward by the philosophers, which seems unfittingly said. For it is agreed that the philosophers do not proceed demonstratively in this matter — otherwise it would not happen that they hold different or contrary opinions, as it does not in geometry and the like — but proceed only by opinion. Hence the sense of Scripture ought not to vary on this account; and this is why the holy doctors took little care about such various opinions in this matter.",
+             **_ly.DRAFT},
+    tradents=[], cruxes=["ex-nihilo-or-matter"], senses=["literal"],
+    answers=["philosophy-cannot-move-the-sense", "silence-proves-nothing"],
+    notes="Eight centuries of this crux answered by ruling it out of order. Every Latin witness before this one takes some position on the nature of the matter and argues it: Ambrose refutes the hyle of the philosophers, Augustine accepts a formless matter and insists God made it, Abelard defines what created properly means, Hugh distinguishes making from matter and creating the matter. Lyra opens his exposition of Genesis 1 by laying out the philosophers' opinions on matter and saying that the understanding of the six days' work depends on which is taken. Burgos says that is unfitting, and the reason he gives is a claim about what kind of knowledge natural philosophy is: the philosophers do not proceed demonstratively here, and the proof is that they disagree, which does not happen in geometry. Where a discipline yields only opinion, the sense of Scripture must not be made to move with it. He then reads the Latin bench's whole history on this crux as agreeing with him — sancti doctores modicum curaverunt de huiusmodi opinionibus — which is a striking thing to say about a bench that spent eight hundred years on the question, and is what makes the witness worth printing beside the men who did. This is his substantive addition on Gen 1:1, as against Additio iij, which is a quarrel about credit."
+    )
+
+THREADS.extend([
+ thread("ex-nihilo-or-matter", "t-k4-b1", "burgos-add-1", "ambrose-hex-1-1-hyle", "parallel", "Ambrose and Burgos both want the philosophers' matter kept out of Genesis, and they want it for opposite reasons. Ambrose argues against the doctrine: they say the world was made out of the matter they call hyle, and that makes God a craftsman rather than a creator. Burgos argues against the genre: the philosophers proceed only by opinion, as their disagreeing shows, so nothing in Scripture may be made to depend on which of them is right. The first is a refutation and the second is a ruling about jurisdiction, and only the second could have been written after the schools had spent three centuries on Aristotle."),
+ thread("ex-nihilo-or-matter", "t-k4-b2", "burgos-add-1", "chalcidius-hebraei-versiones", "contests", "The two ends of this edition's Latin bench on the same question. Chalcidius in the fourth century reports what the Hebrews hold about hyle in order to agree with it, and takes the philosophers' vocabulary into the exposition without apology. Burgos in the fifteenth, himself born a Jew, rules that the philosophers' opinions about matter have no business determining the sense of the chapter at all. A thousand years apart, and it is the convert who fences the text off from philosophy."),
+ thread("ex-nihilo-or-matter", "t-k4-b3", "burgos-add-1", "aug-conf-12-22", "contests", "Augustine says that formless matter too was made by God and is not to be feared, and he reaches that by taking the philosophical question seriously enough to answer it. Burgos cites the holy doctors as having taken little care about such opinions, which is not what Confessions 12 looks like. The disagreement is about the Latin bench's own history: Burgos needs the fathers to have been uninterested in a question they in fact worked hard at, because his argument is that a Christian exposition should not have to wait on the philosophers."),
+])

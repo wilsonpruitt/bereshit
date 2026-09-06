@@ -1774,3 +1774,63 @@ with a 0.09-of-a-page gap between them, and the two ends joined up plausibly. Th
 the gap was transcribed in two more crops before the witness was written. A join that reads well
 across an untranscribed gap is the same failure as a join across a column gutter, and it is harder
 to see because nothing is visibly cut.
+
+## Phase 6 part six, third sitting — the tail of the Lyra leaves (2026-09-06)
+
+**292 witnesses, 456 threads, 438 pages, all gates clean.** Three more witnesses, and one ruling
+that keeps a text off the daf.
+
+**`lyra-gen-1-3` (K8)** ends this crux on the Latin bench by giving up the question. For a thousand
+years the difficulty was light on day one and no sun until day four, and every answer here holds
+them apart — angelic light, stored light, luminous cloud, a body of fire *in the sun's stead*, a
+brightness like the dawn. Lyra does not hold them apart: **`ista lux est lux solis`**, an accidental
+quality from which the other luminaries are lit, *informis quantum ad aliquid* until the fourth day,
+which is when it was formed. Hugh's cloud and Comestor's dawn are inventions the chapter forces;
+this answer needs nothing that is not already in the sky.
+
+**`lyra-gen-1-4-divisio` (K9)** is the one answer on that daf that is simply astronomy: *ista divisio
+est per motum solis*, the sun over one hemisphere and darkness on the other *propter opacitatem
+terre que est in medio*. Augustine's difficulty — how can a nothing be divided — does not arise,
+because nothing is divided from anything; a body is interposed. Worth reading beside Comestor, who
+two hundred years earlier knew that a shadow is what bodies cast and had to introduce it with a
+*quasi*. Lyra needs no *quasi* and does not mention that anyone thought otherwise.
+
+**`burgos-add-1` (K4)** answers eight centuries of this crux by ruling it out of order. Lyra opens
+Genesis 1 by surveying the philosophers on matter and says the understanding of the six days depends
+on which opinion is taken. Burgos: *constat enim quod philosophi in hoc non demonstrative procedunt,
+alias non contingeret eos diversimode vel contraria opinari, sicut nec in geometricis … unde non
+debet sensus scripture propter hoc variari.* Where a discipline yields only opinion, the sense of
+Scripture must not move with it. ⚠ He then reads the bench's whole history as agreeing with him —
+*sancti doctores modicum curaverunt de huiusmodi opinionibus* — which is a remarkable thing to say
+about a bench that spent eight hundred years on it, and is the reason to print him beside them.
+
+## ⛔ Additio ix is OUT OF SCOPE — the ruling the brief asked for
+
+The brief flagged Burgos's Additio ix (*sicut inter christianos fuerunt aliqui heretici, ut Arriani,
+Nestoriani … sic inter iudeos fuerunt aliqui habentes erroneas opiniones que non approbantur a
+iudeis communiter*) as the best untouched text on the leaves, with the instruction to **find the
+Postilla passage it answers before building, and not to force an anchor.** Done, and the answer is
+no.
+
+The passage is on **leaf n47**, and it is **Gen 1:21**, the *cete grandia*: Lyra reports the rabbinic
+account that God killed the female of the species lest they multiply and *reservat eam iustis ad
+comedendum in futuro seculo*, and concludes *ex quo patet iudeos cecidisse in errorem saracenorum,
+qui beatitudinem future vite ponunt in delectationibus corporalibus ciborum*. Verified on the image:
+the same leaf's second column is already on Gen 1:26–27.
+
+Gen 1:21 is outside this edition's scope, and — this is the part that matters — **neither clause of
+the anchor rule reaches it.** The first covers texts about whether a verse may be expounded. The
+second covers a witness arguing *the same philological question a verse in scope raises*, and the
+question here is whether the beatitude of the future life is bodily, which is not a question any of
+the ten cruxes is built on. It is a magnificent text and it belongs to a different book. **Recorded,
+not built.** ⭐ Worth noting for its own sake: the anchor rule's second clause is elastic enough that
+it would have been easy to talk oneself into `gen.1.1`, and the discipline that stopped it was
+reading the passage the Additio answers rather than the Additio.
+
+## What is left on these leaves
+
+Very little, and none of it load-bearing. **Lyra's lemma i** (n43), *Dixitque Deus. Hic incipit opus
+distinctionis* — structural rather than argumentative, K8, low value. **Burgos's Additio ij** (n48–51),
+not read. **Doering's replies** to the other Additiones, not read. The Lyra thread can be closed here
+without loss; if it is reopened, the locator, the calibrated leaves and the column edges are in
+`notes/NEXT-SESSION-lyra-burgos.md`.
