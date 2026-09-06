@@ -238,7 +238,34 @@ section of `notes/SOURCES-FINDINGS.md`.
   and a passage of Chalcidius that bear on K1's "no contact either way". Amending a `finding` is
   not a builder's call.
 
-**Still unbuilt** — Lyra Gen 1 from the 1492 Venice *Biblia cum glossa* and Paul of Burgos
+### Part two, 2026-09-05 — Wilson's six rulings, all executed
+
+**240 witnesses, 329 threads, 371 pages, all checks clean, and no `[CHECK]` anywhere in the data.**
+
+1. **The edition carries CC BY 4.0**, not the Wroot Press default of CC BY-NC 4.0 — a deliberate
+   departure so our English sits beside third-party CC BY and CC BY-SA text without friction.
+   `wroot-glossa` and `wroot-bonaventure` take the same licence, linking back to their published
+   homes. `chavel-ramban` ships on Sefaria's assertion, named as Sefaria's.
+2. **The Bereshit Rabbah Hebrew moved to Wikisource CC BY-SA.** Torat Emet is out — its own site
+   prints כל הזכויות שמורות. All 23 slices diffed at word level: two identical, eighteen above 0.90,
+   three below, no argument lost. The recension difference at BR 3:6 forced `br-3-6c` out of
+   `br-3-6b`, which the frozen rule had always required.
+3. **K1's finding is amended**, on Chalcidius verified independently of Baehrens, plus a check over
+   all 240 witnesses showing Prov 8:22 is cited only by the rabbinic bench and Ps 104:24 only by the
+   Latin. The Catena notice is unverified and unused.
+4. **check.py rule 9** — no licence key in use may carry an unresolved `[CHECK]`.
+5. **Every silent-truncation path in `cruxes/` is closed.** Three more were found and fixed.
+
+⚠ **The one licence left open: the two Neofiti witnesses.** Sefaria's only Hebrew of Targum Neofiti
+is 'The Vatican Manuscript of the Targum Neofiti', licence *unknown*, sourced from the Vatican
+Library's digitisation. Unlike Torat Emet this is a metadata gap and not a rights assertion, and the
+manuscript itself is sixteenth-century and long out of copyright — but there is no free alternative
+on Sefaria, and Neofiti is load-bearing for K1, since it is the one targum that interprets.
+
+**Still unbuilt** — Chalcidius from Waszink's *Plato Latinus* (the highest-value item, a
+fourth-century Latin on Gen 1:1–2 outside the PL); Gen 1:26 *Faciamus hominem* into K3, which
+Wilson has scheduled for its own session **before** Lyra; then Lyra Gen 1 from the 1492 Venice
+*Biblia cum glossa* and Paul of Burgos
 (transcription = vision OCR, follow `feedback_vision-ocr-discipline`; its own session, ~150–200K);
 Bonaventure II Sent. d.12 a.2 q.3 (*quam relationem materia illa informis habuerit ad locum*, quotes
 Hugh, → K6) and the d.13 light questions a.2–a.3 (→ K8); and Gen 1:26 *Faciamus hominem* into K3,
