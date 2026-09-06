@@ -1,0 +1,41 @@
+{
+ "id": "glossa-11-7-angeli",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Ad angelos dixisse intelligitur",
+  "en": "He is understood to have said it to the angels"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 7.-- « Venite igitur, » etc. Ad angelos dixisse intelligitur; vel secundum illud: « Faciamus hominem ad imaginem et similitudinem nostram. » Nam singulari numero subjunctum est: « et divisit eos, » etc., sicut ibi: « Fecit Deus hominem ad imaginem et similitudinem suam. »",
+  "source": "PL 113, col. 114D",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 7. 'Come, therefore', etc. He is understood to have said it to the angels; or according to that: 'let us make a human to our image and likeness.' For it is added in the singular number: 'and he divided them', etc., just as there: 'God made the human to his own image and likeness.'",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-to-the-angels",
+  "one-authority-singular-verb"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. ⚠ A second anchor note applies: this is a gloss on Gen 11:7, the tower of Babel, not on Gen 1:26 or on Gen 1:1–5. It is on the daf because it says of venite, confundamus what nobody in the Gloss says of faciamus: he is understood to have said it to the angels. And it gets there by the same route the rabbinic bench does. The gloss pairs Gen 11:7 with Gen 1:26 as the two plural verses; it then answers the plural of Gen 11:7 with the singular of Gen 11:8 — 'and he divided them' — exactly as the plural of Gen 1:26 is answered by the singular of Gen 1:27. That is R. Yoḥanan's rule at b. Sanhedrin 38b, which lists the same two verses in the same order with the same singular refutations beside them, and it is the structure of Augustine's chapter de locutione qua Deus Angelis loquitur (`aug-civ-16-6`), where Gen 1:26 is refused to the angels and Gen 11:7 is granted to them. Three benches, the same pair of verses, the same test. The Gloss is the one place where a Latin schoolbook prints the angel reading as the plain sense, and it does so where the image clause is missing and the argument against it therefore fails."
+}

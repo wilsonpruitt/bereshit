@@ -32,6 +32,20 @@ PULLS = [
  ("gen-1-he", "Genesis.1.1-5", "Miqra according to the Masorah", None),
  # K10 (one-day-evening-first): the halakhic derivation that the day follows the night
  ("b-chull-83a", "Chullin.83a", "Wikisource Talmud Bavli", "Sefaria Community Translation"),
+ # ---- Gen 1:26 into K3 (Faciamus hominem / na'aseh adam), 2026-09-05. Anchored on gen.1.2 under
+ # the second clause of the anchor rule; see notes/NEXT-SESSION-k3-gen-1-26.md.
+ # ⛔ BR 8 and 17 are NOT in "Wikisource Bereshit Rabbah" — only Daat and Torat Emet carry them,
+ # and Torat Emet is barred, so the BR Hebrew in this edition comes from two versions by chapter.
+ ("br-8", "Bereshit_Rabbah.8", "Daat Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
+ ("br-17", "Bereshit_Rabbah.17", "Daat Bereshit Rabbah", "The Sefaria Midrash Rabbah, 2022"),
+ ("b-sanh-38b", "Sanhedrin.38b", "Wikisource Talmud Bavli", "Sefaria Community Translation"),
+ ("rashi-gen-1-26", "Rashi_on_Genesis.1.26", None, "Pentateuch with Rashi's commentary by M. Rosenbaum and A.M. Silbermann, 1929-1934"),
+ ("ibn-ezra-gen-1-26", "Ibn_Ezra_on_Genesis.1.26", "Piotrkow, 1907-1911", "Sefaria Community Translation"),
+ ("ramban-gen-1-26", "Ramban_on_Genesis.1.26", "Vocalized Edition", "Commentary on the Torah by Ramban (Nachmanides). Translated and annotated by Charles B. Chavel. New York, Shilo Pub. House, 1971-1976"),
+ ("targ-onk-1-26", "Targum_Onkelos_Genesis.1.26", "Onkelos Genesis", "J.W. Etheridge. The Targums of Onkelos and Jonathan Ben Uzziel on the Pentateuch. London: Longmans, Green, 1862"),
+ ("targ-psj-1-26", "Targum_Jonathan_on_Genesis.1.26", "Targum Jonathan on Genesis", "The Targum of Jonathan ben Uzziel, trans. J. W. Etheridge, London, 1862"),
+ ("targ-neof-1-26", "Targum_Neofiti.Genesis.1.26", None, "Sefaria Community Translation"),
+ ("gen-1-26-he", "Genesis.1.26", "Miqra according to the Masorah", None),
 ]
 # Optional slug filter: pull-sefaria.py <slug> [slug ...] re-pulls only those (default: all).
 if len(sys.argv) > 1:

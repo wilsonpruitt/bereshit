@@ -1,0 +1,41 @@
+{
+ "id": "alcuin-int-36-37",
+ "work": "alcuin-int",
+ "author": "alcuin",
+ "tradition": "latin",
+ "date": 796,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Cur plurali numero dixit: Faciamus?",
+  "en": "Why did he say it in the plural number: let us make?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Inter. 36. Quare de solo homine dictum est: Faciamus hominem (Gen. I, 26) ; de aliis autem creaturis legitur: Dixit Deus?--Resp. Ut videlicet, quae [ Ms., quia] rationabilis creatura condebatur, cum consilio facta videretur, et ut ejus nobilitas ostenderetur. Inter. 37. Cur plurali numero dixit: Faciamus?--Resp. Ut ostenderetur trium una operatio personarum.",
+  "source": "PL 100, col. 520B",
+  "cc_idno": "21416",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Question 36. Why is it said of the human alone: let us make a human (Gen 1:26); whereas of the other creatures we read: God said? — Answer. So that, since a rational creature was being founded, it might be seen to be made with counsel, and so that its nobility might be shown. Question 37. Why did he say it in the plural number: let us make? — Answer. So that one working of three persons might be shown.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "dignity-of-the-creature"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The whole crux reduced to two questions and twenty-eight words of answer, which is what the Interrogationes are for, and worth having on the daf precisely because it shows what the Carolingian school thought a pupil needed. Two distinct answers are given and neither cancels the other: the consultative form marks the dignity of the rational creature, and the plural number shows one working of three persons. Note that the first of these is the only thing Alcuin says about the change of formula, and it is not a Trinitarian point at all — it is an argument about the honour of the thing made, which is Bereshit Rabbah 8:8's argument for why the plural was worth the risk (Moses is told to write it anyway, so that the great should learn to consult the small) with the moral swapped from humility to nobility. Four questions later, at Inter. 40, Alcuin returns to it and gives the Augustinian pairing — cur iterum dixit: Creavit Deus hominem ad imaginem suam, cum antea dixisset: ad imaginem nostram? … ut utrumque, et pluralitas personarum, et unitas substantiae insinuaretur — but that is a distinct argument and is not merged into this slice. ⛔ Alcuin does not answer a lemma grep on this crux's Latin words: the Interrogationes are organised as questions and the lemma sits in the question, not in a running exposition."
+}

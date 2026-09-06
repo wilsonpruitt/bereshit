@@ -1,0 +1,39 @@
+{
+ "id": "targ-psj-1-26",
+ "work": "targ-psj",
+ "author": "targum-pseudo-jonathan",
+ "tradition": "rabbinic",
+ "date": 750,
+ "date_precision": "range-600-800",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וַאֲמַר יְיָ לְמַלְאָכַיָא דִמְשַׁמְשִׁין קוֹמוֹי",
+  "en": "And the LORD said to the angels who minister before him"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וַאֲמַר יְיָ לְמַלְאָכַיָא דִמְשַׁמְשִׁין קוֹמוֹי דְאִיתְבְּרִי בְּיוֹם תִּנְיָן לִבְרִיַית עַלְמָא נַעֲבֵיד אָדָם בְּצַלְמָנָא בִּדְיוֹקְנָנָא וְיִשְׁלְטוּן בְּכַוְורֵי יַמָא וּבְעוֹפָא דְאַוִיר שְׁמַיָא וּבִבְעִירָא וּבְכָל אַרְעָא וּבְכָל רִיחֲשָׁא דִרְחֵישׁ עֲלוֹי אַרְעָא",
+  "source": "Targum Pseudo-Jonathan, Gen 1:26",
+  "license": "pd",
+  "version": "Sefaria 'Targum Jonathan on Genesis'"
+ },
+ "english": {
+  "text": "And the Lord said to the angels who ministered before Him, who had been created in the second day of the creation of the world, Let us make man in Our image, in Our likeness; and let them rule over the fish of the sea, and over the fowl which are in the atmosphere of heaven, and over the cattle, and over all the earth, and over every reptile creeping upon the earth.",
+  "translator": "J. W. Etheridge, 1862",
+  "license": "etheridge"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "faciamus-to-the-angels"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The angel reading written into the text of Scripture itself, which is as far as the rabbinic answer to this crux can be pushed. Where the Hebrew has 'and God said, let us make', Pseudo-Jonathan has 'and the LORD said to the angels who minister before him, who were created on the second day of the creation of the world, let us make a human in our image, in our likeness'. Two additions, and the second is doing work: dating the angels to the second day forestalls the objection that they might have been co-creators, since they were made after the beginning and are therefore creatures like the rest. The Glossa Ordinaria at PL 113:114D says ad angelos dixisse intelligitur — he is understood to have said it to the angels — of the plural at Babel, and cross-refers to faciamus hominem; a Latin reader of the twelfth century and an Aramaic reader of the eighth are looking at the same plural and reaching for the same hearers. That the targum puts it in the biblical line rather than in a gloss is why Basil could say ferunt enim, quod angelis dixerit and be reporting rather than caricaturing."
+}

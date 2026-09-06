@@ -1,0 +1,43 @@
+{
+ "id": "b-sanh-38b-malachim",
+ "work": "bavli-sanhedrin",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "רְצוֹנְכֶם נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ",
+  "en": "Is it your will that we make a human in our image?"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "אמר רב יהודה א\"ר בשעה שבקש הקב\"ה לבראות את האדם ברא כת אחת של מלאכי השרת אמר להם רצונכם נעשה אדם בצלמנו אמרו לפניו רבש\"ע מה מעשיו אמר להן כך וכך מעשיו אמרו לפניו רבש\"ע (תהלים ח, ה) מה אנוש כי תזכרנו ובן אדם כי תפקדנו הושיט אצבעו קטנה ביניהן ושרפם וכן כת שניה כת שלישית אמרו לפניו רבש\"ע ראשונים שאמרו לפניך מה הועילו כל העולם כולו שלך הוא כל מה שאתה רוצה לעשות בעולמך עשה",
+  "source": "b. Sanhedrin 38b (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "Rav Yehuda said, Rav said: at the hour when the Holy One, blessed be He, sought to create the human, he created one company of ministering angels. He said to them: is it your will that we make a human in our image? They said before him: Master of the world, what are his deeds? He said to them: such and such are his deeds. They said before him: Master of the world, 'what is a mortal, that you remember him, and a human being, that you take account of him?' (Ps 8:5). He put out his little finger among them and burned them. And so with the second company. The third company said before him: Master of the world, the ones who spoke before you first — what did they achieve? The whole world is yours; whatever you wish to do in your world, do.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "rav-yehuda",
+  "rav"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "counsel-with-the-household-above"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The angel reading in its most literal and least apologetic form: God does not merely take counsel with the ministering angels, he puts the question to them in the words of the verse — retzonkhem na'aseh adam be-tzalmenu, is it your will that we make a human in our image — and when they object he burns them, twice, until a third company learns not to answer. Two things make this the sharpest rabbinic witness here. First, the plural of the verse is taken as a real address to real hearers, which is precisely the reading Basil calls a Jewish fiction, Ambrose refuses because a servant cannot be a partner in the work, Bede excludes by a ratio, and Bruno says would produce many creators; the Latin bench's characterisation of the position is, on this page, accurate. Second, the story concedes the objection the Latin bench presses: the angels contribute nothing, are destroyed for speaking, and are told the world is not theirs. The consultation is real and the partnership is not, which is a distinction no Latin witness on this daf considers."
+}

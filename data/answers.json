@@ -514,5 +514,45 @@
  "history-is-the-foundation": {
   "label": "History is the foundation",
   "gloss": "Scripture is a hall with foundation, wall and roof — history, allegory, tropology — and nothing can be built before the foundation is laid (Comestor)."
+ },
+ "faciamus-is-the-trinity": {
+  "label": "'Let us make' is the Trinity",
+  "gloss": "The formula changes at this one verse — everywhere else 'let it be', here 'let us make' — to intimate a plurality of persons; the singular of v. 27 then gives the unity of the deity (Augustine, Bede, Alcuin, Wigbod, Remigius, the Glossa, Rupert, Abelard, Hugh, Comestor)."
+ },
+ "faciamus-to-the-son": {
+  "label": "The Father speaks to the Son",
+  "gloss": "Not to himself, since the verb is not 'I shall make', and not to servants: the address is to the Son, who is the image (Basil, Ambrose, Comestor; refused by Augustine, since 'to our image' would then have to be 'to yours')."
+ },
+ "faciamus-to-the-angels": {
+  "label": "He said it to the angels",
+  "gloss": "God took counsel with, or spoke to, the ministering angels — stated outright by Pseudo-Jonathan, argued by Rashi and Ibn Ezra, reported as an option by Remigius, taught with a moral by Hugh, printed at Gen 11:7 by the Glossa, and called a Jewish fiction by Basil."
+ },
+ "image-of-the-whole-trinity": {
+  "label": "To the image of the Trinity itself",
+  "gloss": "Not to the image of the Father alone, or the Son alone, or the Spirit alone — and who would dare separate the Holy Spirit from that plurality? (Augustine, and the Gloss after him)."
+ },
+ "counsel-with-the-household-above": {
+  "label": "He took counsel with the household above",
+  "gloss": "Be-mi nimlakh — with the ministering angels, the court that stands to right and left, out of the humility of the Holy One (Bereshit Rabbah 8:3 and 8:8, b. Sanhedrin 38b, Rashi)."
+ },
+ "consilium-not-senate": {
+  "label": "A soliloquy, not a senate",
+  "gloss": "The counsel was held inwardly — be-libbo nimlakh, he took counsel with his heart; non tam senatu quam soliloquio — though the rabbinic bench draws from it that no second party was present and the Latin bench that three persons were (R. Ami, Rupert, Abelard)."
+ },
+ "refutation-beside-the-claim": {
+  "label": "The refutation is beside the opening",
+  "gloss": "Wherever the verse gives the minim an opening, the answer stands next to it: 'let us make' answered by 'and he created', 'let us go down' by 'and the LORD came down' (R. Simlai, R. Yoḥanan, Rashi)."
+ },
+ "dignity-of-the-creature": {
+  "label": "The consultative form marks the creature's standing",
+  "gloss": "A rational creature is made with counsel, so that its nobility may be shown — or, on the other bench, so that the great may learn to ask leave of the lesser (Alcuin, Bede, Hugh, Abelard; Bereshit Rabbah 8:8)."
+ },
+ "plural-of-majesty-refused": {
+  "label": "Not a plural of majesty",
+  "gloss": "Saadia's reading of na'aseh as royal speech is refused and its proof texts parsed away one by one — 'these witnesses are false witnesses' (Ibn Ezra, against the Gaon, and against his own account of the plural noun at Gen 1:1)."
+ },
+ "i-and-the-earth": {
+  "label": "I and the earth",
+  "gloss": "The plural has a second subject and it is the ground: the earth to bring forth the body from its elements, God to give the spirit (Ramban, crediting R. Yosef Kimḥi)."
  }
 }

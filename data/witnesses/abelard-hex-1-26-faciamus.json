@@ -1,0 +1,43 @@
+{
+ "id": "abelard-hex-1-26-faciamus",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Sed cur pluraliter dicitur: faciamus hominem ad imaginem nostram, si nulla prorsus pluralitas in Deo sit",
+  "en": "But why is it said in the plural — let us make a human to our image — if there is no plurality at all in God?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cujus quidem creationis excellentiam patenter insinuat, cum quasi ex quodam consilio loquens, dicit: faciamus. Sed cur pluraliter dicitur: faciamus hominem ad imaginem nostram, si nulla prorsus pluralitas in Deo sit, qui solus hominem creasse ad imaginem suam postea memoratur his verbis: Et creavit Deus hominem ad imaginem suam, ad imaginem Dei creavit illum. Dicant Judaei si possunt, vel nobiscum fateantur in una Divinitatis essentia pluralitatem personarum magis quam rerum esse. Quod diligenter propheta considerans ad distinctionem personarum faciendam, dicit pluraliter: Faciamus; ad unitatem vero Dei assignandam subjunxit singulariter, et creavit Deus hominem, etc. Quasi ergo aliquis secum loquens se et rationem suam quasi duo constituit cum eam consulit, sicut Boetius in libro De consolatione Philosophiae, vel Augustinus in libro Soliloquiorum. Sic Deus Pater ad creationem hominis tam Sapientiam quam Bonitatem, hoc est Filium et Spiritum sanctum quasi invitans dicit: Faciamus eum talem et tantum, ut imago nostra sit vel similitudo.",
+  "source": "PL 178, col. 760A",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "The excellence of this creation he plainly intimates, when, speaking as though out of a kind of counsel, he says: let us make. But why is it said in the plural — let us make a human to our image — if there is no plurality at all in God, who alone is afterwards recorded to have created the human to his own image in these words: and God created the human to his own image, to the image of God he created him? Let the Jews say, if they can, or else confess with us that in the one essence of the Divinity there is a plurality of persons rather than of things. Considering this carefully, the prophet says in the plural, in order to make a distinction of persons: let us make; and in order to assign the unity of God he added in the singular: and God created the human, etc. So, then, as someone speaking with himself sets up himself and his own reason as though they were two when he consults it — as Boethius does in the book *On the Consolation of Philosophy*, or Augustine in the book of *Soliloquies* — so God the Father, as though inviting both Wisdom and Goodness, that is the Son and the Holy Spirit, to the creation of the human, says: let us make him such and so great, that he may be our image or likeness.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "elohim-is-plural-of-persons",
+  "faciamus-is-the-trinity",
+  "consilium-not-senate",
+  "one-authority-singular-verb"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The same man who is this crux's star witness on Eloim at Gen 1:1, asking the same question at the other verse, and the two pages should be read together: at 1:1 the evidence is a Hebrew noun that is plural in form beside a singular verb, and here it is a Latin verb that is plural in form beside a singular verb three lines later. Both times the argument runs the same way — the plural gives the persons, the singular gives the one creator — and both times it is addressed to Jews by name: dicant Judaei si possunt. What is new here is the analogy, and it is the most interesting thing on the Latin bench for this daf. A man who consults his own reason 'sets up himself and his reason as though they were two', as Boethius does in the Consolation and Augustine in the Soliloquies. That is R. Ami's answer at Bereshit Rabbah 8:3, be-libbo nimlakh — he took counsel with his heart — used to prove the opposite conclusion: for R. Ami the inward counsel shows that no second party was involved, for Abelard it shows how a real plurality can speak in one mouth. Rupert had reached the same figure sixteen years earlier and called it a soliloquy without naming the book."
+}

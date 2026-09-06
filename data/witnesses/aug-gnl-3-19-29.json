@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnl-3-19-29",
+ "work": "aug-gnl",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 401,
+ "date_precision": "range-401-415",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "ad insinuandam pluralitatem personarum",
+  "en": "to intimate a plurality of persons"
+ },
+ "original": {
+  "lang": "la",
+  "text": "hoc primum breviter dicimus, non indifferenter accipiendum quod in aliis operibus dicitur, Dixit Deus, Fiat; hic autem, Dixit Deus, Faciamus hominem ad imaginem et similitudinem nostram: ad insinuandam scilicet, ut ita dicam, pluralitatem personarum propter Patrem, et Filium, et Spiritum sanctum. Quam tamen deitatis unitatem intelligendam statim admonet, dicens, Et fecit Deus hominem ad imaginem Dei; non quasi Pater ad imaginem Filii, aut Filius ad imaginem Patris; alioquin non vere dictum est, ad imaginem nostram, si ad Patris solius, aut Filii solius imaginem factus est homo: sed ita dictum est, fecit Deus ad imaginem Dei: tanquam diceretur, fecit Deus ad imaginem suam. Cum autem nunc dicitur, ad imaginem Dei, cum superius dictum sit, ad imaginem nostram; significatur quod non id agat illa pluralitas personarum, ut plures deos vel dicamus, vel credamus, vel intelligamus; sed Patrem et Filium et Spiritum sanctum, propter quam Trinitatem dictum est ad imaginem nostram, unum Deum accipiamus, propter quod dictum est, ad imaginem Dei.",
+  "source": "PL 34, col. 291",
+  "cc_idno": "7302",
+  "license": "pd"
+ },
+ "english": {
+  "text": "This first we say briefly, that it is not to be taken as a matter of indifference that in the other works it is said, God said, let it be; but here, God said, let us make a human to our image and likeness: namely, to intimate, if I may so put it, a plurality of persons on account of the Father, and the Son, and the Holy Spirit. Yet he at once warns us that the unity of the deity is to be understood, saying, and God made the human to the image of God; not as though the Father to the image of the Son, or the Son to the image of the Father; otherwise it was not truly said, to our image, if the human was made to the image of the Father alone, or of the Son alone: but it was said thus, God made to the image of God, as though it were said, God made to his own image. And since it now says, to the image of God, when it had said above, to our image, it is signified that that plurality of persons does not work so that we should either say, or believe, or understand many gods; but that we should take the Father and the Son and the Holy Spirit — on account of which Trinity it was said, to our image — as one God, on account of which it was said, to the image of God.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "image-of-the-whole-trinity"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The mature statement of the same reading, twenty years after the unfinished commentary, and the sentence the twelfth century will read as the settled Latin answer: the change of formula is not indifferent. Everywhere else dixit Deus, fiat; here dixit Deus, faciamus — and the difference is there to intimate a plurality of persons. Augustine's whole argument is an argument from the shape of the sentence and from nothing else: he has no Hebrew, no grammatical claim about the verb, and no interest in what the word for God is. The observation that the formula changes at this one verse is, on the other bench, R. Yeshoshua's and R. Ami's question at Bereshit Rabbah 8:3 — be-mi nimlakh, with whom did he take counsel — and Rupert of Deutz will state it as mutavit vocem suam, he changed his voice. It is this passage, and not the Confessions, that the Glossa prints on Gen 1:26 under Augustine's name, so it is the form in which the schoolroom of 1150 receives the question."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "rupert-gen-1-26-consilium",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1117,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "non tam senatu quam soliloquio venerando",
+  "en": "not so much a senate as a venerable soliloquy"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ait: Faciamus hominem ad imaginem et similitudinem nostram. Mutavit vocem suam, quippe qui hactenus de singulis dixit: Fiat, et factum est; producat terra, producant aquae, et factum est. Nunc autem tanquam a circuitu terrae, coeli et maris, lassabundus resederit, et inter respirandum in mentem illi venerit, adhuc unum deesse quod deceret vel oporteret fieri: Faciamus, inquit, hominem ad imaginem et similitudinem nostram. Domine, inquit propheta, consilium tuum antiquum, verum fiat. An tibi parvum videtur consilium, his paucis sanctae Trinitatis dictiunculis esse significatum? Magnum plane consilium in illo Sapientiae consilio, in illo talium personarum, Patris, et Filii et Spiritus sancti, non tam senatu quam soliloquio venerando de nobis peccatoribus habitum est.",
+  "source": "PL 167, col. 247B",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "He says: let us make a human to our image and likeness. He changed his voice — he who until now had said of each single thing: let it be, and it was made; let the earth bring forth, let the waters bring forth, and it was made. But now, as though he had sat down wearied from the circuit of earth and heaven and sea, and while catching his breath it had come into his mind that one thing was still lacking which it would be fitting or needful to make: let us make, he says, a human to our image and likeness. Lord, says the prophet, let your ancient counsel be made true. Or does the counsel seem to you a small one, to have been signified by these few little sayings of the holy Trinity? A plainly great counsel was held in that counsel of Wisdom, in that — not so much a senate as a venerable soliloquy — of such persons, the Father, and the Son, and the Holy Spirit, concerning us sinners.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "consilium-not-senate"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Rupert states the philological observation more plainly than anyone else on the Latin bench — mutavit vocem suam, he changed his voice — and then does something no one else does: he names the two things the change of voice could mean and rejects one of them. The counsel is non tam senatu quam soliloquio, not so much a senate as a soliloquy. That is the disagreement of Bereshit Rabbah 8:3 settled in four words, and settled the other way from where it starts. There R. Yehoshua in R. Levi's name says God took counsel with the work of heaven and earth, and the parable is of a king with two sanqlitin — Greek synklētikoi, senators — while R. Ami says be-libbo nimlakh, he took counsel with his own heart. Rupert, who has never heard of either, uses the Roman word for the first and the Augustinian word for the second, and chooses the second. Abelard chooses it too, twenty years later, and gives it a source: a man consulting his own reason makes two of himself, as in Boethius and in Augustine's Soliloquies. The image of God pausing for breath is Rupert's own and is not in the tradition."
+}

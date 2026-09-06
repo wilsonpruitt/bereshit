@@ -1,0 +1,46 @@
+{
+ "id": "br-8-8",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "רִבּוֹן הָעוֹלָם מָה אַתָּה נוֹתֵן פִּתְחוֹן פֶּה לַמִּינִים",
+  "en": "Master of the world, why are you giving the minim an opening?"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רבי שמואל בר נחמן בשם רבי יונתן אמר: בשעה שהיה משה כותב את התורה היה כותב מעשה כל יום ויום, כיון שהגיע לפסוק הזה שנאמר: ויאמר אלהים נעשה אדם בצלמנו כדמותנו. אמר לפניו: רבון העולם מה אתה נותן פתחון פה למינים אתמהא?! אמר לו: כתוב והרוצה לטעות יטעה. אמר לו הקב\"ה: משה! האדם הזה שבראתי לא גדולים וקטנים אני מעמיד ממנו?! שאם יבא הגדול ליטול רשות מן הקטן ממנו, והוא אומר מה אני צריך ליטול רשות מן הקטן ממני?! והן אומרים לו: למוד מבוראך, שהוא ברא את העליונים ואת התחתונים, כיון שבא לבראת את האדם נמלך במלאכי השרת. אמר רבי לוי: לית הכא מלכו אלא, משל למלך שהיה מטייל בפתח פלטין שלו וראה בלורין א' מושלכת, אמר, מה נעשה בה? מהן אומרים דימוסיות, ומהן אומרים פריבטאות. אמר המלך: אינדרטין אני עושה אותה, מי מעכב:",
+  "source": "Bereshit Rabbah 8:8 (Vilna numbering)",
+  "license": "daat-br",
+  "version": "Sefaria 'Daat Bereshit Rabbah' (Public Domain). Chapter 8 is not in 'Wikisource Bereshit Rabbah', the version used for chapters 1-3"
+ },
+ "english": {
+  "text": "Rabbi Shmuel bar Naḥman said in the name of Rabbi Yonatan: When Moses was writing the Torah, and was writing what was made on each day, when he reached this verse: “And God said: Let us make Man in our image, in our likeness” – he said before Him: ‘Master of the universe, why do you provide the heretics with basis for a claim? This is bewildering.’ He said to him: ‘Just write, and if someone wants to err, let him err.’ The Holy One blessed be He said to Moses: ‘Is it not so regarding this man whom I created, that I will bring forth descendants of greater and lesser status? If someone of greater status is about to seek approval from one of lesser stature than he, but he says: Why do I need to seek approval from one who is of lesser stature than I? One may say to him: Learn from your Creator, as He created the heavenly realms and the earthly realms, but when He came to create man, he consulted with the ministering angels.’ Rabbi Levi said: There is no consultation here; rather, this is analogous to a king who was strolling at the entrance to his palace, and saw a large hewn rock set off to the side. He said: ‘What should we use this for?’ Some of them [of his advisers] said: ‘[Use it for] the public baths,’ and others said: ‘For private bathhouses.’ The king said: ‘I am going to craft it into a statue.’ Who will prevent it?",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "sefaria-midrash-rabbah",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-shmuel-b-nachman",
+  "r-yonatan",
+  "r-levi"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "counsel-with-the-household-above",
+  "against-the-heretics",
+  "dignity-of-the-creature"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The single most important passage on this daf, because it is the rabbinic bench saying out loud that it knows what the other bench does with this verse. Moses is writing the Torah at dictation; he reaches na'aseh adam and stops: ribbon ha-olam, mah attah noten pitchon peh la-minim — Master of the world, why are you giving the minim an opening? And the answer is not a defence of the plural but a refusal to protect it: 'write, and whoever wants to err, let him err.' Then the reason the risk was worth taking, and it is a moral one: God made greater and lesser, and a great man who will not ask leave of a lesser is to learn from his Creator, who consulted the ministering angels before making a human. R. Levi will not have even that — let hakha malkhu, there is no consulting here — and gives a parable in which the king asks what to do with a block of stone, hears his advisers say baths, and makes a statue: who is going to stop him? So the passage holds three positions at once: that the plural is dangerous, that it teaches humility, and that the consultation was never real. What it does not do is deny that the verse can be read as the minim read it. That is the concession the Latin bench never makes and never needs to, and it is the clearest evidence on the site that the two readings of Gen 1:26 were known to each other."
+}

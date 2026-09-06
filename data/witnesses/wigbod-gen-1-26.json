@@ -1,0 +1,40 @@
+{
+ "id": "wigbod-gen-1-26",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "D. … M. Ad insinuandum pluralitatem personarum",
+  "en": "D. … M. To intimate a plurality of persons"
+ },
+ "original": {
+  "lang": "la",
+  "text": "D. Hoc primum breviter dicimus non indifferenter accipiendum, quod in aliis operibus dicitur, dixit Deus, Fiat, hic autem dixit Deus, Faciamus. M. Ad insinuandum, ut ita dicam, pluralitatem personarum, propter Patrem et Filium et Spiritum sanctum, quam tamen deitatis unitatem intelligendam statim admonuit dicens: Et fecit Deus hominem ad imaginem suam.",
+  "source": "PL 96, col. 1132C",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "D. This first we say briefly, that it is not to be taken as a matter of indifference that in the other works it is said, God said, let it be; but here, God said, let us make. M. To intimate, if I may so put it, a plurality of persons, on account of the Father and the Son and the Holy Spirit — yet he at once warned that the unity of the deity is to be understood, saying: and God made the human to his own image.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Augustine's sentence from De Genesi ad litteram III.19 cut in half and given to two speakers, D and M, so that the observation becomes a pupil's and the doctrine a master's. Nothing is added and one thing is lost: Augustine wrote ad imaginem Dei, and had a paragraph of argument about why it is not ad imaginem Filii; Wigbod writes ad imaginem suam, which makes the point unarguable and unexaminable at once. The compilation is also where the attribution slips — the excerpt is headed AMBROSIUS, de creatione hominis, and the words are Augustine's. That is the ordinary condition of the Carolingian florilegia and is why the Latin bench of the ninth century can be read for what it circulated rather than for what it thought."
+}

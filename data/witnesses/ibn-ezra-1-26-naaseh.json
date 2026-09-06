@@ -1,0 +1,42 @@
+{
+ "id": "ibn-ezra-1-26-naaseh",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וְאֵלֶּה הָעֵדִים עֵדֵי שֶׁקֶר הֵם",
+  "en": "and these witnesses are false witnesses"
+ },
+ "original": {
+  "lang": "he",
+  "text": "ואמר במלת נעשה, ואם היא לשון רבים, שכן מנהג המלכים לדבר, וכמוהו וְנִתְּנָה לך גם את זאת (בראשית כח כז), \"נאמר קדם מלכא (דניאל ב לו) \"אולי אוכל נכה בו\" (במדבר כב ו), ואלה העדים עדי שקר הם, כי \"ונתנה לך\" בנין נפעל, וכמוהו \"והעיר נתנה\" (ירמיה לב כד), והוי\"ו השיבו לעתיד כמשפט כל פעל עבר, והטעם וַתִנָתַן לך \"ונכה בו\" הוא ומחנהו, או יהיה שם הפועל כמו \"ונקה לא אנקך\" (ירמיה מו כח) ואף כי שמצאנו \"לא נכו\" (שמות ט, לב) כי לא יבוא בנין שלא נזכר שם פועלו, כי אם מהכבד, ור' משה הכהן הספרדי טעה בספרו, ומלת \"נאמר קדם מלכא\" (דניאל ב לו) ארמית היא ואיך ידבר דניאל בלשון גדולה עם נבוכדנצר שהיה מלך מלכים, ועתה אפרש, דע כי כל מעשה בראשית, לכבוד האדם נברא במצות השם, והצמחים הוציאה אותם הארץ והמים, וכל נפשות החיות, ואח\"כ אמר השם למלאכים, נעשה אדם, אנחנו נתעסק בו, ולא המים והארץ",
+  "source": "Ibn Ezra on Gen 1:26, s.v. נעשה אדם",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "And he said [further] that the word na’aseh, though it is in plural, is the manner of royal speak [i.e., the plural of majesty]. Similarly, “we shall give nitnah to you also this one” Genesis 29:27. “We say before the king” Daniel 2:36, “perhaps I will be able and we will smite him” Numbers 22:6. But these witnesses are false witnesses, for nitnah is [actually] the nif’al verb construction, and similarly “the city is given” nitnah Jeremiah 32:24, and the vav converts it to the future tense, like is the rule with all past-tense verbs, meaning “she will be given to you”. And “we shall smite him” – he [Balak] and his camp, or it could be the infinitive of the verb, like “clease nakeh, I shall not clease you” Jeremiah 46:28. And even though we do find “they were not smitten” Exodus 9:32, [nevertheless], only that verb construction (pu'al) lacks an infinitive form – and R. Moshe of Spain erred in his book [on this matter]. And the word “we shall say (before the king)” Daniel 2:37 is Aramaic, and [further], how could Daniel speak hautily with Nebuchadnezzar, who was the king of kings? Now I shall explain: Know that all of the work of creation was created for the honor of man at the command of Hashem. The plants – the earth and the water brought them forth, and all the living souls [i.e., the animals]. And afterwards, Hashem said to the angels, “let US make man” – WE will busy ourselves with him, not the water and the earth.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "saadia-gaon"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "plural-of-majesty-refused",
+  "faciamus-to-the-angels"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The finding of this session, and it is a correction to what the daf would otherwise say about Ibn Ezra. At Gen 1:1 he explains the plural Elohim as the honorific plural — every language honours the great with a plural, as adonim and be'alim are plural for one master, and as a king in Arabic speaks of himself in the plural (see `ibn-ezra-1-1-elohim`). Here, on the plural verb, he is offered the same explanation by Saadia Gaon — na'aseh is the manner of royal speech, with Gen 29:27, Dan 2:36 and Num 22:6 for proofs — and he demolishes it: ve-elleh ha-edim edei sheker hem, and these witnesses are false witnesses. Each proof text is parsed away, nitnah as a nifal and not a first person plural, nakkeh bo as Balak and his camp or else an infinitive; R. Moshe ha-Kohen is told he erred in his book; and Daniel could not have used a plural of grandeur to the king of kings. Then his own answer: God said to the angels, let us make a human — we shall occupy ourselves with him, and not the water and the earth, which had brought forth the plants and the animals. So the grammarian who takes the plural noun to be empty takes the plural verb to be full, and full in the way the Latin bench most objects to. The two positions are not inconsistent — a plural of honour is a fact about nouns, and na'aseh has a real subject — but only a reader who has both pages can see that Ibn Ezra's answer to this crux is the angel reading."
+}

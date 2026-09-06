@@ -1097,3 +1097,170 @@ character and so expanded none of them; the offset map has to be built over the 
 **Every remaining silent-truncation path is closed.** `br-2-4` and `targ-neof-1-1` were still using
 bare `find` results as slice indices, and `_bon_slice` in the K10 spec fell back to returning the
 whole text on a failed anchor. All three raise now. Nothing in `cruxes/` uses an unguarded find.
+
+---
+
+# Phase 6 part three — Gen 1:26 *Faciamus hominem* into K3 (2026-09-05)
+
+**26 witnesses added, 36 threads. Roster 240 → 266 witnesses, 329 → 366 threads, site 371 → 403
+pages.** `check.py` clean, `npm run build` clean, `astro check` 0 errors, Pagefind indexed 403
+pages. Every witness anchored on `gen.1.2` under the **second clause** of the anchor rule, each
+with a visible ⚠ Anchor note; `data/scripture/gen-1.json` untouched, so the edition's scope is
+still Gen 1:1–5 and there is no `/dialogue/gen-1-26/` page.
+
+## ⚠ ESCALATED, NOT DECIDED: K3's finding is now false, and in both directions
+
+K3's `finding` says three benches reach three incompatible conclusions from one grammatical fact,
+"nobody is answering anybody", and that three of the four could not have read each other. On the
+Gen 1:1 evidence that was right. On the Gen 1:26 evidence it is wrong, and the amendment is not a
+builder's call. **The case, and a drafted replacement paragraph, are at the end of this section.**
+
+## The roster, and what was pruned
+
+`grep-bench.py "Faciamus hominem"` gave 107 hits across 23 works; `notes/k3-gen-1-26-survey.md`
+narrowed that to 46 candidates; **15 Latin/Greek witnesses were built.** What was left out, and
+why, because the pruning is the judgement and should be inspectable:
+
+- **Rabanus** (PL 107:459C) and **Angelomus** (PL 115:145A) copy Bede verbatim and add nothing.
+  Named in `bede-gen-1-26`'s notes instead of built.
+- **Rupert's** other thirty hits are on the image and on predestination. The one that touches
+  plurality, PL 167:315A on *unus ex nobis* at Gen 3:22, is material Bede, Alcuin and Rabanus all
+  carry. The Rupert that was built is **PL 167:247B**, which the seeding list did not flag and
+  which is the best Latin witness on the daf: see below.
+- **Augustine, *Confessions* XIII** (PL 32:858) makes the plural/singular alternation an allegory
+  of the renewed spiritual man, not an argument about God.
+- The large majority of the 107 raw hits are on *ad imaginem*, a different question entirely.
+- **Bruno** came back **COVERED** by `bruno-gen-1-1c`, built for this crux at Phase 2. So the
+  Latin bench's Gen 1:26 material was already on this daf, inside a Gen 1:1 witness, unlabelled —
+  which is itself a small argument that the anchor rule's second clause was describing something
+  the data had already done.
+
+**Rabbinic: 11 witnesses.** BR 8:3, 8:8, 8:9; b. Sanhedrin 38b twice; Rashi twice; Ibn Ezra;
+Ramban; Onkelos; Pseudo-Jonathan. **BR 17 was not used** (secondary, and says nothing 8 does not).
+**Targum Neofiti was not used**: its licence is the same open question as the two existing Neofiti
+witnesses, and this was not the session to settle it.
+
+## The seeding list missed the best Latin witness on the daf
+
+`rupert-gen-1-26-consilium` (PL 167:247B) is **not in the 46**. The filter required two of
+{plural, numer, persona, Trinit, Iudae, angel, singulari} within 700 characters, and Rupert's
+sentence — *Mutavit vocem suam … non tam senatu quam soliloquio venerando* — contains **none of
+them**. It was found by reading the context of a candidate that did match, three columns away.
+
+That is the transferable lesson and it generalises past this crux: **a signal-word filter finds
+the witnesses that argue in the vocabulary you already have, and misses the one that says the
+thing in its own words.** The reason Rupert matters is exactly that he does not use the school's
+terms — *senatus* and *soliloquium* are the two poles of Bereshit Rabbah 8:3's disagreement
+(R. Yehoshua's king with two *sanqlitin*, Greek *synklētikoi*, against R. Ami's *be-libbo nimlakh*),
+and no filter built out of Trinitarian vocabulary could have caught them.
+
+## `overlap.py` had a silent gap, now fixed
+
+`overlap.py` builds its coverage map by locating each Latin witness's first 60 characters in the
+TEI. A witness whose `text` was **assembled** — several glosses concatenated, an editorial bracket
+spliced in — has no 60-character verbatim prefix, so it was dropped from the map with a note on
+**stderr**, and every candidate sitting inside it would then have been reported **FREE**.
+`glossa-1-2-ruach` is such a witness and had been invisible to the guard since K4.
+
+Fixed: shorter prefixes are tried (60, 40, 24), the failure notice moved to **stdout** where the
+answer is being read and reworded to say the FREE verdicts in that work are not trustworthy, and a
+witness matched only on a short prefix has its coverage claimed only as far as the prefix actually
+matched, so coverage is never asserted beyond the evidence. No candidate in this session was
+affected — all seven Glossa witnesses end by col. 72A and both candidates were at 80B and 114D —
+but the class was live.
+
+## What the plan and the brief got wrong
+
+1. **Sanhedrin 38b has no free English.** "Sefaria Community Translation" is listed for the *work*
+   and returns nothing for *this daf*; En Jacob (Glick 1916, PD) returns nothing either; Davidson
+   is CC BY-NC and barred. Both Sanhedrin witnesses carry fresh drafts. This is the third time the
+   rule has paid: **a version title in `api/texts/versions/<work>` is a claim about the work, not
+   the passage.**
+2. **Onkelos Gen 1:26 has no free English either** — only Metsudah, CC BY-NC. Fresh draft, as at
+   `targ-onk-1-5`.
+3. **The brief's BR 8 warning was right and is now permanent policy**: Wikisource does not cover
+   BR ch. 8, Daat does; Daat is the version that returned nothing for chapters 1–3. The BR Hebrew
+   on this site therefore comes from **two versions by chapter**, and that now has its own licence
+   key, `daat-br`, so the colophon says so in its own entry rather than silently under `pd`.
+4. **The brief's estimate was right for once.** ~60–100K was forecast; the survey being done in
+   advance is what did it. The roster ran to 26 against no stated estimate; the pattern of
+   overruns is unbroken but this time nobody had written a number to overrun.
+
+## The evidence that K3's finding has to change
+
+**K3's finding, as it stands, rests on Gen 1:1 alone, and Gen 1:1 is the verse where the two
+benches happen not to touch.** Move one verse over and the same two benches are demonstrably in
+contact — in three distinct ways, of which only the first is the obvious one.
+
+**(a) Named, mutual contact.** Basil, in the Latin every western reader used, reports the rabbinic
+answer accurately and by name: *ferunt enim, quod angelis dixerit: Faciamus hominem* — and it is
+what Targum Pseudo-Jonathan actually prints in the biblical line. He then refutes it with
+*Fecit Deus hominem: non fecerunt*, which is R. Simlai's own proof at BR 8:9 turned around. On the
+other side, BR 8:8 has Moses stop while writing the verse — *why are you giving the minim an
+opening?* — and BR 8:9 has the minim ask R. Simlai how many divinities created the world and cite
+Gen 1:1 and Gen 1:26 in one breath. Both benches know what the other does with these verses and
+say so.
+
+**(b) A pairing neither bench could have got from the other.** R. Yoḥanan at b. Sanhedrin 38b
+lists the plural verses with the singular refutations beside them, and the first two are Gen 1:26
+answered by 1:27 and Gen 11:7 answered by 11:5. Augustine's *De civitate Dei* XVI.6, headed *de
+locutione qua Deus Angelis loquitur*, takes up the same two verses in the same order and applies
+the same test, refusing the angels at Gen 1:26 because of the image clause and granting them at
+Gen 11:7 because nothing forbids it. The Glossa Ordinaria at PL 113:114D joins the same two verses
+and answers both with their singulars. Three benches select the same pair out of the Pentateuch by
+the same criterion and test it the same way, with no contact whatever. That is not influence; it
+is the Hebrew text imposing the same structure on everyone who reads it carefully, which is a
+stronger finding than "no contact" and a different one from "contact".
+
+**(c) The same figures of speech, independently.** Rupert's *non tam senatu quam soliloquio* is
+BR 8:3's two extremes, the king with his *sanqlitin* against *be-libbo nimlakh*, decided the other
+way. Abelard's man who consults his own reason and so makes two of himself, with Boethius and the
+*Soliloquies* named, is R. Ami's answer with a bibliography. Remigius's *quasi quodam concilio* is
+*be-mi nimlakh* in one word. Hugh's moral — do not disdain to take counsel from equals and from
+lesser people, since God himself so speaks to the angels — is BR 8:8's moral exactly, and he grants
+the angels a possible ministry in forming the body, which is further than any rabbinic witness here
+goes. Rashi's *pamalya shel ma'alah* is the Latin *familia*; the court is the same borrowed picture
+on both benches.
+
+**And one correction to the daf's own account of a witness.** K3 has Ibn Ezra as the man who takes
+the plural noun to be an empty honorific. At Gen 1:26 Saadia Gaon offers him the identical
+explanation for the plural verb and he destroys it — *ve-elleh ha-edim edei sheker hem*, these
+witnesses are false witnesses — parses away every proof text, and puts a real hearer in their
+place: God said **to the angels**, let us make a human. The two positions are compatible (a plural
+of honour is a fact about nouns; *na'aseh* has a subject), but a reader with only the Gen 1:1 page
+would have Ibn Ezra's answer to this crux exactly backwards. That is now `t-k3-54`.
+
+## ⚠ Proposed amendment to K3's `finding` — for Wilson, not executed
+
+The existing finding is unchanged in `data/cruxes.json`. What is proposed is to **keep both
+existing paragraphs as they stand** — they are accurate about Gen 1:1 — and to **replace the third
+and last paragraph**, the one that ends with Bruno of Segni refusing the plurality "in the rabbinic
+bench's own words", with this:
+
+> At Gen 1:1 nobody is answering anybody. One verse over, at *Faciamus hominem*, they are, and the
+> daf now carries the evidence. Basil reports the rabbinic reading by name — *ferunt enim, quod
+> angelis dixerit: Faciamus hominem* — and it is what Targum Pseudo-Jonathan prints in the
+> biblical line itself; he refutes it with *Fecit Deus hominem: non fecerunt*, which is R. Simlai's
+> own proof at Bereshit Rabbah 8:9 turned around. Bereshit Rabbah 8:8 has Moses stop while writing
+> the verse to ask why God is giving the *minim* an opening, and is told to write it and let
+> whoever wants to err, err. So on this verse each bench knows what the other does with the words
+> and says so, which is not true of the first verse at all. The deeper contact is the one neither
+> side could have arranged. R. Yoḥanan at b. Sanhedrin 38b lists the plural verses with their
+> singular refutations beside them, and the first two are Gen 1:26 answered by Gen 1:27 and Gen
+> 11:7 answered by Gen 11:5; Augustine's *De civitate Dei* XVI.6, in a chapter headed *de locutione
+> qua Deus Angelis loquitur*, takes the same two verses in the same order and applies the same
+> test, refusing the angels at the first because of the image clause and granting them at the
+> second because nothing forbids it; and the Glossa Ordinaria joins the same pair at PL 113:114D.
+> Three benches choose the same two verses out of the Pentateuch by the same criterion and test
+> them the same way, and none of them has read another. The pairing is not borrowed. It is what
+> the Hebrew does to anyone who reads it carefully, and the disagreement that remains is only
+> about what the plural was doing there — a court of angels, a plurality of persons, the earth
+> beside its maker, or nothing at all.
+
+**Three smaller consequences follow if the amendment is taken, and none of them is executed
+either.** (1) K1's finding says something similar about "no contact either way" and was already
+queried at Phase 6 part one over Chalcidius; it should be looked at in the same sitting. (2) The
+crux `summary` still frames the question as one about the word *Elohim*; on the present roster the
+crux is about plural speech about God, of which the noun is one case and the verb another. (3)
+The answer `elohim-is-honorific-plural` reads as Ibn Ezra's whole position and, after `t-k3-54`,
+is only half of it.

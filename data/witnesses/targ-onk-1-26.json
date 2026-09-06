@@ -1,0 +1,40 @@
+{
+ "id": "targ-onk-1-26",
+ "work": "targ-onk",
+ "author": "onkelos",
+ "tradition": "rabbinic",
+ "date": 200,
+ "date_precision": "range-100-300",
+ "place": "palestine",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וַאֲמַר יְיָ נַעֲבִיד אֱינָשָׁא",
+  "en": "And the LORD said, let us make a human"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "וַאֲמַר יְיָ נַעֲבִיד אֶינָשָׁא בְּצַלְמֵנָא כִּדְמוּתָנָא וְיִשְׁלְטוּן בְּנוּנֵי יַמָּא וּבְעוֹפָא דִּשְׁמַיָּא וּבִבְעִירָא וּבְכָל אַרְעָא וּבְכָל רִחֲשָׁא דְּרָחֵשׁ עַל אַרְעָא",
+  "source": "Targum Onkelos, Gen 1:26",
+  "license": "pd",
+  "version": "Sefaria 'Onkelos Genesis'"
+ },
+ "english": {
+  "text": "And the LORD said: let us make a human in our image, as our likeness; and let them rule over the fish of the sea and over the bird of the heavens and over the cattle and over all the earth and over every creeping thing that creeps upon the earth.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "translation"
+ ],
+ "answers": [
+  "one-authority-singular-verb"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Evidence by omission, and it only reads as evidence next to the same targum's Gen 1:1. There Onkelos writes YY for Elohim, the Tetragrammaton, which is not plural in form, so that a reader of the Aramaic cannot raise the question of two authorities from the noun at all (see `targ-onk-1-1`). Here the plural verb is left standing: na'avid enasha be-tzalmana ki-dmutana — let us make a human in our image, as our likeness — with nothing added, nobody addressed, and no angels. The one difficulty the Aramaic could have removed as easily as the other, and did not. Whatever governed Onkelos's hand at Gen 1:1, it was not a general policy of smoothing plurals out of the creation account; and Pseudo-Jonathan, working on the same verse in the same language, does add the angels in so many words."
+}

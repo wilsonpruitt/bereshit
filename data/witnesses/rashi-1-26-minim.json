@@ -1,0 +1,41 @@
+{
+ "id": "rashi-1-26-minim",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1075-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וּתְשׁוּבַת הַמִּינִים כָּתַב בְּצִדּוֹ, וַיִּבְרָא אֶת הָאָדָם, וְלֹא כָתַב וַיִּבְרְאוּ",
+  "en": "and the refutation of the minim he wrote beside it: 'and he created the human', and he did not write 'and they created'"
+ },
+ "original": {
+  "lang": "he",
+  "text": "נעשה אדם. אַעַ\"פִּ שֶׁלֹּא סִיְּעוּהוּ בִיצִירָתוֹ וְיֵשׁ מָקוֹם לַמִּינִים לִרְדּוֹת, לֹא נִמְנַע הַכָּתוּב מִלְּלַמֵּד דֶרֶך אֶרֶץ וּמִדַּת עֲנָוָה שֶׁיְּהֵא הַגָּדוֹל נִמְלָךְ וְנוֹטֵל רְשׁוּת מִן הַקָּטָן; וְאִם כָּתַב אֶעֱשֶׂה אָדָם, לֹא לָמַדְנוּ שֶׁיְּהֵא מְדַבֵּר עִם בֵּית דִינוֹ, אֶלָּא עִם עַצְמוֹ, וּתְשׁוּבַת הַמִּינִים כָּתַב בְּצִדּוֹ, וַיִּבְרָא אֶת הָאָדָם, וְלֹא כָתַב וַיִּבְרְאוּ:",
+  "source": "Rashi on Gen 1:26, s.v. נעשה אדם (second comment)",
+  "license": "silbermann",
+  "version": "Rosenbaum–Silbermann, 1929–34"
+ },
+ "english": {
+  "text": "נעשה אדם WE WILL MAKE MAN — Although they did not assist Him in forming him (the man) and although this use of the plural may give the heretics an occasion to rebel (i. e. to argue in favour of their own views), yet the verse does not refrain from teaching proper conduct and the virtue of humbleness, namely, that the greater should consult, and take permission from the smaller; for had it been written, “I shall make man”, we could not, then, have learned that He spoke to His judicial council but to Himself. And as a refutation of the heretics it is written immediately after this verse “And God created the man”, and it is not written “and they created” (Genesis Rabbah 8:9)",
+  "translator": "M. Rosenbaum and A. M. Silbermann, 1929–34",
+  "license": "silbermann"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "refutation-beside-the-claim",
+  "one-authority-singular-verb",
+  "counsel-with-the-household-above"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The objection and the answer, in a hundred words, and it is the whole of this crux compressed. The objection: the angels did not help, and the plural gives the minim room to rebel. The answer is in three parts. Scripture did not refrain, because the point was to teach derekh eretz and the measure of humility, that the great should consult and take leave of the lesser. Had it written e'eseh adam, we should not have learned that he speaks with his court but only with himself — which is Ambrose's non dicit faciam, sed faciamus at Milan, the identical grammatical observation put to the identical use of ruling out a soliloquy, and to the opposite conclusion about who is being addressed. And the refutation of the minim was written beside it: va-yivra et ha-adam, and he did not write va-yivre'u, which is R. Simlai's rule and answer from Bereshit Rabbah 8:9. Rashi at Troyes about 1090 is thus doing openly what no Latin witness on this daf does: he names the risk the verse carries, weighs it against what the verse teaches, and decides that the teaching is worth the opening. Whether the minim he has in mind are the Christians of northern France is not said here and is not needed: the grammatical opening is the same one Abelard will exploit at the Paraclete forty years later."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "ambrose-hex-6-7-40",
+ "work": "ambrose-hex",
+ "author": "ambrose",
+ "tradition": "latin",
+ "date": 387,
+ "date_precision": "circa",
+ "place": "milan",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Cui dicit? Non sibi utique, quia non dicit, faciam, sed faciamus",
+  "en": "To whom does he say it? Not to himself, surely, for he does not say 'I shall make' but 'let us make'"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Faciamus, inquit, hominem ad nostram imaginem, et ad similitudinem nostram (Gen., I, 26) . Quis hoc dicit? Nonne Deus, qui te fecit? Quid est Deus? Caro, an spiritus? Non caro utique, sed spiritus, cujus similis caro esse non potest; quia ipse incorporeus et invisibilis est, 128 caro autem comprehenditur et videtur. Cui dicit? Non sibi utique, quia non dicit, faciam, sed faciamus. Non Angelis; quia ministri sunt; servi autem cum domino, et opera cum auctore non possunt operationis habere consortium: sed dicit Filio: etiamsi Judaei nolint; etiamsi Ariani repugnent. Sed et Judaei conticescant, et Ariani cum suis parentibus obmutescant, qui dum unum a consortio divinae operationis excludunt, plures inserunt; et praerogativam quam Filio negant, servulis donant. 41. Sed esto; ut adminiculo servulorum ad operandum Deus vobis indiguisse videatur. Si operatio communis est cum angelis Deo, numquid Deo et angelis imago communis est? Numquid angelis diceret: Faciamus hominem ad nostram imaginem, et ad similitudinem nostram?",
+  "source": "PL 14, col. 257A",
+  "cc_idno": "6958",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Let us make, he says, a human to our image and to our likeness (Gen 1:26). Who says this? Is it not God, who made you? What is God? Flesh, or spirit? Not flesh, surely, but spirit, whose likeness flesh cannot be; because he is incorporeal and invisible, whereas flesh is grasped and seen. To whom does he say it? Not to himself, surely, for he does not say, I shall make, but, let us make. Not to angels; because they are servants; and servants with their lord, and works with their author, cannot have a partnership of working: but he says it to the Son, even if the Jews are unwilling, even if the Arians fight back. Let the Jews be silent, and let the Arians be struck dumb along with their parents, who, while they shut one out from the fellowship of the divine working, bring in many; and the prerogative they deny to the Son they make a gift of to little servants. But be it so — that God should seem to you to have needed the support of little servants in order to work. If the working is common to God with the angels, is the image then common to God and the angels? Would he say to angels: let us make a human to our image and to our likeness?",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "not-to-angels",
+  "faciamus-to-the-son"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Ambrose puts the question in the sharpest possible form — cui dicit?, to whom does he say it? — and works through the same three candidates as Basil, whom he is reading, in the same order: not to himself, because the verb is not faciam; not to the angels, because a servant is no partner in the master's work; therefore to the Son. What he adds to Basil is the polemical pairing: the Jews and the Arians are refuted in one breath, and by the same argument, that whoever denies the Son a share in the working has to give that share to somebody, and ends by handing it to servuli, little servants. The rabbinic bench's own answer — that God took counsel with the household above — is thus not merely rejected on this daf but is treated as the position a Christian falls into by mistake if he gets the Son wrong. Note also that the Latin argument turns on a Latin fact: faciam against faciamus is exactly the alternative Rashi weighs at Troyes seven hundred years later, in Hebrew, when he writes that had it said e'eseh adam we could not have learned that God speaks with his court."
+}

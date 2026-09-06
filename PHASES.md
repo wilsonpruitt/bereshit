@@ -481,3 +481,55 @@ PRIMUM is such a slice, and the column has to be supplied by hand. (3) The Sefar
 m. Chagigah 2:1 is the **William Davidson Edition**, which is NC and is never embedded on this site
 (the frozen data rule names Davidson/Steinsaltz for the Bavli; it applies to the Mishnah too) — the
 English there is a fresh draft from the Hebrew.
+
+### Part three, 2026-09-05 — Gen 1:26 *Faciamus hominem* into K3
+
+**266 witnesses, 366 threads, 403 pages, all checks clean.** 26 witnesses and 36 threads added, all
+anchored on `gen.1.2` under the **second clause** of the anchor rule with a visible ⚠ Anchor note;
+`data/scripture/` untouched. Fifteen Latin/Greek witnesses pruned from a 46-candidate survey, eleven
+rabbinic. Full write-up in the Phase 6 part three section of `notes/SOURCES-FINDINGS.md`.
+
+- ⚠ **ESCALATED, NOT DECIDED: K3's `finding` is now false and a replacement paragraph is drafted**
+  in `notes/SOURCES-FINDINGS.md`, awaiting Wilson. At Gen 1:1 the benches genuinely do not touch;
+  at Gen 1:26 they do, in three ways — Basil reports the rabbinic answer by name and refutes it
+  with R. Simlai's own proof; BR 8:8 has Moses stop to ask why the verse gives the *minim* an
+  opening; and three benches independently pair Gen 1:26 with Gen 11:7 and test both with the
+  singular that follows (b. Sanhedrin 38b, *De civitate Dei* XVI.6, Glossa PL 113:114D).
+- **A correction to the daf's account of a witness.** Ibn Ezra takes the plural *noun* at Gen 1:1
+  to be an empty honorific and, at Gen 1:26, destroys Saadia's identical reading of the plural
+  *verb* — "these witnesses are false witnesses" — and answers that God spoke **to the angels**.
+- **`overlap.py` had a silent gap, fixed with the failure moved to stdout.** A witness whose text
+  was assembled (concatenated glosses, a spliced editorial bracket) had no 60-character verbatim
+  prefix, was dropped from the coverage map with a stderr note, and would have made any candidate
+  inside it report FREE. `glossa-1-2-ruach` had been invisible to the guard since K4.
+- **The seeding filter missed the best Latin witness on the daf.** Rupert PL 167:247B — *mutavit
+  vocem suam … non tam senatu quam soliloquio* — contains none of the seven signal words, and is
+  BR 8:3's own disagreement (a king with two *sanqlitin* against *be-libbo nimlakh*) in Latin. A
+  signal-word filter finds what argues in vocabulary you already have.
+- **Two more free-English negatives, both against a version listed for the work**: b. Sanhedrin 38b
+  and Onkelos Gen 1:26 have no free English at all (Davidson and Metsudah are CC BY-NC, En Jacob
+  returns nothing for the daf); both carry fresh drafts.
+- **The BR Hebrew now comes from two versions by chapter** and has its own licence key `daat-br`
+  so the colophon says so: Wikisource for chapters 1–3, which does not cover ch. 8; Daat for ch. 8,
+  which returned nothing for chapters 1–3.
+
+**Added for the Gen 1:26 block** (extends the frozen renderings, does not re-decide them).
+*faciamus* = "let us make" and *faciam* = "I shall make", kept apart wherever a witness contrasts
+them, since the contrast is the argument; *ad imaginem et similitudinem nostram* = "to our image
+and likeness"; *consilium* = "counsel" and *quasi quodam concilio* = "as though by a kind of
+council", with *senatus* = "senate" and *soliloquium* = "soliloquy" left as the two poles Rupert
+names; *pluralitas personarum* = "a plurality of persons" (as at K3's Gen 1:1 block); *servuli* =
+"little servants", not "servants", because Ambrose's contempt is the point; *ratio* = "reasoning"
+in Bede's *nulla prorsus ratio sinit*; *homo* in these witnesses = "a human" and not "man", since
+every argument here turns on number and not on sex. Rabbinic: *minim* is left as the Sefaria
+translations have it ("heretics") inside embedded English and is transliterated as *minim* in
+editorial prose; *be-mi nimlakh* = "with whom did he take counsel"; *be-libbo nimlakh* = "he took
+counsel with his heart"; *pitchon peh la-minim* = "an opening for the minim"; *pamalya shel
+ma'alah* = "the household above"; *sanqlitin* given as "senators" with the Greek noted;
+*na'aseh adam* transliterated; *anvetanuto* = "humility".
+
+**Burn, measured on the Gen 1:26 block (Opus, 2026-09-05): ~95K tokens**, inside the brief's
+60–100K estimate, and the first estimate in the project that has held. The reason is stated in the
+brief itself and is worth keeping: **the survey had been run in a previous session, so this session
+did roster judgement, slicing and drafting and no discovery.** The one thing the survey could not
+do was find the witness whose vocabulary it did not share.

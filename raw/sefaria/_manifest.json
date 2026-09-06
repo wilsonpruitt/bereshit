@@ -333,5 +333,183 @@
     "segments": 9
    }
   ]
+ },
+ {
+  "slug": "br-8",
+  "ref": "Bereshit_Rabbah.8",
+  "title": "Bereshit Rabbah 8",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Daat Bereshit Rabbah",
+    "license": "Public Domain",
+    "segments": 13
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
+    "license": "CC-BY",
+    "segments": 13
+   }
+  ]
+ },
+ {
+  "slug": "br-17",
+  "ref": "Bereshit_Rabbah.17",
+  "title": "Bereshit Rabbah 17",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Daat Bereshit Rabbah",
+    "license": "Public Domain",
+    "segments": 8
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Sefaria Midrash Rabbah, 2022",
+    "license": "CC-BY",
+    "segments": 8
+   }
+  ]
+ },
+ {
+  "slug": "b-sanh-38b",
+  "ref": "Sanhedrin.38b",
+  "title": "Sanhedrin 38b",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Wikisource Talmud Bavli",
+    "license": "CC-BY-SA",
+    "segments": 22
+   }
+  ]
+ },
+ {
+  "slug": "rashi-gen-1-26",
+  "ref": "Rashi_on_Genesis.1.26",
+  "title": "Rashi on Genesis 1:26",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Pentateuch with Rashi's commentary by M. Rosenbaum and A.M. Silbermann, 1929-1934",
+    "license": "Public Domain",
+    "segments": 5
+   },
+   {
+    "lang": "en",
+    "versionTitle": "Pentateuch with Rashi's commentary by M. Rosenbaum and A.M. Silbermann, 1929-1934",
+    "license": "Public Domain",
+    "segments": 5
+   }
+  ]
+ },
+ {
+  "slug": "ibn-ezra-gen-1-26",
+  "ref": "Ibn_Ezra_on_Genesis.1.26",
+  "title": "Ibn Ezra on Genesis 1:26",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Piotrkow, 1907-1911",
+    "license": "Public Domain",
+    "segments": 1
+   },
+   {
+    "lang": "en",
+    "versionTitle": "Sefaria Community Translation",
+    "license": "CC0",
+    "segments": 1
+   }
+  ]
+ },
+ {
+  "slug": "ramban-gen-1-26",
+  "ref": "Ramban_on_Genesis.1.26",
+  "title": "Ramban on Genesis 1:26",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Vocalized Edition",
+    "license": "CC-BY",
+    "segments": 2
+   },
+   {
+    "lang": "en",
+    "versionTitle": "Commentary on the Torah by Ramban (Nachmanides). Translated and annotated by Charles B. Chavel. New York, Shilo Pub. House, 1971-1976",
+    "license": "CC-BY",
+    "segments": 2
+   }
+  ]
+ },
+ {
+  "slug": "targ-onk-1-26",
+  "ref": "Targum_Onkelos_Genesis.1.26",
+  "title": "Onkelos Genesis 1",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Onkelos Genesis",
+    "license": "Public Domain",
+    "segments": 1
+   }
+  ]
+ },
+ {
+  "slug": "targ-psj-1-26",
+  "ref": "Targum_Jonathan_on_Genesis.1.26",
+  "title": "Targum Jonathan on Genesis 1",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Targum Jonathan on Genesis",
+    "license": "Public Domain",
+    "segments": 1
+   },
+   {
+    "lang": "en",
+    "versionTitle": "The Targum of Jonathan ben Uzziel, trans. J. W. Etheridge, London, 1862",
+    "license": "Public Domain",
+    "segments": 1
+   }
+  ]
+ },
+ {
+  "slug": "targ-neof-1-26",
+  "ref": "Targum_Neofiti.Genesis.1.26",
+  "title": "Targum Neofiti",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "The Vatican Manuscript of the Targum Neofiti",
+    "license": "unknown",
+    "segments": 8
+   },
+   {
+    "lang": "en",
+    "versionTitle": "Sefaria Community Translation",
+    "license": "CC0",
+    "segments": 8
+   }
+  ]
+ },
+ {
+  "slug": "gen-1-26-he",
+  "ref": "Genesis.1.26",
+  "title": "Genesis 1",
+  "versions": [
+   {
+    "lang": "he",
+    "versionTitle": "Miqra according to the Masorah",
+    "license": "CC-BY-SA",
+    "segments": 1
+   },
+   {
+    "lang": "en",
+    "versionTitle": "THE JPS TANAKH: Gender-Sensitive Edition",
+    "license": "CC-BY-NC",
+    "segments": 1
+   }
+  ]
  }
 ]

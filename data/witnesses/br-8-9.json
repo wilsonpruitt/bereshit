@@ -1,0 +1,44 @@
+{
+ "id": "br-8-9",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "שָׁאֲלוּ הַמִּינִים אֶת רַבִּי שִׂמְלַאי: כַּמָּה אֱלֹהוּת בָּרְאוּ אֶת הָעוֹלָם?",
+  "en": "The minim asked Rabbi Simlai: how many divinities created the world?"
+ },
+ "original": {
+  "lang": "he",
+  "text": "שאלו המינים את רבי שמלאי: כמה אלהות בראו את העולם? אמר להם: אני ואתם נשאל לימים הראשונים, הדא הוא דכתיב (דברים ד): כי שאל נא לימים ראשונים למן היום אשר ברא אלהים אדם, אשר בראו אין כתיב כאן, אלא אשר ברא. חזרו ושאלו אותו אמרו לו: מה הוא דין דכתיב בראשית ברא אלהים? אמר להם: בראו אלהים אין כתיב כאן, אלא ברא אלהים. אמר רבי שמלאי: בכל מקום שאתה מוצא פתחון פה למינין, אתה מוצא תשובה בצדה. חזרו ושאלו אותו אמרו לו: מה הוא דין דכתיב: נעשה אדם בצלמנו כדמותנו? אמר להון: קראון מה דבתריה, ויבראו אלהים את האדם בצלמיהם לא נאמר, אלא ויברא אלהים את האדם בצלמו. וכיון שיצאו אמרו לו תלמידיו רבי! לאלו דחית בקנה לנו מה את משיב? אמר להם: לשעבר אדם נברא מן האדמה, חוה נבראת מן האדם, מכאן ואילך בצלמנו כדמותנו, לא איש בלא אשה ולא אשה בלא איש ולא שניהם בלא שכינה.",
+  "source": "Bereshit Rabbah 8:9 (Vilna numbering)",
+  "license": "daat-br",
+  "version": "Sefaria 'Daat Bereshit Rabbah' (Public Domain). Chapter 8 is not in 'Wikisource Bereshit Rabbah', the version used for chapters 1-3"
+ },
+ "english": {
+  "text": "The heretics once asked Rabbi Samlai: ‘How many deities created the world?’ He said to them: ‘Let you and I inquire into the early days.’ That is what is written: “For inquire now into the early days that were before you, from the day that God created [bara] man” (Deuteronomy 4:32) – “that [God] baru” is not written here, but rather, “that [God] bara.” They said to him: ‘What is this that is written: “In the beginning God [Elohim] created”?’ He said to them: “Baru Elohim” is not written here, but rather, “bara Elohim.” Rabbi Samlai said [moreover]: Everywhere you find a basis for a claim of the heretics, you find a refutation alongside it. They asked him further, saying to him: ‘What is this that is written: “Let us make Man in our image, in our likeness”?’ He said to them: ‘Read what is written thereafter: God created [vayivre’u] man in their image is not stated, but rather, “God created [vayivra] man in His image,”’ (Genesis 1:27). After they left, his students said to him: ‘Rabbi, those men you pushed off with a reed. What would you respond to us?’ He said to them: ‘In the past, Adam was created from earth and Eve was created from Adam. From now on, “In our image, in our likeness” – a man will not [produce offspring] without a woman, nor will a woman without a man, nor both of them without the Divine Presence.’",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "sefaria-midrash-rabbah",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-simlai"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "one-authority-singular-verb",
+  "refutation-beside-the-claim",
+  "against-the-heretics"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. A disputation, reported as a disputation, on exactly the two verses this crux is built on. The minim ask R. Simlai how many divinities created the world; he answers from Deut 4:32, bara and not baru; they come back with Gen 1:1, and he gives the same answer — baru Elohim is not written here but bara Elohim, which is R. Yitzḥak's argument at Bereshit Rabbah 1:7 word for word (see `br-1-7`); they come back with na'aseh adam be-tzalmenu, and he sends them to the next verse, va-yivra and not va-yivre'u. Between the second and third exchange he states the rule the whole passage exists to illustrate: wherever you find an opening for the minim, you find the refutation beside it. Three things follow for this daf. The singular-verb argument that K1 and this crux both carry as a piece of grammar is here a polemical instrument aimed at named opponents. Gen 1:1 and Gen 1:26 are treated as one question, which is the reason this Gen 1:26 material belongs on a Gen 1:1–2 daf at all. And the disciples are not satisfied — those men you pushed off with a reed; what will you answer us? — so the midrash itself marks the grammatical answer as a debating move rather than an explanation, and gives the students a different one: that from now on the image needs a man, a woman and the Shekhinah. […] The passage continues in the printed English with two further exchanges, on Josh 22:22 and Josh 24:19, which are the same manoeuvre on other verses; they are outside the Hebrew segment as Daat prints it and are elided here."
+}

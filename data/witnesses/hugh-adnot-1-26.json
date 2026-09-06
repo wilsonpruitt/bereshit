@@ -1,0 +1,43 @@
+{
+ "id": "hugh-adnot-1-26",
+ "work": "hugh-adnot",
+ "author": "hugh-of-st-victor",
+ "tradition": "latin",
+ "date": 1130,
+ "date_precision": "circa",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "cum ipse ad angelos ita loquatur, quorum ministerio forsitan formatum est corpus hominis",
+  "en": "since he himself so speaks to the angels, by whose ministry perhaps the human body was formed"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Faciamus hominem ad imaginem, et similitudinem nostram. Primo dixit: In principio creavit Deus coelum et terram. Deinde dixit: Fiat lux, hic tertio adjungit: Faciamus hominem, etc. In hoc vocari possunt tres progressus. Primum opus, deinde informans verbum, tertio consilium, per hoc, quod hic adjungit: Faciamus hominem, etc. Nec propterea consilium inducit, quin aeque possit facere et magna et parva; sed ut dignitatem creati hominis ostenderet, et ut nos cautos reddat, ne dedignemur consilium accipere et ab aequalibus et a minoribus; cum ipse ad angelos ita loquatur, quorum ministerio forsitan formatum est corpus hominis. Vel quod melius est, accipiamus consilium Trinitatis fuisse, et per verbum plurale distinctionem personarum; per hoc quod subjungit singulariter ad imaginem et similitudinem nostram, unitatem essentiae.",
+  "source": "PL 175, col. 37B",
+  "cc_idno": "11054",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Let us make a human to our image and likeness. First he said: in the beginning God created heaven and earth. Then he said: let there be light; here, thirdly, he adds: let us make a human, etc. In this three advances may be named. First the work, then the informing word, thirdly the counsel — by this, that he here adds: let us make a human, etc. Nor does he bring in counsel because he could not equally well make both great things and small; but in order to show the dignity of the human that was created, and to make us careful not to disdain to take counsel both from equals and from lesser people — since he himself so speaks to the angels, by whose ministry perhaps the human body was formed. Or, what is better, let us take it that it was the counsel of the Trinity, and that by the plural word there is a distinction of persons; and by this, that he adds in the singular, to our image and likeness, a unity of essence.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "faciamus-to-the-angels",
+  "faciamus-is-the-trinity",
+  "dignity-of-the-creature"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The one place on the Latin bench where the angel reading is not merely reported but taught, and taught as a moral. Hugh gives the change of formula a shape — work, informing word, counsel, three advances across Gen 1:1, 1:3 and 1:26 — and then draws from the third the lesson that we should not disdain to take counsel from equals and from lesser people, since he himself so speaks to the angels. He goes further than any rabbinic witness on this daf dares to: quorum ministerio forsitan formatum est corpus hominis, by whose ministry perhaps the human body was formed, which is the thing Basil calls a Jewish fiction and Bruno says would make many creators. Only then comes vel quod melius est, or what is better — the counsel of the Trinity. So the school of St Victor about 1130 holds both readings, prefers the second, and gets from the first exactly the moral Bereshit Rabbah 8:8 gets: that the great should consult the small, and that the Creator did it first. Hugh's ad imaginem et similitudinem nostram is called singular in the last clause; he means the singular of Gen 1:27, and the sentence is loose in the printed text."
+}

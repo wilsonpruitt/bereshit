@@ -1,0 +1,42 @@
+{
+ "id": "bede-gen-1-26",
+ "work": "bede-gen",
+ "author": "bede",
+ "tradition": "latin",
+ "date": 720,
+ "date_precision": "circa",
+ "place": "jarrow",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "In eo enim quod dicitur Faciamus, una ostenditur trium personarum operatio",
+  "en": "For in the fact that it says 'let us make', one working of three persons is shown"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Cum autem dicitur faciamus hominem ad imaginem et similitudinem nostram, unitas sanctae Trinitatis aperte commendatur. Si quidem eadem individua Trinitas in praecedente rerum formatione mystice erat insinuata, quando dicebatur: et dixit Deus: Fiat, et fecit Deus; et vidit Deus quod esset bonum. Nunc autem manifestius haec ipsa insinuatur, cum dicitur: Faciamus hominem ad imaginem et similitudinem nostram, et recte, quia donec is qui doceretur non erat, in profundo fuit abdita praedicatio Deitatis; ubi vero coepit hominis exspectari creatio, revelata est fides, et evidenter dogma veritatis emicuit. In eo enim quod dicitur. Faciamus, una ostenditur trium personarum operatio; in eo vero quod sequitur, ad imaginem et similitudinem nostram, una et aequalis substantia ejusdem sanctae Trinitatis indicatur. Quomodo enim una esset imago et similitudo, si minor Patre Filius, si minor esset Filio Spiritus sanctus, si non consubstantialis ejusdem potestatis esset gloria totius Trinitatis? aut quomodo diceretur Faciamus, si trium in una deitate personarum cooperatrix virtus non esset? neque enim angelis a Deo dici poterat Faciamus hominem ad imaginem et similitudinem nostram, quia nulla prorsus ratio sinit ut Dei et angelorum unam esse eamdemque imaginem sive similitudinem credamus.",
+  "source": "PL 91, col. 28C",
+  "cc_idno": "8466",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But when it is said, let us make a human to our image and likeness, the unity of the holy Trinity is openly commended. For indeed the same undivided Trinity had been mystically intimated in the preceding forming of things, when it was said: and God said, let it be; and God made; and God saw that it was good. Now, however, this same thing is intimated more plainly, when it is said: let us make a human to our image and likeness — and rightly, because so long as there was no one who might be taught, the preaching of the Godhead lay hidden in the deep; but when the creation of a human began to be looked for, faith was revealed, and the teaching of truth plainly flashed out. For in the fact that it says, let us make, one working of three persons is shown; and in what follows, to our image and likeness, the one and equal substance of that same holy Trinity is indicated. For how would the image and likeness be one, if the Son were less than the Father, if the Holy Spirit were less than the Son, if the glory of the whole Trinity were not consubstantial and of the same power? Or how would it be said, let us make, if the cooperating power of three persons in one deity did not exist? For it could not be said to angels by God, let us make a human to our image and likeness, since no reasoning whatever allows us to believe that the image and likeness of God and of the angels is one and the same.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "not-to-angels",
+  "trinity-in-the-formula"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Bede takes the whole question over from the Latin Basil — 'so long as there was no one who might be taught, the preaching of the Godhead lay hidden in the deep' is Eustathius's sentence word for word — and turns a polemic into a lesson. The Jews are gone; what is left is a clean division of the verse into two proofs: faciamus gives one working of three persons, ad imaginem nostram gives one substance, and the angels are excluded by a ratio rather than by abuse. He also does something Augustine does not, and it is Rupert's argument three centuries early: the Trinity was already intimated mystically in the threefold formula of the earlier days — God said, God made, God saw that it was good — and is intimated more plainly here. This is the version that travels. Rabanus copies it verbatim at Fulda (PL 107:459C) and Angelomus at Luxeuil (PL 115:145A); neither is on this daf, because neither adds a word."
+}

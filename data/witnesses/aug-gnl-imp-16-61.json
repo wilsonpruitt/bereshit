@@ -1,0 +1,41 @@
+{
+ "id": "aug-gnl-imp-16-61",
+ "work": "aug-gnl-imp",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 393,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "a qua pluralitate Spiritum sanctum separare quis audeat?",
+  "en": "who would dare to separate the Holy Spirit from that plurality?"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ille autem sensus est potius in his divinis verbis eligendos, ut ideo non dictum intelligamus singulariter, sed pluraliter, Faciamus hominem ad imaginem et similitudinem nostram; quia non ad solius Patris, aut solius Filii, aut solius Spiritus sancti, sed ad ipsius Trinitatis imaginem factus est homo. Quae Trinitas ita est Trinitas, ut unus Deus sit; ita est unus Deus, ut Trinitas sit. Non enim ait Filio loquens, Faciamus hominem ad imaginem tuam; aut, ad imaginem meam: sed pluraliter ait, ad imaginem et similitudinem nostram: a qua pluralitate Spiritum sanctum separare quis audeat? Quae pluralitas, quoniam non tres dii, sed unus est Deus, ideo intelligendum est postea Scripturam singulariter intulisse, atque dixisse, Et fecit Deus hominem ad imaginem Dei; ut non sic accipiatur, tanquam Deus Pater ad imaginem Dei, hoc est Filii sui: alioquin quomodo verum est, quod dictum est, ad imaginem nostram, si ad Filii solius imaginem factus est homo? Ac per hoc quia verum est quod ait Deus, ad imaginem nostram; ita dictum est, Fecit Deus hominem ad imaginem Dei, tanquam diceretur ad imaginem suam, quod est ipsa Trinitas.",
+  "source": "PL 34, col. 244",
+  "cc_idno": "7310",
+  "license": "pd"
+ },
+ "english": {
+  "text": "But that sense is rather to be chosen in these divine words, that we should understand it as said not in the singular but in the plural — let us make a human to our image and likeness — because the human was made not to the image of the Father alone, or of the Son alone, or of the Holy Spirit alone, but to the image of the Trinity itself. Which Trinity is so a Trinity that it is one God; is so one God that it is a Trinity. For he does not say, speaking to the Son, let us make a human to your image, or, to my image: but he says in the plural, to our image and likeness: and who would dare to separate the Holy Spirit from that plurality? And since that plurality is not three gods but one God, it is therefore to be understood that Scripture afterwards brought it in in the singular, and said, and God made the human to the image of God; so that it should not be taken as though God the Father made him to the image of God, that is, of his Son: otherwise how is it true, what was said, to our image, if the human was made to the image of the Son alone? And by this, since what God says is true, to our image, it was said, God made the human to the image of God, as though it were said, to his own image, which is the Trinity itself.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "image-of-the-whole-trinity",
+  "faciamus-is-the-trinity"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Augustine refuses the reading Ambrose and Basil had settled on, and he does it on grammatical grounds. If the Father is speaking to the Son, then ad imaginem nostram would have to mean 'to your image' or 'to my image', and it says neither; and if the plural is the Father and the Son only, who would dare to shut the Holy Spirit out of it? So the plural is neither a conversation nor a plural of two: it is the Trinity speaking about itself, and the human is made to the image of the whole. Then the second half, which is the move the whole Latin bench inherits: the plural of v. 26 and the singular of v. 27 are read as one argument, the plural giving the persons and the singular the one God. That pairing is the exact formal structure of R. Simlai's answer to the minim at Bereshit Rabbah 8:9 — let us make is met with and he created, not and they created — with the conclusion reversed. Augustine is not answering the midrash and cannot have known it; he has arrived at the same reading of the same two verses as a pair, and taken the plural to be real."
+}

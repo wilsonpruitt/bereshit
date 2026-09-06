@@ -1,0 +1,39 @@
+{
+ "id": "rashi-1-26-anvetanuto",
+ "work": "rashi-gen",
+ "author": "rashi",
+ "tradition": "rabbinic",
+ "date": 1090,
+ "date_precision": "range-1075-1105",
+ "place": "troyes",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "עַנְוְתָנוּתוֹ שֶׁל הַקָּבָּ\"ה לָמַדְנוּ מִכָּאן",
+  "en": "The humility of the Holy One, blessed be He, we learn from here"
+ },
+ "original": {
+  "lang": "he",
+  "text": "נעשה אדם. עַנְוְתָנוּתוֹ שֶׁל הַקָּבָּ\"ה לָמַדְנוּ מִכָּאן, לְפִי שֶׁאָדָם הוּא בִּדְמוּת הַמַּלְאָכִים וְיִתְקַנְּאוּ בוֹ, לְפִיכָךְ נִמְלַךְ בָּהֶם, וּכְשֶׁהוּא דָן אֶת הַמְּלָכִים הוּא נִמְלָךְ בְּפָמַלְיָא שֶׁלּוֹ, שֶׁכֵּן מָצִינוּ בְאַחְאָב, שֶׁאָמַר לוֹ מִיכָה רָאִיתִי אֶת ה' יֹשֵׁב עַל כִּסְאוֹ וְכָל צְבָא הַשָּׁמַיִם עוֹמְדִים עָלָיו מִימִינוֹ וּמִשְּׂמֹאלוֹ (מלכים א כ\"ב), וְכִי יֵש יָמִין וּשְׂמֹאל לְפָנָיו? אֶלָּא אֵלּוּ מַיְמִינִים לִזְכוּת וְאֵלוּ מַשְׂמְאִילִים לְחוֹבָה, וְכֵן בִּגְזֵרַת עִירִין פִּתְגָמָא וּבְמֵאמַר קַדִּישִׁין שְׁאֵלְתָא (דניאל ד'), אַף כָּאן בְּפָמַלְיָא שֶׁלוֹ נָטַל רְשׁוּת, אָמַר לָהֶם יֵשׁ בָּעֶלְיוֹנִים כִּדְמוּתִי; אִם אֵין כִּדְמוּתִי בַתַּחְתּוֹנִים הֲרֵי יֵשׁ קִנְאָה בְמַעֲשֵׂה בְרֵאשִׁית:",
+  "source": "Rashi on Gen 1:26, s.v. נעשה אדם (first comment)",
+  "license": "silbermann",
+  "version": "Rosenbaum–Silbermann, 1929–34"
+ },
+ "english": {
+  "text": "נעשה אדם WE WILL MAKE MAN — The meekness of the Holy One, blessed be He, they (the Rabbis) learned from here: because the man is in the likeness of the angels and they might envy him, therefore He took counsel with them (Midrash Tanchuma, Shemot 18 and see Genesis Rabbah 8). And when He judges the kings He likewise consults His heavenly council, for thus we find in the case of Ahab to whom Micha said, (1 Kings 22:19) “I saw the Lord sitting on His throne, and all the host of heaven standing by Him on His right hand and on His left.” Has God, then, a right hand and a left hand? But it means that some stood on the right side to plead in favour of the accused and others stood on the left side to accuse; and similarly we read (Daniel 4:14), “the matter is by the decree of the watchers, and the sentence by the word of the holy ones”, — here, also, He consulted His heavenly council and asked permission of them, saying to them: “There are in the heavens beings after My likeness; if there will not be on earth also beings after My likeness, there will be envy among the beings that I have created” (Sanhedrin 38b).",
+  "translator": "M. Rosenbaum and A. M. Silbermann, 1929–34",
+  "license": "silbermann"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "counsel-with-the-household-above"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Rashi takes the angel reading as the plain sense and gives it a motive: anvetanuto shel ha-Qadosh barukh Hu, the humility of the Holy One, learned from this verse. Because the human is in the likeness of the angels and they might be envious, he took counsel with them; and this is his habit, for Micaiah saw the LORD on his throne with all the host of heaven standing to his right and his left (1 Kgs 22:19), which cannot be a right and a left but is a court, some arguing for acquittal and some for guilt, and Daniel's decree of the watchers is the same court. The word he uses for it is pamalya shel ma'alah, the household above, from the Latin familia — so that the Latin bench's senatus and the rabbinic bench's imperial household are the same borrowed picture of a court, used to opposite ends. That God natal reshut, took leave, from his own retinue is the strongest form of the reading anywhere on this daf, and Rashi will spend his second comment defending it against the obvious objection."
+}

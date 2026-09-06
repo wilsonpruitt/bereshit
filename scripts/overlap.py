@@ -25,11 +25,22 @@ def coverage():
         if o.get("lang") != "la" or not o.get("cc_idno"):
             continue
         clean, mp, cols = tei_text(o["cc_idno"])
-        i = clean.find(o["text"][:60])
+        # A witness whose `text` was ASSEMBLED — several glosses concatenated, an editorial
+        # bracket spliced in — has no 60-character prefix that occurs verbatim in the TEI, and
+        # the first version of this loop dropped it from the coverage map with a stderr note
+        # nobody reads. It then reported FREE for a candidate sitting inside it. Try shorter
+        # prefixes, and when none matches say so on STDOUT where the answer is being read.
+        for n in (60, 40, 24):
+            i = clean.find(o["text"][:n])
+            if i >= 0: break
         if i < 0:
-            print(f"!! could not locate {w['id']} inside {o['cc_idno']}", file=sys.stderr)
+            print(f"!! UNCHECKED: {w['id']} ({o.get('source','')}) could not be located inside "
+                  f"{o['cc_idno']} — a FREE verdict in that work is not trustworthy")
             continue
-        cov.setdefault(o["cc_idno"], []).append((i, i + len(o["text"]), w["id"], o.get("source", "")))
+        # An assembled witness matched on a short prefix may not run to i+len(text); use the
+        # longest run that is actually there, so coverage is never claimed beyond the evidence.
+        end = i + (len(o["text"]) if n == 60 else n)
+        cov.setdefault(o["cc_idno"], []).append((i, end, w["id"], o.get("source", "")))
     return cov
 
 def col_at(idno, off):

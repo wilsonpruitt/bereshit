@@ -1,0 +1,47 @@
+{
+ "id": "br-8-3",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "וַיֹּאמֶר אֱלֹהִים נַעֲשֶׂה אָדָם. בְּמִי נִמְלַךְ?",
+  "en": "'And God said, let us make a human' — with whom did he take counsel?"
+ },
+ "original": {
+  "lang": "he",
+  "text": "ויאמר אלהים נעשה אדם. במי נמלך? רבי יהושע בשם ר' לוי אמר:במלאכת השמים והארץ נמלך. משל למלך שהיו לו ב' סנקליטים ולא היה עושה דבר חוץ מדעתן. רבי שמואל בר נחמן אמר: במעשה כל יום ויום נמלך. משל למלך שהיה לו סנקתדרון ולא היה עושה דבר חוץ מדעתו. ר' אמי אמר: בלבו נמלך. משל למלך שבנה פלטין ע\"י ארדכל, ראה אותה ולא ערבה לו על מי יש לו להתרעם, לא על ארדכל אתמהא?! הוי, ויתעצב אל לבו. אמר רבי אסי: משל למלך שעשה לו סחורה על ידי סרסור והפסיד, על מי יש לו להתרעם לא על הסרסור אתמהא?! הוי, ויתעצב אל לבו:",
+  "source": "Bereshit Rabbah 8:3 (Vilna numbering)",
+  "license": "daat-br",
+  "version": "Sefaria 'Daat Bereshit Rabbah' (Public Domain). Chapter 8 is not in 'Wikisource Bereshit Rabbah', the version used for chapters 1-3"
+ },
+ "english": {
+  "text": "“And God said: Let us make Man” – with whom did He consult? Rabbi Yehoshua said in the name of Rabbi Levi: He consulted with the works of the heavens and the earth. This is analogous to a king who had two members of his council and he would not do anything without their knowledge. Rabbi Shmuel bar Naḥman said: He consulted with what was made on each and every day. This is analogous to a king who had an adviser and he would not do anything without his knowledge. Rabbi Ami said: He consulted with His heart. This is analogous to a king who built a palace through the services of an architect, but it was not pleasing for him. At whom should he be angry? Is it not the architect? This is a rhetorical question. That is, “He was saddened in His heart” (Genesis 6:6). Rav Asi said: This is analogous to a king who conducted a business transaction through an intermediary, and he suffered a loss. At whom should he be angry? Is it not the intermediary? This is a rhetorical question. That is, “He was saddened in His heart.”",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "sefaria-midrash-rabbah",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yehoshua-of-sikhnin",
+  "r-levi",
+  "r-shmuel-b-nachman",
+  "r-ami",
+  "rav-asi"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "counsel-with-the-household-above",
+  "consilium-not-senate"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The rabbinic bench asks the Latin bench's question in three words — be-mi nimlakh, with whom did he take counsel — and then, instead of answering it, prints four answers side by side and lets them stand. R. Yehoshua in R. Levi's name: he took counsel with the work of heaven and earth, and the parable is of a king with two sanqlitin, the Greek synklētikoi, senators, without whose knowledge he did nothing. R. Shmuel bar Naḥman: with the work of each day, like a king with one counsellor. R. Ami: be-libbo nimlakh, he took counsel with his own heart — and the parables that follow are about blame rather than about counsel, the architect and the broker who lose the king's money, so that 'he was saddened in his heart' (Gen 6:6) explains the counsel backwards from the regret. Rav Asi repeats the second. Note what is not here and is in every Latin witness on this daf: nobody suggests that the plural could point to a plurality in God. The question is whom God consulted, not who spoke; and the two extremes the midrash offers, a senate and a soliloquy, are the two Rupert of Deutz will name in Latin at Liège six hundred years later — non tam senatu quam soliloquio — choosing the soliloquy, as R. Ami does, and meaning by it the opposite thing."
+}

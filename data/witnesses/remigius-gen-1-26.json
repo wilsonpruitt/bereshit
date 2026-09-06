@@ -1,0 +1,42 @@
+{
+ "id": "remigius-gen-1-26",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 890,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "quasi quodam concilio dicit: Faciamus",
+  "en": "as though by a kind of council he says: let us make"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Vers. 26. Faciamus hominem ad imaginem et similitudinem nostram. Cum caetera jubendo fecerit, quasi maximam rem facturus Deus et cunctis quae fecerat praeferendam, quasi quodam concilio dicit: Faciamus. Quod, licet quidam ad angelos referendum dicant, melius tamen ad sanctam Trinitatem refertur.",
+  "source": "PL 131, col. 56D",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 26. Let us make a human to our image and likeness. Whereas he made the rest by commanding, God — as though about to make the greatest thing, and one to be preferred to all that he had made — says, as though by a kind of council: let us make. And although some say that this is to be referred to the angels, it is better referred to the holy Trinity.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "dignity-of-the-creature",
+  "faciamus-to-the-angels"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. Three sentences, and the middle one is the most useful thing on the Latin half of this daf. Quasi quodam concilio dicit: Faciamus — as though by a kind of council he says, let us make — is Bereshit Rabbah 8:3's be-mi nimlakh, with whom did he take counsel, in a Latin word; and the third sentence records, without naming anyone, that some say it is to be referred to the angels. That is the rabbinic bench's own primary answer, reported at Auxerre about 890 as a live opinion among Latin readers and rejected only comparatively — melius tamen, it is better referred to the Trinity, not: it is impossible. Remigius is the one Latin witness here who neither refutes the angel reading nor accepts it, and the mildness is the evidence: by the end of the ninth century the reading is in the schools as an option, and nobody on this daf says where it came from."
+}

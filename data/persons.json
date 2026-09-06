@@ -492,5 +492,50 @@
   "la": "Origenes Adamantius",
   "dates": "c. 185–253",
   "tradition": "latin"
+ },
+ "r-ami": {
+  "name": "Rabbi Ami",
+  "he": "רַבִּי אַמִּי",
+  "dates": "fl. c. 290–320",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "rav-asi": {
+  "name": "Rav Asi",
+  "he": "רַב אַסִּי",
+  "dates": "fl. c. 290–320",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "r-simlai": {
+  "name": "Rabbi Simlai",
+  "he": "רַבִּי שִׂמְלַאי",
+  "dates": "fl. c. 250–280",
+  "tradition": "rabbinic",
+  "role": "tradent",
+  "note": "The tradent of the disputation with the minim at Bereshit Rabbah 8:9, and the source of the rule that wherever the verse gives them an opening the refutation stands beside it."
+ },
+ "r-yonatan": {
+  "name": "Rabbi Yonatan",
+  "he": "רַבִּי יוֹנָתָן",
+  "dates": "fl. c. 220–250",
+  "tradition": "rabbinic",
+  "role": "tradent"
+ },
+ "saadia-gaon": {
+  "name": "Saadia Gaon",
+  "he": "רַב סְעַדְיָה גָּאוֹן",
+  "dates": "882–942",
+  "tradition": "rabbinic",
+  "role": "author",
+  "note": "Cited by Ibn Ezra simply as ha-Gaon. His reading of na'aseh as a plural of royal speech is the position Ibn Ezra demolishes at Gen 1:26."
+ },
+ "r-yosef-kimchi": {
+  "name": "Rabbi Yosef Kimḥi",
+  "he": "רַבִּי יוֹסֵף קִמְחִי",
+  "dates": "c. 1105–c. 1170",
+  "tradition": "rabbinic",
+  "role": "author",
+  "note": "Credited by Ramban with the reading 'I and the earth, let us make a human'."
  }
 }

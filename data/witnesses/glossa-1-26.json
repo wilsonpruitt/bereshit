@@ -1,0 +1,41 @@
+{
+ "id": "glossa-1-26",
+ "work": "glossa",
+ "author": "glossa-ordinaria",
+ "tradition": "latin",
+ "date": 1120,
+ "date_precision": "compilation-1110-1130",
+ "place": "laon",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Insinuatur pluralitas personarum Patris, et Filii, et Spiritus sancti",
+  "en": "A plurality of persons is intimated — of the Father, and the Son, and the Holy Spirit"
+ },
+ "original": {
+  "lang": "la",
+  "text": "VERS. 26.-- « Faciamus hominem. » (AUG., ibid., c. 19.) Insinuatur pluralitas personarum Patris, et Filii, et Spiritus sancti, et statim unitas deitatis, cum dicitur: « Et fecit Deus hominem ad imaginem Dei, » non Pater ad imaginem tantum Filii. Non enim vere diceretur ad imaginem nostram; sed ita dictum est: « Fecit Deus hominem ad imaginem Dei, » ac si diceretur « ad imaginem suam. » Cum autem dicitur « ad imaginem Dei, » cum superius dictum sit, « ad imaginem nostram, » significatur quod non agit pluralitas personarum, ut plures deos credamus, sed ut Patrem, et Filium, et Spiritum sanctum unum Deum accipiamus.",
+  "source": "PL 113, col. 80B",
+  "cc_idno": "8950",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Verse 26. 'Let us make a human.' (AUG., ibid., c. 19.) A plurality of persons is intimated — of the Father, and the Son, and the Holy Spirit — and at once the unity of the deity, when it is said: 'and God made the human to the image of God', not the Father to the image only of the Son. For it would not truly be said, to our image; but it was said thus: 'God made the human to the image of God', as if it were said 'to his own image'. And when it says 'to the image of God', when above it had said 'to our image', it is signified that the plurality of persons does not work so that we should believe in many gods, but so that we should take the Father, and the Son, and the Holy Spirit as one God.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-is-the-trinity",
+  "image-of-the-whole-trinity"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The school answer in the form the twelfth century actually read: Augustine's De Genesi ad litteram III.19, printed under his name, abridged to the two moves that matter and set beside the verse. What the abridgement drops is the argument — Augustine's careful 'otherwise how is it true, what was said, to our image, if the human was made to the image of the Son alone?' becomes the flat 'for it would not truly be said, to our image' — so that a reader of the Gloss gets the conclusion with the reasoning compressed to a clause. This is the page on which Peter Comestor, Hugh and Abelard all begin. The same volume of the Gloss, ninety columns later, prints the angel reading of Gen 11:7 without a word of warning; see `glossa-11-7-angeli`."
+}

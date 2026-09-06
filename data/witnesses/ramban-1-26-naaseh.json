@@ -1,0 +1,41 @@
+{
+ "id": "ramban-1-26-naaseh",
+ "work": "ramban-gen",
+ "author": "ramban",
+ "tradition": "rabbinic",
+ "date": 1267,
+ "date_precision": "range-1263-1270",
+ "place": "girona",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "אֲנִי וְהָאָרֶץ הַנִּזְכֶּרֶת נַעֲשֶׂה אָדָם",
+  "en": "I and the aforementioned earth, let us make a human"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וְהַפְּשָׁט הַנָּכוֹן בְּמִלַּת \"נַעֲשֶׂה\" הוּא מִפְּנֵי שֶׁכְּבָר הָרְאֵיתָ לָדַעַת (רמב\"ן על בראשית א':א') כִּי הָאֱלֹהִים בָּרָא יֵשׁ מֵאַיִן בַּיּוֹם הָרִאשׁוֹן לְבַדּוֹ, וְאַחַר כָּךְ מִן הַיְּסוֹדוֹת הָהֵם הַנִּבְרָאִים יָצַר וְעָשָׂה, וְכַאֲשֶׁר נָתַן בַּמַּיִם כֹּחַ הַשֵּׁרוּץ לִשְׁרֹץ נֶפֶשׁ חַיָּה, וְהָיָה הַמַּאֲמָר בָּהֶם \"יִשְׁרְצוּ הַמַּיִם\" (בראשית א':כ'), וְהָיָה הַמַּאֲמָר בַּבְּהֵמָה \"תּוֹצֵא הָאָרֶץ\" (בראשית א':כ\"ד), אָמַר בָּאָדָם \"נַעֲשֶׂה\", כְּלוֹמַר אֲנִי וְהָאָרֶץ הַנִּזְכֶּרֶת נַעֲשֶׂה אָדָם, שֶׁתּוֹצִיא הָאָרֶץ הַגּוּף מִיְּסֹדֶיהָ כַּאֲשֶׁר עָשְׂתָה בַּבְּהֵמָה וּבַחַיָּה, כְּדִכְתִיב (בראשית ב':ז') \"וַיִּיצֶר ה' אֱלֹהִים אֶת הָאָדָם עָפָר מִן הָאֲדָמָה\", וְיִתֵּן הוּא יִתְבָּרַךְ הָרוּחַ מִפִּי עֶלְיוֹן, כְּדִכְתִיב (שם) \"וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים\". וְאָמַר \"בְּצַלְמֵנוּ כִּדְמוּתֵנוּ\", כִּי יִדְמֶה לִשְׁנֵיהֶם, בְּמַתְכֹּנֶת גּוּפוֹ לָאָרֶץ אֲשֶׁר לֻקַּח מִמֶּנָּה, וְיִדְמֶה בָּרוּחַ לָעֶלְיוֹנִים, שֶׁאֵינָהּ גּוּף וְלֹא תָּמוּת. וְאָמַר בַּכָּתוּב הַשֵּׁנִי בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ (בראשית א':כ\"ז), לְסַפֵּר הַפֶּלֶא אֲשֶׁר נִפְלָא בּוֹ מִשְּׁאָר הַנִּבְרָאִים. וְזֶה פְּשַׁט הַמִּקְרָא הַזֶּה מְצָאתִיו לְרַבִּי יוֹסֵף הַקִּמְחִי, וְהוּא הַנִּרְאֶה מִכָּל מָה שֶׁחָשְׁבוּ בּוֹ.",
+  "source": "Ramban on Gen 1:26, s.v. נעשה אדם",
+  "license": "sefaria-vocalized",
+  "version": "Sefaria 'Vocalized Edition'"
+ },
+ "english": {
+  "text": "The correct explanation of na’aseh (let us make) [which is in the plural form when it should have been in the singular] is as follows: It has been shown to you that G-d created something from nothing only on the first day, and afterwards He formed and made things from those created elements. Thus when He gave the waters the power of bringing forth a living soul, the command concerning them was Let the waters swarm. The command concerning cattle was Let the earth bring forth. But in the case of man He said, Let us make, that is, I and the aforementioned earth, let us make man, the earth to bring forth the body from its elements as it did with cattle and beasts, as it is written, And the Eternal G-d formed man of the dust of the ground, and He, blessed be He, to give the spirit from His mouth, the Supreme One, as it is written, And He breathed into his nostrils the breath of life. And He said, In our image, and after our likeness, as man will then be similar to both. In the capacity of his body, he will be similar to the earth from which he was taken, and in spirit he will be similar to the higher beings, because it [the spirit] is not a body and will not die. In the second verse, He says, In the image of G-d He created him, in order to relate the distinction by which man is distinguished from the rest of created beings. The explanation of this verse I have found ascribed to Rabbi Joseph the Kimchite, and is the most acceptable of all interpretations that have been advanced concerning it.",
+  "translator": "Charles B. Chavel, 1971–76",
+  "license": "chavel-ramban"
+ },
+ "tradents": [
+  "r-yosef-kimchi"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "i-and-the-earth"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. A fourth answer, and the only one on either bench that keeps the plural literal and puts a creature in it without putting an angel in it. Ramban argues from the order of the chapter: God created something from nothing on the first day only, and afterwards formed and made from what he had created, so that the waters were told to swarm and the earth to bring forth. At the human the formula changes because the two agents are named together — ani ve-ha-aretz ha-nizkeret na'aseh adam, I and the aforementioned earth, let us make a human — the earth to bring forth the body from its elements as it did for the beasts, and the Holy One to give the spirit, as Gen 2:7 then says twice over. Be-tzalmenu ki-dmutenu follows exactly: the human will resemble both, his body the earth he was taken from and his spirit the beings above. He credits the reading to R. Yosef Kimḥi and calls it the most acceptable of all that have been thought about the verse — a phrase that quietly sets aside Rashi's angels, which he does not name here. Ramban's answer at Gen 1:1 was that Elohim is el hem, the force of all the forces, with a secret not disclosed; his answer here needs no secret at all, and no plurality in God whatever."
+}

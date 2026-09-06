@@ -1,0 +1,42 @@
+{
+ "id": "aug-civ-16-6",
+ "work": "aug-civ",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 417,
+ "date_precision": "range-413-427",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Qualis intelligenda sit esse locutio, qua Deus Angelis loquitur",
+  "en": "What kind of speech is to be understood, by which God speaks to the angels"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Poterat et illud, quando factus est homo, de Angelis intelligi quod dictum est, Faciamus hominem, quia non dixit, Faciam: sed quia sequitur, ad imaginem nostram; nec fas est credere ad imaginem Angelorum hominem factum, aut eamdem esse imaginem Angelorum et Dei; ideo recte illic intelligitur pluralitas Trinitatis. Quae tamen Trinitas, quia unus est Deus, etiam cum dixisset, Faciamus: Et fecit, inquit, Deus hominem ad imaginem Dei (Gen. I, 26, 26) : non dixit, Fecerunt dii, aut, ad imaginem deorum. Poterat et hic eadem intelligi Trinitas, tanquam Pater dixerit ad Filium et Spiritum sanctum, Venite, et descendentes confundamus ibi linguam eorum; si aliquid esset, quod Angelos prohiberet intelligi: quibus potius convenit venire ad Deum motibus sanctis, hoc est cogitationibus piis, quibus ab eis consulitur incommutabilis Veritas, tanquam lex aeterna in illa eorum curia superna.",
+  "source": "PL 41, col. 483",
+  "cc_idno": "21364",
+  "license": "pd"
+ },
+ "english": {
+  "text": "That too, when the human was made, could have been understood of the angels — what was said, let us make a human, since he did not say, I shall make: but because there follows, to our image; and it is not lawful to believe that the human was made to the image of the angels, or that the image of the angels and of God is the same; therefore the plurality of the Trinity is rightly understood there. Which Trinity, however, because it is one God, even when he had said, let us make, it says, and God made the human to the image of God: he did not say, the gods made, or, to the image of the gods. Here too the same Trinity could be understood, as though the Father had said to the Son and the Holy Spirit, come, and going down let us confound their language there — if there were anything to prevent the angels being understood: to whom it rather belongs to come to God by holy motions, that is, by pious thoughts, by which the unchangeable Truth is consulted by them, as an eternal law in that supernal court of theirs.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "not-to-angels",
+  "faciamus-is-the-trinity",
+  "one-authority-singular-verb"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The chapter is headed what kind of speech is to be understood, by which God speaks to the angels, and it is the closest the two benches come to holding the same page open. Augustine treats Gen 1:26 and Gen 11:7 — venite, et descendentes confundamus ibi linguam eorum — as one problem with one shape: both are plural, both could be addressed to angels, and each has to be decided on its own evidence. At Gen 1:26 he decides against the angels, because of ad imaginem nostram; at Gen 11:7, where there is no image clause, he grants that nothing prevents the angels being understood, and takes it that way. Now the other bench pairs the same two verses. R. Yoḥanan at b. Sanhedrin 38b lists the places where the minim found an opening and the refutation beside each: 'let us make a human in our image' answered by 'and God created the human in his image', and 'come, let us go down and confound their language' answered by 'and the LORD came down to see the city and the tower'. The same two verses, chosen for the same reason — a plural verb of divine speech — and set out as a pair. Augustine is refuting the angel reading of the first and accepting it for the second; R. Yoḥanan is refuting a plurality of makers in both. Neither knows the other. The pairing is not a topic they share but a structure the Hebrew text itself imposes, and both benches found it."
+}

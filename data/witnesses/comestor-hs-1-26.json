@@ -1,0 +1,41 @@
+{
+ "id": "comestor-hs-1-26",
+ "work": "comestor-hs",
+ "author": "comestor",
+ "tradition": "latin",
+ "date": 1170,
+ "date_precision": "range-1169-1173",
+ "place": "paris",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "Et loquitur Pater ad Filium, et Spiritum sanctum",
+  "en": "And the Father speaks to the Son and the Holy Spirit"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Deinde subditur de creatione hominis sic: Faciamus hominem, etc. (Gen. I) . Et loquitur Pater ad Filium, et Spiritum sanctum. Vel est quasi communis vox trium personarum, Faciamus, et nostram: factus est autem homo ad imaginem Dei, quantum ad animam.",
+  "source": "PL 198, col. 1063C",
+  "cc_idno": "11575",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Then it is added concerning the creation of the human thus: let us make a human, etc. (Gen 1). And the Father speaks to the Son and the Holy Spirit. Or it is as it were the common voice of the three persons, 'let us make', and 'our': and the human was made to the image of God, as regards the soul.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "faciamus-to-the-son",
+  "faciamus-is-the-trinity"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The handbook settling it, and the interest is in what it settles and what it leaves standing. Comestor gives two readings without ranking them: the Father speaks to the Son and the Holy Spirit — which is Ambrose's and Basil's answer, refused by Augustine on the ground that ad imaginem nostram would then have to be tuam or meam — or the plural is the common voice of the three, which is Augustine's. He does not notice that the first is the one Augustine wrote two books to exclude, and neither reading is argued for. The angels are not mentioned at all: between Hugh at St Victor about 1130, who teaches the angel reading as a moral and grants the angels a possible ministry in forming the body, and the Historia scholastica about 1170, which is the book every priest in Latin Europe will be examined on, the option has simply dropped out of the syllabus."
+}

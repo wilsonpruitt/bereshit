@@ -1,0 +1,44 @@
+{
+ "id": "b-sanh-38b-tshuva",
+ "work": "bavli-sanhedrin",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "he": "כָּל מָקוֹם שֶׁפָּקְרוּ הַמִּינִים תְּשׁוּבָתָן בְּצִידָּן",
+  "en": "Everywhere the minim blasphemed, their refutation is beside them"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "א\"ר יוחנן כ\"מ שפקרו המינים תשובתן בצידן (בראשית א, כו) נעשה אדם בצלמנו (ואומר) (בראשית א, כז) ויברא אלהים את האדם בצלמו (בראשית יא, ז) הבה נרדה ונבלה שם שפתם (בראשית יא, ה) וירד ה' לראות את העיר ואת המגדל (בראשית לה, ז) כי שם נגלו אליו האלהים (בראשית לה, ג) לאל העונה אותי ביום צרתי",
+  "source": "b. Sanhedrin 38b (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "Rabbi Yoḥanan said: everywhere the minim blasphemed, their refutation is beside them. 'Let us make a human in our image' (Gen 1:26) — and it says, 'and God created the human in his image' (Gen 1:27). 'Come, let us go down and confound their language there' (Gen 11:7) — 'and the LORD came down to see the city and the tower' (Gen 11:5). 'For there the divine beings were revealed to him' (Gen 35:7) — 'to the God who answers me in the day of my distress' (Gen 35:3).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "tradents": [
+  "r-yochanan"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "refutation-beside-the-claim",
+  "one-authority-singular-verb",
+  "against-the-heretics"
+ ],
+ "notes": "⚠ Anchor note: this is a comment on Gen 1:26, not on Gen 1:1–5. It is on the daf under the second clause of the anchor rule — it argues the same philological question the Elohim of Gen 1:1 raises, whether a plural form of speech about God implies a plurality in God — and is anchored on Gen 1:2 beside that material. The rule of R. Simlai at Bereshit Rabbah 8:9 stated as a rule and then run down a list, and the list is what matters here. Three verses where God speaks or is spoken of in the plural, each with the singular that follows it set beside it as its own answer: na'aseh adam against va-yivra, havah nerdah at Babel against va-yered YHWH, niglu elav ha-Elohim against la-El ha-oneh oti. The first two are exactly the pair Augustine takes up at De civitate Dei XVI.6 in a chapter headed what kind of speech is to be understood, by which God speaks to the angels, where Gen 1:26 is refused to the angels because of the image clause and Gen 11:7 is granted to them because there is nothing to prevent it; and they are exactly the pair the Glossa Ordinaria joins at PL 113:114D, glossing venite at Babel by faciamus hominem and answering both with their singulars. Three benches select the same two verses out of the whole Pentateuch and apply the same test to them. Nobody is reading anybody. The selection is forced by the Hebrew, and the disagreement is only about what the plural was doing there in the first place. Note the word: pakru, they blasphemed or broke loose — a harder verb than the she'elu, they asked, of the midrash's version, and the Bavli has dropped the disputation and kept the rule."
+}

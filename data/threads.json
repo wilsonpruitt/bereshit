@@ -1,229 +1,5 @@
 [
  {
-  "id": "t-k3-01",
-  "from": "abelard-hex-1-1-eloim",
-  "to": "br-1-7",
-  "type": "parallel",
-  "evidence": "The star thread of the site. Both ask why the plural noun Elohim takes a singular verb, in the same words. R. Yitzḥak: 'bereshit bare'u Elohim is not written here, but bara Elohim' — and therefore no creature can say that two authorities created the world. Abelard: 'unde autem dictum est Eloim creavit, non creaverunt? ut videlicet ad plurale nomen singulare verbum referretur; quatenus insinuaretur in tribus illis personis non tres creatores, sed unum tantum debere intelligi.' One grammatical fact, seven hundred years apart, no contact, and the same conclusion drawn about the verb — one creator — from opposite conclusions about the noun.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-02",
-  "from": "ibn-ezra-1-1-elohim",
-  "to": "abelard-hex-1-1-eloim",
-  "type": "contests",
-  "evidence": "The same question and the opposite answer, twenty years apart and with no possible contact. Abelard: Eloim is plural, showing a plurality of divine persons, each of which is God, and the singular verb shows they are one creator. Ibn Ezra: Elohim is the plural of eloah, and the plural is how the Holy Tongue speaks of the great — as adonim and be'alim are plural for one master, and as a king in Arabic speaks of himself in the plural — 'and for this reason Scripture says bara and not bare'u.' Each has the whole of the other's evidence and takes the plural to mean the opposite thing.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-03",
-  "from": "ibn-ezra-1-1-elohim",
-  "to": "br-1-7",
-  "type": "echoes",
-  "evidence": "Ibn Ezra's closing clause is Bereshit Rabbah's argument reduced to a grammarian's note: 'for this reason Scripture says bara and not bare'u.' What the midrash offers as a refutation of two authorities, he offers as the expected concord of an honorific plural — the same reading with the polemic taken out and a comparative philology of Arabic, Hebrew and the vernaculars put in.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-04",
-  "from": "ramban-1-1-elohim",
-  "to": "ibn-ezra-1-1-elohim",
-  "type": "contests",
-  "evidence": "Ramban has Ibn Ezra open in front of him throughout the comment on this verse and takes the plural the other way: not an honorific but a compound, el hem, the force and 'they' — all the other forces — so that Elohim is the force of all forces. He does not deny the grammar; he refuses to let the plural be empty. 'A secret will yet be disclosed in connection with this' says that the real answer is one he will not print.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-05",
-  "from": "ramban-1-1-elohim",
-  "to": "abelard-hex-1-1-eloim",
-  "type": "parallel",
-  "evidence": "The two witnesses on this daf who make the plurality of the noun a plurality in God, and they could not be further apart on what it is. Abelard: a diversity of persons, of which each one is God, and the doctrine is preachable and technical — opera Trinitatis indivisa. Ramban: the master of all the forces, and a secret that will be disclosed elsewhere. A century apart, in Paris and in Girona, with nothing between them but the same three consonants.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-06",
-  "from": "b-meg-9a",
-  "to": "br-1-7",
-  "type": "echoes",
-  "evidence": "The same anxiety twice, once as exegesis and once as translation history. R. Yitzḥak proves from the singular verbs that no one can say two authorities created the world; the elders before Ptolemy move the divine name to the front of the sentence — 'God created in the beginning' — so that bereshit cannot be read as the subject of bara, that is, as a power that made God. Both are defending the first verse against a reading that finds more than one maker in it.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-07",
-  "from": "b-meg-9a",
-  "to": "br-1-12",
-  "type": "contests",
-  "evidence": "The elders reverse the word order that R. Yudan and Ben Azzai explain and praise. For the Bavli's baraita the sequence bereshit bara … Elohim is a danger to be removed for a Greek reader; for Bereshit Rabbah it is the Holy One's modesty — a mortal king proclaims his name and produces his works afterwards, but God acted first and was named after. The same three words are a liability in Alexandria and a virtue in Caesarea.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-08",
-  "from": "b-meg-9a",
-  "to": "abelard-hex-1-1-eloim",
-  "type": "parallel",
-  "evidence": "The baraita reports the elders removing from the Greek exactly the two features the Latin bench builds on, and neither removal reached the Church. The first item on their list is the word order of Gen 1:1; the second is the plural of Gen 1:26 turned singular. The Septuagint as transmitted has neither change. Abelard's argument needs the plural noun standing next to a singular verb in the first verse, which is what the elders are said to have rearranged, and Bruno's needs the 'let us make' of Gen 1:26, which is what they are said to have made singular.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-09",
-  "from": "bruno-gen-1-1c",
-  "to": "br-1-7",
-  "type": "parallel",
-  "evidence": "Both refuse a plurality of creators in the same words and against different opponents. R. Yitzḥak: no creature can say that two authorities created the world. Bruno: was he speaking to the angels? God forbid — for otherwise there would be not one creator but many, whereas God alone is the creator of all. The premise is shared exactly; what Bruno does next with it, and the midrash cannot, is find the second and third persons in the same verses.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-10",
-  "from": "bruno-gen-1-1c",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "'Habes ergo Deum, id est Patrem; habes et principium, id est Filium … Habes igitur et Spiritum sanctum' is Augustine's three-term reading turned into a schoolroom enumeration, with the same John 8:25 for the Son and the same Spirit of v. 2 for the third. What Augustine reached at the end of a search and called a riddle, Bruno hands over in three sentences as something the reader can check.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-11",
-  "from": "aug-conf-13-5",
-  "to": "aug-gnl-1-5-11",
-  "type": "echoes",
-  "evidence": "The same triad in the same order in two works: the Father in the name of God, the Son in the name of the Beginning, the Spirit borne over the waters, which De Genesi ad litteram calls the completa commemoratio Trinitatis. What the Confessions add is the sequence of the search — he held two, he already believed the third, and he went looking for it in the text.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-12",
-  "from": "aug-gnl-imp-1-2",
-  "to": "aug-conf-13-5",
-  "type": "contests",
-  "evidence": "Augustine on both sides of the question this crux really turns on. In the unfinished commentary the catholic faith is set out before the exposition begins, expressly because heretics drag Scripture to their own opinion, so that the Trinity is the rule the chapter will be read under. In the Confessions the Trinity 'appears to me in a riddle' out of the first words. The two are not incompatible and he never reconciles them, and every later Latin witness on this daf writes as though only the second were true.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-13",
-  "from": "basil-hex-2-6b",
-  "to": "ambrose-hex-1-8-29",
-  "type": "transmits",
-  "evidence": "Ambrose is reading Basil at Milan and makes the same choice between the same two readings: either the spirit of v. 2 is the air, or it is the Holy Spirit — 'but we, agreeing with the judgement of the saints and the faithful, take it as the Holy Spirit, so that the working of the Trinity may shine out in the constitution of the world.' Basil's reason is that Scripture reserved the name; Ambrose's is that the third person is needed to complete the triad the first verse began.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-14",
-  "from": "basil-hex-2-6b",
-  "to": "bede-gen-1-2",
-  "type": "parallel",
-  "evidence": "Expletor and the same argument from the shape of the sentence, three centuries and a language apart: Basil, that no other spirit is meant but the Holy, who is the completer of the venerable Trinity; Bede, that having first declared that in the beginning, that is in the Son, the Father made heaven and earth, Scripture brought in mention of the Holy Spirit too, so as to signify the power of the whole Trinity together in the creation of the world.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-15",
-  "from": "aug-conf-13-5",
-  "to": "bede-gen-1-2",
-  "type": "cites",
-  "evidence": "Bede's sentence is Augustine's triad with the two halves welded: 'in principio, id est in Filio, Pater fecit coelum et terram' and then the Spirit added 'ut totius simul Trinitatis in creatione mundi virtutem significaret'. The riddle has become a demonstration, and the word aenigma is gone.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-16",
-  "from": "wigbod-gen-1-1d",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "'In principio sibi coaeterno fecit Deus coelum et terram, in unigenito Filio qui est sapientia Patris' is Augustine's 'in Principio sapientiae nostrae quod est tua Sapientia de te nata, aequalis tibi et coaeterna, id est in Filio tuo' with the possessives dropped and 1 Cor 1:24 put in for the identification. The Carolingian dialogue asked a question about time and was answered with a person.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-17",
-  "from": "remigius-gen-1-1c",
-  "to": "wigbod-gen-1-1d",
-  "type": "echoes",
-  "evidence": "The same identification with the same proof text, and Remigius adds the guard the dialogue does not have: God the Father too is a beginning, but not from a beginning, since he is begotten of none. Once 'in the beginning' names the Son because the Son is a principium, the word will fit the Father as well, and only Remigius notices.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-18",
-  "from": "remigius-gen-1-1c",
-  "to": "br-1-12",
-  "type": "parallel",
-  "evidence": "Both benches ask what may properly be predicated of the creator and answer it out of the first verse's word order. R. Yudan in the name of Akilas: to this one it is fitting to call God — because he acted first and was named afterwards, unlike a king acclaimed before he has built anything. Remigius: the Father is a beginning, but not from a beginning. The rabbinic argument is about the order of the words in the sentence and the Latin about the order of the persons in God, and both are reading the same three words.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-19",
-  "from": "rupert-gen-1-3-trinitas",
-  "to": "aug-gnl-1-5-11",
-  "type": "contests",
-  "evidence": "Rupert builds his whole Hexaemeron on the reading Augustine considered and refused. Augustine asks whether the Trinity is to be understood in 'God said, let it be — and God made — and God saw that it was good', and answers that it does not befit the unity of the Trinity for the Son to be understood as making under orders and the Spirit as freely approving. Rupert takes the threefold formula as the Trinity's signature everywhere in the six days, and escapes the objection by making the three words a testimony rather than three offices.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-20",
-  "from": "rupert-gen-1-3-trinitas",
-  "to": "rupert-gen-1-8",
-  "type": "echoes",
-  "evidence": "One design stated twice. At Gen 1:2 the Spirit's brooding is what betters the creature as a bird's warmth betters an egg; here the threefold formula of every day's work is the trace of the creating Trinity, tied to the law of three witnesses. Both are claims about how the chapter was written, not about what happened in it.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-21",
-  "from": "honorius-hex-1",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "Honorius states the triad and then does something Augustine does not: he distributes the works. 'Note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposition of things, to the Holy Spirit the quickening or adorning of all.' That is the appropriation doctrine of the twelfth-century schools laid over the first two verses, and it is the distribution of labour Augustine had warned against.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-22",
-  "from": "glossa-1-2-ruach",
-  "to": "aug-gnl-1-5-11",
-  "type": "cites",
-  "evidence": "The standard gloss on the Spirit clause is Augustine's De Genesi ad litteram I.5 printed under his name, so that what the twelfth-century schoolroom reads on Gen 1:2 is the third term of Augustine's triad in Augustine's own words — the Spirit borne over the waters not by place but as the will of a craftsman is over what he makes, a love that comes not from need but from bounty.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-23",
-  "from": "abelard-hex-1-1-eloim",
-  "to": "aug-gnl-1-5-11",
-  "type": "cites",
-  "evidence": "Abelard names Augustine for the procession — 'the person of the Holy Spirit and of the Father, from whom that Spirit principally proceeds, as blessed Augustine records' — and gets the first half of his Trinity the Augustinian way, out of the sequence of the verses: the Spirit from 'the Spirit of the Lord', the Word from 'God said'. Only then does he turn to the Hebrew noun, which Augustine did not have and could not have used.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-24",
-  "from": "bruno-gen-1-1c",
-  "to": "remigius-gen-1-1c",
-  "type": "echoes",
-  "evidence": "The same identification of the Son with the principium of Gen 1:1 from the same verse of John — 'ego principium qui et loquor vobis' — in Auxerre about 890 and at Segni about 1090. It is the most stable single move on the Latin bench and it is what makes the three-term reading possible at all: without a person in the second word there is no triad to complete.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-25",
-  "from": "aug-gnl-imp-1-2",
-  "to": "br-1-7",
-  "type": "parallel",
-  "evidence": "Both texts open their treatment of Genesis by fencing it against a dualism, and both do it before expounding a word. Augustine sets out the catholic faith first, because many heretics drag the Scriptures to their own opinion, and ends by ruling that nothing in the creature belongs to the Trinity except that the Trinity made it. R. Yitzḥak rules that no creature can say that two authorities created the world. The heresies are not the same and the manoeuvre is identical: the first verse is made to exclude a second maker before it is made to say anything else.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-x1",
-  "from": "comestor-hs-1-1",
-  "to": "aug-conf-13-5",
-  "type": "echoes",
-  "evidence": "Phase 4. 'Creatus autem est in principio, id est in Filio' is Augustine's second term reduced to an apposition and taught as settled — the riddle of Confessions XIII.5 become a gloss a reader passes over. Written at Phase 4 because `comestor-hs-1-1` was built for K1 and its opening clause belongs to this crux.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-x2",
-  "from": "b-meg-9a",
-  "to": "lxx-1-1",
-  "type": "contests",
-  "evidence": "Phase 4. The baraita says the seventy-two elders wrote 'God created in the beginning' for Ptolemy, moving the divine name to the front so that bereshit could not be read as a subject. The Septuagint as transmitted has not moved it: en archē epoiēsen ho theos keeps the Hebrew order. The change the rabbinic bench remembers making is not in the Greek the Church inherited, and the Latin reading of the verse stands in the space it would have closed.",
-  "crux": "elohim-and-trinity"
- },
- {
-  "id": "t-k3-x3",
-  "from": "targ-onk-1-1",
-  "to": "br-1-7",
-  "type": "parallel",
-  "evidence": "Phase 4. The targum removes the difficulty the midrash has to argue about. Where the Hebrew has the plural-looking Elohim with a singular verb, Onkelos writes YY — the Tetragrammaton, which is not plural in form — so that no reader of the Aramaic could raise the question of two authorities at all. R. Yitzḥak has to answer it three times from the verbs.",
-  "crux": "elohim-and-trinity"
- },
- {
   "id": "t-k4-01",
   "from": "br-1-9",
   "to": "aug-gnm-1-6-10",
@@ -2630,5 +2406,525 @@
   "type": "echoes",
   "evidence": "Comestor's third sense, 'in the beginning of all creatures he created heaven and earth, that is, he made these primordial creatures, and made them at once', is Bruno's opening sentence and Bruno's simul, carried into the schools' handbook.",
   "crux": "beginning-of-what"
+ },
+ {
+  "id": "t-k3-01",
+  "from": "abelard-hex-1-1-eloim",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "The star thread of the site. Both ask why the plural noun Elohim takes a singular verb, in the same words. R. Yitzḥak: 'bereshit bare'u Elohim is not written here, but bara Elohim' — and therefore no creature can say that two authorities created the world. Abelard: 'unde autem dictum est Eloim creavit, non creaverunt? ut videlicet ad plurale nomen singulare verbum referretur; quatenus insinuaretur in tribus illis personis non tres creatores, sed unum tantum debere intelligi.' One grammatical fact, seven hundred years apart, no contact, and the same conclusion drawn about the verb — one creator — from opposite conclusions about the noun.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-02",
+  "from": "ibn-ezra-1-1-elohim",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "contests",
+  "evidence": "The same question and the opposite answer, twenty years apart and with no possible contact. Abelard: Eloim is plural, showing a plurality of divine persons, each of which is God, and the singular verb shows they are one creator. Ibn Ezra: Elohim is the plural of eloah, and the plural is how the Holy Tongue speaks of the great — as adonim and be'alim are plural for one master, and as a king in Arabic speaks of himself in the plural — 'and for this reason Scripture says bara and not bare'u.' Each has the whole of the other's evidence and takes the plural to mean the opposite thing.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-03",
+  "from": "ibn-ezra-1-1-elohim",
+  "to": "br-1-7",
+  "type": "echoes",
+  "evidence": "Ibn Ezra's closing clause is Bereshit Rabbah's argument reduced to a grammarian's note: 'for this reason Scripture says bara and not bare'u.' What the midrash offers as a refutation of two authorities, he offers as the expected concord of an honorific plural — the same reading with the polemic taken out and a comparative philology of Arabic, Hebrew and the vernaculars put in.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-04",
+  "from": "ramban-1-1-elohim",
+  "to": "ibn-ezra-1-1-elohim",
+  "type": "contests",
+  "evidence": "Ramban has Ibn Ezra open in front of him throughout the comment on this verse and takes the plural the other way: not an honorific but a compound, el hem, the force and 'they' — all the other forces — so that Elohim is the force of all forces. He does not deny the grammar; he refuses to let the plural be empty. 'A secret will yet be disclosed in connection with this' says that the real answer is one he will not print.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-05",
+  "from": "ramban-1-1-elohim",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "parallel",
+  "evidence": "The two witnesses on this daf who make the plurality of the noun a plurality in God, and they could not be further apart on what it is. Abelard: a diversity of persons, of which each one is God, and the doctrine is preachable and technical — opera Trinitatis indivisa. Ramban: the master of all the forces, and a secret that will be disclosed elsewhere. A century apart, in Paris and in Girona, with nothing between them but the same three consonants.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-06",
+  "from": "b-meg-9a",
+  "to": "br-1-7",
+  "type": "echoes",
+  "evidence": "The same anxiety twice, once as exegesis and once as translation history. R. Yitzḥak proves from the singular verbs that no one can say two authorities created the world; the elders before Ptolemy move the divine name to the front of the sentence — 'God created in the beginning' — so that bereshit cannot be read as the subject of bara, that is, as a power that made God. Both are defending the first verse against a reading that finds more than one maker in it.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-07",
+  "from": "b-meg-9a",
+  "to": "br-1-12",
+  "type": "contests",
+  "evidence": "The elders reverse the word order that R. Yudan and Ben Azzai explain and praise. For the Bavli's baraita the sequence bereshit bara … Elohim is a danger to be removed for a Greek reader; for Bereshit Rabbah it is the Holy One's modesty — a mortal king proclaims his name and produces his works afterwards, but God acted first and was named after. The same three words are a liability in Alexandria and a virtue in Caesarea.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-08",
+  "from": "b-meg-9a",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "parallel",
+  "evidence": "The baraita reports the elders removing from the Greek exactly the two features the Latin bench builds on, and neither removal reached the Church. The first item on their list is the word order of Gen 1:1; the second is the plural of Gen 1:26 turned singular. The Septuagint as transmitted has neither change. Abelard's argument needs the plural noun standing next to a singular verb in the first verse, which is what the elders are said to have rearranged, and Bruno's needs the 'let us make' of Gen 1:26, which is what they are said to have made singular.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-09",
+  "from": "bruno-gen-1-1c",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Both refuse a plurality of creators in the same words and against different opponents. R. Yitzḥak: no creature can say that two authorities created the world. Bruno: was he speaking to the angels? God forbid — for otherwise there would be not one creator but many, whereas God alone is the creator of all. The premise is shared exactly; what Bruno does next with it, and the midrash cannot, is find the second and third persons in the same verses.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-10",
+  "from": "bruno-gen-1-1c",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "'Habes ergo Deum, id est Patrem; habes et principium, id est Filium … Habes igitur et Spiritum sanctum' is Augustine's three-term reading turned into a schoolroom enumeration, with the same John 8:25 for the Son and the same Spirit of v. 2 for the third. What Augustine reached at the end of a search and called a riddle, Bruno hands over in three sentences as something the reader can check.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-11",
+  "from": "aug-conf-13-5",
+  "to": "aug-gnl-1-5-11",
+  "type": "echoes",
+  "evidence": "The same triad in the same order in two works: the Father in the name of God, the Son in the name of the Beginning, the Spirit borne over the waters, which De Genesi ad litteram calls the completa commemoratio Trinitatis. What the Confessions add is the sequence of the search — he held two, he already believed the third, and he went looking for it in the text.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-12",
+  "from": "aug-gnl-imp-1-2",
+  "to": "aug-conf-13-5",
+  "type": "contests",
+  "evidence": "Augustine on both sides of the question this crux really turns on. In the unfinished commentary the catholic faith is set out before the exposition begins, expressly because heretics drag Scripture to their own opinion, so that the Trinity is the rule the chapter will be read under. In the Confessions the Trinity 'appears to me in a riddle' out of the first words. The two are not incompatible and he never reconciles them, and every later Latin witness on this daf writes as though only the second were true.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-13",
+  "from": "basil-hex-2-6b",
+  "to": "ambrose-hex-1-8-29",
+  "type": "transmits",
+  "evidence": "Ambrose is reading Basil at Milan and makes the same choice between the same two readings: either the spirit of v. 2 is the air, or it is the Holy Spirit — 'but we, agreeing with the judgement of the saints and the faithful, take it as the Holy Spirit, so that the working of the Trinity may shine out in the constitution of the world.' Basil's reason is that Scripture reserved the name; Ambrose's is that the third person is needed to complete the triad the first verse began.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-14",
+  "from": "basil-hex-2-6b",
+  "to": "bede-gen-1-2",
+  "type": "parallel",
+  "evidence": "Expletor and the same argument from the shape of the sentence, three centuries and a language apart: Basil, that no other spirit is meant but the Holy, who is the completer of the venerable Trinity; Bede, that having first declared that in the beginning, that is in the Son, the Father made heaven and earth, Scripture brought in mention of the Holy Spirit too, so as to signify the power of the whole Trinity together in the creation of the world.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-15",
+  "from": "aug-conf-13-5",
+  "to": "bede-gen-1-2",
+  "type": "cites",
+  "evidence": "Bede's sentence is Augustine's triad with the two halves welded: 'in principio, id est in Filio, Pater fecit coelum et terram' and then the Spirit added 'ut totius simul Trinitatis in creatione mundi virtutem significaret'. The riddle has become a demonstration, and the word aenigma is gone.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-16",
+  "from": "wigbod-gen-1-1d",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "'In principio sibi coaeterno fecit Deus coelum et terram, in unigenito Filio qui est sapientia Patris' is Augustine's 'in Principio sapientiae nostrae quod est tua Sapientia de te nata, aequalis tibi et coaeterna, id est in Filio tuo' with the possessives dropped and 1 Cor 1:24 put in for the identification. The Carolingian dialogue asked a question about time and was answered with a person.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-17",
+  "from": "remigius-gen-1-1c",
+  "to": "wigbod-gen-1-1d",
+  "type": "echoes",
+  "evidence": "The same identification with the same proof text, and Remigius adds the guard the dialogue does not have: God the Father too is a beginning, but not from a beginning, since he is begotten of none. Once 'in the beginning' names the Son because the Son is a principium, the word will fit the Father as well, and only Remigius notices.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-18",
+  "from": "remigius-gen-1-1c",
+  "to": "br-1-12",
+  "type": "parallel",
+  "evidence": "Both benches ask what may properly be predicated of the creator and answer it out of the first verse's word order. R. Yudan in the name of Akilas: to this one it is fitting to call God — because he acted first and was named afterwards, unlike a king acclaimed before he has built anything. Remigius: the Father is a beginning, but not from a beginning. The rabbinic argument is about the order of the words in the sentence and the Latin about the order of the persons in God, and both are reading the same three words.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-19",
+  "from": "rupert-gen-1-3-trinitas",
+  "to": "aug-gnl-1-5-11",
+  "type": "contests",
+  "evidence": "Rupert builds his whole Hexaemeron on the reading Augustine considered and refused. Augustine asks whether the Trinity is to be understood in 'God said, let it be — and God made — and God saw that it was good', and answers that it does not befit the unity of the Trinity for the Son to be understood as making under orders and the Spirit as freely approving. Rupert takes the threefold formula as the Trinity's signature everywhere in the six days, and escapes the objection by making the three words a testimony rather than three offices.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-20",
+  "from": "rupert-gen-1-3-trinitas",
+  "to": "rupert-gen-1-8",
+  "type": "echoes",
+  "evidence": "One design stated twice. At Gen 1:2 the Spirit's brooding is what betters the creature as a bird's warmth betters an egg; here the threefold formula of every day's work is the trace of the creating Trinity, tied to the law of three witnesses. Both are claims about how the chapter was written, not about what happened in it.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-21",
+  "from": "honorius-hex-1",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "Honorius states the triad and then does something Augustine does not: he distributes the works. 'Note the Trinity: to God the Father is ascribed the creation of the world, to the Son the disposition of things, to the Holy Spirit the quickening or adorning of all.' That is the appropriation doctrine of the twelfth-century schools laid over the first two verses, and it is the distribution of labour Augustine had warned against.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-22",
+  "from": "glossa-1-2-ruach",
+  "to": "aug-gnl-1-5-11",
+  "type": "cites",
+  "evidence": "The standard gloss on the Spirit clause is Augustine's De Genesi ad litteram I.5 printed under his name, so that what the twelfth-century schoolroom reads on Gen 1:2 is the third term of Augustine's triad in Augustine's own words — the Spirit borne over the waters not by place but as the will of a craftsman is over what he makes, a love that comes not from need but from bounty.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-23",
+  "from": "abelard-hex-1-1-eloim",
+  "to": "aug-gnl-1-5-11",
+  "type": "cites",
+  "evidence": "Abelard names Augustine for the procession — 'the person of the Holy Spirit and of the Father, from whom that Spirit principally proceeds, as blessed Augustine records' — and gets the first half of his Trinity the Augustinian way, out of the sequence of the verses: the Spirit from 'the Spirit of the Lord', the Word from 'God said'. Only then does he turn to the Hebrew noun, which Augustine did not have and could not have used.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-24",
+  "from": "bruno-gen-1-1c",
+  "to": "remigius-gen-1-1c",
+  "type": "echoes",
+  "evidence": "The same identification of the Son with the principium of Gen 1:1 from the same verse of John — 'ego principium qui et loquor vobis' — in Auxerre about 890 and at Segni about 1090. It is the most stable single move on the Latin bench and it is what makes the three-term reading possible at all: without a person in the second word there is no triad to complete.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-25",
+  "from": "aug-gnl-imp-1-2",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Both texts open their treatment of Genesis by fencing it against a dualism, and both do it before expounding a word. Augustine sets out the catholic faith first, because many heretics drag the Scriptures to their own opinion, and ends by ruling that nothing in the creature belongs to the Trinity except that the Trinity made it. R. Yitzḥak rules that no creature can say that two authorities created the world. The heresies are not the same and the manoeuvre is identical: the first verse is made to exclude a second maker before it is made to say anything else.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x1",
+  "from": "comestor-hs-1-1",
+  "to": "aug-conf-13-5",
+  "type": "echoes",
+  "evidence": "Phase 4. 'Creatus autem est in principio, id est in Filio' is Augustine's second term reduced to an apposition and taught as settled — the riddle of Confessions XIII.5 become a gloss a reader passes over. Written at Phase 4 because `comestor-hs-1-1` was built for K1 and its opening clause belongs to this crux.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x2",
+  "from": "b-meg-9a",
+  "to": "lxx-1-1",
+  "type": "contests",
+  "evidence": "Phase 4. The baraita says the seventy-two elders wrote 'God created in the beginning' for Ptolemy, moving the divine name to the front so that bereshit could not be read as a subject. The Septuagint as transmitted has not moved it: en archē epoiēsen ho theos keeps the Hebrew order. The change the rabbinic bench remembers making is not in the Greek the Church inherited, and the Latin reading of the verse stands in the space it would have closed.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-x3",
+  "from": "targ-onk-1-1",
+  "to": "br-1-7",
+  "type": "parallel",
+  "evidence": "Phase 4. The targum removes the difficulty the midrash has to argue about. Where the Hebrew has the plural-looking Elohim with a singular verb, Onkelos writes YY — the Tetragrammaton, which is not plural in form — so that no reader of the Aramaic could raise the question of two authorities at all. R. Yitzḥak has to answer it three times from the verbs.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-26",
+  "from": "basil-hex-1-26-judaei",
+  "to": "targ-psj-1-26",
+  "type": "contests",
+  "evidence": "Basil reports the position and Pseudo-Jonathan is the position. 'Ferunt enim, quod angelis dixerit: Faciamus hominem' — for they say that he said it to the angels — is answered as a Judaica fictio; and the targum reads, in the biblical line itself, 'and the LORD said to the angels who minister before him … let us make a human in our image'. Basil's argument against it is the image clause: is there one image of God and of the angels? The targum has already met that by dating the angels to the second day, so that they are creatures and no rival makers. Neither text has the other, and the caricature turns out to be a quotation.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-27",
+  "from": "basil-hex-1-26-judaei",
+  "to": "br-8-9",
+  "type": "contests",
+  "evidence": "The same grammatical proof on both benches, aimed in opposite directions, and each aimed at the other's people. Basil: 'Non enim dixit ad imagines nostras, sicut et Scriptura testatur: Fecit Deus, inquit, hominem: non fecerunt' — God made the human, they did not make — used to show that the plural is of persons and not of makers. R. Simlai, asked by the minim how many divinities created the world: 'va-yivre'u Elohim et ha-adam be-tzalmeihem is not said, but va-yivra Elohim et ha-adam be-tzalmo.' One verse, one observation about the number of the verb, two disputations, and each bench is arguing with the other's readers.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-28",
+  "from": "ambrose-hex-6-7-40",
+  "to": "basil-hex-1-26-judaei",
+  "type": "transmits",
+  "evidence": "Ambrose is working through Basil at Milan and keeps the order of the questions: to whom does he say it — not to himself, because he does not say faciam; not to the angels, because a servant is no partner in the master's work; therefore to the Son. What he adds is the second front: 'etiamsi Judaei nolint; etiamsi Ariani repugnent', so that the Jewish reading of the plural and the Arian subordination of the Son are refuted by one argument, and whoever denies the Son a share in the working ends by making a gift of it to servuli.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-29",
+  "from": "ambrose-hex-6-7-40",
+  "to": "rashi-1-26-minim",
+  "type": "parallel",
+  "evidence": "The same grammatical fact, the same use made of it, and opposite conclusions about the hearer. Ambrose: 'Cui dicit? Non sibi utique, quia non dicit, faciam, sed faciamus' — he cannot be speaking to himself, because the verb is not singular. Rashi: 'had it written e'eseh adam, we should not have learned that he speaks with his court but with himself.' Both rule out the soliloquy from the form of the verb; Ambrose concludes that the hearer is the Son, Rashi that it is the household above. Milan about 387 and Troyes about 1090, with no possible contact, reasoning identically to incompatible ends.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-30",
+  "from": "aug-gnl-imp-16-61",
+  "to": "ambrose-hex-6-7-40",
+  "type": "contests",
+  "evidence": "Augustine takes away the answer Ambrose had just given, and on grammatical grounds. If the Father were speaking to the Son, then 'ad imaginem nostram' would have to be 'ad imaginem tuam' or 'ad imaginem meam'; and if the plural covered the Father and the Son only, 'a qua pluralitate Spiritum sanctum separare quis audeat?' So the plural is not a conversation between two persons but the Trinity speaking of itself, and the human is made to the image of the whole. Comestor will print both readings side by side eight hundred years later without noticing that the second was written to exclude the first.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-31",
+  "from": "aug-gnl-3-19-29",
+  "to": "aug-gnl-imp-16-61",
+  "type": "echoes",
+  "evidence": "The same reading twenty years on, with the polemic gone and one sentence added that the whole Latin bench will quote: it is not a matter of indifference that elsewhere Scripture says dixit Deus, fiat, and here dixit Deus, faciamus. The unfinished commentary argued from ad imaginem nostram; the finished one argues from the change of formula, which is a claim about how the chapter is written rather than about what the words mean, and is therefore the version that can be abridged into a gloss.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-32",
+  "from": "aug-civ-16-6",
+  "to": "b-sanh-38b-tshuva",
+  "type": "parallel",
+  "evidence": "The strongest structural parallel on the site, and neither side can have known the other. R. Yoḥanan's rule at Sanhedrin 38b lists the places where the minim broke loose with the refutation beside each, and the first two are Gen 1:26, answered by the singular of Gen 1:27, and Gen 11:7 — havah nerdah, come let us go down — answered by the singular of Gen 11:5. Augustine's chapter is headed 'qualis intelligenda sit esse locutio, qua Deus Angelis loquitur' and takes up the same two verses in the same order: at Gen 1:26 the angels are excluded, because ad imaginem nostram forbids them, and 'non dixit, Fecerunt dii'; at Gen 11:7, where there is no image clause, 'si aliquid esset, quod Angelos prohiberet intelligi' — and nothing is, so the angels stand. Two benches select the same pair out of the Pentateuch by the same criterion, a plural verb of divine speech, and apply the same test, the singular that follows. They disagree only about what the plural was doing there.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-33",
+  "from": "glossa-11-7-angeli",
+  "to": "b-sanh-38b-tshuva",
+  "type": "parallel",
+  "evidence": "The Gloss joins Gen 11:7 to Gen 1:26 and answers both with their singulars — 'Ad angelos dixisse intelligitur; vel secundum illud: Faciamus hominem ad imaginem et similitudinem nostram. Nam singulari numero subjunctum est: et divisit eos, sicut ibi: Fecit Deus hominem ad imaginem et similitudinem suam' — which is R. Yoḥanan's list and R. Yoḥanan's test, in a Latin schoolbook, with the conclusion left open. It is the one place in the Gloss where the angel reading is printed as the plain sense, and it is printed at the verse where the argument from the image cannot be run.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-34",
+  "from": "glossa-11-7-angeli",
+  "to": "aug-civ-16-6",
+  "type": "cites",
+  "evidence": "The gloss is Augustine's chapter reduced to its verdict. De civitate Dei XVI.6 grants the angels at Babel because nothing prevents them, having refused them at Gen 1:26 because of the image; the Gloss keeps the grant, keeps the cross-reference to faciamus hominem, and drops the reason for the difference — so that a twelfth-century reader meets the angel reading of one plural without the argument that had excluded it from the other.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-35",
+  "from": "glossa-1-26",
+  "to": "aug-gnl-3-19-29",
+  "type": "cites",
+  "evidence": "The standard gloss on Gen 1:26 is De Genesi ad litteram III.19 printed under Augustine's name and cut to its two moves: the plural intimates the persons, the singular of v. 27 gives the unity of the deity. What is cut is the argument — Augustine's 'alioquin non vere dictum est, ad imaginem nostram, si ad Patris solius, aut Filii solius imaginem factus est homo' becomes a bare 'non enim vere diceretur ad imaginem nostram'. This is the page on which Hugh, Abelard and Comestor all begin.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-36",
+  "from": "bede-gen-1-26",
+  "to": "basil-hex-1-26-judaei",
+  "type": "transmits",
+  "evidence": "Bede is copying the Latin Basil and keeping the sentence while dropping the fight. 'Donec is qui doceretur non erat, in profundo fuit abdita praedicatio Deitatis; ubi vero coepit hominis exspectari creatio, revelata est fides' stands word for word in both. What Bede removes is every Jew in the passage, and what he puts in its place is a reason: it could not be said to angels, 'quia nulla prorsus ratio sinit ut Dei et angelorum unam esse eamdemque imaginem sive similitudinem credamus'. The argument survives the polemic, and it is the argument, not the polemic, that Rabanus and Angelomus then copy from Bede.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-37",
+  "from": "alcuin-int-36-37",
+  "to": "br-8-8",
+  "type": "parallel",
+  "evidence": "Both take the change of formula to be about the standing of the creature rather than about God, and they draw opposite morals from it. Alcuin: why of the human alone is it said faciamus? — so that, a rational creature being founded, it might be seen to be made with counsel, 'et ut ejus nobilitas ostenderetur'. Bereshit Rabbah: the plural was worth the opening it gives the minim because a great man who will not ask leave of a lesser must learn from his Creator, who consulted the ministering angels. Nobility on one bench, humility on the other, out of the same observation that this verse and no other has a consultative form.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-38",
+  "from": "wigbod-gen-1-26",
+  "to": "aug-gnl-3-19-29",
+  "type": "transmits",
+  "evidence": "Augustine's sentence cut in half and given to two speakers, D and M, so that the observation is a pupil's and the doctrine a master's, and headed AMBROSIUS. One word changes and it matters: Augustine wrote 'ad imaginem Dei' and argued for a page why it is not 'ad imaginem Filii'; Wigbod writes 'ad imaginem suam', which settles the question by removing it.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-39",
+  "from": "remigius-gen-1-26",
+  "to": "br-8-3",
+  "type": "parallel",
+  "evidence": "The same question in one word each. Remigius: 'quasi quodam concilio dicit: Faciamus' — as though by a kind of council he says, let us make. Bereshit Rabbah: 'be-mi nimlakh', with whom did he take counsel. Both take the change of formula to imply a consultation and then have to say with whom; and Remigius adds the line that shows the Latin bench knew there was more than one answer available — 'quod, licet quidam ad angelos referendum dicant, melius tamen ad sanctam Trinitatem refertur'. Some do refer it to the angels, at Auxerre about 890, and he neither names them nor refutes them.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-40",
+  "from": "rupert-gen-1-26-consilium",
+  "to": "br-8-3",
+  "type": "parallel",
+  "evidence": "Bereshit Rabbah 8:3 sets out two extremes and does not choose: R. Yehoshua in R. Levi's name has God consult the work of heaven and earth, with a parable of a king and his two sanqlitin — Greek synklētikoi, senators — and R. Ami has him take counsel be-libbo, with his own heart. Rupert names both in Latin and chooses: the counsel of the Trinity was 'non tam senatu quam soliloquio venerando … habitum'. The Roman word for the one and the Augustinian word for the other, six hundred years later, at Liège, with no contact; and the soliloquy that proves for R. Ami that nobody else was present proves for Rupert that three persons were.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-41",
+  "from": "abelard-hex-1-26-faciamus",
+  "to": "br-8-3",
+  "type": "parallel",
+  "evidence": "R. Ami's answer with a bibliography. 'Quasi ergo aliquis secum loquens se et rationem suam quasi duo constituit cum eam consulit, sicut Boetius in libro De consolatione Philosophiae, vel Augustinus in libro Soliloquiorum' — a man who consults his own reason sets up himself and his reason as two. That is be-libbo nimlakh, he took counsel with his heart, made into a philosophical model; and where the midrash uses the inward counsel to show that no second party was present, Abelard uses it to show how a real plurality speaks with one mouth.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-42",
+  "from": "abelard-hex-1-26-faciamus",
+  "to": "abelard-hex-1-1-eloim",
+  "type": "echoes",
+  "evidence": "One man, one argument, two verses, and the pair is the whole of this crux. At Gen 1:1 the evidence is a Hebrew noun plural in form beside a singular verb — 'unde autem dictum est Eloim creavit, non creaverunt?' At Gen 1:26 it is a Latin verb plural in form beside the singular of v. 27 — 'sed cur pluraliter dicitur: faciamus hominem ad imaginem nostram, si nulla prorsus pluralitas in Deo sit … et creavit Deus hominem'. The inference is identical both times, the plural for the persons and the singular for the one creator, and both times it is addressed to Jews by name: dicant Judaei si possunt.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-43",
+  "from": "abelard-hex-1-26-faciamus",
+  "to": "rashi-1-26-minim",
+  "type": "contests",
+  "evidence": "The opening and the man who takes it, forty years apart and about two hundred miles. Rashi grants that na'aseh gives the minim room to rebel, and keeps it anyway for the sake of the lesson in humility, writing the refutation beside it: va-yivra and not va-yivre'u. Abelard walks into precisely that opening — 'dicant Judaei si possunt, vel nobiscum fateantur in una Divinitatis essentia pluralitatem personarum' — and takes Rashi's own refutation, the singular of v. 27, as the second half of his proof rather than as an answer to it. Neither has read the other and the argument fits together exactly.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-44",
+  "from": "hugh-adnot-1-26",
+  "to": "br-8-8",
+  "type": "parallel",
+  "evidence": "The identical moral drawn from the identical difficulty, at St Victor about 1130 and in Galilee seven hundred years earlier. Hugh: God brings in counsel 'ut nos cautos reddat, ne dedignemur consilium accipere et ab aequalibus et a minoribus; cum ipse ad angelos ita loquatur'. Bereshit Rabbah: if a great man will not seek leave from one lesser than himself, let him learn from his Creator, who consulted the ministering angels when he came to make a human. Both make the verse a lesson in taking advice downwards, and both ground the lesson in the angels — which is the one thing about this verse the rest of the Latin bench will not concede.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-45",
+  "from": "hugh-adnot-1-26",
+  "to": "targ-psj-1-26",
+  "type": "parallel",
+  "evidence": "Hugh goes further than the targum. Pseudo-Jonathan has God address the ministering angels and stops there, and guards the point by dating them to the second day so that they cannot be co-creators. Hugh writes 'ad angelos ita loquatur, quorum ministerio forsitan formatum est corpus hominis' — by whose ministry perhaps the human body was formed — which grants the angels a hand in the work itself. That is the position Basil calls a Jewish fiction, Ambrose refuses because a servant is no partner, and Bruno says would make many creators; it is in a Victorine schoolbook, offered before the Trinitarian reading and only then set aside with vel quod melius est.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-46",
+  "from": "hugh-adnot-1-26",
+  "to": "remigius-gen-1-26",
+  "type": "echoes",
+  "evidence": "The same two-reading structure two hundred and forty years apart, and the interval shows the angel reading losing ground without ever being refuted. Remigius: some refer it to the angels, but it is better referred to the holy Trinity. Hugh: he speaks to the angels, by whose ministry perhaps the body was formed — or, what is better, take it as the counsel of the Trinity. Both put the angels first and prefer the Trinity comparatively, neither argues against the angels, and by Comestor's Historia scholastica forty years after Hugh the option is simply not mentioned.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-47",
+  "from": "comestor-hs-1-26",
+  "to": "aug-gnl-imp-16-61",
+  "type": "contests",
+  "evidence": "The handbook prints as an alternative the reading Augustine wrote to exclude. 'Et loquitur Pater ad Filium, et Spiritum sanctum. Vel est quasi communis vox trium personarum' — the first is Ambrose's and Basil's, the second is Augustine's, and Augustine's objection to the first is that ad imaginem nostram would then have to be tuam or meam. Comestor ranks neither and argues for neither. What a priest examined on the Historia scholastica about 1170 knows about this verse is that there are two acceptable answers and no reason to prefer either.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-48",
+  "from": "br-8-9",
+  "to": "br-1-7",
+  "type": "echoes",
+  "evidence": "The same proof twice in the same compilation, once as exegesis and once as a disputation. R. Yitzḥak at 1:7 observes that the plural-looking Elohim takes singular verbs — not vaydaberu but vaydaber, not bare'u but bara — and concludes that no creature may say two authorities created the world. R. Simlai at 8:9 is asked by the minim how many divinities created the world and answers with the same verb: baru Elohim is not written here but bara Elohim. What 8:9 adds is the occasion. The grammatical observation this crux is built on is, in its own tradition, an answer given to opponents who had asked the question out loud.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-49",
+  "from": "br-8-9",
+  "to": "br-8-8",
+  "type": "echoes",
+  "evidence": "Two paragraphs, one anxiety, and they name it the same way: pitchon peh la-minim, an opening for the minim. At 8:8 Moses sees the opening while he is writing the verse and is told to write it anyway; at 8:9 the minim walk through it and are met at the door. R. Simlai's rule states the policy the earlier paragraph enacted — everywhere you find an opening for the minim, you find the refutation beside it — so that the danger and its answer are treated as a designed pair rather than as an accident to be explained away.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-50",
+  "from": "b-sanh-38b-tshuva",
+  "to": "br-8-9",
+  "type": "echoes",
+  "evidence": "R. Simlai's rule become R. Yoḥanan's, with the disputation dropped and the list extended. In the midrash the rule is said between two exchanges and is illustrated by them; in the Bavli it is stated flat and followed by three verse-pairs, Gen 1:26 with 1:27, Gen 11:7 with 11:5, Gen 35:7 with 35:3. The verb hardens too: she'alu ha-minim, the minim asked, becomes kol makom she-pakru ha-minim, everywhere the minim broke loose.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-51",
+  "from": "b-sanh-38b-malachim",
+  "to": "br-8-3",
+  "type": "echoes",
+  "evidence": "Bereshit Rabbah asks with whom God took counsel and gives four answers without choosing; the Bavli tells the story that answers it and lets the answer cost something. Rav Yehuda in Rav's name has God create a company of ministering angels and put the verse to them as a question — retzonkhem na'aseh adam be-tzalmenu — and burn them when they object, and the second company after them, until the third says that the world is his and he may do as he wishes. The consultation is real, in the words of the verse; the partnership is destroyed in the telling.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-52",
+  "from": "rashi-1-26-anvetanuto",
+  "to": "b-sanh-38b-malachim",
+  "type": "cites",
+  "evidence": "Rashi's first comment is the Bavli's story turned into a doctrine of God, and he ends by quoting it: 'there are in the heavens beings after my likeness; if there will not be on earth also beings after my likeness, there will be envy among the beings that I have created.' What the daf leaves as a narrative — the angels object, they are burnt — Rashi makes a habit: this is how God judges kings too, as Micaiah saw, and as Daniel's decree of the watchers shows. The word for the court is pamalya shel ma'alah, from the Latin familia.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-53",
+  "from": "rashi-1-26-minim",
+  "to": "br-8-9",
+  "type": "cites",
+  "evidence": "Rashi ends the second comment with R. Simlai's answer verbatim in Hebrew — 'and the refutation of the minim he wrote beside it, va-yivra et ha-adam, and he did not write va-yivre'u' — and with it he takes over the midrash's whole posture: name the risk, keep the verse, point to the answer alongside. The one thing he does not take over is R. Simlai's caution. Where the midrash has the disciples object that the minim were pushed off with a reed, Rashi lets the grammatical answer stand as the answer.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-54",
+  "from": "ibn-ezra-1-26-naaseh",
+  "to": "ibn-ezra-1-1-elohim",
+  "type": "contests",
+  "evidence": "One grammarian, two plurals, two incompatible accounts, and the daf can only show it because both pages are here. At Gen 1:1 the plural noun Elohim is the honorific plural and means nothing more: every language honours the great with a plural, as adonim and be'alim are plural for one master and as a king in Arabic speaks of himself in the plural. At Gen 1:26 Saadia Gaon offers him the identical explanation for the plural verb — na'aseh is the manner of royal speech — and he calls the proof texts false witnesses, parses every one of them away, and puts a real hearer in their place: God said to the angels, let us make a human, we shall occupy ourselves with him and not the water and the earth. The plural of majesty is a fact about nouns and does not reach a verb with a subject; but the reader who has only the Gen 1:1 page would take Ibn Ezra's answer to this crux to be the opposite of what it is.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-55",
+  "from": "ibn-ezra-1-26-naaseh",
+  "to": "rashi-1-26-anvetanuto",
+  "type": "parallel",
+  "evidence": "The two great northern and southern commentators arrive at the same hearer by different routes and with different tempers. Rashi gets to the angels from the humility of God and the court of 1 Kgs 22, and has to defend the reading against the minim in his next comment. Ibn Ezra gets to them by elimination: the earth and the waters brought forth the plants and the animals, and at the human God says we shall occupy ourselves with him and not they. No court, no humility, no polemic, and no acknowledgement that anybody reads the verse otherwise.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-56",
+  "from": "ramban-1-26-naaseh",
+  "to": "ibn-ezra-1-26-naaseh",
+  "type": "contests",
+  "evidence": "Ramban keeps the plural literal and takes the angels out of it. 'Ani ve-ha-aretz ha-nizkeret na'aseh adam' — I and the aforementioned earth, let us make a human: the earth to bring forth the body from its elements as it did for the beasts, and God to give the spirit, exactly as Gen 2:7 then describes in two clauses. The plural has a second party and the second party is the ground. He credits R. Yosef Kimḥi and calls it the most acceptable of all that have been thought about the verse, which is how he sets aside both the angels of Ibn Ezra and Rashi and the plural of majesty of Saadia without arguing with any of them.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-57",
+  "from": "ramban-1-26-naaseh",
+  "to": "ramban-1-1-elohim",
+  "type": "echoes",
+  "evidence": "The same man refusing, twice, to let a plural be either empty or personal, and needing a secret only once. At Gen 1:1 Elohim is a compound, el hem, the force of all the forces, and 'a secret will yet be disclosed in connection with this'. At Gen 1:26 the plural verb has a plain second subject, the earth, and nothing is withheld — the mystery is moved to the following verse, where 'the way of truth in this verse will be known to him who understands'. Of the four answers this crux collects, Ramban's is the only one that makes the plural real without making it a plurality in God or a company of angels.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-58",
+  "from": "targ-onk-1-26",
+  "to": "targ-onk-1-1",
+  "type": "contests",
+  "evidence": "The same targum, the same difficulty, opposite hands. At Gen 1:1 Onkelos writes YY for Elohim, so that the plural-looking noun disappears and no reader of the Aramaic could raise the question of two authorities from it. At Gen 1:26 he leaves the plural verb standing — na'avid enasha be-tzalmana — and adds nothing, addresses nobody, and supplies no angels. Whatever governed the first choice, it was not a policy of removing plurals from the creation account, and the contrast is the best evidence on the daf that the Gen 1:1 substitution was about the divine name rather than about number.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-59",
+  "from": "targ-psj-1-26",
+  "to": "targ-onk-1-26",
+  "type": "contests",
+  "evidence": "Two Aramaic versions of one verse, one adding the hearers and one refusing to. Pseudo-Jonathan: 'and the LORD said to the angels who minister before him, who were created on the second day of the creation of the world, let us make a human in our image, in our likeness.' Onkelos: 'and the LORD said, let us make a human in our image, as our likeness.' The later targum answers the question the earlier one left open, and guards its answer by dating the angels after the beginning so that they cannot be makers.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-60",
+  "from": "targ-psj-1-26",
+  "to": "glossa-11-7-angeli",
+  "type": "parallel",
+  "evidence": "An Aramaic targum of the eighth century and a Latin schoolbook of the twelfth put the same hearers behind the same kind of plural. 'Va-amar YY le-malakhaya di-meshamshin qomoi' — and the LORD said to the angels who minister before him. 'Ad angelos dixisse intelligitur' — he is understood to have said it to the angels. Neither argues for it; both simply state it as what the verse means. The Gloss says it at Gen 11:7 and cross-refers to Gen 1:26; the targum says it at Gen 1:26 outright.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-61",
+  "from": "bruno-gen-1-1c",
+  "to": "targ-psj-1-26",
+  "type": "contests",
+  "evidence": "Bruno's rhetorical question has a literal answer in a book he could not read. 'Quos ad hominem creandum invitabat, dicens: Faciamus hominem?' — whom was he inviting to create the human? — and his answer is that it cannot be the angels, since otherwise there would be not one creator but many. Pseudo-Jonathan names them: the angels who minister before him, created on the second day. The targum has already conceded Bruno's premise, that no creature may be a maker, and secured it by the date; Bruno takes the reading to be refuted by the premise alone.",
+  "crux": "elohim-and-trinity"
+ },
+ {
+  "id": "t-k3-62",
+  "from": "aug-civ-16-6",
+  "to": "hugh-adnot-1-26",
+  "type": "contests",
+  "evidence": "Augustine allows the angels one plural and not the other, and gives the reason; Hugh allows them both, and takes the reason back. De civitate Dei XVI.6 refuses them at Gen 1:26 because ad imaginem nostram forbids it, and grants them at Gen 11:7 because nothing prevents it. Hugh writes 'cum ipse ad angelos ita loquatur, quorum ministerio forsitan formatum est corpus hominis' at Gen 1:26 itself, where Augustine's objection stands unanswered, and then prefers the Trinity for a different reason altogether — that it is better, not that the angels are excluded.",
+  "crux": "elohim-and-trinity"
  }
 ]
