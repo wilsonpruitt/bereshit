@@ -1,0 +1,39 @@
+{
+ "id": "remigius-gen-1-1c",
+ "work": "remigius-gen",
+ "author": "remigius",
+ "tradition": "latin",
+ "date": 890,
+ "date_precision": "circa",
+ "place": "auxerre",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Deus enim Pater principium est, sed non de principio",
+  "en": "for God the Father is a beginning, but not from a beginning"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Allegorice quod dictum est: in principio fecit Deus coelum et terram, nomine principii Filium Dei non incongrue possumus accipere, sicut ipse de se Judaeis dixit: ego principium qui et loquor vobis (Joan. VIII, 28) . Deus enim Pater principium est, sed non de principio, quia a Patre non factus nec creatus, sed genitus est: per quod principium Deus Pater coelum et terram creavit, id est coelestes et terrenos. Per coelum enim coelestes sive coelestem vitam ducentes: per terram vero terrenis negotiis inhiantes signantur. Qui utrique per principium creati sunt, quia nato Jesu Christo patuit qui essent coelestes, quique terreni.",
+  "source": "PL 131, col. 55C",
+  "cc_idno": "9346",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Allegorically, in what is said, In the beginning God made heaven and earth, by the name of 'beginning' we may not inappropriately understand the Son of God, as he himself said of himself to the Jews: I am the beginning, who also speak to you (John 8:25). For God the Father is a beginning, but not from a beginning, since he was not made or created by the Father but begotten; through which Beginning God the Father created heaven and earth, that is, the heavenly and the earthly. For by 'heaven' are signified the heavenly, or those leading a heavenly life; by 'earth', those gaping after earthly business. Both of these were created through the Beginning, because when Jesus Christ was born it became plain who were heavenly and who were earthly.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "allegorical"
+ ],
+ "answers": [
+  "principium-is-the-son"
+ ],
+ "notes": "A distinction made in passing that nobody else on this daf bothers with: the Father too is a beginning — but not from a beginning, since he is not made or created but begotten. Remigius has noticed that if 'in the beginning' names the Son because the Son is a principium, the word will also fit the Father, and he heads it off with the credal formula. The rest is the standard identification with John 8:25 and then the ecclesial reading, in which heaven and earth are the heavenly-minded and the earthly-minded and the division became visible only at the Incarnation. Set beside R. Yudan's 'to this one it is fitting to call God', the two benches are doing the same thing with the same clause — asking what may properly be predicated of the creator, and answering out of the word order."
+}

@@ -410,5 +410,53 @@
  "lux-hivdil-set-aside": {
   "label": "He set the light aside",
   "gloss": "Va-yavdel means he separated it off — for himself (R. Yehuda bar Simon), or for the righteous in the time to come, like a king setting aside a fine portion for his son (the Rabbis)."
+ },
+ "one-authority-singular-verb": {
+  "label": "The verb is singular, so one maker",
+  "gloss": "Not vaydaberu but vaydaber, not bare'u but bara — no one may say that two authorities created the world (Bereshit Rabbah 1:7; Ibn Ezra; and, to the opposite end, Abelard)."
+ },
+ "elohim-is-plural-of-persons": {
+  "label": "Eloim is plural: three persons",
+  "gloss": "El is singular and Eloim plural, showing a diversity of persons each of which is God; the singular verb shows that they are one creator and their works undivided (Abelard)."
+ },
+ "elohim-is-honorific-plural": {
+  "label": "A plural of honour",
+  "gloss": "Every language honours the great with a plural — adonim, be'alim, the king speaking of himself in Arabic — so Elohim is the plural of eloah and means nothing more (Ibn Ezra)."
+ },
+ "elohim-is-plural-of-powers": {
+  "label": "The force of all forces",
+  "gloss": "El hem: the root el is force, and 'they' points to all the other forces, so Elohim is the master of them all — with a secret not disclosed (Ramban)."
+ },
+ "trinity-in-the-triad": {
+  "label": "Father, Beginning, Spirit",
+  "gloss": "The three persons are named in order across the first two verses: God the Father, the Beginning who is the Son, the Spirit borne over the waters (Augustine, Basil, Ambrose, Bede, Bruno, Honorius, the Glossa)."
+ },
+ "trinity-in-the-formula": {
+  "label": "The threefold formula of the six days",
+  "gloss": "God said — and it was so — and God made: the testimony is tripled everywhere because the creating Trinity works everywhere (Rupert; considered and refused by Augustine)."
+ },
+ "trinity-is-brought-to-the-text": {
+  "label": "The rule of faith comes first",
+  "gloss": "The catholic faith is set out before the exposition begins, because heretics drag Scripture to their own opinion; the doctrine is what the chapter is read under (Augustine, De Genesi ad litteram imperfectus)."
+ },
+ "spirit-is-holy-spirit": {
+  "label": "The spirit of v. 2 is the Holy Spirit",
+  "gloss": "Not the air and not a wind: Scripture reserved the name, and no other spirit is meant but the one who completes the Trinity (Basil, Ambrose)."
+ },
+ "principium-is-the-son": {
+  "label": "The Beginning is the Son",
+  "gloss": "'I am the beginning, who also speak to you' (John 8:25) — though the Father too is a beginning, and not from a beginning (Wigbod, Remigius, Bruno)."
+ },
+ "not-to-angels": {
+  "label": "Not spoken to the angels",
+  "gloss": "Whoever the 'let us' addresses, it is not angels: man was not created by angels, or there would be many creators and not one (Bruno)."
+ },
+ "word-order-is-modesty": {
+  "label": "God is named after his works",
+  "gloss": "A mortal king proclaims his name and builds afterwards; the Holy One made the needs of his world and was named after — bereshit bara, and only then Elohim (R. Yudan in the name of Akilas; Ben Azzai)."
+ },
+ "word-order-is-dangerous": {
+  "label": "The word order had to be changed",
+  "gloss": "The seventy-two elders wrote 'God created in the beginning' for Ptolemy, so that bereshit could not be read as the subject (b. Megillah 9a)."
  }
 }

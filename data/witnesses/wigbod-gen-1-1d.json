@@ -1,0 +1,40 @@
+{
+ "id": "wigbod-gen-1-1d",
+ "work": "wigbod-gen",
+ "author": "wigbod",
+ "tradition": "latin",
+ "date": 790,
+ "date_precision": "circa",
+ "place": "tours",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "in principio sibi coaeterno",
+  "en": "in a Beginning coeternal with himself"
+ },
+ "original": {
+  "lang": "la",
+  "text": "M. Dicamus quia in principio sibi coaeterno fecit Deus coelum et terram, in unigenito Filio qui est sapientia Patris, de quo dicit Apostolus, Christum Dei virtutem et Dei sapientiam (I Cor. I, 24) .",
+  "source": "PL 96, col. 1115A",
+  "cc_idno": "8606",
+  "license": "pd"
+ },
+ "english": {
+  "text": "M[aster]. Let us say that in a Beginning coeternal with himself God made heaven and earth — in the only-begotten Son, who is the Wisdom of the Father, of whom the Apostle says: Christ the power of God and the wisdom of God (1 Cor 1:24).",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "principium-is-the-son",
+  "trinity-in-the-triad"
+ ],
+ "notes": "The Carolingian dialogue's answer to the question its pupil has just asked — in what beginning, the beginning of time, or a beginning that was the start of the creature? — and it refuses the alternative by making the Beginning a person: one coeternal with God himself, the only-begotten Son who is the Father's Wisdom, with 1 Cor 1:24 for the identification. What the schoolroom form makes visible is how short the step is. The pupil asked a question about time; the master answered with a doctrine of the second person, and neither notices that the question has been changed."
+}

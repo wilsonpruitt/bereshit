@@ -1,0 +1,43 @@
+{
+ "id": "b-meg-9a",
+ "work": "bavli-megillah",
+ "author": "bavli",
+ "tradition": "rabbinic",
+ "date": 550,
+ "date_precision": "redaction-500-600",
+ "place": "babylonia",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "אֱלֹהִים בָּרָא בְּרֵאשִׁית",
+  "en": "God created in the beginning"
+ },
+ "original": {
+  "lang": "arc",
+  "text": "ומשום מעשה דתלמי המלך דתניא מעשה בתלמי המלך שכינס שבעים ושנים זקנים והכניסן בשבעים ושנים בתים ולא גילה להם על מה כינסן ונכנס אצל כל אחד ואחד ואמר להם כתבו לי תורת משה רבכם נתן הקב\"ה בלב כל אחד ואחד עצה והסכימו כולן לדעת אחת וכתבו לו אלהים ברא בראשית (בראשית א, א) אעשה אדם בצלם ובדמות (בראשית א, כו)",
+  "source": "b. Megillah 9a (Vilna)",
+  "license": "cc-by-sa",
+  "version": "Wikisource Talmud Bavli"
+ },
+ "english": {
+  "text": "For it was taught: [This is] the case of Ptolemy the King, who gathered seventy-two elders and entered them into seventy-two houses, and he did not reveal to them for what he gathered them. He then met each of them individually and he said to them: \"Write for me the Torah of Moses your teacher [in Greek].\" The Holy One, Blessed Be He put counsel into the heart of each one, and all of them harmonized to one understanding. And they wrote for him: \"God created in the beginning.\" (Genesis 1:1) \"I shall make a human in image and likeness.\" (Genesis 1:26)",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "tradents": [
+  "r-yehuda-b-ilai"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "translation",
+  "literal"
+ ],
+ "answers": [
+  "word-order-is-dangerous",
+  "one-authority-singular-verb"
+ ],
+ "notes": "The rabbinic bench's own account of how the Greek Bible came to read as it does, and the first two items on the list are the two verses the Latin bench builds its plurality on. Ptolemy shut seventy-two elders in seventy-two houses and told each to write him the Torah of Moses; God put counsel in each one's heart and they all agreed on one understanding. And they wrote for him: 'God created in the beginning' — Elohim bara bereshit, the divine name moved to the front so that bereshit could not be read as the subject, that is, as a deity who made God — and 'I shall make a human in image and likeness', singular, for the plural na'aseh of Gen 1:26. Both changes are aimed at plurality in the opening of Genesis. Neither is in the Septuagint the Church actually inherited: its Gen 1:1 keeps the Hebrew order, en archē epoiēsen ho theos, and its Gen 1:26 keeps the plural, poiēsōmen anthrōpon. So the baraita is a tradition about a Greek Torah rather than a description of one, and the Latin reading of both verses exists in the space the described changes would have closed."
+}

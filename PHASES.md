@@ -62,24 +62,27 @@ Done when: `python3 scripts/build-crux.py ruach-hovering` reproduces today's K7 
 
 ## Phase 2 — Build the nine remaining cruxes · **Opus**, one crux per session
 
-**State: K10, K1, K8, K6, K5, K4 and K9 built (2026-09-05). Next up is K3 `elohim-and-trinity`, row 8.**
+**State: nine of ten built (2026-09-05) — K7, K10, K1, K8, K6, K5, K4, K9, K3. Next up is K2 `why-begin-here`, row 9, the last.**
 
-To start that session, paste: *"Build the crux `elohim-and-trinity` in ~/bereshit, following the
-per-crux checklist in PHASES.md."* Much of K3's material has already been read and flagged in
-`notes/cross-crux.md` with its locus: b. Megillah 9a (on disk, unpulled into any crux — the changes
-the elders made for Ptolemy, beginning with the reversal of *bereshit bara Elohim*), BR 1:12 (R.
-Yudan in the name of Akilas: the King acts first and names himself after), Bruno PL 164:157B
-(*habes ergo Deum, id est Patrem; habes et principium, id est Filium*, on *Faciamus hominem*),
-Augustine *Conf.* XIII.5 (PL 32:847), `aug-gnl-1-5-11` (K7) and `glossa-1-2-ruach` (K7), both of
-which already carry `elohim-and-trinity` in their facets and will be folded into the roster by
-build-crux.py, and Rupert's whole design (the Trinity works at every *dixit … fecit … vidit*, PL
-167:230A, which K9 read and did not build).
+To start that session, paste: *"Build the crux `why-begin-here` in ~/bereshit, following the
+per-crux checklist in PHASES.md."* Material already read and flagged in `notes/cross-crux.md`:
+**m. Chagigah 2:1** (`m-chag-2-1`, on disk, unbuilt — "whoever looks at four things: what is above,
+what is below, what is before, what is after"), BR 1:5 first half ("may they be silenced" and the
+ban on expounding the work of creation), BR 1:10 (why the world was created with a *bet*, closed on
+three sides so that none may ask what is before), BR 1:2 and 1:4 as needed, Rashi on 1:1 (R.
+Yitzchak: the Torah should have begun at Exod 12:2 — **already built as `rashi-1-1b` for K1 and
+carrying only that crux; check before duplicating**), Ambrose *Hex.* I.1 and PL 14:130C (the
+argument from the visible to the invisible), and Hugh *De sacr.* I.1 cap. I, whose opening question
+is the one m. Chagigah forbids.
 
-⚠ **K3 is on Gen 1:1–1:2, the two most crowded verses on the site** — K1 built 34 witnesses on 1:1
-and K7, K6 and K4 have taken most of 1:2. `scripts/overlap.py` by OFFSET before every slice, and for
-the rabbinic bench `grep -l '<distinctive phrase>' data/witnesses/*.json`, which is what caught K8's
-over-long BR 3:6 slice while K9 was being built (see notes/cross-crux.md). Expect to lose several
-candidates to K1 and to leave them for Phase 4.
+⚠ **Read the K3 entry in `notes/SOURCES-FINDINGS.md` before starting.** K2's best single text is not
+a comment on Gen 1:1 and the anchor rule as applied through K9 and K3 would exclude it. Three
+options are set out there with a recommendation; **this is Wilson's ruling to make, so put it to him
+in one line at the top of the session rather than deciding it in the build.**
+
+⚠ Gen 1:1 now carries 34 K1 witnesses plus 13 from K3. `scripts/overlap.py` by OFFSET before every
+Latin slice; `grep -l '<distinctive phrase>' data/witnesses/*.json` before every rabbinic one. Expect
+to lose candidates to K1 and leave them for Phase 4.
 
 ⚠ **Run the renderers with `python3` (3.14 on this machine), not `python3.11`**: `render-daf.py`
 uses backslashes inside f-string expressions and raises a `SyntaxError` under 3.11 that reads like
@@ -97,7 +100,7 @@ Order chosen by how much rabbinic material each has and how much it teaches the 
 | ~~5~~ | ~~K5 `heaven-earth-order`~~ | **BUILT 2026-09-05** — 17 new witnesses (19 on the daf), 20 threads | 15–20 |
 | ~~6~~ | ~~K4 `ex-nihilo-or-matter`~~ | **BUILT 2026-09-05** — 19 new witnesses (22 on the daf), 25 threads | 15–20 |
 | ~~7~~ | ~~K9 `good-and-separated`~~ | **BUILT 2026-09-05** — 32 witnesses, 45 threads | 12–15 |
-| 8 | K3 `elohim-and-trinity` | Megillah 9a; Rupert's whole design; much already tagged from K7 | 12–15 |
+| ~~8~~ | ~~K3 `elohim-and-trinity`~~ | **BUILT 2026-09-05** — 13 new witnesses (20 on the daf), 25 threads | 12–15 |
 | 9 | K2 `why-begin-here` | Rashi's R. Yitzchak; Ambrose I.1; prologues; smallest | 8–12 |
 
 Per-crux checklist (paste into the Opus prompt):
@@ -301,3 +304,30 @@ organised as questions; and **on a crux with a small, sharply distinguished set 
 roster prunes itself**, which is the opposite of K10's experience and worth knowing before K3 and K2
 are budgeted. The roster still ran to 32 against the table's 12–15 — the fifth overrun in a row.
 **The table's numbers should be read as floors, not estimates.**
+
+**Added for K3** (extends the frozen renderings, does not re-decide them). *Trinitas* = "the
+Trinity" and *trinus* = "threefold"; *personae* = "persons" and *tres personae* = "three persons",
+never "three beings"; *substantia / essentia* = "substance / essence", kept apart; *consubstantialis*
+= "consubstantial" and *coaeternus* = "coeternal" (as at K4); *unigenitus* = "only-begotten";
+*genitus, non factus nec creatus* = "begotten, not made or created" (Remigius is quoting the creed
+and the English must let the reader hear it); *principium* = "beginning" throughout, capitalised
+**Principium** only where it names the Son (as frozen at K1), and *in principio sibi coaeterno* = "in
+a Beginning coeternal with himself"; *expletor* = "completer" — Basil's term for the Spirit, odd and
+strong, and not to be softened to "fulfiller"; *aenigma* = "riddle", never "mystery" or "figure",
+because Augustine's hedge is the point; *opera Trinitatis indivisa* = "the works of the Trinity are
+undivided"; *appropriare* = "ascribe" where the twelfth century distributes the works. **The Hebrew
+word is transliterated as the witness has it**: Abelard's *Eloim* and *El* stay as he spells them,
+Jerome's *ELOIM* likewise, and the editorial prose uses *Elohim*.
+Rabbinic: *Elohim*, *eloah*, *bara* / *bare'u*, *vayomer* / *vayomeru*, *adonim*, *be'alim*
+transliterated; *shtei reshuyot* = "two authorities", never "two powers", so that the midrash's own
+term stays visible; "the Holy One, blessed be He"; *yechido shel olam* = "the Unique One of the
+world"; Akilas kept as *Akilas* in the midrash and *Aquila* in editorial prose; the Greek loanwords
+of BR 1:12 (*dimosiot*, *privtaot*, *agostoli*) are given as the Sefaria translation has them.
+
+**Burn, measured on K3 (Opus, 2026-09-05): ~85K tokens**, the cheapest of the eight. Two reasons and
+both are structural rather than lucky: **seven witnesses were already tagged with this crux by the
+K7 session and came onto the roster for free**, three of them load-bearing; and the anchor rule cuts
+out Gen 1:26, where most of the Latin material on divine plurality actually is, so the survey was
+short because the crux is small. **The pre-tagging is the transferable lesson: when a crux reads a
+passage that plainly belongs to an unbuilt crux, add the facet then rather than writing a
+cross-crux row.** K3 is also the first crux to land inside the table's estimate.

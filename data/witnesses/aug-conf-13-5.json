@@ -1,0 +1,41 @@
+{
+ "id": "aug-conf-13-5",
+ "work": "aug-conf",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 400,
+ "date_precision": "range-397-401",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Ecce Trinitas Deus meus, Pater et Filius et Spiritus sanctus",
+  "en": "Behold the Trinity, my God, Father and Son and Holy Spirit"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Ecce apparet mihi in aenigmate Trinitas, quod es Deus meus; quoniam tu, Pater, in Principio sapientiae nostrae quod est tua Sapientia de te nata, aequalis tibi et coaeterna, id est in Filio tuo, fecisti coelum et terram. Et multa diximus de coelo coeli, et de terra invisibili et incomposita, et de abysso tenebrosa, secundum spiritualis informitatis vagabunda deliquia, nisi converteretur ad eum a quo erat qualiscumque vita, et illuminatione fieret speciosa vita, et esset coelum coeli ejus, quod inter aquam et aquam postea factum est; et tenebam jam Patrem in Dei nomine, qui fecit haec, et Filium in Principii nomine in quo fecit haec; et Trinitatem credens Deum meum, sicuti credebam, quaerebam in eloquiis sanctis ejus, et ecce Spiritus tuus superferebatur super aquas. Ecce Trinitas Deus meus, Pater et Filius et Spiritus sanctus, creator universae creaturae.",
+  "source": "PL 32, col. 847",
+  "cc_idno": "7270",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Behold, the Trinity appears to me in a riddle, which you are, my God; since you, Father, in the Beginning of our wisdom — which is your Wisdom, born of you, equal to you and coeternal, that is, in your Son — made heaven and earth. And we have said many things about the heaven of heaven, and about the earth invisible and unordered, and about the darksome deep, according to the wandering falls of a spiritual formlessness, unless it were turned to him from whom it had whatever life it had, and by illumination were made a beautiful life, and were the heaven of that heaven which was afterwards made between water and water. And I already held the Father in the name of God, who made these things, and the Son in the name of the Beginning, in whom he made these things; and believing my God to be a Trinity, as I did believe, I sought it in his holy sayings — and behold, your Spirit was borne over the waters. Behold the Trinity, my God, Father and Son and Holy Spirit, creator of all creation.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "allegorical",
+  "spiritual"
+ ],
+ "answers": [
+  "trinity-in-the-triad",
+  "trinity-is-brought-to-the-text"
+ ],
+ "notes": "The three-term reading in its classical form, and it is autobiography rather than exegesis: the Father in the name of God, the Son in the name of the Beginning, and then — 'believing my God to be a Trinity, as I did believe, I sought it in his holy sayings, and behold, your Spirit was borne over the waters.' The order of the sentence is the order of the search. He held two of the three from the first verse, he already believed the third, and he went looking for it in the text; and the chapter heading the editors gave it says what he does not, that the Trinity which is God is understood from the first words of Genesis. Augustine himself calls it a riddle, in aenigmate. This is the passage that Bede, the Glossa, Bruno, Honorius and Abelard are all repeating, and none of them keeps the word riddle."
+}

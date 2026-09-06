@@ -86,13 +86,30 @@
   },
   "summary": "Megillah 9a is a Jewish witness to a Greek interpretive move that reaches the Latin bench through the Vetus Latina.",
   "witnesses": [
+   "br-1-7",
+   "br-1-12",
+   "b-meg-9a",
+   "ramban-1-1-elohim",
+   "ibn-ezra-1-1-elohim",
+   "basil-hex-2-6b",
+   "aug-gnl-imp-1-2",
+   "aug-conf-13-5",
+   "wigbod-gen-1-1d",
+   "remigius-gen-1-1c",
+   "bruno-gen-1-1c",
+   "abelard-hex-1-1-eloim",
+   "rupert-gen-1-3-trinitas",
    "ambrose-hex-1-8-29",
    "aug-conf-13-9-10",
+   "aug-gnl-1-5-11",
    "bede-gen-1-2",
-   "rupert-gen-1-8",
-   "honorius-hex-1"
+   "glossa-1-2-ruach",
+   "honorius-hex-1",
+   "rupert-gen-1-8"
   ],
-  "status": "register-only"
+  "status": "built",
+  "finding": "One grammatical fact, three benches, three incompatible conclusions — and it is the same fact each time. Bereshit Rabbah 1:7 observes that the plural-looking Elohim takes singular verbs throughout: vaydaberu is not written but vaydaber, vayomeru is not written but vayomer, bare'u is not written but bara — and concludes that no creature can say that two authorities created the world. Abelard, at the Paraclete about 1133, asks the identical question in Latin — unde dictum est Eloim creavit, non creaverunt? — and answers that a singular verb is referred to a plural noun so that in those three persons one creator should be understood and not three, from which he derives the technical doctrine that the works of the Trinity are undivided. Ibn Ezra, at Lucca about 1155, closes the same argument with the same clause — 'and for this reason Scripture says bara and not bare'u' — having first shown that the plural is simply how the Holy Tongue speaks of the great, as adonim and be'alim are plural for one master and as a king in Arabic speaks of himself in the plural. And Ramban, a century later with Ibn Ezra in front of him, refuses to let the plural be empty at all: the word is a compound, el hem, the force and all the other forces, and 'a secret will yet be disclosed in connection with this'. Nobody is answering anybody. Three of the four could not have read each other, and the fourth is reading only within his own bench.\n\nWhat makes Abelard's page the strangest thing on this daf is that the Latin bench had the information for six hundred years and never used it here. Jerome knew that the Hebrew word is common in number and said so — verbum Hebraicum ELOIM communis est numeri, et Deus quippe et dii similiter appellantur — but he says it at Genesis 6:2, about the sons of God, and Rabanus copies him there verbatim, and neither brings it forward to the first verse. Every other Latin witness on this crux gets its Trinity from the sequence of the sentences rather than from any Hebrew word: the Father in the name of God, the Son in the name of the Beginning, the Spirit borne over the waters. That is Augustine's triad, and he calls it a riddle — ecce apparet mihi in aenigmate Trinitas — and states the order of his own search plainly, that he already held two of the three and believed the third and went looking for it in the holy sayings. Bede, Bruno, Honorius and the Glossa repeat the triad and none of them repeats the word riddle. In the unfinished commentary Augustine is franker still: he sets out the catholic faith before expounding a syllable, because many heretics drag the Scriptures to their own opinion.\n\nThe rabbinic bench, meanwhile, preserves a memory of the whole problem as a translation problem. Megillah 9a's baraita has seventy-two elders shut in seventy-two houses writing the Torah for Ptolemy, and the first two things on the list of what they changed are the two verses the Latin bench builds on: they wrote 'God created in the beginning', moving the divine name to the front so that bereshit could not be read as a subject, and they wrote 'I shall make a human', singular, for the 'let us make' of Gen 1:26. Both changes remove a plurality from the opening of Genesis. Neither is in the Septuagint the Church actually inherited, whose first verse keeps the Hebrew order and whose Gen 1:26 keeps the plural. So the Latin reading of both verses stands in exactly the space the elders are said to have closed — and Bruno of Segni, refuting it at Segni about 1090, refuses the plurality in the rabbinic bench's own words: was he speaking to the angels? God forbid, for otherwise there would be not one creator but many.",
+  "short": "Elohim / Deus … Spiritus"
  },
  {
   "id": "ex-nihilo-or-matter",

@@ -1,0 +1,40 @@
+{
+ "id": "basil-hex-2-6b",
+ "work": "basil-hex-lat",
+ "author": "basil",
+ "tradition": "greek",
+ "date": 380,
+ "date_precision": "range-370-380",
+ "place": "caesarea-cappadociae",
+ "anchor": {
+  "verse": "gen.1.2"
+ },
+ "lemma": {
+  "la": "venerabilis Trinitatis expletor",
+  "en": "the completer of the venerable Trinity"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et spiritus, inquit, Dei ferebatur super aquam. Sive diffusionem aeris istius, spiritum dicit, percipe scriptorem portiones tibi mundi singulas enumerantem; nam fecisse Deum dicit coelum et terram, aquam et aerem, hunc liquidum atque diffusum; sive, quod verum magis existimo, et quod his qui ante nos fuere probatum est, Spiritum Dei dicit, id est sanctum. Reservavit enim Scriptura, ut praecipuam hujus competenter mentionem nominis declararet: nullumque alium spiritum dictum debemus credere, nisi sanctum, qui beatae ac venerabilis Trinitatis expletor est, et hunc intellectum capiens, majus tibi subinde commodum conferri reperies.",
+  "source": "PL 53, col. 886B",
+  "cc_idno": "7608",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And the Spirit of God, it says, was borne over the water. If by 'spirit' he means the diffusion of this air of ours, understand that the writer is enumerating for you the several portions of the world; for he says that God made heaven and earth, water and air, this liquid and diffused element. Or else — which I judge the truer, and which was approved by those who were before us — by 'the Spirit of God' he means the Holy Spirit. For Scripture reserved it, that it might fittingly declare the special mention of this name; and we ought to believe that no other spirit is spoken of but the Holy, who is the completer of the blessed and venerable Trinity. And taking this understanding, you will find that a greater profit is thereupon conferred on you.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "trinity-in-the-triad",
+  "spirit-is-holy-spirit"
+ ],
+ "notes": "The Greek bench identifying the third term, and doing it as a decision between two readings rather than as an assumption. Either the spirit of v. 2 is the diffusion of the air, in which case the verse is finishing an inventory of the elements — heaven, earth, water, air — or it is the Holy Spirit; and Basil takes the second, on the authority of those before him, with a reason drawn from the shape of the sentence: Scripture held the word back so that the mention of this name should carry its full weight. The word he uses for the Spirit is expletor, the one who completes or fills out the Trinity, which is an odd and strong term and is the whole of the Latin bench's argument in one noun: the Father and the Son are in the first verse, and the third person has been kept for the second. Ambrose, who is reading Basil, makes the same choice at Milan a few years later and says so."
+}

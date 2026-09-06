@@ -1,0 +1,40 @@
+{
+ "id": "rupert-gen-1-3-trinitas",
+ "work": "rupert-gen",
+ "author": "rupert",
+ "tradition": "latin",
+ "date": 1117,
+ "date_precision": "range-1112-1117",
+ "place": "liege",
+ "anchor": {
+  "verse": "gen.1.3"
+ },
+ "lemma": {
+  "la": "ubique tria consonant testimonii verba",
+  "en": "everywhere three words of testimony agree"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Quia creatricis Trinitatis haec sunt opera, bene testimonium suum sancta Scriptura ubique triplicat. Tria nempe dicat sunt, imo ter unum idemque dictum est. Dixit Deus, cujus dixisse fecisse est. Factumque est ita, et protulit terra. Et primum quidem secundum vespere est, id est verbi Dei secretum, in quo vita erat; quidquid mane, id est substantiali rerum productione; factumque est aliud secundum hoc ipsum mane, tertium secundum diem continuum quomodocunque perseverantis creaturae. Hoc in cunctis sex dierum operibus invenies: Dixit Deus: Fiant luminaria, et factum est ita, et fecit Deus duo luminaria magna. Item: Producant aquae reptilia, creavitque Deus cete grandia, benedixitque illis Deus, etc. Sed in creatione lucis dixit Deus: Fiat lux, et facta est lux, et divisit lucem et tenebras. Ubique tria consonant testimonii verba, quia tota ubique vespere et mane et tota die creatrix operatur Trinitas. Et haec est sanctae ac justae legis originalis causa, qua scriptor idem sanxit, ut testibus plus quam tribus nulla judicialis indigeat causa.",
+  "source": "PL 167, col. 229D",
+  "cc_idno": "10873",
+  "license": "pd"
+ },
+ "english": {
+  "text": "Because these are the works of the creating Trinity, holy Scripture rightly triples its testimony everywhere. For there are three sayings, or rather one and the same thing said three times. God said, whose saying is doing. And so it was done, and the earth brought forth. And the first is according to the evening, that is, the secret of the Word of God, in which was life; whatever is according to the morning, that is, by the substantial bringing forth of things; and another was done according to this same morning, and a third according to the continuing day of the creature persevering in whatever manner. You will find this in all the works of the six days: God said, Let there be luminaries, and it was so, and God made two great luminaries. Again: Let the waters bring forth creeping things, and God created the great sea-creatures, and God blessed them, and so on. But in the creation of the light, God said: Let there be light, and light was made, and he divided the light and the darkness. Everywhere three words of testimony agree, because everywhere, at evening and at morning and through the whole day, the creating Trinity works. And this is the original cause of the holy and just law by which the same writer laid down that no judicial case needs more than three witnesses.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "allegorical",
+  "spiritual"
+ ],
+ "answers": [
+  "trinity-in-the-formula"
+ ],
+ "notes": "Rupert's whole design for the Hexaemeron in one paragraph, and it is the boldest thing said on this crux: the threefold formula that runs through the six days — God said, and it was so, and God made — is itself the trace of the Trinity, because the creating Trinity is at work everywhere, and Moses laid down the law of three witnesses for the same reason he wrote the chapter this way. Augustine had entertained precisely this reading at De Genesi ad litteram II and rejected it, on the ground that it would make the Son appear to act under orders and the Spirit merely to approve. Rupert takes it up anyway and generalises it past the point where Augustine's objection can be raised, by making the three words a testimony rather than a distribution of labour — and then, having done so, ties it to the law of evidence, which is a claim about how Scripture was written rather than about what happened."
+}

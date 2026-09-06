@@ -1,0 +1,39 @@
+{
+ "id": "aug-gnl-imp-1-2",
+ "work": "aug-gnl-imp",
+ "author": "augustine",
+ "tradition": "latin",
+ "date": 393,
+ "date_precision": "circa",
+ "place": "hippo",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "ante tractationem hujus libri catholica fides breviter explicanda est",
+  "en": "before treating this book, the catholic faith must briefly be set out"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Et quoniam multi haeretici ad suam sententiam, quae praeter fidem est catholicae disciplinae, expositionem Scripturarum divinarum trahere consueverunt; ante tractationem hujus libri catholica fides breviter explicanda est. 2. Est autem haec: Deum Patrem omnipotentem universam creaturam fecisse atque constituisse per Filium suum unigenitum, id est Sapientiam et Virtutem suam consubstantialem sibi et coaeternam, in unitate Spiritus sancti, et ipsius consubstantialis et coaeterni. Hanc ergo Trinitatem dici unum Deum, eumque fecisse et creasse omnia quae sunt, in quantum sunt, catholica disciplina credi jubet; ita ut creatura omnis sive intellectualis sive corporalis, vel quod brevius dici potest secundum verba divinarum Scripturarum, sive invisibilis sive visibilis, non de Dei natura, sed a Deo sit facta de nihilo: nihilque in ea esse quod ad Trinitatem pertineat, nisi quod Trinitas condidit, ista condita est. Quapropter creaturam universam neque consubstantialem Deo, neque coaeternam fas est dicere aut credere.",
+  "source": "PL 34, col. 221",
+  "cc_idno": "7310",
+  "license": "pd"
+ },
+ "english": {
+  "text": "And since many heretics have been accustomed to drag the exposition of the divine Scriptures to their own opinion, which is beside the faith of catholic teaching, before the treatment of this book the catholic faith must briefly be set out. It is this: that God the Father almighty made and established the whole creation through his only-begotten Son, that is, his Wisdom and Power, consubstantial with him and coeternal, in the unity of the Holy Spirit, himself also consubstantial and coeternal. That this Trinity, then, is called one God, and that he made and created all things that are, in so far as they are, catholic teaching bids us believe; so that every creature, whether intellectual or corporeal — or, as it may be more briefly said in the words of the divine Scriptures, whether invisible or visible — is made not of God's nature but by God out of nothing: and that there is nothing in it belonging to the Trinity, except that the Trinity founded it and it was founded. Wherefore it is not lawful to say or believe that the whole creation is either consubstantial with God or coeternal.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "trinity-is-brought-to-the-text"
+ ],
+ "notes": "Augustine states, before he has expounded a word of Genesis, what the exposition will have to come out to, and gives the reason: many heretics drag the divine Scriptures to their own opinion. So the Trinity is the rule under which the first chapter will be read, not a conclusion drawn from it — which is worth having on the daf, because every other Latin witness here proceeds as though the three persons were found in the words. The content of the rule is exactly what a reader of Gen 1:1–2 needs: the Father made everything through the Son who is his Wisdom, in the unity of the Spirit; the three are one God; and nothing in the creature belongs to the Trinity except that the Trinity made it. That last clause is aimed at the Manichees and does on the Latin bench what R. Yitzḥak's 'no creature can say that two authorities created the world' does on the rabbinic: it forecloses a dualism."
+}

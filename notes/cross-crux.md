@@ -281,3 +281,51 @@ and Angelomus quote — *divisit inter lucem et tenebras*, from the Greek's doub
 attested on this daf only inside the witnesses that quote it. Phase 6 should decide whether a Vetus
 Latina witness is worth adding, at this verse and at Gen 1:1 (*creavit* / *fecit*, K1) where the
 same problem arose.
+
+## From K3 (built 2026-09-05)
+
+**The versiones column is empty for the fourth crux running, and on this crux it is not a cosmetic
+loss.** Megillah 9a is a text *about* what the Greek Bible says; the targums replace *Elohim* with
+the Tetragrammaton throughout and so erase the plural noun the whole crux turns on; and the
+Vulgate's *Deus* for *Eloim* is the fact Abelard is working behind. None of it is on the daf,
+because all five version witnesses on Gen 1:1 were built by K1 and carry only `beginning-of-what`.
+**Phase 4, mechanical edit**: add facets to `lxx-1-1`, `vulgate-1-1`, `targ-onk-1-1`,
+`targ-neof-1-1`, `targ-psj-1-1` — `heaven-earth-order` (flagged at K5), `ex-nihilo-or-matter`
+(flagged at K4) and `elohim-and-trinity` (here) — and write the K3 edges: `b-meg-9a → lxx-1-1`
+(*contests*: the baraita says the elders reversed the order, and the transmitted Greek has not
+reversed it) and `targ-onk-1-1 → br-1-7` (*echoes*: the targum removes the plural noun the midrash
+has to defend).
+
+**Three Latin passages that belong to K3 were already sliced whole and could not be built.** All
+three were caught by `overlap.py` and all three are threaded to instead:
+
+| witness (built for) | why it is K3's | status |
+|---|---|---|
+| `aug-gnl-1-5-11` (K7) | contains *De Genesi ad litteram* I.6.12, the **completa commemoratio Trinitatis** — the fullest statement of the triad anywhere on the bench | already carries `elohim-and-trinity`; threaded (`t-k3-11`, `t-k3-19`, `t-k3-22`, `t-k3-23`) |
+| `ambrose-hex-1-8-29` (K7) | contains PL 14:138D, *ut in constitutione mundi operatio Trinitatis eluceat … in Christo fecit Deus* | already carries the crux; threaded (`t-k3-13`) |
+| `comestor-hs-1-1` (K1) | contains PL 198:1056A, *creatus autem est in principio, id est in Filio* | K1-only; **Phase 4 should add the facet.** No K3 thread was written |
+
+**Material read for K3 that the anchor rule keeps off this daf, and it is the crux's own evidence.**
+This is the sharpest case so far of the scripture layer excluding something the finding depends on:
+
+| locus | why it matters | why it is not a witness |
+|---|---|---|
+| Jerome, *HQ in Gen.* PL 23 on **Gen 6:2** | *Verbum Hebraicum ELOIM communis est numeri, et Deus quippe et dii similiter appellantur; propter quod Aquila plurali numero filios deorum ausus est dicere.* The **only** Latin statement that *Elohim* is plural in number outside Abelard | Gen 6:2, outside the 1:1–5 layer |
+| Rabanus, PL 107:511D–512A | copies Jerome's sentence verbatim, so the fact is in the Carolingian schools too — and still nobody carries it to Gen 1:1 | same |
+| Bede PL 91:28C–29A; Rabanus 107:459C; Angelomus 115:122A; Alcuin *Int.* 37; Augustine *Gnl* III and *Gnl imp* 61; Abelard 178:761A | the whole Latin bench's discussion of divine plurality, all of it on **Gen 1:26** *Faciamus hominem* — *unitas sanctae Trinitatis aperte commendatur*, *trinus est Deus in personis et unus in deitatis natura* | Gen 1:26, outside the layer |
+| BR 8:8–9; Rashi and Ibn Ezra on 1:26 | the rabbinic answers to *na'aseh* — the counterpart material — unread and unpulled | same |
+
+⭐ **If the scripture layer is ever widened, Gen 1:26 is the first verse to add, and K3 is the crux
+that would gain most.** Bruno of Segni's witness here reaches back to 1:1 *from* 1:26 and is the
+only reason the refutation ("was it to the angels? God forbid") is on the daf at all. As it stands,
+the daf carries the Latin bench's triad-of-names reading in full and its plural-noun reading only in
+Abelard, which is accurate to the anchor rule and not to the tradition.
+
+**Left for a second pass or another crux:**
+
+| locus | belongs to | note |
+|---|---|---|
+| Honorius, PL 172:260B | K3 second pass, or K1 | *In Filio suo, scilicet in Sapientia sua, Deus Pater creavit omnia simul* — a second treatment of the same triad in TEI 10991; `honorius-hex-1` (254B) is fuller and is on the roster. Same work-division question K10 flagged at PL 172:261 |
+| Hugh, *De sacr.* I.2–3 (PL 176:208D, 226B–234A) | a Trinity crux, if one is ever made | the full Victorine treatise, including the appropriation *potentia Patri, sapientia Filio, bonitas Spiritui sancto* that Honorius applies to Gen 1:1. Not on the verse, so not buildable here |
+| Augustine, *Gnl* II (PL 34:267–268) | K3 second pass | *An ita Trinitas intelligitur: Et dixit Deus Fiat, Et fecit Deus, Et vidit Deus quia bonum est?* — the reading Rupert builds on, **considered and refused**, at Gen 1:6. Threaded from `rupert-gen-1-3-trinitas` to `aug-gnl-1-5-11` instead, which is not the same passage; Phase 4 should build the real one if the layer widens |
+| Wigbod PL 96:1109D, 1115C | K1 | *omnia in se Trinitas Deus disposuit* and a second *in principio, id est in Filio*; the dialogue treats the verse three times |

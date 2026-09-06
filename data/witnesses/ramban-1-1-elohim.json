@@ -1,0 +1,39 @@
+{
+ "id": "ramban-1-1-elohim",
+ "work": "ramban-gen",
+ "author": "ramban",
+ "tradition": "rabbinic",
+ "date": 1267,
+ "date_precision": "range-1263-1270",
+ "place": "girona",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "אֱלֹהִים בַּעַל הַכֹּחוֹת כֻּלָּם",
+  "en": "Elohim, the Master of all the forces"
+ },
+ "original": {
+  "lang": "he",
+  "text": "וְאָמַר אֱלֹהִים בַּעַל הַכֹּחוֹת כֻּלָּם, כִּי הַמִּלָּה עִקָּרָהּ \"אֵל\", שֶׁהוּא כֹּחַ, וְהִיא מִלָּה מֻרְכֶּבֶת, \"אֵל הֵם\", כְּאִלּוּ \"אֵל\" סָמוּךְ, \"וְהֵם\" יִרְמֹז לְכָל שְׁאָר הַכּוֹחוֹת; כְּלוֹמַר, כֹּחַ הַכּוֹחוֹת כֻּלָּם. וְעוֹד יִתְבָּאֵר סוֹד בָּזֶה.",
+  "source": "Ramban on Gen 1:1, s.v. אלהים",
+  "license": "cc-by",
+  "version": "Sefaria 'Vocalized Edition'"
+ },
+ "english": {
+  "text": "AND ‘ELOKIM’ (G-D) SAID. The word Elokim means “the Master of all forces,” for the root of the word is e-il, meaning force, and the word Elokim is a composite consisting of the words e-il heim, as if the word e-il is in a construct state, and heim, [literally] “they,” alludes to all other forces. Thus Elokim means “the Force of all forces.” A secret will yet be disclosed in connection with this.",
+  "translator": "Charles B. Chavel, 1971–76",
+  "license": "chavel-ramban"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "spiritual"
+ ],
+ "answers": [
+  "elohim-is-plural-of-powers"
+ ],
+ "notes": "Ramban takes the plural seriously and makes it mean something other than persons. The word is a compound: its root is el, which is force, and it is put together as el hem, as though el were in the construct and hem, 'they', pointed to all the other forces — so that Elohim is the force of all forces, the master of them all. Then the sentence that stops the paragraph: 'a secret will yet be disclosed in connection with this', which is his standard signal that a kabbalistic doctrine lies underneath and will not be printed. So on the one bench a plural noun points to a plurality within God that may not be spoken, and on the other, at almost the same date, it points to three persons that may be preached. Neither Ibn Ezra's honorific plural nor Abelard's three persons is what Ramban means, and his answer is the only one of the three that treats the plurality as real and as not a plurality of creators."
+}

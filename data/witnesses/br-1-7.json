@@ -1,0 +1,42 @@
+{
+ "id": "br-1-7",
+ "work": "br",
+ "author": "bereshit-rabbah",
+ "tradition": "rabbinic",
+ "date": 450,
+ "date_precision": "compilation-400-500",
+ "place": "galilee",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "בְּרֵאשִׁית בָּרְאוּ אֱלֹהִים, אֵין כְּתִיב כָּאן",
+  "en": "'In the beginning the gods created' is not written here"
+ },
+ "original": {
+  "lang": "he",
+  "text": "רַבִּי יִצְחָק פָּתַח (תהלים קיט, קס): רֹאשׁ דְּבָרְךָ אֱמֶת וגו', אָמַר רַבִּי יִצְחָק מִתְּחִלַּת בְּרִיָּתוֹ שֶׁל עוֹלָם רֹאשׁ דְּבָרְךָ אֱמֶת. בְּרֵאשִׁית בָּרָא אֱלֹהִים, (ירמיה י, י): וַה' אֱלֹהִים אֱמֶת. וּלְעוֹלָם כָּל מִשְׁפַּט צִדְקֶךָ, שֶׁכָּל גְּזֵרָה וּגְזֵרָה שֶׁאַתָּה גּוֹזֵר עַל בְּרִיּוֹתֶיךָ הֵן מַצְדִיקִין עֲלֵיהֶם אֶת הַדִּין וּמְקַבְּלִין אוֹתוֹ בֶּאֱמוּנָה, וְאֵין כָּל בְּרִיָה יְכוֹלָה לוֹמַר שְׁתֵּי רְשֻׁיּוֹת בָּרְאוּ הָעוֹלָם. וַיְדַבְּרוּ אֱלֹהִים, אֵין כְּתִיב כָּאן, אֶלָּא וַיְדַבֵּר אֱלֹהִים. וַיֹּאמְרוּ אֱלֹהִים, אֵין כְּתִיב כָּאן, אֶלָּא וַיֹּאמֶר אֱלֹהִים. בְּרֵאשִׁית בָּרְאוּ אֱלֹהִים, אֵין כְּתִיב כָּאן, אֶלָּא בָּרָא אֱלֹהִים.",
+  "source": "Bereshit Rabbah 1:7 (Vilna numbering)",
+  "license": "check",
+  "version": "Sefaria 'Midrash Rabbah -- TE' (licence unknown); a PD 'Daat' text exists on Sefaria"
+ },
+ "english": {
+  "text": "Rabbi Yitzḥak began: “The beginning of Your word is truth…” (Psalms 119:160) – Rabbi Yitzḥak said: Right from the beginning of the creation of the world [it can be seen that] “the beginning of Your word is truth” – “in the beginning, God created.” “But My Lord God is truth” (Jeremiah 10:10), “All Your righteous laws are eternal” (Psalms 119:160) – as each and every edict that You decree upon Your creations, they accept the judgment upon themselves and receive it faithfully, and no person can come and say that two authorities created the world: “God [Elohim] spoke [vaydaberu]” is not written here [in plural], but rather [in singular], “God spoke [vaydaber];” “God [Elohim] said [vayomeru]” is not written here [in plural], but rather [in singular], “God said [vayomer]”; “In the beginning God created [bare’u]” is not written here [in plural], but rather [in singular], “God created [bara].”",
+  "translator": "The Sefaria Midrash Rabbah, 2022",
+  "license": "cc-by",
+  "attribution_required": true
+ },
+ "tradents": [
+  "r-yitzchak"
+ ],
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "one-authority-singular-verb"
+ ],
+ "notes": "The rabbinic answer to this crux, and it is a grammatical argument made three times over. R. Yitzḥak reads Ps 119:160, 'the beginning of your word is truth', of the opening of Genesis: from the beginning of the creation of the world the head of your word is truth, 'in the beginning God created', and the Lord God is truth (Jer 10:10). Then the point: no creature can come and say that two authorities created the world — vaydaberu Elohim is not written here but vaydaber Elohim; vayomeru Elohim is not written here but vayomer Elohim; bereshit bare'u Elohim is not written here but bara Elohim. Three verbs, all singular, against a noun that is plural in form. The observation is exactly Abelard's at the Paraclete seven hundred years later and Ibn Ezra's at Lucca, and the three of them draw three different conclusions from it. Note what the argument is aimed at: not idolatry in general but shtei reshuyot, two authorities — the dualism the same midrash elsewhere calls minut — and the verse is being used as a proof text against it."
+}

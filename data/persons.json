@@ -446,5 +446,20 @@
   "label": "A philosopher",
   "dates": "unnamed",
   "note": "The unnamed philosopher of Bereshit Rabbah 1:9, who tells Rabban Gamliel that God found good materials. The rabbinic bench's only speaker for the position the whole Latin bench argues against."
+ },
+ "akilas": {
+  "name": "Akilas (Aquila)",
+  "he": "עֲקִילַס",
+  "dates": "fl. c. 130",
+  "tradition": "rabbinic",
+  "role": "tradent",
+  "note": "The proselyte translator of the Bible into Greek, cited in the midrash as a tradent."
+ },
+ "ben-azzai": {
+  "name": "Shimon ben Azzai",
+  "he": "שִׁמְעוֹן בֶּן עֲזַאי",
+  "dates": "fl. c. 110–135",
+  "tradition": "rabbinic",
+  "role": "tradent"
  }
 }

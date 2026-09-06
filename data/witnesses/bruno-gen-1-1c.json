@@ -1,0 +1,41 @@
+{
+ "id": "bruno-gen-1-1c",
+ "work": "bruno-gen",
+ "author": "bruno-of-segni",
+ "tradition": "latin",
+ "date": 1085,
+ "date_precision": "range-1078-1100",
+ "place": "segni",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Nunquid ad angelos? Absit!",
+  "en": "Was it to the angels? God forbid!"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Deus ergo est qui loquitur. Nunquid ad angelos? Absit! Non enim ab angelis creatus est homo; alioquin non unus, sed multi creatores essent, ut solus Deus est omnium Creator. Sic enim scriptum est: « Creator omnium terribilis, et fortis (II Machab. I, 24) . » Itemque: « Omnia in sapientia fecisti (Psal. CIII, 24) . » Si igitur verum est, quod negari non potest, solus Deus creavit omnia; quos ad hominem creandum invitabat, dicens: « Faciamus hominem. » Audiamus igitur quid in capite libri hujus dicatur: « In principio creavit Deus coelum et terram. » Habes ergo Deum, id est Patrem; habes et principium, id est Filium; sic enim ipse ait: « Ego principium qui et loquor vobis (Joan. VIII, 25) . » Sed quid sequitur? « Et Spiritus Dei ferebatur super aquas. » Habes igitur et Spiritum sanctum. Quod autem non solus Pater coelum creaverit, sed simul cum eo Filius quoque, et Spiritus sanctus, dicat Psalmista: « Verbo, inquit, Domini coeli firmati sunt, et Spiritu oris ejus omnis virtus eorum (Psal. XXXII, 6) . » Tota autem Trinitas, id est Deus, et Verbum ejus, et Spiritus ejus, unus Deus, et iste quidem dicit: « Faciamus hominem; » non extra se auxilium petens, sed in se cum Filio suo, et Spiritu sancto cuncta disponens.",
+  "source": "PL 164, col. 157A",
+  "cc_idno": "21403",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is God, then, who speaks. Was it to the angels? God forbid! For man was not created by angels; otherwise there would be not one but many creators, whereas God alone is the Creator of all. For thus it is written: The Creator of all, terrible and strong (2 Macc 1:24). And again: You have made all things in wisdom (Ps 104:24 [Vg 103:24]). If therefore it is true, as cannot be denied, that God alone created all things, whom was he inviting to the making of man when he said, Let us make man? Let us hear, then, what is said at the head of this book: In the beginning God created heaven and earth. You have therefore God, that is, the Father; you have also a beginning, that is, the Son — for so he himself says: I am the beginning, who also speak to you (John 8:25). But what follows? And the Spirit of God was borne over the waters. You have therefore the Holy Spirit also. And that not the Father alone created heaven, but the Son and the Holy Spirit together with him, let the psalmist say: By the word of the Lord the heavens were established, and all their power by the spirit of his mouth (Ps 33:6 [Vg 32:6]). Now the whole Trinity, that is, God and his Word and his Spirit, is one God; and it is he who says, Let us make man — not seeking help outside himself, but disposing all things within himself with his Son and the Holy Spirit.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "allegorical"
+ ],
+ "answers": [
+  "trinity-in-the-triad",
+  "not-to-angels"
+ ],
+ "notes": "The one Latin witness on this crux who states the negative half of the question, and he states it in the rabbinic bench's own terms. Whom was God inviting when he said 'let us make man'? Not the angels — for man was not created by angels, and otherwise there would be not one creator but many. That is R. Yitzḥak's 'no creature can say that two authorities created the world', with the angels in the place of the second authority and with the same horror of it. Having refused the answer, Bruno goes back to the head of the book for the right one, and lays the triad out in three short moves: you have God, that is the Father; you have a beginning, that is the Son; and what follows? — the Spirit of God borne over the waters, so you have the Holy Spirit too. Nothing in the argument is his own except its shape, which is a schoolman's: the wrong answer refuted first, from a premise both benches share."
+}

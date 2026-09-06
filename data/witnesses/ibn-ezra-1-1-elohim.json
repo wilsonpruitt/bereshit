@@ -1,0 +1,39 @@
+{
+ "id": "ibn-ezra-1-1-elohim",
+ "work": "ibn-ezra-gen",
+ "author": "ibn-ezra",
+ "tradition": "rabbinic",
+ "date": 1155,
+ "date_precision": "circa",
+ "place": "lucca",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "he": "עַל כֵּן יֹאמַר הַכָּתוּב בָּרָא, וְלֹא בָּרְאוּ",
+  "en": "for this reason Scripture says 'he created' and not 'they created'"
+ },
+ "original": {
+  "lang": "he",
+  "text": "אלהים, אחר שמצאנו אלוה, ידענו כי אלהים לשון רבים, ושרש זה מדרך הלשון, כי כל לשון יש לו דרך כבוד, וכבוד לשון לועז שיאמר הקטן לנכח הגדול לשון רבים, ובלשון ישמעאל דרך כבוד שידבר הגדול כמו המלך בלשון רבים, ובלשון הקדש דרך כבוד לומר על הגדול לשון רבים כמו \"אדנים\" \"ובעלים\", שאמרו \"אדנים קשה\" (ישעי' י\"ט ד'), \"ולקה בעליו\" (שמות כ\"ב, י') וכן מלת עליו, אליו, ועדיו, על כן יאמר הכתוב ברא, ולא בראו",
+  "source": "Ibn Ezra on Gen 1:1, s.v. אלהים",
+  "license": "pd",
+  "version": "Piotrkow, 1907–1911"
+ },
+ "english": {
+  "text": "“E-lohim” – After we have found [the word] e-loah, we know that E-lohim is its plural form, and the root [of this] is in the nature of language. For every language has a formal form. The way of expressing formality in non-Hebrew languages is by the lesser using the plural in the presence of the greater. In Arabic the way of formal expression is for the greater to speak, as royalty, in the plural. In the Holy Tongue, the way is to refer to the greater in the plural. Like “master” (adonim), “owner” b’alim as they said, “a harsh master” (b’alim) Isaiah 19:4, “his master (b’alim) shall take”. Likewise the word “upon him” (alav), “to him” (elav), “until him” (adav). For this reason does Scripture state “He created” and not “they created”.",
+  "translator": "Sefaria Community Translation",
+  "license": "cc0"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal"
+ ],
+ "answers": [
+  "elohim-is-honorific-plural",
+  "one-authority-singular-verb"
+ ],
+ "notes": "The grammarian's answer, and it is comparative philology two hundred years before anyone calls it that. Having found eloah, we know that Elohim is its plural, and the root of the usage is in the nature of language itself: every language has a way of showing honour. In the vernacular tongues the lesser addresses the greater in the plural; in Arabic the greater — a king — speaks of himself in the plural; in the Holy Tongue the way is to speak of the greater in the plural, as with adonim, 'master', and be'alim, 'owner', which take plural forms for a single person (Isa 19:4, Exod 22:10). And therefore: Scripture says bara and not bare'u. That last clause is word for word what Abelard asks at the Paraclete twenty years earlier — unde dictum est Eloim creavit, non creaverunt? — and the two men give opposite answers to it, neither having heard of the other."
+}

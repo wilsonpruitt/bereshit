@@ -727,3 +727,61 @@ grep.
 
 The roster ran to 32, well over the table's 12–15 — the fifth overrun in a row, and the table should
 be read as a floor. 20 Latin witnesses is the real number for any verse the whole bench comments on.
+
+## K3 `elohim-and-trinity` (built 2026-09-05)
+
+**What the plan got wrong or did not know.**
+
+- The plan's rabbinic list was "Megillah 9a; BR 1:7 [CHECK]; BR 1:12–13 [CHECK: heretics and
+  *Elohim*]". **Both CHECKs resolve, and BR 1:7 is the crux's best rabbinic text** — R. Yitzḥak's
+  three singular verbs against *shtei reshuyot*, two authorities. **BR 1:13 is not about heretics
+  and Elohim**; it is R. Shimon ben Yoḥai on the wording of offerings and the Rabbis on the shape
+  of a building, and it is not a K3 text. The heretic material the plan was reaching for is BR 8:8–9,
+  on Gen 1:26, outside the scripture layer.
+- **The plan did not know about Abelard, and Abelard is the crux.** *Hexaemeron* PL 178:739B–C is the
+  only place on the Latin bench where the Hebrew word *Elohim* is brought to Gen 1:1: *El quippe
+  singulare est … Eloim vero plurale est … Unde autem dictum est: Eloim creavit, non creaverunt?* It
+  asks Bereshit Rabbah 1:7's question in Bereshit Rabbah's own terms and answers it for the Trinity.
+  It was found by grepping abelard-hex alone for `Trinit|Spiritus sanct` after a bench-wide
+  `Trinita(s|tis|tem|te)` grep had returned nothing for that work — **the bench-wide grep's work
+  list is `latin-bench.json` order and it is easy to read a `— 0 hit(s)` line as a fact about the
+  work when it is a fact about the regex.** Abelard's paragraph contains `Trinitatem` twice.
+- **The anchor rule excludes most of this crux's Latin evidence, and that is itself the finding.**
+  Nearly every Latin discussion of divine plurality is at Gen 1:26 (*Faciamus hominem*), and the only
+  Latin note that *Elohim* is plural in number, outside Abelard, is Jerome's at **Gen 6:2** —
+  copied verbatim by Rabanus at 107:511D. Both are outside the 1:1–5 layer. So the Latin bench had
+  the philological fact for six hundred years, in its most-read commentary, and never carried it to
+  the first verse. See notes/cross-crux.md for the register of what was excluded and why.
+- **Three K3 passages had already been sliced whole by K7 and K1** — Augustine's *completa
+  commemoratio Trinitatis* (*Gnl* I.6.12) inside `aug-gnl-1-5-11`, Ambrose's *operatio Trinitatis*
+  inside `ambrose-hex-1-8-29`, Comestor's *in principio, id est in Filio* inside `comestor-hs-1-1`.
+  All three were caught by `overlap.py` and none had to be rebuilt, because the first two were
+  **pre-tagged with `elohim-and-trinity` by the K7 session**. That pre-tagging is the mechanism the
+  project should use more: seven witnesses came onto this roster for free and three of them are
+  load-bearing. **When a crux reads a passage that plainly belongs to an unbuilt crux, tag it then.**
+- **The versiones column renders empty for the fourth crux running** (K5, K4, K9 partially, K3), and
+  on K3 it costs real evidence: Megillah 9a is a claim about the Greek, and the targums replace
+  *Elohim* with the Tetragrammaton. Phase 4 has the mechanical fix in cross-crux.md.
+- **Sefaria's Ibn Ezra on Gen 1:1 is one long segment covering the whole verse**, so the *Elohim*
+  paragraph is inside the same segment as the *bereshit* paragraph K1 sliced. `hcut` on the
+  unvocalized Piotrkow text works with plain anchors — the skeleton match is only needed for
+  vocalized texts — and the boundary was verified by reading K1's slice tail rather than by
+  `overlap.py`, which covers Latin only.
+
+**Burn, measured on K3 (Opus, 2026-09-05): ~85K tokens**, the cheapest of the eight, against K10
+~170K, K1 ~200K, K8 ~170K, K6 ~135K, K5 ~125K, K9 ~110K. Two reasons, and both were predicted. The
+seven pre-tagged witnesses meant a third of the roster needed no work at all. And the survey was
+short *because the crux is small*: the anchor rule cut out Gen 1:26, which is where most of the
+material is, so what remained was findable in three greps. **The roster came to 20 (13 new), the
+first crux to land inside the table's estimate** (12–15 new), and it did so for a structural reason
+rather than by pruning.
+
+**A note for K2, the last one.** K2 `why-begin-here` is on Gen 1:1 with 34 K1 witnesses and now 13
+K3 ones already on the verse, and its best single text — m. Chagigah 2:1, the ban on expounding what
+is above, below, before and after — **is on disk, unbuilt, and is not a comment on the verse at
+all**. K4's entry flagged this and it is still true: if the anchor rule is applied to K2 as strictly
+as it was applied here, the crux loses its centre. That is a decision for Wilson, not for the
+builder. The cheap options are (a) build it anyway with an explicit note, (b) leave it and say so in
+the `finding`, (c) widen the anchor rule for texts that are *about* the act of expounding Genesis.
+**Recommend (c), narrowly**: a witness may be anchored on a verse it does not quote if its subject
+is whether that verse may be expounded — which is exactly what K2 is about, on both benches.

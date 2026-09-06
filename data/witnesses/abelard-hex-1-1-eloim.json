@@ -1,0 +1,42 @@
+{
+ "id": "abelard-hex-1-1-eloim",
+ "work": "abelard-hex",
+ "author": "abelard",
+ "tradition": "latin",
+ "date": 1133,
+ "date_precision": "circa",
+ "place": "paraclete",
+ "anchor": {
+  "verse": "gen.1.1"
+ },
+ "lemma": {
+  "la": "Eloim creavit, non creaverunt",
+  "en": "Eloim created, not 'they created'"
+ },
+ "original": {
+  "lang": "la",
+  "text": "Notandum vero in hoc ipso Genesis exordio fidei nostrae fundamentum circa unitatem Dei ac Trinitatem prophetam diligenter expressisse. Cum enim dixerit Spiritus Domini, simul et personam Spiritus sancti et Patris, a quo ipse Spiritus, ut beatus meminit Augustinus, principaliter procedit, manifeste distinxit. In eo vero quod addidit: Dixit Deus, dictum ipsius Dei, id est Verbum ejus, quod est Filius, cum ipso pariter Patre patenter expressit. Nemo etenim sani capitis ita desipere potest, ut hoc dictum corporale aestimet, cum nec corporalis sit divinitas, nec loqui corporaliter habeat, nec adhuc cui eum loqui corporaliter oporteret, assisteret. Ubi autem nos dicimus: Creavit Deus, pro eo quod est Deus, in Hebraeo habetur Eloim, quod divinarum personarum pluralitatem ostendit. El quippe singulare est quod interpretatur Deus; Eloim vero plurale est, per quod diversitatem personarum, quarum unaquaeque Deus est, intelligimus. Unde autem dictum est: Eloim creavit, non creaverunt? ut videlicet ad plurale nomen singulare verbum referretur; quatenus insinuaretur in tribus illis personis non tres creatores, sed unum tantum debere intelligi. Cum igitur dixit Eloim creavit, in quo divinas personas pariter cooperari docuit, profecto indivisa esse opera Trinitatis praefixit. Cum autem postmodum, ut diximus, Patris et Spiritus et Verbi personas distinxit, in quo illa consisteret Trinitas determinavit.",
+  "source": "PL 178, col. 739B",
+  "cc_idno": "11118",
+  "license": "pd"
+ },
+ "english": {
+  "text": "It is to be noted that in this very opening of Genesis the prophet carefully expressed the foundation of our faith concerning the unity of God and the Trinity. For when he said 'the Spirit of the Lord', he plainly distinguished at once both the person of the Holy Spirit and that of the Father, from whom that Spirit principally proceeds, as blessed Augustine records. But in that he added 'God said', he openly expressed God's own saying, that is, his Word, which is the Son, together with the Father himself. For no one of sound head can be so foolish as to reckon this saying corporeal, since the Godhead is not corporeal, nor has it to speak in a bodily way, nor was there yet anyone present to whom it would have had to speak bodily. Now where we say 'God created', for what is 'God' the Hebrew has Eloim, which shows a plurality of divine persons. For El is singular, which is interpreted 'God'; but Eloim is plural, by which we understand the diversity of the persons, of which each one is God. But why is it said 'Eloim created' and not 'they created'? — namely, so that a singular verb should be referred to a plural noun; in order that it might be intimated that in those three persons not three creators but one only is to be understood. When therefore he said 'Eloim created', in which he taught that the divine persons work equally together, he assuredly laid down beforehand that the works of the Trinity are undivided. And when afterwards, as we have said, he distinguished the persons of the Father and the Spirit and the Word, he determined wherein that Trinity consists.",
+  "translator": "claude-draft",
+  "license": "cc-by",
+  "status": "draft-awaiting-approval"
+ },
+ "cruxes": [
+  "elohim-and-trinity"
+ ],
+ "senses": [
+  "literal",
+  "translation"
+ ],
+ "answers": [
+  "elohim-is-plural-of-persons",
+  "one-authority-singular-verb",
+  "trinity-in-the-triad"
+ ],
+ "notes": "The star witness of this crux, and the only place on the Latin bench where the Hebrew word is brought to Gen 1:1 at all. Abelard knows that El is singular and Eloim plural, and he asks the exact question the midrash asks — why 'Eloim created' and not 'they created'? — and answers it by the concord: a singular verb referred to a plural noun, so that in those three persons one creator is understood and not three. From which he draws the technical doctrine, opera Trinitatis indivisa. Where he got the grammar is unknown: Jerome's note that the Hebrew word is common in number sits at Gen 6:2 and is about the sons of God, and no Latin before Abelard brings it forward to the first verse. What he does not have is the rest of the Hebrew: he reads the plural as a plurality of persons, which is the one thing the rabbinic bench never lets it mean, and Ibn Ezra will refute the reading twenty years later without ever having heard of him. Note also the first half of the passage, where the Trinity is got out of the sequence of the verses rather than the noun — Spirit and Father from 'the Spirit of the Lord', Word and Father from 'God said' — which is Augustine's method and needs no Hebrew at all."
+}
