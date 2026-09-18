@@ -66,9 +66,20 @@ only (matching `getBuiltCruxes()` in `src/lib/data.ts`) — any `register-only` 
 (planned but not yet written) are excluded from both the site and the export, not
 half-shipped.
 
+## Deployed 2026-09-18
+
+Pushed (`3eae0c7`) and deployed to production (Wilson's OK on both) —
+`vercel deploy --prod --archive=tgz --scope wilson-pruitts-projects` from the repo
+root (this project is CLI-only, `.vercel` already linked at the root; the normal,
+non-prebuilt deploy path worked cleanly — no Bonaventure/Milton-style snapshot-timing
+quirk here, since the framework preset is "Other" with an explicit repo-root
+`vercel.json` buildCommand, not the Next.js framework builder). Verified by served
+content: crux page canonical + JSON-LD, robots.txt, llms.txt, sitemap.xml (441 URLs,
+matching the build), colophon Machine Use section, and the export page's manifest all
+confirmed live via `curl`.
+
 ## Not done in this session
 
-- **Push + deploy** — both Wilson's separate hard stops.
 - **Sententiae** (`~/wroot-press/sentences`) — separate repo, same PLAN.md rollout
   entry ("Bereshit / Sententiae"), not started in this pass.
 - **R2 bucket provisioning** — shared across all six sites.
