@@ -6,9 +6,10 @@ interface Props {
   title: string;
   description?: string;
   prose?: boolean;
+  jsonLd?: Record<string, unknown>;
 }
 const SITE_DESC = "Genesis 1:1–5, read as ten cruxes across three benches — the Latin, the rabbinic, and the Greek-Jewish traditions — with every witness dated, sourced, and threaded to the ones it cites, echoes, contests, or answers.";
-const { title, description = SITE_DESC, prose = false } = Astro.props;
+const { title, description = SITE_DESC, prose = false, jsonLd } = Astro.props;
 const ogImage = new URL("/og.png", Astro.site ?? Astro.url).href;
 const canonical = Astro.url.href;
 ---
@@ -20,6 +21,9 @@ const canonical = Astro.url.href;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Bereshit / In Principio" />

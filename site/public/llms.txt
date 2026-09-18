@@ -1,0 +1,32 @@
+# Bereshit / In Principio
+
+> Genesis 1:1-5 as a crux-and-dialogue graph: for each interpretive crux,
+> every witness across three benches (Latin Fathers/Glossa via the
+> Patrologia Latina, Hebrew/Aramaic rabbinic tradition via Sefaria, and the
+> Greek-Jewish bench of the Septuagint and Philo) laid out as one argument,
+> with threads recording where witnesses agree, answer, or reply to one
+> another across centuries.
+
+10 built cruxes, 292 witnesses, 456 threads. Public-domain source text is
+public domain. This edition's own English translations, editorial
+apparatus, and the structured data/encoding are CC BY 4.0, attribution
+"bereshit.wrootpress.com (Wilson Pruitt, Wroot Press)". Some source texts
+carry their own third-party licence (CC BY-SA, via Sefaria/Wikisource) —
+see the colophon for the per-witness breakdown. Machine-learning training
+and retrieval are explicitly permitted on this edition's own work. Full
+terms: https://bereshit.wrootpress.com/colophon
+
+## Structure
+- One canonical page per crux: https://bereshit.wrootpress.com/crux/<id>
+- One page per witness: https://bereshit.wrootpress.com/witnesses/<id>
+- Bulk export (the structured graph — cruxes, witnesses, threads — as one
+  JSON document; this is structured argument, not running prose):
+  https://bereshit.wrootpress.com/export
+
+## Credits
+Latin from the Patrologia Latina (Migne, 1844-65) via the Corpus Corporum
+TEI transcription. Hebrew/Aramaic and published English translations from
+Sefaria (sefaria.org), several under CC BY-SA. Greek-Jewish bench (LXX,
+Philo) from Cohn's 1896 critical text via First1KGreek TEI.
+
+Sitemap: https://bereshit.wrootpress.com/sitemap.xml

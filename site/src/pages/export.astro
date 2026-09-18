@@ -1,0 +1,70 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import fs from "node:fs";
+import path from "node:path";
+
+// Placeholder — the shared `wroot-corpus-export` R2 bucket has not been
+// provisioned yet (~/open-corpus/PLAN.md item 8, status log 2026-09-08).
+const EXPORT_R2_BASE_URL = "https://pending-r2-bucket.example/bereshit";
+
+type Manifest = {
+  generated: string;
+  cruxes: number;
+  witnesses: number;
+  threads: number;
+  files: { name: string; description: string; size_bytes: number }[];
+};
+
+let manifest: Manifest | null = null;
+try {
+  const p = path.join(process.cwd(), "src", "data", "export-manifest.json");
+  manifest = JSON.parse(fs.readFileSync(p, "utf-8"));
+} catch {
+  manifest = null;
+}
+
+function formatBytes(n: number) {
+  if (n > 1024 * 1024) return `${(n / (1024 * 1024)).toFixed(1)} MB`;
+  if (n > 1024) return `${(n / 1024).toFixed(0)} KB`;
+  return `${n} B`;
+}
+---
+<Layout title="Bulk Export — Bereshit / In Principio" prose>
+  <div class="wrap">
+    <SiteHeader active="/export/" />
+    <h1 class="title">Bulk Export</h1>
+    <p class="subtitle">
+      The whole structured graph — cruxes, witnesses, threads — as one JSON document. This is
+      structured argument data, not running prose: a crux is a question with witnesses and
+      threads, not a linear text.
+    </p>
+
+    {manifest ? (
+      <>
+        <p>
+          Generated {manifest.generated}. {manifest.cruxes} built cruxes, {manifest.witnesses}{" "}
+          witnesses, {manifest.threads} threads.
+        </p>
+        <ul>
+          {manifest.files.map((f) => (
+            <li>
+              <a href={`${EXPORT_R2_BASE_URL}/${f.name}`}>{f.name}</a> ({formatBytes(f.size_bytes)}) —{" "}
+              {f.description}
+            </li>
+          ))}
+        </ul>
+      </>
+    ) : (
+      <p style="font-style:italic">
+        The export bundle has not been published yet. Check back shortly, or write to{" "}
+        <a href="mailto:wilson@wrootlabs.com">wilson@wrootlabs.com</a>.
+      </p>
+    )}
+
+    <p>
+      Per-witness licensing is mixed — check each witness's own license field before reusing its
+      text; see the <a href="/colophon">Colophon</a> for the breakdown and the Machine Use terms.
+    </p>
+  </div>
+</Layout>

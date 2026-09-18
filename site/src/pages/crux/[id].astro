@@ -53,8 +53,21 @@ const namesForJs: Record<string, string> = {};
 for (const w of W.values()) namesForJs[w.id] = persons[w.author]?.name || w.author;
 
 const headLabel = `<b>${escapeHtml(verseLabel(crux.verse))}</b> · <a href="/">Bereshit / In Principio</a> · ${escapeHtml(cruxShort)} · daf`;
+
+const canonicalUrl = new URL(`/crux/${crux.id}/`, Astro.site).href;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": canonicalUrl,
+  url: canonicalUrl,
+  name: cruxShort,
+  about: verseLabel(crux.verse),
+  isPartOf: { "@type": "Collection", "@id": new URL("/", Astro.site).href },
+  license: "https://creativecommons.org/licenses/by/4.0/",
+  dateModified: new Date().toISOString().slice(0, 10),
+};
 ---
-<Layout title={`${cruxShort} · daf`}>
+<Layout title={`${cruxShort} · daf`} jsonLd={jsonLd}>
   <Daf
     headLabel={headLabel}
     verseHeHtml={marked(heVerseText, hePat)}

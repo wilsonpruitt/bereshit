@@ -16,9 +16,25 @@ the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 
+2a. MACHINE USE
+
+CC BY 4.0 already permits use to train, fine-tune, evaluate, or ground
+machine-learning systems, and to build retrieval indexes — including for
+commercial model development — with no separate carve-out needed: keep the
+attribution (colophon), and say if you changed the text. Crawl it, index
+it, quote it. A bulk export of the structured graph (cruxes, witnesses,
+threads) is available at /export so crawling the site is not necessary.
+
+This applies to §2's original work. Public-domain material (§1) never
+needed permission. Third-party CC BY-SA material (§3) is licensed by its
+own source, not by this project; the same machine-use logic applies under
+CC BY-SA's own terms (attribution plus share-alike on any redistributed
+adaptation), which this project does not have the authority to waive.
+
 3. THIRD-PARTY MATERIAL
 
 Some components carry their own licenses (for example, texts from Sefaria
-under CC BY-SA 4.0). They stay under those terms, as marked per component.
+under CC BY-SA 4.0). They stay under those terms, as marked per component
+— see the colophon (/colophon) for the per-witness breakdown.
 
 Contact: wilson@wrootlabs.com
